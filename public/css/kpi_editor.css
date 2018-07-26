@@ -2883,6 +2883,9 @@ span.bonus-score {
 .pd-r-10{
     padding-right: 10px!important;
 }
+.pd-r-5{
+    padding-right: 5px!important;
+}
 div.icon-container{
     display: inline-block;
     padding-bottom: 50px;

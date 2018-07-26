@@ -267,7 +267,7 @@
 .message-app .comment-wrapper, .message-app .attachment-wrapper {
     max-width: 350px;
     word-wrap: break-word;
-    padding: 5px;
+    padding-top: 8px;
     border-radius: 3px;
 }
 /*.message-app .user-comment .comment-wrapper:after,.message-app .user-comment .attachment-wrapper:after{*/
@@ -289,11 +289,13 @@
 }
 
 
-.message-app .user-comment .comment-wrapper,.message-app .user-comment .attachment-wrapper{
+.message-app .user-comment .comment-wrapper > span,.message-app .user-comment .attachment-wrapper {
     background-color: #f9f9f9;
+    padding: 10px
 }
-.message-app .target-user-comment  .comment-wrapper, .message-app .target-user-comment  .attachment-wrapper {
-    background: #e1ebf4
+.message-app .target-user-comment  .comment-wrapper > span , .message-app .target-user-comment  .attachment-wrapper  {
+    background: #e1ebf4;
+    padding: 10px
 }
 
 /* end message-app */
