@@ -284,7 +284,8 @@
 /*}*/
 
 .message-app .target-user-comment .comment-wrapper{
-    color: #337ab7
+    color: #337ab7;
+    text-align: right
 }
 
 
