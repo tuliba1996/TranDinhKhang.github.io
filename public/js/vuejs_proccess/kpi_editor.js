@@ -1167,10 +1167,10 @@ var v = new Vue({
             var img_type = ['jpg', 'jpeg', 'bmp', 'png'];
 
             var type = type.split('.');
-            if(doc_type.indexOf(type[type.length -1 ]) > -1){
+            if(doc_type.indexOf(type[type.length -1 ].toLowerCase()) > -1){
                 return COMMON.StaticUrl+'images/ico-document-format.png';
             }
-            if(img_type.indexOf(type[type.length -1 ]) > -1){
+            if(img_type.indexOf(type[type.length -1 ].toLowerCase()) > -1){
                 return COMMON.StaticUrl+'images/ico-image-format.png';
             }
         },
@@ -1178,7 +1178,7 @@ var v = new Vue({
             var img_type = ['jpg', 'jpeg', 'bmp', 'png'];
 
             var type = type.split('.');
-            if(img_type.indexOf(type[type.length -1 ]) > -1){
+            if(img_type.indexOf(type[type.length -1 ].toLowerCase()) > -1){
                 return true;
             }
             return false;
@@ -2496,40 +2496,6 @@ var v = new Vue({
             }
             this.calculate_total_weight();
         },
-        catch_change_weight: function(kpi_id, kpi_weight){
-            // Push kpi changed
-            var kpis = {'kpi_id':kpi_id, 'weight':kpi_weight};
-            var that = this;
-            that.cache_weight = kpi_weight;
-            that.kpi_list_cache.push(kpis);
-        },
-        edit_weight_modal: function (){
-            var that = this;
-            that.kpi_list_cache = [];
-            that.calculate_total_weight();
-            console.log(that.total_edit_weight.internal_total);
-            $('#edit-all-weight-modal').modal();
-        },
-        cancel_edit_weight: function(){
-            var that = this;
-            that.kpi_list_cache.forEach(function(kpi){
-                that.kpi_list[kpi.kpi_id].weight = kpi.weight;
-            })
-            that.calculate_total_weight();
-        },
-        accept_edit_weight: function(){
-            var that = this;
-            that.kpi_list_cache.forEach(function(kpi){
-                that.update_kpi(that.kpi_list[kpi.kpi_id]);
-            })
-            swal({
-                type: 'success',
-                title: gettext('Successful'),
-                text: gettext("Change KPI's weight successful"),
-                showConfirmButton: true,
-                timer: 2000,
-            })
-        },
         show_unique_code_modal: function (kpi) {
 
             this.current_kpi = kpi;
@@ -2865,7 +2831,7 @@ var v = new Vue({
             var file_ext = file_url.match(patt1);
             console.log(file_ext);
 
-            if (['.png', '.jpg', '.bmp', '.gif', '.jpeg', '.pdf', '.odf'].indexOf(file_ext[0]) < 0) {
+            if (['.png', '.jpg', '.bmp', '.gif', '.jpeg', '.pdf', '.odf'].indexOf(file_ext[0].toLowerCase()) < 0) {
                 window.open(file_url, 'Download');
             }
             else {

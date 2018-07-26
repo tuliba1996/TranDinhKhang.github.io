@@ -1597,7 +1597,7 @@ ul.success {
 }
 
 /*.btn-box {*/
-    /*padding-left: 10px;*/
+/*padding-left: 10px;*/
 /*}*/
 
 .btn-box .save-btn, .btn-box .cancel-btn {
@@ -1605,7 +1605,7 @@ ul.success {
 }
 
 /*.small-col .save-btn, .small-col .cancel-btn {*/
-    /*margin-left: 10px;*/
+/*margin-left: 10px;*/
 /*}*/
 
 .kpi-expand-item-row .btn-box {
@@ -2398,7 +2398,7 @@ span.bonus-score {
     font-family: "Helvetica Neue";
 }
 .group-title {
-	font-size: 16px;
+    font-size: 16px;
 }
 .financial .bsc-category-title {
     background-color: #f5a623;
@@ -2491,45 +2491,45 @@ span.bonus-score {
     margin-right: 56px;
 }
 .edit-group-box .dropdown-menu {
-	font-size: 14px;
+    font-size: 14px;
 }
 .kpi-group .list-goals li .remove-kpi {
     color: #333;
     cursor: pointer;
 }
 .ungroup-kpis .dropdown-menu li {
-	cursor: pointer;
-	color: #337ab7;
+    cursor: pointer;
+    color: #337ab7;
 }
 .edit-group-box li:hover > a.remove-kpi, .edit-group-box li:hover > a.remove-btn {
     color: #d9534f;
     cursor: pointer;
 }
 .edit-group-box li:hover > a.remove-kpi .material-icons, .edit-group-box li:hover > a.remove-btn .material-icons {
-	color: #d9534f;
+    color: #d9534f;
 }
 .dropdown-menu li:hover > a .material-icons {
-	color: #008b8b;
+    color: #008b8b;
 }
 .dropdown-menu li:hover > a {
-	cursor: pointer;
-	color: #008b8b;
-	font-weight: normal;
+    cursor: pointer;
+    color: #008b8b;
+    font-weight: normal;
 }
 
 .edit-group-box .dropdown-menu>li>a {
-	padding: 6px 20px;
+    padding: 6px 20px;
 }
 .edit-group-box li .edit-kpi {
     color:#333;
     cursor: pointer;
 }
 .edit-group-box li:hover .edit-kpi {
-	color: #008b8b;
+    color: #008b8b;
 }
 .edit-group-box .dropdown-menu>li>a:hover, .edit-group-box .dropdown-menu>li>a:focus {
-	background-color: transparent;
-	background-image: none;
+    background-color: transparent;
+    background-image: none;
 }
 .category-goal {
     display: table-cell;
@@ -2790,10 +2790,10 @@ span.bonus-score {
     text-align: center;
 }
 .font-16 {
-	font-size: 16px!important;
+    font-size: 16px!important;
 }
 .font-20 {
-	font-size: 20px!important;
+    font-size: 20px!important;
 }
 .kpi-detail .kpi-weight .inplaceedit {
     display: block;
@@ -2928,21 +2928,21 @@ div.icon-container div.icon-wrapper {
     text-align: center;
 }
 .intercom-launcher-button {
-        background-size: 22px 22px;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-        border-style: solid;
-        border-width: 1px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 48px;
-        height: 48px;
-        cursor: pointer;
-        background-position: center;
-        background-color: #3fa603;
-        border-color: #177e00;
-    }
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    background-position: center;
+    background-color: #3fa603;
+    border-color: #177e00;
+}
 @media print {
     .bsc-category {
         border: 1px solid rgba(0, 0, 0, 0) !important;
@@ -3874,7 +3874,7 @@ button.close{
 }
 
 .modal-content-preview-attach {
-     height:100%;
+    height:100%;
 }
 
 .modal-body-preview-attach {
@@ -3887,7 +3887,7 @@ button.close{
     white-space: nowrap;
     overflow: hidden;
     text-overflow:
-    ellipsis;
+            ellipsis;
     display:block;
     color:#4a90e2;
 }
@@ -4187,10 +4187,10 @@ button.close{
 
 }
 #list-option a.danger:hover{
-   color: #d9534f;
+    color: #d9534f;
 }
 #list-option a.danger:hover i{
-   color: #d9534f;
+    color: #d9534f;
 }
 .my-modal-body{
     text-align: left;
@@ -4396,8 +4396,17 @@ button.close{
 .pd-t-5{
     padding-top: 5px;
 }
+.pd-t-10 {
+    padding-top: 10px;
+}
+.pd-t-22{
+    padding-top: 22px!important;
+}
 .pd-bt-0{
     padding-bottom: 0px!important;
+}
+.pd-bt-12{
+    padding-bottom: 12px!important;
 }
 .pd-r-0{
     padding-right: 0px
@@ -4409,6 +4418,10 @@ button.close{
     padding-left: 10px;
     padding-right: 10px;
 }
+.pd-lr-12{
+    padding-left: 12px!important;
+    padding-right: 12px!important;
+}
 .pd-lr-20{
     padding-left: 20px;
     padding-right: 20px;
@@ -4419,6 +4432,9 @@ button.close{
 .pd-10{
     padding: 10px;
 }
+.pd-5{
+    padding: 5px;
+}
 .border-bt-0{
     border-bottom: 0px;
 }
@@ -4426,17 +4442,17 @@ button.close{
     background-color: #ffffbb;
 }
 .over-hide {
-	overflow: hidden;
-	display: block;
+    overflow: hidden;
+    display: block;
     min-height: 20px;
 }
 .field_editing {
-	position: absolute;
-	z-index: 999;
+    position: absolute;
+    z-index: 999;
 }
 .area-style {
-	width: 270px;
-	min-height: 160px;
+    width: 270px;
+    min-height: 160px;
 }
 #option-choose-kpi .nav-tabs>li.active>button{
     background-color: transparent;
@@ -4566,10 +4582,10 @@ button.close{
     margin-right: 8px;
 }
 #modal-kpi-lib .modal-footer .el-pagination .btn-prev, #modal-kpi-lib .modal-footer .el-pagination .btn-next{
-     background-color: transparent;
+    background-color: transparent;
 }
 #modal-kpi-lib .modal-footer .el-pagination ul li{
-     background-color: transparent;
+    background-color: transparent;
 }
 #modal-kpi-lib .modal-footer .number{
     color: #ababab;
@@ -4680,10 +4696,10 @@ button.close{
     cursor: pointer;
 }
 #btn-sort-icon.active{
-     background-color: #e4e4e4;
+    background-color: #e4e4e4;
 }
 #btn-sort-icon span, #btn-sort-icon i{
-     color: #666666;
+    color: #666666;
 }
 
 #tab-kpi-lib .child-category .dropdown-type-sort{
@@ -4931,7 +4947,7 @@ button.close{
     background-color: #19aaaa;
 }
 .sweet-alert.add-kpi-success .sa-line.sa-long.animateSuccessLong{
-        background-color: #19aaaa;
+    background-color: #19aaaa;
 }
 .sweet-alert.add-kpi-success .sa-icon.sa-success{
     margin-bottom: 0px;

@@ -1,9 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Static Pages</title>
-</head>
-<body>
-<h1>Static pages will served with the beginning of public/</h1>
-</body>
-</html>
+<script>
+function computeObject(object) {
+var _object = Object.assign({},object)
+  for (var index in Object.keys(_object) ){
+  	var key = Object.keys(_object)[index]
+    console.log(key)
+    if (_object[key] !== undefined && _object[key] !== null && Object.keys(_object[key]).length > 0) {
+      console.log("inside")
+      _object[key] = computeObject(_object[key])
+    } else {
+
+      if (_object[key] === '') _object[key] = null
+      if (!isNaN(parseFloat(_object[key]))){
+      	_object[key] = parseFloat(_object[key])
+      } 
+    }
+  }
+  return _object;
+}
+
+</script>
