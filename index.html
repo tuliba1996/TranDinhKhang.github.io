@@ -1,21 +1,12 @@
-<script>
-function computeObject(object) {
-var _object = Object.assign({},object)
-  for (var index in Object.keys(_object) ){
-  	var key = Object.keys(_object)[index]
-    console.log(key)
-    if (_object[key] !== undefined && _object[key] !== null && Object.keys(_object[key]).length > 0) {
-      console.log("inside")
-      _object[key] = computeObject(_object[key])
-    } else {
-
-      if (_object[key] === '') _object[key] = null
-      if (!isNaN(parseFloat(_object[key]))){
-      	_object[key] = parseFloat(_object[key])
-      } 
-    }
-  }
-  return _object;
-}
-
-</script>
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Static side served by github pages</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>Please see the document <a href="https://cloudjet.atlassian.net/wiki/spaces/CKD/pages/318111746/NO+MORE+WAIT+1+HOUR+TO+SEE+STATIC+FILES+UPDATED+by+5+minutes+setting+up">here</a></h1>
+</body>
+</html>
