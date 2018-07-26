@@ -1,4 +1,3 @@
-
 Vue.config.delimiters = ['${', '}$'];
 var Bonus = Vue.extend({
     type: 'bonus-component',
@@ -123,6 +122,7 @@ var Bonus = Vue.extend({
         'month'
     ],
     methods: {
+
         render_exscore_user: function(){
             var that = this
             var render_data_index = 0
@@ -323,15 +323,15 @@ var Bonus = Vue.extend({
             exscore_list = exscore_list.slice(1,exscore_list.length);
 
 
-            sum_list_res = exscore_lib_list.concat(exscore_list);
-            return sum_list_res;
-        },
-        sort_with_group: function(list_data){
-            var that = this;
-            var group_container = {};
-            var _sum_list = [];
-            var sum_list = [];
-            // Extract exscore with category
+                sum_list_res = exscore_lib_list.concat(exscore_list);
+                return sum_list_res;
+            },
+            sort_with_group: function(list_data){
+                var that = this;
+                var group_container = {};
+                var _sum_list = [];
+                var sum_list = [];
+                // Extract exscore with category
 
             // Get unique group list
             var _sum_list_index = 0;
@@ -404,7 +404,7 @@ function filter_kpi(val, parent_id) {
     var listKey = Object.keys(val);
 
     listKey.forEach(function (key) {
-        if (val[key].refer_to == parent_id && val[key].old_weight > 0) {
+        if (parseInt(val[key].refer_to) === parseInt(parent_id) && val[key].old_weight > 0) {
             listOfObjects.push(val[key]);
         } else if (parent_id == null || listKey.indexOf(String(parent_id)) < 0) {
             // truong hop kpi cha duoc phan cong
@@ -413,9 +413,42 @@ function filter_kpi(val, parent_id) {
             }
         }
     });
-
     return listOfObjects;
 }
+function getKPIParent(kpi_list,excludeParentID){
+    var result = {};
+    // KPI cha duoc phan cong
+    var listKey = Object.keys(kpi_list)
+    var listKPIList = listKey.map(function(kpi_id){
+        return kpi_list[kpi_id]
+    })
+    var filteredKPIParent = listKPIList.filter(function(elm){
+        var baseCondition = excludeParentID.indexOf(elm.id) === -1 // id must not in excluded list
+        var condition2 = (
+            elm.refer_to !== null && // refer_to is not null
+            listKPIList.map(function(elm2){
+                return parseInt(elm2.id)
+            }).indexOf(parseInt(elm.refer_to))  === -1 // and refer_to must not be in current kpi list
+        )
+        var condition1 = (elm.refer_to === null)
+        return baseCondition && (condition1 || condition2)
+    })
+    filteredKPIParent.map(function(elm){
+        result[elm.id] = Object.assign({},elm)
+    })
+    console.log("PARENT KPI ===========================")
+    console.log(result)
+    return result
+}
+function calculateParentKPIWeight(kpi_list,excludeParentID){
+    var result = 0;
+    var dataSource = getKPIParent(kpi_list,excludeParentID) // KPI cha thi moi lay
+    for(var kpi_id in dataSource){
+        result += parseFloat(kpi_list[kpi_id].weight)
+    }
+    return result
+}
+
 
 function total_weight_on_level(val, parent_id) {
     var total_weight = 0;
@@ -425,7 +458,7 @@ function total_weight_on_level(val, parent_id) {
             total_weight += Number(val[key].weight);
         } else if (parent_id == null || parent_id == "" || listKey.indexOf(String(parent_id)) < 0) {
             // truong hop kpi cha duoc phan cong
-            if (listKey.indexOf(String(val[key].refer_to)) < 0 && val[key].old_weight > 0) {
+            if (listKey.indexOf(String(val[key].refer_to)) < 0 && val[key].weight > 0) {
                 // truong hop kpi cha duoc phan cong
                 total_weight += Number(val[key].weight);
             }
@@ -557,22 +590,39 @@ Vue.filter('decimalDisplay', {
 
 Vue.filter('filter_kpi_level', function (val) {
     var id = v.active_kpi_id;
-    if (id != '' && id != undefined && id > 0) {
+    if (id != '' && id != undefined && parseInt(id) > 0) {
         var parent_id = val[id].refer_to;
         return filter_kpi(val, parent_id);
     }
     return val;
 });
 
-Vue.filter('filter_total_weight', function (val) {
+// Vue.filter('filter_total_weight', function (val) {
+//     var total_weight = 0;
+//     var id = v.active_kpi_id;
+//     var parent_id = "";
+//     if (id != '' && id != undefined && id > 0) {
+//         parent_id = val[id].refer_to;
+//     }
+//     total_weight = total_weight_on_level(val, parent_id);
+//     return total_weight;
+// });
+Vue.filter('filter_total_weight_exclude_delayed', function (val) {
     var total_weight = 0;
     var id = v.active_kpi_id;
-    var parent_id = "";
-    if (id != '' && id != undefined && id > 0) {
-        parent_id = val[id].refer_to;
-    }
-    total_weight = total_weight_on_level(val, parent_id);
+    var dataSource = Object.assign({},val)
+    var excludeParentID = [parseFloat(id),]
+    total_weight = calculateParentKPIWeight(dataSource,excludeParentID);
     return total_weight;
+});
+
+Vue.filter('filter_cal_rate_weight', function (val, weight) {
+    var total_weight = 0;
+    var id = v.active_kpi_id;
+    var dataSource = Object.assign({},val)
+    var excludeParentID = [parseFloat(id),]
+    total_weight = calculateParentKPIWeight(dataSource,excludeParentID);
+    return weight * 100 / total_weight;
 });
 
 Vue.filter('filter_total_old_weight', function (val) {
@@ -598,27 +648,6 @@ Vue.filter('filter_cal_rate_old_weight', function (val, weight) {
     return weight * 100 / total_old_weight;
 });
 
-Vue.filter('filter_cal_rate_weight', function (val, weight) {
-    var total_weight = 0;
-    var id = v.active_kpi_id;
-    var parent_id = "";
-    if (id != '' && id != undefined && id > 0) {
-        parent_id = val[id].refer_to;
-    }
-    total_weight = total_weight_on_level(val, parent_id);
-    return weight * 100 / total_weight;
-});
-
-Vue.filter('filter_cal_rate_weight', function (val, weight) {
-    var total_weight = 0;
-    var id = v.active_kpi_id;
-    var parent_id = "";
-    if (id != '' && id != undefined && id > 0) {
-        parent_id = val[id].refer_to;
-    }
-    total_weight = total_weight_on_level(val, parent_id);
-    return weight * 100 / total_weight;
-});
 
 Vue.component('tag-search', {
     props: ['options', 'value'],
@@ -690,6 +719,7 @@ Vue.component('kpi-editable', {
         this.edit_value = this.kpi[this.field];
     },
     methods: {
+
         edit_toggle: function () {
             if (!this.can_edit) {
                 return;
@@ -733,31 +763,6 @@ Vue.directive('autofocus', {
         }, 100);
     },
 })
-function getKPIParent(kpi_list,excludeParentID){
-    var result = {};
-    // KPI cha duoc phan cong
-    var listKey = Object.keys(kpi_list)
-    var listKPIList = listKey.map(function(kpi_id){
-        return kpi_list[kpi_id]
-    })
-    var filteredKPIParent = listKPIList.filter(function(elm){
-        var baseCondition = excludeParentID.indexOf(elm.id) === -1 // id must not in excluded list
-        var condition2 = (
-            elm.refer_to !== null && // refer_to is not null
-            listKPIList.map(function(elm2){
-                return parseInt(elm2.id)
-            }).indexOf(parseInt(elm.refer_to))  === -1 // and refer_to must not be in current kpi list
-        )
-        var condition1 = (elm.refer_to === null)
-        return baseCondition && (condition1 || condition2)
-    })
-    filteredKPIParent.map(function(elm){
-        result[elm.id] = Object.assign({},elm)
-    })
-    console.log("PARENT KPI ===========================")
-    console.log(result)
-    return result
-}
 
 var v = new Vue({
     el: '#container',
@@ -892,8 +897,6 @@ var v = new Vue({
         status_upload_action_plan: true,
         action_plan_to_be_deleted: {},
         preview_attach_modal_type:'',
-
-        current_evidence: {},
         same_user: false,
         disable_upload: false,
         current_evidence: {},
@@ -1118,6 +1121,15 @@ var v = new Vue({
             var self = this;
             return ((self.adjusting_kpi.achievement_calculation_method_extra.bottom.target / self.adjusting_kpi['month_' + self.adjusting_kpi.adjusting_month + '_target']) * 100).toFixed(2);
         },
+        filtered_kpi_level: function(){
+            var  self =  this;
+            var id = self.active_kpi_id;
+            if (id != '' && id != undefined && parseInt(id) > 0) {
+                var parent_id = self.kpi_list[id].refer_to;
+                return filter_kpi(self.kpi_list, parent_id);
+            }
+            return self.kpi_list;
+        }
 
     },
     ready: function () {
@@ -1147,10 +1159,6 @@ var v = new Vue({
         this.same_user = (COMMON.UserRequestID == COMMON.UserViewedId) ? true : false;  // -> hot fix, has_perm(KPI__EDITING) => actor == target cho phep nhan vien tu chinh sua kpi, nhung logic moi thi khong cho phep
         this.get_surbodinate_user_viewed();
 
-        //get all kpi in kpilib when query_kpilib: ' ',
-        this.search_kpi_library();
-        // init data for kpilib
-        this.get_data_for_kpilib();
     },
     filters: {
         //marked: marked
@@ -1159,10 +1167,10 @@ var v = new Vue({
             var img_type = ['jpg', 'jpeg', 'bmp', 'png'];
 
             var type = type.split('.');
-            if(doc_type.indexOf(type[type.length -1 ]) > -1){
+            if(doc_type.indexOf(type[type.length -1 ].toLowerCase()) > -1){
                 return COMMON.StaticUrl+'images/ico-document-format.png';
             }
-            if(img_type.indexOf(type[type.length -1 ]) > -1){
+            if(img_type.indexOf(type[type.length -1 ].toLowerCase()) > -1){
                 return COMMON.StaticUrl+'images/ico-image-format.png';
             }
         },
@@ -1170,7 +1178,7 @@ var v = new Vue({
             var img_type = ['jpg', 'jpeg', 'bmp', 'png'];
 
             var type = type.split('.');
-            if(img_type.indexOf(type[type.length -1 ]) > -1){
+            if(img_type.indexOf(type[type.length -1 ].toLowerCase()) > -1){
                 return true;
             }
             return false;
@@ -1178,14 +1186,14 @@ var v = new Vue({
     },
     watch: {
         parentKPIs: function(val,oldVal){
-            this.getListGroupV2()
-        },
+                            this.getListGroupV2();
 
+        },
         kpi_list: {
             handler: function (val, oldVal) {
                 this.calculate_total_weight();
+                // this.getListGroup();
             }
-
             //,deep: true <-- slow
         },
         'current_quarter': {
@@ -1253,10 +1261,11 @@ var v = new Vue({
         },
         searched_kpis: {
             handler: function(){
-                kpi_lib.data_kpi_editor  = v;
-                kpi_lib.searched_kpis_lib = v.searched_kpis;
+                if(this.organization.enable_kpi_lib) {
+                    kpi_lib.data_kpi_editor = v;
+                    kpi_lib.searched_kpis_lib = v.searched_kpis;
+                }
             }
-
         }
     },
     created: function(){
@@ -1298,37 +1307,12 @@ var v = new Vue({
         findGroupByID: function(id,dataSource){
             var self = this;
             var listGroups = Object.keys(dataSource).map(function(elm){
-                return parseInt(dataSource[elm].id)
+                return dataSource[elm]
             })
-            var found = listGroups.indexOf(parseInt(id))
-            return found;
-        },
-        getListGroupV2: function(){
-            //debugger;
-            var self = this;
-            var listGroup = {};
-            var index = 0;
-            console.log("parent kpi", self.parentKPIs);
-            for(var kpi_id in self.parentKPIs){
-
-                console.log("elm:", kpi_id);
-                var group = {
-                    name: self.kpi_list[kpi_id].refer_group_name,
-                    slug: self.kpi_list[kpi_id].kpi_refer_group,
-                    category: self.kpi_list[kpi_id].bsc_category,
-                    refer_to: null || self.kpi_list[kpi_id].refer_to, // if this KPI is assigned to user
-                    id: self.kpi_list[kpi_id].group_kpi
-                }
-                //
-                var matchedGroup = self.findGroupByID(group.id, listGroup);
-                // if found group by id that does not exist in current listGroup -> push into list Group
-                if (matchedGroup == -1){
-                    self.$set('list_group['+ index + ']', group)
-                    index++;
-                    // listGroup.push(group);
-                }
-            }
-            // self.$set(self,'list_group',listGroup)
+            var groups = listGroups.slice().filter(function(elm){
+                return parseInt(elm.id) === parseInt(id)
+            })
+            return groups;
         },
         getListGroup: function(){
             //debugger;
@@ -1359,6 +1343,31 @@ var v = new Vue({
             }
             this.list_group = listGroup;
             // console.log("======================tttttttttt===================")
+            // console.log(this.list_group)
+        },
+        getListGroupV2: function(){
+            //debugger;
+            var self = this;
+            var listGroup = {};
+            var index = 0;
+            for(var kpi_id in self.parentKPIs){
+                var group = {
+                    name: self.kpi_list[kpi_id].refer_group_name,
+                    slug: self.kpi_list[kpi_id].kpi_refer_group,
+                    category: self.kpi_list[kpi_id].bsc_category,
+                    kpi_id: kpi_id, // group kpi must be generated by same refer_to
+                    id: self.kpi_list[kpi_id].group_kpi
+                }
+                //
+                var matchedGroup = self.findGroupByID(group.id, listGroup)
+                if (matchedGroup.length === 0){
+                    self.$set('list_group['+ index + ']', group)
+                    index++
+                }
+
+            }
+            // self.list_group = listGroup;
+            // console.log("====================== list group ===================")
             // console.log(this.list_group)
         },
         delete_all_kpis: function () {
@@ -1426,7 +1435,8 @@ var v = new Vue({
                 url: '/api/v2/kpilib/?' + params,
                 success: function (data) {
                     self.searched_kpis = data;
-                    kpi_lib.isLoading = false;
+                    if(self.organization.enable_kpi_lib == true)
+                        kpi_lib.isLoading = false;
                 }
             })
         },
@@ -2443,12 +2453,13 @@ var v = new Vue({
             that.kpi_list_cache.push(kpis);
         },
         resume_weight: function () {
-            that = this;
+            var that = this;
             that.status_error = false;
+            console.log("Triggered resume weight")
             Object.keys(that.kpi_list).forEach(function (key) {
                 that.kpi_list[key].weight = that.kpi_list[key].old_weight;
             })
-            this.$set('kpi_list', that.kpi_list);
+            that.$set('kpi_list',Object.assign({}, that.kpi_list));
         },
         update_kpi_default_real: function (kpi, show_blocking_modal) {
             var data = {};
@@ -2485,49 +2496,15 @@ var v = new Vue({
             }
             this.calculate_total_weight();
         },
-        catch_change_weight: function(kpi_id, kpi_weight){
-            // Push kpi changed
-            var kpis = {'kpi_id':kpi_id, 'weight':kpi_weight};
-            var that = this;
-            that.cache_weight = kpi_weight;
-            that.kpi_list_cache.push(kpis);
-        },
-        edit_weight_modal: function (){
-            var that = this;
-            that.kpi_list_cache = [];
-            that.calculate_total_weight();
-            console.log(that.total_edit_weight.internal_total);
-            $('#edit-all-weight-modal').modal();
-        },
-        cancel_edit_weight: function(){
-            var that = this;
-            that.kpi_list_cache.forEach(function(kpi){
-                that.kpi_list[kpi.kpi_id].weight = kpi.weight;
-            })
-            that.calculate_total_weight();
-        },
-        accept_edit_weight: function(){
-            var that = this;
-            that.kpi_list_cache.forEach(function(kpi){
-                that.update_kpi(that.kpi_list[kpi.kpi_id]);
-            })
-            swal({
-                type: 'success',
-                title: gettext('Successful'),
-                text: gettext("Change KPI's weight successful"),
-                showConfirmButton: true,
-                timer: 2000,
-            })
-        },
         show_unique_code_modal: function (kpi) {
 
             this.current_kpi = kpi;
             this.unique_code_cache = kpi.unique_code;
             $('#kpi-uniquecode').modal();
         },
-        update_group_name: function (kpi) {
-            //$('.group-header-kpi-name' + kpi.id).text(kpi.refer_group_name);
-        },
+        // update_group_name: function (kpi) {
+        //     //$('.group-header-kpi-name' + kpi.id).text(kpi.refer_group_name);
+        // },
         update_kpi: function (kpi, show_blocking_modal, callback) {
             var show_blocking_modal = (typeof show_blocking_modal !== 'undefined') ? show_blocking_modal : false;
 
@@ -2563,8 +2540,8 @@ var v = new Vue({
                 data: JSON.stringify(data),
                 success: function (data) {
                     console.log("success");
-                    that.getListGroupV2()
                     that.get_current_employee_performance();
+                    that.$set('kpi_list['+kpi.id+ ']',data)
                     //$('.group-header-kpi-name' + kpi.id).text(kpi.refer_group_name);
                     if (typeof callback == "function") {
                         callback(0);
@@ -2854,7 +2831,7 @@ var v = new Vue({
             var file_ext = file_url.match(patt1);
             console.log(file_ext);
 
-            if (['.png', '.jpg', '.bmp', '.gif', '.jpeg', '.pdf', '.odf'].indexOf(file_ext[0]) < 0) {
+            if (['.png', '.jpg', '.bmp', '.gif', '.jpeg', '.pdf', '.odf'].indexOf(file_ext[0].toLowerCase()) < 0) {
                 window.open(file_url, 'Download');
             }
             else {
@@ -3071,36 +3048,36 @@ var v = new Vue({
 
         // Done
         handleFile_action_plan:function (e){
-            $('#kpi_action_plan-modal .form-start').hide();
-            var width = 1;
-            var file = $('#file-upload-action-plan-input')[0].files[0];
-            var file_name = $('#file-upload-action-plan-input')[0].files[0].name;
-            that.action_plan_filename = file_name;
-            var allowedExtensions = /(\.jpg|\.jpeg|\.png|\.docx|\.pdf|\.xls|\.xlsx|\.doc|\.bmp)$/i;
-            if(!allowedExtensions.exec(file_name) || file.size/1024/1024 > 5) {
-                that.status_upload_action_plan = false;
-                return false;
-            }
-            else{
-                that.status_upload_action_plan = true;
-                var id = setInterval(frame, 10);
-            }
-            function frame() {
-                if (width >= 100) {
-                    clearInterval(id);
-                    $("#board-upload-action-plan .ico-circle-check").css('color','#7ed321');
-                    $("#board-upload-action-plan .file-upload-progress-bar-wrapper .file-upload-progress-bar").hide();
-                    $("#board-upload-action-plan .title-loading").hide();
-                    $("#board-upload-action-plan .action-plan-descr").show();
-                    $("#board-upload-action-plan .btn-start-over").show();
-                    $("#board-upload-action-plan .btn-save-upload").show();
-
-                } else {
-                    width++;
-                    $("#board-upload-action-plan .file-upload-percentage").text(width+'%');
-                    $("#board-upload-action-plan .file-upload-progress-bar-wrapper .file-upload-progress-bar").css('width', width + '%');
+                $('#kpi_action_plan-modal .form-start').hide();
+                var width = 1;
+                var file = $('#file-upload-action-plan-input')[0].files[0];
+                var file_name = $('#file-upload-action-plan-input')[0].files[0].name;
+                that.action_plan_filename = file_name;
+                var allowedExtensions = /(\.jpg|\.jpeg|\.png|\.docx|\.pdf|\.xls|\.xlsx|\.doc|\.bmp)$/i;
+                if(!allowedExtensions.exec(file_name) || file.size/1024/1024 > 5) {
+                    that.status_upload_action_plan = false;
+                    return false;
                 }
-            }
+                else{
+                    that.status_upload_action_plan = true;
+                    var id = setInterval(frame, 10);
+                }
+                function frame() {
+                    if (width >= 100) {
+                        clearInterval(id);
+                        $("#board-upload-action-plan .ico-circle-check").css('color','#7ed321');
+                        $("#board-upload-action-plan .file-upload-progress-bar-wrapper .file-upload-progress-bar").hide();
+                        $("#board-upload-action-plan .title-loading").hide();
+                        $("#board-upload-action-plan .action-plan-descr").show();
+                        $("#board-upload-action-plan .btn-start-over").show();
+                        $("#board-upload-action-plan .btn-save-upload").show();
+
+                    } else {
+                        width++;
+                        $("#board-upload-action-plan .file-upload-percentage").text(width+'%');
+                        $("#board-upload-action-plan .file-upload-progress-bar-wrapper .file-upload-progress-bar").css('width', width + '%');
+                    }
+                }
         },
 
         get_current_quarter: function () {
@@ -3165,7 +3142,7 @@ var v = new Vue({
                 success: function (res) {
                     that.$set('employee_performance', res);
                     that.get_backups_list(true);
-                    console.log('jahskjfkjsdaasdh');
+                    // console.log('jahskjfkjsdaasdh');
                     that.$children.map(function (elem, index, children_array) {
                         elem.$emit('fetch_exscore')
                     })
@@ -3179,6 +3156,7 @@ var v = new Vue({
             var that = this;
             cloudjetRequest.ajax({
                 type: 'get',
+                async: false,
                 url: COMMON.LinkOrgAPI,
                 success: function (data) {
                     that.$set('organization', data);
@@ -4120,7 +4098,7 @@ var v = new Vue({
         },
 
         checkChild: function (kpi_id) {
-            that = this;
+            var that = this;
             that.is_child = false;
 
             if (that.kpi_list[kpi_id].refer_to_id == 'None') {
@@ -4291,6 +4269,7 @@ var v = new Vue({
                         dictResult[a.id] = a;
                     })
                     that.kpi_list = dictResult;
+                    // that.parentKPIs = JSON.parse(JSON.stringify(dictResult));
                     console.log(that.kpi_list);
                 },
                 error: function (a, b, c) {
@@ -4320,14 +4299,24 @@ var v = new Vue({
             this.update_quarter_target(kpi);
             this.kpi_ready(kpi.id, controller_prefix, ready);
         },
-        get_data_for_kpilib: function(){
-            kpi_lib.options = this.options_category;
-            kpi_lib.parent_cate = this.parent_category;
-            kpi_lib.child_cate = this.child_category;
-            kpi_lib.BSC_CATEGORY = this.BSC_CATEGORY;
-            kpi_lib.EXTRA_FIELDS_KPI = this.EXTRA_FIELDS;
+        init_data_for_kpilib: function(){
+            if(self.organization.enable_kpi_lib == true) {
+                kpi_lib.options = this.options_category;
+                kpi_lib.parent_cate = this.parent_category;
+                kpi_lib.child_cate = this.child_category;
+                kpi_lib.BSC_CATEGORY = this.BSC_CATEGORY;
+                kpi_lib.EXTRA_FIELDS_KPI = this.EXTRA_FIELDS;
+            }
         },
+        get_data_kpilib: function(){
+            //get all kpi in kpilib when query_kpilib: ' ',
+            this.search_kpi_library();
+            // init data for kpilib
+            this.init_data_for_kpilib();
+        }
+
     },
+
     events: {
         'update_lock_exscore_review': function (option) {
             var that = this
@@ -4356,7 +4345,8 @@ var v = new Vue({
             console.log('triggered fetch_user_exscore')
             this.fetch_exscore();
         }
-    }
+    },
+
 });
 
 v.get_current_quarter();

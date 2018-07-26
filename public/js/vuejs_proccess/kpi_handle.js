@@ -12,6 +12,7 @@ $('#file-upload').change(function() {
         }
 
 });
+
 $(document).keydown(function(event) {
     if (event.keyCode == 27) {
         $('#evidence-modal').modal('hide');
@@ -24,9 +25,10 @@ $('#file-upload-action-plan-input').change(function() {
         var i = $(this).prev('label').clone();
         var file = $('#file-upload-action-plan-input')[0].files[0];
         var file_name = $('#file-upload-action-plan-input')[0].files[0].name;
-        if (file.size/1024/1024 > 10) {
+        // check upload file size whether exceeded limited size or not
+        if (file.size/1024/1024 > 5) {
             $('#file-upload-action-plan-input').val('');
-            alert(gettext('File size must be under')+ ' 10 Mb!');
+            alert(gettext('File size must be under')+ ' 5 Mb!');
         }
         else{
             // that.filename = file_name;// wtf here???

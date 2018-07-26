@@ -120,11 +120,28 @@
 .color-heading{
     color: #337ab7;
 }
+.color-danger{
+    color: #d9534f;
+}
 
 /* detail-display-block */
 .detail-display-block .dropdown-menu{
     min-width: 165px;
     padding: 20px;
+}
+
+.detail-display-block .btn-box-radio{
+    width: 120px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.detail-display-block .btn-box-radio span{
+    position: absolute;
+    top: 10px;
+    right: 9px;
 }
 
 
@@ -239,10 +256,11 @@
     width: 0;
     height: 0;
     left: auto;
-    right: 0px;
+    right: -5px;
     top: 0px;
     bottom: auto;
-    border: 15px solid;
+    z-index: 0;
+    border: 5px solid;
     border-color: #e1ebf4 transparent transparent transparent;
 }
 
