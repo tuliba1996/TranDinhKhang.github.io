@@ -6,7 +6,8 @@ const vStore = new Vuex.Store({
     state: {
         userActor: {},
         userViewed: {},
-        organization: {}
+        organization: {},
+        userActorSubordinates: [],
     },
     mutations: {
         userActorMutation: function (state, userObject) {
@@ -18,6 +19,9 @@ const vStore = new Vuex.Store({
         organizationMutation: function (state, organization) {
             state.organization = cloneObject(organization)
         },
+        userActorSubordinatesMutation: function (state, userActorSubordinates) {
+            state.userActorSubordinates = cloneObject(userActorSubordinates)
+        },
     },
     actions: {
         userActorActions: function(context,userObject){
@@ -28,6 +32,9 @@ const vStore = new Vuex.Store({
         },
         organizationActions: function(context,organization){
             context.commit('organizationMutation',organization)
+        },
+        userActorSubordinatesActions: function(context,userActorSubordinates){
+            context.commit('userActorSubordinatesMutation',userActorSubordinates)
         }
     },
     getters: {
@@ -39,6 +46,9 @@ const vStore = new Vuex.Store({
         },
         organization: function(state){
             return cloneObject(state.organization)
+        },
+        userActorSubordinates: function(state){
+            return cloneObject(state.userActorSubordinates)
         },
     }
 });
