@@ -8,7 +8,7 @@
       exports: {}
     };
     factory(mod, mod.exports);
-    global.ELEMENT.lang = global.ELEMENT.lang || {};
+    global.ELEMENT.lang = global.ELEMENT.lang || {}; 
     global.ELEMENT.lang.vi = mod.exports;
   }
 })(this, function (module, exports) {
@@ -37,7 +37,7 @@
         nextYear: 'Next Year', // to be translated
         prevMonth: 'Previous Month', // to be translated
         nextMonth: 'Next Month', // to be translated
-        year: '',
+        year: 'Năm',
         month1: 'Tháng 1',
         month2: 'Tháng 2',
         month3: 'Tháng 3',
