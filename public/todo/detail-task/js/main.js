@@ -143,3 +143,18 @@ function extractPermission(userActor,userActorSubordinates,taskObjectData){
         return isAssigneeHavePermissionEditOrCommentOrViewOnly(userActor,taskObjectData)
     }
 }
+
+// utils for modal
+function initModalHidden(modalSelector,callback){ // required jquery
+    $(modalSelector).on('hidden.bs.modal',function(event){
+        console.log('dismiss modal')
+        event.stopPropagation()
+        if($('body').find('.modal.in').length > 0){
+            $('body').addClass('modal-open')
+        }
+        if (typeof(callback) === 'function'){
+            callback()
+        }
+    })
+
+}
