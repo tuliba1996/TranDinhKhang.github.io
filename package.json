@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-"build": "find . -name \"*.md\" -type f -delete && git add . && git commit -am \"build and commit\" && git push origin master -f"
+"deploy": "find . -name \"*.md\" -type f -delete && git add . && git commit -am \"build and commit\" && git push origin master -f"
   },
   "repository": {
     "type": "git",
