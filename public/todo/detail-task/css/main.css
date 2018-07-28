@@ -89,6 +89,9 @@
 }
 
 /* end detail_task */
+.text-container{
+    white-space: pre-wrap;.
+}
 .text-title{
     line-height: 15px;
     font-size: 12px;
@@ -306,7 +309,6 @@
 
 .message-app .target-user-comment .comment-wrapper{
     color: #337ab7;
-    text-align: right;
     background: #e1ebf4;
     padding: 10px;
     width: fit-content;
