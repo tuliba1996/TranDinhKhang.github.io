@@ -70,6 +70,16 @@ function formatDateToString(date){
     // create the format you want
     return (dd + "/" + MM + "/" + yyyy);
 }
+function formatDateToTimeString(date){
+    // 01, 02, 03, ... 29, 30, 31
+    var hh = date.getHours()
+    // 01, 02, 03, ... 10, 11, 12
+    var mm = ((date.getMinutes() + 1) < 10 ? '0' : '') + (date.getMinutes() + 1);
+    // 1970, 1971, ... 2015, 2016, ...
+    var ss =((date.getSeconds() + 1) < 10 ? '0' : '') + (date.getSeconds() + 1);
+    // create the format you want
+    return (hh + ":" + mm + ":" + ss);
+}
 
 
 /* todo app's permission */
