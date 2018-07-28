@@ -237,14 +237,9 @@ table.nocolor, table.nocolor tr, table.nocolor td {
 .task-infor .task-status li:nth-child(2),.task-infor .task-perfomer li:nth-child(2) {
     padding-top: 10px;
 }
-#my-task .body-table{
-    padding: 20px 50px 100px 50px;
+#my-task .body-table, #task-created .body-table,#my-task .body-table.archiving{
+    padding: 20px 50px 180px 50px;
     min-height: calc(100vh - 270px);
-}
-
-#task-created .body-table,#my-task .body-table.archiving{
-    padding: 20px 30px 100px 30px;
-    min-height: calc(100vh - 270px)
 }
 
 #my-task .body-table .title-kpi-name{
@@ -276,14 +271,25 @@ table.nocolor, table.nocolor tr, table.nocolor td {
     padding-left: 5px;
     width: 47%;
 }
+.task-infor .row-detail-task:hover{
+    cursor: pointer;
+}
 
 .task-infor .row-detail-task.of-task-created{
     padding-left: 5px;
     width: 40%;
 }
 
+.task-infor .row-detail-task.of-task-created:hover{
+    cursor: pointer;
+}
+
 .task-infor .row-detail-task.of-task-created.archiving-row{
     width: 99%;
+}
+
+.task-infor .row-detail-task.of-task-created.archiving-row:hover{
+   cursor: pointer;
 }
 
 .task-infor .row-performer{
@@ -462,15 +468,12 @@ table.nocolor, table.nocolor tr, table.nocolor td {
 }
 .create-new-task .list_subordinate{
     width: 99%!important;
-    display: none;
 }
 .create-new-task .list_permision{
     width: calc(100% - 15px)!important;
-    display: none;
 }
 .create-new-task .list_kpi{
     width: 100%!important;
-    display: none;
 }
 .create-new-task .alert-attach{
     background-image: none;
@@ -513,7 +516,7 @@ table.nocolor, table.nocolor tr, table.nocolor td {
 #file-upload-form .attach-file{
     position: absolute;
     top:12px;
-    right: 8px;
+    right: 20px;
     font-size: 16px;
     color: #ababab
 }
@@ -544,6 +547,7 @@ table.nocolor, table.nocolor tr, table.nocolor td {
 	color: #008b8b;
 	font-weight: normal;
     font-size: 13px;
+    cursor: pointer;
 }
 .el-date-editor .el-range__icon{
 	color: #008b8b!important;
@@ -699,7 +703,7 @@ table.nocolor, table.nocolor tr, table.nocolor td {
 }
 
 
-#list_object_suggest{
+.list_object_suggest{
     width:300px;
     max-height:205px;
     overflow: auto;
@@ -707,78 +711,77 @@ table.nocolor, table.nocolor tr, table.nocolor td {
     top:48px;
     z-index:999;
     position:absolute;
-    display:none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.21);
     text-align:left;
     right: 2px !important;
 }
-#list_object_suggest .list-group-item{
+.list_object_suggest .list-group-item{
     border:0px;
     padding-left:20px;
     padding-bottom: 5px;
     padding-top: 5px;
     text-align: left;
 }
-#list_object_suggest .list-group-item:first-child{
+.list_object_suggest .list-group-item:first-child{
     padding-top: 10px;
 }
-#list_object_suggest .list-group-item:hover{
+.list_object_suggest .list-group-item:hover{
     cursor:pointer;
 }
 
-#list_object_suggest .list-group-item:hover .name,#list_object_suggest .list-group-item:hover .email{
+.list_object_suggest .list-group-item:hover .name,.list_object_suggest .list-group-item:hover .email{
     color: #008b8b;
 }
-#list_object_suggest .list-group-item:hover .name-kpi{
-    color: #008b8b;
-}
-
-#list_object_suggest .list-group-item:hover.item-perm{
+.list_object_suggest .list-group-item:hover .name-kpi{
     color: #008b8b;
 }
 
-#list_object_suggest .no-hover:hover{
+.list_object_suggest .list-group-item:hover.item-perm{
+    color: #008b8b;
+}
+
+.list_object_suggest .no-hover:hover{
     background:#fff;
     cursor:unset;
 }
 
-#list_object_suggest .list-group-item .text-title{
+.list_object_suggest .list-group-item .text-title{
     font-size:12px;
     color:#ababab;
     font-weight: bold;
 }
-#list_object_suggest .list-group-item .clear-history{
+.list_object_suggest .list-group-item .clear-history{
     font-size:12px;
     color:#333333;
     float:right;
     cursor:pointer
 }
-#list_object_suggest .list-group-item.format-display{
+.list_object_suggest .list-group-item.format-display{
     text-overflow: ellipsis;
     overflow: hidden;
 }
-#list_object_suggest .list-group-item.format-display.item-perm{
+.list_object_suggest .list-group-item.format-display.item-perm{
     padding-left: 12px;
     padding-right: 12px;
     line-height: 20px;
 }
-#list_object_suggest .list-group-item .name{
+.list_object_suggest .list-group-item .name{
     font-size:14px;
     color:#333333;
     font-weight:600;
     display: block;
 }
-#list_object_suggest .list-group-item .name-kpi{
+.list_object_suggest .list-group-item .name-kpi{
     font-size:14px;
     color:#333333;
     display: block;
 }
-#list_object_suggest .list-group-item .email{
+.list_object_suggest .list-group-item .email{
     font-size:12px;
     color:#666666;
     display: block;
 }
-#list_object_suggest .selected{
+.list_object_suggest .selected{
     color: #008b8b!important;
 }
 .cursor-no-drop .not-allow{

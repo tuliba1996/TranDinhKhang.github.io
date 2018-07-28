@@ -28,7 +28,9 @@
     letter-spacing: normal;
     text-align: left;
     color: #333333;
-
+}
+.detail-task .task-title .title{
+    word-wrap: break-word;
 }
 .detail-task .task-subtitle,.detail-task .subtitle, .subtitle{
     width: auto;
@@ -221,11 +223,16 @@
 .messenger .comment-note-wrapper > i {
     align-self:center;
 }
+.messenger .comment-note-wrapper > textarea {
+    min-height: 40px !important;
+    border:none;
+    resize: none; /*https://stackoverflow.com/questions/6340545/how-to-remove-dots-present-at-the-right-bottom-corner-of-the-textarea-html*/
+    box-shadow: none;
+}
 .messenger .comment-note-wrapper{
     border-radius: 3px;
     background-color: #ffffff;
     border: solid 1px #e4e4e4;
-    height: 40px;
     display: flex;
 }
 .messenger div.comment-note-wrapper:hover, .messenger div.comment-note-wrapper.active {
@@ -264,6 +271,20 @@
     border-color: #e1ebf4 transparent transparent transparent;
 }
 
+.message-app .user-comment .comment-wrapper:after, .message-app .user-comment .attachment-wrapper:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: auto;
+    left: 0px;
+    top: 0px;
+    bottom: auto;
+    z-index: 0;
+    border: 5px solid;
+    border-color: #f9f9f9 transparent transparent transparent;
+}
+
 .message-app .comment-wrapper, .message-app .attachment-wrapper {
     max-width: 350px;
     word-wrap: break-word;
@@ -285,17 +306,25 @@
 
 .message-app .target-user-comment .comment-wrapper{
     color: #337ab7;
-    text-align: right
-}
-
-
-.message-app .user-comment .comment-wrapper > span,.message-app .user-comment .attachment-wrapper {
-    background-color: #f9f9f9;
-    padding: 10px
-}
-.message-app .target-user-comment  .comment-wrapper > span , .message-app .target-user-comment  .attachment-wrapper  {
+    text-align: right;
     background: #e1ebf4;
-    padding: 10px
+    padding: 10px;
+    width: fit-content;
+    float: right;
+}
+
+.message-app .user-comment .comment-wrapper ,.message-app .user-comment .attachment-wrapper {
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: fit-content;
+    float: left;
+
+}
+.message-app .target-user-comment .attachment-wrapper  {
+    padding: 10px;
+    background-color: #e1ebf4;
+    width: fit-content;
+    float: right;
 }
 
 /* end message-app */
