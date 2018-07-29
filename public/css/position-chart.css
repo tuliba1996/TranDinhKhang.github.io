@@ -285,6 +285,7 @@ text-decoration: underline;
   color:white;
   width: 67px;
   height: 34px;
+  line-height:34px;
   border-radius: 3px;
   background-color: #f25755;
 }
@@ -575,7 +576,7 @@ text-decoration: underline;
 }
 .btn-edit-position{
     width: auto !important;
-    line-height: 34px;
+    line-height: 31px;
     margin-left:12px;
     margin-right:5px
 }
@@ -632,7 +633,12 @@ text-decoration: underline;
 }
 #org-chart{
     width:100%;
+
     border:none;
+}
+#strategymap{
+    margin-left:300px;
+    width: calc(100% - 300px);
 }
 #strategymap-2{
     box-shadow:none;
@@ -921,4 +927,102 @@ input[type="checkbox"]:after {
 }
 .el-loading-mask{
     z-index: 1029;
+}
+.btn-remove{
+    height:33px;
+    border-radius:3px;
+    width:76px!important;
+    border:none;
+    color:white!important;
+    background:#d9534f!important;
+}
+.btn-remove:hover{
+    background-color:#f27577!important;
+}
+.btn-remove:disabled{
+    cursor:not-allowed;
+}
+#remove-position-modal .modal-body{
+    padding:30px;
+}
+.choice-1{
+    border:1px solid #e4e4e4;
+    width:210px;
+    height:200px;
+    border-radius:3px;
+    float:left;
+    text-align:center;
+    cursor:pointer;
+}
+.choice-1-right{
+    border:1px solid #e4e4e4;
+    width:210px;
+    text-align:center;
+    cursor:pointer;
+    height:200px;
+    border-radius:3px;
+    float:right;
+}
+.content-choice-1{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.icon-remove-position{
+    font-size:60px;
+    color:#d9534f;
+}
+.content-choice-1 .content-title{
+    margin-bottom:0px;
+    margin-top:10px;
+}
+.content-choice-1 .content-title-2{
+    font-size:16px;
+    font-weight:bold;
+    margin-left:20px;
+    margin-right:20px;
+}
+.or-modal{
+    text-align:center;
+    line-height:195px;
+    font-size:12px;
+    color:#e4e4e4;
+}
+#confirm1-position-modal .modal-body{
+    padding:20px 20px 0px 20px;
+}
+.remove-modal{
+    padding:10px 20px;
+    height:54px;
+    background:#f9f9f9;
+    margin-top:15px;
+    position: absolute;
+    width:100%;
+    bottom:0px;
+}
+.btn-edit-position i{
+    vertical-align: top;
+    padding-top:7px;
+    font-size:20px;
+}
+#confirm2-position-modal .modal-body{
+    padding:10px 20px 0px 20px;
+}
+.close-button{
+    margin-top:-5px;
+    font-size:25px;
+}
+.modal{
+    margin-top:30px;
+}
+.color-666{
+    color:#666666;
+}
+.mg-tp-15{
+    margin-top:15px;
+}
+.pd-tp-20{
+    padding-top:20px;
+}
+.pd-tp-5{
+    padding-top:5px;
 }

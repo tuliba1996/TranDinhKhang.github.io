@@ -879,9 +879,7 @@ var v = new Vue({
         timeout: null,
         tags: [],
         searched_kpis: [],
-        query_kpilib: ' ',
-        filter_department: null,
-        filter_function: null,
+        next_url_kpi_lib: '',
         DEPARTMENTS: COMMON.Departments,
         FUNCTIONS: [],
         extra_tags: [],
@@ -899,209 +897,9 @@ var v = new Vue({
         preview_attach_modal_type:'',
         same_user: false,
         disable_upload: false,
-        current_evidence: {},
 
         //datatemp for kpilib
         visible: false,
-        parent_category : [{
-            value:'dichvudoanhnghiep',
-            label: 'Dịch vụ doanh nghiệp',
-            number: '165',
-        },{
-            value: 'ketoan',
-            label: 'Kế toán',
-            number: '329',
-        },{
-            value: 'nhansu',
-            label: 'Nhân sự',
-            number: '504',
-        }],
-        child_category :[{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep1',
-            label: 'Doanh nghiệp tư nhân',
-            number: '12',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep2',
-            label: 'Thanh lý tiền tệ',
-            number: '13',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep3',
-            label: 'Cho vay nặng lãi',
-            number: '12',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep4',
-            label: 'Thuật toán KPI ',
-            number: '5',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep5',
-            label: 'Đánh giá KPI ',
-            number: '10',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep6',
-            label: 'Công nghiệp dịch vụ',
-            number: '10',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep7',
-            label: 'Kê khai tài khoản',
-            number: '12',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep8',
-            label: 'Giáo dục cá nhân',
-            number: '11',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep9',
-            label: 'Dịch vụ doanh nghiệp',
-            number: '10',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep10',
-            label: 'Doanh nghiệp Cung cầu',
-            number: '2',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep11',
-            label: 'Dịch vụ doanh nghiệp',
-            number: '16',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep12',
-            label: 'Kê khai tài khoản',
-            number: '14',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep13',
-            label: 'Dịch vụ doanh nghiệp ',
-            number: '15',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep14',
-            label: 'Dịch vụ doanh nghiệp',
-            number: '10',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep15',
-            label: 'Doanh nghiệp',
-            number: '20',
-        },{
-            parentvalue:'dichvudoanhnghiep',
-            value: 'doanhnghiep16',
-            label: 'Doanh nghiệp 2 ',
-            number: '6',
-        },{
-            parentvalue:'ketoan',
-            value: 'kehoachvabaocao',
-            label: 'Kế hoạch và báo cáo',
-            number: '30',
-        },{
-            parentvalue:'ketoan',
-            value: 'giaodich',
-            label: 'Giao dịch',
-            number: '30',
-        },{
-            parentvalue:'ketoan',
-            value: 'phantichchiphi',
-            label: 'Phân tích chi phí',
-            number: '20',
-        }, {
-            parentvalue: 'nhansu',
-            value: 'conguoi',
-            label: 'Con người',
-            number: '20',
-        }],
-        options_category: [{
-            value: 'dichvudoanhnghiep',
-            label: 'Dịch vụ doanh nghiệp (200)',
-            children: [{
-                value: 'doanhnghiep1',
-                label: 'Doanh nghiệp tư nhân (12)',
-            },{
-                value: 'doanhnghiep2',
-                label: 'Thanh lý tiền tệ (13)',
-            },{
-                value: 'doanhnghiep3',
-                label: 'Cho vay nặng lãi (12)',
-            },{
-                value: 'doanhnghiep4',
-                label: 'Thuật toán KPI (5)',
-            },{
-                value: 'doanhnghiep5',
-                label: 'Đánh giá KPI (10)',
-            },{
-                value: 'doanhnghiep6',
-                label: 'Công nghiệp dịch vụ (10)',
-            },{
-                value: 'doanhnghiep7',
-                label: 'Kê khai tài khoản (12)',
-            },{
-                value: 'doanhnghiep8',
-                label: 'Giáo dục cá nhân (11)',
-            },{
-                value: 'doanhnghiep9',
-                label: 'Dịch vụ doanh nghiệp(10)',
-            },{
-                value: 'doanhnghiep10',
-                label: 'Doanh nghiệp Cung cầu (2)',
-            },{
-                value: 'doanhnghiep11',
-                label: 'Dịch vụ doanh nghiệp (16)',
-            },{
-                value: 'doanhnghiep12',
-                label: 'Kê khai tài khoản (14)',
-            },{
-                value: 'doanhnghiep13',
-                label: 'Dịch vụ doanh nghiệp (15) ',
-            },{
-                value: 'doanhnghiep14',
-                label: 'Dịch vụ doanh nghiệp(10)',
-            },{
-                value: 'doanhnghiep15',
-                label: 'Doanh nghiệp(10',
-            },{
-                value: 'doanhnghiep16',
-                label: 'Doanh nghiệp 2 (6)',
-            }]
-        }, {
-            value: 'ketoan',
-            label: 'Kế toán (250)',
-            children: [{
-                value: 'kehoachvabaocao',
-                label: 'Kế hoạch và báo cáo(100)',
-            }, {
-                value: 'giaodich',
-                label: 'Giao dịch(110)',
-            }, {
-                value: 'phantichchiphi',
-                label: 'Phân tích chi phí(120)',
-            }, {
-                value: 'quanlytienmat',
-                label: 'Quản lý tiền mặt(64)',
-            }, {
-                value: 'kiemsoat',
-                label: 'Kiểm soát(100)',
-            }]
-        }, {
-            value: 'nhansu',
-            label: 'Nhân sự (100)',
-            children: [{
-                value: 'conguoi',
-                label: 'Con người (30)'
-            }, {
-                value: 'thoigian',
-                label: 'Thời gian (30)'
-            }, {
-                value: 'money',
-                label: 'Tiền bạc (40)'
-            }]
-        }],
         // end data temp for kpi lib
     },
     validators: {
@@ -1182,6 +980,9 @@ var v = new Vue({
                 return true;
             }
             return false;
+        },
+        percent_progressbar: function(kpi_id){
+            return this.kpi_list[kpi_id].latest_score*100/this.organization.max_score;
         }
     },
     watch: {
@@ -1219,39 +1020,6 @@ var v = new Vue({
                 that.$emit('update_lock_exscore_review', newVal.monthly_review_lock)
                 that.$set('company_params.ceo_id', newVal.ceo)
                 that.get_company_performance(that.company_params)
-            }
-        },
-        query_kpilib: {
-            handler: function (newVal, oldVal) {
-                this.search_kpi_library();
-            }
-        },
-        filter_department: {
-            handler: function (newVal, oldVal) {
-                var _this = this;
-                if (newVal) {
-                    this.FUNCTIONS = this.DEPARTMENTS[newVal] || {};
-                } else {
-                    var list_func = [];
-                    Object.keys(this.DEPARTMENTS).forEach(function (key) {
-                        list_func = list_func.concat(_this.DEPARTMENTS[key] || []);
-                    })
-                    this.FUNCTIONS = list_func;
-                }
-                this.search_kpi_library();
-            }
-        },
-        filter_function: {
-            handler: function (newVal, oldVal) {
-                var _this = this;
-                if (this.FUNCTIONS.length > 0) {
-                    this.FUNCTIONS.forEach(function (obj) {
-                        if (obj.name == newVal) {
-                            _this.filter_department = obj.parent__name;
-                        }
-                    })
-                }
-                this.search_kpi_library();
             }
         },
         selected_tags: {
@@ -1307,12 +1075,10 @@ var v = new Vue({
         findGroupByID: function(id,dataSource){
             var self = this;
             var listGroups = Object.keys(dataSource).map(function(elm){
-                return dataSource[elm]
+                return parseInt(dataSource[elm].id)
             })
-            var groups = listGroups.slice().filter(function(elm){
-                return parseInt(elm.id) === parseInt(id)
-            })
-            return groups;
+            var found = listGroups.indexOf(parseInt(id))
+            return found;
         },
         getListGroup: function(){
             //debugger;
@@ -1327,15 +1093,17 @@ var v = new Vue({
                     tmp.push(this.kpi_list[kpi].bsc_category)
                     group_in_category[this.kpi_list[kpi].bsc_category] = []
                 }
-                if (group_in_category[this.kpi_list[kpi].bsc_category].indexOf(this.kpi_list[kpi].refer_group_name) == -1
+                if (group_in_category[this.kpi_list[kpi].bsc_category].indexOf(this.kpi_list[kpi].kpi_group_id) == -1
                     && (this.kpi_list[kpi].refer_to == null || this.kpi_list[this.kpi_list[kpi].refer_to] == null)) {
                     listGroup[count] = {
                         name: this.kpi_list[kpi].refer_group_name,
                         slug: this.kpi_list[kpi].kpi_refer_group,
-                        category: this.kpi_list[kpi].bsc_category
+                        category: this.kpi_list[kpi].bsc_category,
+                        refer_to: this.kpi_list[kpi].refer_to,
+                        id: this.kpi_list[kpi].kpi_group_id
                     };
 
-                    group_in_category[this.kpi_list[kpi].bsc_category].push(this.kpi_list[kpi].refer_group_name);
+                    group_in_category[this.kpi_list[kpi].bsc_category].push(this.kpi_list[kpi].kpi_group_id);
                     count += 1;
                     //console.log(group_in_category)
                 }
@@ -1348,21 +1116,26 @@ var v = new Vue({
         getListGroupV2: function(){
             //debugger;
             var self = this;
-            var listGroup = {};
+            var listGroup = [];
             var index = 0;
+            console.log("parent kpi", self.parentKPIs);
             for(var kpi_id in self.parentKPIs){
+
+                console.log("elm:", kpi_id);
                 var group = {
                     name: self.kpi_list[kpi_id].refer_group_name,
                     slug: self.kpi_list[kpi_id].kpi_refer_group,
                     category: self.kpi_list[kpi_id].bsc_category,
-                    kpi_id: kpi_id, // group kpi must be generated by same refer_to
+                    refer_to: null || self.kpi_list[kpi_id].refer_to, // if this KPI is assigned to user
                     id: self.kpi_list[kpi_id].group_kpi
                 }
                 //
-                var matchedGroup = self.findGroupByID(group.id, listGroup)
-                if (matchedGroup.length === 0){
+                var matchedGroup = self.findGroupByID(group.id, listGroup);
+                // if found group by id that does not exist in current listGroup -> push into list Group
+                if (matchedGroup == -1){
                     self.$set('list_group['+ index + ']', group)
-                    index++
+                    index++;
+                    listGroup.push(group);
                 }
 
             }
@@ -1384,6 +1157,26 @@ var v = new Vue({
 
             })
         },
+        disable_edit_target: function(kpi){
+            if (this.is_user_system) return false;
+            console.log("target:", kpi.id)
+            return !(kpi.enable_edit && this.organization.allow_edit_monthly_target && this.organization.enable_to_edit);
+
+        },
+        can_edit_current_month: function (current_month, monthly_review_lock){ //check whether currrent month is allowed to edit
+            return monthly_review_lock == "allow_all"?true: current_month==monthly_review_lock
+        },
+        disable_review_kpi: function(parent_id, current_month){
+            if (this.is_user_system) return false;
+            var is_manager = COMMON.UserId != COMMON.UserViewedId;
+            var current_month_locked = !(this.can_edit_current_month(current_month, this.organization.monthly_review_lock));
+            if (is_manager){ // if current Login user is parent of user viewed
+                return ( !this.organization.allow_manager_review || current_month_locked ) // manager can edit if enable_to_edit not pass
+            }
+            else {
+                return ( !this.organization.allow_employee_review || current_month_locked ) // employee can edit(review) kpi only if not pass self_review_date
+            }
+        },
         hide_modal: function (modal_id) {
             $(modal_id).modal('hide');
         },
@@ -1402,43 +1195,24 @@ var v = new Vue({
             that.status_confirm = true;
             that.email_confirm = '';
         },
-        search_kpi_library: function () {
+        search_kpi_library: function (page=null) {
             var self = this;
-            var params = "", tags = [];
-            if (this.query_kpilib) {
-                params += `query=${encodeURIComponent(this.query_kpilib)}`;
+            var url = `/api/v2/kpilib/search/?${kpi_lib.query_search_kpi_lib}`;
+            if(page != 1 && self.next_url_kpi_lib){
+               url = updateQueryStringParameter(self.next_url_kpi_lib, 'page', page)
             }
-            if (this.filter_department || this.filter_function || this.selected_tags) {
-                if (this.filter_department) {
-                    tags.push(encodeURIComponent(this.filter_department))
-                }
-                if (this.filter_function) {
-                    tags.push(encodeURIComponent(this.filter_function))
-                }
-                if (this.selected_tags) {
-                    this.selected_tags.split(",").forEach(function (tag) {
-                        tags.push(encodeURIComponent(tag))
-                    })
-                }
-            }
-            if (tags.length > 0) {
-                param_tag = "tag=" + tags.join("&tag=");
-                params = params ? `${params}&${param_tag}` : param_tag
-            }
-
-            if (!params) {
-                return;
-            }
-            console.log("Search ---------" + params);
+            self.searched_kpis = [];
             cloudjetRequest.ajax({
                 method: "GET",
-                url: '/api/v2/kpilib/?' + params,
+                url: url,
                 success: function (data) {
-                    self.searched_kpis = data;
+                    self.searched_kpis = data.results;
+                    self.next_url_kpi_lib = data.next;
                     if(self.organization.enable_kpi_lib == true)
-                        kpi_lib.isLoading = false;
+                    kpi_lib.isLoading = false;
+                    kpi_lib.total_page = data.count;
                 }
-            })
+            });
         },
         fetch_kpi_tag: function (children_data_object, kpi_child_id) {
             var kpi_tag = [];
@@ -3664,6 +3438,7 @@ var v = new Vue({
                                     else {
                                         self.backups_list.push(item);
                                         self.backup_month.push(item.month);
+                                        self.$set('employee_performance.month_' + item.month + '_backup', true);
                                     }
                                 })
                             }
@@ -3855,6 +3630,7 @@ var v = new Vue({
             $('.kpi-refer-group').remove();
             $('.group-modifier').css('display', 'inline-block');
             $('#btn-add').remove();
+            $('#btn-edit-weight').remove();
 
             this.sort_kpi_group();
             $(obj.currentTarget).removeClass("btn-cus-white").addClass("btn-cus-add");
@@ -4257,10 +4033,12 @@ var v = new Vue({
         loadKPIs: function() {
 
             var that = this;
+            var quarter_id = getUrlVars()['quarter_id'];
+
             cloudjetRequest.ajax({
                 url: '/api/v2/user/'+this.user_id+'/kpis/',
                 type: 'GET',
-                data: {user_id: this.user_id},
+                data: {quarter_id: quarter_id},
                 success: function (data) {
                     console.log("=======>>>>--------------")
                     console.log(data)
@@ -4301,19 +4079,54 @@ var v = new Vue({
         },
         init_data_for_kpilib: function(){
             if(self.organization.enable_kpi_lib == true) {
-                kpi_lib.options = this.options_category;
+                kpi_lib.options = [];
+                this.DEPARTMENTS.forEach(function(item){
+                    var category = {};
+                    category.label=`${item.name} (${item.count})`;
+                    category.value=item.id;
+                    category.children=[];
+                    if(item.childs.length){
+                        item.childs.forEach(function(child){
+                            var sub_category = {};
+                            sub_category.label = `${child.name} (${child.count})`;
+                            sub_category.value = child.id;
+                            category.children.push(sub_category);
+                        })
+                    }
+                    kpi_lib.options.push(category)
+                });
+                //kpi_lib.options = this.options_category;
                 kpi_lib.parent_cate = this.parent_category;
                 kpi_lib.child_cate = this.child_category;
                 kpi_lib.BSC_CATEGORY = this.BSC_CATEGORY;
                 kpi_lib.EXTRA_FIELDS_KPI = this.EXTRA_FIELDS;
+                kpi_lib.init_kpi_lib();
             }
         },
-        get_data_kpilib: function(){
+        get_data_kpilib: function(page=1){
             //get all kpi in kpilib when query_kpilib: ' ',
-            this.search_kpi_library();
-            // init data for kpilib
-            this.init_data_for_kpilib();
-        }
+            var self = this;
+            var url = '/api/v2/kpilib/';
+            if(page && page != 1 && self.next_url_kpi_lib){
+               url = updateQueryStringParameter(self.next_url_kpi_lib,'page', page);
+            }
+            self.searched_kpis = [];
+            cloudjetRequest.ajax({
+                method: "GET",
+                url: url,
+                success: function (data) {
+                    self.searched_kpis = data.results;
+                    self.next_url_kpi_lib = data.next;
+                    if(page==1)kpi_lib.count_search = data.count;
+                    if(self.organization.enable_kpi_lib == true)
+                    kpi_lib.isLoading = false;
+                    kpi_lib.total_page = data.count;
+                }
+            });
+            if(page==1){
+                this.init_data_for_kpilib();
+            }
+        },
 
     },
 
@@ -4459,6 +4272,17 @@ function format(number) {
     // recombine integer with decimals
     return parts.join(decimalSeparator);
 
+}
+
+function updateQueryStringParameter(uri, key, value) {
+  var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+  var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+  if (uri.match(re)) {
+    return uri.replace(re, '$1' + key + "=" + value + '$2');
+  }
+  else {
+    return uri + separator + key + "=" + value;
+  }
 }
 
 $(function () {

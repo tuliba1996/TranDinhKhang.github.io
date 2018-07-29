@@ -3710,7 +3710,7 @@ button.close{
 }
 @media (min-width: 1200px) {
     .reponsive-table{
-        min-width: 530px;
+        min-width: 570px;
     }
     .material-icons{
         font-size: 18px;

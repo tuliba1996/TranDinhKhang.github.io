@@ -103,7 +103,7 @@ function getTree(nodeId, level, onComplete) {
         error: function (jqXHR, textStatus, errorThrown) {
             data = getTree(nodeId, level);
         },
-        cache: true
+        cache: false
     });
 }
 
