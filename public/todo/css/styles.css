@@ -270,6 +270,7 @@ table.nocolor, table.nocolor tr, table.nocolor td {
 .task-infor .row-detail-task{
     padding-left: 5px;
     width: 47%;
+    word-break: break-word;
 }
 .task-infor .row-detail-task:hover{
     cursor: pointer;
@@ -278,6 +279,7 @@ table.nocolor, table.nocolor tr, table.nocolor td {
 .task-infor .row-detail-task.of-task-created{
     padding-left: 5px;
     width: 40%;
+    word-break: break-word;
 }
 
 .task-infor .row-detail-task.of-task-created:hover{
