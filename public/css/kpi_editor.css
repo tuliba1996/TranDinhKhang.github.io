@@ -2210,8 +2210,16 @@ span.bonus-score {
 .toolbar a{
     color: #666666;
 }
-
-
+#toolbar-target{
+    font-size: 14px;
+}
+#toolbar-target i{
+    font-size: 14px;
+    padding: 0px 2px 3px 0px !important;
+}
+.icon-padding-bottom-3{
+    padding: 0px 0px 3px 0px;
+}
 /* special filter field styling for this example */
 .input-filter-container {
     position: fixed;
