@@ -1655,6 +1655,7 @@ a:hover {
 
 .material-icons.font-16 {
     position: relative;
+    font-size: 16px;
     bottom: -2px;
     margin-top: -2px;
 }
