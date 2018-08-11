@@ -1,4 +1,3 @@
-
 var makeid = function() {
   var text = "";
   var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -151,6 +150,7 @@ function isAssigneeHavePermissionEditOrCommentOrViewOnly(userActor, taskObject) 
 }
 
 function extractPermission(userActor, userActorSubordinates, taskObjectData) {
+  /* istanbul ignore next */
   if (isManager(userActor, userActorSubordinates, taskObjectData.assigned_to) === true) {
     // neu la manager hoac actor thi co quyen edit
     return 'edit'
@@ -162,6 +162,7 @@ function extractPermission(userActor, userActorSubordinates, taskObjectData) {
 
 // utils for modal
 function initModalHidden(modalSelector, callback) { // required jquery
+  /* istanbul ignore next */
   $(modalSelector).on('hidden.bs.modal', function(event) {
     console.log('dismiss modal')
     event.stopPropagation()
