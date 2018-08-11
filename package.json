@@ -1,11 +1,10 @@
 {
   "name": "static",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-"deploy": "find . -name \"*.md\" -type f -delete && git add . && git commit -am \"build and commit\" && git push origin master -f"
+    "deploy": "find . -name \"*.md\" -type f -delete && git add . && git commit -am \"build and commit\" && git push origin master -f"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/TranDinhKhang/TranDinhKhang.github.io/issues"
   },
-  "homepage": "https://github.com/TranDinhKhang/TranDinhKhang.github.io#readme"
+  "homepage": "https://github.com/TranDinhKhang/TranDinhKhang.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "description": ""
 }
