@@ -2819,7 +2819,26 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
 #target .title-target{
     text-align: center;
 }
-
+#target .export-excel-target{
+    text-align: center;
+    display: inline-block;
+   position: absolute;
+    top:70px;
+    right: 0px;
+    padding-right: 20px;
+}
+#target .export-excel-target .btn-export-excel-target{
+    background: #ffffff;
+    box-shadow: none;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    padding: 6px 12px;
+}
+#target .export-excel-target .btn-export-excel-target i{
+    font-size: 20px !important;
+    padding-right: 8px;
+    top:4px;
+}
 #target #list_user_suggest .list-group-item {
     border: 0px;
     padding-left: 20px;
@@ -2961,6 +2980,24 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
     font-size: 12px;
     /*margin-left: 10px;*/
     margin-top: 10px;
+}
+#target .el-table .sub-link{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+    font-size: 10px;
+    padding: 0px 3px;
+    color: #008b8b;
+    border-radius: 4px;
+    border: 2px solid #008b8b
+}
+#target .el-table .kpi-name{
+    display: inline-block;
+}
+#target .content-kpi-name{
+    text-align: left;
+    padding-bottom: 2px;
 }
 .modal-edit-target .material-icons.font-20{
     position: relative;

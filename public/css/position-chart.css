@@ -86,7 +86,6 @@ body{
 #left-content{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
     background:white;
-    position:absolute;;
 }
 .icon-circle{
     height:40px;
@@ -633,12 +632,7 @@ text-decoration: underline;
 }
 #org-chart{
     width:100%;
-
     border:none;
-}
-#strategymap{
-    margin-left:300px;
-    width: calc(100% - 300px);
 }
 #strategymap-2{
     box-shadow:none;
@@ -927,6 +921,54 @@ input[type="checkbox"]:after {
 }
 .el-loading-mask{
     z-index: 1029;
+}
+.cjs-btn-warning {
+	background-color: #f5a623 !important;
+}
+#right-content input[type="radio"] {
+	margin: 2px -25px 0px;
+}
+.m-top-20 {
+	margin-top: 20px !important;
+}
+.m-btm-10 {
+	margin-bottom: 10px !important;
+}
+#modal-change-position-manager .el-autocomplete {
+	display: block;
+}
+.pos-item-search {
+	color: #333333;
+}
+.warning-notice {
+	color: #666;
+}
+.li-bullet {
+	color: #d8d8d8;
+}
+.notice-ul {
+	padding-left: 25px;
+	list-style-type: disc;
+}
+.chart-container {
+	display: flex;
+	flex:1
+}
+.flex-left {
+	width: 300px;
+	padding-left: 15px;
+	margin-right: 15px;
+}
+.flex-right {
+	flex-grow: 1;
+	position: relative;
+}
+.position-autocomplete .el-autocomplete-suggestion__list {
+	max-height: 140px;
+}
+#modal-change-position-manager .modal-footer {
+	background-color: #f9f9f9;
+	padding: 10px;
 }
 .btn-remove{
     height:33px;

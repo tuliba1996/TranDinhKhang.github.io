@@ -56,6 +56,63 @@ function clear_search() {
     }, 100);
 }
 
+
+String.prototype.nextChar = function (i) {
+    function nextChar(c) {
+        var u = c.toUpperCase();
+        if (same(u, 'Z')) {
+            var txt = '';
+            var i = u.length;
+            while (i--) {
+                txt += 'A';
+            }
+            return (txt + 'A');
+        } else {
+            var p = "";
+            var q = "";
+            if (u.length > 1) {
+                p = u.substring(0, u.length - 1);
+                q = String.fromCharCode(p.slice(-1).charCodeAt(0));
+            }
+            var l = u.slice(-1).charCodeAt(0);
+            var z = nextLetter(l);
+            if (z === 'A') {
+                return p.slice(0, -1) + nextLetter(q.slice(-1).charCodeAt(0)) + z;
+            } else {
+                return p + z;
+            }
+        }
+    }
+
+    function nextLetter(l) {
+        if (l < 90) {
+            return String.fromCharCode(l + 1);
+        }
+        else {
+            return 'A';
+        }
+    }
+
+    function same(str, char) {
+        var i = str.length;
+        while (i--) {
+            if (str[i] !== char) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    var n = i | 1;
+    var char = this;
+    while (n--) {
+        char = nextChar(char);
+    }
+    return char;
+};
+
+
+
 // {% get_current_language as LANGUAGE_CODE %}
 var targetPage = new Vue({
     delimiters: ['${', '}$'],
@@ -83,9 +140,11 @@ var targetPage = new Vue({
         groupLearn: [],
         groupMore: [],
         tableData: [],
+        total_weight: '',
         storage_user: [],
         list_user_searched: [],
         list_surbodinates_user_viewed: [],
+        organization: '',
     },
     components: {},
     computed: {
@@ -248,7 +307,8 @@ var targetPage = new Vue({
             // Step 4: update to localStorage again
             self.setHistoryStorageByEmail(COMMON.UserRequestEmail, _storage)
 
-            self.getCurrentQuarter()
+            self.getCurrentQuarter();
+            self.getUserProfile();
             self.refreshHistoryData()
         },
         arraySpanMethod: function ({row, column, rowIndex, columnIndex}) {// merge cac cell cua row category
@@ -281,7 +341,7 @@ var targetPage = new Vue({
             }
         },
         createItem: function (item) { // created data cho tung kpi
-            var self = this
+            var self = this;
             var tempTableData = {
                 kpi_id: '',
                 disable_edit:'',
@@ -297,7 +357,24 @@ var targetPage = new Vue({
                 score_calculation_type: "",
                 year_data: {},
                 visible2: false,
+                refer_to:'',
+                name_kpi_parent:"",
             };
+            // add field to export excel
+            tempTableData.code = item.code == undefined ? "" : item.code;
+            tempTableData.group = item.group == undefined ? "" : item.group;
+            if (item.refer_to){
+                tempTableData.weight_child = item.weight == undefined ? 0 : item.weight;
+            }else{
+                tempTableData.weight = item.weight == undefined ? 0 : item.weight;
+            }
+            tempTableData.owner_email = item.owner_email;
+            tempTableData.unit = item.unit == undefined ? "" : item.unit;
+            tempTableData.current_goal = item.current_goal == undefined ? "" : item.current_goal;     // measurement method
+            tempTableData.operator = item.operator == undefined ? "" : item.operator;
+            tempTableData.score_calculation_type = item.score_calculation_type;
+            tempTableData.assigned_to = item.assigned_to == undefined ? "" : item.assigned_to;
+            tempTableData.data_source = '';
             // console.log(item.name)
             tempTableData.ten_KPI = item.name == undefined ? "" : item.name;
             tempTableData.year = item.year_target == undefined ? "" : item.year_target;
@@ -308,9 +385,10 @@ var targetPage = new Vue({
             tempTableData.edit = "";
             tempTableData.isGroup = item.isGroup == undefined ? false : true
             tempTableData.score_calculation_type = item.score_calculation_type == undefined ? "" : item.score_calculation_type
+            tempTableData.refer_to = item.refer_to
             // biến sử dung truyền khi request lên server
             tempTableData.disable_edit = !(this.is_superuser || (item.enable_edit && this.allow_edit_monthly_target) || this.is_admin);
-            tempTableData.kpi_id = item.id
+            tempTableData.kpi_id = item.id;
             tempTableData.current_quarter = self.get_current_quarter
             tempTableData.months_target = self.getMonthsTarget(item) == undefined ? "" : self.getMonthsTarget(item);
             tempTableData.yeardata = item.year_data == undefined ? "" : item.year_data;
@@ -373,6 +451,32 @@ var targetPage = new Vue({
             }
             return temp_months_target
         },
+
+        getUserProfile: function () {
+            var self = this;
+            cloudjetRequest.ajax({
+                type: "GET",
+                url: '/api/profile/?user_id=' + self.currentUserId,
+                success: function (data) {
+                    self.user_profile = data;
+                },
+            })
+        },
+        getOrg: function () {
+            self = this;
+            cloudjetRequest.ajax({
+                method: "GET",
+                url: "/api/organization",
+                success: function (data) {
+                    if (data) {
+                        self.organization = data;
+                    }
+                },
+                error: function () {
+                }
+            });
+        },
+
         getCurrentQuarter: function() {
             var self = this
             cloudjetRequest.ajax({
@@ -472,27 +576,7 @@ var targetPage = new Vue({
                     self.groupMore = []
                     if (self.kpiList != null) {
                         for (var i = 0; i < self.kpiList.length; i++) {
-                            //
-                            // if (self.kpiList[i].score_calculation_type == "most_recent") {
-                            //     self.kpiList[i].score_calculation_type = gettext("Latest month")
-                            // } else if (self.kpiList[i].score_calculation_type == "average") {
-                            //     self.kpiList[i].score_calculation_type = gettext("Average 3 months")
-                            // } else {
-                            //     self.kpiList[i].score_calculation_type = gettext("Sum 3 months")
-                            // }
-                            var temp = self.createItem(self.kpiList[i]);
-                            if (self.kpiList[i].bsc_category == 'financial') {
-                                self.groupFinancial.push(temp)
-                            } else if (self.kpiList[i].bsc_category == 'customer') {
-                                self.groupCustomer.push(temp)
-                            } else if (self.kpiList[i].bsc_category == 'internal') {
-                                self.groupInternal.push(temp)
-                            } else if (self.kpiList[i].bsc_category == 'learninggrowth') {
-                                self.groupLearn.push(temp)
-                            } else if (self.kpiList[i].bsc_category == 'more') {
-                                self.groupMore.push(temp)
-                            } else {
-                            }
+                            self.createdKpiForCategory(self.kpiList[i])
                         }
                     }
                     // console.log("==========>>>><<<<<<<<==========")
@@ -535,6 +619,36 @@ var targetPage = new Vue({
                 }
 
             })
+        },
+        createdKpiForCategory: function (kpi) {
+            var self = this
+            var temp = []
+            temp.push(self.createItem(kpi));
+            var email_parent = kpi.owner_email
+            if(kpi.children.length >0){
+                for(var i = 0; i < kpi.children.length; i++){
+                    if(email_parent === kpi.children[i].owner_email){
+                        temp.push(self.createItem(kpi.children[i]));
+                    }
+                }
+            }
+            temp = temp.map(function (element) {
+                element.name_kpi_parent = kpi.name
+                return element
+            })
+            if (kpi.bsc_category == 'financial') {
+                //self.groupFinancial.push(temp)
+                self.groupFinancial.push.apply(self.groupFinancial, self.groupFinancial.concat.apply([], temp));
+            } else if (kpi.bsc_category == 'customer') {
+                self.groupCustomer.push.apply(self.groupCustomer, self.groupCustomer.concat.apply([], temp));
+            } else if (kpi.bsc_category == 'internal') {
+                self.groupInternal.push.apply(self.groupInternal, self.groupInternal.concat.apply([], temp));
+            } else if (kpi.bsc_category == 'learninggrowth') {
+                self.groupLearn.push.apply(self.groupLearn, self.groupLearn.concat.apply([], temp));
+            } else if (kpi.bsc_category == 'more') {
+                self.groupMore.push.apply(self.groupMore, self.groupMore.concat.apply([], temp));
+            } else {
+            }
         },
         search_user_limit: function () {
             var that = this;
@@ -590,14 +704,702 @@ var targetPage = new Vue({
                 }
             })
         },
+
+        downloadFile: function (wb, filename) {
+            if (wb) wb.xlsx.writeBuffer().then(function (buffer) {
+                var filesaver = saveAs(new Blob([buffer], {
+                    type: "application/octet-stream"
+                }), filename);
+
+                setTimeout(function () {
+                    window.close();
+                }, 4000);
+            });
+        },
+
+        get_simple_kpi: function () {
+            var self = this;
+            var wb = new ExcelJS.Workbook();
+            wb.creator = 'Cloudjet';
+            var ws = wb.addWorksheet('KPI',{pageSetup:{showGridLines:true,orientation:'landscape',paperSize: 9,fitToPage: true, fitToHeight: 0, fitToWidth: 1}});
+            ws.pageSetup.margins = {
+              left: 0.1, right: 0.1,
+              top: 0.2, bottom: 0.2,
+              header: 0.3, footer: 0.3
+            };
+
+            var headerData = {
+                row: 9,
+                height: 20,
+                columns: [{
+                    id: null,
+                    child: null,
+                    text: gettext('KPI Code'),
+                    slug: 'code',
+                    width: '20',
+                    style: 'center'
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('Group'),
+                    slug: 'group',
+                    width: '20',
+                    style: 'center'
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('Weight'),
+                    slug: 'weight',
+                    width: '20',
+                    style: 'center'
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('% Weight'),
+                    slug: 'weight_percent',
+                    width: '20',
+                    style: 'center'
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('KPI name'),
+                    slug: 'ten_KPI',
+                    width: '20',
+                    style: {
+                        alignment: {
+                            vertical: 'middle',
+                            horizontal: 'left',
+                            wrapText: true
+                        },
+                    }
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('Assign to'),
+                    slug: 'owner_email',
+                    width: '25',
+                    style: {
+                        alignment: {
+                            vertical: 'middle',
+                            horizontal: 'left',
+                            wrapText: true
+                        },
+                    }
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('Weight child'),
+                    slug: 'weight_child',
+                    width: '20',
+                    style: 'center'
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('% Weight child'),
+                    slug: 'weight_child_percent',
+                    width: '20',
+                    style: 'center'
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('Unit'),
+                    slug: 'unit',
+                    width: '20',
+                    style: 'center'
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('Measurement'),
+                    slug: 'current_goal',
+                    width: '20',
+                    style: {
+                        alignment: {
+                            vertical: 'middle',
+                            horizontal: 'left',
+                            wrapText: true
+                        },
+                    }
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('Data source'),
+                    slug: 'data_source',
+                    width: '20',
+                    style: 'center'
+                }, {
+                    id: null,
+                    child: null,
+                    text: gettext('Operator'),
+                    slug: 'operator',
+                    width: '20',
+                    style: 'center'
+                },{
+                    id: null,
+                    child: null,
+                    text: gettext('Method'),
+                    slug: 'score_calculation_type',
+                    width: '20',
+                    style: 'center'
+                },{
+                    id: null,
+                    text: gettext('Target'),
+                    slug: 'target',
+                    width: '20',
+                    style: 'center',
+                    child: [
+                        {
+                            text: gettext("Year"),
+                            slug: 'year',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 1"),
+                            slug: 'months_target.quarter_1.month_1',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 2"),
+                            slug: 'months_target.quarter_1.month_2',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 3"),
+                            slug: 'months_target.quarter_1.month_3',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Quarter 1"),
+                            slug: 'quarter_1',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 4"),
+                            slug: 'months_target.quarter_2.month_1',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 5"),
+                            slug: 'months_target.quarter_2.month_2',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 6"),
+                            slug: 'months_target.quarter_2.month_3',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Quarter 2"),
+                            slug: 'quarter_2',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 7"),
+                            slug: 'months_target.quarter_3.month_1',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 8"),
+                            slug: 'months_target.quarter_3.month_2',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 9"),
+                            slug: 'months_target.quarter_3.month_3',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Quarter 3"),
+                            slug: 'quarter_3',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 10"),
+                            slug: 'months_target.quarter_4.month_1',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 11"),
+                            slug: 'months_target.quarter_4.month_2',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Month 12"),
+                            slug: 'months_target.quarter_4.month_3',
+                            width: '20',
+                            style: 'center',
+                        },{
+                            text: gettext("Quarter 4"),
+                            slug: 'quarter_4',
+                            width: '20',
+                            style: 'center',
+                        }
+
+                    ]
+
+
+                }]
+            };
+
+            var headerFormat = {
+                alignment: {
+                    vertical: 'middle',
+                    horizontal: 'center',
+                    wrapText: true
+                },
+                font: {
+                    name: 'Arial',
+                    size: 12,
+                    color: {
+                        argb: 'FFFFFFFF'
+                    },
+                    bold: true
+                },
+                fill: {
+                    type: 'pattern',
+                    pattern: 'solid',
+                    bgColor: {
+                        argb: '008B8B'
+                    },
+                    fgColor: {
+                        argb: '008B8B'
+                    }
+                },
+                border: {
+                    top: {style: 'thin', color: {argb: 'FF000000'}},
+                    left: {style: 'thin', color: {argb: 'FF000000'}},
+                    bottom: {style: 'thin', color: {argb: 'FF000000'}},
+                    right: {style: 'thin', color: {argb: 'FF000000'}}
+                }
+            };
+
+            var headerInfoFormat = {
+                company: {
+                    alignment: {
+                        vertical: 'left',
+                        horizontal: 'left',
+                        wrapText: true
+                    },
+                    font: {
+                        name: 'Arial',
+                        size: 18,
+                        color: {
+                            argb: 'FF000000'
+                        },
+                        bold: true
+                    },
+                    fill: {
+                        type: 'pattern',
+                        pattern: 'solid',
+                        bgColor: {
+                            argb: 'FFFFFFFF'
+                        },
+                        fgColor: {
+                            argb: 'FFFFFFFF'
+                        }
+                    },
+
+                },
+                title: {
+                    alignment: {
+                        vertical: 'middle',
+                        horizontal: 'center',
+                        wrapText: true
+                    },
+                    font: {
+                        name: 'Arial',
+                        size: 16,
+                        color: {
+                            argb: 'FF000000'
+                        },
+                        bold: true
+                    },
+                    fill: {
+                        type: 'pattern',
+                        pattern: 'solid',
+                        bgColor: {
+                            argb: 'FFFFFFFF'
+                        },
+                        fgColor: {
+                            argb: 'FFFFFFFF'
+                        }
+                    },
+
+                },
+                info:{
+                    alignment: {
+                        vertical: 'left',
+                        horizontal: 'left',
+                        wrapText: true
+                    },
+                    font: {
+                        name: 'Arial',
+                        size: 12,
+                        color: {
+                            argb: 'FF000000'
+                        },
+                        bold: true
+                    },
+                    fill: {
+                        type: 'pattern',
+                        pattern: 'solid',
+                        bgColor: {
+                            argb: 'FFFFFFFF'
+                        },
+                        fgColor: {
+                            argb: 'FFFFFFFF'
+                        }
+                    },
+
+                }
+            };
+
+            var targetFormat = {
+                alignment: {
+                    vertical: 'middle',
+                    horizontal: 'center',
+                    wrapText: true
+                },
+                font: {
+                    name: 'Arial',
+                    size: 12,
+                    color: {
+                        argb: 'FFFFFFFF'
+                    },
+                    bold: true
+                },
+                fill: {
+                    type: 'pattern',
+                    pattern: 'solid',
+                    bgColor: {
+                        argb: '31859B'
+                    },
+                    fgColor: {
+                        argb: '31859B'
+                    }
+                },
+                border: {
+                    top: {style: 'thin', color: {argb: 'FF000000'}},
+                    left: {style: 'thin', color: {argb: 'FF000000'}},
+                    bottom: {style: 'thin', color: {argb: 'FF000000'}},
+                    right: {style: 'thin', color: {argb: 'FF000000'}}
+                }
+            };
+
+            var bodyFormat = {
+                alignment: {
+                    vertical: 'middle',
+                    horizontal: 'center',
+                    wrapText: true
+                },
+                font: {
+                    name: 'Arial',
+                    size: 12,
+                    color: {
+                        argb: 'FF000000'
+                    },
+                    bold: false
+                },
+                fill: {
+                    type: 'pattern',
+                    pattern: 'solid',
+                    bgColor: {
+                        argb: 'FFFFFFFF'
+                    },
+                    fgColor: {
+                        argb: 'FFFFFFFF'
+                    }
+                },
+                border: {
+                    top: {style: 'thin', color: {argb: 'FF000000'}},
+                    left: {style: 'thin', color: {argb: 'FF000000'}},
+                    bottom: {style: 'thin', color: {argb: 'FF000000'}},
+                    right: {style: 'thin', color: {argb: 'FF000000'}}
+                }
+            };
+
+            // hidden column A
+            ws.getColumn('A').hidden = true;
+
+            var end_column = 'AE';
+            // merge cell company name
+            ws.mergeCells('B1:' + end_column + '1');
+            // cell title
+            ws.mergeCells('B2:' + end_column + '5');
+            // cell title display_name
+            ws.mergeCells('B6:C6');
+            // cell title employee_code
+            ws.mergeCells('B7:C7');
+            // cell title email
+            ws.mergeCells('B8:C8');
+            // cell display_name
+            ws.mergeCells('D6:' + end_column + '6');
+            // cell employee_code
+            ws.mergeCells('D7:' + end_column + '7');
+            // cell email
+            ws.mergeCells('D8:' + end_column + '8');
+            // set value
+            setCellVal('B1', self.organization.name);
+            setCellVal('B2', 'BẢNG CHỈ TIÊU CÁ NHÂN');
+            // full name
+            setCellVal('B6', gettext('Full name'));
+            setCellVal('D6', self.user_profile.display_name);
+            // employee_code
+            setCellVal('B7', gettext('Employee code'));
+            setCellVal('D7', self.user_profile.employee_code);
+            // email
+            setCellVal('B8', 'Email');
+            setCellVal('D8', self.user_profile.email);
+
+
+            // set format
+            setFormatCell('B1', headerInfoFormat.company);
+            setFormatCell('B2', headerInfoFormat.title);
+            setFormatCell('B6', headerInfoFormat.info);
+            setFormatCell('D6', headerInfoFormat.info);
+
+            setFormatCell('B7', headerInfoFormat.info);
+            setFormatCell('D7', headerInfoFormat.info);
+
+            setFormatCell('B8', headerInfoFormat.info);
+            setFormatCell('D8', headerInfoFormat.info);
+
+            renderHeader(headerData, headerFormat);
+            totalWeight(this.tableData);
+            renderData(this.tableData, headerData);
+
+
+
+            function renderHeader(headerData, headerFormat) {
+                row = headerData.row;
+                var id_start = 'B';
+                ws.getRow(row).height = headerData.height;
+                headerData.columns.forEach(function (col, index) {
+                    setWidthCol(id_start, col.width);
+                    cell = id_start + row;
+                    if (col.child){
+                        setValueCell(cell, col.text);                   // set value target
+                        setFormatCell(cell, headerFormat);
+                        var row_child = row + 1;                         // merge cell target
+                        ws.mergeCells(cell + ':' + (end_column + row));
+                        col.child.forEach(function (child) {            // render year target -> month target
+                            cell_child = id_start + row_child;
+                            setWidthCol(id_start, child.width);
+                            setValueCell(cell_child, child.text);
+                            setFormatCell(cell_child, targetFormat);
+                            id_start = id_start.nextChar();
+                        })
+                    }else{
+                        ws.mergeCells(id_start + '9:' + id_start + '10');
+                        setFormatCell(cell, headerFormat);
+                        setValueCell(cell, col.text);
+                    }
+                    id_start = id_start.nextChar();
+                });
+            }
+
+
+            // https://stackoverflow.com/questions/24221803/javascript-access-object-multi-level-property-using-variable
+            function resolve(obj, path){
+                if (path == 'weight_percent'){
+                    return 'weight_percent'
+                }
+                if (path == 'weight_child_percent'){
+                    return 'weight_child_percent'
+                }
+                path = path.split('.');
+                var current = obj;
+                while(path.length) {
+                    if(typeof current !== 'object') return undefined;
+                    current = current[path.shift()];
+                }
+                return current;
+            }
+
+            function totalWeight(tableData) {
+                total = 0;
+                tableData.forEach(function (row) {
+                    if (row.weight != undefined && !row.refer_to ){
+                        total = total + row.weight;
+                    }
+                    this.total_weight = total;
+                })
+            }
+
+            function renderData(tableData, headerData) {
+                start_row = 11;
+                var id_start = 'B';
+                var val = '';
+                var total_weight_percent = 0;
+                tableData.forEach(function (row) {
+                    if (!row.isGroup){
+                        headerData.columns.forEach(function (col) {
+                        setWidthCol(id_start, col.width);
+                        cell = id_start + start_row;
+                        if (col.child) {
+                            col.child.forEach(function (child) {            // render cell year target -> cell quarter 4 target
+                                cell = id_start + start_row;
+                                val = resolve(row, child.slug);
+                                setCellVal(cell, val);
+                                setFormatCell(cell, bodyFormat);
+                                id_start = id_start.nextChar();             // sang chu tiep thep eg: A -> B
+                            })
+                        } else {
+                            val = resolve(row, col.slug);
+                            // if (!row.refer_to){}
+                            if (val == 'weight_percent') {
+                                if (!row.refer_to){
+                                    val = (row.weight / this.total_weight);
+                                    total_weight_percent = total_weight_percent + val;
+                                    setNumFormat(cell, '0.00%')
+                                }else{
+                                    val = '';
+                                }
+
+                            }
+                            if (val == 'weight_child_percent'){
+                                if (row.refer_to){
+                                    var total_weight_child = 0;
+                                    tableData.forEach(function (_row) {
+                                        if (_row.refer_to == row.refer_to){
+                                            total_weight_child += _row.weight_child;
+                                        }
+                                    });
+                                    val = (row.weight_child / total_weight_child);
+                                    setNumFormat(cell, '0.00%')
+                                }else{
+                                    val ='';
+                                }
+                            }
+                            setCellVal(cell, val);
+                            setFormatCell(cell, bodyFormat);
+                            setFormatCell(cell, col.style);
+
+                        }
+                        id_start = id_start.nextChar();
+
+                        });
+                        id_start = 'B';
+                        start_row++;
+                    }
+
+                });
+                setValueCell((id_start + start_row ), gettext('Sum'));
+                setValueCell(('D' + start_row ), this.total_weight);
+
+                setValueCell(('E' + start_row ), total_weight_percent);
+                setNumFormat('E' + start_row, '0.00%');
+                headerData.columns.forEach(function (col) {         // set mau dong cuoi cung
+                    cell = id_start + start_row;
+                    if (col.child){
+                        setFormatCell(cell, headerFormat);
+                        col.child.forEach(function (child) {
+                            cell_child = id_start + start_row;
+                            setFormatCell(cell_child, headerFormat);
+                            id_start = id_start.nextChar();
+                        })
+                    }else{
+                        setFormatCell(cell, headerFormat);
+                    }
+                    id_start = id_start.nextChar();
+                });
+
+
+            }
+
+
+
+
+            var date = new Date();
+            var today = self.user_profile.email + date.getDate() + '.' + parseInt(date.getMonth() + 1) + '.' + date.getFullYear();
+            window.wb = wb;
+            self.downloadFile(wb, today + '.xlsx');
+
+
+            function setNumFormat(cell, format) {
+                if (cell && format) {
+                    ws.getCell(cell).numFmt = format;
+                }
+            }
+
+            function setWidthCol(col, width) {
+                if (col && width) ws.getColumn(col).width = width;
+            }
+
+            function setCellVal(cell, value, notWrap) {
+                if (cell && value!=null)
+                    ws.getCell(cell).value = value;
+                if (notWrap == null)
+                    ws.getCell(cell).alignment = {wrapText: true};
+                else if (notWrap == true)
+                    ws.getCell(cell).alignment = {wrapText: false};
+            }
+
+            function setValueCell(cell, text) {
+                cell = ws.getCell(cell);
+
+                cell.value = text;
+            }
+
+            function setCellFormat(cell, format) {
+                cell = ws.getCell(cell);
+                if (format) {
+                    if (format.hasOwnProperty('alignment')) {
+                        cell.alignment = format.alignment;
+                    }
+                    if (format.hasOwnProperty('font')) {
+                        cell.font = format.font;
+                    }
+                    if (format.hasOwnProperty('fill')) {
+                        cell.fill = format.fill;
+                    }
+                    if (format.hasOwnProperty('border')) {
+                        cell.border = format.border;
+                    }
+                }
+
+            }
+
+            function setFormatCell(cell, format) {
+                cell = ws.getCell(cell);
+                if (format) {
+                    if (format.hasOwnProperty('alignment')) {
+                        cell.alignment = format.alignment;
+                    }
+                    if (format.hasOwnProperty('font')) {
+                        cell.font = format.font;
+                    }
+                    if (format.hasOwnProperty('fill')) {
+                        cell.fill = format.fill;
+                    }
+                    if (format.hasOwnProperty('border')) {
+                        cell.border = format.border;
+                    }
+                }
+            }
+
+            function setFormatRange(fromCol, toCol, fromRow, toRow, format) {
+                fromCol = fromCol.charCodeAt(0);
+                toCol = toCol.charCodeAt(0);
+                for (var i = fromCol; i <= toCol; i++) {
+                    for (var j = fromRow; j <= toRow; j++) {
+                        setCellFormat(String.fromCharCode(i) + j, format);
+                    }
+                }
+            }
+
+
+
+        },
     },
     created: function () {
         window.targetApp = this;
         this.option = $('#change-style-drop').children().eq(0).text();
         this.isShowMonth = true;
-        this.storage_user = this.getHistoryStorageByEmail(COMMON.UserRequestEmail)
+        this.storage_user = this.getHistoryStorageByEmail(COMMON.UserRequestEmail);
         this.get_surbodinate_user_viewed();
-        this.setCurrentUser(COMMON.UserViewedId, COMMON.UserName)
+        this.setCurrentUser(COMMON.UserViewedId, COMMON.UserName);
+        this.getOrg();
+        this.getUserProfile();
         // console.log("======> show enable target<===========")
         // console.log(COMMON.UserIsAdmin)
         // console.log(COMMON.UserIsSuperUser)

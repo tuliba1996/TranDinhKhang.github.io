@@ -247,14 +247,14 @@
 .modal-footer .btn-cancel{
     color: #333333;
     text-align: center;
-    width: 70px;
+    min-width: 70px;
     height: 34px;
     border-radius: 3px;
     border: 1px solid #e4e4e4;
     background: #fff;
 }
 .modal-footer .btn-add{
-    width: 70px;
+    min-width: 70px;
     height: 34px;
     background-color: #008b8b;
     color:white;
