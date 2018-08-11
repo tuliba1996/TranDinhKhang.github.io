@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --recursive \"./**/*test*/test_*.js\"",
+    "test": "nyc mocha --recursive \"./**/*test*/test_*.js\"",
     "deploy": "find . -name \"*.md\" -type f -delete && git add . && git commit -am \"build and commit\" && git push origin master -f"
   },
   "repository": {
