@@ -74,9 +74,9 @@ function formatDateToTimeString(date){
     // 01, 02, 03, ... 29, 30, 31
     var hh = date.getHours()
     // 01, 02, 03, ... 10, 11, 12
-    var mm = ((date.getMinutes() + 1) < 10 ? '0' : '') + (date.getMinutes() + 1);
+    var mm = ((date.getMinutes() + 1) < 10 ? '0' : '') + (date.getMinutes());
     // 1970, 1971, ... 2015, 2016, ...
-    var ss =((date.getSeconds() + 1) < 10 ? '0' : '') + (date.getSeconds() + 1);
+    var ss =((date.getSeconds() + 1) < 10 ? '0' : '') + (date.getSeconds());
     // create the format you want
     return (hh + ":" + mm + ":" + ss);
 }
@@ -169,4 +169,11 @@ function initModalHidden(modalSelector,callback){ // required jquery
         }
     })
 
+}
+
+
+// If we're running under Node,
+if(typeof exports !== 'undefined') {
+    exports.extractFileName = extractFileName;
+    exports.formatDateToTimeString = formatDateToTimeString;
 }

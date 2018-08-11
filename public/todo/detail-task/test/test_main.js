@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-var todoMain = require('../public/todo/detail-task/js/main.js')
+var todoMain = require('../js/main.js')
 
 describe('Array', function() {
   describe('#indexOf()', function() {
