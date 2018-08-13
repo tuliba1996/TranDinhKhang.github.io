@@ -2896,13 +2896,6 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
     font-weight: bold;
 }
 
-#target .subordinator-search {
-    padding: 15px 0px 0px 20px !important
-}
-
-#target .line-manager-search {
-    padding: 15px 0px 0px 20px !important
-}
 
 #target .item-manager {
     padding-bottom: 10px;
