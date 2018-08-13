@@ -1631,7 +1631,15 @@ a:hover {
     font-size: 20px;
 }
 
+.material-icons.font-18 {
+    font-size: 18px;
+    position: relative;
+    bottom: -4px;
+    margin-top: -9px;
+}
+
 .material-icons.font-20 {
+    font-size: 20px;
     position: relative;
     bottom: -4px;
     margin-top: -9px;
@@ -1767,6 +1775,26 @@ a:hover {
 
 .btn-cus-white {
     background-color: #fff;
+}
+
+.btn-del{
+    background-color: #fff;
+    border-radius: 3px;
+    border: solid 1px #e4e4e4;
+    color: #333333;
+}
+.btn-del:hover{
+    border-radius: 3px;
+    background-color: #d9534f;
+    border: solid 1px #d9534f;
+    color: white;
+}
+
+.btn-del:hover .material-icons{
+    color: white;
+}
+.btn-del:active{
+    background-color: #c65351;
 }
 
 .btn-fullwidth {
@@ -2616,7 +2644,10 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
 }
 
 .target-page .change-style .dropdown-menu li a:hover {
-    background: #ccc;
+    background: #ffffff;
+    text-align: left;
+    color: #008b8b;
+    font-size: 14px;
 }
 
 .tbl-target {
@@ -2982,7 +3013,7 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
     margin-top: 10px;
 }
 #target .el-table .sub-link{
-    display: inline-block;
+    /*display: inline-block;*/
     cursor: pointer;
     position: relative;
     top: -2px;
@@ -2990,10 +3021,11 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
     padding: 0px 3px;
     color: #008b8b;
     border-radius: 4px;
-    border: 2px solid #008b8b
+    border: 2px solid #008b8b;
+    margin: 0px 3px 0px 0px;
 }
 #target .el-table .kpi-name{
-    display: inline-block;
+    /*display: inline-block;*/
 }
 #target .content-kpi-name{
     text-align: left;
@@ -3141,3 +3173,4 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
 #id-kpilib .el-select input {
     height: 34px;
 }
+#

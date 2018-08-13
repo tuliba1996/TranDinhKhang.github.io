@@ -645,7 +645,7 @@ var targetPage = new Vue({
                 self.groupInternal.push.apply(self.groupInternal, self.groupInternal.concat.apply([], temp));
             } else if (kpi.bsc_category == 'learninggrowth') {
                 self.groupLearn.push.apply(self.groupLearn, self.groupLearn.concat.apply([], temp));
-            } else if (kpi.bsc_category == 'more') {
+            } else if (kpi.bsc_category == 'other') {
                 self.groupMore.push.apply(self.groupMore, self.groupMore.concat.apply([], temp));
             } else {
             }
@@ -836,7 +836,7 @@ var targetPage = new Vue({
                 },{
                     id: null,
                     child: null,
-                    text: gettext('Method'),
+                    text: gettext('Target alignment'),
                     slug: 'score_calculation_type',
                     width: '20',
                     style: 'center'
@@ -1116,6 +1116,7 @@ var targetPage = new Vue({
                     right: {style: 'thin', color: {argb: 'FF000000'}}
                 }
             };
+            console.log("header data:", headerData);
 
             // hidden column A
             ws.getColumn('A').hidden = true;
@@ -1245,6 +1246,10 @@ var targetPage = new Vue({
                             })
                         } else {
                             val = resolve(row, col.slug);
+                            if (col.slug == 'score_calculation_type'){
+                                val = gettext(val);
+                                console.log("type:", val);
+                            }
                             // if (!row.refer_to){}
                             if (val == 'weight_percent') {
                                 if (!row.refer_to){

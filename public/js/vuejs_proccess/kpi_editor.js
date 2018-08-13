@@ -1104,8 +1104,8 @@ var v = new Vue({
                     count += 1;
                     //console.log(group_in_category)
                 }
-
             }
+
             this.list_group = listGroup;
             // console.log("======================tttttttttt===================")
             // console.log(this.list_group)

@@ -31,7 +31,7 @@ function get_managers_for_new_person(node) {
 
 function create_inner_html(node) {
 	var name = node.name.replace(/^(.{15}[^\s]*).*/, "$1");
-	if (node.name.length > 15) {
+	if (node.name.length > 15 && node.name.length != name.length) {
 		name += "...";
 	}
 	var html = `
@@ -107,7 +107,7 @@ function getTree(nodeId, level, onComplete) {
     });
 }
 
-function init() {
+function init(data) {
     //init data
     $jit.ST.Plot.NodeTypes.implement({
         'nodeline': {
@@ -213,6 +213,9 @@ function init() {
             style.fontSize = '1em';
             style.textAlign = 'center';
             style.paddingTop = '3px';
+            setTimeout(function () {
+            	$('.title').tooltip();
+            }, 1000);
         },
 
         //This method is called right before plotting
@@ -258,6 +261,9 @@ function init() {
             }
         }
     });
+    if (data) {
+    	dataSource = data;
+    }
     //load json data
     st.loadJSON(dataSource);
     //compute node positions and layout
@@ -340,17 +346,12 @@ function search_position(id) {
                     node_search_list = res;
                     node_search_list = adjust_node_ids(node_search_list);
                     reach_node(node_search_list);
-
-
                 },
                 error: function () {
-
+                	PositionApp.loading = false;
                 }
             });
-
         }
-
-
     } else {
         alert(gettext("Emloyee's name field cannot be empty or is incorrect"));
         $(".mango_search_input").focus();
@@ -360,7 +361,6 @@ function search_position(id) {
 }
 
 function reach_node() {
-
     if (node_search_list.length) {
         var thenode_id = node_search_list[node_search_list.length - 1];
         var found_node_id = null;
@@ -395,6 +395,7 @@ function reach_node() {
             // st.onClick(found_node_id);
             // st.refresh();
         }
-
+    } else {
+    	PositionApp.loading = false;
     }
 }

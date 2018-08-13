@@ -51,7 +51,13 @@
 	display: block;
 }
 .el-parent-position .el-input__inner {
-	height: 34px;
+	height: 34px !important;
+}
+.el-parent-position .el-input.is-disabled .el-input__inner {
+	background-color: #eee;
+    opacity: 1;
+	box-shadow: none;
+    border: 1px solid rgb(171, 171, 171);
 }
 @font-face {
     font-family: "Helvetica Neue Medium";
@@ -243,10 +249,6 @@ text-decoration: underline;
 #list_surbodinates_position a:hover{
     background:white;
     cursor:pointer;
-}
-#list_surbodinates_position a:hover > .name-surbodinates-position span{
-    color:#008b8b;
-    text-decoration: underline;
 }
 .name-personal {
   color:#333333;
