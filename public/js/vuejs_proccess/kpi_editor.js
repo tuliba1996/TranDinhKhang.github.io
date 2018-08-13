@@ -1110,13 +1110,20 @@ var v = new Vue({
             // console.log("======================tttttttttt===================")
             // console.log(this.list_group)
         },
+
+
+
+
         getListGroupV2: function(){
             //debugger;
             var self = this;
             var listGroup = [];
-            var result = {}
+            var result = {};
             var index = 0;
-            console.log("parent kpi", self.getKPIParent());
+
+
+            /*
+            // console.log("parent kpi", self.getKPIParent());
             for(var kpi_id in self.getKPIParent()){
 
                 console.log("elm:", kpi_id);
@@ -1126,21 +1133,62 @@ var v = new Vue({
                     category: self.kpi_list[kpi_id].bsc_category,
                     refer_to: self.kpi_list[kpi_id].refer_to, // if this KPI is assigned to user
                     id: self.kpi_list[kpi_id].group_kpi
-                }
+                };
                 //
                 var matchedGroup = self.findGroupByID(group.id, listGroup);
                 // if found group by id that does not exist in current listGroup -> push into list Group
                 if (matchedGroup === -1){
-                    result[index] = group
+                    result[index] = group;
                     index++;
                     listGroup.push(group);
                 }
             }
-            self.$set('list_group',result)
+
+            var parent_kpis = self.getKPIParent();
+
+            function unique(array){
+                return $.grep(array,function(el,index){
+                    return index == $.inArray(el,array);
+                });
+            }
+
+            */
+
+            //groups=$.map(parent_kpis, function(kpi, index){
+            var groups = $.map(self.kpi_list, function(kpi, index){
+                var group = {
+                    name: kpi.refer_group_name,
+                    slug: kpi.kpi_refer_group,
+                    category: kpi.bsc_category,
+                    // refer_to: self.kpi_list[kpi_id].refer_to, // if this KPI is assigned to user
+                    // id: self.kpi_list[kpi_id].group_kpi
+                };
+                return group;
+            });
+
+            // self.kpi_list[kpi_id].kpi_refer_group
+            var result=$.grep(groups,function(group, index){
+                // return index == $.inArray(group, array);
+                var first_index_found=groups.findIndex(g => g.slug == group.slug);
+                return index == first_index_found;
+                // return index == $.inArray(group, array);
+            });
+
+            self.$set('list_group',result);
+
+
             // self.list_group = listGroup;
-            // console.log("====================== list group ===================")
-            // console.log(this.list_group)
+            console.log("====================== list group ===================")
+            console.log(this.list_group)
         },
+
+
+
+
+
+
+
+
 
         delete_all_kpis: function () {
             cloudjetRequest.ajax({
