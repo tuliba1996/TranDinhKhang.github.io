@@ -697,7 +697,7 @@ var targetPage = new Vue({
                 url: '/api/team/?user_id=' + COMMON.UserViewedId,
                 success: function (data) {
                     // console.log(data)
-                    that.list_surbodinates_user_viewed = data;
+                    that.list_surbodinates_user_viewed = data.length > 0 ? data : [];
                     this.has_manage = that.list_surbodinates_user_viewed.length > 0
                     // console.log("=============surbodinate user==========")
                     // console.log(this.has_manage)
