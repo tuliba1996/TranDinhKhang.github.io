@@ -568,7 +568,10 @@ var targetPage = new Vue({
                 type: 'GET',
                 url: '/api/v2/user/' + this.currentUserId + '/kpis/',
                 success: function (result) {
-                    self.kpiList = result;
+
+                    self.kpiList = result.filter(function(elm){
+                        return elm.user === self.currentUserId
+                    });
                     self.groupFinancial = []
                     self.groupCustomer = []
                     self.groupInternal = []
@@ -723,9 +726,9 @@ var targetPage = new Vue({
             wb.creator = 'Cloudjet';
             var ws = wb.addWorksheet('KPI',{pageSetup:{showGridLines:true,orientation:'landscape',paperSize: 9,fitToPage: true, fitToHeight: 0, fitToWidth: 1}});
             ws.pageSetup.margins = {
-              left: 0.1, right: 0.1,
-              top: 0.2, bottom: 0.2,
-              header: 0.3, footer: 0.3
+                left: 0.1, right: 0.1,
+                top: 0.2, bottom: 0.2,
+                header: 0.3, footer: 0.3
             };
 
             var headerData = {
@@ -1234,53 +1237,53 @@ var targetPage = new Vue({
                 tableData.forEach(function (row) {
                     if (!row.isGroup){
                         headerData.columns.forEach(function (col) {
-                        setWidthCol(id_start, col.width);
-                        cell = id_start + start_row;
-                        if (col.child) {
-                            col.child.forEach(function (child) {            // render cell year target -> cell quarter 4 target
-                                cell = id_start + start_row;
-                                val = resolve(row, child.slug);
+                            setWidthCol(id_start, col.width);
+                            cell = id_start + start_row;
+                            if (col.child) {
+                                col.child.forEach(function (child) {            // render cell year target -> cell quarter 4 target
+                                    cell = id_start + start_row;
+                                    val = resolve(row, child.slug);
+                                    setCellVal(cell, val);
+                                    setFormatCell(cell, bodyFormat);
+                                    id_start = id_start.nextChar();             // sang chu tiep thep eg: A -> B
+                                })
+                            } else {
+                                val = resolve(row, col.slug);
+                                if (col.slug == 'score_calculation_type'){
+                                    val = gettext(val);
+                                    console.log("type:", val);
+                                }
+                                // if (!row.refer_to){}
+                                if (val == 'weight_percent') {
+                                    if (!row.refer_to){
+                                        val = (row.weight / this.total_weight);
+                                        total_weight_percent = total_weight_percent + val;
+                                        setNumFormat(cell, '0.00%')
+                                    }else{
+                                        val = '';
+                                    }
+
+                                }
+                                if (val == 'weight_child_percent'){
+                                    if (row.refer_to){
+                                        var total_weight_child = 0;
+                                        tableData.forEach(function (_row) {
+                                            if (_row.refer_to == row.refer_to){
+                                                total_weight_child += _row.weight_child;
+                                            }
+                                        });
+                                        val = (row.weight_child / total_weight_child);
+                                        setNumFormat(cell, '0.00%')
+                                    }else{
+                                        val ='';
+                                    }
+                                }
                                 setCellVal(cell, val);
                                 setFormatCell(cell, bodyFormat);
-                                id_start = id_start.nextChar();             // sang chu tiep thep eg: A -> B
-                            })
-                        } else {
-                            val = resolve(row, col.slug);
-                            if (col.slug == 'score_calculation_type'){
-                                val = gettext(val);
-                                console.log("type:", val);
-                            }
-                            // if (!row.refer_to){}
-                            if (val == 'weight_percent') {
-                                if (!row.refer_to){
-                                    val = (row.weight / this.total_weight);
-                                    total_weight_percent = total_weight_percent + val;
-                                    setNumFormat(cell, '0.00%')
-                                }else{
-                                    val = '';
-                                }
+                                setFormatCell(cell, col.style);
 
                             }
-                            if (val == 'weight_child_percent'){
-                                if (row.refer_to){
-                                    var total_weight_child = 0;
-                                    tableData.forEach(function (_row) {
-                                        if (_row.refer_to == row.refer_to){
-                                            total_weight_child += _row.weight_child;
-                                        }
-                                    });
-                                    val = (row.weight_child / total_weight_child);
-                                    setNumFormat(cell, '0.00%')
-                                }else{
-                                    val ='';
-                                }
-                            }
-                            setCellVal(cell, val);
-                            setFormatCell(cell, bodyFormat);
-                            setFormatCell(cell, col.style);
-
-                        }
-                        id_start = id_start.nextChar();
+                            id_start = id_start.nextChar();
 
                         });
                         id_start = 'B';
