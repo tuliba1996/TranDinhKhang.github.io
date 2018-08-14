@@ -569,9 +569,13 @@ var targetPage = new Vue({
                 url: '/api/v2/user/' + this.currentUserId + '/kpis/',
                 success: function (result) {
 
-                    self.kpiList = result.filter(function(elm){
-                        return elm.user === self.currentUserId
-                    });
+                    self.kpiList = result.map(function(elmParent){
+                        elmParent.children = elmParent.children.filter(function(elm){
+                            return parseInt(elm.user) === parseInt(self.currentUserId)
+                        });
+                        return elmParent
+                    })
+                    self.kpiList = result
                     self.groupFinancial = []
                     self.groupCustomer = []
                     self.groupInternal = []
