@@ -978,6 +978,11 @@ div.btn-wrapper .btn {
 .pd-bt-15 {
     padding-bottom: 15px;
 }
+
+.pd-bt-20 {
+    padding-bottom: 20px;
+}
+
 .pd-12{
     padding: 12px;
 }
@@ -1649,7 +1654,7 @@ a:hover {
 .material-icons.font-20.icon-add {
     bottom: -4px;
     margin-top: -9px;
-    color: #008b8b !important;
+    color: white !important
 }
 
 .material-icons.font-20.clear {
@@ -1671,7 +1676,7 @@ a:hover {
 .material-icons.font-14 {
     position: relative;
     bottom: -1px;
-    margin-top: -1px;
+    margin-top: -2px;
     font-size: 14px;
 }
 
@@ -1688,12 +1693,6 @@ a:hover {
 
 .btn-normal .material-icons.font-20 {
     color: #333;
-}
-
-.btn.btn-normal.btn-add-kpi {
-    border: solid 1px #008b8b;
-    background-color: white;
-    display: none;
 }
 
 .btn-normal:hover {
@@ -3166,4 +3165,3 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
 #id-kpilib .el-select input {
     height: 34px;
 }
-#

@@ -763,7 +763,14 @@ Vue.directive('autofocus', {
         }, 100);
     },
 })
-
+function findRootKPI(kpi_id,kpi_list){
+    var parent_id = kpi_list[kpi_id].refer_to
+    if (kpi_list[parent_id] === undefined){
+        return kpi_id
+    }else{
+        return findRootKPI(parent_id,kpi_list)
+    }
+}
 var v = new Vue({
     el: '#container',
     data: {
@@ -1117,9 +1124,7 @@ var v = new Vue({
         getListGroupV2: function(){
             //debugger;
             var self = this;
-            var listGroup = [];
-            var result = {};
-            var index = 0;
+            var listGroup = {};
 
 
             /*
@@ -1160,7 +1165,7 @@ var v = new Vue({
                     name: kpi.refer_group_name,
                     slug: kpi.kpi_refer_group,
                     category: kpi.bsc_category,
-                    // refer_to: self.kpi_list[kpi_id].refer_to, // if this KPI is assigned to user
+                    refer_to: kpi.refer_to, // if this KPI is assigned to user
                     // id: self.kpi_list[kpi_id].group_kpi
                 };
                 return group;
@@ -1174,10 +1179,14 @@ var v = new Vue({
                 // return index == $.inArray(group, array);
             });
 
-            self.$set('list_group',result);
+            for(var index in result){
+                listGroup[index] = result[index] // note: convert result to dict, not list
+            }
+
+            // self.$set('list_group',listGroup);
 
 
-            // self.list_group = listGroup;
+            self.list_group = listGroup;
             console.log("====================== list group ===================")
             console.log(this.list_group)
         },
@@ -1889,7 +1898,10 @@ var v = new Vue({
             resetErrorWhenShow();
         },
         formatTime: function (time) {
-            return moment(time).format('DD-MM-YYYY ss:mm:HH');
+            if (COMMON.LanguageCode == 'en'){
+                return moment(time).format('YYYY-MM-DD HH:mm:ss');
+            }
+            return moment(time).format('HH:mm:ss DD/MM/YYYY');
         },
         check_quarter_plan: function (kpi_id, type) {
             var that = this;
@@ -2362,8 +2374,11 @@ var v = new Vue({
                 success: function (data) {
                     console.log("success");
                     that.get_current_employee_performance();
-                    that.$set('kpi_list['+kpi.id+ ']',data)
-                    that.getListGroupV2()
+                    that.$set('kpi_list['+kpi.id+ ']',data);
+
+                    // this line will trigger rebuild editor because of changing group list
+                    // but, this is not good solution
+                    that.getListGroupV2();
                     //$('.group-header-kpi-name' + kpi.id).text(kpi.refer_group_name);
                     if (typeof callback == "function") {
                         callback(0);
@@ -3283,7 +3298,16 @@ var v = new Vue({
                 that.update_month_target(kpi);
             })
         },
-
+        findRootKPI: function(kpi_id){
+            return findRootKPI(kpi_id,this.kpi_list)
+        },
+        triggeredReloadTargetPerformance: function(child_id){
+            var self = this;
+            var root_id = self.findRootKPI(child_id)
+            if (parseInt(child_id) !== root_id) {
+                $('#kpi_reload' + root_id).click()
+            }
+        },
         update_score: function (kpi, update_quarter_target, callback = null) {
             //alert(kpi.id)
             //this.calculate_total_weight();
@@ -3347,6 +3371,7 @@ var v = new Vue({
                             that.kpi_list[kpi.id].latest_score = data.score; //JSON.parse(data);
                             that.kpi_list[kpi.id].real = data.real; //JSON.parse(data);
                             that.get_current_employee_performance();
+                            that.triggeredReloadTargetPerformance(kpi.id)
 
                             success_requestcenter(gettext("Update successful!"));
                         },
