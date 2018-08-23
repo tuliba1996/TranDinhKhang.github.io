@@ -1101,7 +1101,7 @@ var v = new Vue({
                     && (this.kpi_list[kpi].refer_to == null || this.kpi_list[this.kpi_list[kpi].refer_to] == null)) {
                     listGroup[count] = {
                         name: this.kpi_list[kpi].refer_group_name,
-                        slug: this.kpi_list[kpi].kpi_refer_group,
+                        slug: this.kpi_list[kpi].bsc_category + this.kpi_list[kpi].kpi_refer_group,
                         category: this.kpi_list[kpi].bsc_category,
                         refer_to: this.kpi_list[kpi].refer_to,
                         id: this.kpi_list[kpi].kpi_group_id
@@ -1120,6 +1120,11 @@ var v = new Vue({
 
 
 
+
+        compareArrays:function(arr1, arr2) {
+            // only for array of string values. Other types was not test
+            return $(arr1).not(arr2).length == 0 && $(arr2).not(arr1).length == 0
+        },
 
         getListGroupV2: function(){
             //debugger;
@@ -1158,12 +1163,12 @@ var v = new Vue({
             }
 
             */
-
-            //groups=$.map(parent_kpis, function(kpi, index){
-            var groups = $.map(self.kpi_list, function(kpi, index){
+            var parent_kpis = self.getKPIParent();
+            var groups = $.map(parent_kpis, function(kpi, index){
                 var group = {
                     name: kpi.refer_group_name,
-                    slug: kpi.kpi_refer_group,
+                    slug_no_category: kpi.kpi_refer_group ,
+                    slug: kpi.bsc_category + kpi.kpi_refer_group ,
                     category: kpi.bsc_category,
                     refer_to: kpi.refer_to, // if this KPI is assigned to user
                     // id: self.kpi_list[kpi_id].group_kpi
@@ -1171,22 +1176,37 @@ var v = new Vue({
                 return group;
             });
 
+
             // self.kpi_list[kpi_id].kpi_refer_group
-            var result=$.grep(groups,function(group, index){
+            var unique_groups=$.grep(groups,function(group, index){
                 // return index == $.inArray(group, array);
                 var first_index_found=groups.findIndex(g => g.slug == group.slug);
                 return index == first_index_found;
                 // return index == $.inArray(group, array);
             });
 
-            for(var index in result){
-                listGroup[index] = result[index] // note: convert result to dict, not list
+            var unique_group_slugs=$.map(unique_groups, function(g, index){
+                return g.slug;
+            });
+            var pre_unique_group_slugs=$.map(self.list_group, function(g, index){
+                return g.slug;
+            });
+
+
+            if(self.compareArrays(unique_group_slugs, pre_unique_group_slugs) === false){
+                    unique_groups.sort(function(g1, g2){
+                        var g1 = g1.bsc_category + (g1.slug_no_category == 'none'?"":g1.slug_no_category);
+                        var g2 = g2.bsc_category + (g2.slug_no_category == 'none'?"":g2.slug_no_category);
+                        return g2.localeCompare(g1);
+                    });
+                self.$set('list_group',unique_groups);
+
             }
 
-            // self.$set('list_group',listGroup);
+            // self.$set('list_group',result);
 
 
-            self.list_group = listGroup;
+            // self.list_group = listGroup;
             console.log("====================== list group ===================")
             console.log(this.list_group)
         },
@@ -2374,11 +2394,9 @@ var v = new Vue({
                 success: function (data) {
                     console.log("success");
                     that.get_current_employee_performance();
-                    that.$set('kpi_list['+kpi.id+ ']',data);
-
-                    // this line will trigger rebuild editor because of changing group list
-                    // but, this is not good solution
-                    that.getListGroupV2();
+                    var update_kpi = Object.assign(that.kpi_list[kpi.id], data);
+                    that.$set('kpi_list['+kpi.id+ ']', update_kpi);
+                    that.getListGroupV2()
                     //$('.group-header-kpi-name' + kpi.id).text(kpi.refer_group_name);
                     if (typeof callback == "function") {
                         callback(0);
