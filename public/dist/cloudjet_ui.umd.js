@@ -452,6 +452,21 @@ module.exports = function (it, key) {
 
 /***/ }),
 
+/***/ "0a1a":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("2350")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.centered[data-v-3494f663]{left:50%;position:fixed;top:50%;transform:translate(-50%,-50%)\n}\n#app-demo[data-v-3494f663]{font-family:Helvetica,sans-serif;text-align:center\n}\n.main-modal[data-v-3494f663]{cursor:pointer;display:inline;font-family:Helvetica Neue,Helvetica,sans-serif\n}\n.main-modal .close[data-v-3494f663]{border:none\n}\n.main-modal .modal-title[data-v-3494f663]{color:#333;font-size:20px;font-weight:700\n}\n.main-modal .modal-dialog[data-v-3494f663]{min-width:900px\n}\n.main-modal .modal-content[data-v-3494f663]{border:none;border-radius:3px;box-shadow:none;min-height:615px\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "0bfb":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -53333,21 +53348,6 @@ var index = (function () {
 
 /***/ }),
 
-/***/ "6e29":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("2350")(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n.centered[data-v-23b94b56]{left:50%;position:fixed;top:50%;transform:translate(-50%,-50%)\n}\n#app-demo[data-v-23b94b56]{font-family:Helvetica,sans-serif;text-align:center\n}\n.main-modal[data-v-23b94b56]{cursor:pointer;display:inline;font-family:Helvetica Neue,Helvetica,sans-serif\n}\n.main-modal .close[data-v-23b94b56]{border:none\n}\n.main-modal .modal-title[data-v-23b94b56]{color:#333;font-size:20px;font-weight:700\n}\n.main-modal .modal-dialog[data-v-23b94b56]{min-width:900px\n}\n.main-modal .modal-content[data-v-23b94b56]{border:none;border-radius:3px;box-shadow:none;min-height:615px\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
 /***/ "71c1":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -54231,6 +54231,17 @@ NAME in FProto || __webpack_require__("9e1e") && dP(FProto, NAME, {
   }
 });
 
+
+/***/ }),
+
+/***/ "7fb8":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_3494f663_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("b1f7");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_3494f663_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_3494f663_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_3494f663_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -57470,21 +57481,6 @@ module.exports = ExecutionEnvironment;
 
 /***/ }),
 
-/***/ "a8f0":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("6e29");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var add = __webpack_require__("499e").default
-var update = add("72b79a90", content, true, {"sourceMap":false,"shadowMode":false});
-
-/***/ }),
-
 /***/ "ab8b":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -57611,6 +57607,21 @@ module.exports = function escape(url) {
     return url
 }
 
+
+/***/ }),
+
+/***/ "b1f7":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("0a1a");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("92ee184c", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -61887,17 +61898,6 @@ exports.default = {
 
 /***/ }),
 
-/***/ "f10e":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_23b94b56_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a8f0");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_23b94b56_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_23b94b56_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_23b94b56_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "f3ad":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -63315,17 +63315,17 @@ var main_component = normalizeComponent(
 
 main_component.options.__file = "main.vue"
 /* harmony default export */ var main = (main_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/exscore_lib/main.vue?vue&type=template&id=23b94b56&scoped=true&
-var mainvue_type_template_id_23b94b56_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"root"},[_c('div',{staticClass:"centered"},[_c('a',{staticClass:"HOME_ICN_ETS",attrs:{"id":"bonus-toggle","data-toggle":"modal","data-target":'#exscore-modal-' + _vm.uid}},[_c('i',{staticClass:"material-icons font-20 HOME_ICN_ETS"},[_vm._v("library_add")])])]),_c('div',{staticClass:"main-modal"},[_c('div',{staticClass:"modal fade",attrs:{"tabindex":"-1","role":"dialog","aria-labelledby":"myModalLabel","id":'exscore-modal-' + _vm.uid}},[_c('div',{staticClass:"modal-dialog",attrs:{"role":"document"}},[_c('div',{staticClass:"modal-content"},[_vm._m(0),_c('div',{staticClass:"modal-body"},[[_c('div',{attrs:{"id":"app-demo"}},[_c('img',{attrs:{"src":__webpack_require__("cf05")}}),_c('div',[_c('el-button',{on:{"click":_vm.startHacking}},[_vm._v("Start")]),_c('el-row',{staticClass:"block-col-2"},[_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("hover to trigger")]),_c('el-dropdown',[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1),_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("click to trigger")]),_c('el-dropdown',{attrs:{"trigger":"click"}},[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1)],1)],1)])]],2),_vm._m(1)])])])])])}
-var mainvue_type_template_id_23b94b56_scoped_true_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-header"},[_c('button',{staticClass:"close",attrs:{"type":"button","data-dismiss":"modal","aria-label":"Close"}},[_c('i',{staticClass:"material-icons"},[_vm._v("close")])]),_c('h4',{staticClass:"modal-title",attrs:{"id":"myModalLabel"}},[_vm._v("Điểm thuởng phạt")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-footer"},[_c('button',{staticClass:"btn btn-default",attrs:{"type":"button","data-dismiss":"modal"}},[_vm._v("Close")]),_c('button',{staticClass:"btn btn-primary",attrs:{"type":"button"}},[_vm._v("Save changes")])])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/exscore_lib/main.vue?vue&type=template&id=3494f663&scoped=true&
+var mainvue_type_template_id_3494f663_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"root"},[_c('div',{staticClass:"centered"},[_c('a',{staticClass:"HOME_ICN_ETS",attrs:{"id":"bonus-toggle","data-toggle":"modal","data-target":'#exscore-modal-' + _vm.uid}},[_c('i',{staticClass:"material-icons font-20 HOME_ICN_ETS"},[_vm._v("library_add")])])]),_c('div',{staticClass:"main-modal"},[_c('div',{staticClass:"modal fade",attrs:{"tabindex":"-1","role":"dialog","aria-labelledby":"myModalLabel","id":'exscore-modal-' + _vm.uid}},[_c('div',{staticClass:"modal-dialog",attrs:{"role":"document"}},[_c('div',{staticClass:"modal-content"},[_vm._m(0),_c('div',{staticClass:"modal-body"},[_c('div',{attrs:{"id":"app-demo"}},[_c('img',{attrs:{"src":__webpack_require__("cf05")}}),_c('div',[_c('el-button',{on:{"click":_vm.startHacking}},[_vm._v("Start")]),_c('el-row',{staticClass:"block-col-2"},[_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("hover to trigger")]),_c('el-dropdown',[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1),_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("click to trigger")]),_c('el-dropdown',{attrs:{"trigger":"click"}},[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1)],1)],1)])]),_vm._m(1)])])])])])}
+var mainvue_type_template_id_3494f663_scoped_true_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-header"},[_c('button',{staticClass:"close",attrs:{"type":"button","data-dismiss":"modal","aria-label":"Close"}},[_c('i',{staticClass:"material-icons"},[_vm._v("close")])]),_c('h4',{staticClass:"modal-title",attrs:{"id":"myModalLabel"}},[_vm._v("Điểm thuởng phạt")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-footer"},[_c('button',{staticClass:"btn btn-default",attrs:{"type":"button","data-dismiss":"modal"}},[_vm._v("Close")]),_c('button',{staticClass:"btn btn-primary",attrs:{"type":"button"}},[_vm._v("Save changes")])])}]
 
 
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/exscore_lib/main.vue?vue&type=template&id=23b94b56&scoped=true&
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/exscore_lib/main.vue?vue&type=template&id=3494f663&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/exscore_lib/main.vue?vue&type=script&lang=js&
 var cov_1gr6sfwfit = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/exscore_lib/main.vue",
-      hash = "10b0161ed55105abe0eeae4dedfc210c0b97dbb2",
+      hash = "165efcf6a2211abcd6080e54c1133843e04f608d",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -63334,121 +63334,121 @@ var cov_1gr6sfwfit = function () {
     statementMap: {
       "0": {
         start: {
-          line: 95,
+          line: 70,
           column: 15
         },
         end: {
-          line: 95,
+          line: 70,
           column: 17
         }
       },
       "1": {
         start: {
-          line: 96,
+          line: 71,
           column: 19
         },
         end: {
-          line: 96,
+          line: 71,
           column: 83
         }
       },
       "2": {
         start: {
-          line: 98,
+          line: 73,
           column: 4
         },
         end: {
-          line: 99,
+          line: 74,
           column: 77
         }
       },
       "3": {
         start: {
-          line: 99,
+          line: 74,
           column: 8
         },
         end: {
-          line: 99,
+          line: 74,
           column: 77
         }
       },
       "4": {
         start: {
-          line: 101,
+          line: 76,
           column: 4
         },
         end: {
-          line: 101,
+          line: 76,
           column: 16
         }
       },
       "5": {
         start: {
-          line: 115,
+          line: 90,
           column: 16
         },
         end: {
-          line: 121,
+          line: 96,
           column: 17
         }
       },
       "6": {
         start: {
-          line: 116,
+          line: 91,
           column: 20
         },
         end: {
-          line: 116,
+          line: 91,
           column: 51
         }
       },
       "7": {
         start: {
-          line: 117,
+          line: 92,
           column: 20
         },
         end: {
-          line: 117,
+          line: 92,
           column: 44
         }
       },
       "8": {
         start: {
-          line: 119,
+          line: 94,
           column: 20
         },
         end: {
-          line: 119,
+          line: 94,
           column: 49
         }
       },
       "9": {
         start: {
-          line: 120,
+          line: 95,
           column: 20
         },
         end: {
-          line: 120,
+          line: 95,
           column: 44
         }
       },
       "10": {
         start: {
-          line: 127,
+          line: 102,
           column: 12
         },
         end: {
-          line: 132,
+          line: 107,
           column: 14
         }
       },
       "11": {
         start: {
-          line: 136,
+          line: 111,
           column: 8
         },
         end: {
-          line: 139,
+          line: 114,
           column: 9
         }
       }
@@ -63458,132 +63458,132 @@ var cov_1gr6sfwfit = function () {
         name: "makeid",
         decl: {
           start: {
-            line: 94,
+            line: 69,
             column: 9
           },
           end: {
-            line: 94,
+            line: 69,
             column: 15
           }
         },
         loc: {
           start: {
-            line: 94,
+            line: 69,
             column: 18
           },
           end: {
-            line: 102,
+            line: 77,
             column: 1
           }
         },
-        line: 94
+        line: 69
       },
       "1": {
         name: "(anonymous_1)",
         decl: {
           start: {
-            line: 114,
+            line: 89,
             column: 21
           },
           end: {
-            line: 114,
+            line: 89,
             column: 22
           }
         },
         loc: {
           start: {
-            line: 114,
+            line: 89,
             column: 44
           },
           end: {
-            line: 122,
+            line: 97,
             column: 13
           }
         },
-        line: 114
+        line: 89
       },
       "2": {
         name: "(anonymous_2)",
         decl: {
           start: {
-            line: 135,
+            line: 110,
             column: 10
           },
           end: {
-            line: 135,
+            line: 110,
             column: 11
           }
         },
         loc: {
           start: {
-            line: 135,
+            line: 110,
             column: 20
           },
           end: {
-            line: 140,
+            line: 115,
             column: 5
           }
         },
-        line: 135
+        line: 110
       },
       "3": {
         name: "(anonymous_3)",
         decl: {
           start: {
-            line: 141,
+            line: 116,
             column: 13
           },
           end: {
-            line: 141,
+            line: 116,
             column: 14
           }
         },
         loc: {
           start: {
-            line: 141,
+            line: 116,
             column: 23
           },
           end: {
-            line: 143,
+            line: 118,
             column: 5
           }
         },
-        line: 141
+        line: 116
       }
     },
     branchMap: {
       "0": {
         loc: {
           start: {
-            line: 115,
+            line: 90,
             column: 16
           },
           end: {
-            line: 121,
+            line: 96,
             column: 17
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 115,
+            line: 90,
             column: 16
           },
           end: {
-            line: 121,
+            line: 96,
             column: 17
           }
         }, {
           start: {
-            line: 115,
+            line: 90,
             column: 16
           },
           end: {
-            line: 121,
+            line: 96,
             column: 17
           }
         }],
-        line: 115
+        line: 90
       }
     },
     s: {
@@ -63613,10 +63613,10 @@ var cov_1gr6sfwfit = function () {
       version: 3,
       sources: ["main.vue"],
       names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AA6FA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;;AAEA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA",
+      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAoEA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;;AAEA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA",
       file: "main.vue",
       sourceRoot: "src/templates/components/kpi_editor/exscore_lib",
-      sourcesContent: ["<template>\n    <div class=\"root\">\n        <div class=\"centered\">\n            <a class=\"HOME_ICN_ETS\" id=\"bonus-toggle\"  data-toggle=\"modal\" :data-target=\"'#exscore-modal-' + uid\">\n                <i class=\"material-icons font-20 HOME_ICN_ETS\">library_add</i>\n            </a>\n        </div>\n        <div class=\"main-modal\">\n            <div class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" :id=\"'exscore-modal-' + uid\">\n                <div class=\"modal-dialog\" role=\"document\">\n                    <div class=\"modal-content\">\n                        <div class=\"modal-header\">\n                            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><i class=\"material-icons\">close</i></button>\n                            <h4 class=\"modal-title\" id=\"myModalLabel\">\u0110i\u1EC3m thu\u1EDFng ph\u1EA1t</h4>\n                        </div>\n                        <div class=\"modal-body\">\n                            <template>\n                                <div id=\"app-demo\">\n                                    <img src=\"@/assets/logo.png\">\n                                    <div>\n                                        <el-button @click=\"startHacking\">Start</el-button>\n                                        <el-row class=\"block-col-2\">\n                                            <el-col :span=\"12\">\n                                                <span class=\"demonstration\">hover to trigger</span>\n                                                <el-dropdown>\n      <span class=\"el-dropdown-link\">\n        Dropdown List<i class=\"el-icon-arrow-down el-icon--right\"></i>\n      </span>\n                                                    <el-dropdown-menu slot=\"dropdown\">\n                                                        <el-dropdown-item>Action 1</el-dropdown-item>\n                                                        <el-dropdown-item>Action 2</el-dropdown-item>\n                                                        <el-dropdown-item>Action 3</el-dropdown-item>\n                                                        <el-dropdown-item>Action 4</el-dropdown-item>\n                                                        <el-dropdown-item>Action 5</el-dropdown-item>\n                                                    </el-dropdown-menu>\n                                                </el-dropdown>\n                                            </el-col>\n                                            <el-col :span=\"12\">\n                                                <span class=\"demonstration\">click to trigger</span>\n                                                <el-dropdown trigger=\"click\">\n      <span class=\"el-dropdown-link\">\n        Dropdown List<i class=\"el-icon-arrow-down el-icon--right\"></i>\n      </span>\n                                                    <el-dropdown-menu slot=\"dropdown\">\n                                                        <el-dropdown-item>Action 1</el-dropdown-item>\n                                                        <el-dropdown-item>Action 2</el-dropdown-item>\n                                                        <el-dropdown-item>Action 3</el-dropdown-item>\n                                                        <el-dropdown-item>Action 4</el-dropdown-item>\n                                                        <el-dropdown-item>Action 5</el-dropdown-item>\n                                                    </el-dropdown-menu>\n                                                </el-dropdown>\n                                            </el-col>\n                                        </el-row>\n                                    </div>\n                                </div>\n                            </template>\n\n                            <script>\n                                export default {\n                                    methods: {\n                                        startHacking () {\n                                            this.$notify({\n                                                title: 'It works!',\n                                                type: 'success',\n                                                message: 'We\\'ve laid the ground work for you. It\\'s time for you to build something epic!',\n                                                duration: 5000\n                                            })\n                                        }\n                                    }\n                                }\n                            </script>\n\n                            <style>\n                                #app {\n                                    font-family: Helvetica, sans-serif;\n                                    text-align: center;\n                                }\n                            </style>\n\n                        </div>\n                        <div class=\"modal-footer\">\n                            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n                            <button type=\"button\" class=\"btn btn-primary\">Save changes</button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</template>\n\n<script>\n    function makeid() {\n        var text = \"\";\n        var possible = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\";\n\n        for (var i = 0; i < 5; i++)\n            text += possible.charAt(Math.floor(Math.random() * possible.length));\n\n        return text;\n    }\n\n    export default {\n\n        name: 'app',\n        props: {\n            data: {\n                activeName: 'first'\n            }\n        },\n        watch:{\n            openModal: {\n                handler: function (val, oldVal) {\n                    if (val === true) {//due to not reactivity\n                        console.log(\"open modal here\");\n                        this.triggerOpenModal();\n                    } else {\n                        console.log(\"off modal here\")\n                        this.triggerCloseModal()\n                    }\n                }\n            },\n        },\n        methods:{\n            startHacking () {\n                this.$notify({\n                    title: 'It works!',\n                    type: 'success',\n                    message: 'We\\'ve laid the ground work for you. It\\'s time for you to build something epic!',\n                    duration: 5000\n                })\n            }\n        },\n        data: function(){\n            return {\n                openModal: false,\n                uid: makeid(),\n            }\n        },\n        mounted: function(){\n\n        },\n        components: {\n        }\n    }\n</script>\n\n<style lang=\"scss\" scoped>\n    .centered {\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        /* bring your own prefixes */\n        transform: translate(-50%, -50%);\n    }\n    #app-demo {\n        font-family: Helvetica, sans-serif;\n        text-align: center;\n    }\n    .main-modal{\n        display: inline;\n        cursor:pointer;\n        font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n        .close{\n            border:none;\n        }\n        .modal-title{\n            font-weight:bold;\n            color:#333;\n            font-size:20px;\n        }\n        .modal-dialog{\n            min-width:900px;\n        }\n        .modal-content{\n            border-radius:3px;\n            min-height:615px;\n            box-shadow:none;\n            border:none;\n        }\n    }\n</style>\n"]
+      sourcesContent: ["<template>\n    <div class=\"root\">\n        <div class=\"centered\">\n            <a class=\"HOME_ICN_ETS\" id=\"bonus-toggle\"  data-toggle=\"modal\" :data-target=\"'#exscore-modal-' + uid\">\n                <i class=\"material-icons font-20 HOME_ICN_ETS\">library_add</i>\n            </a>\n        </div>\n        <div class=\"main-modal\">\n            <div class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" :id=\"'exscore-modal-' + uid\">\n                <div class=\"modal-dialog\" role=\"document\">\n                    <div class=\"modal-content\">\n                        <div class=\"modal-header\">\n                            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><i class=\"material-icons\">close</i></button>\n                            <h4 class=\"modal-title\" id=\"myModalLabel\">\u0110i\u1EC3m thu\u1EDFng ph\u1EA1t</h4>\n                        </div>\n                        <div class=\"modal-body\">\n                                <div id=\"app-demo\">\n                                    <img src=\"@/assets/logo.png\">\n                                    <div>\n                                        <el-button @click=\"startHacking\">Start</el-button>\n                                        <el-row class=\"block-col-2\">\n                                            <el-col :span=\"12\">\n                                                <span class=\"demonstration\">hover to trigger</span>\n                                                <el-dropdown>\n      <span class=\"el-dropdown-link\">\n        Dropdown List<i class=\"el-icon-arrow-down el-icon--right\"></i>\n      </span>\n                                                    <el-dropdown-menu slot=\"dropdown\">\n                                                        <el-dropdown-item>Action 1</el-dropdown-item>\n                                                        <el-dropdown-item>Action 2</el-dropdown-item>\n                                                        <el-dropdown-item>Action 3</el-dropdown-item>\n                                                        <el-dropdown-item>Action 4</el-dropdown-item>\n                                                        <el-dropdown-item>Action 5</el-dropdown-item>\n                                                    </el-dropdown-menu>\n                                                </el-dropdown>\n                                            </el-col>\n                                            <el-col :span=\"12\">\n                                                <span class=\"demonstration\">click to trigger</span>\n                                                <el-dropdown trigger=\"click\">\n      <span class=\"el-dropdown-link\">\n        Dropdown List<i class=\"el-icon-arrow-down el-icon--right\"></i>\n      </span>\n                                                    <el-dropdown-menu slot=\"dropdown\">\n                                                        <el-dropdown-item>Action 1</el-dropdown-item>\n                                                        <el-dropdown-item>Action 2</el-dropdown-item>\n                                                        <el-dropdown-item>Action 3</el-dropdown-item>\n                                                        <el-dropdown-item>Action 4</el-dropdown-item>\n                                                        <el-dropdown-item>Action 5</el-dropdown-item>\n                                                    </el-dropdown-menu>\n                                                </el-dropdown>\n                                            </el-col>\n                                        </el-row>\n                                    </div>\n                                </div>\n                        </div>\n                        <div class=\"modal-footer\">\n                            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n                            <button type=\"button\" class=\"btn btn-primary\">Save changes</button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</template>\n\n<script>\n    function makeid() {\n        var text = \"\";\n        var possible = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\";\n\n        for (var i = 0; i < 5; i++)\n            text += possible.charAt(Math.floor(Math.random() * possible.length));\n\n        return text;\n    }\n\n    export default {\n\n        name: 'app',\n        props: {\n            data: {\n                activeName: 'first'\n            }\n        },\n        watch:{\n            openModal: {\n                handler: function (val, oldVal) {\n                    if (val === true) {//due to not reactivity\n                        console.log(\"open modal here\");\n                        this.triggerOpenModal();\n                    } else {\n                        console.log(\"off modal here\")\n                        this.triggerCloseModal()\n                    }\n                }\n            },\n        },\n        methods:{\n            startHacking () {\n                this.$notify({\n                    title: 'It works!',\n                    type: 'success',\n                    message: 'We\\'ve laid the ground work for you. It\\'s time for you to build something epic!',\n                    duration: 5000\n                })\n            }\n        },\n        data: function(){\n            return {\n                openModal: false,\n                uid: makeid(),\n            }\n        },\n        mounted: function(){\n\n        },\n        components: {\n        }\n    }\n</script>\n\n<style lang=\"scss\" scoped>\n    .centered {\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        /* bring your own prefixes */\n        transform: translate(-50%, -50%);\n    }\n    #app-demo {\n        font-family: Helvetica, sans-serif;\n        text-align: center;\n    }\n    .main-modal{\n        display: inline;\n        cursor:pointer;\n        font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n        .close{\n            border:none;\n        }\n        .modal-title{\n            font-weight:bold;\n            color:#333;\n            font-size:20px;\n        }\n        .modal-dialog{\n            min-width:900px;\n        }\n        .modal-content{\n            border-radius:3px;\n            min-height:615px;\n            box-shadow:none;\n            border:none;\n        }\n    }\n</style>\n"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -63630,31 +63630,6 @@ var cov_1gr6sfwfit = function () {
   return coverage[path] = coverageData;
 }();
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -63793,8 +63768,8 @@ function mainvue_type_script_lang_js_makeid() {
 });
 // CONCATENATED MODULE: ./src/templates/components/kpi_editor/exscore_lib/main.vue?vue&type=script&lang=js&
  /* harmony default export */ var kpi_editor_exscore_lib_mainvue_type_script_lang_js_ = (exscore_lib_mainvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/kpi_editor/exscore_lib/main.vue?vue&type=style&index=0&id=23b94b56&lang=scss&scoped=true&
-var mainvue_type_style_index_0_id_23b94b56_lang_scss_scoped_true_ = __webpack_require__("f10e");
+// EXTERNAL MODULE: ./src/templates/components/kpi_editor/exscore_lib/main.vue?vue&type=style&index=0&id=3494f663&lang=scss&scoped=true&
+var mainvue_type_style_index_0_id_3494f663_lang_scss_scoped_true_ = __webpack_require__("7fb8");
 
 // CONCATENATED MODULE: ./src/templates/components/kpi_editor/exscore_lib/main.vue
 
@@ -63807,11 +63782,11 @@ var mainvue_type_style_index_0_id_23b94b56_lang_scss_scoped_true_ = __webpack_re
 
 var exscore_lib_main_component = normalizeComponent(
   kpi_editor_exscore_lib_mainvue_type_script_lang_js_,
-  mainvue_type_template_id_23b94b56_scoped_true_render,
-  mainvue_type_template_id_23b94b56_scoped_true_staticRenderFns,
+  mainvue_type_template_id_3494f663_scoped_true_render,
+  mainvue_type_template_id_3494f663_scoped_true_staticRenderFns,
   false,
   null,
-  "23b94b56",
+  "3494f663",
   null
   
 )
