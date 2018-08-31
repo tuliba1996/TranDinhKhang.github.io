@@ -11845,21 +11845,6 @@ module.exports = { "default": __webpack_require__("d8d6"), __esModule: true };
 
 /***/ }),
 
-/***/ "189d":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("c007");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var add = __webpack_require__("499e").default
-var update = add("1155a9e5", content, true, {"sourceMap":false,"shadowMode":false});
-
-/***/ }),
-
 /***/ "1b58":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -53658,6 +53643,21 @@ module.exports = !$assign || __webpack_require__("79e5")(function () {
 
 /***/ }),
 
+/***/ "7339":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("9d1b");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("18008794", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
 /***/ "765d":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -56063,6 +56063,21 @@ module.exports = function (key) {
 
 /***/ }),
 
+/***/ "9d1b":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("2350")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.centered[data-v-2f361fec]{left:50%;position:fixed;top:50%;transform:translate(-50%,-50%)\n}\n#app-demo[data-v-2f361fec]{font-family:Helvetica,sans-serif;text-align:center\n}\n.main-modal[data-v-2f361fec]{cursor:pointer;display:inline;font-family:Helvetica Neue,Helvetica,sans-serif\n}\n.close[data-v-2f361fec]{border:none\n}\n.modal-title[data-v-2f361fec]{color:#333;font-size:20px;font-weight:700\n}\n.modal-dialog[data-v-2f361fec]{min-width:900px\n}\n.modal-content[data-v-2f361fec]{border:none;border-radius:3px;box-shadow:none;min-height:615px\n}\n#demo-app[data-v-2f361fec]{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;color:#2c3e50;font-family:Avenir,Helvetica,Arial,sans-serif;margin-top:60px;text-align:center\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "9d7e":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -57576,17 +57591,6 @@ module.exports = function (bitmap, value) {
 
 /***/ }),
 
-/***/ "afb1":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_5d7de54c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("189d");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_5d7de54c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_5d7de54c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_5d7de54c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "b041":
 /***/ (function(module, exports) {
 
@@ -57803,21 +57807,6 @@ exports.f = __webpack_require__("8e60") ? gOPD : function getOwnPropertyDescript
   } catch (e) { /* empty */ }
   if (has(O, P)) return createDesc(!pIE.f.call(O, P), O[P]);
 };
-
-
-/***/ }),
-
-/***/ "c007":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("2350")(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n.centered[data-v-5d7de54c]{left:50%;position:fixed;top:50%;transform:translate(-50%,-50%)\n}\n#app-demo[data-v-5d7de54c]{font-family:Helvetica,sans-serif;text-align:center\n}\n.main-modal[data-v-5d7de54c]{cursor:pointer;display:inline;font-family:Helvetica Neue,Helvetica,sans-serif\n}\n.close[data-v-5d7de54c]{border:none\n}\n.modal-title[data-v-5d7de54c]{color:#333;font-size:20px;font-weight:700\n}\n.modal-dialog[data-v-5d7de54c]{min-width:900px\n}\n.modal-content[data-v-5d7de54c]{border:none;border-radius:3px;box-shadow:none;min-height:615px\n}\n#demo-app[data-v-5d7de54c]{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;color:#2c3e50;font-family:Avenir,Helvetica,Arial,sans-serif;margin-top:60px;text-align:center\n}", ""]);
-
-// exports
 
 
 /***/ }),
@@ -58244,6 +58233,17 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 /******/ });
+
+/***/ }),
+
+/***/ "c341":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_2f361fec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("7339");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_2f361fec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_2f361fec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_2f361fec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -62723,12 +62723,12 @@ var es6_object_keys = __webpack_require__("456d");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/main.vue?vue&type=template&id=5d7de54c&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"root"},[_c('div',{staticClass:"centered"},[_c('a',{staticClass:"HOME_ICN_ETS",attrs:{"id":"bonus-toggle","data-toggle":"modal","data-target":'#exscore-modal-' + _vm.uid}},[_c('i',{staticClass:"material-icons font-20 HOME_ICN_ETS"},[_vm._v("library_add")])])]),_c('div',{staticClass:"main-modal"},[_c('div',{staticClass:"modal fade",attrs:{"tabindex":"-1","role":"dialog","aria-labelledby":"myModalLabel","id":'exscore-modal-' + _vm.uid}},[_c('div',{staticClass:"modal-dialog",attrs:{"role":"document"}},[_c('div',{staticClass:"modal-content"},[_c('div',{staticClass:"modal-header"},[_vm._m(0),_c('h4',{staticClass:"modal-title",attrs:{"id":"myModalLabel"}},[_vm._v(_vm._s(_vm._f("translate")("Exscore lib")))])]),_c('div',{staticClass:"modal-body"},[_c('div',{attrs:{"id":"app-demo"}},[_c('img',{attrs:{"src":__webpack_require__("cf05")}}),_c('div',[_c('el-button',{on:{"click":_vm.startHacking}},[_vm._v("Start")]),_c('el-row',{staticClass:"block-col-2"},[_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("hover to trigger")]),_c('el-dropdown',[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1),_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("click to trigger")]),_c('el-dropdown',{attrs:{"trigger":"click"}},[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1)],1)],1),_c('HelloWorld',{attrs:{"msg":_vm._f("translate")('Hello World in variable here')}})],1)]),_vm._m(1)])])])])])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/main.vue?vue&type=template&id=2f361fec&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"root"},[_c('div',{staticClass:"centered"},[_c('a',{staticClass:"HOME_ICN_ETS",attrs:{"id":"bonus-toggle","data-toggle":"modal","data-target":'#exscore-modal-' + _vm.uid}},[_vm._v("\n            Click here "),_c('i',{staticClass:"material-icons font-20 HOME_ICN_ETS"},[_vm._v("library_add")])])]),_c('div',{staticClass:"main-modal"},[_c('div',{staticClass:"modal fade",attrs:{"tabindex":"-1","role":"dialog","aria-labelledby":"myModalLabel","id":'exscore-modal-' + _vm.uid}},[_c('div',{staticClass:"modal-dialog",attrs:{"role":"document"}},[_c('div',{staticClass:"modal-content"},[_c('div',{staticClass:"modal-header"},[_vm._m(0),_c('h4',{staticClass:"modal-title",attrs:{"id":"myModalLabel"}},[_vm._v(_vm._s(_vm._f("translate")("Exscore lib")))])]),_c('div',{staticClass:"modal-body"},[_c('div',{attrs:{"id":"app-demo"}},[_c('img',{attrs:{"src":__webpack_require__("cf05")}}),_c('div',[_c('el-button',{on:{"click":_vm.startHacking}},[_vm._v("Start")]),_c('el-row',{staticClass:"block-col-2"},[_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("hover to trigger")]),_c('el-dropdown',[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1),_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("click to trigger")]),_c('el-dropdown',{attrs:{"trigger":"click"}},[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1)],1)],1),_c('HelloWorld',{attrs:{"msg":_vm._f("translate")('Hello World in variable here')}})],1)]),_vm._m(1)])])])])])}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"close",attrs:{"type":"button","data-dismiss":"modal","aria-label":"Close"}},[_c('i',{staticClass:"material-icons"},[_vm._v("close")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-footer"},[_c('button',{staticClass:"btn btn-default",attrs:{"type":"button","data-dismiss":"modal"}},[_vm._v("Close")]),_c('button',{staticClass:"btn btn-primary",attrs:{"type":"button"}},[_vm._v("Save changes")])])}]
 
 
-// CONCATENATED MODULE: ./src/templates/components/demo_app/main.vue?vue&type=template&id=5d7de54c&scoped=true&
+// CONCATENATED MODULE: ./src/templates/components/demo_app/main.vue?vue&type=template&id=2f361fec&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/minor_components/HelloWorld.vue?vue&type=template&id=de5e7078&scoped=true&
 var HelloWorldvue_type_template_id_de5e7078_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"hello"},[_c('h1',[_vm._v(_vm._s(_vm.msg))]),_c('h3',[_vm._v("Essential Links")]),_vm._m(0),_c('h3',[_vm._v("Ecosystem")]),_vm._m(1)])}
@@ -62972,7 +62972,7 @@ component.options.__file = "HelloWorld.vue"
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/main.vue?vue&type=script&lang=js&
 var cov_jiklwo14e = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/demo_app/main.vue",
-      hash = "e8089b9bf3eb2f9bc602491ba30d00d1a1ebbc92",
+      hash = "2c43ed2a13e052f479b8a08f54f759be66231826",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -63147,7 +63147,7 @@ var cov_jiklwo14e = function () {
       mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAqEA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
       file: "main.vue",
       sourceRoot: "src/templates/components/demo_app",
-      sourcesContent: ["<template>\n    <div class=\"root\">\n        <div class=\"centered\">\n            <a class=\"HOME_ICN_ETS\" id=\"bonus-toggle\"  data-toggle=\"modal\" :data-target=\"'#exscore-modal-' + uid\">\n                <i class=\"material-icons font-20 HOME_ICN_ETS\">library_add</i>\n            </a>\n        </div>\n        <div class=\"main-modal\">\n            <div class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" :id=\"'exscore-modal-' + uid\">\n                <div class=\"modal-dialog\" role=\"document\">\n                    <div class=\"modal-content\">\n                        <div class=\"modal-header\">\n                            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><i class=\"material-icons\">close</i></button>\n                            <h4 class=\"modal-title\" id=\"myModalLabel\">{{ \"Exscore lib\" | translate }}</h4>\n                        </div>\n                        <div class=\"modal-body\">\n                            <div id=\"app-demo\">\n                                <img src=\"@/assets/logo.png\">\n                                <div>\n                                    <el-button @click=\"startHacking\">Start</el-button>\n                                    <el-row class=\"block-col-2\">\n                                        <el-col :span=\"12\">\n                                            <span class=\"demonstration\">hover to trigger</span>\n                                            <el-dropdown>\n      <span class=\"el-dropdown-link\">\n        Dropdown List<i class=\"el-icon-arrow-down el-icon--right\"></i>\n      </span>\n                                                <el-dropdown-menu slot=\"dropdown\">\n                                                    <el-dropdown-item>Action 1</el-dropdown-item>\n                                                    <el-dropdown-item>Action 2</el-dropdown-item>\n                                                    <el-dropdown-item>Action 3</el-dropdown-item>\n                                                    <el-dropdown-item>Action 4</el-dropdown-item>\n                                                    <el-dropdown-item>Action 5</el-dropdown-item>\n                                                </el-dropdown-menu>\n                                            </el-dropdown>\n                                        </el-col>\n                                        <el-col :span=\"12\">\n                                            <span class=\"demonstration\">click to trigger</span>\n                                            <el-dropdown trigger=\"click\">\n      <span class=\"el-dropdown-link\">\n        Dropdown List<i class=\"el-icon-arrow-down el-icon--right\"></i>\n      </span>\n                                                <el-dropdown-menu slot=\"dropdown\">\n                                                    <el-dropdown-item>Action 1</el-dropdown-item>\n                                                    <el-dropdown-item>Action 2</el-dropdown-item>\n                                                    <el-dropdown-item>Action 3</el-dropdown-item>\n                                                    <el-dropdown-item>Action 4</el-dropdown-item>\n                                                    <el-dropdown-item>Action 5</el-dropdown-item>\n                                                </el-dropdown-menu>\n                                            </el-dropdown>\n                                        </el-col>\n                                    </el-row>\n                                </div>\n                                <HelloWorld :msg=\"'Hello World in variable here' | translate\"/>\n                            </div>\n                        </div>\n                        <div class=\"modal-footer\">\n                            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n                            <button type=\"button\" class=\"btn btn-primary\">Save changes</button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</template>\n\n<script>\n    function makeid() {\n        var text = \"\";\n        var possible = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\";\n\n        for (var i = 0; i < 5; i++)\n            text += possible.charAt(Math.floor(Math.random() * possible.length));\n\n        return text;\n    }\n    import HelloWorld from './minor_components/HelloWorld.vue'\n\n    export default {\n        name: 'app',\n        /** Created hook\n         * No parameters\n         *\n         */\n        created: function(){},\n        /** Data must return None\n         * No parameters\n         *\n         */\n        data: function(){\n            return {\n                openModal: false,\n                uid: makeid(),\n            }\n        },\n        /** Declare components to use\n         * Dictonary\n         *\n         */\n        methods: {\n            startHacking () {\n                this.$notify({\n                    title: 'It works!',\n                    type: 'success',\n                    message: 'We\\'ve laid the ground work for you. It\\'s time for you to build something epic!',\n                    duration: 5000\n                })\n            }\n        },\n        components: {\n            HelloWorld\n        }\n    }\n</script>\n\n<style scoped>\n    .centered {\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        /* bring your own prefixes */\n        transform: translate(-50%, -50%);\n    }\n    #app-demo {\n        font-family: Helvetica, sans-serif;\n        text-align: center;\n    }\n    .main-modal{\n        display: inline;\n        cursor:pointer;\n        font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    }\n    .close{\n        border:none;\n    }\n    .modal-title{\n        font-weight:bold;\n        color:#333;\n        font-size:20px;\n    }\n    .modal-dialog{\n        min-width:900px;\n    }\n    .modal-content{\n        border-radius:3px;\n        min-height:615px;\n        box-shadow:none;\n        border:none;\n    }\n    #demo-app {\n        font-family: 'Avenir', Helvetica, Arial, sans-serif;\n        -webkit-font-smoothing: antialiased;\n        -moz-osx-font-smoothing: grayscale;\n        text-align: center;\n        color: #2c3e50;\n        margin-top: 60px;\n    }\n</style>\n"]
+      sourcesContent: ["<template>\n    <div class=\"root\">\n        <div class=\"centered\">\n            <a class=\"HOME_ICN_ETS\" id=\"bonus-toggle\"  data-toggle=\"modal\" :data-target=\"'#exscore-modal-' + uid\">\n                Click here <i class=\"material-icons font-20 HOME_ICN_ETS\">library_add</i>\n            </a>\n        </div>\n        <div class=\"main-modal\">\n            <div class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" :id=\"'exscore-modal-' + uid\">\n                <div class=\"modal-dialog\" role=\"document\">\n                    <div class=\"modal-content\">\n                        <div class=\"modal-header\">\n                            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><i class=\"material-icons\">close</i></button>\n                            <h4 class=\"modal-title\" id=\"myModalLabel\">{{ \"Exscore lib\" | translate }}</h4>\n                        </div>\n                        <div class=\"modal-body\">\n                            <div id=\"app-demo\">\n                                <img src=\"@/assets/logo.png\">\n                                <div>\n                                    <el-button @click=\"startHacking\">Start</el-button>\n                                    <el-row class=\"block-col-2\">\n                                        <el-col :span=\"12\">\n                                            <span class=\"demonstration\">hover to trigger</span>\n                                            <el-dropdown>\n      <span class=\"el-dropdown-link\">\n        Dropdown List<i class=\"el-icon-arrow-down el-icon--right\"></i>\n      </span>\n                                                <el-dropdown-menu slot=\"dropdown\">\n                                                    <el-dropdown-item>Action 1</el-dropdown-item>\n                                                    <el-dropdown-item>Action 2</el-dropdown-item>\n                                                    <el-dropdown-item>Action 3</el-dropdown-item>\n                                                    <el-dropdown-item>Action 4</el-dropdown-item>\n                                                    <el-dropdown-item>Action 5</el-dropdown-item>\n                                                </el-dropdown-menu>\n                                            </el-dropdown>\n                                        </el-col>\n                                        <el-col :span=\"12\">\n                                            <span class=\"demonstration\">click to trigger</span>\n                                            <el-dropdown trigger=\"click\">\n      <span class=\"el-dropdown-link\">\n        Dropdown List<i class=\"el-icon-arrow-down el-icon--right\"></i>\n      </span>\n                                                <el-dropdown-menu slot=\"dropdown\">\n                                                    <el-dropdown-item>Action 1</el-dropdown-item>\n                                                    <el-dropdown-item>Action 2</el-dropdown-item>\n                                                    <el-dropdown-item>Action 3</el-dropdown-item>\n                                                    <el-dropdown-item>Action 4</el-dropdown-item>\n                                                    <el-dropdown-item>Action 5</el-dropdown-item>\n                                                </el-dropdown-menu>\n                                            </el-dropdown>\n                                        </el-col>\n                                    </el-row>\n                                </div>\n                                <HelloWorld :msg=\"'Hello World in variable here' | translate\"/>\n                            </div>\n                        </div>\n                        <div class=\"modal-footer\">\n                            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n                            <button type=\"button\" class=\"btn btn-primary\">Save changes</button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</template>\n\n<script>\n    function makeid() {\n        var text = \"\";\n        var possible = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\";\n\n        for (var i = 0; i < 5; i++)\n            text += possible.charAt(Math.floor(Math.random() * possible.length));\n\n        return text;\n    }\n    import HelloWorld from './minor_components/HelloWorld.vue'\n\n    export default {\n        name: 'app',\n        /** Created hook\n         * No parameters\n         *\n         */\n        created: function(){},\n        /** Data must return None\n         * No parameters\n         *\n         */\n        data: function(){\n            return {\n                openModal: false,\n                uid: makeid(),\n            }\n        },\n        /** Declare components to use\n         * Dictonary\n         *\n         */\n        methods: {\n            startHacking () {\n                this.$notify({\n                    title: 'It works!',\n                    type: 'success',\n                    message: 'We\\'ve laid the ground work for you. It\\'s time for you to build something epic!',\n                    duration: 5000\n                })\n            }\n        },\n        components: {\n            HelloWorld\n        }\n    }\n</script>\n\n<style scoped>\n    .centered {\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        /* bring your own prefixes */\n        transform: translate(-50%, -50%);\n    }\n    #app-demo {\n        font-family: Helvetica, sans-serif;\n        text-align: center;\n    }\n    .main-modal{\n        display: inline;\n        cursor:pointer;\n        font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    }\n    .close{\n        border:none;\n    }\n    .modal-title{\n        font-weight:bold;\n        color:#333;\n        font-size:20px;\n    }\n    .modal-dialog{\n        min-width:900px;\n    }\n    .modal-content{\n        border-radius:3px;\n        min-height:615px;\n        box-shadow:none;\n        border:none;\n    }\n    #demo-app {\n        font-family: 'Avenir', Helvetica, Arial, sans-serif;\n        -webkit-font-smoothing: antialiased;\n        -moz-osx-font-smoothing: grayscale;\n        text-align: center;\n        color: #2c3e50;\n        margin-top: 60px;\n    }\n</style>\n"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -63290,8 +63290,8 @@ function makeid() {
 });
 // CONCATENATED MODULE: ./src/templates/components/demo_app/main.vue?vue&type=script&lang=js&
  /* harmony default export */ var demo_app_mainvue_type_script_lang_js_ = (mainvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/demo_app/main.vue?vue&type=style&index=0&id=5d7de54c&scoped=true&lang=css&
-var mainvue_type_style_index_0_id_5d7de54c_scoped_true_lang_css_ = __webpack_require__("afb1");
+// EXTERNAL MODULE: ./src/templates/components/demo_app/main.vue?vue&type=style&index=0&id=2f361fec&scoped=true&lang=css&
+var mainvue_type_style_index_0_id_2f361fec_scoped_true_lang_css_ = __webpack_require__("c341");
 
 // CONCATENATED MODULE: ./src/templates/components/demo_app/main.vue
 
@@ -63308,7 +63308,7 @@ var main_component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "5d7de54c",
+  "2f361fec",
   null
   
 )
