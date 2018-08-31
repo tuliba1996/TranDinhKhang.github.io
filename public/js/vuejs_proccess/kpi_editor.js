@@ -873,6 +873,8 @@ var v = new Vue({
         adjusting_chart: null,
         estimated_result_with_threshold: '',
         query: '',
+        email_confirm: '',
+        status_confirm: false,
         list_user_searched: [],
         list_surbodinates: [],
         list_surbodinates_user_viewed: [],
@@ -904,7 +906,6 @@ var v = new Vue({
         preview_attach_modal_type:'',
         same_user: false,
         disable_upload: false,
-
         //datatemp for kpilib
         visible: false,
         // end data temp for kpi lib
@@ -1220,17 +1221,18 @@ var v = new Vue({
 
 
         delete_all_kpis: function () {
+            var that = this;
             cloudjetRequest.ajax({
                 method: "POST",
                 url: '/api/kpi/services/',
                 data: {
                     'command': 'delele_all_kpis',
                     'user_id': COMMON.UserViewedId,
+                    'email': that.email_confirm
                 },
                 success: function (data) {
                     window.location.reload(true);
-                }
-
+                },
             })
         },
         disable_edit_target: function(kpi){
@@ -1263,7 +1265,6 @@ var v = new Vue({
             }else{
                 this.status_confirm = true;
             }
-
         },
 
         reset_modal_delete: function () {
@@ -3735,6 +3736,7 @@ var v = new Vue({
         },
         we_complete_review_confirm: function () {
             this.complete_review_confirm();
+            vue_support.show_rate_nps()
         },
 
         setCookie: function (cname, cvalue) {

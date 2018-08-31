@@ -1859,9 +1859,6 @@ span.comment-sign.toggle-auto:hover {
 .qtip-white .qtip-content {
     overflow: visible;
 }
-[v-cloak] {
-    display: none;
-}
 
 .user-avatar {
     text-align:center;
@@ -5281,6 +5278,14 @@ button.close{
 .add-kpi{
     margin-top: 5px;
 }
+#exscore-select-control{
+    background: darkcyan;
+    color: white;
+    min-width: 85px;
+    height: 30px;
+    margin-left: 20px;
+    border: 1px solid aliceblue;
+
 .warning-del-card .el-message-box{
     width: 465px;
 }
@@ -5317,4 +5322,10 @@ button.close{
 }
 .warning-del-card .el-button.el-button--default.el-button--small.el-button--primary span{
     color: #fff!important;
+}
+#a-no-style a{
+    padding:0px!important;
+    background:transparent!important;
+    color: #008b8b!important;
+    vertical-align: unset!important;
 }

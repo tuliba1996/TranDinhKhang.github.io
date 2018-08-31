@@ -83,7 +83,8 @@ function formatDateToTimeString(date){
 }
 
 function getDateStandard(date){
-    // 01, 02, 03, ... 29, 30, 31
+    // 01, 02, 03, ... 29, 30, 31 aaaa
+    // Hello
     var dd = (date.getDate() < 10 ? '0' : '') + date.getDate();
     // 01, 02, 03, ... 10, 11, 12completed_date
     var MM = ((date.getMonth() + 1) < 10 ? '0' : '') + (date.getMonth() + 1);
