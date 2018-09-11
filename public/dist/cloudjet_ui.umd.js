@@ -11642,17 +11642,6 @@ exports.f = Object.getOwnPropertySymbols;
 
 /***/ }),
 
-/***/ "2941":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_1a1fd3a1_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("551d");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_1a1fd3a1_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_1a1fd3a1_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_1a1fd3a1_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "294c":
 /***/ (function(module, exports) {
 
@@ -16196,13 +16185,6 @@ exports.default = {
 
 /***/ }),
 
-/***/ "551d":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "5537":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16533,6 +16515,17 @@ module.exports = function ( delay, noTrailing, callback, debounceMode ) {
 
 };
 
+
+/***/ }),
+
+/***/ "5add":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_43ecb916_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("dcb6");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_43ecb916_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_43ecb916_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_43ecb916_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -56733,6 +56726,13 @@ var store = global[SHARED] || (global[SHARED] = {});
 
 /***/ }),
 
+/***/ "dcb6":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "dcdc":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -69255,12 +69255,12 @@ if (typeof notification_bellvue_type_custom_index_0_blockType_docs["default"] ==
 
 notification_bell_component.options.__file = "notification_bell.vue"
 /* harmony default export */ var notification_bell = (notification_bell_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=1a1fd3a1&scoped=true&
-var notification_listvue_type_template_id_1a1fd3a1_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-list"},[_c('div',{staticClass:"notification-list__header"},[_vm._v("\n    Thông báo\n  ")]),_c('div',{ref:"notificationItemScrollableWrapper",class:_vm.notificationItemWrapperClass,on:{"scroll":_vm.scroll}},_vm._l((_vm.notificationItems),function(notificationItem){return _c('notification_item',{key:notificationItem.id,staticClass:"notification-list__item",attrs:{"href":_vm.href,"notificationData":notificationItem}})})),_c('div',{staticClass:"notification-list__footer"},[_c('a',{staticClass:"notification-list__link",attrs:{"href":_vm.href}},[_vm._v("\n      Xem tất cả\n    ")])])])}
-var notification_listvue_type_template_id_1a1fd3a1_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=43ecb916&scoped=true&
+var notification_listvue_type_template_id_43ecb916_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-list"},[_c('div',{staticClass:"notification-list__header"},[_vm._v("\n    Thông báo\n  ")]),_c('div',{ref:"notificationItemScrollableWrapper",class:_vm.notificationItemWrapperClass,on:{"scroll":_vm.scroll}},_vm._l((_vm.notificationItems),function(notificationItem){return _c('notification_item',{key:notificationItem.id,staticClass:"notification-list__item",attrs:{"href":_vm.href,"notificationData":notificationItem}})})),_c('div',{staticClass:"notification-list__footer"},[_c('a',{staticClass:"notification-list__link",attrs:{"href":_vm.href}},[_vm._v("\n      Xem tất cả\n    ")])])])}
+var notification_listvue_type_template_id_43ecb916_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=1a1fd3a1&scoped=true&
+// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=43ecb916&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=695fe397&scoped=true&
 var notification_itemvue_type_template_id_695fe397_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-item",on:{"click":_vm.redirectToNotification}},[_c('img',{staticClass:"notification-item__image col-md-2",attrs:{"src":_vm.notificationData.actor_avatar}}),_c('div',{staticClass:"col-md-10"},[_c('div',{staticClass:"notification-item__data"},[(_vm.notificationData.type_notification==='change_log')?_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm._f("translate")("Cloudjet KPI updated new version"))+":")]),_c('span',{staticClass:"notification-item__version"},[_vm._v(_vm._s(_vm._f("translate")("Version"))+" "+_vm._s(_vm.notificationData.version))]),_c('span',{staticClass:"notification-item__release-date"},[_vm._v(_vm._s(_vm._f("translate")("updated"))+" "+_vm._s(_vm.notificationData.release_date))])]):_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm.notificationData.actor_name)+": ")]),_vm._l((_vm.notificationData.description.split('\n')),function(line,index){return _c('span',{key:line},[_c('span',{staticClass:"notification-item__content-action",domProps:{"innerHTML":_vm._s(line)}}),(index < _vm.notificationData.description.split('\n').length - 1)?_c('br'):_vm._e()])})],2)]),_c('div',{staticClass:"notification-item__diffTime"},[_vm._v(_vm._s(_vm.diffTimeToString))])])])}
@@ -69830,7 +69830,7 @@ notification_item_component.options.__file = "notification_item.vue"
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=script&lang=js&
 var cov_2ei68pxsb4 = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_list/notification_list.vue",
-      hash = "f53587133562d93da75e06d4f65f9813368ca962",
+      hash = "0b917a175d3ef6add81b72fa41ad27058fece56e",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -70100,7 +70100,7 @@ var cov_2ei68pxsb4 = function () {
       mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;AA6BA;;;AAGA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
       file: "notification_list.vue",
       sourceRoot: "src/templates/components/clouldjet_noti/notification_list",
-      sourcesContent: ["<template>\n  <div class=\"notification-list\">\n    <div class=\"notification-list__header\">\n      Th\xF4ng b\xE1o\n    </div>\n\n    <div\n            :class=\"notificationItemWrapperClass\"\n            @scroll=\"scroll\"\n            ref=\"notificationItemScrollableWrapper\">\n\n      <notification_item\n              class=\"notification-list__item\"\n              :href=\"href\"\n              v-for=\"notificationItem in notificationItems\"\n              :notificationData=\"notificationItem\"\n              :key=\"notificationItem.id\"/>\n\n    </div>\n\n    <div class=\"notification-list__footer\">\n      <a :href=\"href\" class=\"notification-list__link\">\n        Xem t\u1EA5t c\u1EA3\n      </a>\n    </div>\n  </div>\n</template>\n\n<script>\n    import notification_item from \"../notification_item/notification_item\";\n\n\n    export default {\n        methods: {\n            /**\n             *  Check behavior when scroll reach bottom\n             */\n            isNotificationItemScroller() {\n                // Pr\n                const notificationItemScrollableWrapper = this.$refs\n                    .notificationItemScrollableWrapper;\n\n                return (\n                    /**\n                     * Scroll touch bottom\n                     * Don't know how this shit work but it was ameizing\n                     */\n                    notificationItemScrollableWrapper.scrollHeight -\n                    notificationItemScrollableWrapper.scrollTop ===\n                    notificationItemScrollableWrapper.clientHeight\n                );\n            },\n\n            /**\n             * Emmit if next prop exist\n             * Manually test scroll behavior: No Unit Test idea yet ??\n             *\n             */\n            scroll(e, IisNotificationItemScroller = this.isNotificationItemScroller) {\n                // Pass a function to mock that behavior\n                if (this.next) {\n                    if (IisNotificationItemScroller()) {\n                        /**\n                         * Bubble to top componentn: notificatoin\n                         *\n                         * @event lazyLoad\n                         * @type {string}\n                         */\n                        this.$emit(\"lazyLoad\", this.next);\n                    }\n                }\n            }\n        },\n\n        components: {\n            notification_item\n        },\n\n        props: {\n            /**\n             * Link redirect when click \"Xem t\u1EA5t c\u1EA3\"\n             */\n            href: {\n                type: String,\n                default: \"#\"\n            },\n\n            /**\n             * Pass array object results\n             * Return of API\n             */\n            notificationItems: {\n                type: Array\n            },\n\n            /**\n             * next exist then scroll will emmit scroll\n             * eventually scroll will be bubble to notification component\n             */\n            next: {\n                type: String\n            }\n        },\n\n        computed: {\n            notificationItemWrapperClass() {\n                return this.isLazyLoadMode ? \"notification-list__scrollable-wrapper\" : \"\";\n            },\n\n            isLazyLoadMode() {\n                /**\n                 * Next some time can be null, 'empty string' but it return false to serve unit test assert purpose\n                 * eg: false || null -> null -> expect(null).to.be.false will be failed\n                 */\n                // === 5 and have next property -> doesn't lazy load yet\n                return (this.notificationItems.length === 5 && this.next) || this.notificationItems.length > 5;\n            }\n        }\n    };\n</script>\n\n<style scoped lang=\"scss\">\n  @import url('./style.css');\n\n\n  $padding: 10px;\n  .notification-list {\n    background: white;\n    width: 340px;\n    border: 1px solid rgba(0, 0, 0, 0.15);\n    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);\n    text-align: left;\n\n    &__scrollable-wrapper {\n      height: 345px;\n      overflow: auto;\n      overflow-x: hidden;\n    }\n\n    &__item {\n      padding: 10px 20px;\n    }\n\n    &__header {\n      border-bottom: 1px solid #eee;\n      color: #ababab !important;\n      padding: $padding;\n    }\n\n    &__footer {\n      border-top: 1px solid #eee;\n      padding: $padding;\n      text-align: center;\n    }\n\n    &__link {\n      background: none !important;\n      color: teal !important;\n      border: 0px;\n\n      &,\n      &:hover,\n      &:active {\n        text-decoration: none;\n      }\n    }\n  }\n</style>\n"]
+      sourcesContent: ["<template>\n  <div class=\"notification-list\">\n    <div class=\"notification-list__header\">\n      Th\xF4ng b\xE1o\n    </div>\n\n    <div\n            :class=\"notificationItemWrapperClass\"\n            @scroll=\"scroll\"\n            ref=\"notificationItemScrollableWrapper\">\n\n      <notification_item\n              class=\"notification-list__item\"\n              :href=\"href\"\n              v-for=\"notificationItem in notificationItems\"\n              :notificationData=\"notificationItem\"\n              :key=\"notificationItem.id\"/>\n\n    </div>\n\n    <div class=\"notification-list__footer\">\n      <a :href=\"href\" class=\"notification-list__link\">\n        Xem t\u1EA5t c\u1EA3\n      </a>\n    </div>\n  </div>\n</template>\n\n<script>\n    import notification_item from \"../notification_item/notification_item\";\n\n\n    export default {\n        methods: {\n            /**\n             *  Check behavior when scroll reach bottom\n             */\n            isNotificationItemScroller() {\n                // Pr\n                const notificationItemScrollableWrapper = this.$refs\n                    .notificationItemScrollableWrapper;\n\n                return (\n                    /**\n                     * Scroll touch bottom\n                     * Don't know how this shit work but it was ameizing\n                     */\n                    notificationItemScrollableWrapper.scrollHeight -\n                    notificationItemScrollableWrapper.scrollTop ===\n                    notificationItemScrollableWrapper.clientHeight\n                );\n            },\n\n            /**\n             * Emmit if next prop exist\n             * Manually test scroll behavior: No Unit Test idea yet ??\n             *\n             */\n            scroll(e, IisNotificationItemScroller = this.isNotificationItemScroller) {\n                // Pass a function to mock that behavior\n                if (this.next) {\n                    if (IisNotificationItemScroller()) {\n                        /**\n                         * Bubble to top componentn: notificatoin\n                         *\n                         * @event lazyLoad\n                         * @type {string}\n                         */\n                        this.$emit(\"lazyLoad\", this.next);\n                    }\n                }\n            }\n        },\n\n        components: {\n            notification_item\n        },\n\n        props: {\n            /**\n             * Link redirect when click \"Xem t\u1EA5t c\u1EA3\"\n             */\n            href: {\n                type: String,\n                default: \"#\"\n            },\n\n            /**\n             * Pass array object results\n             * Return of API\n             */\n            notificationItems: {\n                type: Array\n            },\n\n            /**\n             * next exist then scroll will emmit scroll\n             * eventually scroll will be bubble to notification component\n             */\n            next: {\n                type: String\n            }\n        },\n\n        computed: {\n            notificationItemWrapperClass() {\n                return this.isLazyLoadMode ? \"notification-list__scrollable-wrapper\" : \"\";\n            },\n\n            isLazyLoadMode() {\n                /**\n                 * Next some time can be null, 'empty string' but it return false to serve unit test assert purpose\n                 * eg: false || null -> null -> expect(null).to.be.false will be failed\n                 */\n                // === 5 and have next property -> doesn't lazy load yet\n                return (this.notificationItems.length === 5 && this.next) || this.notificationItems.length > 5;\n            }\n        }\n    };\n</script>\n\n<style scoped lang=\"scss\">\n  @import url('./style.css');\n\n\n  $padding: 10px;\n  .notification-list {\n    background: white;\n    width: 340px;\n    border: 1px solid rgba(0, 0, 0, 0.15);\n    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);\n    text-align: left;\n\n    &__scrollable-wrapper {\n      max-height: 310px;\n      overflow: auto;\n      overflow-x: hidden;\n    }\n\n    &__item {\n      padding: 10px 20px;\n    }\n\n    &__header {\n      border-bottom: 1px solid #eee;\n      color: #ababab !important;\n      padding: $padding;\n    }\n\n    &__footer {\n      border-top: 1px solid #eee;\n      padding: $padding;\n      text-align: center;\n    }\n\n    &__link {\n      background: none !important;\n      color: teal !important;\n      border: 0px;\n\n      &,\n      &:hover,\n      &:active {\n        text-decoration: none;\n      }\n    }\n  }\n</style>\n"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -70241,8 +70241,8 @@ var cov_2ei68pxsb4 = function () {
 });
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=script&lang=js&
  /* harmony default export */ var notification_list_notification_listvue_type_script_lang_js_ = (notification_listvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=style&index=0&id=1a1fd3a1&scoped=true&lang=scss&
-var notification_listvue_type_style_index_0_id_1a1fd3a1_scoped_true_lang_scss_ = __webpack_require__("2941");
+// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=style&index=0&id=43ecb916&scoped=true&lang=scss&
+var notification_listvue_type_style_index_0_id_43ecb916_scoped_true_lang_scss_ = __webpack_require__("5add");
 
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue
 
@@ -70255,11 +70255,11 @@ var notification_listvue_type_style_index_0_id_1a1fd3a1_scoped_true_lang_scss_ =
 
 var notification_list_component = normalizeComponent(
   notification_list_notification_listvue_type_script_lang_js_,
-  notification_listvue_type_template_id_1a1fd3a1_scoped_true_render,
-  notification_listvue_type_template_id_1a1fd3a1_scoped_true_staticRenderFns,
+  notification_listvue_type_template_id_43ecb916_scoped_true_render,
+  notification_listvue_type_template_id_43ecb916_scoped_true_staticRenderFns,
   false,
   null,
-  "1a1fd3a1",
+  "43ecb916",
   null
   
 )
