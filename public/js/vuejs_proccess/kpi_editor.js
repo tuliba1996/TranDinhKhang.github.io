@@ -2651,28 +2651,29 @@ var v = new Vue({
                 return false;
             }
             return true;
-
-
         },
         check_disable_edit: function (kpi) {
+            // Document permission edit quarter target & kpi target
+            // https://cloudjet.atlassian.net/wiki/spaces/PM/pages/454328403
+
+            // Admin allow edit
             if (this.is_user_system){
-                return true
-            }else{
-                if (!that.organization.allow_edit_monthly_target){
-                    return false
-                }else {
-                    if (COMMON.UserRequestID == COMMON.UserViewedId) {
-                        return false
-                    } else {
-                        if (kpi.enable_edit) {
-                            return true
-                        }
-                    }
-                }
+                return true;
             }
+
+            // Disable when the organization didn't allow to edit month target
+            if (!that.organization.allow_edit_monthly_target){
+                return false;
+            }
+
+            // Enable when the kpi allows to edit
+            if (kpi.enable_edit) {
+                return true;
+            }
+
+            // Otherwise disabled
             return false
         },
-
 
         showPreview: function (file_url) {
             if (window.location.protocol == 'https:' && file_url.match('^http://'))
@@ -4167,22 +4168,7 @@ var v = new Vue({
         },
         init_data_for_kpilib: function(){
             if(self.organization.enable_kpi_lib == true) {
-                kpi_lib.options = [];
-                this.DEPARTMENTS.forEach(function(item){
-                    var category = {};
-                    category.label=`${item.name} (${item.count})`;
-                    category.value=item.id;
-                    category.children=[];
-                    if(item.childs.length){
-                        item.childs.forEach(function(child){
-                            var sub_category = {};
-                            sub_category.label = `${child.name} (${child.count})`;
-                            sub_category.value = child.id;
-                            category.children.push(sub_category);
-                        })
-                    }
-                    kpi_lib.options.push(category)
-                });
+                kpi_lib.options = kpi_lib.format_functions(this.DEPARTMENTS);
                 //kpi_lib.options = this.options_category;
                 kpi_lib.parent_cate = this.parent_category;
                 kpi_lib.child_cate = this.child_category;

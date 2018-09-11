@@ -237,6 +237,7 @@
 	letter-spacing: normal;
 	text-align: center;
 	color: #666666;
+    word-break: break-all;
 }
 .image_box {
 	margin: 0 auto;
