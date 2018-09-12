@@ -483,7 +483,7 @@ module.exports = function () {
 /* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1__);
 var cov_2f1k8bkouz = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_item/notification_item.vue",
-      hash = "23e6543035e52bbca1a9d3ff33bf2e595050cab2",
+      hash = "e918603f41b7f5f33bca9354494956aadedccad4",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -1031,7 +1031,7 @@ var cov_2f1k8bkouz = function () {
       mappings: ";;;;;;;;;;;;;;;;;;;;;;AAsBA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
       file: "notification_item.vue",
       sourceRoot: "src/templates/components/clouldjet_noti/notification_item",
-      sourcesContent: ["<template>\n  <div class=\"notification-item\" @click=\"redirectToNotification\">\n    <img :src=\"notificationData.actor_avatar\" class=\"notification-item__image\">\n    <div class=\"notification-item__data-wrapper\">\n      <div class=\"notification-item__data\">\n        <div v-if=\"notificationData.type_notification==='change_log'\">\n          <b class=\"notification-item__display-name\">{{ \"Cloudjet KPI updated new version\" | translate }}:</b>\n          <span class=\"notification-item__version\">{{ \"Version\" | translate }} {{notificationData.version}}</span>\n          <span class=\"notification-item__release-date\">{{ \"updated\" | translate }} {{notificationData.release_date}}</span>\n        </div>\n\n        <div v-else>\n          <b class=\"notification-item__display-name\">{{notificationData.actor_name}}: </b>\n          <span class=\"notification-item__content-action\" v-html=\"ellipisDescription\"></span>\n        </div>\n      </div>\n      <div class=\"notification-item__diffTime\">{{diffTimeToString}}</div>\n    </div>\n  </div>\n</template>\n\n<script>\nexport default {\n  computed: {\n    ellipisDescription() {\n      let descriptionSplitN = this.notificationData.description.split(\"\\n\");\n      if (descriptionSplitN.length > 1) {\n        /**\n         * Todo\n         * Backend fix: 2 d\xF2ng th\xEC th\xEAm ...\n         */\n        if (descriptionSplitN[0].length < 5) {\n          return descriptionSplitN[0] + descriptionSplitN[1] + \"...\";\n        } else {\n          return descriptionSplitN[0];\n        }\n      } else {\n        return this.notificationData.description;\n      }\n    },\n\n    /**\n     * Diff = now - timestamp\n     * Business:\n     */\n    diffTimeToString() {\n      var now = new Date();\n      var past = new Date(this.notificationData.timestamp);\n      var diffTimeInMs = now.getTime() - past.getTime();\n      var diffmin = diffTimeInMs / (1000 * 60);\n      var diffHours = diffmin / 60;\n      var diffDay = diffHours / 24;\n\n      if (diffDay >= 1.5) {\n        return (\n          past.getDate() +\n          \"/\" +\n          (past.getMonth() + 1) +\n          \"/\" +\n          past.getFullYear() +\n          \" at \" +\n          past.getHours() +\n          \":\" +\n          past.getMinutes() +\n          \":\" +\n          past.getSeconds()\n        );\n      }\n\n      if (diffDay < 1.5 && diffDay >= 1) {\n        return parseInt(diffDay) + \" day ago\";\n      }\n\n      if (diffHours >= 1) {\n        return parseInt(diffHours) + \" hours ago\";\n      }\n\n      if (diffmin < 60 && diffmin >= 1) {\n        return parseInt(diffmin) + \" minutes ago\";\n      } else {\n        return \"recent\";\n      }\n    }\n  },\n  props: {\n    /**\n     * Link redirect when click notification item\n     */\n    href: String,\n    /**\n     * Notification object api\n     */\n    notificationData: Object,\n\n    /**\n     * Notification number,\n     * After click will set notification Number to zero\n     * Only display when notification bigger than 0\n     */\n    notificationCount: Number\n  },\n  methods: {\n    /**\n     * Unit Test should set window location to hreff\n     */\n    redirectToNotification() {\n      debugger;\n      global.window.location.href = this.href;\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification-item {\n  color: #333333;\n  padding-right: 15px;\n  padding-left: 15px;\n  padding-top: 10px;\n  padding-bottom: 23px;\n\n  &:hover {\n    background: #f1faf9;\n    cursor: pointer;\n  }\n\n  background: white;\n  display: flex;\n  font-size: 12px;\n\n  &__image {\n    width: 34px;\n    height: 34px;\n    margin-right: 15px;\n  }\n\n  &__data {\n    width: 300px;\n  }\n\n  &__data-wrapper {\n    color: #333333;\n    line-height: normal;\n    margin-right: 15px;\n  }\n\n  &__content-action {\n    word-break: break-all !important;\n    // Clould jet button style\n    > a {\n      background: none !important;\n      vertical-align: unset !important;\n      color: teal !important;\n      font-weight: bold;\n    }\n  }\n\n  &__diffTime {\n    margin-top: 5px;\n    font-size: 10px;\n    color: #ababab;\n  }\n\n  .notification-item__content-action a {\n    background: red !important;\n  }\n}\n</style>\n"]
+      sourcesContent: ["<template>\n  <div class=\"notification-item\" @click=\"redirectToNotification\">\n    <img :src=\"notificationData.actor_avatar\" class=\"notification-item__image\">\n    <div class=\"notification-item__data-wrapper\">\n      <div class=\"notification-item__data\">\n        <div v-if=\"notificationData.type_notification==='change_log'\">\n          <b class=\"notification-item__display-name\">{{ \"Cloudjet KPI updated new version\" | translate }}: </b>\n          <span class=\"notification-item__version\">{{ \"Version\" | translate }} {{notificationData.version}} </span>\n          <span class=\"notification-item__release-date\">{{ \"updated\" | translate }} {{notificationData.release_date}} </span>\n        </div>\n\n        <div v-else>\n          <b class=\"notification-item__display-name\">{{notificationData.actor_name}}: </b>\n          <span class=\"notification-item__content-action\" v-html=\"ellipisDescription\"></span>\n        </div>\n      </div>\n      <div class=\"notification-item__diffTime\">{{diffTimeToString}}</div>\n    </div>\n  </div>\n</template>\n\n<script>\nexport default {\n  computed: {\n    ellipisDescription() {\n      let descriptionSplitN = this.notificationData.description.split(\"\\n\");\n      if (descriptionSplitN.length > 1) {\n        /**\n         * Todo\n         * Backend fix: 2 d\xF2ng th\xEC th\xEAm ...\n         */\n        if (descriptionSplitN[0].length < 5) {\n          return descriptionSplitN[0] + descriptionSplitN[1] + \"...\";\n        } else {\n          return descriptionSplitN[0];\n        }\n      } else {\n        return this.notificationData.description;\n      }\n    },\n\n    /**\n     * Diff = now - timestamp\n     * Business:\n     */\n    diffTimeToString() {\n      var now = new Date();\n      var past = new Date(this.notificationData.timestamp);\n      var diffTimeInMs = now.getTime() - past.getTime();\n      var diffmin = diffTimeInMs / (1000 * 60);\n      var diffHours = diffmin / 60;\n      var diffDay = diffHours / 24;\n\n      if (diffDay >= 1.5) {\n        return (\n          past.getDate() +\n          \"/\" +\n          (past.getMonth() + 1) +\n          \"/\" +\n          past.getFullYear() +\n          \" at \" +\n          past.getHours() +\n          \":\" +\n          past.getMinutes() +\n          \":\" +\n          past.getSeconds()\n        );\n      }\n\n      if (diffDay < 1.5 && diffDay >= 1) {\n        return parseInt(diffDay) + \" day ago\";\n      }\n\n      if (diffHours >= 1) {\n        return parseInt(diffHours) + \" hours ago\";\n      }\n\n      if (diffmin < 60 && diffmin >= 1) {\n        return parseInt(diffmin) + \" minutes ago\";\n      } else {\n        return \"recent\";\n      }\n    }\n  },\n  props: {\n    /**\n     * Link redirect when click notification item\n     */\n    href: String,\n    /**\n     * Notification object api\n     */\n    notificationData: Object,\n\n    /**\n     * Notification number,\n     * After click will set notification Number to zero\n     * Only display when notification bigger than 0\n     */\n    notificationCount: Number\n  },\n  methods: {\n    /**\n     * Unit Test should set window location to hreff\n     */\n    redirectToNotification() {\n      debugger;\n      global.window.location.href = this.href;\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification-item {\n  color: #333333;\n  padding-right: 15px;\n  padding-left: 15px;\n  padding-top: 10px;\n  padding-bottom: 23px;\n\n  &:hover {\n    background: #f1faf9;\n    cursor: pointer;\n  }\n\n  background: white;\n  display: flex;\n  font-size: 12px;\n\n  &__image {\n    width: 34px;\n    height: 34px;\n    margin-right: 15px;\n  }\n\n  &__data {\n    width: 300px;\n  }\n\n  &__data-wrapper {\n    color: #333333;\n    line-height: normal;\n    margin-right: 15px;\n  }\n\n  &__content-action {\n    word-break: break-all !important;\n    // Clould jet button style\n    > a {\n      background: none !important;\n      vertical-align: unset !important;\n      color: teal !important;\n      font-weight: bold;\n    }\n  }\n\n  &__diffTime {\n    margin-top: 5px;\n    font-size: 10px;\n    color: #ababab;\n  }\n\n  .notification-item__content-action a {\n    background: red !important;\n  }\n}\n</style>\n"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -13167,17 +13167,6 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 /***/ }),
 
-/***/ "328a":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_78afa54c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("abea");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_78afa54c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_78afa54c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_78afa54c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "32e9":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13422,7 +13411,7 @@ module.exports = deepmerge_1;
 /***/ "3ca2":
 /***/ (function(module) {
 
-module.exports = {"en_US":{},"vi":{"Hello World in variable here":"Translate in variable","Need to translate":"No need to translate"}};
+module.exports = {"en_US":{},"vi":{"All months":"Tất cả các tháng","Allow review":"Cho phép đánh giá","Cloudjet KPI updated new version":"Cloudjet KPI đã cập nhật phiên bản mới","Company Information":"HIỆU SUẤT CÔNG TY","Due":"Thời hạn","Hello World in variable here":"Translate in variable","Performance":"Hiệu suất","Quarter":"Quý","updated":"cập nhật","Version":"Phiên bản","Vision & Mission":"Tầm nhìn và Sứ mệnh"}};
 
 /***/ }),
 
@@ -55735,13 +55724,6 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "abea":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "ac6a":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -55984,6 +55966,17 @@ module.exports = function (it) {
   return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
 };
 
+
+/***/ }),
+
+/***/ "b4fb":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_4aa5d10c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f8d0");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_4aa5d10c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_4aa5d10c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_4aa5d10c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -60932,6 +60925,13 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__("f921"), __esModule: true };
+
+/***/ }),
+
+/***/ "f8d0":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -70079,20 +70079,20 @@ var notification_listvue_type_template_id_34274676_scoped_true_staticRenderFns =
 
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=34274676&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=78afa54c&scoped=true&
-var notification_itemvue_type_template_id_78afa54c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-item",on:{"click":_vm.redirectToNotification}},[_c('img',{staticClass:"notification-item__image",attrs:{"src":_vm.notificationData.actor_avatar}}),_c('div',{staticClass:"notification-item__data-wrapper"},[_c('div',{staticClass:"notification-item__data"},[(_vm.notificationData.type_notification==='change_log')?_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm._f("translate")("Cloudjet KPI updated new version"))+":")]),_c('span',{staticClass:"notification-item__version"},[_vm._v(_vm._s(_vm._f("translate")("Version"))+" "+_vm._s(_vm.notificationData.version))]),_c('span',{staticClass:"notification-item__release-date"},[_vm._v(_vm._s(_vm._f("translate")("updated"))+" "+_vm._s(_vm.notificationData.release_date))])]):_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm.notificationData.actor_name)+": ")]),_c('span',{staticClass:"notification-item__content-action",domProps:{"innerHTML":_vm._s(_vm.ellipisDescription)}})])]),_c('div',{staticClass:"notification-item__diffTime"},[_vm._v(_vm._s(_vm.diffTimeToString))])])])}
-var notification_itemvue_type_template_id_78afa54c_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=4aa5d10c&scoped=true&
+var notification_itemvue_type_template_id_4aa5d10c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-item",on:{"click":_vm.redirectToNotification}},[_c('img',{staticClass:"notification-item__image",attrs:{"src":_vm.notificationData.actor_avatar}}),_c('div',{staticClass:"notification-item__data-wrapper"},[_c('div',{staticClass:"notification-item__data"},[(_vm.notificationData.type_notification==='change_log')?_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm._f("translate")("Cloudjet KPI updated new version"))+": ")]),_c('span',{staticClass:"notification-item__version"},[_vm._v(_vm._s(_vm._f("translate")("Version"))+" "+_vm._s(_vm.notificationData.version)+" ")]),_c('span',{staticClass:"notification-item__release-date"},[_vm._v(_vm._s(_vm._f("translate")("updated"))+" "+_vm._s(_vm.notificationData.release_date)+" ")])]):_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm.notificationData.actor_name)+": ")]),_c('span',{staticClass:"notification-item__content-action",domProps:{"innerHTML":_vm._s(_vm.ellipisDescription)}})])]),_c('div',{staticClass:"notification-item__diffTime"},[_vm._v(_vm._s(_vm.diffTimeToString))])])])}
+var notification_itemvue_type_template_id_4aa5d10c_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=78afa54c&scoped=true&
+// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=4aa5d10c&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=script&lang=js&
 var notification_itemvue_type_script_lang_js_ = __webpack_require__("0cd5");
 
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=script&lang=js&
  /* harmony default export */ var notification_item_notification_itemvue_type_script_lang_js_ = (notification_itemvue_type_script_lang_js_["a" /* default */]); 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=style&index=0&id=78afa54c&scoped=true&lang=scss&
-var notification_itemvue_type_style_index_0_id_78afa54c_scoped_true_lang_scss_ = __webpack_require__("328a");
+// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=style&index=0&id=4aa5d10c&scoped=true&lang=scss&
+var notification_itemvue_type_style_index_0_id_4aa5d10c_scoped_true_lang_scss_ = __webpack_require__("b4fb");
 
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue
 
@@ -70105,11 +70105,11 @@ var notification_itemvue_type_style_index_0_id_78afa54c_scoped_true_lang_scss_ =
 
 var notification_item_component = normalizeComponent(
   notification_item_notification_itemvue_type_script_lang_js_,
-  notification_itemvue_type_template_id_78afa54c_scoped_true_render,
-  notification_itemvue_type_template_id_78afa54c_scoped_true_staticRenderFns,
+  notification_itemvue_type_template_id_4aa5d10c_scoped_true_render,
+  notification_itemvue_type_template_id_4aa5d10c_scoped_true_staticRenderFns,
   false,
   null,
-  "78afa54c",
+  "4aa5d10c",
   null
   
 )
