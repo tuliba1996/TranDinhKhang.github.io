@@ -473,6 +473,719 @@ module.exports = function () {
 
 /***/ }),
 
+/***/ "0cd5":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("c5f6");
+/* harmony import */ var core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("28a5");
+/* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1__);
+var cov_2f1k8bkouz = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_item/notification_item.vue",
+      hash = "23e6543035e52bbca1a9d3ff33bf2e595050cab2",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_item/notification_item.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 26,
+          column: 30
+        },
+        end: {
+          line: 26,
+          column: 75
+        }
+      },
+      "1": {
+        start: {
+          line: 27,
+          column: 6
+        },
+        end: {
+          line: 39,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 32,
+          column: 8
+        },
+        end: {
+          line: 36,
+          column: 9
+        }
+      },
+      "3": {
+        start: {
+          line: 33,
+          column: 10
+        },
+        end: {
+          line: 33,
+          column: 69
+        }
+      },
+      "4": {
+        start: {
+          line: 35,
+          column: 10
+        },
+        end: {
+          line: 35,
+          column: 38
+        }
+      },
+      "5": {
+        start: {
+          line: 38,
+          column: 8
+        },
+        end: {
+          line: 38,
+          column: 49
+        }
+      },
+      "6": {
+        start: {
+          line: 47,
+          column: 16
+        },
+        end: {
+          line: 47,
+          column: 26
+        }
+      },
+      "7": {
+        start: {
+          line: 48,
+          column: 17
+        },
+        end: {
+          line: 48,
+          column: 58
+        }
+      },
+      "8": {
+        start: {
+          line: 49,
+          column: 25
+        },
+        end: {
+          line: 49,
+          column: 55
+        }
+      },
+      "9": {
+        start: {
+          line: 50,
+          column: 20
+        },
+        end: {
+          line: 50,
+          column: 46
+        }
+      },
+      "10": {
+        start: {
+          line: 51,
+          column: 22
+        },
+        end: {
+          line: 51,
+          column: 34
+        }
+      },
+      "11": {
+        start: {
+          line: 52,
+          column: 20
+        },
+        end: {
+          line: 52,
+          column: 34
+        }
+      },
+      "12": {
+        start: {
+          line: 54,
+          column: 6
+        },
+        end: {
+          line: 68,
+          column: 7
+        }
+      },
+      "13": {
+        start: {
+          line: 55,
+          column: 8
+        },
+        end: {
+          line: 67,
+          column: 10
+        }
+      },
+      "14": {
+        start: {
+          line: 70,
+          column: 6
+        },
+        end: {
+          line: 72,
+          column: 7
+        }
+      },
+      "15": {
+        start: {
+          line: 71,
+          column: 8
+        },
+        end: {
+          line: 71,
+          column: 46
+        }
+      },
+      "16": {
+        start: {
+          line: 74,
+          column: 6
+        },
+        end: {
+          line: 76,
+          column: 7
+        }
+      },
+      "17": {
+        start: {
+          line: 75,
+          column: 8
+        },
+        end: {
+          line: 75,
+          column: 50
+        }
+      },
+      "18": {
+        start: {
+          line: 78,
+          column: 6
+        },
+        end: {
+          line: 82,
+          column: 7
+        }
+      },
+      "19": {
+        start: {
+          line: 79,
+          column: 8
+        },
+        end: {
+          line: 79,
+          column: 50
+        }
+      },
+      "20": {
+        start: {
+          line: 81,
+          column: 8
+        },
+        end: {
+          line: 81,
+          column: 24
+        }
+      },
+      "21": {
+        start: {
+          line: 107,
+          column: 6
+        },
+        end: {
+          line: 107,
+          column: 15
+        }
+      },
+      "22": {
+        start: {
+          line: 108,
+          column: 6
+        },
+        end: {
+          line: 108,
+          column: 46
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 27,
+            column: 6
+          },
+          end: {
+            line: 39,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 27,
+            column: 6
+          },
+          end: {
+            line: 39,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 27,
+            column: 6
+          },
+          end: {
+            line: 39,
+            column: 7
+          }
+        }],
+        line: 27
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 32,
+            column: 8
+          },
+          end: {
+            line: 36,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 32,
+            column: 8
+          },
+          end: {
+            line: 36,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 32,
+            column: 8
+          },
+          end: {
+            line: 36,
+            column: 9
+          }
+        }],
+        line: 32
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 54,
+            column: 6
+          },
+          end: {
+            line: 68,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 54,
+            column: 6
+          },
+          end: {
+            line: 68,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 54,
+            column: 6
+          },
+          end: {
+            line: 68,
+            column: 7
+          }
+        }],
+        line: 54
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 70,
+            column: 6
+          },
+          end: {
+            line: 72,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 70,
+            column: 6
+          },
+          end: {
+            line: 72,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 70,
+            column: 6
+          },
+          end: {
+            line: 72,
+            column: 7
+          }
+        }],
+        line: 70
+      },
+      "4": {
+        loc: {
+          start: {
+            line: 70,
+            column: 10
+          },
+          end: {
+            line: 70,
+            column: 39
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 70,
+            column: 10
+          },
+          end: {
+            line: 70,
+            column: 23
+          }
+        }, {
+          start: {
+            line: 70,
+            column: 27
+          },
+          end: {
+            line: 70,
+            column: 39
+          }
+        }],
+        line: 70
+      },
+      "5": {
+        loc: {
+          start: {
+            line: 74,
+            column: 6
+          },
+          end: {
+            line: 76,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 74,
+            column: 6
+          },
+          end: {
+            line: 76,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 74,
+            column: 6
+          },
+          end: {
+            line: 76,
+            column: 7
+          }
+        }],
+        line: 74
+      },
+      "6": {
+        loc: {
+          start: {
+            line: 78,
+            column: 6
+          },
+          end: {
+            line: 82,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 78,
+            column: 6
+          },
+          end: {
+            line: 82,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 78,
+            column: 6
+          },
+          end: {
+            line: 82,
+            column: 7
+          }
+        }],
+        line: 78
+      },
+      "7": {
+        loc: {
+          start: {
+            line: 78,
+            column: 10
+          },
+          end: {
+            line: 78,
+            column: 38
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 78,
+            column: 10
+          },
+          end: {
+            line: 78,
+            column: 22
+          }
+        }, {
+          start: {
+            line: 78,
+            column: 26
+          },
+          end: {
+            line: 78,
+            column: 38
+          }
+        }],
+        line: 78
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0
+    },
+    f: {},
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0],
+      "3": [0, 0],
+      "4": [0, 0],
+      "5": [0, 0],
+      "6": [0, 0],
+      "7": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["notification_item.vue"],
+      names: [],
+      mappings: ";;;;;;;;;;;;;;;;;;;;;;AAsBA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+      file: "notification_item.vue",
+      sourceRoot: "src/templates/components/clouldjet_noti/notification_item",
+      sourcesContent: ["<template>\n  <div class=\"notification-item\" @click=\"redirectToNotification\">\n    <img :src=\"notificationData.actor_avatar\" class=\"notification-item__image\">\n    <div class=\"notification-item__data-wrapper\">\n      <div class=\"notification-item__data\">\n        <div v-if=\"notificationData.type_notification==='change_log'\">\n          <b class=\"notification-item__display-name\">{{ \"Cloudjet KPI updated new version\" | translate }}:</b>\n          <span class=\"notification-item__version\">{{ \"Version\" | translate }} {{notificationData.version}}</span>\n          <span class=\"notification-item__release-date\">{{ \"updated\" | translate }} {{notificationData.release_date}}</span>\n        </div>\n\n        <div v-else>\n          <b class=\"notification-item__display-name\">{{notificationData.actor_name}}: </b>\n          <span class=\"notification-item__content-action\" v-html=\"ellipisDescription\"></span>\n        </div>\n      </div>\n      <div class=\"notification-item__diffTime\">{{diffTimeToString}}</div>\n    </div>\n  </div>\n</template>\n\n<script>\nexport default {\n  computed: {\n    ellipisDescription() {\n      let descriptionSplitN = this.notificationData.description.split(\"\\n\");\n      if (descriptionSplitN.length > 1) {\n        /**\n         * Todo\n         * Backend fix: 2 d\xF2ng th\xEC th\xEAm ...\n         */\n        if (descriptionSplitN[0].length < 5) {\n          return descriptionSplitN[0] + descriptionSplitN[1] + \"...\";\n        } else {\n          return descriptionSplitN[0];\n        }\n      } else {\n        return this.notificationData.description;\n      }\n    },\n\n    /**\n     * Diff = now - timestamp\n     * Business:\n     */\n    diffTimeToString() {\n      var now = new Date();\n      var past = new Date(this.notificationData.timestamp);\n      var diffTimeInMs = now.getTime() - past.getTime();\n      var diffmin = diffTimeInMs / (1000 * 60);\n      var diffHours = diffmin / 60;\n      var diffDay = diffHours / 24;\n\n      if (diffDay >= 1.5) {\n        return (\n          past.getDate() +\n          \"/\" +\n          (past.getMonth() + 1) +\n          \"/\" +\n          past.getFullYear() +\n          \" at \" +\n          past.getHours() +\n          \":\" +\n          past.getMinutes() +\n          \":\" +\n          past.getSeconds()\n        );\n      }\n\n      if (diffDay < 1.5 && diffDay >= 1) {\n        return parseInt(diffDay) + \" day ago\";\n      }\n\n      if (diffHours >= 1) {\n        return parseInt(diffHours) + \" hours ago\";\n      }\n\n      if (diffmin < 60 && diffmin >= 1) {\n        return parseInt(diffmin) + \" minutes ago\";\n      } else {\n        return \"recent\";\n      }\n    }\n  },\n  props: {\n    /**\n     * Link redirect when click notification item\n     */\n    href: String,\n    /**\n     * Notification object api\n     */\n    notificationData: Object,\n\n    /**\n     * Notification number,\n     * After click will set notification Number to zero\n     * Only display when notification bigger than 0\n     */\n    notificationCount: Number\n  },\n  methods: {\n    /**\n     * Unit Test should set window location to hreff\n     */\n    redirectToNotification() {\n      debugger;\n      global.window.location.href = this.href;\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification-item {\n  color: #333333;\n  padding-right: 15px;\n  padding-left: 15px;\n  padding-top: 10px;\n  padding-bottom: 23px;\n\n  &:hover {\n    background: #f1faf9;\n    cursor: pointer;\n  }\n\n  background: white;\n  display: flex;\n  font-size: 12px;\n\n  &__image {\n    width: 34px;\n    height: 34px;\n    margin-right: 15px;\n  }\n\n  &__data {\n    width: 300px;\n  }\n\n  &__data-wrapper {\n    color: #333333;\n    line-height: normal;\n    margin-right: 15px;\n  }\n\n  &__content-action {\n    word-break: break-all !important;\n    // Clould jet button style\n    > a {\n      background: none !important;\n      vertical-align: unset !important;\n      color: teal !important;\n      font-weight: bold;\n    }\n  }\n\n  &__diffTime {\n    margin-top: 5px;\n    font-size: 10px;\n    color: #ababab;\n  }\n\n  .notification-item__content-action a {\n    background: red !important;\n  }\n}\n</style>\n"]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["a"] = ({
+  computed: {
+    ellipisDescription: function ellipisDescription() {
+      var descriptionSplitN = (cov_2f1k8bkouz.s[0]++, this.notificationData.description.split("\n"));
+      cov_2f1k8bkouz.s[1]++;
+
+      if (descriptionSplitN.length > 1) {
+        cov_2f1k8bkouz.b[0][0]++;
+        cov_2f1k8bkouz.s[2]++;
+
+        /**
+         * Todo
+         * Backend fix: 2 dòng thì thêm ...
+         */
+        if (descriptionSplitN[0].length < 5) {
+          cov_2f1k8bkouz.b[1][0]++;
+          cov_2f1k8bkouz.s[3]++;
+          return descriptionSplitN[0] + descriptionSplitN[1] + "...";
+        } else {
+          cov_2f1k8bkouz.b[1][1]++;
+          cov_2f1k8bkouz.s[4]++;
+          return descriptionSplitN[0];
+        }
+      } else {
+        cov_2f1k8bkouz.b[0][1]++;
+        cov_2f1k8bkouz.s[5]++;
+        return this.notificationData.description;
+      }
+    },
+
+    /**
+     * Diff = now - timestamp
+     * Business:
+     */
+    diffTimeToString: function diffTimeToString() {
+      var now = (cov_2f1k8bkouz.s[6]++, new Date());
+      var past = (cov_2f1k8bkouz.s[7]++, new Date(this.notificationData.timestamp));
+      var diffTimeInMs = (cov_2f1k8bkouz.s[8]++, now.getTime() - past.getTime());
+      var diffmin = (cov_2f1k8bkouz.s[9]++, diffTimeInMs / (1000 * 60));
+      var diffHours = (cov_2f1k8bkouz.s[10]++, diffmin / 60);
+      var diffDay = (cov_2f1k8bkouz.s[11]++, diffHours / 24);
+      cov_2f1k8bkouz.s[12]++;
+
+      if (diffDay >= 1.5) {
+        cov_2f1k8bkouz.b[2][0]++;
+        cov_2f1k8bkouz.s[13]++;
+        return past.getDate() + "/" + (past.getMonth() + 1) + "/" + past.getFullYear() + " at " + past.getHours() + ":" + past.getMinutes() + ":" + past.getSeconds();
+      } else {
+        cov_2f1k8bkouz.b[2][1]++;
+      }
+
+      cov_2f1k8bkouz.s[14]++;
+
+      if ((cov_2f1k8bkouz.b[4][0]++, diffDay < 1.5) && (cov_2f1k8bkouz.b[4][1]++, diffDay >= 1)) {
+        cov_2f1k8bkouz.b[3][0]++;
+        cov_2f1k8bkouz.s[15]++;
+        return parseInt(diffDay) + " day ago";
+      } else {
+        cov_2f1k8bkouz.b[3][1]++;
+      }
+
+      cov_2f1k8bkouz.s[16]++;
+
+      if (diffHours >= 1) {
+        cov_2f1k8bkouz.b[5][0]++;
+        cov_2f1k8bkouz.s[17]++;
+        return parseInt(diffHours) + " hours ago";
+      } else {
+        cov_2f1k8bkouz.b[5][1]++;
+      }
+
+      cov_2f1k8bkouz.s[18]++;
+
+      if ((cov_2f1k8bkouz.b[7][0]++, diffmin < 60) && (cov_2f1k8bkouz.b[7][1]++, diffmin >= 1)) {
+        cov_2f1k8bkouz.b[6][0]++;
+        cov_2f1k8bkouz.s[19]++;
+        return parseInt(diffmin) + " minutes ago";
+      } else {
+        cov_2f1k8bkouz.b[6][1]++;
+        cov_2f1k8bkouz.s[20]++;
+        return "recent";
+      }
+    }
+  },
+  props: {
+    /**
+     * Link redirect when click notification item
+     */
+    href: String,
+
+    /**
+     * Notification object api
+     */
+    notificationData: Object,
+
+    /**
+     * Notification number,
+     * After click will set notification Number to zero
+     * Only display when notification bigger than 0
+     */
+    notificationCount: Number
+  },
+  methods: {
+    /**
+     * Unit Test should set window location to hreff
+     */
+    redirectToNotification: function redirectToNotification() {
+      cov_2f1k8bkouz.s[21]++;
+      debugger;
+      cov_2f1k8bkouz.s[22]++;
+      global.window.location.href = this.href;
+    }
+  }
+});
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("c8ba")))
+
+/***/ }),
+
 /***/ "0d58":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11582,13 +12295,6 @@ module.exports = function (KEY, length, exec) {
 
 /***/ }),
 
-/***/ "2179":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "230e":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11639,6 +12345,84 @@ exports.f = Object.getOwnPropertySymbols;
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "28a5":
+/***/ (function(module, exports, __webpack_require__) {
+
+// @@split logic
+__webpack_require__("214f")('split', 2, function (defined, SPLIT, $split) {
+  'use strict';
+  var isRegExp = __webpack_require__("aae3");
+  var _split = $split;
+  var $push = [].push;
+  var $SPLIT = 'split';
+  var LENGTH = 'length';
+  var LAST_INDEX = 'lastIndex';
+  if (
+    'abbc'[$SPLIT](/(b)*/)[1] == 'c' ||
+    'test'[$SPLIT](/(?:)/, -1)[LENGTH] != 4 ||
+    'ab'[$SPLIT](/(?:ab)*/)[LENGTH] != 2 ||
+    '.'[$SPLIT](/(.?)(.?)/)[LENGTH] != 4 ||
+    '.'[$SPLIT](/()()/)[LENGTH] > 1 ||
+    ''[$SPLIT](/.?/)[LENGTH]
+  ) {
+    var NPCG = /()??/.exec('')[1] === undefined; // nonparticipating capturing group
+    // based on es5-shim implementation, need to rework it
+    $split = function (separator, limit) {
+      var string = String(this);
+      if (separator === undefined && limit === 0) return [];
+      // If `separator` is not a regex, use native split
+      if (!isRegExp(separator)) return _split.call(string, separator, limit);
+      var output = [];
+      var flags = (separator.ignoreCase ? 'i' : '') +
+                  (separator.multiline ? 'm' : '') +
+                  (separator.unicode ? 'u' : '') +
+                  (separator.sticky ? 'y' : '');
+      var lastLastIndex = 0;
+      var splitLimit = limit === undefined ? 4294967295 : limit >>> 0;
+      // Make `global` and avoid `lastIndex` issues by working with a copy
+      var separatorCopy = new RegExp(separator.source, flags + 'g');
+      var separator2, match, lastIndex, lastLength, i;
+      // Doesn't need flags gy, but they don't hurt
+      if (!NPCG) separator2 = new RegExp('^' + separatorCopy.source + '$(?!\\s)', flags);
+      while (match = separatorCopy.exec(string)) {
+        // `separatorCopy.lastIndex` is not reliable cross-browser
+        lastIndex = match.index + match[0][LENGTH];
+        if (lastIndex > lastLastIndex) {
+          output.push(string.slice(lastLastIndex, match.index));
+          // Fix browsers whose `exec` methods don't consistently return `undefined` for NPCG
+          // eslint-disable-next-line no-loop-func
+          if (!NPCG && match[LENGTH] > 1) match[0].replace(separator2, function () {
+            for (i = 1; i < arguments[LENGTH] - 2; i++) if (arguments[i] === undefined) match[i] = undefined;
+          });
+          if (match[LENGTH] > 1 && match.index < string[LENGTH]) $push.apply(output, match.slice(1));
+          lastLength = match[0][LENGTH];
+          lastLastIndex = lastIndex;
+          if (output[LENGTH] >= splitLimit) break;
+        }
+        if (separatorCopy[LAST_INDEX] === match.index) separatorCopy[LAST_INDEX]++; // Avoid an infinite loop
+      }
+      if (lastLastIndex === string[LENGTH]) {
+        if (lastLength || !separatorCopy.test('')) output.push('');
+      } else output.push(string.slice(lastLastIndex));
+      return output[LENGTH] > splitLimit ? output.slice(0, splitLimit) : output;
+    };
+  // Chakra, V8
+  } else if ('0'[$SPLIT](undefined, 0)[LENGTH]) {
+    $split = function (separator, limit) {
+      return separator === undefined && limit === 0 ? [] : _split.call(this, separator, limit);
+    };
+  }
+  // 21.1.3.17 String.prototype.split(separator, limit)
+  return [function split(separator, limit) {
+    var O = defined(this);
+    var fn = separator == undefined ? undefined : separator[SPLIT];
+    return fn !== undefined ? fn.call(separator, O, limit) : $split.call(String(O), separator, limit);
+  }, $split];
+});
+
 
 /***/ }),
 
@@ -12279,6 +13063,13 @@ exports.default = {
 
 /***/ }),
 
+/***/ "2cd1":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "2d00":
 /***/ (function(module, exports) {
 
@@ -12373,6 +13164,17 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
   return methods;
 };
 
+
+/***/ }),
+
+/***/ "328a":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_78afa54c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("abea");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_78afa54c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_78afa54c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_78afa54c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -16518,17 +17320,6 @@ module.exports = function ( delay, noTrailing, callback, debounceMode ) {
 
 /***/ }),
 
-/***/ "5add":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_43ecb916_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("dcb6");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_43ecb916_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_43ecb916_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_43ecb916_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "5b4e":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16556,13 +17347,6 @@ module.exports = function (IS_INCLUDES) {
   };
 };
 
-
-/***/ }),
-
-/***/ "5c32":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -51625,17 +52409,6 @@ module.exports = !$assign || __webpack_require__("79e5")(function () {
 
 /***/ }),
 
-/***/ "739e":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_431a5b72_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2179");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_431a5b72_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_431a5b72_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_431a5b72_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "765d":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -54947,6 +55720,28 @@ module.exports = exporter;
 
 /***/ }),
 
+/***/ "aae3":
+/***/ (function(module, exports, __webpack_require__) {
+
+// 7.2.8 IsRegExp(argument)
+var isObject = __webpack_require__("d3f4");
+var cof = __webpack_require__("2d95");
+var MATCH = __webpack_require__("2b4c")('match');
+module.exports = function (it) {
+  var isRegExp;
+  return isObject(it) && ((isRegExp = it[MATCH]) !== undefined ? !!isRegExp : cof(it) == 'RegExp');
+};
+
+
+/***/ }),
+
+/***/ "abea":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "ac6a":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -55012,6 +55807,17 @@ for (var collections = getKeys(DOMIterables), i = 0; i < collections.length; i++
 
 /***/ }),
 
+/***/ "ae84":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_37b1eff2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2cd1");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_37b1eff2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_37b1eff2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_37b1eff2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "aebd":
 /***/ (function(module, exports) {
 
@@ -55024,6 +55830,17 @@ module.exports = function (bitmap, value) {
   };
 };
 
+
+/***/ }),
+
+/***/ "b0f6":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_34274676_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("ec69");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_34274676_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_34274676_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_34274676_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -56723,13 +57540,6 @@ var store = global[SHARED] || (global[SHARED] = {});
   copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
 });
 
-
-/***/ }),
-
-/***/ "dcb6":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -58762,6 +59572,13 @@ var meta = module.exports = {
   onFreeze: onFreeze
 };
 
+
+/***/ }),
+
+/***/ "ec69":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -68042,14 +68859,14 @@ var es6_object_keys = __webpack_require__("456d");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/main.vue?vue&type=template&id=de3a8234&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/main.vue?vue&type=template&id=de3a8234&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"root"},[_c('div',{staticClass:"centered"},[_c('a',{staticClass:"HOME_ICN_ETS",attrs:{"id":"bonus-toggle","data-toggle":"modal","data-target":'#exscore-modal-' + _vm.uid}},[_vm._v("\n            Click here "),_c('i',{staticClass:"material-icons font-20 HOME_ICN_ETS"},[_vm._v("library_add")])])]),_c('div',{staticClass:"main-modal"},[_c('div',{staticClass:"modal fade",attrs:{"tabindex":"-1","role":"dialog","aria-labelledby":"myModalLabel","id":'exscore-modal-' + _vm.uid}},[_c('div',{staticClass:"modal-dialog",attrs:{"role":"document"}},[_c('div',{staticClass:"modal-content"},[_c('div',{staticClass:"modal-header"},[_vm._m(0),_c('h4',{staticClass:"modal-title",attrs:{"id":"myModalLabel"}},[_vm._v(_vm._s(_vm._f("translate")("Exscore lib")))])]),_c('div',{staticClass:"modal-body"},[_c('div',{attrs:{"id":"app-demo"}},[_c('img',{attrs:{"src":__webpack_require__("cf05")}}),_c('div',[_c('el-button',{on:{"click":_vm.startHacking}},[_vm._v("Start")]),_c('el-row',{staticClass:"block-col-2"},[_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("hover to trigger")]),_c('el-dropdown',[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1),_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("click to trigger")]),_c('el-dropdown',{attrs:{"trigger":"click"}},[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1)],1)],1),_c('HelloWorld',{attrs:{"msg":_vm._f("translate")('Hello World in variable here')}})],1)]),_vm._m(1)])])])])])}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"close",attrs:{"type":"button","data-dismiss":"modal","aria-label":"Close"}},[_c('i',{staticClass:"material-icons"},[_vm._v("close")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-footer"},[_c('button',{staticClass:"btn btn-default",attrs:{"type":"button","data-dismiss":"modal"}},[_vm._v("Close")]),_c('button',{staticClass:"btn btn-primary",attrs:{"type":"button"}},[_vm._v("Save changes")])])}]
 
 
 // CONCATENATED MODULE: ./src/templates/components/demo_app/main.vue?vue&type=template&id=de3a8234&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/minor_components/HelloWorld.vue?vue&type=template&id=de5e7078&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/minor_components/HelloWorld.vue?vue&type=template&id=de5e7078&scoped=true&
 var HelloWorldvue_type_template_id_de5e7078_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"hello"},[_c('h1',[_vm._v(_vm._s(_vm.msg))]),_c('h3',[_vm._v("Essential Links")]),_vm._m(0),_c('h3',[_vm._v("Ecosystem")]),_vm._m(1)])}
 var HelloWorldvue_type_template_id_de5e7078_scoped_true_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ul',[_c('li',[_c('a',{attrs:{"href":"https://vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("Core Docs")])]),_c('li',[_c('a',{attrs:{"href":"https://forum.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("Forum")])]),_c('li',[_c('a',{attrs:{"href":"https://chat.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("Community Chat")])]),_c('li',[_c('a',{attrs:{"href":"https://twitter.com/vuejs","target":"_blank","rel":"noopener"}},[_vm._v("Twitter")])]),_c('li',[_c('a',{attrs:{"href":"https://news.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("News")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ul',[_c('li',[_c('a',{attrs:{"href":"https://router.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("vue-router")])]),_c('li',[_c('a',{attrs:{"href":"https://vuex.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("vuex")])]),_c('li',[_c('a',{attrs:{"href":"https://github.com/vuejs/vue-devtools#vue-devtools","target":"_blank","rel":"noopener"}},[_vm._v("vue-devtools")])]),_c('li',[_c('a',{attrs:{"href":"https://vue-loader.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("vue-loader")])]),_c('li',[_c('a',{attrs:{"href":"https://github.com/vuejs/awesome-vue","target":"_blank","rel":"noopener"}},[_vm._v("awesome-vue")])])])}]
 
@@ -68860,14 +69677,14 @@ var main_component = normalizeComponent(
 
 main_component.options.__file = "main.vue"
 /* harmony default export */ var main = (main_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=template&id=431a5b72&scoped=true&
-var notification_containervue_type_template_id_431a5b72_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"notificationWrapper",staticClass:"notification"},[_c('notification_bell',{attrs:{"isToggle":_vm.isShowNotificationList,"notificationCount":_vm.notificationData.unread_list.length},on:{"click":_vm.toggleNotificationList}}),(_vm.isShowNotificationList)?_c('notification_list',{staticClass:"notification__list",attrs:{"notificationItems":_vm.notificationData.results,"href":_vm.href,"next":_vm.notificationData.next},on:{"lazyLoad":_vm.notificationListOnLazyLoad}}):_vm._e()],1)}
-var notification_containervue_type_template_id_431a5b72_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=template&id=37b1eff2&scoped=true&
+var notification_containervue_type_template_id_37b1eff2_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"notificationWrapper",staticClass:"notification"},[_c('notification_bell',{attrs:{"isToggle":_vm.isShowNotificationList,"notificationCount":_vm.notificationData.unread_list.length},on:{"click":_vm.toggleNotificationList}}),(_vm.isShowNotificationList)?_c('notification_list',{staticClass:"notification__list",attrs:{"notificationItems":_vm.notificationData.results,"href":_vm.href,"next":_vm.notificationData.next},on:{"lazyLoad":_vm.notificationListOnLazyLoad}}):_vm._e()],1)}
+var notification_containervue_type_template_id_37b1eff2_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=template&id=431a5b72&scoped=true&
+// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=template&id=37b1eff2&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue?vue&type=template&id=57eacbaa&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue?vue&type=template&id=57eacbaa&scoped=true&
 var notification_bellvue_type_template_id_57eacbaa_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification_bell"},[_c('button',{class:_vm.notificationBellButtonClass,on:{"click":_vm.notificationBellOnClick}},[(_vm.notificationCount>0)?_c('div',{staticClass:"notification_bell__number"},[_vm._v(_vm._s(_vm.formatNotificationCount))]):_vm._e(),_c('img',{staticClass:"notification_bell__icon",attrs:{"src":__webpack_require__("1f61")}})])])}
 var notification_bellvue_type_template_id_57eacbaa_scoped_true_staticRenderFns = []
 
@@ -69255,555 +70072,27 @@ if (typeof notification_bellvue_type_custom_index_0_blockType_docs["default"] ==
 
 notification_bell_component.options.__file = "notification_bell.vue"
 /* harmony default export */ var notification_bell = (notification_bell_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=43ecb916&scoped=true&
-var notification_listvue_type_template_id_43ecb916_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-list"},[_c('div',{staticClass:"notification-list__header"},[_vm._v("\n    Thông báo\n  ")]),_c('div',{ref:"notificationItemScrollableWrapper",class:_vm.notificationItemWrapperClass,on:{"scroll":_vm.scroll}},_vm._l((_vm.notificationItems),function(notificationItem){return _c('notification_item',{key:notificationItem.id,staticClass:"notification-list__item",attrs:{"href":_vm.href,"notificationData":notificationItem}})})),_c('div',{staticClass:"notification-list__footer"},[_c('a',{staticClass:"notification-list__link",attrs:{"href":_vm.href}},[_vm._v("\n      Xem tất cả\n    ")])])])}
-var notification_listvue_type_template_id_43ecb916_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=34274676&scoped=true&
+var notification_listvue_type_template_id_34274676_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-list"},[_c('div',{staticClass:"notification-list__header"},[_vm._v("\n    Thông báo\n  ")]),_c('div',{ref:"notificationItemScrollableWrapper",class:_vm.notificationItemWrapperClass,on:{"scroll":_vm.scroll}},_vm._l((_vm.notificationItems),function(notificationItem){return _c('notification_item',{key:notificationItem.id,staticClass:"notification-list__item",attrs:{"href":_vm.href,"notificationData":notificationItem}})})),_c('div',{staticClass:"notification-list__footer"},[_c('a',{staticClass:"notification-list__link",attrs:{"href":_vm.href}},[_vm._v("\n      Xem tất cả\n    ")])])])}
+var notification_listvue_type_template_id_34274676_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=43ecb916&scoped=true&
+// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=34274676&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=695fe397&scoped=true&
-var notification_itemvue_type_template_id_695fe397_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-item",on:{"click":_vm.redirectToNotification}},[_c('img',{staticClass:"notification-item__image col-md-2",attrs:{"src":_vm.notificationData.actor_avatar}}),_c('div',{staticClass:"col-md-10"},[_c('div',{staticClass:"notification-item__data"},[(_vm.notificationData.type_notification==='change_log')?_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm._f("translate")("Cloudjet KPI updated new version"))+":")]),_c('span',{staticClass:"notification-item__version"},[_vm._v(_vm._s(_vm._f("translate")("Version"))+" "+_vm._s(_vm.notificationData.version))]),_c('span',{staticClass:"notification-item__release-date"},[_vm._v(_vm._s(_vm._f("translate")("updated"))+" "+_vm._s(_vm.notificationData.release_date))])]):_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm.notificationData.actor_name)+": ")]),_vm._l((_vm.notificationData.description.split('\n')),function(line,index){return _c('span',{key:line},[_c('span',{staticClass:"notification-item__content-action",domProps:{"innerHTML":_vm._s(line)}}),(index < _vm.notificationData.description.split('\n').length - 1)?_c('br'):_vm._e()])})],2)]),_c('div',{staticClass:"notification-item__diffTime"},[_vm._v(_vm._s(_vm.diffTimeToString))])])])}
-var notification_itemvue_type_template_id_695fe397_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=695fe397&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=script&lang=js&
-var cov_2f1k8bkouz = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_item/notification_item.vue",
-      hash = "cedd4b78928fa3fcf4b12b557035bf982f92a26d",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_item/notification_item.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 35,
-          column: 26
-        },
-        end: {
-          line: 35,
-          column: 36
-        }
-      },
-      "1": {
-        start: {
-          line: 36,
-          column: 27
-        },
-        end: {
-          line: 36,
-          column: 68
-        }
-      },
-      "2": {
-        start: {
-          line: 37,
-          column: 35
-        },
-        end: {
-          line: 37,
-          column: 65
-        }
-      },
-      "3": {
-        start: {
-          line: 38,
-          column: 30
-        },
-        end: {
-          line: 38,
-          column: 56
-        }
-      },
-      "4": {
-        start: {
-          line: 39,
-          column: 32
-        },
-        end: {
-          line: 39,
-          column: 44
-        }
-      },
-      "5": {
-        start: {
-          line: 40,
-          column: 30
-        },
-        end: {
-          line: 40,
-          column: 44
-        }
-      },
-      "6": {
-        start: {
-          line: 42,
-          column: 16
-        },
-        end: {
-          line: 56,
-          column: 17
-        }
-      },
-      "7": {
-        start: {
-          line: 43,
-          column: 20
-        },
-        end: {
-          line: 55,
-          column: 22
-        }
-      },
-      "8": {
-        start: {
-          line: 58,
-          column: 16
-        },
-        end: {
-          line: 60,
-          column: 17
-        }
-      },
-      "9": {
-        start: {
-          line: 59,
-          column: 20
-        },
-        end: {
-          line: 59,
-          column: 58
-        }
-      },
-      "10": {
-        start: {
-          line: 62,
-          column: 16
-        },
-        end: {
-          line: 64,
-          column: 17
-        }
-      },
-      "11": {
-        start: {
-          line: 63,
-          column: 20
-        },
-        end: {
-          line: 63,
-          column: 62
-        }
-      },
-      "12": {
-        start: {
-          line: 66,
-          column: 16
-        },
-        end: {
-          line: 70,
-          column: 17
-        }
-      },
-      "13": {
-        start: {
-          line: 67,
-          column: 20
-        },
-        end: {
-          line: 67,
-          column: 62
-        }
-      },
-      "14": {
-        start: {
-          line: 69,
-          column: 20
-        },
-        end: {
-          line: 69,
-          column: 36
-        }
-      },
-      "15": {
-        start: {
-          line: 95,
-          column: 6
-        },
-        end: {
-          line: 95,
-          column: 34
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 42,
-            column: 16
-          },
-          end: {
-            line: 56,
-            column: 17
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 42,
-            column: 16
-          },
-          end: {
-            line: 56,
-            column: 17
-          }
-        }, {
-          start: {
-            line: 42,
-            column: 16
-          },
-          end: {
-            line: 56,
-            column: 17
-          }
-        }],
-        line: 42
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 58,
-            column: 16
-          },
-          end: {
-            line: 60,
-            column: 17
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 58,
-            column: 16
-          },
-          end: {
-            line: 60,
-            column: 17
-          }
-        }, {
-          start: {
-            line: 58,
-            column: 16
-          },
-          end: {
-            line: 60,
-            column: 17
-          }
-        }],
-        line: 58
-      },
-      "2": {
-        loc: {
-          start: {
-            line: 58,
-            column: 20
-          },
-          end: {
-            line: 58,
-            column: 49
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 58,
-            column: 20
-          },
-          end: {
-            line: 58,
-            column: 33
-          }
-        }, {
-          start: {
-            line: 58,
-            column: 37
-          },
-          end: {
-            line: 58,
-            column: 49
-          }
-        }],
-        line: 58
-      },
-      "3": {
-        loc: {
-          start: {
-            line: 62,
-            column: 16
-          },
-          end: {
-            line: 64,
-            column: 17
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 62,
-            column: 16
-          },
-          end: {
-            line: 64,
-            column: 17
-          }
-        }, {
-          start: {
-            line: 62,
-            column: 16
-          },
-          end: {
-            line: 64,
-            column: 17
-          }
-        }],
-        line: 62
-      },
-      "4": {
-        loc: {
-          start: {
-            line: 66,
-            column: 16
-          },
-          end: {
-            line: 70,
-            column: 17
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 66,
-            column: 16
-          },
-          end: {
-            line: 70,
-            column: 17
-          }
-        }, {
-          start: {
-            line: 66,
-            column: 16
-          },
-          end: {
-            line: 70,
-            column: 17
-          }
-        }],
-        line: 66
-      },
-      "5": {
-        loc: {
-          start: {
-            line: 66,
-            column: 20
-          },
-          end: {
-            line: 66,
-            column: 48
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 66,
-            column: 20
-          },
-          end: {
-            line: 66,
-            column: 32
-          }
-        }, {
-          start: {
-            line: 66,
-            column: 36
-          },
-          end: {
-            line: 66,
-            column: 48
-          }
-        }],
-        line: 66
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0
-    },
-    f: {},
-    b: {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0],
-      "5": [0, 0]
-    },
-    inputSourceMap: {
-      version: 3,
-      sources: ["notification_item.vue"],
-      names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;AA2BA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
-      file: "notification_item.vue",
-      sourceRoot: "src/templates/components/clouldjet_noti/notification_item",
-      sourcesContent: ["<template>\n  <div class=\"notification-item\" @click=\"redirectToNotification\">\n    <img :src=\"notificationData.actor_avatar\" class=\"notification-item__image col-md-2\">\n    <div class=\"col-md-10\">\n      <div class=\"notification-item__data\">\n        <div v-if=\"notificationData.type_notification==='change_log'\">\n          <b class=\"notification-item__display-name\">{{ \"Cloudjet KPI updated new version\" | translate }}:</b>\n          <span class=\"notification-item__version\">{{ \"Version\" | translate }} {{notificationData.version}}</span>\n          <span class=\"notification-item__release-date\">{{ \"updated\" | translate }} {{notificationData.release_date}}</span>\n        </div>\n\n        <div v-else>\n          <b class=\"notification-item__display-name\">{{notificationData.actor_name}}: </b>\n          <span v-for=\"(line, index) in notificationData.description.split('\\n')\" :key=\"line\"> \n            <span class=\"notification-item__content-action\" v-html=\"line\"></span>\n            <br v-if=\"index < notificationData.description.split('\\n').length - 1\">\n\n          </span>\n\n        </div>\n      </div>\n      <div class=\"notification-item__diffTime\">{{diffTimeToString}}</div>\n    </div>\n  </div>\n</template>\n\n<script>\n    export default {\n        computed: {\n            /**\n             * Diff = now - timestamp\n             * Business:\n             */\n            diffTimeToString() {\n                var now = new Date();\n                var past = new Date(this.notificationData.timestamp);\n                var diffTimeInMs = now.getTime() - past.getTime();\n                var diffmin = diffTimeInMs / (1000 * 60);\n                var diffHours = diffmin / 60;\n                var diffDay = diffHours / 24;\n\n                if (diffDay >= 1.5) {\n                    return (\n                        past.getDate() +\n                        \"/\" +\n                        (past.getMonth() + 1) +\n                        \"/\" +\n                        past.getFullYear() +\n                        \" at \" +\n                        past.getHours() +\n                        \":\" +\n                        past.getMinutes() +\n                        \":\" +\n                        past.getSeconds()\n                    );\n                }\n\n                if (diffDay < 1.5 && diffDay >= 1) {\n                    return parseInt(diffDay) + \" day ago\";\n                }\n\n                if (diffHours >= 1) {\n                    return parseInt(diffHours) + \" hours ago\";\n                }\n\n                if (diffmin < 60 && diffmin >= 1) {\n                    return parseInt(diffmin) + \" minutes ago\";\n                } else {\n                    return \"recent\";\n                }\n            }\n        },\n        props: {\n            /**\n             * Link redirect when click notification item\n             */\n            href: String,\n            /**\n             * Notification object api\n             */\n            notificationData: Object,\n\n    /**\n     * Notification number,\n     * After click will set notification Number to zero\n     * Only display when notification bigger than 0\n     */\n    notificationCount: Number\n  },\n  methods: {\n    /**\n     * Unit Test should set window location to hreff\n     */\n    redirectToNotification() {\n      window.location.assign(url);\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n  .notification-item {\n    color: #333333;\n    &:hover {\n      background: #f1faf9;\n      cursor: pointer;\n    }\n\n    background: white;\n    display: flex;\n    font-size: 12px;\n    align-items: center;\n\n    &__image {\n      width: 34px;\n      height: 34px;\n      padding: 0;\n    }\n\n    &__content-action {\n      word-break: break-all!important;\n      // Clould jet button style\n      > a {\n        background: none !important;\n        vertical-align: unset!important;\n        color: teal !important;\n        font-weight: bold;\n      }\n    }\n\n    &__diffTime {\n      font-size: 85%;\n      color: #ababab;\n    }\n\n    .notification-item__content-action a {\n      background: red !important;\n    }\n\n  }\n</style>\n"]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=78afa54c&scoped=true&
+var notification_itemvue_type_template_id_78afa54c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-item",on:{"click":_vm.redirectToNotification}},[_c('img',{staticClass:"notification-item__image",attrs:{"src":_vm.notificationData.actor_avatar}}),_c('div',{staticClass:"notification-item__data-wrapper"},[_c('div',{staticClass:"notification-item__data"},[(_vm.notificationData.type_notification==='change_log')?_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm._f("translate")("Cloudjet KPI updated new version"))+":")]),_c('span',{staticClass:"notification-item__version"},[_vm._v(_vm._s(_vm._f("translate")("Version"))+" "+_vm._s(_vm.notificationData.version))]),_c('span',{staticClass:"notification-item__release-date"},[_vm._v(_vm._s(_vm._f("translate")("updated"))+" "+_vm._s(_vm.notificationData.release_date))])]):_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm.notificationData.actor_name)+": ")]),_c('span',{staticClass:"notification-item__content-action",domProps:{"innerHTML":_vm._s(_vm.ellipisDescription)}})])]),_c('div',{staticClass:"notification-item__diffTime"},[_vm._v(_vm._s(_vm.diffTimeToString))])])])}
+var notification_itemvue_type_template_id_78afa54c_scoped_true_staticRenderFns = []
 
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var notification_itemvue_type_script_lang_js_ = ({
-  computed: {
-    /**
-     * Diff = now - timestamp
-     * Business:
-     */
-    diffTimeToString: function diffTimeToString() {
-      var now = (cov_2f1k8bkouz.s[0]++, new Date());
-      var past = (cov_2f1k8bkouz.s[1]++, new Date(this.notificationData.timestamp));
-      var diffTimeInMs = (cov_2f1k8bkouz.s[2]++, now.getTime() - past.getTime());
-      var diffmin = (cov_2f1k8bkouz.s[3]++, diffTimeInMs / (1000 * 60));
-      var diffHours = (cov_2f1k8bkouz.s[4]++, diffmin / 60);
-      var diffDay = (cov_2f1k8bkouz.s[5]++, diffHours / 24);
-      cov_2f1k8bkouz.s[6]++;
+// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=78afa54c&scoped=true&
 
-      if (diffDay >= 1.5) {
-        cov_2f1k8bkouz.b[0][0]++;
-        cov_2f1k8bkouz.s[7]++;
-        return past.getDate() + "/" + (past.getMonth() + 1) + "/" + past.getFullYear() + " at " + past.getHours() + ":" + past.getMinutes() + ":" + past.getSeconds();
-      } else {
-        cov_2f1k8bkouz.b[0][1]++;
-      }
+// EXTERNAL MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=script&lang=js&
+var notification_itemvue_type_script_lang_js_ = __webpack_require__("0cd5");
 
-      cov_2f1k8bkouz.s[8]++;
-
-      if ((cov_2f1k8bkouz.b[2][0]++, diffDay < 1.5) && (cov_2f1k8bkouz.b[2][1]++, diffDay >= 1)) {
-        cov_2f1k8bkouz.b[1][0]++;
-        cov_2f1k8bkouz.s[9]++;
-        return parseInt(diffDay) + " day ago";
-      } else {
-        cov_2f1k8bkouz.b[1][1]++;
-      }
-
-      cov_2f1k8bkouz.s[10]++;
-
-      if (diffHours >= 1) {
-        cov_2f1k8bkouz.b[3][0]++;
-        cov_2f1k8bkouz.s[11]++;
-        return parseInt(diffHours) + " hours ago";
-      } else {
-        cov_2f1k8bkouz.b[3][1]++;
-      }
-
-      cov_2f1k8bkouz.s[12]++;
-
-      if ((cov_2f1k8bkouz.b[5][0]++, diffmin < 60) && (cov_2f1k8bkouz.b[5][1]++, diffmin >= 1)) {
-        cov_2f1k8bkouz.b[4][0]++;
-        cov_2f1k8bkouz.s[13]++;
-        return parseInt(diffmin) + " minutes ago";
-      } else {
-        cov_2f1k8bkouz.b[4][1]++;
-        cov_2f1k8bkouz.s[14]++;
-        return "recent";
-      }
-    }
-  },
-  props: {
-    /**
-     * Link redirect when click notification item
-     */
-    href: String,
-
-    /**
-     * Notification object api
-     */
-    notificationData: Object,
-
-    /**
-     * Notification number,
-     * After click will set notification Number to zero
-     * Only display when notification bigger than 0
-     */
-    notificationCount: Number
-  },
-  methods: {
-    /**
-     * Unit Test should set window location to hreff
-     */
-    redirectToNotification: function redirectToNotification() {
-      cov_2f1k8bkouz.s[15]++;
-      window.location.assign(url);
-    }
-  }
-});
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=script&lang=js&
- /* harmony default export */ var notification_item_notification_itemvue_type_script_lang_js_ = (notification_itemvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=style&index=0&id=695fe397&scoped=true&lang=scss&
-var notification_itemvue_type_style_index_0_id_695fe397_scoped_true_lang_scss_ = __webpack_require__("fd76");
+ /* harmony default export */ var notification_item_notification_itemvue_type_script_lang_js_ = (notification_itemvue_type_script_lang_js_["a" /* default */]); 
+// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=style&index=0&id=78afa54c&scoped=true&lang=scss&
+var notification_itemvue_type_style_index_0_id_78afa54c_scoped_true_lang_scss_ = __webpack_require__("328a");
 
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue
 
@@ -69816,11 +70105,11 @@ var notification_itemvue_type_style_index_0_id_695fe397_scoped_true_lang_scss_ =
 
 var notification_item_component = normalizeComponent(
   notification_item_notification_itemvue_type_script_lang_js_,
-  notification_itemvue_type_template_id_695fe397_scoped_true_render,
-  notification_itemvue_type_template_id_695fe397_scoped_true_staticRenderFns,
+  notification_itemvue_type_template_id_78afa54c_scoped_true_render,
+  notification_itemvue_type_template_id_78afa54c_scoped_true_staticRenderFns,
   false,
   null,
-  "695fe397",
+  "78afa54c",
   null
   
 )
@@ -69830,7 +70119,7 @@ notification_item_component.options.__file = "notification_item.vue"
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=script&lang=js&
 var cov_2ei68pxsb4 = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_list/notification_list.vue",
-      hash = "0b917a175d3ef6add81b72fa41ad27058fece56e",
+      hash = "107a74549b3107648c0fc66f82d78a4469ac6a87",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -69839,72 +70128,72 @@ var cov_2ei68pxsb4 = function () {
     statementMap: {
       "0": {
         start: {
-          line: 40,
-          column: 54
+          line: 39,
+          column: 48
         },
         end: {
-          line: 41,
-          column: 50
+          line: 40,
+          column: 42
         }
       },
       "1": {
         start: {
-          line: 43,
-          column: 12
+          line: 42,
+          column: 6
         },
         end: {
-          line: 51,
-          column: 14
+          line: 50,
+          column: 8
         }
       },
       "2": {
         start: {
-          line: 61,
-          column: 12
+          line: 60,
+          column: 6
         },
         end: {
-          line: 71,
-          column: 13
+          line: 70,
+          column: 7
         }
       },
       "3": {
         start: {
-          line: 62,
-          column: 16
+          line: 61,
+          column: 8
         },
         end: {
-          line: 70,
-          column: 17
+          line: 69,
+          column: 9
         }
       },
       "4": {
         start: {
-          line: 69,
-          column: 20
+          line: 68,
+          column: 10
         },
         end: {
-          line: 69,
-          column: 54
+          line: 68,
+          column: 44
         }
       },
       "5": {
         start: {
-          line: 107,
-          column: 12
+          line: 106,
+          column: 6
         },
         end: {
-          line: 107,
-          column: 86
+          line: 106,
+          column: 80
         }
       },
       "6": {
         start: {
-          line: 116,
-          column: 12
+          line: 115,
+          column: 6
         },
         end: {
-          line: 116,
-          column: 107
+          line: 118,
+          column: 8
         }
       }
     },
@@ -69913,164 +70202,164 @@ var cov_2ei68pxsb4 = function () {
       "0": {
         loc: {
           start: {
-            line: 59,
-            column: 18
+            line: 58,
+            column: 14
           },
           end: {
-            line: 59,
-            column: 79
+            line: 58,
+            column: 75
           }
         },
         type: "default-arg",
         locations: [{
           start: {
-            line: 59,
-            column: 48
+            line: 58,
+            column: 44
           },
           end: {
-            line: 59,
-            column: 79
+            line: 58,
+            column: 75
           }
         }],
-        line: 59
+        line: 58
       },
       "1": {
         loc: {
           start: {
-            line: 61,
-            column: 12
+            line: 60,
+            column: 6
           },
           end: {
-            line: 71,
-            column: 13
+            line: 70,
+            column: 7
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 61,
-            column: 12
+            line: 60,
+            column: 6
           },
           end: {
-            line: 71,
-            column: 13
+            line: 70,
+            column: 7
           }
         }, {
           start: {
-            line: 61,
-            column: 12
+            line: 60,
+            column: 6
           },
           end: {
-            line: 71,
-            column: 13
+            line: 70,
+            column: 7
           }
         }],
-        line: 61
+        line: 60
       },
       "2": {
         loc: {
           start: {
-            line: 62,
-            column: 16
+            line: 61,
+            column: 8
           },
           end: {
-            line: 70,
-            column: 17
+            line: 69,
+            column: 9
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 62,
-            column: 16
+            line: 61,
+            column: 8
           },
           end: {
-            line: 70,
-            column: 17
+            line: 69,
+            column: 9
           }
         }, {
           start: {
-            line: 62,
-            column: 16
+            line: 61,
+            column: 8
           },
           end: {
-            line: 70,
-            column: 17
+            line: 69,
+            column: 9
           }
         }],
-        line: 62
+        line: 61
       },
       "3": {
         loc: {
           start: {
-            line: 107,
-            column: 19
+            line: 106,
+            column: 13
           },
           end: {
-            line: 107,
-            column: 85
+            line: 106,
+            column: 79
           }
         },
         type: "cond-expr",
         locations: [{
           start: {
-            line: 107,
-            column: 41
+            line: 106,
+            column: 35
           },
           end: {
-            line: 107,
-            column: 80
+            line: 106,
+            column: 74
           }
         }, {
           start: {
-            line: 107,
-            column: 83
+            line: 106,
+            column: 77
           },
           end: {
-            line: 107,
-            column: 85
+            line: 106,
+            column: 79
           }
         }],
-        line: 107
+        line: 106
       },
       "4": {
         loc: {
           start: {
             line: 116,
-            column: 19
+            column: 8
           },
           end: {
-            line: 116,
-            column: 106
+            line: 117,
+            column: 41
           }
         },
         type: "binary-expr",
         locations: [{
           start: {
             line: 116,
-            column: 20
+            column: 9
           },
           end: {
             line: 116,
-            column: 55
+            column: 44
           }
         }, {
           start: {
             line: 116,
-            column: 59
+            column: 48
           },
           end: {
             line: 116,
-            column: 68
+            column: 57
           }
         }, {
           start: {
-            line: 116,
-            column: 73
+            line: 117,
+            column: 8
           },
           end: {
-            line: 116,
-            column: 106
+            line: 117,
+            column: 41
           }
         }],
         line: 116
@@ -70097,10 +70386,10 @@ var cov_2ei68pxsb4 = function () {
       version: 3,
       sources: ["notification_list.vue"],
       names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;AA6BA;;;AAGA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;AA6BA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
       file: "notification_list.vue",
       sourceRoot: "src/templates/components/clouldjet_noti/notification_list",
-      sourcesContent: ["<template>\n  <div class=\"notification-list\">\n    <div class=\"notification-list__header\">\n      Th\xF4ng b\xE1o\n    </div>\n\n    <div\n            :class=\"notificationItemWrapperClass\"\n            @scroll=\"scroll\"\n            ref=\"notificationItemScrollableWrapper\">\n\n      <notification_item\n              class=\"notification-list__item\"\n              :href=\"href\"\n              v-for=\"notificationItem in notificationItems\"\n              :notificationData=\"notificationItem\"\n              :key=\"notificationItem.id\"/>\n\n    </div>\n\n    <div class=\"notification-list__footer\">\n      <a :href=\"href\" class=\"notification-list__link\">\n        Xem t\u1EA5t c\u1EA3\n      </a>\n    </div>\n  </div>\n</template>\n\n<script>\n    import notification_item from \"../notification_item/notification_item\";\n\n\n    export default {\n        methods: {\n            /**\n             *  Check behavior when scroll reach bottom\n             */\n            isNotificationItemScroller() {\n                // Pr\n                const notificationItemScrollableWrapper = this.$refs\n                    .notificationItemScrollableWrapper;\n\n                return (\n                    /**\n                     * Scroll touch bottom\n                     * Don't know how this shit work but it was ameizing\n                     */\n                    notificationItemScrollableWrapper.scrollHeight -\n                    notificationItemScrollableWrapper.scrollTop ===\n                    notificationItemScrollableWrapper.clientHeight\n                );\n            },\n\n            /**\n             * Emmit if next prop exist\n             * Manually test scroll behavior: No Unit Test idea yet ??\n             *\n             */\n            scroll(e, IisNotificationItemScroller = this.isNotificationItemScroller) {\n                // Pass a function to mock that behavior\n                if (this.next) {\n                    if (IisNotificationItemScroller()) {\n                        /**\n                         * Bubble to top componentn: notificatoin\n                         *\n                         * @event lazyLoad\n                         * @type {string}\n                         */\n                        this.$emit(\"lazyLoad\", this.next);\n                    }\n                }\n            }\n        },\n\n        components: {\n            notification_item\n        },\n\n        props: {\n            /**\n             * Link redirect when click \"Xem t\u1EA5t c\u1EA3\"\n             */\n            href: {\n                type: String,\n                default: \"#\"\n            },\n\n            /**\n             * Pass array object results\n             * Return of API\n             */\n            notificationItems: {\n                type: Array\n            },\n\n            /**\n             * next exist then scroll will emmit scroll\n             * eventually scroll will be bubble to notification component\n             */\n            next: {\n                type: String\n            }\n        },\n\n        computed: {\n            notificationItemWrapperClass() {\n                return this.isLazyLoadMode ? \"notification-list__scrollable-wrapper\" : \"\";\n            },\n\n            isLazyLoadMode() {\n                /**\n                 * Next some time can be null, 'empty string' but it return false to serve unit test assert purpose\n                 * eg: false || null -> null -> expect(null).to.be.false will be failed\n                 */\n                // === 5 and have next property -> doesn't lazy load yet\n                return (this.notificationItems.length === 5 && this.next) || this.notificationItems.length > 5;\n            }\n        }\n    };\n</script>\n\n<style scoped lang=\"scss\">\n  @import url('./style.css');\n\n\n  $padding: 10px;\n  .notification-list {\n    background: white;\n    width: 340px;\n    border: 1px solid rgba(0, 0, 0, 0.15);\n    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);\n    text-align: left;\n\n    &__scrollable-wrapper {\n      max-height: 310px;\n      overflow: auto;\n      overflow-x: hidden;\n    }\n\n    &__item {\n      padding: 10px 20px;\n    }\n\n    &__header {\n      border-bottom: 1px solid #eee;\n      color: #ababab !important;\n      padding: $padding;\n    }\n\n    &__footer {\n      border-top: 1px solid #eee;\n      padding: $padding;\n      text-align: center;\n    }\n\n    &__link {\n      background: none !important;\n      color: teal !important;\n      border: 0px;\n\n      &,\n      &:hover,\n      &:active {\n        text-decoration: none;\n      }\n    }\n  }\n</style>\n"]
+      sourcesContent: ["<template>\n  <div class=\"notification-list\">\n    <div class=\"notification-list__header\">\n      Th\xF4ng b\xE1o\n    </div>\n\n    <div\n            :class=\"notificationItemWrapperClass\"\n            @scroll=\"scroll\"\n            ref=\"notificationItemScrollableWrapper\">\n\n      <notification_item\n              class=\"notification-list__item\"\n              :href=\"href\"\n              v-for=\"notificationItem in notificationItems\"\n              :notificationData=\"notificationItem\"\n              :key=\"notificationItem.id\"/>\n\n    </div>\n\n    <div class=\"notification-list__footer\">\n      <a :href=\"href\" class=\"notification-list__link\">\n        Xem t\u1EA5t c\u1EA3\n      </a>\n    </div>\n  </div>\n</template>\n\n<script>\nimport notification_item from \"../notification_item/notification_item\";\n\nexport default {\n  methods: {\n    /**\n     *  Check behavior when scroll reach bottom\n     */\n    isNotificationItemScroller() {\n      // Pr\n      const notificationItemScrollableWrapper = this.$refs\n        .notificationItemScrollableWrapper;\n\n      return (\n        /**\n         * Scroll touch bottom\n         * Don't know how this shit work but it was ameizing\n         */\n        notificationItemScrollableWrapper.scrollHeight -\n          notificationItemScrollableWrapper.scrollTop ===\n        notificationItemScrollableWrapper.clientHeight\n      );\n    },\n\n    /**\n     * Emmit if next prop exist\n     * Manually test scroll behavior: No Unit Test idea yet ??\n     *\n     */\n    scroll(e, IisNotificationItemScroller = this.isNotificationItemScroller) {\n      // Pass a function to mock that behavior\n      if (this.next) {\n        if (IisNotificationItemScroller()) {\n          /**\n           * Bubble to top componentn: notificatoin\n           *\n           * @event lazyLoad\n           * @type {string}\n           */\n          this.$emit(\"lazyLoad\", this.next);\n        }\n      }\n    }\n  },\n\n  components: {\n    notification_item\n  },\n\n  props: {\n    /**\n     * Link redirect when click \"Xem t\u1EA5t c\u1EA3\"\n     */\n    href: {\n      type: String,\n      default: \"#\"\n    },\n\n    /**\n     * Pass array object results\n     * Return of API\n     */\n    notificationItems: {\n      type: Array\n    },\n\n    /**\n     * next exist then scroll will emmit scroll\n     * eventually scroll will be bubble to notification component\n     */\n    next: {\n      type: String\n    }\n  },\n\n  computed: {\n    notificationItemWrapperClass() {\n      return this.isLazyLoadMode ? \"notification-list__scrollable-wrapper\" : \"\";\n    },\n\n    isLazyLoadMode() {\n      /**\n       * Next some time can be null, 'empty string' but it return false to serve unit test assert purpose\n       * eg: false || null -> null -> expect(null).to.be.false will be failed\n       */\n      // === 5 and have next property -> doesn't lazy load yet\n      return (\n        (this.notificationItems.length === 5 && this.next) ||\n        this.notificationItems.length > 5\n      );\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n@import url(\"./style.css\");\n\n$padding: 10px;\n.notification-list {\n  background: white;\n  width: 400px;\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);\n  text-align: left;\n\n  &__scrollable-wrapper {\n    height: 323px;\n    overflow: auto;\n    overflow-x: hidden;\n  }\n\n  &__header {\n    border-bottom: 1px solid #eee;\n    color: #ababab !important;\n    padding: 8px;\n  }\n\n  &__footer {\n    border-top: 1px solid #eee;\n    padding: 8px;\n    text-align: center;\n  }\n\n  &__link {\n    background: none !important;\n    color: teal !important;\n    border: 0px;\n\n    &,\n    &:hover,\n    &:active {\n      text-decoration: none;\n    }\n  }\n}\n</style>\n"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -70241,8 +70530,8 @@ var cov_2ei68pxsb4 = function () {
 });
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=script&lang=js&
  /* harmony default export */ var notification_list_notification_listvue_type_script_lang_js_ = (notification_listvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=style&index=0&id=43ecb916&scoped=true&lang=scss&
-var notification_listvue_type_style_index_0_id_43ecb916_scoped_true_lang_scss_ = __webpack_require__("5add");
+// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=style&index=0&id=34274676&scoped=true&lang=scss&
+var notification_listvue_type_style_index_0_id_34274676_scoped_true_lang_scss_ = __webpack_require__("b0f6");
 
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue
 
@@ -70255,11 +70544,11 @@ var notification_listvue_type_style_index_0_id_43ecb916_scoped_true_lang_scss_ =
 
 var notification_list_component = normalizeComponent(
   notification_list_notification_listvue_type_script_lang_js_,
-  notification_listvue_type_template_id_43ecb916_scoped_true_render,
-  notification_listvue_type_template_id_43ecb916_scoped_true_staticRenderFns,
+  notification_listvue_type_template_id_34274676_scoped_true_render,
+  notification_listvue_type_template_id_34274676_scoped_true_staticRenderFns,
   false,
   null,
-  "43ecb916",
+  "34274676",
   null
   
 )
@@ -70269,7 +70558,7 @@ notification_list_component.options.__file = "notification_list.vue"
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=script&lang=js&
 var cov_2as7b7xtte = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_container/notification_container.vue",
-      hash = "1ef219685978093ec13cafb8688fd8553ce3ded5",
+      hash = "5c633b1e85ef630cd8619c3aaf971804a4543341",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -70303,146 +70592,146 @@ var cov_2as7b7xtte = function () {
         },
         end: {
           line: 54,
-          column: 65
+          column: 14
         }
       },
       "3": {
         start: {
-          line: 60,
+          line: 55,
           column: 6
         },
         end: {
-          line: 63,
-          column: 7
+          line: 55,
+          column: 65
         }
       },
       "4": {
         start: {
           line: 61,
-          column: 8
+          column: 6
         },
         end: {
-          line: 61,
-          column: 68
+          line: 65,
+          column: 7
         }
       },
       "5": {
         start: {
-          line: 62,
+          line: 63,
           column: 8
         },
         end: {
-          line: 62,
-          column: 35
+          line: 63,
+          column: 60
         }
       },
       "6": {
         start: {
-          line: 67,
-          column: 6
+          line: 64,
+          column: 8
         },
         end: {
-          line: 67,
-          column: 42
+          line: 64,
+          column: 35
         }
       },
       "7": {
         start: {
-          line: 76,
+          line: 74,
           column: 15
         },
         end: {
-          line: 76,
+          line: 74,
           column: 45
         }
       },
       "8": {
         start: {
-          line: 77,
+          line: 75,
           column: 19
         },
         end: {
-          line: 77,
+          line: 75,
           column: 27
         }
       },
       "9": {
         start: {
-          line: 82,
+          line: 80,
           column: 6
         },
         end: {
-          line: 84,
+          line: 82,
           column: 7
         }
       },
       "10": {
         start: {
-          line: 83,
+          line: 81,
           column: 8
         },
         end: {
-          line: 83,
+          line: 81,
           column: 77
         }
       },
       "11": {
         start: {
-          line: 83,
+          line: 81,
           column: 41
         },
         end: {
-          line: 83,
+          line: 81,
           column: 77
         }
       },
       "12": {
         start: {
-          line: 89,
+          line: 87,
           column: 4
         },
         end: {
-          line: 99,
+          line: 97,
           column: 7
         }
       },
       "13": {
         start: {
-          line: 93,
+          line: 91,
           column: 6
         },
         end: {
-          line: 93,
+          line: 91,
           column: 66
         }
       },
       "14": {
         start: {
-          line: 98,
+          line: 96,
           column: 6
         },
         end: {
-          line: 98,
+          line: 96,
           column: 72
         }
       },
       "15": {
         start: {
-          line: 106,
+          line: 104,
           column: 4
         },
         end: {
-          line: 106,
+          line: 104,
           column: 67
         }
       },
       "16": {
         start: {
-          line: 110,
+          line: 108,
           column: 4
         },
         end: {
-          line: 113,
+          line: 111,
           column: 6
         }
       }
@@ -70452,25 +70741,25 @@ var cov_2as7b7xtte = function () {
         name: "(anonymous_0)",
         decl: {
           start: {
-            line: 89,
+            line: 87,
             column: 17
           },
           end: {
-            line: 89,
+            line: 87,
             column: 18
           }
         },
         loc: {
           start: {
-            line: 89,
+            line: 87,
             column: 23
           },
           end: {
-            line: 99,
+            line: 97,
             column: 5
           }
         },
-        line: 89
+        line: 87
       }
     },
     branchMap: {
@@ -70510,134 +70799,134 @@ var cov_2as7b7xtte = function () {
       "1": {
         loc: {
           start: {
-            line: 60,
+            line: 61,
             column: 6
           },
           end: {
-            line: 63,
+            line: 65,
             column: 7
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 60,
+            line: 61,
             column: 6
           },
           end: {
-            line: 63,
+            line: 65,
             column: 7
           }
         }, {
           start: {
-            line: 60,
+            line: 61,
             column: 6
           },
           end: {
-            line: 63,
+            line: 65,
             column: 7
           }
         }],
-        line: 60
+        line: 61
       },
       "2": {
         loc: {
           start: {
-            line: 82,
+            line: 80,
             column: 6
           },
           end: {
-            line: 84,
+            line: 82,
             column: 7
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 82,
+            line: 80,
             column: 6
           },
           end: {
-            line: 84,
+            line: 82,
             column: 7
           }
         }, {
           start: {
-            line: 82,
+            line: 80,
             column: 6
           },
           end: {
-            line: 84,
+            line: 82,
             column: 7
           }
         }],
-        line: 82
+        line: 80
       },
       "3": {
         loc: {
           start: {
-            line: 82,
+            line: 80,
             column: 10
           },
           end: {
-            line: 82,
+            line: 80,
             column: 47
           }
         },
         type: "binary-expr",
         locations: [{
           start: {
-            line: 82,
+            line: 80,
             column: 10
           },
           end: {
-            line: 82,
+            line: 80,
             column: 23
           }
         }, {
           start: {
-            line: 82,
+            line: 80,
             column: 27
           },
           end: {
-            line: 82,
+            line: 80,
             column: 47
           }
         }],
-        line: 82
+        line: 80
       },
       "4": {
         loc: {
           start: {
-            line: 83,
+            line: 81,
             column: 8
           },
           end: {
-            line: 83,
+            line: 81,
             column: 77
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 83,
+            line: 81,
             column: 8
           },
           end: {
-            line: 83,
+            line: 81,
             column: 77
           }
         }, {
           start: {
-            line: 83,
+            line: 81,
             column: 8
           },
           end: {
-            line: 83,
+            line: 81,
             column: 77
           }
         }],
-        line: 83
+        line: 81
       }
     },
     s: {
@@ -70673,10 +70962,10 @@ var cov_2as7b7xtte = function () {
       version: 3,
       sources: ["notification_container.vue"],
       names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;AAoBA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;;;;AAIA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA",
+      mappings: ";;;;;;;;;;;;;;;;;;;;AAoBA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;;;;AAIA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
       file: "notification_container.vue",
       sourceRoot: "src/templates/components/clouldjet_noti/notification_container",
-      sourcesContent: ["<template>\n  <div class=\"notification\" ref=\"notificationWrapper\">\n    <notification_bell\n      @click=\"toggleNotificationList\"\n      :isToggle=\"isShowNotificationList\"\n      :notificationCount=\"notificationData.unread_list.length\"\n    />\n    \n    <notification_list\n      @lazyLoad=\"notificationListOnLazyLoad\"\n      v-if=\"isShowNotificationList\"\n      class=\"notification__list\"\n      :notificationItems=\"notificationData.results\"\n      :href=\"href\"\n      :next=\"notificationData.next\"\n    />   \n  </div>\n</template>\n\n<script>\nimport notificationBell from \"../notification_bell/notification_bell\";\nimport notificationList from \"../notification_list/notification_list\";\nimport Vue from \"vue\";\n\nexport default {\n  components: {\n    notification_bell: notificationBell,\n    notification_list: notificationList\n  },\n\n  methods: {\n    /**\n     * Input new lazy load data here\n     * Automatically assign next + concat notification\n     */\n    // concatNotificationData (notificationData) {\n    //   this.next = notificationData.next\n    //   this.notificationItems = this.notificationItems.concat(notificationData.results)\n    // },\n\n    notificationListOnLazyLoad(next) {\n\n\n\n      /**\n       * Write unit test for this shit\n       */\n      if (this.onLazyLoad) {\n        this.onLazyLoad(next)\n      }\n    },\n\n    toggleNotificationList() {\n      this.isShowNotificationList = !this.isShowNotificationList;\n\n      /**\n       * Emmit markAsRead\n       * Params: unread_list\n       */\n      if (this.notificationData.unread_list.length > 0) {\n        this.$emit(\"markAsRead\", this.notificationData.unread_list);\n        this.notificationCount = 0;\n      }\n    },\n\n    hideNotificationList() {\n      this.isShowNotificationList = false;\n    },\n\n    /**\n     * Todo: Unit Test\n     * isShowNotificationList = true and click in document should set to false\n     * isShowNotificationList = false and click in document should persist to false\n     */\n    handleClickOutSide(e) {\n      let el = this.$refs.notificationWrapper;\n      let target = e.target;\n\n      /**\n       * If it's click outside\n       */\n      if (el !== target && !el.contains(target)) {\n        if (this.isShowNotificationList) this.isShowNotificationList = false;\n      }\n    }\n  },\n\n  created() {\n    Vue.nextTick(() => {\n      /**\n       * Hide notification on click outside\n       */\n      document.addEventListener(\"click\", this.handleClickOutSide);\n\n      /**\n       * Vue doesn't allow to edit props\n       */\n      this.notificationCount = this.notificationData.unread_list.length;\n    });\n  },\n\n  destroyed() {\n    /**\n     * Remove on added event\n     */\n    document.removeEventListener(\"click\", this.handleClickOutSide);\n  },\n\n  data() {\n    return {\n      isShowNotificationList: false,\n      notificationCount: 0\n    };\n  },\n\n  props: {\n    /**\n     * Pass anything the api return in results\n     * into this. will format data automatically\n     */\n    notificationData: {\n      type: Object\n    },\n\n    /**\n     * Link to show all notification\n     */\n    href: {\n      type: String\n    },\n\n    onLazyLoad: Function\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification {\n  position: relative;\n  display: flex;\n  justify-content: flex-end;\n\n  &__list {\n    position: absolute;\n    top: 50px;\n  }\n}\n</style>\n"]
+      sourcesContent: ["<template>\n  <div class=\"notification\" ref=\"notificationWrapper\">\n    <notification_bell\n      @click=\"toggleNotificationList\"\n      :isToggle=\"isShowNotificationList\"\n      :notificationCount=\"notificationData.unread_list.length\"\n    />\n    \n    <notification_list\n      @lazyLoad=\"notificationListOnLazyLoad\"\n      v-if=\"isShowNotificationList\"\n      :notificationItems=\"notificationData.results\"\n      class=\"notification__list\"\n      :href=\"href\"\n      :next=\"notificationData.next\"\n    />   \n  </div>\n</template>\n\n<script>\nimport notificationBell from \"../notification_bell/notification_bell\";\nimport notificationList from \"../notification_list/notification_list\";\nimport Vue from \"vue\";\n\nexport default {\n  components: {\n    notification_bell: notificationBell,\n    notification_list: notificationList\n  },\n\n  methods: {\n    /**\n     * Input new lazy load data here\n     * Automatically assign next + concat notification\n     */\n    // concatNotificationData (notificationData) {\n    //   this.next = notificationData.next\n    //   this.notificationItems = this.notificationItems.concat(notificationData.results)\n    // },\n\n    notificationListOnLazyLoad(next) {\n\n\n\n      /**\n       * Write unit test for this shit\n       */\n      if (this.onLazyLoad) {\n        this.onLazyLoad(next)\n      }\n    },\n\n    toggleNotificationList() {\n      debugger\n      this.isShowNotificationList = !this.isShowNotificationList;\n\n      /**\n       * Emmit markAsRead\n       * Params: unread_list\n       */\n      if (this.notificationData.unread_list.length > 0) {\n        // this.$emit(\"markAsRead\", this.notificationData.unread_list);\n        this.onMarkAsRead(this.notificationData.unread_list)\n        this.notificationCount = 0;\n      }\n    },\n\n    /**\n     * Todo: Unit Test\n     * isShowNotificationList = true and click in document should set to false\n     * isShowNotificationList = false and click in document should persist to false\n     */\n    handleClickOutSide(e) {\n      let el = this.$refs.notificationWrapper;\n      let target = e.target;\n\n      /**\n       * If it's click outside\n       */\n      if (el !== target && !el.contains(target)) {\n        if (this.isShowNotificationList) this.isShowNotificationList = false;\n      }\n    }\n  },\n\n  created() {\n    Vue.nextTick(() => {\n      /**\n       * Hide notification on click outside\n       */\n      document.addEventListener(\"click\", this.handleClickOutSide);\n\n      /**\n       * Vue doesn't allow to edit props\n       */\n      this.notificationCount = this.notificationData.unread_list.length;\n    });\n  },\n\n  destroyed() {\n    /**\n     * Remove on added event\n     */\n    document.removeEventListener(\"click\", this.handleClickOutSide);\n  },\n\n  data() {\n    return {\n      isShowNotificationList: false,\n      notificationCount: 0\n    };\n  },\n\n  props: {\n    /**\n     * Pass anything the api return in results\n     * into this. will format data automatically\n     */\n    notificationData: {\n      type: Object\n    },\n\n    /**\n     * Link to show all notification\n     */\n    href: {\n      type: String\n    },\n\n    /**\n     * Function will be call when lazy load\n     * Params: Next link\n     * Use next link to get more notification data then\n     *  Concat result\n     *  Change\n     *    next: update lazymode status\n     *    unread_list: update notification number on bell\n     */\n    onLazyLoad: Function,\n\n    /**\n     * Function will be call when lazy load\n     * Params: id array\n     * Update bunch of array of id element to be readed\n     */\n    onMarkAsRead: Function\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification {\n  position: relative;\n  display: flex;\n  justify-content: flex-end;\n\n  &__list {\n    position: absolute;\n    top: 50px;\n  }\n}\n</style>\n"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -70742,27 +71031,26 @@ var cov_2as7b7xtte = function () {
     },
     toggleNotificationList: function toggleNotificationList() {
       cov_2as7b7xtte.s[2]++;
+      debugger;
+      cov_2as7b7xtte.s[3]++;
       this.isShowNotificationList = !this.isShowNotificationList;
       /**
        * Emmit markAsRead
        * Params: unread_list
        */
 
-      cov_2as7b7xtte.s[3]++;
+      cov_2as7b7xtte.s[4]++;
 
       if (this.notificationData.unread_list.length > 0) {
         cov_2as7b7xtte.b[1][0]++;
-        cov_2as7b7xtte.s[4]++;
-        this.$emit("markAsRead", this.notificationData.unread_list);
         cov_2as7b7xtte.s[5]++;
+        // this.$emit("markAsRead", this.notificationData.unread_list);
+        this.onMarkAsRead(this.notificationData.unread_list);
+        cov_2as7b7xtte.s[6]++;
         this.notificationCount = 0;
       } else {
         cov_2as7b7xtte.b[1][1]++;
       }
-    },
-    hideNotificationList: function hideNotificationList() {
-      cov_2as7b7xtte.s[6]++;
-      this.isShowNotificationList = false;
     },
 
     /**
@@ -70845,13 +71133,30 @@ var cov_2as7b7xtte = function () {
     href: {
       type: String
     },
-    onLazyLoad: Function
+
+    /**
+     * Function will be call when lazy load
+     * Params: Next link
+     * Use next link to get more notification data then
+     *  Concat result
+     *  Change
+     *    next: update lazymode status
+     *    unread_list: update notification number on bell
+     */
+    onLazyLoad: Function,
+
+    /**
+     * Function will be call when lazy load
+     * Params: id array
+     * Update bunch of array of id element to be readed
+     */
+    onMarkAsRead: Function
   }
 });
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=script&lang=js&
  /* harmony default export */ var notification_container_notification_containervue_type_script_lang_js_ = (notification_containervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=style&index=0&id=431a5b72&scoped=true&lang=scss&
-var notification_containervue_type_style_index_0_id_431a5b72_scoped_true_lang_scss_ = __webpack_require__("739e");
+// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=style&index=0&id=37b1eff2&scoped=true&lang=scss&
+var notification_containervue_type_style_index_0_id_37b1eff2_scoped_true_lang_scss_ = __webpack_require__("ae84");
 
 // CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_container/notification_container.vue
 
@@ -70864,18 +71169,18 @@ var notification_containervue_type_style_index_0_id_431a5b72_scoped_true_lang_sc
 
 var notification_container_component = normalizeComponent(
   notification_container_notification_containervue_type_script_lang_js_,
-  notification_containervue_type_template_id_431a5b72_scoped_true_render,
-  notification_containervue_type_template_id_431a5b72_scoped_true_staticRenderFns,
+  notification_containervue_type_template_id_37b1eff2_scoped_true_render,
+  notification_containervue_type_template_id_37b1eff2_scoped_true_staticRenderFns,
   false,
   null,
-  "431a5b72",
+  "37b1eff2",
   null
   
 )
 
 notification_container_component.options.__file = "notification_container.vue"
 /* harmony default export */ var notification_container = (notification_container_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b00c535a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=template&id=29b93144&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=template&id=29b93144&scoped=true&
 var mainvue_type_template_id_29b93144_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component-wrapper"},[_c('div',{staticClass:"col-sm-4 col-table-4 kpi-panel text-center",attrs:{"id":"company-performance-score"}},[_c('div',{staticClass:"kpi-panel-body"},[_c('div',{staticClass:"kpi-panel-header"},[_vm._v(_vm._s(_vm._f("translate")("Company Information")))]),_c('div',{staticClass:"container-fluid"},[_c('div',{staticClass:"rows-table-sm text-center"},[_c('div',{staticClass:"col-sm-6 col-table-6"},[_c('div',{staticClass:"rows-table-sm"},[_c('div',{staticClass:"logo padding-top-15"},[_c('img',{attrs:{"alt":_vm.organization_object.name,"src":_vm.organization_object.get_logo,"title":_vm.organization_object.name}})])]),_c('div',{staticClass:"bt-mission-box"},[_c('button',{staticClass:"btn btn-normal btn-fullwidth btn-cus-5-7 HOME_BTN_VISION",attrs:{"id":"btn-vision-misson","data-toggle":"modal","data-target":"#modal-vision-mission"}},[_vm._v("\n                                "+_vm._s(_vm._f("translate")("Vision & Mission")))])])]),_c('div',{staticClass:"col-sm-6 col-table-6",attrs:{"id":"performance-quater"}},[_c('div',[_c('span',{staticClass:"com-per-title"},[_vm._v(_vm._s(_vm._f("translate")("Performance"))+" - "+_vm._s(_vm._f("translate")("Quarter"))+"\n                                    "),_c('span',[_vm._v(_vm._s(_vm.current_quarter.quarter))])]),_c('br'),_c('span',{staticClass:"com-per-pecent"},[_c('span',{attrs:{"id":"company-performance-quarter"}},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.company_performance.kpi_percent)))]),_c('span',{staticClass:"per-com-unit"})])])])])]),_c('hr',{staticClass:"per-border border-top"}),_c('div',{staticClass:"container-fluid text-left due-box"},[_c('div',{staticClass:"col-sm-6",attrs:{"id":""}},[_c('div',[_vm._v(_vm._s(_vm._f("translate")("Due")))]),_c('div',[_vm._v(_vm._s(_vm._f("translate")("Allow review")))])]),_c('div',{staticClass:"col-sm-6 due-date-color"},[_c('div',[_vm._v(_vm._s(_vm._f("dateTimeFormat")(_vm.current_quarter.due_date)))]),(_vm.userActor.is_admin)?_c('div',[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.organization_object.monthly_review_lock),expression:"organization_object.monthly_review_lock"}],staticClass:"HOME_DDL_ALLOW_MONTH",on:{"change":[function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.$set(_vm.organization_object, "monthly_review_lock", $event.target.multiple ? $$selectedVal : $$selectedVal[0])},function($event){_vm.update_current_organization()}]}},[_c('option',{attrs:{"value":"allow_all"}},[_vm._v(_vm._s(_vm._f("translate")("All months")))]),_c('option',{attrs:{"value":"1"}},[_vm._v(_vm._s(_vm.current_quarter.month_1_name))]),_c('option',{attrs:{"value":"2"}},[_vm._v(_vm._s(_vm.current_quarter.month_2_name))]),_c('option',{attrs:{"value":"3"}},[_vm._v(_vm._s(_vm.current_quarter.month_3_name))])])]):_c('div',[(_vm.organization_object.monthly_review_lock === '1')?_c('span',[_vm._v(" "+_vm._s(_vm.current_quarter.month_1_name))]):_vm._e(),(_vm.organization_object.monthly_review_lock === '2')?_c('span',[_vm._v(" "+_vm._s(_vm.current_quarter.month_2_name))]):_vm._e(),(_vm.organization_object.monthly_review_lock === '3')?_c('span',[_vm._v(" "+_vm._s(_vm.current_quarter.month_3_name))]):_vm._e(),(_vm.organization_object.monthly_review_lock === 'allow_all')?_c('span',[_vm._v(_vm._s(_vm._f("translate")("All months")))]):_vm._e()])])]),_c('div',{staticClass:"table-per-com-result"},[_c('table',{staticClass:"table table-bordered table-striped text-center"},[_c('thead',[_c('tr',[_c('th',[_vm._v(_vm._s(_vm.current_quarter.month_1_name))]),_c('th',[_vm._v(_vm._s(_vm.current_quarter.month_2_name))]),_c('th',[_vm._v(_vm._s(_vm.current_quarter.month_3_name))])])]),_c('tbody',[_c('tr',[_c('td',[_c('span',{},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.company_performance.month_1_score)))])]),_c('td',[_c('span',{},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.company_performance.month_2_score)))])]),_c('td',[_c('span',{},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.company_performance.month_3_score)))])])])])])])])])])}
 var mainvue_type_template_id_29b93144_scoped_true_staticRenderFns = []
 
@@ -73154,17 +73459,6 @@ var main_a = (cov_j1djl4034.s[0]++, 'trigger test coverage');
 
 
 
-
-/***/ }),
-
-/***/ "fd76":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_695fe397_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("5c32");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_695fe397_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_695fe397_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_695fe397_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
