@@ -1,20 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
-
-  <script async src="./public/dist/cloudjet_ui.umd.min.js"></script>
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reactive Programming Between Vue 1.x and Vue 2.x</title>
 </head>
 <body>
+    <div id="vue-2-container">
+        <div class="message">{{ message }}</div>
+        <div class="input">
+            <input v-model="user.name"/>
+            <input v-model="user.email"/>
+        </div>
+    </div>
+     <div id="vue-1-container">
+        <div class="message">{{ message }}</div>
+        <div class="input">
+            <input v-model="user.name"/>
+            <input v-model="user.email"/>
+        </div>
+    </div>
 
-<div id="kpiapp-snapshot-container">
-  <cloudjet-nav></cloudjet-nav>
+       <!-- Dependencies block -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js" integrity="sha256-7/yoZS3548fXSRXqc/xYzjsmuW3sFKzuvOCHd06Pmps=" crossorigin="anonymous"></script>
 
-</div>
+    <!-- Vue 2.x block -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        window.Vue2 = Object.assign(window.Vue,{}) // Change Vue 2.x instance into Vue2, then Vue 1.x will override Vue and become 1.x
+        var vueBridgeMixin = {
+            data: function(){
+                return {
+                    _RC: null, // This is the reactive controller, still get vue 2
+                    _Mate: null,
+                    _link_properties: [], // This is to declare which field should be linked, path format
+                    _watch_list: [], // This is to declare which field should be linked, path format
+                }
+            },
+            beforeDestroy: function(){
+                this.$off("mateOperate")
+            },
+            created: function () {
+                /* initialize + Vue 1 will need this */
+                this._RC = Vue2;
+                this._Mate = null;
+                this._link_properties = [];
+                this._watch_list = []; // length should be equal to _link_properties
 
+                /* hook to register mate */
+                this.$on("operateMate", function(mateObject,properties){
+
+                    console.log("Triggered operate mate")
+                    /* Setup mate object */
+                    this._RC.set(this,"_Mate",mateObject)
+
+
+                    /* Filter and set linked properties */
+                    var _props = this._link_properties.concat(properties)
+                    var _filtered_props = _props.filter(function(item, pos,self) {
+                        return self.indexOf(item) === pos;
+                    })
+                    this._RC.set(this,"_link_properties",_filtered_props)
+
+                    /* watch list to linked properties */
+                    var __watch_list = _filtered_props.map(function(elm){
+                        return this.$watch(elm.prop,function(val,oldVal){
+                            this.$$setMate(elm.prop,val)
+                        }.bind(this), {
+                            deep: elm.deep
+                        })
+                    }.bind(this))
+
+                    this._RC.set(this,"_watch_list",__watch_list)
+
+                }.bind(this))
+            },
+            methods: {
+                $$setMate: function(_path,_value){
+                    /* initialize object */
+                    var _obj2 = this._Mate
+                    /* extract path */
+                    var _paths = _.toPath(_path)
+
+                    /* get nearest key */
+                    var key = _paths.pop(_paths[_paths.length - 1])
+
+                    /* get path */
+                    var path = _paths.join(".")
+
+                    /* using lodash to get object with path */
+                    if (path){
+                        _obj2 = _.get(this._Mate,path)
+                    }
+                    /* below is to set if _Mate is set */
+                    if (typeof(_obj2) === typeof({})){ // check function
+                        this._RC.set(_obj2,key,_value)
+                    }
+                },
+                $$set: function (_path,_value) {
+                    /* initialize object */
+                    var _obj = this;
+
+                    /* extract path */
+                    var _paths = _.toPath(_path)
+
+                    /* get nearest key */
+                    var key = _paths.pop(_paths[_paths.length - 1])
+
+                    /* get path */
+                    var path = _paths.join(".")
+
+                    /* using lodash to get object with path */
+                    if (path){
+                        _obj = _.get(this,path)
+                    }
+
+                    this._RC.set(_obj,key,_value)
+
+                    this.$$setMate(_path,_value)
+                }
+            }
+        }
+        function operateMate(vue_instance, other_vue_instance, properties=[]){
+
+            /* mutual triggered */
+            vue_instance.$emit("operateMate",other_vue_instance,properties)
+            other_vue_instance.$emit("operateMate",vue_instance,properties)
+        }
+    </script>
+    <script>
+        var v2 = new Vue({
+            mixins: [vueBridgeMixin],
+            el: "#vue-2-container",
+            data: () => {
+                return {
+                    message: "Vue version: " + Vue.version,
+                    user: {
+                        name: "John Doe",
+                        email: "doe@john.org"
+                    }
+                }
+            }
+        })
+    </script>
+    <!-- Vue 1.x scope -->
+    <script src="https://cdn.jsdelivr.net/vue/1.0.28/vue.min.js"></script>
+    <script>
+        // Till now, the Vue default will be Vue 1.x
+        var v1 = new Vue({
+            mixins: [vueBridgeMixin],
+            el: "#vue-1-container",
+            data: () => {
+                return {
+                    message: "Vue version: " + Vue.version,
+                    user: {
+                        name: "Harem Doe",
+                        email: "harem@john.org"
+                    }
+                }
+            }
+        })
+    </script>
+    <script>
+        operateMate(v1,v2,[{ prop: 'user', deep: true }])
+    </script>
 </body>
-
 </html>
