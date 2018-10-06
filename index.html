@@ -6,13 +6,15 @@
     <title>Reactive Programming Between Vue 1.x and Vue 2.x</title>
 </head>
 <body>
-    <div>
-        <div>Operate Mate with deep = true</div>
+    <div> <h2>Reactive programming between vue 1.x and Vue 2.x</h2> </div>
+    <div style="margin-top: 50px">
+        <div><h3>Operate Mate with deep = true</h3></div>
         <div id="vue-2-container">
             <div class="message">{{ message }}</div>
             <div class="input">
                 <input v-model="user.name"/>
                 <input v-model="user.email"/>
+                <button @click="$$set('user',user)">Submit</button>
             </div>
         </div>
          <div id="vue-1-container">
@@ -20,24 +22,27 @@
             <div class="input">
                 <input v-model="user.name"/>
                 <input v-model="user.email"/>
+                <button @click="$$set('user',user)">Submit</button>
             </div>
         </div>
     </div>
     
-    <div>
-        <div>Operate Mate with deep = false</div>
+    <div style="margin-top: 50px">
+        <div><h3>Operate Mate with deep = false</h3></div>
         <div id="vue-3-container">
             <div class="message">{{ message }}</div>
             <div class="input">
                 <input v-model="user.name"/>
                 <input v-model="user.email"/>
+                <button @click="$$set('user',user)">Submit</button>
             </div>
         </div>
-         <div id="vue-3-container">
+         <div id="vue-4-container">
             <div class="message">{{ message }}</div>
             <div class="input">
                 <input v-model="user.name"/>
                 <input v-model="user.email"/>
+                <button @click="$$set('user',user)">Submit</button>
             </div>
         </div>
     </div>
@@ -164,7 +169,7 @@
         })
         var v3 = new Vue({
             mixins: [vueBridgeMixin],
-            el: "#vue-2-container",
+            el: "#vue-3-container",
             data: () => {
                 return {
                     message: "Vue version: " + Vue.version,
@@ -196,7 +201,7 @@
         })
         var v4 = new Vue({
             mixins: [vueBridgeMixin],
-            el: "#vue-1-container",
+            el: "#vue-4-container",
             data: () => {
                 return {
                     message: "Vue version: " + Vue.version,
