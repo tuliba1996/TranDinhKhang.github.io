@@ -6,21 +6,41 @@
     <title>Reactive Programming Between Vue 1.x and Vue 2.x</title>
 </head>
 <body>
-    <div id="vue-2-container">
-        <div class="message">{{ message }}</div>
-        <div class="input">
-            <input v-model="user.name"/>
-            <input v-model="user.email"/>
+    <div>
+        <div>Operate Mate with deep = true</div>
+        <div id="vue-2-container">
+            <div class="message">{{ message }}</div>
+            <div class="input">
+                <input v-model="user.name"/>
+                <input v-model="user.email"/>
+            </div>
+        </div>
+         <div id="vue-1-container">
+            <div class="message">{{ message }}</div>
+            <div class="input">
+                <input v-model="user.name"/>
+                <input v-model="user.email"/>
+            </div>
         </div>
     </div>
-     <div id="vue-1-container">
-        <div class="message">{{ message }}</div>
-        <div class="input">
-            <input v-model="user.name"/>
-            <input v-model="user.email"/>
+    
+    <div>
+        <div>Operate Mate with deep = false</div>
+        <div id="vue-3-container">
+            <div class="message">{{ message }}</div>
+            <div class="input">
+                <input v-model="user.name"/>
+                <input v-model="user.email"/>
+            </div>
+        </div>
+         <div id="vue-3-container">
+            <div class="message">{{ message }}</div>
+            <div class="input">
+                <input v-model="user.name"/>
+                <input v-model="user.email"/>
+            </div>
         </div>
     </div>
-
        <!-- Dependencies block -->
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js" integrity="sha256-7/yoZS3548fXSRXqc/xYzjsmuW3sFKzuvOCHd06Pmps=" crossorigin="anonymous"></script>
 
@@ -142,6 +162,20 @@
                 }
             }
         })
+        var v3 = new Vue({
+            mixins: [vueBridgeMixin],
+            el: "#vue-2-container",
+            data: () => {
+                return {
+                    message: "Vue version: " + Vue.version,
+                    user: {
+                        name: "John Doe",
+                        email: "doe@john.org"
+                    }
+                }
+            }
+        })
+        
     </script>
     <!-- Vue 1.x scope -->
     <script src="https://cdn.jsdelivr.net/vue/1.0.28/vue.min.js"></script>
@@ -160,9 +194,24 @@
                 }
             }
         })
+        var v4 = new Vue({
+            mixins: [vueBridgeMixin],
+            el: "#vue-1-container",
+            data: () => {
+                return {
+                    message: "Vue version: " + Vue.version,
+                    user: {
+                        name: "Harem Doe",
+                        email: "harem@john.org"
+                    }
+                }
+            }
+        })
+        
     </script>
     <script>
-        operateMate(v1,v2,[{ prop: 'user', deep: true }])
+        operateMate(v1,v2,[{ prop: 'user', deep: true }]) // operate mate = true
+        operateMate(v3,v4,[{ prop: 'user', deep: false }]) // operate mate = true
     </script>
 </body>
 </html>
