@@ -705,6 +705,29 @@ Vue.component('tag-search', {
     }
 });
 
+function setToolTipKPI(el, content){
+    $(el).qtip({
+        content: {
+            text: content.replace(/(?:\r\n|\r|\n)/g, '<br/>')
+        },
+        style: {
+            classes: 'qtip-green'
+        },
+    });
+}
+
+Vue.directive('settooltipkpi', {
+    params: ['content'],
+    paramWatchers: {
+    content: function (val, oldVal) {
+        setToolTipKPI($(this.el),this.params.content);
+    }
+    },
+    bind:function () {
+        setToolTipKPI($(this.el),this.params.content);
+    }
+});
+
 Vue.component('kpi-editable', {
     delimiters: ["${", "}$"],
     props: ['kpi', 'field', 'can_edit'],
@@ -2743,7 +2766,8 @@ var v = new Vue({
                     contentType: false,
                     success: function (response) {
                         console.log(response);
-                        alert('Post action plan successfully!');
+                        var mesage = gettext("Post action plan successfully!");
+                        alert(mesage);
                         // The unshift() method adds new items to the beginning of an array, and returns the new length.
                         that.list_action_plan_file.unshift(response);
                         // that.list_action_plan_file[0].avatar = COMMON.UserAvatar;

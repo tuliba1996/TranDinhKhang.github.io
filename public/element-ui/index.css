@@ -17041,8 +17041,11 @@
       .el-date-table td.today.start-date span,
       .el-date-table td.today.end-date span {
         color: #fff; }
-    .el-date-table td.available:hover {
+      .el-date-table td.available:hover {
       color: #008b8b; }
+        .el-date-table td.available:hover span {
+        color: #fff;
+        background-color: #008b8b;}
     .el-date-table td.in-range div {
       background-color: #f2f6fc; }
       .el-date-table td.in-range div:hover {

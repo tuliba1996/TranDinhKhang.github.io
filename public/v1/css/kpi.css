@@ -1298,7 +1298,17 @@ div.btn-wrapper .btn {
 #navbar .nav-left li a:hover, #navbar .nav-left li:hover a {
     background: #008b8b;
 }
-
+#notification .list-unstyled  li a:hover {
+    color: #008b8b;
+    font-weight: normal;
+    text-decoration: underline;
+}
+#notification .list-unstyled  li a{
+    background: transparent;
+    color: #008b8b;
+    padding: 0px 0px !important;
+    font-weight: normal;
+}
 #navbar .nav-left .active {
     border-left: 0.1px solid rgba(255, 255, 255, 0.25);
     border-right: 0.1px solid rgba(255, 255, 255, 0.25);
@@ -3247,4 +3257,10 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
 
 [v-cloak] {
     display: none;
+}
+#company-kpi-snapshot .kpi-panel .justify-content-sm-center {
+    display: flex;
+    border-collapse: inherit;
+    flex-wrap:wrap ;
+    flex-grow: inherit;
 }

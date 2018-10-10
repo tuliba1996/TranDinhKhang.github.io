@@ -377,9 +377,13 @@ function bind_new_person() {
                 }
                 $("#add-employee-modal").modal("hide");
 
-                st.addSubtree(data, 'replot', {
+                // st.addSubtree(data, 'replot', {
+                // https://philogb.github.io/jit/static/v20/Jit/Examples/Spacetree/example3.html
+                st.addSubtree(data, 'animate', {
                     onComplete: function () {
-                        st.onClick('u'+peopleApp.current_node.id);
+                        //alert('add subtree complete! ' + peopleApp.current_node.id);// this deo chay
+
+                         st.onClick('u'+peopleApp.current_node.id);
                     }
                 });
                 swal({

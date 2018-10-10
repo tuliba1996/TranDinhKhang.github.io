@@ -500,9 +500,6 @@ td {
 .table-hover>tbody>tr:hover {
     background-color: rgba(0, 139, 139, 0.1);
 }
-.hover {
-	display: none;
-}
 tr:hover .hover {
 	display: initial;
 }

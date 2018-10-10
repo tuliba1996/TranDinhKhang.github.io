@@ -464,719 +464,6 @@ module.exports = function () {
 
 /***/ }),
 
-/***/ "0cd5":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("c5f6");
-/* harmony import */ var core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("28a5");
-/* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1__);
-var cov_2f1k8bkouz = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_item/notification_item.vue",
-      hash = "e918603f41b7f5f33bca9354494956aadedccad4",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_item/notification_item.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 26,
-          column: 30
-        },
-        end: {
-          line: 26,
-          column: 75
-        }
-      },
-      "1": {
-        start: {
-          line: 27,
-          column: 6
-        },
-        end: {
-          line: 39,
-          column: 7
-        }
-      },
-      "2": {
-        start: {
-          line: 32,
-          column: 8
-        },
-        end: {
-          line: 36,
-          column: 9
-        }
-      },
-      "3": {
-        start: {
-          line: 33,
-          column: 10
-        },
-        end: {
-          line: 33,
-          column: 69
-        }
-      },
-      "4": {
-        start: {
-          line: 35,
-          column: 10
-        },
-        end: {
-          line: 35,
-          column: 38
-        }
-      },
-      "5": {
-        start: {
-          line: 38,
-          column: 8
-        },
-        end: {
-          line: 38,
-          column: 49
-        }
-      },
-      "6": {
-        start: {
-          line: 47,
-          column: 16
-        },
-        end: {
-          line: 47,
-          column: 26
-        }
-      },
-      "7": {
-        start: {
-          line: 48,
-          column: 17
-        },
-        end: {
-          line: 48,
-          column: 58
-        }
-      },
-      "8": {
-        start: {
-          line: 49,
-          column: 25
-        },
-        end: {
-          line: 49,
-          column: 55
-        }
-      },
-      "9": {
-        start: {
-          line: 50,
-          column: 20
-        },
-        end: {
-          line: 50,
-          column: 46
-        }
-      },
-      "10": {
-        start: {
-          line: 51,
-          column: 22
-        },
-        end: {
-          line: 51,
-          column: 34
-        }
-      },
-      "11": {
-        start: {
-          line: 52,
-          column: 20
-        },
-        end: {
-          line: 52,
-          column: 34
-        }
-      },
-      "12": {
-        start: {
-          line: 54,
-          column: 6
-        },
-        end: {
-          line: 68,
-          column: 7
-        }
-      },
-      "13": {
-        start: {
-          line: 55,
-          column: 8
-        },
-        end: {
-          line: 67,
-          column: 10
-        }
-      },
-      "14": {
-        start: {
-          line: 70,
-          column: 6
-        },
-        end: {
-          line: 72,
-          column: 7
-        }
-      },
-      "15": {
-        start: {
-          line: 71,
-          column: 8
-        },
-        end: {
-          line: 71,
-          column: 46
-        }
-      },
-      "16": {
-        start: {
-          line: 74,
-          column: 6
-        },
-        end: {
-          line: 76,
-          column: 7
-        }
-      },
-      "17": {
-        start: {
-          line: 75,
-          column: 8
-        },
-        end: {
-          line: 75,
-          column: 50
-        }
-      },
-      "18": {
-        start: {
-          line: 78,
-          column: 6
-        },
-        end: {
-          line: 82,
-          column: 7
-        }
-      },
-      "19": {
-        start: {
-          line: 79,
-          column: 8
-        },
-        end: {
-          line: 79,
-          column: 50
-        }
-      },
-      "20": {
-        start: {
-          line: 81,
-          column: 8
-        },
-        end: {
-          line: 81,
-          column: 24
-        }
-      },
-      "21": {
-        start: {
-          line: 107,
-          column: 6
-        },
-        end: {
-          line: 107,
-          column: 15
-        }
-      },
-      "22": {
-        start: {
-          line: 108,
-          column: 6
-        },
-        end: {
-          line: 108,
-          column: 46
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 27,
-            column: 6
-          },
-          end: {
-            line: 39,
-            column: 7
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 27,
-            column: 6
-          },
-          end: {
-            line: 39,
-            column: 7
-          }
-        }, {
-          start: {
-            line: 27,
-            column: 6
-          },
-          end: {
-            line: 39,
-            column: 7
-          }
-        }],
-        line: 27
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 32,
-            column: 8
-          },
-          end: {
-            line: 36,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 32,
-            column: 8
-          },
-          end: {
-            line: 36,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 32,
-            column: 8
-          },
-          end: {
-            line: 36,
-            column: 9
-          }
-        }],
-        line: 32
-      },
-      "2": {
-        loc: {
-          start: {
-            line: 54,
-            column: 6
-          },
-          end: {
-            line: 68,
-            column: 7
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 54,
-            column: 6
-          },
-          end: {
-            line: 68,
-            column: 7
-          }
-        }, {
-          start: {
-            line: 54,
-            column: 6
-          },
-          end: {
-            line: 68,
-            column: 7
-          }
-        }],
-        line: 54
-      },
-      "3": {
-        loc: {
-          start: {
-            line: 70,
-            column: 6
-          },
-          end: {
-            line: 72,
-            column: 7
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 70,
-            column: 6
-          },
-          end: {
-            line: 72,
-            column: 7
-          }
-        }, {
-          start: {
-            line: 70,
-            column: 6
-          },
-          end: {
-            line: 72,
-            column: 7
-          }
-        }],
-        line: 70
-      },
-      "4": {
-        loc: {
-          start: {
-            line: 70,
-            column: 10
-          },
-          end: {
-            line: 70,
-            column: 39
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 70,
-            column: 10
-          },
-          end: {
-            line: 70,
-            column: 23
-          }
-        }, {
-          start: {
-            line: 70,
-            column: 27
-          },
-          end: {
-            line: 70,
-            column: 39
-          }
-        }],
-        line: 70
-      },
-      "5": {
-        loc: {
-          start: {
-            line: 74,
-            column: 6
-          },
-          end: {
-            line: 76,
-            column: 7
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 74,
-            column: 6
-          },
-          end: {
-            line: 76,
-            column: 7
-          }
-        }, {
-          start: {
-            line: 74,
-            column: 6
-          },
-          end: {
-            line: 76,
-            column: 7
-          }
-        }],
-        line: 74
-      },
-      "6": {
-        loc: {
-          start: {
-            line: 78,
-            column: 6
-          },
-          end: {
-            line: 82,
-            column: 7
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 78,
-            column: 6
-          },
-          end: {
-            line: 82,
-            column: 7
-          }
-        }, {
-          start: {
-            line: 78,
-            column: 6
-          },
-          end: {
-            line: 82,
-            column: 7
-          }
-        }],
-        line: 78
-      },
-      "7": {
-        loc: {
-          start: {
-            line: 78,
-            column: 10
-          },
-          end: {
-            line: 78,
-            column: 38
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 78,
-            column: 10
-          },
-          end: {
-            line: 78,
-            column: 22
-          }
-        }, {
-          start: {
-            line: 78,
-            column: 26
-          },
-          end: {
-            line: 78,
-            column: 38
-          }
-        }],
-        line: 78
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0,
-      "16": 0,
-      "17": 0,
-      "18": 0,
-      "19": 0,
-      "20": 0,
-      "21": 0,
-      "22": 0
-    },
-    f: {},
-    b: {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0],
-      "5": [0, 0],
-      "6": [0, 0],
-      "7": [0, 0]
-    },
-    inputSourceMap: {
-      version: 3,
-      sources: ["notification_item.vue"],
-      names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;AAsBA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
-      file: "notification_item.vue",
-      sourceRoot: "src/templates/components/clouldjet_noti/notification_item",
-      sourcesContent: ["<template>\n  <div class=\"notification-item\" @click=\"redirectToNotification\">\n    <img :src=\"notificationData.actor_avatar\" class=\"notification-item__image\">\n    <div class=\"notification-item__data-wrapper\">\n      <div class=\"notification-item__data\">\n        <div v-if=\"notificationData.type_notification==='change_log'\">\n          <b class=\"notification-item__display-name\">{{ \"Cloudjet KPI updated new version\" | translate }}: </b>\n          <span class=\"notification-item__version\">{{ \"Version\" | translate }} {{notificationData.version}} </span>\n          <span class=\"notification-item__release-date\">{{ \"updated\" | translate }} {{notificationData.release_date}} </span>\n        </div>\n\n        <div v-else>\n          <b class=\"notification-item__display-name\">{{notificationData.actor_name}}: </b>\n          <span class=\"notification-item__content-action\" v-html=\"ellipisDescription\"></span>\n        </div>\n      </div>\n      <div class=\"notification-item__diffTime\">{{diffTimeToString}}</div>\n    </div>\n  </div>\n</template>\n\n<script>\nexport default {\n  computed: {\n    ellipisDescription() {\n      let descriptionSplitN = this.notificationData.description.split(\"\\n\");\n      if (descriptionSplitN.length > 1) {\n        /**\n         * Todo\n         * Backend fix: 2 d\xF2ng th\xEC th\xEAm ...\n         */\n        if (descriptionSplitN[0].length < 5) {\n          return descriptionSplitN[0] + descriptionSplitN[1] + \"...\";\n        } else {\n          return descriptionSplitN[0];\n        }\n      } else {\n        return this.notificationData.description;\n      }\n    },\n\n    /**\n     * Diff = now - timestamp\n     * Business:\n     */\n    diffTimeToString() {\n      var now = new Date();\n      var past = new Date(this.notificationData.timestamp);\n      var diffTimeInMs = now.getTime() - past.getTime();\n      var diffmin = diffTimeInMs / (1000 * 60);\n      var diffHours = diffmin / 60;\n      var diffDay = diffHours / 24;\n\n      if (diffDay >= 1.5) {\n        return (\n          past.getDate() +\n          \"/\" +\n          (past.getMonth() + 1) +\n          \"/\" +\n          past.getFullYear() +\n          \" at \" +\n          past.getHours() +\n          \":\" +\n          past.getMinutes() +\n          \":\" +\n          past.getSeconds()\n        );\n      }\n\n      if (diffDay < 1.5 && diffDay >= 1) {\n        return parseInt(diffDay) + \" day ago\";\n      }\n\n      if (diffHours >= 1) {\n        return parseInt(diffHours) + \" hours ago\";\n      }\n\n      if (diffmin < 60 && diffmin >= 1) {\n        return parseInt(diffmin) + \" minutes ago\";\n      } else {\n        return \"recent\";\n      }\n    }\n  },\n  props: {\n    /**\n     * Link redirect when click notification item\n     */\n    href: String,\n    /**\n     * Notification object api\n     */\n    notificationData: Object,\n\n    /**\n     * Notification number,\n     * After click will set notification Number to zero\n     * Only display when notification bigger than 0\n     */\n    notificationCount: Number\n  },\n  methods: {\n    /**\n     * Unit Test should set window location to hreff\n     */\n    redirectToNotification() {\n      debugger;\n      global.window.location.href = this.href;\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification-item {\n  color: #333333;\n  padding-right: 15px;\n  padding-left: 15px;\n  padding-top: 10px;\n  padding-bottom: 23px;\n\n  &:hover {\n    background: #f1faf9;\n    cursor: pointer;\n  }\n\n  background: white;\n  display: flex;\n  font-size: 12px;\n\n  &__image {\n    width: 34px;\n    height: 34px;\n    margin-right: 15px;\n  }\n\n  &__data {\n    width: 300px;\n  }\n\n  &__data-wrapper {\n    color: #333333;\n    line-height: normal;\n    margin-right: 15px;\n  }\n\n  &__content-action {\n    word-break: break-all !important;\n    // Clould jet button style\n    > a {\n      background: none !important;\n      vertical-align: unset !important;\n      color: teal !important;\n      font-weight: bold;\n    }\n  }\n\n  &__diffTime {\n    margin-top: 5px;\n    font-size: 10px;\n    color: #ababab;\n  }\n\n  .notification-item__content-action a {\n    background: red !important;\n  }\n}\n</style>\n"]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["a"] = ({
-  computed: {
-    ellipisDescription: function ellipisDescription() {
-      var descriptionSplitN = (cov_2f1k8bkouz.s[0]++, this.notificationData.description.split("\n"));
-      cov_2f1k8bkouz.s[1]++;
-
-      if (descriptionSplitN.length > 1) {
-        cov_2f1k8bkouz.b[0][0]++;
-        cov_2f1k8bkouz.s[2]++;
-
-        /**
-         * Todo
-         * Backend fix: 2 dòng thì thêm ...
-         */
-        if (descriptionSplitN[0].length < 5) {
-          cov_2f1k8bkouz.b[1][0]++;
-          cov_2f1k8bkouz.s[3]++;
-          return descriptionSplitN[0] + descriptionSplitN[1] + "...";
-        } else {
-          cov_2f1k8bkouz.b[1][1]++;
-          cov_2f1k8bkouz.s[4]++;
-          return descriptionSplitN[0];
-        }
-      } else {
-        cov_2f1k8bkouz.b[0][1]++;
-        cov_2f1k8bkouz.s[5]++;
-        return this.notificationData.description;
-      }
-    },
-
-    /**
-     * Diff = now - timestamp
-     * Business:
-     */
-    diffTimeToString: function diffTimeToString() {
-      var now = (cov_2f1k8bkouz.s[6]++, new Date());
-      var past = (cov_2f1k8bkouz.s[7]++, new Date(this.notificationData.timestamp));
-      var diffTimeInMs = (cov_2f1k8bkouz.s[8]++, now.getTime() - past.getTime());
-      var diffmin = (cov_2f1k8bkouz.s[9]++, diffTimeInMs / (1000 * 60));
-      var diffHours = (cov_2f1k8bkouz.s[10]++, diffmin / 60);
-      var diffDay = (cov_2f1k8bkouz.s[11]++, diffHours / 24);
-      cov_2f1k8bkouz.s[12]++;
-
-      if (diffDay >= 1.5) {
-        cov_2f1k8bkouz.b[2][0]++;
-        cov_2f1k8bkouz.s[13]++;
-        return past.getDate() + "/" + (past.getMonth() + 1) + "/" + past.getFullYear() + " at " + past.getHours() + ":" + past.getMinutes() + ":" + past.getSeconds();
-      } else {
-        cov_2f1k8bkouz.b[2][1]++;
-      }
-
-      cov_2f1k8bkouz.s[14]++;
-
-      if ((cov_2f1k8bkouz.b[4][0]++, diffDay < 1.5) && (cov_2f1k8bkouz.b[4][1]++, diffDay >= 1)) {
-        cov_2f1k8bkouz.b[3][0]++;
-        cov_2f1k8bkouz.s[15]++;
-        return parseInt(diffDay) + " day ago";
-      } else {
-        cov_2f1k8bkouz.b[3][1]++;
-      }
-
-      cov_2f1k8bkouz.s[16]++;
-
-      if (diffHours >= 1) {
-        cov_2f1k8bkouz.b[5][0]++;
-        cov_2f1k8bkouz.s[17]++;
-        return parseInt(diffHours) + " hours ago";
-      } else {
-        cov_2f1k8bkouz.b[5][1]++;
-      }
-
-      cov_2f1k8bkouz.s[18]++;
-
-      if ((cov_2f1k8bkouz.b[7][0]++, diffmin < 60) && (cov_2f1k8bkouz.b[7][1]++, diffmin >= 1)) {
-        cov_2f1k8bkouz.b[6][0]++;
-        cov_2f1k8bkouz.s[19]++;
-        return parseInt(diffmin) + " minutes ago";
-      } else {
-        cov_2f1k8bkouz.b[6][1]++;
-        cov_2f1k8bkouz.s[20]++;
-        return "recent";
-      }
-    }
-  },
-  props: {
-    /**
-     * Link redirect when click notification item
-     */
-    href: String,
-
-    /**
-     * Notification object api
-     */
-    notificationData: Object,
-
-    /**
-     * Notification number,
-     * After click will set notification Number to zero
-     * Only display when notification bigger than 0
-     */
-    notificationCount: Number
-  },
-  methods: {
-    /**
-     * Unit Test should set window location to hreff
-     */
-    redirectToNotification: function redirectToNotification() {
-      cov_2f1k8bkouz.s[21]++;
-      debugger;
-      cov_2f1k8bkouz.s[22]++;
-      global.window.location.href = this.href;
-    }
-  }
-});
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("c8ba")))
-
-/***/ }),
-
 /***/ "0d58":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1216,6 +503,13 @@ module.exports = function ( delay, atBegin, callback ) {
 	return callback === undefined ? throttle(delay, atBegin, false) : throttle(delay, callback, atBegin !== false);
 };
 
+
+/***/ }),
+
+/***/ "0efb":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -11685,6 +10979,17 @@ exports.default = function (ref) {
 
 /***/ }),
 
+/***/ "1459":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_75eab074_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("fa13");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_75eab074_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_75eab074_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_75eab074_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "1495":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12195,6 +11500,97 @@ module.exports = { "default": __webpack_require__("d8d6"), __esModule: true };
 
 /***/ }),
 
+/***/ "1991":
+/***/ (function(module, exports, __webpack_require__) {
+
+var ctx = __webpack_require__("9b43");
+var invoke = __webpack_require__("31f4");
+var html = __webpack_require__("fab2");
+var cel = __webpack_require__("230e");
+var global = __webpack_require__("7726");
+var process = global.process;
+var setTask = global.setImmediate;
+var clearTask = global.clearImmediate;
+var MessageChannel = global.MessageChannel;
+var Dispatch = global.Dispatch;
+var counter = 0;
+var queue = {};
+var ONREADYSTATECHANGE = 'onreadystatechange';
+var defer, channel, port;
+var run = function () {
+  var id = +this;
+  // eslint-disable-next-line no-prototype-builtins
+  if (queue.hasOwnProperty(id)) {
+    var fn = queue[id];
+    delete queue[id];
+    fn();
+  }
+};
+var listener = function (event) {
+  run.call(event.data);
+};
+// Node.js 0.9+ & IE10+ has setImmediate, otherwise:
+if (!setTask || !clearTask) {
+  setTask = function setImmediate(fn) {
+    var args = [];
+    var i = 1;
+    while (arguments.length > i) args.push(arguments[i++]);
+    queue[++counter] = function () {
+      // eslint-disable-next-line no-new-func
+      invoke(typeof fn == 'function' ? fn : Function(fn), args);
+    };
+    defer(counter);
+    return counter;
+  };
+  clearTask = function clearImmediate(id) {
+    delete queue[id];
+  };
+  // Node.js 0.8-
+  if (__webpack_require__("2d95")(process) == 'process') {
+    defer = function (id) {
+      process.nextTick(ctx(run, id, 1));
+    };
+  // Sphere (JS game engine) Dispatch API
+  } else if (Dispatch && Dispatch.now) {
+    defer = function (id) {
+      Dispatch.now(ctx(run, id, 1));
+    };
+  // Browsers with MessageChannel, includes WebWorkers
+  } else if (MessageChannel) {
+    channel = new MessageChannel();
+    port = channel.port2;
+    channel.port1.onmessage = listener;
+    defer = ctx(port.postMessage, port, 1);
+  // Browsers with postMessage, skip WebWorkers
+  // IE8 has postMessage, but it's sync & typeof its postMessage is 'object'
+  } else if (global.addEventListener && typeof postMessage == 'function' && !global.importScripts) {
+    defer = function (id) {
+      global.postMessage(id + '', '*');
+    };
+    global.addEventListener('message', listener, false);
+  // IE8-
+  } else if (ONREADYSTATECHANGE in cel('script')) {
+    defer = function (id) {
+      html.appendChild(cel('script'))[ONREADYSTATECHANGE] = function () {
+        html.removeChild(this);
+        run.call(id);
+      };
+    };
+  // Rest old browsers
+  } else {
+    defer = function (id) {
+      setTimeout(ctx(run, id, 1), 0);
+    };
+  }
+}
+module.exports = {
+  set: setTask,
+  clear: clearTask
+};
+
+
+/***/ }),
+
 /***/ "1bc3":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12243,10 +11639,22 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "1f61":
+/***/ "1fa8":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/notification_bell.e0038a2a.svg";
+// call something on iterator step with safe closing on error
+var anObject = __webpack_require__("cb7c");
+module.exports = function (iterator, fn, value, entries) {
+  try {
+    return entries ? fn(anObject(value)[0], value[1]) : fn(value);
+  // 7.4.6 IteratorClose(iterator, completion)
+  } catch (e) {
+    var ret = iterator['return'];
+    if (ret !== undefined) anObject(ret.call(iterator));
+    throw e;
+  }
+};
+
 
 /***/ }),
 
@@ -12300,6 +11708,36 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "23c6":
+/***/ (function(module, exports, __webpack_require__) {
+
+// getting tag from 19.1.3.6 Object.prototype.toString()
+var cof = __webpack_require__("2d95");
+var TAG = __webpack_require__("2b4c")('toStringTag');
+// ES3 wrong here
+var ARG = cof(function () { return arguments; }()) == 'Arguments';
+
+// fallback for IE11 Script Access Denied error
+var tryGet = function (it, key) {
+  try {
+    return it[key];
+  } catch (e) { /* empty */ }
+};
+
+module.exports = function (it) {
+  var O, T, B;
+  return it === undefined ? 'Undefined' : it === null ? 'Null'
+    // @@toStringTag case
+    : typeof (T = tryGet(O = Object(it), TAG)) == 'string' ? T
+    // builtinTag case
+    : ARG ? cof(O)
+    // ES3 arguments fallback
+    : (B = cof(O)) == 'Object' && typeof O.callee == 'function' ? 'Arguments' : B;
+};
+
+
+/***/ }),
+
 /***/ "241e":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12332,10 +11770,356 @@ exports.f = Object.getOwnPropertySymbols;
 
 /***/ }),
 
-/***/ "27ad":
+/***/ "27ee":
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
+var classof = __webpack_require__("23c6");
+var ITERATOR = __webpack_require__("2b4c")('iterator');
+var Iterators = __webpack_require__("84f2");
+module.exports = __webpack_require__("8378").getIteratorMethod = function (it) {
+  if (it != undefined) return it[ITERATOR]
+    || it['@@iterator']
+    || Iterators[classof(it)];
+};
+
+
+/***/ }),
+
+/***/ "2877":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return normalizeComponent; });
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent (
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier, /* server only */
+  shadowMode /* vue-cli only */
+) {
+  // Vue.extend constructor export interop
+  var options = typeof scriptExports === 'function'
+    ? scriptExports.options
+    : scriptExports
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) { // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functioal component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection (h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing
+        ? [].concat(existing, hook)
+        : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
+
+/***/ }),
+
+/***/ "288e":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("b584");
+/* harmony import */ var sdk_network_core_network_builder__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("b8e7");
+var cov_ho6hohfm8 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/factory.js",
+      hash = "8061ecc08d0eed57fc63ba2c043e4f652b44dbe6",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/factory.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 6,
+          column: 20
+        },
+        end: {
+          line: 6,
+          column: 36
+        }
+      },
+      "1": {
+        start: {
+          line: 8,
+          column: 4
+        },
+        end: {
+          line: 20,
+          column: 5
+        }
+      },
+      "2": {
+        start: {
+          line: 11,
+          column: 22
+        },
+        end: {
+          line: 11,
+          column: 43
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 25
+        },
+        end: {
+          line: 12,
+          column: 101
+        }
+      },
+      "4": {
+        start: {
+          line: 14,
+          column: 12
+        },
+        end: {
+          line: 18,
+          column: 14
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 4,
+            column: 16
+          },
+          end: {
+            line: 4,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 4,
+            column: 22
+          },
+          end: {
+            line: 21,
+            column: 1
+          }
+        },
+        line: 4
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 9,
+            column: 42
+          },
+          end: {
+            line: 9,
+            column: 43
+          }
+        },
+        loc: {
+          start: {
+            line: 9,
+            column: 80
+          },
+          end: {
+            line: 19,
+            column: 9
+          }
+        },
+        line: 9
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 9,
+            column: 62
+          },
+          end: {
+            line: 9,
+            column: 73
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 9,
+            column: 71
+          },
+          end: {
+            line: 9,
+            column: 73
+          }
+        }],
+        line: 9
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 12,
+            column: 25
+          },
+          end: {
+            line: 12,
+            column: 101
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 12,
+            column: 56
+          },
+          end: {
+            line: 12,
+            column: 96
+          }
+        }, {
+          start: {
+            line: 12,
+            column: 99
+          },
+          end: {
+            line: 12,
+            column: 101
+          }
+        }],
+        line: 12
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0],
+      "1": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function () {
+  cov_ho6hohfm8.f[0]++;
+  // Tạo url: base + path
+  var baseURL = (cov_ho6hohfm8.s[0]++, "".concat(_config__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"].path));
+  cov_ho6hohfm8.s[1]++;
+  return {
+    getCompanyPerformanceByQuarterID: function getCompanyPerformanceByQuarterID(_ref) {
+      var quarterPeriodID = _ref.quarterPeriodID,
+          _ref$userID = _ref.userID,
+          userID = _ref$userID === void 0 ? (cov_ho6hohfm8.b[0][0]++, "") : _ref$userID;
+      cov_ho6hohfm8.f[1]++;
+
+      /* Set default param */
+      var url = (cov_ho6hohfm8.s[2]++, "".concat(baseURL).concat(userID));
+      var params = (cov_ho6hohfm8.s[3]++, quarterPeriodID !== undefined ? (cov_ho6hohfm8.b[1][0]++, $.param({
+        quarter_id: quarterPeriodID
+      })) : (cov_ho6hohfm8.b[1][1]++, {}));
+      /* Return Promise */
+
+      cov_ho6hohfm8.s[4]++;
+      return Object(sdk_network_core_network_builder__WEBPACK_IMPORTED_MODULE_1__[/* buildPromise */ "a"])({
+        httpMethod: 'GET',
+        url: url,
+        data: params
+      });
+    }
+  };
+});
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("1157")))
 
 /***/ }),
 
@@ -12983,6 +12767,13 @@ $exports.store = store;
 
 /***/ }),
 
+/***/ "2b77":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "2bb5":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13051,13 +12842,6 @@ exports.default = {
     }
   }
 };
-
-/***/ }),
-
-/***/ "2cd1":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -13158,6 +12942,36 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 /***/ }),
 
+/***/ "31f4":
+/***/ (function(module, exports) {
+
+// fast apply, http://jsperf.lnkit.com/fast-apply/5
+module.exports = function (fn, args, that) {
+  var un = that === undefined;
+  switch (args.length) {
+    case 0: return un ? fn()
+                      : fn.call(that);
+    case 1: return un ? fn(args[0])
+                      : fn.call(that, args[0]);
+    case 2: return un ? fn(args[0], args[1])
+                      : fn.call(that, args[0], args[1]);
+    case 3: return un ? fn(args[0], args[1], args[2])
+                      : fn.call(that, args[0], args[1], args[2]);
+    case 4: return un ? fn(args[0], args[1], args[2], args[3])
+                      : fn.call(that, args[0], args[1], args[2], args[3]);
+  } return fn.apply(that, args);
+};
+
+
+/***/ }),
+
+/***/ "3220":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/notification_bell.e0038a2a.svg";
+
+/***/ }),
+
 /***/ "32e9":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13190,6 +13004,21 @@ var cof = __webpack_require__("6b4c");
 // eslint-disable-next-line no-prototype-builtins
 module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
   return cof(it) == 'String' ? it.split('') : Object(it);
+};
+
+
+/***/ }),
+
+/***/ "33a4":
+/***/ (function(module, exports, __webpack_require__) {
+
+// check on default Array iterator
+var Iterators = __webpack_require__("84f2");
+var ITERATOR = __webpack_require__("2b4c")('iterator');
+var ArrayProto = Array.prototype;
+
+module.exports = function (it) {
+  return it !== undefined && (Iterators.Array === it || ArrayProto[ITERATOR] === it);
 };
 
 
@@ -13273,17 +13102,6 @@ module.exports = function (it) {
   return isNaN(it = +it) ? 0 : (it > 0 ? floor : ceil)(it);
 };
 
-
-/***/ }),
-
-/***/ "3b9f":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_0_id_57eacbaa_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("c5b6");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_0_id_57eacbaa_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_0_id_57eacbaa_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_0_id_57eacbaa_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -13392,28 +13210,10 @@ module.exports = deepmerge_1;
 
 /***/ }),
 
-/***/ "3c54":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "3ca2":
 /***/ (function(module) {
 
 module.exports = {"en_US":{},"vi":{"All months":"Tất cả các tháng","Allow review":"Cho phép đánh giá","Cloudjet KPI updated new version":"Cloudjet KPI đã cập nhật phiên bản mới","Company Information":"HIỆU SUẤT CÔNG TY","Due":"Thời hạn","Hello World in variable here":"Translate in variable","Performance":"Hiệu suất","Quarter":"Quý","updated":"cập nhật","Version":"Phiên bản","Vision & Mission":"Tầm nhìn và Sứ mệnh"}};
-
-/***/ }),
-
-/***/ "3e8b":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_29b93144_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("27ad");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_29b93144_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_29b93144_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_29b93144_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -13652,6 +13452,17 @@ function getFirstComponentChild(children) {
 
 /***/ }),
 
+/***/ "4509":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_cdbdc114_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("0efb");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_cdbdc114_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_cdbdc114_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_cdbdc114_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "456d":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13807,6 +13618,38 @@ var i18n = exports.i18n = function i18n(fn) {
 };
 
 exports.default = { use: use, t: t, i18n: i18n };
+
+/***/ }),
+
+/***/ "4a59":
+/***/ (function(module, exports, __webpack_require__) {
+
+var ctx = __webpack_require__("9b43");
+var call = __webpack_require__("1fa8");
+var isArrayIter = __webpack_require__("33a4");
+var anObject = __webpack_require__("cb7c");
+var toLength = __webpack_require__("9def");
+var getIterFn = __webpack_require__("27ee");
+var BREAK = {};
+var RETURN = {};
+var exports = module.exports = function (iterable, entries, fn, that, ITERATOR) {
+  var iterFn = ITERATOR ? function () { return iterable; } : getIterFn(iterable);
+  var f = ctx(fn, that, entries ? 2 : 1);
+  var index = 0;
+  var length, step, iterator, result;
+  if (typeof iterFn != 'function') throw TypeError(iterable + ' is not iterable!');
+  // fast case for arrays with default iterator
+  if (isArrayIter(iterFn)) for (length = toLength(iterable.length); length > index; index++) {
+    result = entries ? f(anObject(step = iterable[index])[0], step[1]) : f(iterable[index]);
+    if (result === BREAK || result === RETURN) return result;
+  } else for (iterator = iterFn.call(iterable); !(step = iterator.next()).done;) {
+    result = call(iterator, f, step.value, entries);
+    if (result === BREAK || result === RETURN) return result;
+  }
+};
+exports.BREAK = BREAK;
+exports.RETURN = RETURN;
+
 
 /***/ }),
 
@@ -16967,6 +16810,300 @@ exports.default = {
 
 /***/ }),
 
+/***/ "551c":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var LIBRARY = __webpack_require__("2d00");
+var global = __webpack_require__("7726");
+var ctx = __webpack_require__("9b43");
+var classof = __webpack_require__("23c6");
+var $export = __webpack_require__("5ca1");
+var isObject = __webpack_require__("d3f4");
+var aFunction = __webpack_require__("d8e8");
+var anInstance = __webpack_require__("f605");
+var forOf = __webpack_require__("4a59");
+var speciesConstructor = __webpack_require__("ebd6");
+var task = __webpack_require__("1991").set;
+var microtask = __webpack_require__("8079")();
+var newPromiseCapabilityModule = __webpack_require__("a5b8");
+var perform = __webpack_require__("9c80");
+var userAgent = __webpack_require__("a25f");
+var promiseResolve = __webpack_require__("bcaa");
+var PROMISE = 'Promise';
+var TypeError = global.TypeError;
+var process = global.process;
+var versions = process && process.versions;
+var v8 = versions && versions.v8 || '';
+var $Promise = global[PROMISE];
+var isNode = classof(process) == 'process';
+var empty = function () { /* empty */ };
+var Internal, newGenericPromiseCapability, OwnPromiseCapability, Wrapper;
+var newPromiseCapability = newGenericPromiseCapability = newPromiseCapabilityModule.f;
+
+var USE_NATIVE = !!function () {
+  try {
+    // correct subclassing with @@species support
+    var promise = $Promise.resolve(1);
+    var FakePromise = (promise.constructor = {})[__webpack_require__("2b4c")('species')] = function (exec) {
+      exec(empty, empty);
+    };
+    // unhandled rejections tracking support, NodeJS Promise without it fails @@species test
+    return (isNode || typeof PromiseRejectionEvent == 'function')
+      && promise.then(empty) instanceof FakePromise
+      // v8 6.6 (Node 10 and Chrome 66) have a bug with resolving custom thenables
+      // https://bugs.chromium.org/p/chromium/issues/detail?id=830565
+      // we can't detect it synchronously, so just check versions
+      && v8.indexOf('6.6') !== 0
+      && userAgent.indexOf('Chrome/66') === -1;
+  } catch (e) { /* empty */ }
+}();
+
+// helpers
+var isThenable = function (it) {
+  var then;
+  return isObject(it) && typeof (then = it.then) == 'function' ? then : false;
+};
+var notify = function (promise, isReject) {
+  if (promise._n) return;
+  promise._n = true;
+  var chain = promise._c;
+  microtask(function () {
+    var value = promise._v;
+    var ok = promise._s == 1;
+    var i = 0;
+    var run = function (reaction) {
+      var handler = ok ? reaction.ok : reaction.fail;
+      var resolve = reaction.resolve;
+      var reject = reaction.reject;
+      var domain = reaction.domain;
+      var result, then, exited;
+      try {
+        if (handler) {
+          if (!ok) {
+            if (promise._h == 2) onHandleUnhandled(promise);
+            promise._h = 1;
+          }
+          if (handler === true) result = value;
+          else {
+            if (domain) domain.enter();
+            result = handler(value); // may throw
+            if (domain) {
+              domain.exit();
+              exited = true;
+            }
+          }
+          if (result === reaction.promise) {
+            reject(TypeError('Promise-chain cycle'));
+          } else if (then = isThenable(result)) {
+            then.call(result, resolve, reject);
+          } else resolve(result);
+        } else reject(value);
+      } catch (e) {
+        if (domain && !exited) domain.exit();
+        reject(e);
+      }
+    };
+    while (chain.length > i) run(chain[i++]); // variable length - can't use forEach
+    promise._c = [];
+    promise._n = false;
+    if (isReject && !promise._h) onUnhandled(promise);
+  });
+};
+var onUnhandled = function (promise) {
+  task.call(global, function () {
+    var value = promise._v;
+    var unhandled = isUnhandled(promise);
+    var result, handler, console;
+    if (unhandled) {
+      result = perform(function () {
+        if (isNode) {
+          process.emit('unhandledRejection', value, promise);
+        } else if (handler = global.onunhandledrejection) {
+          handler({ promise: promise, reason: value });
+        } else if ((console = global.console) && console.error) {
+          console.error('Unhandled promise rejection', value);
+        }
+      });
+      // Browsers should not trigger `rejectionHandled` event if it was handled here, NodeJS - should
+      promise._h = isNode || isUnhandled(promise) ? 2 : 1;
+    } promise._a = undefined;
+    if (unhandled && result.e) throw result.v;
+  });
+};
+var isUnhandled = function (promise) {
+  return promise._h !== 1 && (promise._a || promise._c).length === 0;
+};
+var onHandleUnhandled = function (promise) {
+  task.call(global, function () {
+    var handler;
+    if (isNode) {
+      process.emit('rejectionHandled', promise);
+    } else if (handler = global.onrejectionhandled) {
+      handler({ promise: promise, reason: promise._v });
+    }
+  });
+};
+var $reject = function (value) {
+  var promise = this;
+  if (promise._d) return;
+  promise._d = true;
+  promise = promise._w || promise; // unwrap
+  promise._v = value;
+  promise._s = 2;
+  if (!promise._a) promise._a = promise._c.slice();
+  notify(promise, true);
+};
+var $resolve = function (value) {
+  var promise = this;
+  var then;
+  if (promise._d) return;
+  promise._d = true;
+  promise = promise._w || promise; // unwrap
+  try {
+    if (promise === value) throw TypeError("Promise can't be resolved itself");
+    if (then = isThenable(value)) {
+      microtask(function () {
+        var wrapper = { _w: promise, _d: false }; // wrap
+        try {
+          then.call(value, ctx($resolve, wrapper, 1), ctx($reject, wrapper, 1));
+        } catch (e) {
+          $reject.call(wrapper, e);
+        }
+      });
+    } else {
+      promise._v = value;
+      promise._s = 1;
+      notify(promise, false);
+    }
+  } catch (e) {
+    $reject.call({ _w: promise, _d: false }, e); // wrap
+  }
+};
+
+// constructor polyfill
+if (!USE_NATIVE) {
+  // 25.4.3.1 Promise(executor)
+  $Promise = function Promise(executor) {
+    anInstance(this, $Promise, PROMISE, '_h');
+    aFunction(executor);
+    Internal.call(this);
+    try {
+      executor(ctx($resolve, this, 1), ctx($reject, this, 1));
+    } catch (err) {
+      $reject.call(this, err);
+    }
+  };
+  // eslint-disable-next-line no-unused-vars
+  Internal = function Promise(executor) {
+    this._c = [];             // <- awaiting reactions
+    this._a = undefined;      // <- checked in isUnhandled reactions
+    this._s = 0;              // <- state
+    this._d = false;          // <- done
+    this._v = undefined;      // <- value
+    this._h = 0;              // <- rejection state, 0 - default, 1 - handled, 2 - unhandled
+    this._n = false;          // <- notify
+  };
+  Internal.prototype = __webpack_require__("dcbc")($Promise.prototype, {
+    // 25.4.5.3 Promise.prototype.then(onFulfilled, onRejected)
+    then: function then(onFulfilled, onRejected) {
+      var reaction = newPromiseCapability(speciesConstructor(this, $Promise));
+      reaction.ok = typeof onFulfilled == 'function' ? onFulfilled : true;
+      reaction.fail = typeof onRejected == 'function' && onRejected;
+      reaction.domain = isNode ? process.domain : undefined;
+      this._c.push(reaction);
+      if (this._a) this._a.push(reaction);
+      if (this._s) notify(this, false);
+      return reaction.promise;
+    },
+    // 25.4.5.1 Promise.prototype.catch(onRejected)
+    'catch': function (onRejected) {
+      return this.then(undefined, onRejected);
+    }
+  });
+  OwnPromiseCapability = function () {
+    var promise = new Internal();
+    this.promise = promise;
+    this.resolve = ctx($resolve, promise, 1);
+    this.reject = ctx($reject, promise, 1);
+  };
+  newPromiseCapabilityModule.f = newPromiseCapability = function (C) {
+    return C === $Promise || C === Wrapper
+      ? new OwnPromiseCapability(C)
+      : newGenericPromiseCapability(C);
+  };
+}
+
+$export($export.G + $export.W + $export.F * !USE_NATIVE, { Promise: $Promise });
+__webpack_require__("7f20")($Promise, PROMISE);
+__webpack_require__("7a56")(PROMISE);
+Wrapper = __webpack_require__("8378")[PROMISE];
+
+// statics
+$export($export.S + $export.F * !USE_NATIVE, PROMISE, {
+  // 25.4.4.5 Promise.reject(r)
+  reject: function reject(r) {
+    var capability = newPromiseCapability(this);
+    var $$reject = capability.reject;
+    $$reject(r);
+    return capability.promise;
+  }
+});
+$export($export.S + $export.F * (LIBRARY || !USE_NATIVE), PROMISE, {
+  // 25.4.4.6 Promise.resolve(x)
+  resolve: function resolve(x) {
+    return promiseResolve(LIBRARY && this === Wrapper ? $Promise : this, x);
+  }
+});
+$export($export.S + $export.F * !(USE_NATIVE && __webpack_require__("5cc5")(function (iter) {
+  $Promise.all(iter)['catch'](empty);
+})), PROMISE, {
+  // 25.4.4.1 Promise.all(iterable)
+  all: function all(iterable) {
+    var C = this;
+    var capability = newPromiseCapability(C);
+    var resolve = capability.resolve;
+    var reject = capability.reject;
+    var result = perform(function () {
+      var values = [];
+      var index = 0;
+      var remaining = 1;
+      forOf(iterable, false, function (promise) {
+        var $index = index++;
+        var alreadyCalled = false;
+        values.push(undefined);
+        remaining++;
+        C.resolve(promise).then(function (value) {
+          if (alreadyCalled) return;
+          alreadyCalled = true;
+          values[$index] = value;
+          --remaining || resolve(values);
+        }, reject);
+      });
+      --remaining || resolve(values);
+    });
+    if (result.e) reject(result.v);
+    return capability.promise;
+  },
+  // 25.4.4.4 Promise.race(iterable)
+  race: function race(iterable) {
+    var C = this;
+    var capability = newPromiseCapability(C);
+    var reject = capability.reject;
+    var result = perform(function () {
+      forOf(iterable, false, function (promise) {
+        C.resolve(promise).then(capability.resolve, reject);
+      });
+    });
+    if (result.e) reject(result.v);
+    return capability.promise;
+  }
+});
+
+
+/***/ }),
+
 /***/ "5537":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17004,6 +17141,13 @@ module.exports = function (key) {
 var core = module.exports = { version: '2.5.7' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
+
+/***/ }),
+
+/***/ "58af":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -49589,6 +49733,35 @@ module.exports = $export;
 
 /***/ }),
 
+/***/ "5cc5":
+/***/ (function(module, exports, __webpack_require__) {
+
+var ITERATOR = __webpack_require__("2b4c")('iterator');
+var SAFE_CLOSING = false;
+
+try {
+  var riter = [7][ITERATOR]();
+  riter['return'] = function () { SAFE_CLOSING = true; };
+  // eslint-disable-next-line no-throw-literal
+  Array.from(riter, function () { throw 2; });
+} catch (e) { /* empty */ }
+
+module.exports = function (exec, skipClosing) {
+  if (!skipClosing && !SAFE_CLOSING) return false;
+  var safe = false;
+  try {
+    var arr = [7];
+    var iter = arr[ITERATOR]();
+    iter.next = function () { return { done: safe = true }; };
+    arr[ITERATOR] = function () { return iter; };
+    exec(arr);
+  } catch (e) { /* empty */ }
+  return safe;
+};
+
+
+/***/ }),
+
 /***/ "5dbc":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -51168,16 +51341,6 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "6d81":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_custom_index_0_blockType_docs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("efc8");
-/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_custom_index_0_blockType_docs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_custom_index_0_blockType_docs__WEBPACK_IMPORTED_MODULE_0__);
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_custom_index_0_blockType_docs__WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "6dd8":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -52389,6 +52552,17 @@ module.exports = !$assign || __webpack_require__("79e5")(function () {
 
 /***/ }),
 
+/***/ "73d0":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_443c50fc_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8904");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_443c50fc_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_443c50fc_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_443c50fc_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "765d":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -52454,6 +52628,27 @@ module.exports = function (exec) {
   } catch (e) {
     return true;
   }
+};
+
+
+/***/ }),
+
+/***/ "7a56":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var global = __webpack_require__("7726");
+var dP = __webpack_require__("86cc");
+var DESCRIPTORS = __webpack_require__("9e1e");
+var SPECIES = __webpack_require__("2b4c")('species');
+
+module.exports = function (KEY) {
+  var C = global[KEY];
+  if (DESCRIPTORS && C && !C[SPECIES]) dP.f(C, SPECIES, {
+    configurable: true,
+    get: function () { return this; }
+  });
 };
 
 
@@ -52547,13 +52742,6 @@ module.exports = __webpack_require__("8e60") ? Object.defineProperties : functio
   return O;
 };
 
-
-/***/ }),
-
-/***/ "7eb1":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -52935,6 +53123,82 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 /******/ });
+
+/***/ }),
+
+/***/ "8079":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("7726");
+var macrotask = __webpack_require__("1991").set;
+var Observer = global.MutationObserver || global.WebKitMutationObserver;
+var process = global.process;
+var Promise = global.Promise;
+var isNode = __webpack_require__("2d95")(process) == 'process';
+
+module.exports = function () {
+  var head, last, notify;
+
+  var flush = function () {
+    var parent, fn;
+    if (isNode && (parent = process.domain)) parent.exit();
+    while (head) {
+      fn = head.fn;
+      head = head.next;
+      try {
+        fn();
+      } catch (e) {
+        if (head) notify();
+        else last = undefined;
+        throw e;
+      }
+    } last = undefined;
+    if (parent) parent.enter();
+  };
+
+  // Node.js
+  if (isNode) {
+    notify = function () {
+      process.nextTick(flush);
+    };
+  // browsers with MutationObserver, except iOS Safari - https://github.com/zloirock/core-js/issues/339
+  } else if (Observer && !(global.navigator && global.navigator.standalone)) {
+    var toggle = true;
+    var node = document.createTextNode('');
+    new Observer(flush).observe(node, { characterData: true }); // eslint-disable-line no-new
+    notify = function () {
+      node.data = toggle = !toggle;
+    };
+  // environments with maybe non-completely correct, but existent Promise
+  } else if (Promise && Promise.resolve) {
+    // Promise.resolve without an argument throws an error in LG WebOS 2
+    var promise = Promise.resolve(undefined);
+    notify = function () {
+      promise.then(flush);
+    };
+  // for other environments - macrotask based on:
+  // - setImmediate
+  // - MessageChannel
+  // - window.postMessag
+  // - onreadystatechange
+  // - setTimeout
+  } else {
+    notify = function () {
+      // strange IE + webpack dev server bug - use .call(global)
+      macrotask.call(global, flush);
+    };
+  }
+
+  return function (fn) {
+    var task = { fn: fn, next: undefined };
+    if (last) last.next = task;
+    if (!head) {
+      head = task;
+      notify();
+    } last = task;
+  };
+};
+
 
 /***/ }),
 
@@ -53363,6 +53627,13 @@ exports.f = __webpack_require__("9e1e") ? Object.defineProperty : function defin
 /***/ }),
 
 /***/ "881a":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "8904":
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
@@ -54071,6 +54342,13 @@ module.exports = __webpack_require__("35e8");
 
 /***/ }),
 
+/***/ "92e0":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "92fa":
 /***/ (function(module, exports) {
 
@@ -54170,6 +54448,751 @@ module.exports = !$assign || __webpack_require__("294c")(function () {
 
 /***/ }),
 
+/***/ "96cf":
+/***/ (function(module, exports) {
+
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+!(function(global) {
+  "use strict";
+
+  var Op = Object.prototype;
+  var hasOwn = Op.hasOwnProperty;
+  var undefined; // More compressible than void 0.
+  var $Symbol = typeof Symbol === "function" ? Symbol : {};
+  var iteratorSymbol = $Symbol.iterator || "@@iterator";
+  var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
+  var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
+
+  var inModule = typeof module === "object";
+  var runtime = global.regeneratorRuntime;
+  if (runtime) {
+    if (inModule) {
+      // If regeneratorRuntime is defined globally and we're in a module,
+      // make the exports object identical to regeneratorRuntime.
+      module.exports = runtime;
+    }
+    // Don't bother evaluating the rest of this file if the runtime was
+    // already defined globally.
+    return;
+  }
+
+  // Define the runtime globally (as expected by generated code) as either
+  // module.exports (if we're in a module) or a new, empty object.
+  runtime = global.regeneratorRuntime = inModule ? module.exports : {};
+
+  function wrap(innerFn, outerFn, self, tryLocsList) {
+    // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
+    var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
+    var generator = Object.create(protoGenerator.prototype);
+    var context = new Context(tryLocsList || []);
+
+    // The ._invoke method unifies the implementations of the .next,
+    // .throw, and .return methods.
+    generator._invoke = makeInvokeMethod(innerFn, self, context);
+
+    return generator;
+  }
+  runtime.wrap = wrap;
+
+  // Try/catch helper to minimize deoptimizations. Returns a completion
+  // record like context.tryEntries[i].completion. This interface could
+  // have been (and was previously) designed to take a closure to be
+  // invoked without arguments, but in all the cases we care about we
+  // already have an existing method we want to call, so there's no need
+  // to create a new function object. We can even get away with assuming
+  // the method takes exactly one argument, since that happens to be true
+  // in every case, so we don't have to touch the arguments object. The
+  // only additional allocation required is the completion record, which
+  // has a stable shape and so hopefully should be cheap to allocate.
+  function tryCatch(fn, obj, arg) {
+    try {
+      return { type: "normal", arg: fn.call(obj, arg) };
+    } catch (err) {
+      return { type: "throw", arg: err };
+    }
+  }
+
+  var GenStateSuspendedStart = "suspendedStart";
+  var GenStateSuspendedYield = "suspendedYield";
+  var GenStateExecuting = "executing";
+  var GenStateCompleted = "completed";
+
+  // Returning this object from the innerFn has the same effect as
+  // breaking out of the dispatch switch statement.
+  var ContinueSentinel = {};
+
+  // Dummy constructor functions that we use as the .constructor and
+  // .constructor.prototype properties for functions that return Generator
+  // objects. For full spec compliance, you may wish to configure your
+  // minifier not to mangle the names of these two functions.
+  function Generator() {}
+  function GeneratorFunction() {}
+  function GeneratorFunctionPrototype() {}
+
+  // This is a polyfill for %IteratorPrototype% for environments that
+  // don't natively support it.
+  var IteratorPrototype = {};
+  IteratorPrototype[iteratorSymbol] = function () {
+    return this;
+  };
+
+  var getProto = Object.getPrototypeOf;
+  var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
+  if (NativeIteratorPrototype &&
+      NativeIteratorPrototype !== Op &&
+      hasOwn.call(NativeIteratorPrototype, iteratorSymbol)) {
+    // This environment has a native %IteratorPrototype%; use it instead
+    // of the polyfill.
+    IteratorPrototype = NativeIteratorPrototype;
+  }
+
+  var Gp = GeneratorFunctionPrototype.prototype =
+    Generator.prototype = Object.create(IteratorPrototype);
+  GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
+  GeneratorFunctionPrototype.constructor = GeneratorFunction;
+  GeneratorFunctionPrototype[toStringTagSymbol] =
+    GeneratorFunction.displayName = "GeneratorFunction";
+
+  // Helper for defining the .next, .throw, and .return methods of the
+  // Iterator interface in terms of a single ._invoke method.
+  function defineIteratorMethods(prototype) {
+    ["next", "throw", "return"].forEach(function(method) {
+      prototype[method] = function(arg) {
+        return this._invoke(method, arg);
+      };
+    });
+  }
+
+  runtime.isGeneratorFunction = function(genFun) {
+    var ctor = typeof genFun === "function" && genFun.constructor;
+    return ctor
+      ? ctor === GeneratorFunction ||
+        // For the native GeneratorFunction constructor, the best we can
+        // do is to check its .name property.
+        (ctor.displayName || ctor.name) === "GeneratorFunction"
+      : false;
+  };
+
+  runtime.mark = function(genFun) {
+    if (Object.setPrototypeOf) {
+      Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
+    } else {
+      genFun.__proto__ = GeneratorFunctionPrototype;
+      if (!(toStringTagSymbol in genFun)) {
+        genFun[toStringTagSymbol] = "GeneratorFunction";
+      }
+    }
+    genFun.prototype = Object.create(Gp);
+    return genFun;
+  };
+
+  // Within the body of any async function, `await x` is transformed to
+  // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
+  // `hasOwn.call(value, "__await")` to determine if the yielded value is
+  // meant to be awaited.
+  runtime.awrap = function(arg) {
+    return { __await: arg };
+  };
+
+  function AsyncIterator(generator) {
+    function invoke(method, arg, resolve, reject) {
+      var record = tryCatch(generator[method], generator, arg);
+      if (record.type === "throw") {
+        reject(record.arg);
+      } else {
+        var result = record.arg;
+        var value = result.value;
+        if (value &&
+            typeof value === "object" &&
+            hasOwn.call(value, "__await")) {
+          return Promise.resolve(value.__await).then(function(value) {
+            invoke("next", value, resolve, reject);
+          }, function(err) {
+            invoke("throw", err, resolve, reject);
+          });
+        }
+
+        return Promise.resolve(value).then(function(unwrapped) {
+          // When a yielded Promise is resolved, its final value becomes
+          // the .value of the Promise<{value,done}> result for the
+          // current iteration. If the Promise is rejected, however, the
+          // result for this iteration will be rejected with the same
+          // reason. Note that rejections of yielded Promises are not
+          // thrown back into the generator function, as is the case
+          // when an awaited Promise is rejected. This difference in
+          // behavior between yield and await is important, because it
+          // allows the consumer to decide what to do with the yielded
+          // rejection (swallow it and continue, manually .throw it back
+          // into the generator, abandon iteration, whatever). With
+          // await, by contrast, there is no opportunity to examine the
+          // rejection reason outside the generator function, so the
+          // only option is to throw it from the await expression, and
+          // let the generator function handle the exception.
+          result.value = unwrapped;
+          resolve(result);
+        }, reject);
+      }
+    }
+
+    var previousPromise;
+
+    function enqueue(method, arg) {
+      function callInvokeWithMethodAndArg() {
+        return new Promise(function(resolve, reject) {
+          invoke(method, arg, resolve, reject);
+        });
+      }
+
+      return previousPromise =
+        // If enqueue has been called before, then we want to wait until
+        // all previous Promises have been resolved before calling invoke,
+        // so that results are always delivered in the correct order. If
+        // enqueue has not been called before, then it is important to
+        // call invoke immediately, without waiting on a callback to fire,
+        // so that the async generator function has the opportunity to do
+        // any necessary setup in a predictable way. This predictability
+        // is why the Promise constructor synchronously invokes its
+        // executor callback, and why async functions synchronously
+        // execute code before the first await. Since we implement simple
+        // async functions in terms of async generators, it is especially
+        // important to get this right, even though it requires care.
+        previousPromise ? previousPromise.then(
+          callInvokeWithMethodAndArg,
+          // Avoid propagating failures to Promises returned by later
+          // invocations of the iterator.
+          callInvokeWithMethodAndArg
+        ) : callInvokeWithMethodAndArg();
+    }
+
+    // Define the unified helper method that is used to implement .next,
+    // .throw, and .return (see defineIteratorMethods).
+    this._invoke = enqueue;
+  }
+
+  defineIteratorMethods(AsyncIterator.prototype);
+  AsyncIterator.prototype[asyncIteratorSymbol] = function () {
+    return this;
+  };
+  runtime.AsyncIterator = AsyncIterator;
+
+  // Note that simple async functions are implemented on top of
+  // AsyncIterator objects; they just return a Promise for the value of
+  // the final result produced by the iterator.
+  runtime.async = function(innerFn, outerFn, self, tryLocsList) {
+    var iter = new AsyncIterator(
+      wrap(innerFn, outerFn, self, tryLocsList)
+    );
+
+    return runtime.isGeneratorFunction(outerFn)
+      ? iter // If outerFn is a generator, return the full iterator.
+      : iter.next().then(function(result) {
+          return result.done ? result.value : iter.next();
+        });
+  };
+
+  function makeInvokeMethod(innerFn, self, context) {
+    var state = GenStateSuspendedStart;
+
+    return function invoke(method, arg) {
+      if (state === GenStateExecuting) {
+        throw new Error("Generator is already running");
+      }
+
+      if (state === GenStateCompleted) {
+        if (method === "throw") {
+          throw arg;
+        }
+
+        // Be forgiving, per 25.3.3.3.3 of the spec:
+        // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
+        return doneResult();
+      }
+
+      context.method = method;
+      context.arg = arg;
+
+      while (true) {
+        var delegate = context.delegate;
+        if (delegate) {
+          var delegateResult = maybeInvokeDelegate(delegate, context);
+          if (delegateResult) {
+            if (delegateResult === ContinueSentinel) continue;
+            return delegateResult;
+          }
+        }
+
+        if (context.method === "next") {
+          // Setting context._sent for legacy support of Babel's
+          // function.sent implementation.
+          context.sent = context._sent = context.arg;
+
+        } else if (context.method === "throw") {
+          if (state === GenStateSuspendedStart) {
+            state = GenStateCompleted;
+            throw context.arg;
+          }
+
+          context.dispatchException(context.arg);
+
+        } else if (context.method === "return") {
+          context.abrupt("return", context.arg);
+        }
+
+        state = GenStateExecuting;
+
+        var record = tryCatch(innerFn, self, context);
+        if (record.type === "normal") {
+          // If an exception is thrown from innerFn, we leave state ===
+          // GenStateExecuting and loop back for another invocation.
+          state = context.done
+            ? GenStateCompleted
+            : GenStateSuspendedYield;
+
+          if (record.arg === ContinueSentinel) {
+            continue;
+          }
+
+          return {
+            value: record.arg,
+            done: context.done
+          };
+
+        } else if (record.type === "throw") {
+          state = GenStateCompleted;
+          // Dispatch the exception by looping back around to the
+          // context.dispatchException(context.arg) call above.
+          context.method = "throw";
+          context.arg = record.arg;
+        }
+      }
+    };
+  }
+
+  // Call delegate.iterator[context.method](context.arg) and handle the
+  // result, either by returning a { value, done } result from the
+  // delegate iterator, or by modifying context.method and context.arg,
+  // setting context.delegate to null, and returning the ContinueSentinel.
+  function maybeInvokeDelegate(delegate, context) {
+    var method = delegate.iterator[context.method];
+    if (method === undefined) {
+      // A .throw or .return when the delegate iterator has no .throw
+      // method always terminates the yield* loop.
+      context.delegate = null;
+
+      if (context.method === "throw") {
+        if (delegate.iterator.return) {
+          // If the delegate iterator has a return method, give it a
+          // chance to clean up.
+          context.method = "return";
+          context.arg = undefined;
+          maybeInvokeDelegate(delegate, context);
+
+          if (context.method === "throw") {
+            // If maybeInvokeDelegate(context) changed context.method from
+            // "return" to "throw", let that override the TypeError below.
+            return ContinueSentinel;
+          }
+        }
+
+        context.method = "throw";
+        context.arg = new TypeError(
+          "The iterator does not provide a 'throw' method");
+      }
+
+      return ContinueSentinel;
+    }
+
+    var record = tryCatch(method, delegate.iterator, context.arg);
+
+    if (record.type === "throw") {
+      context.method = "throw";
+      context.arg = record.arg;
+      context.delegate = null;
+      return ContinueSentinel;
+    }
+
+    var info = record.arg;
+
+    if (! info) {
+      context.method = "throw";
+      context.arg = new TypeError("iterator result is not an object");
+      context.delegate = null;
+      return ContinueSentinel;
+    }
+
+    if (info.done) {
+      // Assign the result of the finished delegate to the temporary
+      // variable specified by delegate.resultName (see delegateYield).
+      context[delegate.resultName] = info.value;
+
+      // Resume execution at the desired location (see delegateYield).
+      context.next = delegate.nextLoc;
+
+      // If context.method was "throw" but the delegate handled the
+      // exception, let the outer generator proceed normally. If
+      // context.method was "next", forget context.arg since it has been
+      // "consumed" by the delegate iterator. If context.method was
+      // "return", allow the original .return call to continue in the
+      // outer generator.
+      if (context.method !== "return") {
+        context.method = "next";
+        context.arg = undefined;
+      }
+
+    } else {
+      // Re-yield the result returned by the delegate method.
+      return info;
+    }
+
+    // The delegate iterator is finished, so forget it and continue with
+    // the outer generator.
+    context.delegate = null;
+    return ContinueSentinel;
+  }
+
+  // Define Generator.prototype.{next,throw,return} in terms of the
+  // unified ._invoke helper method.
+  defineIteratorMethods(Gp);
+
+  Gp[toStringTagSymbol] = "Generator";
+
+  // A Generator should always return itself as the iterator object when the
+  // @@iterator function is called on it. Some browsers' implementations of the
+  // iterator prototype chain incorrectly implement this, causing the Generator
+  // object to not be returned from this call. This ensures that doesn't happen.
+  // See https://github.com/facebook/regenerator/issues/274 for more details.
+  Gp[iteratorSymbol] = function() {
+    return this;
+  };
+
+  Gp.toString = function() {
+    return "[object Generator]";
+  };
+
+  function pushTryEntry(locs) {
+    var entry = { tryLoc: locs[0] };
+
+    if (1 in locs) {
+      entry.catchLoc = locs[1];
+    }
+
+    if (2 in locs) {
+      entry.finallyLoc = locs[2];
+      entry.afterLoc = locs[3];
+    }
+
+    this.tryEntries.push(entry);
+  }
+
+  function resetTryEntry(entry) {
+    var record = entry.completion || {};
+    record.type = "normal";
+    delete record.arg;
+    entry.completion = record;
+  }
+
+  function Context(tryLocsList) {
+    // The root entry object (effectively a try statement without a catch
+    // or a finally block) gives us a place to store values thrown from
+    // locations where there is no enclosing try statement.
+    this.tryEntries = [{ tryLoc: "root" }];
+    tryLocsList.forEach(pushTryEntry, this);
+    this.reset(true);
+  }
+
+  runtime.keys = function(object) {
+    var keys = [];
+    for (var key in object) {
+      keys.push(key);
+    }
+    keys.reverse();
+
+    // Rather than returning an object with a next method, we keep
+    // things simple and return the next function itself.
+    return function next() {
+      while (keys.length) {
+        var key = keys.pop();
+        if (key in object) {
+          next.value = key;
+          next.done = false;
+          return next;
+        }
+      }
+
+      // To avoid creating an additional object, we just hang the .value
+      // and .done properties off the next function object itself. This
+      // also ensures that the minifier will not anonymize the function.
+      next.done = true;
+      return next;
+    };
+  };
+
+  function values(iterable) {
+    if (iterable) {
+      var iteratorMethod = iterable[iteratorSymbol];
+      if (iteratorMethod) {
+        return iteratorMethod.call(iterable);
+      }
+
+      if (typeof iterable.next === "function") {
+        return iterable;
+      }
+
+      if (!isNaN(iterable.length)) {
+        var i = -1, next = function next() {
+          while (++i < iterable.length) {
+            if (hasOwn.call(iterable, i)) {
+              next.value = iterable[i];
+              next.done = false;
+              return next;
+            }
+          }
+
+          next.value = undefined;
+          next.done = true;
+
+          return next;
+        };
+
+        return next.next = next;
+      }
+    }
+
+    // Return an iterator with no values.
+    return { next: doneResult };
+  }
+  runtime.values = values;
+
+  function doneResult() {
+    return { value: undefined, done: true };
+  }
+
+  Context.prototype = {
+    constructor: Context,
+
+    reset: function(skipTempReset) {
+      this.prev = 0;
+      this.next = 0;
+      // Resetting context._sent for legacy support of Babel's
+      // function.sent implementation.
+      this.sent = this._sent = undefined;
+      this.done = false;
+      this.delegate = null;
+
+      this.method = "next";
+      this.arg = undefined;
+
+      this.tryEntries.forEach(resetTryEntry);
+
+      if (!skipTempReset) {
+        for (var name in this) {
+          // Not sure about the optimal order of these conditions:
+          if (name.charAt(0) === "t" &&
+              hasOwn.call(this, name) &&
+              !isNaN(+name.slice(1))) {
+            this[name] = undefined;
+          }
+        }
+      }
+    },
+
+    stop: function() {
+      this.done = true;
+
+      var rootEntry = this.tryEntries[0];
+      var rootRecord = rootEntry.completion;
+      if (rootRecord.type === "throw") {
+        throw rootRecord.arg;
+      }
+
+      return this.rval;
+    },
+
+    dispatchException: function(exception) {
+      if (this.done) {
+        throw exception;
+      }
+
+      var context = this;
+      function handle(loc, caught) {
+        record.type = "throw";
+        record.arg = exception;
+        context.next = loc;
+
+        if (caught) {
+          // If the dispatched exception was caught by a catch block,
+          // then let that catch block handle the exception normally.
+          context.method = "next";
+          context.arg = undefined;
+        }
+
+        return !! caught;
+      }
+
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        var record = entry.completion;
+
+        if (entry.tryLoc === "root") {
+          // Exception thrown outside of any try block that could handle
+          // it, so set the completion value of the entire function to
+          // throw the exception.
+          return handle("end");
+        }
+
+        if (entry.tryLoc <= this.prev) {
+          var hasCatch = hasOwn.call(entry, "catchLoc");
+          var hasFinally = hasOwn.call(entry, "finallyLoc");
+
+          if (hasCatch && hasFinally) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            } else if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else if (hasCatch) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            }
+
+          } else if (hasFinally) {
+            if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else {
+            throw new Error("try statement without catch or finally");
+          }
+        }
+      }
+    },
+
+    abrupt: function(type, arg) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc <= this.prev &&
+            hasOwn.call(entry, "finallyLoc") &&
+            this.prev < entry.finallyLoc) {
+          var finallyEntry = entry;
+          break;
+        }
+      }
+
+      if (finallyEntry &&
+          (type === "break" ||
+           type === "continue") &&
+          finallyEntry.tryLoc <= arg &&
+          arg <= finallyEntry.finallyLoc) {
+        // Ignore the finally entry if control is not jumping to a
+        // location outside the try/catch block.
+        finallyEntry = null;
+      }
+
+      var record = finallyEntry ? finallyEntry.completion : {};
+      record.type = type;
+      record.arg = arg;
+
+      if (finallyEntry) {
+        this.method = "next";
+        this.next = finallyEntry.finallyLoc;
+        return ContinueSentinel;
+      }
+
+      return this.complete(record);
+    },
+
+    complete: function(record, afterLoc) {
+      if (record.type === "throw") {
+        throw record.arg;
+      }
+
+      if (record.type === "break" ||
+          record.type === "continue") {
+        this.next = record.arg;
+      } else if (record.type === "return") {
+        this.rval = this.arg = record.arg;
+        this.method = "return";
+        this.next = "end";
+      } else if (record.type === "normal" && afterLoc) {
+        this.next = afterLoc;
+      }
+
+      return ContinueSentinel;
+    },
+
+    finish: function(finallyLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.finallyLoc === finallyLoc) {
+          this.complete(entry.completion, entry.afterLoc);
+          resetTryEntry(entry);
+          return ContinueSentinel;
+        }
+      }
+    },
+
+    "catch": function(tryLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc === tryLoc) {
+          var record = entry.completion;
+          if (record.type === "throw") {
+            var thrown = record.arg;
+            resetTryEntry(entry);
+          }
+          return thrown;
+        }
+      }
+
+      // The context.catch method must only be called with a location
+      // argument that corresponds to a known catch block.
+      throw new Error("illegal catch attempt");
+    },
+
+    delegateYield: function(iterable, resultName, nextLoc) {
+      this.delegate = {
+        iterator: values(iterable),
+        resultName: resultName,
+        nextLoc: nextLoc
+      };
+
+      if (this.method === "next") {
+        // Deliberately forget the last sent value so that we don't
+        // accidentally pass it on to the delegate.
+        this.arg = undefined;
+      }
+
+      return ContinueSentinel;
+    }
+  };
+})(
+  // In sloppy mode, unbound `this` refers to the global object, fallback to
+  // Function constructor if we're in global strict mode. That is sadly a form
+  // of indirect eval which violates Content Security Policy.
+  (function() { return this })() || Function("return this")()
+);
+
+
+/***/ }),
+
+/***/ "97ab":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_style_index_0_id_e1196634_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("92e0");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_style_index_0_id_e1196634_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_style_index_0_id_e1196634_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_style_index_0_id_e1196634_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "9aa9":
 /***/ (function(module, exports) {
 
@@ -54214,6 +55237,20 @@ var ArrayProto = Array.prototype;
 if (ArrayProto[UNSCOPABLES] == undefined) __webpack_require__("32e9")(ArrayProto, UNSCOPABLES, {});
 module.exports = function (key) {
   ArrayProto[UNSCOPABLES][key] = true;
+};
+
+
+/***/ }),
+
+/***/ "9c80":
+/***/ (function(module, exports) {
+
+module.exports = function (exec) {
+  try {
+    return { e: false, v: exec() };
+  } catch (e) {
+    return { e: true, v: e };
+  }
 };
 
 
@@ -55575,6 +56612,17 @@ Schema.messages = messages_messages;
 
 /***/ }),
 
+/***/ "a25f":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("7726");
+var navigator = global.navigator;
+
+module.exports = navigator && navigator.userAgent || '';
+
+
+/***/ }),
+
 /***/ "a3c3":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -55656,10 +56704,505 @@ __webpack_require__("214f")('replace', 2, function (defined, REPLACE, $replace) 
 
 /***/ }),
 
-/***/ "a4f3":
+/***/ "a5b8":
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
+"use strict";
+
+// 25.4.1.5 NewPromiseCapability(C)
+var aFunction = __webpack_require__("d8e8");
+
+function PromiseCapability(C) {
+  var resolve, reject;
+  this.promise = new C(function ($$resolve, $$reject) {
+    if (resolve !== undefined || reject !== undefined) throw TypeError('Bad Promise constructor');
+    resolve = $$resolve;
+    reject = $$reject;
+  });
+  this.resolve = aFunction(resolve);
+  this.reject = aFunction(reject);
+}
+
+module.exports.f = function (C) {
+  return new PromiseCapability(C);
+};
+
+
+/***/ }),
+
+/***/ "a682":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.assign.js
+var es6_object_assign = __webpack_require__("f751");
+
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/arrayWithoutHoles.js
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
+      arr2[i] = arr[i];
+    }
+
+    return arr2;
+  }
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/iterableToArray.js
+function _iterableToArray(iter) {
+  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/nonIterableSpread.js
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance");
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/toConsumableArray.js
+
+
+
+function _toConsumableArray(arr) {
+  return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();
+}
+// EXTERNAL MODULE: ./node_modules/jquery/dist/jquery.js
+var jquery = __webpack_require__("1157");
+var jquery_default = /*#__PURE__*/__webpack_require__.n(jquery);
+
+// CONCATENATED MODULE: ./src/sdk/network/core/cloudjet_request/index.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return cloudjetRequest; });
+/* unused harmony export success_requestcenter */
+/* unused harmony export error_requestcenter */
+/* unused harmony export guide_requestcenter */
+/* unused harmony export requestcenterHideNotification */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return initRequestCenterDisplay; });
+
+
+
+/* istanbul ignore file */
+
+/* eslint-disable */
+
+var $ = jquery_default.a;
+/* eslint-disable */
+
+/**
+ * Created by khangtd on 08/03/2017.
+ * Edit by DucTuan @@
+ * Fixed bugs by Toanalien 09/05/2017
+ * REF: http://api.jquery.com/jquery.ajax/
+ */
+// include jsi18n
+//$.getScript('/jsi18n/');
+// It's time to init
+// Global configuration for RequestCenter
+
+var REDIRECT_PREFIX = '?next=';
+var LOGIN_URL = '/login/';
+
+var gettext = function gettext(str) {
+  return str;
+};
+
+var message_request = '';
+var show_notification = true; // This request center to manage objects which handling request/response.
+
+var RequestCenter = function () {
+  var spawned = 0; // Private attribute
+
+  var stopped = 0; // Private attribute
+  // Define methods, attributes for request instance.
+  // Also private method
+
+  var RequestInstance = function () {
+    return function (center, beforeSendTrigger, successTrigger, errorTrigger, completeTrigger) {
+      this.id = 0;
+      this.ajax = null; // Override event of ajax param.
+
+      this.beforeSendTrigger = beforeSendTrigger;
+      this.errorTrigger = errorTrigger;
+      this.completeTrigger = completeTrigger;
+      this.successTrigger = successTrigger;
+
+      this.getCenter = function () {
+        return center;
+      };
+    };
+  }(); // Instance list
+
+
+  var instance_list = []; // store object
+
+  var spawned_list = []; // store object's ID
+
+  var stopped_list = []; // store object's ID
+
+  var completed_list = []; // store object's ID
+  // Define request center
+
+  return function (onSpawnedTrigger, onStoppedTrigger, onCompletedTrigger) {
+    // Trigger of RequestCenter Object.
+    this.onSpawnedTrigger = onSpawnedTrigger;
+    this.onStoppedTrigger = onStoppedTrigger;
+    this.onCompletedTrigger = onCompletedTrigger; // Define method, attributes for request center.
+
+    this.getInstanceNum = function () {
+      return instance_list.length;
+    };
+
+    this.getSpawnedNum = function () {
+      return spawned_list.length;
+    };
+
+    this.getStoppedNum = function () {
+      return stopped_list.length;
+    };
+
+    this.getCompletedNum = function () {
+      return completed_list.length;
+    };
+
+    this.addStopped = function (instance_id) {
+      stopped_list.push(instance_id); // Must be fired before trigger onStop
+      // // Condition to trigger onStop function
+
+      if (this.getStoppedNum() == this.getSpawnedNum() && typeof this.onStoppedTrigger == "function") {
+        this.onStoppedTrigger();
+      } // // Condition to trigger onStop function
+      // if (typeof this.onStoppedTrigger == "function") {
+      //     this.onStoppedTrigger();
+      // }
+
+    };
+
+    this.addCompleted = function (instance_id) {
+      completed_list.push(instance_id); // Must be fired before trigger onComplete
+      // Condition to trigger onStop function
+
+      if (this.getCompletedNum() == this.getSpawnedNum() && typeof this.onCompletedTrigger == "function") {
+        this.onCompletedTrigger();
+      } // // Condition to trigger onStop function
+      // if (typeof this.onStoppedTrigger == "function") {
+      //     this.onStoppedTrigger();
+      // }
+
+    };
+
+    this.addSpawned = function (instance_id) {
+      // // // Condition to trigger onStart function
+      // if (this.getSpawnedNum() == this.getStoppedNum() && typeof this.onSpawnedTrigger == "function") {
+      //     this.onSpawnedTrigger();
+      // }
+      if (typeof this.onSpawnedTrigger == "function") {
+        this.onSpawnedTrigger();
+      }
+
+      spawned_list.push(instance_id); // Must be fired after trigger onSpawned
+    };
+
+    this.createInstance = function (beforeSendTrigger, successTrigger, errorTrigger, completeTrigger) {
+      var instance = new RequestInstance(this, beforeSendTrigger, successTrigger, errorTrigger, completeTrigger);
+      instance.id = instance.getCenter().getInstanceNum();
+      instance_list.push(instance); // Auto pushing instance into
+
+      instance.ajax = function (ajax_params) {
+        if (ajax_params == null) ajax_params = {};
+
+        var beforeSend = function beforeSend(args, ajax_before_send) {
+          if (typeof instance.beforeSendTrigger == "function") {
+            args = instance.beforeSendTrigger.apply(instance, _toConsumableArray(args));
+          } //console.log("error arguments===============");
+          //console.log(args);
+
+
+          instance.getCenter().addSpawned(instance.id);
+          if (typeof ajax_before_send == "function") return ajax_before_send.apply(void 0, _toConsumableArray(args));
+        };
+
+        var success = function success(args, ajax_success, argsTrigger) {
+          if (typeof instance.successTrigger == "function") {
+            args = instance.successTrigger.apply(instance, _toConsumableArray(args)); // Data need to be overwritten because of legacy api pattern
+          }
+
+          instance.getCenter().addStopped(instance.id);
+          if (typeof ajax_success == "function") return ajax_success.apply(void 0, _toConsumableArray(args));
+        };
+
+        var error = function error(args, ajax_error, argsTrigger) {
+          if (typeof instance.errorTrigger == "function") {
+            instance.errorTrigger.apply(instance, _toConsumableArray(args));
+          } //console.log("error arguments===============");
+          //console.log(args);
+
+
+          instance.getCenter().addStopped(instance.id);
+          if (typeof ajax_error == "function") return ajax_error.apply(void 0, _toConsumableArray(args));
+        };
+
+        var complete = function complete(args, ajax_complete) {
+          if (typeof instance.completeTrigger == "function") {
+            instance.completeTrigger.apply(instance, _toConsumableArray(args));
+          }
+
+          instance.getCenter().addCompleted(instance.id);
+          if (typeof ajax_complete == "function") return ajax_complete.apply(void 0, _toConsumableArray(args));
+        }; // Clone to new ajax params
+
+
+        var ajax_params_cloned = Object.assign({}, ajax_params);
+
+        ajax_params_cloned.beforeSend = function () {
+          for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+          }
+
+          return beforeSend(args, ajax_params.beforeSend != null ? ajax_params.beforeSend : "");
+        };
+
+        ajax_params_cloned.success = function () {
+          for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+            args[_key2] = arguments[_key2];
+          }
+
+          return success(args, ajax_params.success != null ? ajax_params.success : "");
+        };
+
+        ajax_params_cloned.error = function () {
+          for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
+            args[_key3] = arguments[_key3];
+          }
+
+          return error(args, ajax_params.error != null ? ajax_params.error : "");
+        };
+
+        ajax_params_cloned.complete = function () {
+          for (var _len4 = arguments.length, args = new Array(_len4), _key4 = 0; _key4 < _len4; _key4++) {
+            args[_key4] = arguments[_key4];
+          }
+
+          return complete(args, ajax_params.complete != null ? ajax_params.complete : "");
+        };
+
+        return $.ajax(ajax_params_cloned);
+      };
+
+      return instance;
+    };
+
+    this.getInstanceByID = function (index) {
+      if (instance_list.length > index) return instance_list[index];
+      return null;
+    };
+
+    this.deleteInstanceByID = function (index) {
+      if (instance_list.length > index) return instance_list.splice(index, 1);
+      return null;
+    };
+  };
+}(); // Utils functions
+
+
+var config_requestcenter = function config_requestcenter() {
+  show_notification = true;
+  $("#request-center-progress").css({
+    "background-color": "#ffd176",
+    "color": "#6e6e6e",
+    "border": "1px solid #ffb14d"
+  });
+  $("#request-center-progress").text(gettext("Loading..."));
+};
+
+var success_requestcenter = function success_requestcenter(message) {
+  var status_code = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 200;
+  // var id = initRequestCenterStatusDisplay(Math.floor(Math.random() * 101))
+  $("#request-center-progress").css({
+    "background-color": "#5cb85c",
+    "color": "#fff",
+    "border": "1px solid #468746"
+  });
+  $("#request-center-progress").hide();
+  $("#request-center-progress").text(message);
+  $("#request-center-progress").show();
+  setTimeout(function () {
+    config_requestcenter();
+  }, 4000);
+};
+
+var error_requestcenter = function error_requestcenter(message) {
+  // var id = initRequestCenterStatusDisplay(Math.floor(Math.random() * 101))
+  $("#request-center-progress").css({
+    "background-color": "#d9534f",
+    "color": "#fff",
+    "border": "1px solid #b74743"
+  });
+  $("#request-center-progress").hide();
+  $("#request-center-progress").text(message);
+  $("#request-center-progress").show(); // $("#request-center-progress").fadeOut(3000);
+
+  setTimeout(function () {
+    config_requestcenter();
+  }, 5000);
+};
+
+var guide_requestcenter = function guide_requestcenter(message) {
+  $("#request-center-progress").css({
+    "background-color": "#337ab7",
+    "color": "#fff",
+    "border": "1px solid #2c6699"
+  });
+  $("#request-center-progress").hide();
+  $("#request-center-progress").text(message);
+  $("#request-center-progress").show(); // $("#request-center-progress").fadeOut(3000);
+
+  setTimeout(function () {
+    config_requestcenter();
+  }, 1000);
+};
+
+var requestcenterHideNotification = function requestcenterHideNotification() {
+  $("#request-center-progress").hide();
+  show_notification = false;
+};
+
+var create = function create(htmlStr) {
+  var frag = document.createDocumentFragment(),
+      temp = document.createElement('div');
+  temp.innerHTML = htmlStr;
+
+  while (temp.firstChild) {
+    frag.appendChild(temp.firstChild);
+  }
+
+  return frag;
+}; // This is for the progress display
+
+
+var initRequestCenterDisplay = function initRequestCenterDisplay() {
+  // Note: requestcenter for progress is very different about requestcenter for status of one by one request
+  var fragment = create('<div id="popup-progress"><div id="requestcenter-wrapper"><span id="request-center-progress">' + gettext("Loading...") + '</span></div></div>'); // You can use native DOM methods to insert the fragment:
+
+  document.body.insertBefore(fragment, document.body.childNodes[0]); // document.body.insertBefore('<div id="popup"><span id="request-center">Loading...</span></div>', document.body.firstChild)
+
+  $("#popup-progress").css({
+    "position": "fixed",
+    "width": "100%",
+    "z-index": "10000"
+  });
+  $("#requestcenter-wrapper").css({
+    "width": "30%",
+    "display": "block",
+    "margin": "0 auto",
+    "text-align": "center"
+  });
+  $("#request-center-progress").css({
+    "position": "relative",
+    "border-top": "none",
+    "border-radius": "3px",
+    "line-height": "100%",
+    "display": "none",
+    "background": "#f0ad4e",
+    "text-align": "center",
+    "font-weight": "bold",
+    "padding": "2px 10px",
+    "background-color": "#ffd176",
+    "color": "#6e6e6e",
+    "border": "1px solid #ffb14d"
+  });
+  $(document).ajaxError(function () {});
+};
+/* TODO: move this block of code into requestcenter.js */
+
+
+var requestcenter = new RequestCenter(function () {
+  if (show_notification) {
+    $('span#request-center-progress').show(); // Trigger request center onStart
+    // initRequestCenterDisplay();
+  }
+}, function () {
+  // Hong note: 1000 is too fast ; changed to 5000
+  // Tuan but i think 3000ms because 5000ms too slow
+  // config_requestcenter()
+  // $('span#request-center').show()
+  $('span#request-center-progress').fadeOut(4000, config_requestcenter); // Trigger request center onStop
+}); // function (beforeSendTrigger, successTrigger, errorTrigger, completeTrigger)
+
+var cloudjetRequest = requestcenter.createInstance(null, // Trigger before send
+function () {
+  for (var _len5 = arguments.length, args = new Array(_len5), _key5 = 0; _key5 < _len5; _key5++) {
+    args[_key5] = arguments[_key5];
+  }
+
+  //successTrigger
+  var _args = args.slice();
+
+  if (_args[0] !== undefined) {
+    // If response is no content, data will be undefined
+    if (_args[0].data !== undefined && _args[0].status !== undefined && _args[0].message !== undefined && _args[0].version !== undefined) {
+      success_requestcenter(_args[0].message, _args[2].status);
+      _args[0] = _args[0].data;
+    }
+  }
+
+  return _args;
+}, function (jqXHR, textStatus, errorThrown) {
+  //errorTrigger
+  var message_prefix = ''; //console.log(arguments);
+  //
+  // // get arguments
+  // var _args = [];
+  // for(var i = 0; i<arguments.length;i++){
+  //     _args.push(arguments[i]);
+  // }
+  //console.log(_args);
+
+  /*
+  Scenario is here: If the jqXHR.status equal to 401, then redirect to login page with the url /login
+  */
+  // document.write('<script type="text/javascript" src="'+ incFile+ '"></script>');
+
+  if (jqXHR.status === 0) {
+    message_request = gettext("Error Connection.");
+  } else if (jqXHR.status == 400) {
+    message_request = gettext("Server request failed."); //message_prefix = "Error[400]";
+  } else if (jqXHR.status == 401) {
+    message_request = gettext("You haven't logged in into the system. Redirecting to login page.");
+    setTimeout(function () {
+      window.location = LOGIN_URL + REDIRECT_PREFIX + window.location.pathname;
+    }, 2000); //message_prefix = "Error[401]";
+  } else if (jqXHR.status == 403) {
+    message_request = gettext("You don't have permission."); //message_prefix = "Error[403]";
+  } else if (jqXHR.status == 404) {
+    message_request = gettext("Can not find your content which you input."); //message_prefix = "Error[404]";
+  } else if (jqXHR.status == 500) {
+    message_request = gettext("Server Error."); //message_prefix = "Error[500]";
+  } else if (textStatus === 'parsererror') {
+    message_request = gettext("Json Syntax Error.");
+  } else if (textStatus === 'timeout') {
+    message_request = gettext("Timeout");
+  } else if (textStatus === 'abort') {
+    message_request = gettext("Request canceled.");
+  } else {
+    message_request = gettext("Undefined error.");
+  } // console.log(jqXHR);
+
+
+  try {
+    var response_from_server = JSON.parse(jqXHR.responseText);
+  } catch (err) {
+    var response_from_server = undefined;
+  }
+
+  if (response_from_server !== undefined && response_from_server.message !== undefined) {
+    message_request = message_prefix + " " + gettext(response_from_server.message);
+  } else {
+    message_request = message_prefix + " " + message_request;
+  }
+
+  error_requestcenter(message_request); // return _args;
+},
+/* Trigger error */
+null
+/* trigger completed*/
+);
+
 
 /***/ }),
 
@@ -55780,17 +57323,6 @@ for (var collections = getKeys(DOMIterables), i = 0; i < collections.length; i++
 
 /***/ }),
 
-/***/ "ae84":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_37b1eff2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2cd1");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_37b1eff2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_37b1eff2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_style_index_0_id_37b1eff2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "aebd":
 /***/ (function(module, exports) {
 
@@ -55803,17 +57335,6 @@ module.exports = function (bitmap, value) {
   };
 };
 
-
-/***/ }),
-
-/***/ "b0f6":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_34274676_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("ec69");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_34274676_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_34274676_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_34274676_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -55936,17 +57457,6 @@ exports.default = {
 
 /***/ }),
 
-/***/ "b3dd":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_de3a8234_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("7eb1");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_de3a8234_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_de3a8234_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_de3a8234_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "b447":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -55960,14 +57470,64 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "b4fb":
+/***/ "b584":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_4aa5d10c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f8d0");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_4aa5d10c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_4aa5d10c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+var cov_lytxlmlc3 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/config.js",
+      hash = "fd149409393bc399759f6ff90317101600abc735",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/config.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 15
+        },
+        end: {
+          line: 3,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var module = (cov_lytxlmlc3.s[0]++, {
+  path: "/api/user_kpi/"
+});
+/* harmony default export */ __webpack_exports__["a"] = (module);
+
+/***/ }),
+
+/***/ "b882":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_f4f48c48_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("baf8");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_f4f48c48_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_f4f48c48_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_4aa5d10c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_f4f48c48_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -55975,6 +57535,345 @@ module.exports = function (it) {
 /***/ (function(module, exports) {
 
 module.exports = true;
+
+
+/***/ }),
+
+/***/ "b8e7":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return buildPromise; });
+/* harmony import */ var core_js_modules_es6_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("551c");
+/* harmony import */ var core_js_modules_es6_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_promise__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _cloudjet_request__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("a682");
+var cov_2pvqxr8w6o = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/core/network_builder/index.js",
+      hash = "e59ddc3e5a833e5aa259ad2c038815416d46122e",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/core/network_builder/index.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 8,
+          column: 21
+        },
+        end: {
+          line: 38,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 16,
+          column: 4
+        },
+        end: {
+          line: 37,
+          column: 6
+        }
+      },
+      "2": {
+        start: {
+          line: 18,
+          column: 27
+        },
+        end: {
+          line: 27,
+          column: 9
+        }
+      },
+      "3": {
+        start: {
+          line: 22,
+          column: 16
+        },
+        end: {
+          line: 22,
+          column: 29
+        }
+      },
+      "4": {
+        start: {
+          line: 25,
+          column: 16
+        },
+        end: {
+          line: 25,
+          column: 24
+        }
+      },
+      "5": {
+        start: {
+          line: 32,
+          column: 8
+        },
+        end: {
+          line: 34,
+          column: 9
+        }
+      },
+      "6": {
+        start: {
+          line: 33,
+          column: 12
+        },
+        end: {
+          line: 33,
+          column: 34
+        }
+      },
+      "7": {
+        start: {
+          line: 36,
+          column: 8
+        },
+        end: {
+          line: 36,
+          column: 40
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 21
+          },
+          end: {
+            line: 8,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 14,
+            column: 5
+          },
+          end: {
+            line: 38,
+            column: 1
+          }
+        },
+        line: 14
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 16,
+            column: 23
+          },
+          end: {
+            line: 16,
+            column: 24
+          }
+        },
+        loc: {
+          start: {
+            line: 16,
+            column: 44
+          },
+          end: {
+            line: 37,
+            column: 5
+          }
+        },
+        line: 16
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 21,
+            column: 21
+          },
+          end: {
+            line: 21,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 31
+          },
+          end: {
+            line: 23,
+            column: 13
+          }
+        },
+        line: 21
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 24,
+            column: 17
+          },
+          end: {
+            line: 24,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 24,
+            column: 23
+          },
+          end: {
+            line: 26,
+            column: 13
+          }
+        },
+        line: 24
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 32,
+            column: 8
+          },
+          end: {
+            line: 34,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 32,
+            column: 8
+          },
+          end: {
+            line: 34,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 32,
+            column: 8
+          },
+          end: {
+            line: 34,
+            column: 9
+          }
+        }],
+        line: 32
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+ // BuildPromise({url: 'xyz', parameter: 'GET'})
+
+cov_2pvqxr8w6o.s[0]++;
+
+var buildPromise = function buildPromise(_ref) {
+  var httpMethod = _ref.httpMethod,
+      url = _ref.url,
+      data = _ref.data;
+  cov_2pvqxr8w6o.f[0]++;
+  cov_2pvqxr8w6o.s[1]++;
+  return new Promise(function (resolve, reject) {
+    cov_2pvqxr8w6o.f[1]++;
+    // Build ajax object
+    var ajaxObject = (cov_2pvqxr8w6o.s[2]++, {
+      method: httpMethod,
+      url: url,
+      success: function success(data) {
+        cov_2pvqxr8w6o.f[2]++;
+        cov_2pvqxr8w6o.s[3]++;
+        resolve(data);
+      },
+      err: function err() {
+        cov_2pvqxr8w6o.f[3]++;
+        cov_2pvqxr8w6o.s[4]++;
+        reject();
+      }
+      /**
+       * Parameter when PUT/POST/DELETE
+       */
+
+    });
+    cov_2pvqxr8w6o.s[5]++;
+
+    if (data != null) {
+      cov_2pvqxr8w6o.b[0][0]++;
+      cov_2pvqxr8w6o.s[6]++;
+      ajaxObject.data = data;
+    } else {
+      cov_2pvqxr8w6o.b[0][1]++;
+    }
+
+    cov_2pvqxr8w6o.s[7]++;
+    _cloudjet_request__WEBPACK_IMPORTED_MODULE_1__[/* cloudjetRequest */ "a"].ajax(ajaxObject);
+  });
+};
+
+
+
+/***/ }),
+
+/***/ "baf8":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "bcaa":
+/***/ (function(module, exports, __webpack_require__) {
+
+var anObject = __webpack_require__("cb7c");
+var isObject = __webpack_require__("d3f4");
+var newPromiseCapability = __webpack_require__("a5b8");
+
+module.exports = function (C, x) {
+  anObject(C);
+  if (isObject(x) && x.constructor === C) return x;
+  var promiseCapability = newPromiseCapability.f(C);
+  var resolve = promiseCapability.resolve;
+  resolve(x);
+  return promiseCapability.promise;
+};
 
 
 /***/ }),
@@ -56567,13 +58466,6 @@ exports.default = function (instance, callback) {
 
 /***/ }),
 
-/***/ "c5b6":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "c5f6":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -56661,6 +58553,719 @@ module.exports = !__webpack_require__("9e1e") && !__webpack_require__("79e5")(fu
 
 /***/ }),
 
+/***/ "c850":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("c5f6");
+/* harmony import */ var core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("28a5");
+/* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1__);
+var cov_2nwusr2xeq = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue",
+      hash = "4c79b81da6735bce1249e90414067e7d3e114309",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 26,
+          column: 30
+        },
+        end: {
+          line: 26,
+          column: 75
+        }
+      },
+      "1": {
+        start: {
+          line: 27,
+          column: 6
+        },
+        end: {
+          line: 39,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 32,
+          column: 8
+        },
+        end: {
+          line: 36,
+          column: 9
+        }
+      },
+      "3": {
+        start: {
+          line: 33,
+          column: 10
+        },
+        end: {
+          line: 33,
+          column: 69
+        }
+      },
+      "4": {
+        start: {
+          line: 35,
+          column: 10
+        },
+        end: {
+          line: 35,
+          column: 38
+        }
+      },
+      "5": {
+        start: {
+          line: 38,
+          column: 8
+        },
+        end: {
+          line: 38,
+          column: 49
+        }
+      },
+      "6": {
+        start: {
+          line: 47,
+          column: 16
+        },
+        end: {
+          line: 47,
+          column: 26
+        }
+      },
+      "7": {
+        start: {
+          line: 48,
+          column: 17
+        },
+        end: {
+          line: 48,
+          column: 58
+        }
+      },
+      "8": {
+        start: {
+          line: 49,
+          column: 25
+        },
+        end: {
+          line: 49,
+          column: 55
+        }
+      },
+      "9": {
+        start: {
+          line: 50,
+          column: 20
+        },
+        end: {
+          line: 50,
+          column: 46
+        }
+      },
+      "10": {
+        start: {
+          line: 51,
+          column: 22
+        },
+        end: {
+          line: 51,
+          column: 34
+        }
+      },
+      "11": {
+        start: {
+          line: 52,
+          column: 20
+        },
+        end: {
+          line: 52,
+          column: 34
+        }
+      },
+      "12": {
+        start: {
+          line: 54,
+          column: 6
+        },
+        end: {
+          line: 68,
+          column: 7
+        }
+      },
+      "13": {
+        start: {
+          line: 55,
+          column: 8
+        },
+        end: {
+          line: 67,
+          column: 10
+        }
+      },
+      "14": {
+        start: {
+          line: 70,
+          column: 6
+        },
+        end: {
+          line: 72,
+          column: 7
+        }
+      },
+      "15": {
+        start: {
+          line: 71,
+          column: 8
+        },
+        end: {
+          line: 71,
+          column: 46
+        }
+      },
+      "16": {
+        start: {
+          line: 74,
+          column: 6
+        },
+        end: {
+          line: 76,
+          column: 7
+        }
+      },
+      "17": {
+        start: {
+          line: 75,
+          column: 8
+        },
+        end: {
+          line: 75,
+          column: 50
+        }
+      },
+      "18": {
+        start: {
+          line: 78,
+          column: 6
+        },
+        end: {
+          line: 82,
+          column: 7
+        }
+      },
+      "19": {
+        start: {
+          line: 79,
+          column: 8
+        },
+        end: {
+          line: 79,
+          column: 50
+        }
+      },
+      "20": {
+        start: {
+          line: 81,
+          column: 8
+        },
+        end: {
+          line: 81,
+          column: 24
+        }
+      },
+      "21": {
+        start: {
+          line: 107,
+          column: 6
+        },
+        end: {
+          line: 107,
+          column: 15
+        }
+      },
+      "22": {
+        start: {
+          line: 108,
+          column: 6
+        },
+        end: {
+          line: 108,
+          column: 46
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 27,
+            column: 6
+          },
+          end: {
+            line: 39,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 27,
+            column: 6
+          },
+          end: {
+            line: 39,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 27,
+            column: 6
+          },
+          end: {
+            line: 39,
+            column: 7
+          }
+        }],
+        line: 27
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 32,
+            column: 8
+          },
+          end: {
+            line: 36,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 32,
+            column: 8
+          },
+          end: {
+            line: 36,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 32,
+            column: 8
+          },
+          end: {
+            line: 36,
+            column: 9
+          }
+        }],
+        line: 32
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 54,
+            column: 6
+          },
+          end: {
+            line: 68,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 54,
+            column: 6
+          },
+          end: {
+            line: 68,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 54,
+            column: 6
+          },
+          end: {
+            line: 68,
+            column: 7
+          }
+        }],
+        line: 54
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 70,
+            column: 6
+          },
+          end: {
+            line: 72,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 70,
+            column: 6
+          },
+          end: {
+            line: 72,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 70,
+            column: 6
+          },
+          end: {
+            line: 72,
+            column: 7
+          }
+        }],
+        line: 70
+      },
+      "4": {
+        loc: {
+          start: {
+            line: 70,
+            column: 10
+          },
+          end: {
+            line: 70,
+            column: 39
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 70,
+            column: 10
+          },
+          end: {
+            line: 70,
+            column: 23
+          }
+        }, {
+          start: {
+            line: 70,
+            column: 27
+          },
+          end: {
+            line: 70,
+            column: 39
+          }
+        }],
+        line: 70
+      },
+      "5": {
+        loc: {
+          start: {
+            line: 74,
+            column: 6
+          },
+          end: {
+            line: 76,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 74,
+            column: 6
+          },
+          end: {
+            line: 76,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 74,
+            column: 6
+          },
+          end: {
+            line: 76,
+            column: 7
+          }
+        }],
+        line: 74
+      },
+      "6": {
+        loc: {
+          start: {
+            line: 78,
+            column: 6
+          },
+          end: {
+            line: 82,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 78,
+            column: 6
+          },
+          end: {
+            line: 82,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 78,
+            column: 6
+          },
+          end: {
+            line: 82,
+            column: 7
+          }
+        }],
+        line: 78
+      },
+      "7": {
+        loc: {
+          start: {
+            line: 78,
+            column: 10
+          },
+          end: {
+            line: 78,
+            column: 38
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 78,
+            column: 10
+          },
+          end: {
+            line: 78,
+            column: 22
+          }
+        }, {
+          start: {
+            line: 78,
+            column: 26
+          },
+          end: {
+            line: 78,
+            column: 38
+          }
+        }],
+        line: 78
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0
+    },
+    f: {},
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0],
+      "3": [0, 0],
+      "4": [0, 0],
+      "5": [0, 0],
+      "6": [0, 0],
+      "7": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["notification_item.vue"],
+      names: [],
+      mappings: ";;;;;;;;;;;;;;;;;;;;;;AAsBA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+      file: "notification_item.vue",
+      sourceRoot: "src/templates/components/cloudjet_noti/components/notification_item",
+      sourcesContent: ["<template>\n  <div class=\"notification-item\" @click=\"redirectToNotification\">\n    <img :src=\"notificationData.actor_avatar\" class=\"notification-item__image\">\n    <div class=\"notification-item__data-wrapper\">\n      <div class=\"notification-item__data\">\n        <div v-if=\"notificationData.type_notification==='change_log'\">\n          <b class=\"notification-item__display-name\">{{ \"Cloudjet KPI updated new version\" | translate }}: </b>\n          <span class=\"notification-item__version\">{{ \"Version\" | translate }} {{notificationData.version}} </span>\n          <span class=\"notification-item__release-date\">{{ \"updated\" | translate }} {{notificationData.release_date}} </span>\n        </div>\n\n        <div v-else>\n          <b class=\"notification-item__display-name\">{{notificationData.actor_name}}: </b>\n          <span class=\"notification-item__content-action\" v-html=\"ellipisDescription\"></span>\n        </div>\n      </div>\n      <div class=\"notification-item__diffTime\">{{diffTimeToString}}</div>\n    </div>\n  </div>\n</template>\n\n<script>\nexport default {\n  computed: {\n    ellipisDescription() {\n      let descriptionSplitN = this.notificationData.description.split(\"\\n\");\n      if (descriptionSplitN.length > 1) {\n        /**\n         * Todo\n         * Backend fix: 2 d\xF2ng th\xEC th\xEAm ...\n         */\n        if (descriptionSplitN[0].length < 5) {\n          return descriptionSplitN[0] + descriptionSplitN[1] + \"...\";\n        } else {\n          return descriptionSplitN[0];\n        }\n      } else {\n        return this.notificationData.description;\n      }\n    },\n\n    /**\n     * Diff = now - timestamp\n     * Business:\n     */\n    diffTimeToString() {\n      var now = new Date();\n      var past = new Date(this.notificationData.timestamp);\n      var diffTimeInMs = now.getTime() - past.getTime();\n      var diffmin = diffTimeInMs / (1000 * 60);\n      var diffHours = diffmin / 60;\n      var diffDay = diffHours / 24;\n\n      if (diffDay >= 1.5) {\n        return (\n          past.getDate() +\n          \"/\" +\n          (past.getMonth() + 1) +\n          \"/\" +\n          past.getFullYear() +\n          \" at \" +\n          past.getHours() +\n          \":\" +\n          past.getMinutes() +\n          \":\" +\n          past.getSeconds()\n        );\n      }\n\n      if (diffDay < 1.5 && diffDay >= 1) {\n        return parseInt(diffDay) + \" day ago\";\n      }\n\n      if (diffHours >= 1) {\n        return parseInt(diffHours) + \" hours ago\";\n      }\n\n      if (diffmin < 60 && diffmin >= 1) {\n        return parseInt(diffmin) + \" minutes ago\";\n      } else {\n        return \"recent\";\n      }\n    }\n  },\n  props: {\n    /**\n     * Link redirect when click notification item\n     */\n    href: String,\n    /**\n     * Notification object api\n     */\n    notificationData: Object,\n\n    /**\n     * Notification number,\n     * After click will set notification Number to zero\n     * Only display when notification bigger than 0\n     */\n    notificationCount: Number\n  },\n  methods: {\n    /**\n     * Unit Test should set window location to hreff\n     */\n    redirectToNotification() {\n      debugger;\n      global.window.location.href = this.href;\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification-item {\n  color: #333333;\n  padding-right: 15px;\n  padding-left: 15px;\n  padding-top: 10px;\n  padding-bottom: 10px;\n\n  &:hover {\n    background: #f1faf9;\n    cursor: pointer;\n  }\n\n  background: white;\n  display: flex;\n  font-size: 12px;\n\n  &__image {\n    width: 34px !important;\n    height: 34px !important;\n    min-width: 34px !important; // this is tricky for chrome, date: 13/09/2018\n    margin-right: 15px;\n    object-fit: cover;\n    border-radius:50%;\n  \n  }\n\n  &__data {\n    width: 300px;\n  }\n\n  &__data-wrapper {\n    color: #333333;\n    line-height: normal;\n    // padding-left: 15px;\n    padding-right: 15px;\n    min-height: 46px\n  }\n\n  &__content-action {\n    word-break: break-all !important;\n    // Clould jet button style\n    > a {\n      background: none !important;\n      vertical-align: unset !important;\n      color: teal !important;\n      font-weight: bold;\n    }\n  }\n\n  &__diffTime {\n    margin-top: 5px;\n    font-size: 10px;\n    color: #ababab;\n  }\n\n  .notification-item__content-action a {\n    background: red !important;\n  }\n}\n</style>\n"]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["a"] = ({
+  computed: {
+    ellipisDescription: function ellipisDescription() {
+      var descriptionSplitN = (cov_2nwusr2xeq.s[0]++, this.notificationData.description.split("\n"));
+      cov_2nwusr2xeq.s[1]++;
+
+      if (descriptionSplitN.length > 1) {
+        cov_2nwusr2xeq.b[0][0]++;
+        cov_2nwusr2xeq.s[2]++;
+
+        /**
+         * Todo
+         * Backend fix: 2 dòng thì thêm ...
+         */
+        if (descriptionSplitN[0].length < 5) {
+          cov_2nwusr2xeq.b[1][0]++;
+          cov_2nwusr2xeq.s[3]++;
+          return descriptionSplitN[0] + descriptionSplitN[1] + "...";
+        } else {
+          cov_2nwusr2xeq.b[1][1]++;
+          cov_2nwusr2xeq.s[4]++;
+          return descriptionSplitN[0];
+        }
+      } else {
+        cov_2nwusr2xeq.b[0][1]++;
+        cov_2nwusr2xeq.s[5]++;
+        return this.notificationData.description;
+      }
+    },
+
+    /**
+     * Diff = now - timestamp
+     * Business:
+     */
+    diffTimeToString: function diffTimeToString() {
+      var now = (cov_2nwusr2xeq.s[6]++, new Date());
+      var past = (cov_2nwusr2xeq.s[7]++, new Date(this.notificationData.timestamp));
+      var diffTimeInMs = (cov_2nwusr2xeq.s[8]++, now.getTime() - past.getTime());
+      var diffmin = (cov_2nwusr2xeq.s[9]++, diffTimeInMs / (1000 * 60));
+      var diffHours = (cov_2nwusr2xeq.s[10]++, diffmin / 60);
+      var diffDay = (cov_2nwusr2xeq.s[11]++, diffHours / 24);
+      cov_2nwusr2xeq.s[12]++;
+
+      if (diffDay >= 1.5) {
+        cov_2nwusr2xeq.b[2][0]++;
+        cov_2nwusr2xeq.s[13]++;
+        return past.getDate() + "/" + (past.getMonth() + 1) + "/" + past.getFullYear() + " at " + past.getHours() + ":" + past.getMinutes() + ":" + past.getSeconds();
+      } else {
+        cov_2nwusr2xeq.b[2][1]++;
+      }
+
+      cov_2nwusr2xeq.s[14]++;
+
+      if ((cov_2nwusr2xeq.b[4][0]++, diffDay < 1.5) && (cov_2nwusr2xeq.b[4][1]++, diffDay >= 1)) {
+        cov_2nwusr2xeq.b[3][0]++;
+        cov_2nwusr2xeq.s[15]++;
+        return parseInt(diffDay) + " day ago";
+      } else {
+        cov_2nwusr2xeq.b[3][1]++;
+      }
+
+      cov_2nwusr2xeq.s[16]++;
+
+      if (diffHours >= 1) {
+        cov_2nwusr2xeq.b[5][0]++;
+        cov_2nwusr2xeq.s[17]++;
+        return parseInt(diffHours) + " hours ago";
+      } else {
+        cov_2nwusr2xeq.b[5][1]++;
+      }
+
+      cov_2nwusr2xeq.s[18]++;
+
+      if ((cov_2nwusr2xeq.b[7][0]++, diffmin < 60) && (cov_2nwusr2xeq.b[7][1]++, diffmin >= 1)) {
+        cov_2nwusr2xeq.b[6][0]++;
+        cov_2nwusr2xeq.s[19]++;
+        return parseInt(diffmin) + " minutes ago";
+      } else {
+        cov_2nwusr2xeq.b[6][1]++;
+        cov_2nwusr2xeq.s[20]++;
+        return "recent";
+      }
+    }
+  },
+  props: {
+    /**
+     * Link redirect when click notification item
+     */
+    href: String,
+
+    /**
+     * Notification object api
+     */
+    notificationData: Object,
+
+    /**
+     * Notification number,
+     * After click will set notification Number to zero
+     * Only display when notification bigger than 0
+     */
+    notificationCount: Number
+  },
+  methods: {
+    /**
+     * Unit Test should set window location to hreff
+     */
+    redirectToNotification: function redirectToNotification() {
+      cov_2nwusr2xeq.s[21]++;
+      debugger;
+      cov_2nwusr2xeq.s[22]++;
+      global.window.location.href = this.href;
+    }
+  }
+});
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("c8ba")))
+
+/***/ }),
+
 /***/ "c8ba":
 /***/ (function(module, exports) {
 
@@ -56685,17 +59290,6 @@ try {
 
 module.exports = g;
 
-
-/***/ }),
-
-/***/ "ca04":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_1_id_57eacbaa_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("3c54");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_1_id_57eacbaa_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_1_id_57eacbaa_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_1_id_57eacbaa_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -56773,6 +59367,17 @@ exports.f = __webpack_require__("5168");
 
 /***/ }),
 
+/***/ "ccee":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_performance_table_vue_vue_type_style_index_0_id_05cf0880_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("58af");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_performance_table_vue_vue_type_style_index_0_id_05cf0880_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_performance_table_vue_vue_type_style_index_0_id_05cf0880_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_performance_table_vue_vue_type_style_index_0_id_05cf0880_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "ce10":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -56794,13 +59399,6 @@ module.exports = function (object, names) {
   return result;
 };
 
-
-/***/ }),
-
-/***/ "cf05":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/logo.82b9c7a5.png";
 
 /***/ }),
 
@@ -56873,6 +59471,17 @@ module.exports = function (it) {
   return typeof it === 'object' ? it !== null : typeof it === 'function';
 };
 
+
+/***/ }),
+
+/***/ "d442":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_0_id_6f78eede_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2b77");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_0_id_6f78eede_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_0_id_6f78eede_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_style_index_0_id_6f78eede_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -57474,14 +60083,10 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "d915":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "d9e8":
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HelloWorld_vue_vue_type_style_index_0_id_de5e7078_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a4f3");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HelloWorld_vue_vue_type_style_index_0_id_de5e7078_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HelloWorld_vue_vue_type_style_index_0_id_de5e7078_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HelloWorld_vue_vue_type_style_index_0_id_de5e7078_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -57508,6 +60113,17 @@ exports.f = __webpack_require__("8e60") ? Object.defineProperty : function defin
 
 /***/ }),
 
+/***/ "db47":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_56093643_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("d9e8");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_56093643_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_56093643_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_style_index_0_id_56093643_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "dbdb":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -57523,6 +60139,18 @@ var store = global[SHARED] || (global[SHARED] = {});
   mode: __webpack_require__("b8e3") ? 'pure' : 'global',
   copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
 });
+
+
+/***/ }),
+
+/***/ "dcbc":
+/***/ (function(module, exports, __webpack_require__) {
+
+var redefine = __webpack_require__("2aba");
+module.exports = function (target, src, safe) {
+  for (var key in src) redefine(target, key, src[key], safe);
+  return target;
+};
 
 
 /***/ }),
@@ -58007,6 +60635,17 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 /******/ });
+
+/***/ }),
+
+/***/ "dda8":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_4658fcc8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("fb5e");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_4658fcc8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_4658fcc8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_style_index_0_id_4658fcc8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -59499,6 +62138,22 @@ exports.default = {
 
 /***/ }),
 
+/***/ "ebd6":
+/***/ (function(module, exports, __webpack_require__) {
+
+// 7.3.20 SpeciesConstructor(O, defaultConstructor)
+var anObject = __webpack_require__("cb7c");
+var aFunction = __webpack_require__("d8e8");
+var SPECIES = __webpack_require__("2b4c")('species');
+module.exports = function (O, D) {
+  var C = anObject(O).constructor;
+  var S;
+  return C === undefined || (S = anObject(C)[SPECIES]) == undefined ? D : aFunction(S);
+};
+
+
+/***/ }),
+
 /***/ "ebfd":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -59556,13 +62211,6 @@ var meta = module.exports = {
   onFreeze: onFreeze
 };
 
-
-/***/ }),
-
-/***/ "ec69":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -59914,128 +62562,6 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 /******/ });
-
-/***/ }),
-
-/***/ "efc8":
-/***/ (function(module, exports) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***/ }),
 
@@ -60891,6 +63417,18 @@ module.exports = __webpack_require__("7f4d");
 
 /***/ }),
 
+/***/ "f605":
+/***/ (function(module, exports) {
+
+module.exports = function (it, Constructor, name, forbiddenField) {
+  if (!(it instanceof Constructor) || (forbiddenField !== undefined && forbiddenField in it)) {
+    throw TypeError(name + ': incorrect invocation!');
+  } return it;
+};
+
+
+/***/ }),
+
 /***/ "f751":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -60919,13 +63457,6 @@ module.exports = { "default": __webpack_require__("f921"), __esModule: true };
 
 /***/ }),
 
-/***/ "f8d0":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "f921":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -60935,6 +63466,13 @@ __webpack_require__("69d3");
 __webpack_require__("765d");
 module.exports = __webpack_require__("584a").Symbol;
 
+
+/***/ }),
+
+/***/ "fa13":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -61064,38 +63602,13 @@ window._$ = jquery_default.a;
 // require('bootstrap/dist/css/bootstrap.min.css')
 
 /* bootstrap will be used global first */
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.assign.js
-var es6_object_assign = __webpack_require__("f751");
+// EXTERNAL MODULE: ./src/sdk/network/core/cloudjet_request/index.js + 4 modules
+var cloudjet_request = __webpack_require__("a682");
 
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/arrayWithoutHoles.js
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-
-    return arr2;
-  }
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/iterableToArray.js
-function _iterableToArray(iter) {
-  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/nonIterableSpread.js
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/toConsumableArray.js
-
-
-
-function _toConsumableArray(arr) {
-  return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();
-}
 // CONCATENATED MODULE: ./src/registry/core/registry_network.js
 var cov_2g76l09fuh = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_network.js",
-      hash = "49f5cec1c2288a4e0d5ce2ea24ec8e625ac55299",
+      hash = "7c03948c85dfcc27942eafdcff12d90edd45b527",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -61104,4297 +63617,66 @@ var cov_2g76l09fuh = function () {
     statementMap: {
       "0": {
         start: {
-          line: 4,
+          line: 5,
           column: 10
         },
         end: {
-          line: 4,
+          line: 5,
           column: 16
         }
       },
       "1": {
         start: {
-          line: 18,
-          column: 24
+          line: 7,
+          column: 0
         },
         end: {
-          line: 18,
-          column: 32
+          line: 7,
+          column: 48
         }
       },
       "2": {
         start: {
-          line: 19,
-          column: 18
+          line: 8,
+          column: 0
         },
         end: {
-          line: 19,
-          column: 27
+          line: 8,
+          column: 19
         }
       },
       "3": {
         start: {
-          line: 20,
-          column: 16
+          line: 9,
+          column: 0
         },
         end: {
-          line: 22,
-          column: 1
+          line: 9,
+          column: 29
         }
       },
       "4": {
         start: {
-          line: 21,
-          column: 4
-        },
-        end: {
-          line: 21,
-          column: 14
-        }
-      },
-      "5": {
-        start: {
-          line: 24,
-          column: 22
-        },
-        end: {
-          line: 24,
-          column: 24
-        }
-      },
-      "6": {
-        start: {
-          line: 25,
-          column: 24
-        },
-        end: {
-          line: 25,
-          column: 28
-        }
-      },
-      "7": {
-        start: {
-          line: 27,
-          column: 22
-        },
-        end: {
-          line: 197,
-          column: 4
-        }
-      },
-      "8": {
-        start: {
-          line: 28,
-          column: 18
-        },
-        end: {
-          line: 28,
-          column: 19
-        }
-      },
-      "9": {
-        start: {
-          line: 29,
-          column: 18
-        },
-        end: {
-          line: 29,
-          column: 19
-        }
-      },
-      "10": {
-        start: {
-          line: 32,
-          column: 26
-        },
-        end: {
-          line: 45,
-          column: 8
-        }
-      },
-      "11": {
-        start: {
-          line: 33,
-          column: 8
-        },
-        end: {
-          line: 44,
-          column: 9
-        }
-      },
-      "12": {
-        start: {
-          line: 34,
-          column: 12
-        },
-        end: {
-          line: 34,
-          column: 24
-        }
-      },
-      "13": {
-        start: {
-          line: 35,
-          column: 12
-        },
-        end: {
-          line: 35,
-          column: 29
-        }
-      },
-      "14": {
-        start: {
-          line: 37,
-          column: 12
-        },
-        end: {
-          line: 37,
-          column: 55
-        }
-      },
-      "15": {
-        start: {
-          line: 38,
-          column: 12
-        },
-        end: {
-          line: 38,
-          column: 45
-        }
-      },
-      "16": {
-        start: {
-          line: 39,
-          column: 12
-        },
-        end: {
-          line: 39,
-          column: 51
-        }
-      },
-      "17": {
-        start: {
-          line: 40,
-          column: 12
-        },
-        end: {
-          line: 40,
-          column: 49
-        }
-      },
-      "18": {
-        start: {
-          line: 41,
-          column: 12
-        },
-        end: {
-          line: 43,
-          column: 14
-        }
-      },
-      "19": {
-        start: {
-          line: 42,
-          column: 16
-        },
-        end: {
-          line: 42,
-          column: 30
-        }
-      },
-      "20": {
-        start: {
-          line: 47,
-          column: 24
-        },
-        end: {
-          line: 47,
-          column: 26
-        }
-      },
-      "21": {
-        start: {
-          line: 48,
-          column: 23
-        },
-        end: {
-          line: 48,
-          column: 25
-        }
-      },
-      "22": {
-        start: {
-          line: 49,
-          column: 23
-        },
-        end: {
-          line: 49,
-          column: 25
-        }
-      },
-      "23": {
-        start: {
-          line: 50,
-          column: 25
-        },
-        end: {
-          line: 50,
-          column: 27
-        }
-      },
-      "24": {
-        start: {
-          line: 52,
-          column: 4
-        },
-        end: {
-          line: 196,
-          column: 5
-        }
-      },
-      "25": {
-        start: {
-          line: 54,
-          column: 8
-        },
-        end: {
-          line: 54,
-          column: 49
-        }
-      },
-      "26": {
-        start: {
-          line: 55,
-          column: 8
-        },
-        end: {
-          line: 55,
-          column: 49
-        }
-      },
-      "27": {
-        start: {
-          line: 56,
-          column: 8
-        },
-        end: {
-          line: 56,
-          column: 53
-        }
-      },
-      "28": {
-        start: {
-          line: 58,
-          column: 8
-        },
-        end: {
-          line: 60,
-          column: 10
-        }
-      },
-      "29": {
-        start: {
-          line: 59,
-          column: 12
-        },
-        end: {
-          line: 59,
-          column: 40
-        }
-      },
-      "30": {
-        start: {
-          line: 61,
-          column: 8
-        },
-        end: {
-          line: 63,
-          column: 10
-        }
-      },
-      "31": {
-        start: {
-          line: 62,
-          column: 12
-        },
-        end: {
-          line: 62,
-          column: 39
-        }
-      },
-      "32": {
-        start: {
-          line: 64,
-          column: 8
-        },
-        end: {
-          line: 66,
-          column: 10
-        }
-      },
-      "33": {
-        start: {
-          line: 65,
-          column: 12
-        },
-        end: {
-          line: 65,
-          column: 39
-        }
-      },
-      "34": {
-        start: {
-          line: 67,
-          column: 8
-        },
-        end: {
-          line: 69,
-          column: 10
-        }
-      },
-      "35": {
-        start: {
-          line: 68,
-          column: 12
-        },
-        end: {
-          line: 68,
-          column: 41
-        }
-      },
-      "36": {
-        start: {
-          line: 70,
-          column: 8
-        },
-        end: {
-          line: 81,
-          column: 10
-        }
-      },
-      "37": {
-        start: {
-          line: 71,
-          column: 12
-        },
-        end: {
-          line: 71,
-          column: 43
-        }
-      },
-      "38": {
-        start: {
-          line: 73,
-          column: 12
-        },
-        end: {
-          line: 75,
-          column: 13
-        }
-      },
-      "39": {
-        start: {
-          line: 74,
-          column: 16
-        },
-        end: {
-          line: 74,
-          column: 40
-        }
-      },
-      "40": {
-        start: {
-          line: 82,
-          column: 8
-        },
-        end: {
-          line: 92,
-          column: 10
-        }
-      },
-      "41": {
-        start: {
-          line: 83,
-          column: 12
-        },
-        end: {
-          line: 83,
-          column: 45
-        }
-      },
-      "42": {
-        start: {
-          line: 85,
-          column: 12
-        },
-        end: {
-          line: 87,
-          column: 13
-        }
-      },
-      "43": {
-        start: {
-          line: 86,
-          column: 16
-        },
-        end: {
-          line: 86,
-          column: 42
-        }
-      },
-      "44": {
-        start: {
-          line: 93,
-          column: 8
-        },
-        end: {
-          line: 103,
-          column: 10
-        }
-      },
-      "45": {
-        start: {
-          line: 99,
-          column: 12
-        },
-        end: {
-          line: 101,
-          column: 13
-        }
-      },
-      "46": {
-        start: {
-          line: 100,
-          column: 16
-        },
-        end: {
-          line: 100,
-          column: 40
-        }
-      },
-      "47": {
-        start: {
-          line: 102,
-          column: 12
-        },
-        end: {
-          line: 102,
-          column: 43
-        }
-      },
-      "48": {
-        start: {
-          line: 104,
-          column: 8
-        },
-        end: {
-          line: 187,
-          column: 10
-        }
-      },
-      "49": {
-        start: {
-          line: 105,
-          column: 27
-        },
-        end: {
-          line: 105,
-          column: 118
-        }
-      },
-      "50": {
-        start: {
-          line: 106,
-          column: 12
-        },
-        end: {
-          line: 106,
-          column: 64
-        }
-      },
-      "51": {
-        start: {
-          line: 107,
-          column: 12
-        },
-        end: {
-          line: 107,
-          column: 41
-        }
-      },
-      "52": {
-        start: {
-          line: 108,
-          column: 12
-        },
-        end: {
-          line: 185,
-          column: 14
-        }
-      },
-      "53": {
-        start: {
-          line: 109,
-          column: 16
-        },
-        end: {
-          line: 109,
-          column: 58
-        }
-      },
-      "54": {
-        start: {
-          line: 109,
-          column: 41
-        },
-        end: {
-          line: 109,
-          column: 58
-        }
-      },
-      "55": {
-        start: {
-          line: 110,
-          column: 33
-        },
-        end: {
-          line: 122,
-          column: 17
-        }
-      },
-      "56": {
-        start: {
-          line: 111,
-          column: 20
-        },
-        end: {
-          line: 115,
-          column: 21
-        }
-      },
-      "57": {
-        start: {
-          line: 112,
-          column: 24
-        },
-        end: {
-          line: 114,
-          column: 25
-        }
-      },
-      "58": {
-        start: {
-          line: 118,
-          column: 20
-        },
-        end: {
-          line: 118,
-          column: 65
-        }
-      },
-      "59": {
-        start: {
-          line: 119,
-          column: 20
-        },
-        end: {
-          line: 121,
-          column: 25
-        }
-      },
-      "60": {
-        start: {
-          line: 119,
-          column: 63
-        },
-        end: {
-          line: 121,
-          column: 25
-        }
-      },
-      "61": {
-        start: {
-          line: 123,
-          column: 30
-        },
-        end: {
-          line: 133,
-          column: 17
-        }
-      },
-      "62": {
-        start: {
-          line: 124,
-          column: 20
-        },
-        end: {
-          line: 128,
-          column: 21
-        }
-      },
-      "63": {
-        start: {
-          line: 125,
-          column: 24
-        },
-        end: {
-          line: 127,
-          column: 25
-        }
-      },
-      "64": {
-        start: {
-          line: 129,
-          column: 20
-        },
-        end: {
-          line: 129,
-          column: 65
-        }
-      },
-      "65": {
-        start: {
-          line: 130,
-          column: 20
-        },
-        end: {
-          line: 132,
-          column: 25
-        }
-      },
-      "66": {
-        start: {
-          line: 130,
-          column: 59
-        },
-        end: {
-          line: 132,
-          column: 25
-        }
-      },
-      "67": {
-        start: {
-          line: 134,
-          column: 28
-        },
-        end: {
-          line: 146,
-          column: 17
-        }
-      },
-      "68": {
-        start: {
-          line: 135,
-          column: 20
-        },
-        end: {
-          line: 139,
-          column: 21
-        }
-      },
-      "69": {
-        start: {
-          line: 136,
-          column: 24
-        },
-        end: {
-          line: 138,
-          column: 25
-        }
-      },
-      "70": {
-        start: {
-          line: 142,
-          column: 20
-        },
-        end: {
-          line: 142,
-          column: 65
-        }
-      },
-      "71": {
-        start: {
-          line: 143,
-          column: 20
-        },
-        end: {
-          line: 145,
-          column: 25
-        }
-      },
-      "72": {
-        start: {
-          line: 143,
-          column: 57
-        },
-        end: {
-          line: 145,
-          column: 25
-        }
-      },
-      "73": {
-        start: {
-          line: 147,
-          column: 31
-        },
-        end: {
-          line: 157,
-          column: 17
-        }
-      },
-      "74": {
-        start: {
-          line: 148,
-          column: 20
-        },
-        end: {
-          line: 152,
-          column: 21
-        }
-      },
-      "75": {
-        start: {
-          line: 149,
-          column: 24
-        },
-        end: {
-          line: 151,
-          column: 25
-        }
-      },
-      "76": {
-        start: {
-          line: 153,
-          column: 20
-        },
-        end: {
-          line: 153,
-          column: 67
-        }
-      },
-      "77": {
-        start: {
-          line: 154,
-          column: 20
-        },
-        end: {
-          line: 156,
-          column: 25
-        }
-      },
-      "78": {
-        start: {
-          line: 154,
-          column: 60
-        },
-        end: {
-          line: 156,
-          column: 25
-        }
-      },
-      "79": {
-        start: {
-          line: 159,
-          column: 41
-        },
-        end: {
-          line: 159,
-          column: 71
-        }
-      },
-      "80": {
-        start: {
-          line: 160,
-          column: 16
-        },
-        end: {
-          line: 165,
-          column: 17
-        }
-      },
-      "81": {
-        start: {
-          line: 163,
-          column: 20
-        },
-        end: {
-          line: 163,
-          column: 106
-        }
-      },
-      "82": {
-        start: {
-          line: 166,
-          column: 16
-        },
-        end: {
-          line: 171,
-          column: 17
-        }
-      },
-      "83": {
-        start: {
-          line: 169,
-          column: 20
-        },
-        end: {
-          line: 169,
-          column: 97
-        }
-      },
-      "84": {
-        start: {
-          line: 172,
-          column: 16
-        },
-        end: {
-          line: 177,
-          column: 17
-        }
-      },
-      "85": {
-        start: {
-          line: 175,
-          column: 20
-        },
-        end: {
-          line: 175,
-          column: 91
-        }
-      },
-      "86": {
-        start: {
-          line: 178,
-          column: 16
-        },
-        end: {
-          line: 183,
-          column: 17
-        }
-      },
-      "87": {
-        start: {
-          line: 181,
-          column: 20
-        },
-        end: {
-          line: 181,
-          column: 100
-        }
-      },
-      "88": {
-        start: {
-          line: 184,
-          column: 16
-        },
-        end: {
-          line: 184,
-          column: 50
-        }
-      },
-      "89": {
-        start: {
-          line: 186,
-          column: 12
-        },
-        end: {
-          line: 186,
-          column: 28
-        }
-      },
-      "90": {
-        start: {
-          line: 188,
-          column: 8
-        },
-        end: {
-          line: 191,
-          column: 10
-        }
-      },
-      "91": {
-        start: {
-          line: 189,
-          column: 12
-        },
-        end: {
-          line: 189,
-          column: 74
-        }
-      },
-      "92": {
-        start: {
-          line: 189,
-          column: 46
-        },
-        end: {
-          line: 189,
-          column: 74
-        }
-      },
-      "93": {
-        start: {
-          line: 190,
-          column: 12
-        },
-        end: {
-          line: 190,
-          column: 24
-        }
-      },
-      "94": {
-        start: {
-          line: 192,
-          column: 8
-        },
-        end: {
-          line: 195,
-          column: 10
-        }
-      },
-      "95": {
-        start: {
-          line: 193,
-          column: 12
-        },
-        end: {
-          line: 193,
-          column: 84
-        }
-      },
-      "96": {
-        start: {
-          line: 193,
-          column: 46
-        },
-        end: {
-          line: 193,
-          column: 84
-        }
-      },
-      "97": {
-        start: {
-          line: 194,
-          column: 12
-        },
-        end: {
-          line: 194,
-          column: 24
-        }
-      },
-      "98": {
-        start: {
-          line: 201,
-          column: 29
-        },
-        end: {
-          line: 209,
-          column: 1
-        }
-      },
-      "99": {
-        start: {
-          line: 202,
-          column: 4
-        },
-        end: {
-          line: 202,
-          column: 29
-        }
-      },
-      "100": {
-        start: {
-          line: 203,
-          column: 4
-        },
-        end: {
-          line: 207,
-          column: 7
-        }
-      },
-      "101": {
-        start: {
-          line: 208,
-          column: 4
-        },
-        end: {
-          line: 208,
-          column: 62
-        }
-      },
-      "102": {
-        start: {
-          line: 211,
-          column: 29
-        },
-        end: {
-          line: 226,
-          column: 1
-        }
-      },
-      "103": {
-        start: {
-          line: 214,
-          column: 4
-        },
-        end: {
-          line: 218,
-          column: 7
-        }
-      },
-      "104": {
-        start: {
-          line: 219,
-          column: 4
-        },
-        end: {
-          line: 219,
-          column: 41
-        }
-      },
-      "105": {
-        start: {
-          line: 220,
-          column: 4
-        },
-        end: {
-          line: 220,
-          column: 48
-        }
-      },
-      "106": {
-        start: {
-          line: 221,
-          column: 4
-        },
-        end: {
-          line: 221,
-          column: 41
-        }
-      },
-      "107": {
-        start: {
-          line: 222,
-          column: 4
-        },
-        end: {
-          line: 225,
-          column: 12
-        }
-      },
-      "108": {
-        start: {
-          line: 223,
-          column: 8
-        },
-        end: {
-          line: 223,
-          column: 30
-        }
-      },
-      "109": {
-        start: {
-          line: 228,
-          column: 28
-        },
-        end: {
-          line: 245,
-          column: 1
-        }
-      },
-      "110": {
-        start: {
-          line: 231,
-          column: 4
-        },
-        end: {
-          line: 235,
-          column: 7
-        }
-      },
-      "111": {
-        start: {
-          line: 236,
-          column: 4
-        },
-        end: {
-          line: 236,
-          column: 41
-        }
-      },
-      "112": {
-        start: {
-          line: 237,
-          column: 4
-        },
-        end: {
-          line: 237,
-          column: 48
-        }
-      },
-      "113": {
-        start: {
-          line: 238,
-          column: 4
-        },
-        end: {
-          line: 238,
-          column: 41
-        }
-      },
-      "114": {
-        start: {
-          line: 240,
-          column: 4
-        },
-        end: {
-          line: 243,
-          column: 12
-        }
-      },
-      "115": {
-        start: {
-          line: 241,
-          column: 8
-        },
-        end: {
-          line: 241,
-          column: 30
-        }
-      },
-      "116": {
-        start: {
-          line: 247,
-          column: 28
-        },
-        end: {
-          line: 263,
-          column: 1
-        }
-      },
-      "117": {
-        start: {
-          line: 249,
-          column: 4
-        },
-        end: {
-          line: 253,
-          column: 7
-        }
-      },
-      "118": {
-        start: {
-          line: 254,
-          column: 4
-        },
-        end: {
-          line: 254,
-          column: 41
-        }
-      },
-      "119": {
-        start: {
-          line: 255,
-          column: 4
-        },
-        end: {
-          line: 255,
-          column: 48
-        }
-      },
-      "120": {
-        start: {
-          line: 256,
-          column: 4
-        },
-        end: {
-          line: 256,
-          column: 41
-        }
-      },
-      "121": {
-        start: {
-          line: 258,
-          column: 4
-        },
-        end: {
-          line: 261,
-          column: 12
-        }
-      },
-      "122": {
-        start: {
-          line: 259,
-          column: 8
-        },
-        end: {
-          line: 259,
-          column: 30
-        }
-      },
-      "123": {
-        start: {
-          line: 265,
-          column: 38
-        },
-        end: {
-          line: 268,
-          column: 1
-        }
-      },
-      "124": {
-        start: {
-          line: 266,
-          column: 4
-        },
-        end: {
-          line: 266,
-          column: 41
-        }
-      },
-      "125": {
-        start: {
-          line: 267,
-          column: 4
-        },
-        end: {
-          line: 267,
-          column: 30
-        }
-      },
-      "126": {
-        start: {
-          line: 270,
-          column: 15
-        },
-        end: {
-          line: 278,
-          column: 1
-        }
-      },
-      "127": {
-        start: {
-          line: 271,
-          column: 15
-        },
-        end: {
-          line: 271,
-          column: 48
-        }
-      },
-      "128": {
-        start: {
-          line: 272,
-          column: 15
-        },
-        end: {
-          line: 272,
-          column: 44
-        }
-      },
-      "129": {
-        start: {
-          line: 273,
-          column: 4
-        },
-        end: {
-          line: 273,
-          column: 29
-        }
-      },
-      "130": {
-        start: {
-          line: 274,
-          column: 4
-        },
-        end: {
-          line: 276,
-          column: 5
-        }
-      },
-      "131": {
-        start: {
-          line: 275,
-          column: 8
-        },
-        end: {
-          line: 275,
-          column: 42
-        }
-      },
-      "132": {
-        start: {
-          line: 277,
-          column: 4
-        },
-        end: {
-          line: 277,
-          column: 16
-        }
-      },
-      "133": {
-        start: {
-          line: 282,
-          column: 33
-        },
-        end: {
-          line: 316,
-          column: 1
-        }
-      },
-      "134": {
-        start: {
-          line: 284,
-          column: 19
-        },
-        end: {
-          line: 284,
-          column: 169
-        }
-      },
-      "135": {
-        start: {
-          line: 286,
-          column: 4
-        },
-        end: {
-          line: 286,
-          column: 70
-        }
-      },
-      "136": {
-        start: {
-          line: 288,
-          column: 4
-        },
-        end: {
-          line: 292,
-          column: 7
-        }
-      },
-      "137": {
-        start: {
-          line: 293,
-          column: 4
-        },
-        end: {
-          line: 298,
-          column: 7
-        }
-      },
-      "138": {
-        start: {
-          line: 299,
-          column: 4
-        },
-        end: {
-          line: 312,
-          column: 7
-        }
-      },
-      "139": {
-        start: {
-          line: 313,
-          column: 4
-        },
-        end: {
-          line: 315,
-          column: 7
-        }
-      },
-      "140": {
-        start: {
-          line: 319,
-          column: 20
-        },
-        end: {
-          line: 333,
-          column: 1
-        }
-      },
-      "141": {
-        start: {
-          line: 321,
-          column: 8
-        },
-        end: {
-          line: 324,
-          column: 9
-        }
-      },
-      "142": {
-        start: {
-          line: 322,
-          column: 12
-        },
-        end: {
-          line: 322,
-          column: 53
-        }
-      },
-      "143": {
-        start: {
-          line: 331,
-          column: 8
-        },
-        end: {
-          line: 331,
-          column: 78
-        }
-      },
-      "144": {
-        start: {
-          line: 335,
-          column: 24
-        },
-        end: {
-          line: 407,
-          column: 53
-        }
-      },
-      "145": {
-        start: {
-          line: 339,
-          column: 20
-        },
-        end: {
-          line: 339,
-          column: 32
-        }
-      },
-      "146": {
-        start: {
-          line: 340,
-          column: 8
-        },
-        end: {
-          line: 347,
-          column: 9
-        }
-      },
-      "147": {
-        start: {
-          line: 341,
-          column: 12
-        },
-        end: {
-          line: 346,
-          column: 13
-        }
-      },
-      "148": {
-        start: {
-          line: 342,
-          column: 16
-        },
-        end: {
-          line: 342,
-          column: 72
-        }
-      },
-      "149": {
-        start: {
-          line: 344,
-          column: 16
-        },
-        end: {
-          line: 344,
-          column: 41
-        }
-      },
-      "150": {
-        start: {
-          line: 348,
-          column: 8
-        },
-        end: {
-          line: 348,
-          column: 21
-        }
-      },
-      "151": {
-        start: {
-          line: 351,
-          column: 29
-        },
-        end: {
-          line: 351,
-          column: 31
-        }
-      },
-      "152": {
-        start: {
-          line: 365,
-          column: 8
-        },
-        end: {
-          line: 393,
-          column: 9
-        }
-      },
-      "153": {
-        start: {
-          line: 366,
-          column: 12
-        },
-        end: {
-          line: 366,
-          column: 59
-        }
-      },
-      "154": {
-        start: {
-          line: 367,
-          column: 15
-        },
-        end: {
-          line: 393,
-          column: 9
-        }
-      },
-      "155": {
-        start: {
-          line: 368,
-          column: 12
-        },
-        end: {
-          line: 368,
-          column: 64
-        }
-      },
-      "156": {
-        start: {
-          line: 370,
-          column: 15
-        },
-        end: {
-          line: 393,
-          column: 9
-        }
-      },
-      "157": {
-        start: {
-          line: 371,
-          column: 12
-        },
-        end: {
-          line: 371,
-          column: 107
-        }
-      },
-      "158": {
-        start: {
-          line: 372,
-          column: 12
-        },
-        end: {
-          line: 374,
-          column: 20
-        }
-      },
-      "159": {
-        start: {
-          line: 373,
-          column: 16
-        },
-        end: {
-          line: 373,
-          column: 89
-        }
-      },
-      "160": {
-        start: {
-          line: 376,
-          column: 15
-        },
-        end: {
-          line: 393,
-          column: 9
-        }
-      },
-      "161": {
-        start: {
-          line: 377,
-          column: 12
-        },
-        end: {
-          line: 377,
-          column: 68
-        }
-      },
-      "162": {
-        start: {
-          line: 379,
-          column: 15
-        },
-        end: {
-          line: 393,
-          column: 9
-        }
-      },
-      "163": {
-        start: {
-          line: 380,
-          column: 12
-        },
-        end: {
-          line: 380,
-          column: 84
-        }
-      },
-      "164": {
-        start: {
-          line: 382,
-          column: 15
-        },
-        end: {
-          line: 393,
-          column: 9
-        }
-      },
-      "165": {
-        start: {
-          line: 383,
-          column: 12
-        },
-        end: {
-          line: 383,
-          column: 55
-        }
-      },
-      "166": {
-        start: {
-          line: 385,
-          column: 15
-        },
-        end: {
-          line: 393,
-          column: 9
-        }
-      },
-      "167": {
-        start: {
-          line: 386,
-          column: 12
-        },
-        end: {
-          line: 386,
-          column: 60
-        }
-      },
-      "168": {
-        start: {
-          line: 387,
-          column: 15
-        },
-        end: {
-          line: 393,
-          column: 9
-        }
-      },
-      "169": {
-        start: {
-          line: 388,
-          column: 12
-        },
-        end: {
-          line: 388,
-          column: 49
-        }
-      },
-      "170": {
-        start: {
-          line: 389,
-          column: 15
-        },
-        end: {
-          line: 393,
-          column: 9
-        }
-      },
-      "171": {
-        start: {
-          line: 390,
-          column: 12
-        },
-        end: {
-          line: 390,
-          column: 59
-        }
-      },
-      "172": {
-        start: {
-          line: 392,
-          column: 12
-        },
-        end: {
-          line: 392,
-          column: 58
-        }
-      },
-      "173": {
-        start: {
-          line: 395,
-          column: 8
-        },
-        end: {
-          line: 399,
-          column: 9
-        }
-      },
-      "174": {
-        start: {
-          line: 396,
-          column: 39
-        },
-        end: {
-          line: 396,
-          column: 69
-        }
-      },
-      "175": {
-        start: {
-          line: 398,
-          column: 39
-        },
-        end: {
-          line: 398,
-          column: 48
-        }
-      },
-      "176": {
-        start: {
-          line: 400,
-          column: 8
-        },
-        end: {
-          line: 404,
-          column: 9
-        }
-      },
-      "177": {
-        start: {
-          line: 401,
-          column: 12
-        },
-        end: {
-          line: 401,
-          column: 91
-        }
-      },
-      "178": {
-        start: {
-          line: 403,
-          column: 12
-        },
-        end: {
-          line: 403,
-          column: 69
-        }
-      },
-      "179": {
-        start: {
-          line: 405,
-          column: 8
-        },
-        end: {
-          line: 405,
-          column: 45
-        }
-      },
-      "180": {
-        start: {
-          line: 409,
+          line: 10,
           column: 0
         },
         end: {
-          line: 409,
-          column: 48
-        }
-      },
-      "181": {
-        start: {
-          line: 410,
-          column: 0
-        },
-        end: {
-          line: 410,
-          column: 19
-        }
-      },
-      "182": {
-        start: {
-          line: 411,
-          column: 0
-        },
-        end: {
-          line: 411,
-          column: 29
-        }
-      },
-      "183": {
-        start: {
-          line: 412,
-          column: 0
-        },
-        end: {
-          line: 412,
+          line: 10,
           column: 40
         }
       }
     },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 20,
-            column: 16
-          },
-          end: {
-            line: 20,
-            column: 17
-          }
-        },
-        loc: {
-          start: {
-            line: 20,
-            column: 30
-          },
-          end: {
-            line: 22,
-            column: 1
-          }
-        },
-        line: 20
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 27,
-            column: 23
-          },
-          end: {
-            line: 27,
-            column: 24
-          }
-        },
-        loc: {
-          start: {
-            line: 27,
-            column: 35
-          },
-          end: {
-            line: 197,
-            column: 1
-          }
-        },
-        line: 27
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 32,
-            column: 27
-          },
-          end: {
-            line: 32,
-            column: 28
-          }
-        },
-        loc: {
-          start: {
-            line: 32,
-            column: 39
-          },
-          end: {
-            line: 45,
-            column: 5
-          }
-        },
-        line: 32
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
-            line: 33,
-            column: 15
-          },
-          end: {
-            line: 33,
-            column: 16
-          }
-        },
-        loc: {
-          start: {
-            line: 33,
-            column: 98
-          },
-          end: {
-            line: 44,
-            column: 9
-          }
-        },
-        line: 33
-      },
-      "4": {
-        name: "(anonymous_4)",
-        decl: {
-          start: {
-            line: 41,
-            column: 29
-          },
-          end: {
-            line: 41,
-            column: 30
-          }
-        },
-        loc: {
-          start: {
-            line: 41,
-            column: 41
-          },
-          end: {
-            line: 43,
-            column: 13
-          }
-        },
-        line: 41
-      },
-      "5": {
-        name: "(anonymous_5)",
-        decl: {
-          start: {
-            line: 52,
-            column: 11
-          },
-          end: {
-            line: 52,
-            column: 12
-          }
-        },
-        loc: {
-          start: {
-            line: 52,
-            column: 77
-          },
-          end: {
-            line: 196,
-            column: 5
-          }
-        },
-        line: 52
-      },
-      "6": {
-        name: "(anonymous_6)",
-        decl: {
-          start: {
-            line: 58,
-            column: 30
-          },
-          end: {
-            line: 58,
-            column: 31
-          }
-        },
-        loc: {
-          start: {
-            line: 58,
-            column: 42
-          },
-          end: {
-            line: 60,
-            column: 9
-          }
-        },
-        line: 58
-      },
-      "7": {
-        name: "(anonymous_7)",
-        decl: {
-          start: {
-            line: 61,
-            column: 29
-          },
-          end: {
-            line: 61,
-            column: 30
-          }
-        },
-        loc: {
-          start: {
-            line: 61,
-            column: 41
-          },
-          end: {
-            line: 63,
-            column: 9
-          }
-        },
-        line: 61
-      },
-      "8": {
-        name: "(anonymous_8)",
-        decl: {
-          start: {
-            line: 64,
-            column: 29
-          },
-          end: {
-            line: 64,
-            column: 30
-          }
-        },
-        loc: {
-          start: {
-            line: 64,
-            column: 41
-          },
-          end: {
-            line: 66,
-            column: 9
-          }
-        },
-        line: 64
-      },
-      "9": {
-        name: "(anonymous_9)",
-        decl: {
-          start: {
-            line: 67,
-            column: 31
-          },
-          end: {
-            line: 67,
-            column: 32
-          }
-        },
-        loc: {
-          start: {
-            line: 67,
-            column: 43
-          },
-          end: {
-            line: 69,
-            column: 9
-          }
-        },
-        line: 67
-      },
-      "10": {
-        name: "(anonymous_10)",
-        decl: {
-          start: {
-            line: 70,
-            column: 26
-          },
-          end: {
-            line: 70,
-            column: 27
-          }
-        },
-        loc: {
-          start: {
-            line: 70,
-            column: 49
-          },
-          end: {
-            line: 81,
-            column: 9
-          }
-        },
-        line: 70
-      },
-      "11": {
-        name: "(anonymous_11)",
-        decl: {
-          start: {
-            line: 82,
-            column: 28
-          },
-          end: {
-            line: 82,
-            column: 29
-          }
-        },
-        loc: {
-          start: {
-            line: 82,
-            column: 51
-          },
-          end: {
-            line: 92,
-            column: 9
-          }
-        },
-        line: 82
-      },
-      "12": {
-        name: "(anonymous_12)",
-        decl: {
-          start: {
-            line: 93,
-            column: 26
-          },
-          end: {
-            line: 93,
-            column: 27
-          }
-        },
-        loc: {
-          start: {
-            line: 93,
-            column: 49
-          },
-          end: {
-            line: 103,
-            column: 9
-          }
-        },
-        line: 93
-      },
-      "13": {
-        name: "(anonymous_13)",
-        decl: {
-          start: {
-            line: 104,
-            column: 30
-          },
-          end: {
-            line: 104,
-            column: 31
-          }
-        },
-        loc: {
-          start: {
-            line: 104,
-            column: 106
-          },
-          end: {
-            line: 187,
-            column: 9
-          }
-        },
-        line: 104
-      },
-      "14": {
-        name: "(anonymous_14)",
-        decl: {
-          start: {
-            line: 108,
-            column: 28
-          },
-          end: {
-            line: 108,
-            column: 29
-          }
-        },
-        loc: {
-          start: {
-            line: 108,
-            column: 51
-          },
-          end: {
-            line: 185,
-            column: 13
-          }
-        },
-        line: 108
-      },
-      "15": {
-        name: "(anonymous_15)",
-        decl: {
-          start: {
-            line: 110,
-            column: 33
-          },
-          end: {
-            line: 110,
-            column: 34
-          }
-        },
-        loc: {
-          start: {
-            line: 110,
-            column: 67
-          },
-          end: {
-            line: 122,
-            column: 17
-          }
-        },
-        line: 110
-      },
-      "16": {
-        name: "(anonymous_16)",
-        decl: {
-          start: {
-            line: 123,
-            column: 30
-          },
-          end: {
-            line: 123,
-            column: 31
-          }
-        },
-        loc: {
-          start: {
-            line: 123,
-            column: 73
-          },
-          end: {
-            line: 133,
-            column: 17
-          }
-        },
-        line: 123
-      },
-      "17": {
-        name: "(anonymous_17)",
-        decl: {
-          start: {
-            line: 134,
-            column: 28
-          },
-          end: {
-            line: 134,
-            column: 29
-          }
-        },
-        loc: {
-          start: {
-            line: 134,
-            column: 69
-          },
-          end: {
-            line: 146,
-            column: 17
-          }
-        },
-        line: 134
-      },
-      "18": {
-        name: "(anonymous_18)",
-        decl: {
-          start: {
-            line: 147,
-            column: 31
-          },
-          end: {
-            line: 147,
-            column: 32
-          }
-        },
-        loc: {
-          start: {
-            line: 147,
-            column: 62
-          },
-          end: {
-            line: 157,
-            column: 17
-          }
-        },
-        line: 147
-      },
-      "19": {
-        name: "(anonymous_19)",
-        decl: {
-          start: {
-            line: 160,
-            column: 48
-          },
-          end: {
-            line: 160,
-            column: 49
-          }
-        },
-        loc: {
-          start: {
-            line: 162,
-            column: 16
-          },
-          end: {
-            line: 164,
-            column: 17
-          }
-        },
-        line: 162
-      },
-      "20": {
-        name: "(anonymous_20)",
-        decl: {
-          start: {
-            line: 166,
-            column: 45
-          },
-          end: {
-            line: 166,
-            column: 46
-          }
-        },
-        loc: {
-          start: {
-            line: 168,
-            column: 16
-          },
-          end: {
-            line: 170,
-            column: 17
-          }
-        },
-        line: 168
-      },
-      "21": {
-        name: "(anonymous_21)",
-        decl: {
-          start: {
-            line: 172,
-            column: 43
-          },
-          end: {
-            line: 172,
-            column: 44
-          }
-        },
-        loc: {
-          start: {
-            line: 174,
-            column: 16
-          },
-          end: {
-            line: 176,
-            column: 17
-          }
-        },
-        line: 174
-      },
-      "22": {
-        name: "(anonymous_22)",
-        decl: {
-          start: {
-            line: 178,
-            column: 46
-          },
-          end: {
-            line: 178,
-            column: 47
-          }
-        },
-        loc: {
-          start: {
-            line: 180,
-            column: 16
-          },
-          end: {
-            line: 182,
-            column: 17
-          }
-        },
-        line: 180
-      },
-      "23": {
-        name: "(anonymous_23)",
-        decl: {
-          start: {
-            line: 188,
-            column: 31
-          },
-          end: {
-            line: 188,
-            column: 32
-          }
-        },
-        loc: {
-          start: {
-            line: 188,
-            column: 48
-          },
-          end: {
-            line: 191,
-            column: 9
-          }
-        },
-        line: 188
-      },
-      "24": {
-        name: "(anonymous_24)",
-        decl: {
-          start: {
-            line: 192,
-            column: 34
-          },
-          end: {
-            line: 192,
-            column: 35
-          }
-        },
-        loc: {
-          start: {
-            line: 192,
-            column: 51
-          },
-          end: {
-            line: 195,
-            column: 9
-          }
-        },
-        line: 192
-      },
-      "25": {
-        name: "(anonymous_25)",
-        decl: {
-          start: {
-            line: 201,
-            column: 29
-          },
-          end: {
-            line: 201,
-            column: 30
-          }
-        },
-        loc: {
-          start: {
-            line: 201,
-            column: 40
-          },
-          end: {
-            line: 209,
-            column: 1
-          }
-        },
-        line: 201
-      },
-      "26": {
-        name: "(anonymous_26)",
-        decl: {
-          start: {
-            line: 211,
-            column: 29
-          },
-          end: {
-            line: 211,
-            column: 30
-          }
-        },
-        loc: {
-          start: {
-            line: 211,
-            column: 64
-          },
-          end: {
-            line: 226,
-            column: 1
-          }
-        },
-        line: 211
-      },
-      "27": {
-        name: "(anonymous_27)",
-        decl: {
-          start: {
-            line: 222,
-            column: 15
-          },
-          end: {
-            line: 222,
-            column: 16
-          }
-        },
-        loc: {
-          start: {
-            line: 222,
-            column: 27
-          },
-          end: {
-            line: 225,
-            column: 5
-          }
-        },
-        line: 222
-      },
-      "28": {
-        name: "(anonymous_28)",
-        decl: {
-          start: {
-            line: 228,
-            column: 28
-          },
-          end: {
-            line: 228,
-            column: 29
-          }
-        },
-        loc: {
-          start: {
-            line: 228,
-            column: 46
-          },
-          end: {
-            line: 245,
-            column: 1
-          }
-        },
-        line: 228
-      },
-      "29": {
-        name: "(anonymous_29)",
-        decl: {
-          start: {
-            line: 240,
-            column: 15
-          },
-          end: {
-            line: 240,
-            column: 16
-          }
-        },
-        loc: {
-          start: {
-            line: 240,
-            column: 27
-          },
-          end: {
-            line: 243,
-            column: 5
-          }
-        },
-        line: 240
-      },
-      "30": {
-        name: "(anonymous_30)",
-        decl: {
-          start: {
-            line: 247,
-            column: 28
-          },
-          end: {
-            line: 247,
-            column: 29
-          }
-        },
-        loc: {
-          start: {
-            line: 247,
-            column: 47
-          },
-          end: {
-            line: 263,
-            column: 1
-          }
-        },
-        line: 247
-      },
-      "31": {
-        name: "(anonymous_31)",
-        decl: {
-          start: {
-            line: 258,
-            column: 15
-          },
-          end: {
-            line: 258,
-            column: 16
-          }
-        },
-        loc: {
-          start: {
-            line: 258,
-            column: 27
-          },
-          end: {
-            line: 261,
-            column: 5
-          }
-        },
-        line: 258
-      },
-      "32": {
-        name: "(anonymous_32)",
-        decl: {
-          start: {
-            line: 265,
-            column: 38
-          },
-          end: {
-            line: 265,
-            column: 39
-          }
-        },
-        loc: {
-          start: {
-            line: 265,
-            column: 50
-          },
-          end: {
-            line: 268,
-            column: 1
-          }
-        },
-        line: 265
-      },
-      "33": {
-        name: "(anonymous_33)",
-        decl: {
-          start: {
-            line: 270,
-            column: 15
-          },
-          end: {
-            line: 270,
-            column: 16
-          }
-        },
-        loc: {
-          start: {
-            line: 270,
-            column: 33
-          },
-          end: {
-            line: 278,
-            column: 1
-          }
-        },
-        line: 270
-      },
-      "34": {
-        name: "(anonymous_34)",
-        decl: {
-          start: {
-            line: 282,
-            column: 33
-          },
-          end: {
-            line: 282,
-            column: 34
-          }
-        },
-        loc: {
-          start: {
-            line: 282,
-            column: 44
-          },
-          end: {
-            line: 316,
-            column: 1
-          }
-        },
-        line: 282
-      },
-      "35": {
-        name: "(anonymous_35)",
-        decl: {
-          start: {
-            line: 313,
-            column: 26
-          },
-          end: {
-            line: 313,
-            column: 27
-          }
-        },
-        loc: {
-          start: {
-            line: 313,
-            column: 38
-          },
-          end: {
-            line: 315,
-            column: 5
-          }
-        },
-        line: 313
-      },
-      "36": {
-        name: "(anonymous_36)",
-        decl: {
-          start: {
-            line: 320,
-            column: 4
-          },
-          end: {
-            line: 320,
-            column: 5
-          }
-        },
-        loc: {
-          start: {
-            line: 320,
-            column: 16
-          },
-          end: {
-            line: 325,
-            column: 5
-          }
-        },
-        line: 320
-      },
-      "37": {
-        name: "(anonymous_37)",
-        decl: {
-          start: {
-            line: 326,
-            column: 4
-          },
-          end: {
-            line: 326,
-            column: 5
-          }
-        },
-        loc: {
-          start: {
-            line: 326,
-            column: 16
-          },
-          end: {
-            line: 332,
-            column: 5
-          }
-        },
-        line: 326
-      },
-      "38": {
-        name: "(anonymous_38)",
-        decl: {
-          start: {
-            line: 337,
-            column: 4
-          },
-          end: {
-            line: 337,
-            column: 5
-          }
-        },
-        loc: {
-          start: {
-            line: 338,
-            column: 4
-          },
-          end: {
-            line: 349,
-            column: 5
-          }
-        },
-        line: 338
-      },
-      "39": {
-        name: "(anonymous_39)",
-        decl: {
-          start: {
-            line: 350,
-            column: 4
-          },
-          end: {
-            line: 350,
-            column: 5
-          }
-        },
-        loc: {
-          start: {
-            line: 350,
-            column: 46
-          },
-          end: {
-            line: 407,
-            column: 5
-          }
-        },
-        line: 350
-      },
-      "40": {
-        name: "(anonymous_40)",
-        decl: {
-          start: {
-            line: 372,
-            column: 23
-          },
-          end: {
-            line: 372,
-            column: 24
-          }
-        },
-        loc: {
-          start: {
-            line: 372,
-            column: 35
-          },
-          end: {
-            line: 374,
-            column: 13
-          }
-        },
-        line: 372
-      }
-    },
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 73,
-            column: 12
-          },
-          end: {
-            line: 75,
-            column: 13
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 73,
-            column: 12
-          },
-          end: {
-            line: 75,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 73,
-            column: 12
-          },
-          end: {
-            line: 75,
-            column: 13
-          }
-        }],
-        line: 73
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 73,
-            column: 16
-          },
-          end: {
-            line: 73,
-            column: 106
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 73,
-            column: 16
-          },
-          end: {
-            line: 73,
-            column: 60
-          }
-        }, {
-          start: {
-            line: 73,
-            column: 64
-          },
-          end: {
-            line: 73,
-            column: 106
-          }
-        }],
-        line: 73
-      },
-      "2": {
-        loc: {
-          start: {
-            line: 85,
-            column: 12
-          },
-          end: {
-            line: 87,
-            column: 13
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 85,
-            column: 12
-          },
-          end: {
-            line: 87,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 85,
-            column: 12
-          },
-          end: {
-            line: 87,
-            column: 13
-          }
-        }],
-        line: 85
-      },
-      "3": {
-        loc: {
-          start: {
-            line: 85,
-            column: 16
-          },
-          end: {
-            line: 85,
-            column: 110
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 85,
-            column: 16
-          },
-          end: {
-            line: 85,
-            column: 62
-          }
-        }, {
-          start: {
-            line: 85,
-            column: 66
-          },
-          end: {
-            line: 85,
-            column: 110
-          }
-        }],
-        line: 85
-      },
-      "4": {
-        loc: {
-          start: {
-            line: 99,
-            column: 12
-          },
-          end: {
-            line: 101,
-            column: 13
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 99,
-            column: 12
-          },
-          end: {
-            line: 101,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 99,
-            column: 12
-          },
-          end: {
-            line: 101,
-            column: 13
-          }
-        }],
-        line: 99
-      },
-      "5": {
-        loc: {
-          start: {
-            line: 109,
-            column: 16
-          },
-          end: {
-            line: 109,
-            column: 58
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 109,
-            column: 16
-          },
-          end: {
-            line: 109,
-            column: 58
-          }
-        }, {
-          start: {
-            line: 109,
-            column: 16
-          },
-          end: {
-            line: 109,
-            column: 58
-          }
-        }],
-        line: 109
-      },
-      "6": {
-        loc: {
-          start: {
-            line: 111,
-            column: 20
-          },
-          end: {
-            line: 115,
-            column: 21
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 111,
-            column: 20
-          },
-          end: {
-            line: 115,
-            column: 21
-          }
-        }, {
-          start: {
-            line: 111,
-            column: 20
-          },
-          end: {
-            line: 115,
-            column: 21
-          }
-        }],
-        line: 111
-      },
-      "7": {
-        loc: {
-          start: {
-            line: 119,
-            column: 20
-          },
-          end: {
-            line: 121,
-            column: 25
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 119,
-            column: 20
-          },
-          end: {
-            line: 121,
-            column: 25
-          }
-        }, {
-          start: {
-            line: 119,
-            column: 20
-          },
-          end: {
-            line: 121,
-            column: 25
-          }
-        }],
-        line: 119
-      },
-      "8": {
-        loc: {
-          start: {
-            line: 124,
-            column: 20
-          },
-          end: {
-            line: 128,
-            column: 21
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 124,
-            column: 20
-          },
-          end: {
-            line: 128,
-            column: 21
-          }
-        }, {
-          start: {
-            line: 124,
-            column: 20
-          },
-          end: {
-            line: 128,
-            column: 21
-          }
-        }],
-        line: 124
-      },
-      "9": {
-        loc: {
-          start: {
-            line: 130,
-            column: 20
-          },
-          end: {
-            line: 132,
-            column: 25
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 130,
-            column: 20
-          },
-          end: {
-            line: 132,
-            column: 25
-          }
-        }, {
-          start: {
-            line: 130,
-            column: 20
-          },
-          end: {
-            line: 132,
-            column: 25
-          }
-        }],
-        line: 130
-      },
-      "10": {
-        loc: {
-          start: {
-            line: 135,
-            column: 20
-          },
-          end: {
-            line: 139,
-            column: 21
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 135,
-            column: 20
-          },
-          end: {
-            line: 139,
-            column: 21
-          }
-        }, {
-          start: {
-            line: 135,
-            column: 20
-          },
-          end: {
-            line: 139,
-            column: 21
-          }
-        }],
-        line: 135
-      },
-      "11": {
-        loc: {
-          start: {
-            line: 143,
-            column: 20
-          },
-          end: {
-            line: 145,
-            column: 25
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 143,
-            column: 20
-          },
-          end: {
-            line: 145,
-            column: 25
-          }
-        }, {
-          start: {
-            line: 143,
-            column: 20
-          },
-          end: {
-            line: 145,
-            column: 25
-          }
-        }],
-        line: 143
-      },
-      "12": {
-        loc: {
-          start: {
-            line: 148,
-            column: 20
-          },
-          end: {
-            line: 152,
-            column: 21
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 148,
-            column: 20
-          },
-          end: {
-            line: 152,
-            column: 21
-          }
-        }, {
-          start: {
-            line: 148,
-            column: 20
-          },
-          end: {
-            line: 152,
-            column: 21
-          }
-        }],
-        line: 148
-      },
-      "13": {
-        loc: {
-          start: {
-            line: 154,
-            column: 20
-          },
-          end: {
-            line: 156,
-            column: 25
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 154,
-            column: 20
-          },
-          end: {
-            line: 156,
-            column: 25
-          }
-        }, {
-          start: {
-            line: 154,
-            column: 20
-          },
-          end: {
-            line: 156,
-            column: 25
-          }
-        }],
-        line: 154
-      },
-      "14": {
-        loc: {
-          start: {
-            line: 163,
-            column: 44
-          },
-          end: {
-            line: 163,
-            column: 104
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 163,
-            column: 77
-          },
-          end: {
-            line: 163,
-            column: 99
-          }
-        }, {
-          start: {
-            line: 163,
-            column: 102
-          },
-          end: {
-            line: 163,
-            column: 104
-          }
-        }],
-        line: 163
-      },
-      "15": {
-        loc: {
-          start: {
-            line: 169,
-            column: 41
-          },
-          end: {
-            line: 169,
-            column: 95
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 169,
-            column: 71
-          },
-          end: {
-            line: 169,
-            column: 90
-          }
-        }, {
-          start: {
-            line: 169,
-            column: 93
-          },
-          end: {
-            line: 169,
-            column: 95
-          }
-        }],
-        line: 169
-      },
-      "16": {
-        loc: {
-          start: {
-            line: 175,
-            column: 39
-          },
-          end: {
-            line: 175,
-            column: 89
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 175,
-            column: 67
-          },
-          end: {
-            line: 175,
-            column: 84
-          }
-        }, {
-          start: {
-            line: 175,
-            column: 87
-          },
-          end: {
-            line: 175,
-            column: 89
-          }
-        }],
-        line: 175
-      },
-      "17": {
-        loc: {
-          start: {
-            line: 181,
-            column: 42
-          },
-          end: {
-            line: 181,
-            column: 98
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 181,
-            column: 73
-          },
-          end: {
-            line: 181,
-            column: 93
-          }
-        }, {
-          start: {
-            line: 181,
-            column: 96
-          },
-          end: {
-            line: 181,
-            column: 98
-          }
-        }],
-        line: 181
-      },
-      "18": {
-        loc: {
-          start: {
-            line: 189,
-            column: 12
-          },
-          end: {
-            line: 189,
-            column: 74
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 189,
-            column: 12
-          },
-          end: {
-            line: 189,
-            column: 74
-          }
-        }, {
-          start: {
-            line: 189,
-            column: 12
-          },
-          end: {
-            line: 189,
-            column: 74
-          }
-        }],
-        line: 189
-      },
-      "19": {
-        loc: {
-          start: {
-            line: 193,
-            column: 12
-          },
-          end: {
-            line: 193,
-            column: 84
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 193,
-            column: 12
-          },
-          end: {
-            line: 193,
-            column: 84
-          }
-        }, {
-          start: {
-            line: 193,
-            column: 12
-          },
-          end: {
-            line: 193,
-            column: 84
-          }
-        }],
-        line: 193
-      },
-      "20": {
-        loc: {
-          start: {
-            line: 211,
-            column: 47
-          },
-          end: {
-            line: 211,
-            column: 62
-          }
-        },
-        type: "default-arg",
-        locations: [{
-          start: {
-            line: 211,
-            column: 59
-          },
-          end: {
-            line: 211,
-            column: 62
-          }
-        }],
-        line: 211
-      },
-      "21": {
-        loc: {
-          start: {
-            line: 321,
-            column: 8
-          },
-          end: {
-            line: 324,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 321,
-            column: 8
-          },
-          end: {
-            line: 324,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 321,
-            column: 8
-          },
-          end: {
-            line: 324,
-            column: 9
-          }
-        }],
-        line: 321
-      },
-      "22": {
-        loc: {
-          start: {
-            line: 340,
-            column: 8
-          },
-          end: {
-            line: 347,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 340,
-            column: 8
-          },
-          end: {
-            line: 347,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 340,
-            column: 8
-          },
-          end: {
-            line: 347,
-            column: 9
-          }
-        }],
-        line: 340
-      },
-      "23": {
-        loc: {
-          start: {
-            line: 341,
-            column: 12
-          },
-          end: {
-            line: 346,
-            column: 13
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 341,
-            column: 12
-          },
-          end: {
-            line: 346,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 341,
-            column: 12
-          },
-          end: {
-            line: 346,
-            column: 13
-          }
-        }],
-        line: 341
-      },
-      "24": {
-        loc: {
-          start: {
-            line: 341,
-            column: 16
-          },
-          end: {
-            line: 341,
-            column: 144
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 341,
-            column: 16
-          },
-          end: {
-            line: 341,
-            column: 43
-          }
-        }, {
-          start: {
-            line: 341,
-            column: 47
-          },
-          end: {
-            line: 341,
-            column: 76
-          }
-        }, {
-          start: {
-            line: 341,
-            column: 80
-          },
-          end: {
-            line: 341,
-            column: 110
-          }
-        }, {
-          start: {
-            line: 341,
-            column: 114
-          },
-          end: {
-            line: 341,
-            column: 144
-          }
-        }],
-        line: 341
-      },
-      "25": {
-        loc: {
-          start: {
-            line: 365,
-            column: 8
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 365,
-            column: 8
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 365,
-            column: 8
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }],
-        line: 365
-      },
-      "26": {
-        loc: {
-          start: {
-            line: 367,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 367,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 367,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }],
-        line: 367
-      },
-      "27": {
-        loc: {
-          start: {
-            line: 370,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 370,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 370,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }],
-        line: 370
-      },
-      "28": {
-        loc: {
-          start: {
-            line: 376,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 376,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 376,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }],
-        line: 376
-      },
-      "29": {
-        loc: {
-          start: {
-            line: 379,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 379,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 379,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }],
-        line: 379
-      },
-      "30": {
-        loc: {
-          start: {
-            line: 382,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 382,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 382,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }],
-        line: 382
-      },
-      "31": {
-        loc: {
-          start: {
-            line: 385,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 385,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 385,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }],
-        line: 385
-      },
-      "32": {
-        loc: {
-          start: {
-            line: 387,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 387,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 387,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }],
-        line: 387
-      },
-      "33": {
-        loc: {
-          start: {
-            line: 389,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 389,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 389,
-            column: 15
-          },
-          end: {
-            line: 393,
-            column: 9
-          }
-        }],
-        line: 389
-      },
-      "34": {
-        loc: {
-          start: {
-            line: 400,
-            column: 8
-          },
-          end: {
-            line: 404,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 400,
-            column: 8
-          },
-          end: {
-            line: 404,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 400,
-            column: 8
-          },
-          end: {
-            line: 404,
-            column: 9
-          }
-        }],
-        line: 400
-      },
-      "35": {
-        loc: {
-          start: {
-            line: 400,
-            column: 12
-          },
-          end: {
-            line: 400,
-            column: 92
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 400,
-            column: 12
-          },
-          end: {
-            line: 400,
-            column: 46
-          }
-        }, {
-          start: {
-            line: 400,
-            column: 50
-          },
-          end: {
-            line: 400,
-            column: 92
-          }
-        }],
-        line: 400
-      }
-    },
+    fnMap: {},
+    branchMap: {},
     s: {
       "0": 0,
       "1": 0,
       "2": 0,
       "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0,
-      "16": 0,
-      "17": 0,
-      "18": 0,
-      "19": 0,
-      "20": 0,
-      "21": 0,
-      "22": 0,
-      "23": 0,
-      "24": 0,
-      "25": 0,
-      "26": 0,
-      "27": 0,
-      "28": 0,
-      "29": 0,
-      "30": 0,
-      "31": 0,
-      "32": 0,
-      "33": 0,
-      "34": 0,
-      "35": 0,
-      "36": 0,
-      "37": 0,
-      "38": 0,
-      "39": 0,
-      "40": 0,
-      "41": 0,
-      "42": 0,
-      "43": 0,
-      "44": 0,
-      "45": 0,
-      "46": 0,
-      "47": 0,
-      "48": 0,
-      "49": 0,
-      "50": 0,
-      "51": 0,
-      "52": 0,
-      "53": 0,
-      "54": 0,
-      "55": 0,
-      "56": 0,
-      "57": 0,
-      "58": 0,
-      "59": 0,
-      "60": 0,
-      "61": 0,
-      "62": 0,
-      "63": 0,
-      "64": 0,
-      "65": 0,
-      "66": 0,
-      "67": 0,
-      "68": 0,
-      "69": 0,
-      "70": 0,
-      "71": 0,
-      "72": 0,
-      "73": 0,
-      "74": 0,
-      "75": 0,
-      "76": 0,
-      "77": 0,
-      "78": 0,
-      "79": 0,
-      "80": 0,
-      "81": 0,
-      "82": 0,
-      "83": 0,
-      "84": 0,
-      "85": 0,
-      "86": 0,
-      "87": 0,
-      "88": 0,
-      "89": 0,
-      "90": 0,
-      "91": 0,
-      "92": 0,
-      "93": 0,
-      "94": 0,
-      "95": 0,
-      "96": 0,
-      "97": 0,
-      "98": 0,
-      "99": 0,
-      "100": 0,
-      "101": 0,
-      "102": 0,
-      "103": 0,
-      "104": 0,
-      "105": 0,
-      "106": 0,
-      "107": 0,
-      "108": 0,
-      "109": 0,
-      "110": 0,
-      "111": 0,
-      "112": 0,
-      "113": 0,
-      "114": 0,
-      "115": 0,
-      "116": 0,
-      "117": 0,
-      "118": 0,
-      "119": 0,
-      "120": 0,
-      "121": 0,
-      "122": 0,
-      "123": 0,
-      "124": 0,
-      "125": 0,
-      "126": 0,
-      "127": 0,
-      "128": 0,
-      "129": 0,
-      "130": 0,
-      "131": 0,
-      "132": 0,
-      "133": 0,
-      "134": 0,
-      "135": 0,
-      "136": 0,
-      "137": 0,
-      "138": 0,
-      "139": 0,
-      "140": 0,
-      "141": 0,
-      "142": 0,
-      "143": 0,
-      "144": 0,
-      "145": 0,
-      "146": 0,
-      "147": 0,
-      "148": 0,
-      "149": 0,
-      "150": 0,
-      "151": 0,
-      "152": 0,
-      "153": 0,
-      "154": 0,
-      "155": 0,
-      "156": 0,
-      "157": 0,
-      "158": 0,
-      "159": 0,
-      "160": 0,
-      "161": 0,
-      "162": 0,
-      "163": 0,
-      "164": 0,
-      "165": 0,
-      "166": 0,
-      "167": 0,
-      "168": 0,
-      "169": 0,
-      "170": 0,
-      "171": 0,
-      "172": 0,
-      "173": 0,
-      "174": 0,
-      "175": 0,
-      "176": 0,
-      "177": 0,
-      "178": 0,
-      "179": 0,
-      "180": 0,
-      "181": 0,
-      "182": 0,
-      "183": 0
+      "4": 0
     },
-    f: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0,
-      "16": 0,
-      "17": 0,
-      "18": 0,
-      "19": 0,
-      "20": 0,
-      "21": 0,
-      "22": 0,
-      "23": 0,
-      "24": 0,
-      "25": 0,
-      "26": 0,
-      "27": 0,
-      "28": 0,
-      "29": 0,
-      "30": 0,
-      "31": 0,
-      "32": 0,
-      "33": 0,
-      "34": 0,
-      "35": 0,
-      "36": 0,
-      "37": 0,
-      "38": 0,
-      "39": 0,
-      "40": 0
-    },
-    b: {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0],
-      "5": [0, 0],
-      "6": [0, 0],
-      "7": [0, 0],
-      "8": [0, 0],
-      "9": [0, 0],
-      "10": [0, 0],
-      "11": [0, 0],
-      "12": [0, 0],
-      "13": [0, 0],
-      "14": [0, 0],
-      "15": [0, 0],
-      "16": [0, 0],
-      "17": [0, 0],
-      "18": [0, 0],
-      "19": [0, 0],
-      "20": [0],
-      "21": [0, 0],
-      "22": [0, 0],
-      "23": [0, 0],
-      "24": [0, 0, 0, 0],
-      "25": [0, 0],
-      "26": [0, 0],
-      "27": [0, 0],
-      "28": [0, 0],
-      "29": [0, 0],
-      "30": [0, 0],
-      "31": [0, 0],
-      "32": [0, 0],
-      "33": [0, 0],
-      "34": [0, 0],
-      "35": [0, 0]
-    },
+    f: {},
+    b: {},
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
       coverage = global[gcv] || (global[gcv] = {});
@@ -65407,799 +63689,58 @@ var cov_2g76l09fuh = function () {
   return coverage[path] = coverageData;
 }();
 
-
-
-
 /* eslint-disable */
+
 
 
 var $ = (cov_2g76l09fuh.s[0]++, jquery_default.a);
-/* eslint-disable */
-
-/**
- * Created by khangtd on 08/03/2017.
- * Edit by DucTuan @@
- * Fixed bugs by Toanalien 09/05/2017
- * REF: http://api.jquery.com/jquery.ajax/
- */
-// include jsi18n
-//$.getScript('/jsi18n/');
-// It's time to init
-// Global configuration for RequestCenter
-
-var REDIRECT_PREFIX = (cov_2g76l09fuh.s[1]++, '?next=');
-var LOGIN_URL = (cov_2g76l09fuh.s[2]++, '/login/');
-cov_2g76l09fuh.s[3]++;
-
-var gettext = function gettext(str) {
-  cov_2g76l09fuh.f[0]++;
-  cov_2g76l09fuh.s[4]++;
-  return str;
-};
-
-var message_request = (cov_2g76l09fuh.s[5]++, '');
-var show_notification = (cov_2g76l09fuh.s[6]++, true); // This request center to manage objects which handling request/response.
-
-var RequestCenter = (cov_2g76l09fuh.s[7]++, function () {
-  cov_2g76l09fuh.f[1]++;
-  var spawned = (cov_2g76l09fuh.s[8]++, 0); // Private attribute
-
-  var stopped = (cov_2g76l09fuh.s[9]++, 0); // Private attribute
-  // Define methods, attributes for request instance.
-  // Also private method
-
-  var RequestInstance = (cov_2g76l09fuh.s[10]++, function () {
-    cov_2g76l09fuh.f[2]++;
-    cov_2g76l09fuh.s[11]++;
-    return function (center, beforeSendTrigger, successTrigger, errorTrigger, completeTrigger) {
-      cov_2g76l09fuh.f[3]++;
-      cov_2g76l09fuh.s[12]++;
-      this.id = 0;
-      cov_2g76l09fuh.s[13]++;
-      this.ajax = null; // Override event of ajax param.
-
-      cov_2g76l09fuh.s[14]++;
-      this.beforeSendTrigger = beforeSendTrigger;
-      cov_2g76l09fuh.s[15]++;
-      this.errorTrigger = errorTrigger;
-      cov_2g76l09fuh.s[16]++;
-      this.completeTrigger = completeTrigger;
-      cov_2g76l09fuh.s[17]++;
-      this.successTrigger = successTrigger;
-      cov_2g76l09fuh.s[18]++;
-
-      this.getCenter = function () {
-        cov_2g76l09fuh.f[4]++;
-        cov_2g76l09fuh.s[19]++;
-        return center;
-      };
-    };
-  }()); // Instance list
-
-  var instance_list = (cov_2g76l09fuh.s[20]++, []); // store object
-
-  var spawned_list = (cov_2g76l09fuh.s[21]++, []); // store object's ID
-
-  var stopped_list = (cov_2g76l09fuh.s[22]++, []); // store object's ID
-
-  var completed_list = (cov_2g76l09fuh.s[23]++, []); // store object's ID
-  // Define request center
-
-  cov_2g76l09fuh.s[24]++;
-  return function (onSpawnedTrigger, onStoppedTrigger, onCompletedTrigger) {
-    cov_2g76l09fuh.f[5]++;
-    cov_2g76l09fuh.s[25]++;
-    // Trigger of RequestCenter Object.
-    this.onSpawnedTrigger = onSpawnedTrigger;
-    cov_2g76l09fuh.s[26]++;
-    this.onStoppedTrigger = onStoppedTrigger;
-    cov_2g76l09fuh.s[27]++;
-    this.onCompletedTrigger = onCompletedTrigger; // Define method, attributes for request center.
-
-    cov_2g76l09fuh.s[28]++;
-
-    this.getInstanceNum = function () {
-      cov_2g76l09fuh.f[6]++;
-      cov_2g76l09fuh.s[29]++;
-      return instance_list.length;
-    };
-
-    cov_2g76l09fuh.s[30]++;
-
-    this.getSpawnedNum = function () {
-      cov_2g76l09fuh.f[7]++;
-      cov_2g76l09fuh.s[31]++;
-      return spawned_list.length;
-    };
-
-    cov_2g76l09fuh.s[32]++;
-
-    this.getStoppedNum = function () {
-      cov_2g76l09fuh.f[8]++;
-      cov_2g76l09fuh.s[33]++;
-      return stopped_list.length;
-    };
-
-    cov_2g76l09fuh.s[34]++;
-
-    this.getCompletedNum = function () {
-      cov_2g76l09fuh.f[9]++;
-      cov_2g76l09fuh.s[35]++;
-      return completed_list.length;
-    };
-
-    cov_2g76l09fuh.s[36]++;
-
-    this.addStopped = function (instance_id) {
-      cov_2g76l09fuh.f[10]++;
-      cov_2g76l09fuh.s[37]++;
-      stopped_list.push(instance_id); // Must be fired before trigger onStop
-      // // Condition to trigger onStop function
-
-      cov_2g76l09fuh.s[38]++;
-
-      if ((cov_2g76l09fuh.b[1][0]++, this.getStoppedNum() == this.getSpawnedNum()) && (cov_2g76l09fuh.b[1][1]++, typeof this.onStoppedTrigger == "function")) {
-        cov_2g76l09fuh.b[0][0]++;
-        cov_2g76l09fuh.s[39]++;
-        this.onStoppedTrigger();
-      } else {
-        cov_2g76l09fuh.b[0][1]++;
-      } // // Condition to trigger onStop function
-      // if (typeof this.onStoppedTrigger == "function") {
-      //     this.onStoppedTrigger();
-      // }
-
-    };
-
-    cov_2g76l09fuh.s[40]++;
-
-    this.addCompleted = function (instance_id) {
-      cov_2g76l09fuh.f[11]++;
-      cov_2g76l09fuh.s[41]++;
-      completed_list.push(instance_id); // Must be fired before trigger onComplete
-      // Condition to trigger onStop function
-
-      cov_2g76l09fuh.s[42]++;
-
-      if ((cov_2g76l09fuh.b[3][0]++, this.getCompletedNum() == this.getSpawnedNum()) && (cov_2g76l09fuh.b[3][1]++, typeof this.onCompletedTrigger == "function")) {
-        cov_2g76l09fuh.b[2][0]++;
-        cov_2g76l09fuh.s[43]++;
-        this.onCompletedTrigger();
-      } else {
-        cov_2g76l09fuh.b[2][1]++;
-      } // // Condition to trigger onStop function
-      // if (typeof this.onStoppedTrigger == "function") {
-      //     this.onStoppedTrigger();
-      // }
-
-    };
-
-    cov_2g76l09fuh.s[44]++;
-
-    this.addSpawned = function (instance_id) {
-      cov_2g76l09fuh.f[12]++;
-      cov_2g76l09fuh.s[45]++;
-
-      // // // Condition to trigger onStart function
-      // if (this.getSpawnedNum() == this.getStoppedNum() && typeof this.onSpawnedTrigger == "function") {
-      //     this.onSpawnedTrigger();
-      // }
-      if (typeof this.onSpawnedTrigger == "function") {
-        cov_2g76l09fuh.b[4][0]++;
-        cov_2g76l09fuh.s[46]++;
-        this.onSpawnedTrigger();
-      } else {
-        cov_2g76l09fuh.b[4][1]++;
-      }
-
-      cov_2g76l09fuh.s[47]++;
-      spawned_list.push(instance_id); // Must be fired after trigger onSpawned
-    };
-
-    cov_2g76l09fuh.s[48]++;
-
-    this.createInstance = function (beforeSendTrigger, successTrigger, errorTrigger, completeTrigger) {
-      cov_2g76l09fuh.f[13]++;
-      var instance = (cov_2g76l09fuh.s[49]++, new RequestInstance(this, beforeSendTrigger, successTrigger, errorTrigger, completeTrigger));
-      cov_2g76l09fuh.s[50]++;
-      instance.id = instance.getCenter().getInstanceNum();
-      cov_2g76l09fuh.s[51]++;
-      instance_list.push(instance); // Auto pushing instance into
-
-      cov_2g76l09fuh.s[52]++;
-
-      instance.ajax = function (ajax_params) {
-        cov_2g76l09fuh.f[14]++;
-        cov_2g76l09fuh.s[53]++;
-
-        if (ajax_params == null) {
-          cov_2g76l09fuh.b[5][0]++;
-          cov_2g76l09fuh.s[54]++;
-          ajax_params = {};
-        } else {
-          cov_2g76l09fuh.b[5][1]++;
-        }
-
-        cov_2g76l09fuh.s[55]++;
-
-        var beforeSend = function beforeSend(args, ajax_before_send) {
-          cov_2g76l09fuh.f[15]++;
-          cov_2g76l09fuh.s[56]++;
-
-          if (typeof instance.beforeSendTrigger == "function") {
-            cov_2g76l09fuh.b[6][0]++;
-            cov_2g76l09fuh.s[57]++;
-            args = instance.beforeSendTrigger.apply(instance, _toConsumableArray(args));
-          } else {
-            cov_2g76l09fuh.b[6][1]++;
-          } //console.log("error arguments===============");
-          //console.log(args);
-
-
-          cov_2g76l09fuh.s[58]++;
-          instance.getCenter().addSpawned(instance.id);
-          cov_2g76l09fuh.s[59]++;
-
-          if (typeof ajax_before_send == "function") {
-            cov_2g76l09fuh.b[7][0]++;
-            cov_2g76l09fuh.s[60]++;
-            return ajax_before_send.apply(void 0, _toConsumableArray(args));
-          } else {
-            cov_2g76l09fuh.b[7][1]++;
-          }
-        };
-
-        cov_2g76l09fuh.s[61]++;
-
-        var success = function success(args, ajax_success, argsTrigger) {
-          cov_2g76l09fuh.f[16]++;
-          cov_2g76l09fuh.s[62]++;
-
-          if (typeof instance.successTrigger == "function") {
-            cov_2g76l09fuh.b[8][0]++;
-            cov_2g76l09fuh.s[63]++;
-            args = instance.successTrigger.apply(instance, _toConsumableArray(args)); // Data need to be overwritten because of legacy api pattern
-          } else {
-            cov_2g76l09fuh.b[8][1]++;
-          }
-
-          cov_2g76l09fuh.s[64]++;
-          instance.getCenter().addStopped(instance.id);
-          cov_2g76l09fuh.s[65]++;
-
-          if (typeof ajax_success == "function") {
-            cov_2g76l09fuh.b[9][0]++;
-            cov_2g76l09fuh.s[66]++;
-            return ajax_success.apply(void 0, _toConsumableArray(args));
-          } else {
-            cov_2g76l09fuh.b[9][1]++;
-          }
-        };
-
-        cov_2g76l09fuh.s[67]++;
-
-        var error = function error(args, ajax_error, argsTrigger) {
-          cov_2g76l09fuh.f[17]++;
-          cov_2g76l09fuh.s[68]++;
-
-          if (typeof instance.errorTrigger == "function") {
-            cov_2g76l09fuh.b[10][0]++;
-            cov_2g76l09fuh.s[69]++;
-            instance.errorTrigger.apply(instance, _toConsumableArray(args));
-          } else {
-            cov_2g76l09fuh.b[10][1]++;
-          } //console.log("error arguments===============");
-          //console.log(args);
-
-
-          cov_2g76l09fuh.s[70]++;
-          instance.getCenter().addStopped(instance.id);
-          cov_2g76l09fuh.s[71]++;
-
-          if (typeof ajax_error == "function") {
-            cov_2g76l09fuh.b[11][0]++;
-            cov_2g76l09fuh.s[72]++;
-            return ajax_error.apply(void 0, _toConsumableArray(args));
-          } else {
-            cov_2g76l09fuh.b[11][1]++;
-          }
-        };
-
-        cov_2g76l09fuh.s[73]++;
-
-        var complete = function complete(args, ajax_complete) {
-          cov_2g76l09fuh.f[18]++;
-          cov_2g76l09fuh.s[74]++;
-
-          if (typeof instance.completeTrigger == "function") {
-            cov_2g76l09fuh.b[12][0]++;
-            cov_2g76l09fuh.s[75]++;
-            instance.completeTrigger.apply(instance, _toConsumableArray(args));
-          } else {
-            cov_2g76l09fuh.b[12][1]++;
-          }
-
-          cov_2g76l09fuh.s[76]++;
-          instance.getCenter().addCompleted(instance.id);
-          cov_2g76l09fuh.s[77]++;
-
-          if (typeof ajax_complete == "function") {
-            cov_2g76l09fuh.b[13][0]++;
-            cov_2g76l09fuh.s[78]++;
-            return ajax_complete.apply(void 0, _toConsumableArray(args));
-          } else {
-            cov_2g76l09fuh.b[13][1]++;
-          }
-        }; // Clone to new ajax params
-
-
-        var ajax_params_cloned = (cov_2g76l09fuh.s[79]++, Object.assign({}, ajax_params));
-        cov_2g76l09fuh.s[80]++;
-
-        ajax_params_cloned.beforeSend = function () {
-          cov_2g76l09fuh.f[19]++;
-          cov_2g76l09fuh.s[81]++;
-
-          for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-            args[_key] = arguments[_key];
-          }
-
-          return beforeSend(args, ajax_params.beforeSend != null ? (cov_2g76l09fuh.b[14][0]++, ajax_params.beforeSend) : (cov_2g76l09fuh.b[14][1]++, ""));
-        };
-
-        cov_2g76l09fuh.s[82]++;
-
-        ajax_params_cloned.success = function () {
-          cov_2g76l09fuh.f[20]++;
-          cov_2g76l09fuh.s[83]++;
-
-          for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
-            args[_key2] = arguments[_key2];
-          }
-
-          return success(args, ajax_params.success != null ? (cov_2g76l09fuh.b[15][0]++, ajax_params.success) : (cov_2g76l09fuh.b[15][1]++, ""));
-        };
-
-        cov_2g76l09fuh.s[84]++;
-
-        ajax_params_cloned.error = function () {
-          cov_2g76l09fuh.f[21]++;
-          cov_2g76l09fuh.s[85]++;
-
-          for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
-            args[_key3] = arguments[_key3];
-          }
-
-          return error(args, ajax_params.error != null ? (cov_2g76l09fuh.b[16][0]++, ajax_params.error) : (cov_2g76l09fuh.b[16][1]++, ""));
-        };
-
-        cov_2g76l09fuh.s[86]++;
-
-        ajax_params_cloned.complete = function () {
-          cov_2g76l09fuh.f[22]++;
-          cov_2g76l09fuh.s[87]++;
-
-          for (var _len4 = arguments.length, args = new Array(_len4), _key4 = 0; _key4 < _len4; _key4++) {
-            args[_key4] = arguments[_key4];
-          }
-
-          return complete(args, ajax_params.complete != null ? (cov_2g76l09fuh.b[17][0]++, ajax_params.complete) : (cov_2g76l09fuh.b[17][1]++, ""));
-        };
-
-        cov_2g76l09fuh.s[88]++;
-        return $.ajax(ajax_params_cloned);
-      };
-
-      cov_2g76l09fuh.s[89]++;
-      return instance;
-    };
-
-    cov_2g76l09fuh.s[90]++;
-
-    this.getInstanceByID = function (index) {
-      cov_2g76l09fuh.f[23]++;
-      cov_2g76l09fuh.s[91]++;
-
-      if (instance_list.length > index) {
-        cov_2g76l09fuh.b[18][0]++;
-        cov_2g76l09fuh.s[92]++;
-        return instance_list[index];
-      } else {
-        cov_2g76l09fuh.b[18][1]++;
-      }
-
-      cov_2g76l09fuh.s[93]++;
-      return null;
-    };
-
-    cov_2g76l09fuh.s[94]++;
-
-    this.deleteInstanceByID = function (index) {
-      cov_2g76l09fuh.f[24]++;
-      cov_2g76l09fuh.s[95]++;
-
-      if (instance_list.length > index) {
-        cov_2g76l09fuh.b[19][0]++;
-        cov_2g76l09fuh.s[96]++;
-        return instance_list.splice(index, 1);
-      } else {
-        cov_2g76l09fuh.b[19][1]++;
-      }
-
-      cov_2g76l09fuh.s[97]++;
-      return null;
-    };
-  };
-}()); // Utils functions
-
-cov_2g76l09fuh.s[98]++;
-
-var config_requestcenter = function config_requestcenter() {
-  cov_2g76l09fuh.f[25]++;
-  cov_2g76l09fuh.s[99]++;
-  show_notification = true;
-  cov_2g76l09fuh.s[100]++;
-  $("#request-center-progress").css({
-    "background-color": "#ffd176",
-    "color": "#6e6e6e",
-    "border": "1px solid #ffb14d"
-  });
-  cov_2g76l09fuh.s[101]++;
-  $("#request-center-progress").text(gettext("Loading..."));
-};
-
-cov_2g76l09fuh.s[102]++;
-
-var success_requestcenter = function success_requestcenter(message) {
-  var status_code = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : (cov_2g76l09fuh.b[20][0]++, 200);
-  cov_2g76l09fuh.f[26]++;
-  cov_2g76l09fuh.s[103]++;
-  // var id = initRequestCenterStatusDisplay(Math.floor(Math.random() * 101))
-  $("#request-center-progress").css({
-    "background-color": "#5cb85c",
-    "color": "#fff",
-    "border": "1px solid #468746"
-  });
-  cov_2g76l09fuh.s[104]++;
-  $("#request-center-progress").hide();
-  cov_2g76l09fuh.s[105]++;
-  $("#request-center-progress").text(message);
-  cov_2g76l09fuh.s[106]++;
-  $("#request-center-progress").show();
-  cov_2g76l09fuh.s[107]++;
-  setTimeout(function () {
-    cov_2g76l09fuh.f[27]++;
-    cov_2g76l09fuh.s[108]++;
-    config_requestcenter();
-  }, 4000);
-};
-
-cov_2g76l09fuh.s[109]++;
-
-var error_requestcenter = function error_requestcenter(message) {
-  cov_2g76l09fuh.f[28]++;
-  cov_2g76l09fuh.s[110]++;
-  // var id = initRequestCenterStatusDisplay(Math.floor(Math.random() * 101))
-  $("#request-center-progress").css({
-    "background-color": "#d9534f",
-    "color": "#fff",
-    "border": "1px solid #b74743"
-  });
-  cov_2g76l09fuh.s[111]++;
-  $("#request-center-progress").hide();
-  cov_2g76l09fuh.s[112]++;
-  $("#request-center-progress").text(message);
-  cov_2g76l09fuh.s[113]++;
-  $("#request-center-progress").show(); // $("#request-center-progress").fadeOut(3000);
-
-  cov_2g76l09fuh.s[114]++;
-  setTimeout(function () {
-    cov_2g76l09fuh.f[29]++;
-    cov_2g76l09fuh.s[115]++;
-    config_requestcenter();
-  }, 5000);
-};
-
-cov_2g76l09fuh.s[116]++;
-
-var guide_requestcenter = function guide_requestcenter(message) {
-  cov_2g76l09fuh.f[30]++;
-  cov_2g76l09fuh.s[117]++;
-  $("#request-center-progress").css({
-    "background-color": "#337ab7",
-    "color": "#fff",
-    "border": "1px solid #2c6699"
-  });
-  cov_2g76l09fuh.s[118]++;
-  $("#request-center-progress").hide();
-  cov_2g76l09fuh.s[119]++;
-  $("#request-center-progress").text(message);
-  cov_2g76l09fuh.s[120]++;
-  $("#request-center-progress").show(); // $("#request-center-progress").fadeOut(3000);
-
-  cov_2g76l09fuh.s[121]++;
-  setTimeout(function () {
-    cov_2g76l09fuh.f[31]++;
-    cov_2g76l09fuh.s[122]++;
-    config_requestcenter();
-  }, 1000);
-};
-
-cov_2g76l09fuh.s[123]++;
-
-var requestcenterHideNotification = function requestcenterHideNotification() {
-  cov_2g76l09fuh.f[32]++;
-  cov_2g76l09fuh.s[124]++;
-  $("#request-center-progress").hide();
-  cov_2g76l09fuh.s[125]++;
-  show_notification = false;
-};
-
-cov_2g76l09fuh.s[126]++;
-
-var create = function create(htmlStr) {
-  cov_2g76l09fuh.f[33]++;
-  var frag = (cov_2g76l09fuh.s[127]++, document.createDocumentFragment()),
-      temp = (cov_2g76l09fuh.s[128]++, document.createElement('div'));
-  cov_2g76l09fuh.s[129]++;
-  temp.innerHTML = htmlStr;
-  cov_2g76l09fuh.s[130]++;
-
-  while (temp.firstChild) {
-    cov_2g76l09fuh.s[131]++;
-    frag.appendChild(temp.firstChild);
-  }
-
-  cov_2g76l09fuh.s[132]++;
-  return frag;
-}; // This is for the progress display
-
-
-cov_2g76l09fuh.s[133]++;
-
-var initRequestCenterDisplay = function initRequestCenterDisplay() {
-  cov_2g76l09fuh.f[34]++;
-  // Note: requestcenter for progress is very different about requestcenter for status of one by one request
-  var fragment = (cov_2g76l09fuh.s[134]++, create('<div id="popup-progress"><div id="requestcenter-wrapper"><span id="request-center-progress">' + gettext("Loading...") + '</span></div></div>')); // You can use native DOM methods to insert the fragment:
-
-  cov_2g76l09fuh.s[135]++;
-  document.body.insertBefore(fragment, document.body.childNodes[0]); // document.body.insertBefore('<div id="popup"><span id="request-center">Loading...</span></div>', document.body.firstChild)
-
-  cov_2g76l09fuh.s[136]++;
-  $("#popup-progress").css({
-    "position": "fixed",
-    "width": "100%",
-    "z-index": "10000"
-  });
-  cov_2g76l09fuh.s[137]++;
-  $("#requestcenter-wrapper").css({
-    "width": "30%",
-    "display": "block",
-    "margin": "0 auto",
-    "text-align": "center"
-  });
-  cov_2g76l09fuh.s[138]++;
-  $("#request-center-progress").css({
-    "position": "relative",
-    "border-top": "none",
-    "border-radius": "3px",
-    "line-height": "100%",
-    "display": "none",
-    "background": "#f0ad4e",
-    "text-align": "center",
-    "font-weight": "bold",
-    "padding": "2px 10px",
-    "background-color": "#ffd176",
-    "color": "#6e6e6e",
-    "border": "1px solid #ffb14d"
-  });
-  cov_2g76l09fuh.s[139]++;
-  $(document).ajaxError(function () {
-    cov_2g76l09fuh.f[35]++;
-  });
-};
-/* TODO: move this block of code into requestcenter.js */
-
-
-var requestcenter = (cov_2g76l09fuh.s[140]++, new RequestCenter(function () {
-  cov_2g76l09fuh.f[36]++;
-  cov_2g76l09fuh.s[141]++;
-
-  if (show_notification) {
-    cov_2g76l09fuh.b[21][0]++;
-    cov_2g76l09fuh.s[142]++;
-    $('span#request-center-progress').show(); // Trigger request center onStart
-    // initRequestCenterDisplay();
-  } else {
-    cov_2g76l09fuh.b[21][1]++;
-  }
-}, function () {
-  cov_2g76l09fuh.f[37]++;
-  cov_2g76l09fuh.s[143]++;
-  // Hong note: 1000 is too fast ; changed to 5000
-  // Tuan but i think 3000ms because 5000ms too slow
-  // config_requestcenter()
-  // $('span#request-center').show()
-  $('span#request-center-progress').fadeOut(4000, config_requestcenter); // Trigger request center onStop
-})); // function (beforeSendTrigger, successTrigger, errorTrigger, completeTrigger)
-
-var registry_network_cloudjetRequest = (cov_2g76l09fuh.s[144]++, requestcenter.createInstance(null, // Trigger before send
-function () {
-  cov_2g76l09fuh.f[38]++;
-
-  for (var _len5 = arguments.length, args = new Array(_len5), _key5 = 0; _key5 < _len5; _key5++) {
-    args[_key5] = arguments[_key5];
-  }
-
-  //successTrigger
-  var _args = (cov_2g76l09fuh.s[145]++, args.slice());
-
-  cov_2g76l09fuh.s[146]++;
-
-  if (_args[0] !== undefined) {
-    cov_2g76l09fuh.b[22][0]++;
-    cov_2g76l09fuh.s[147]++;
-
-    // If response is no content, data will be undefined
-    if ((cov_2g76l09fuh.b[24][0]++, _args[0].data !== undefined) && (cov_2g76l09fuh.b[24][1]++, _args[0].status !== undefined) && (cov_2g76l09fuh.b[24][2]++, _args[0].message !== undefined) && (cov_2g76l09fuh.b[24][3]++, _args[0].version !== undefined)) {
-      cov_2g76l09fuh.b[23][0]++;
-      cov_2g76l09fuh.s[148]++;
-      success_requestcenter(_args[0].message, _args[2].status);
-      cov_2g76l09fuh.s[149]++;
-      _args[0] = _args[0].data;
-    } else {
-      cov_2g76l09fuh.b[23][1]++;
-    }
-  } else {
-    cov_2g76l09fuh.b[22][1]++;
-  }
-
-  cov_2g76l09fuh.s[150]++;
-  return _args;
-}, function (jqXHR, textStatus, errorThrown) {
-  cov_2g76l09fuh.f[39]++;
-  //errorTrigger
-  var message_prefix = (cov_2g76l09fuh.s[151]++, ''); //console.log(arguments);
-  //
-  // // get arguments
-  // var _args = [];
-  // for(var i = 0; i<arguments.length;i++){
-  //     _args.push(arguments[i]);
-  // }
-  //console.log(_args);
-
-  /*
-  Scenario is here: If the jqXHR.status equal to 401, then redirect to login page with the url /login
-  */
-  // document.write('<script type="text/javascript" src="'+ incFile+ '"></script>');
-
-  cov_2g76l09fuh.s[152]++;
-
-  if (jqXHR.status === 0) {
-    cov_2g76l09fuh.b[25][0]++;
-    cov_2g76l09fuh.s[153]++;
-    message_request = gettext("Error Connection.");
-  } else {
-    cov_2g76l09fuh.b[25][1]++;
-    cov_2g76l09fuh.s[154]++;
-
-    if (jqXHR.status == 400) {
-      cov_2g76l09fuh.b[26][0]++;
-      cov_2g76l09fuh.s[155]++;
-      message_request = gettext("Server request failed."); //message_prefix = "Error[400]";
-    } else {
-      cov_2g76l09fuh.b[26][1]++;
-      cov_2g76l09fuh.s[156]++;
-
-      if (jqXHR.status == 401) {
-        cov_2g76l09fuh.b[27][0]++;
-        cov_2g76l09fuh.s[157]++;
-        message_request = gettext("You haven't logged in into the system. Redirecting to login page.");
-        cov_2g76l09fuh.s[158]++;
-        setTimeout(function () {
-          cov_2g76l09fuh.f[40]++;
-          cov_2g76l09fuh.s[159]++;
-          window.location = LOGIN_URL + REDIRECT_PREFIX + window.location.pathname;
-        }, 2000); //message_prefix = "Error[401]";
-      } else {
-        cov_2g76l09fuh.b[27][1]++;
-        cov_2g76l09fuh.s[160]++;
-
-        if (jqXHR.status == 403) {
-          cov_2g76l09fuh.b[28][0]++;
-          cov_2g76l09fuh.s[161]++;
-          message_request = gettext("You don't have permission."); //message_prefix = "Error[403]";
-        } else {
-          cov_2g76l09fuh.b[28][1]++;
-          cov_2g76l09fuh.s[162]++;
-
-          if (jqXHR.status == 404) {
-            cov_2g76l09fuh.b[29][0]++;
-            cov_2g76l09fuh.s[163]++;
-            message_request = gettext("Can not find your content which you input."); //message_prefix = "Error[404]";
-          } else {
-            cov_2g76l09fuh.b[29][1]++;
-            cov_2g76l09fuh.s[164]++;
-
-            if (jqXHR.status == 500) {
-              cov_2g76l09fuh.b[30][0]++;
-              cov_2g76l09fuh.s[165]++;
-              message_request = gettext("Server Error."); //message_prefix = "Error[500]";
-            } else {
-              cov_2g76l09fuh.b[30][1]++;
-              cov_2g76l09fuh.s[166]++;
-
-              if (textStatus === 'parsererror') {
-                cov_2g76l09fuh.b[31][0]++;
-                cov_2g76l09fuh.s[167]++;
-                message_request = gettext("Json Syntax Error.");
-              } else {
-                cov_2g76l09fuh.b[31][1]++;
-                cov_2g76l09fuh.s[168]++;
-
-                if (textStatus === 'timeout') {
-                  cov_2g76l09fuh.b[32][0]++;
-                  cov_2g76l09fuh.s[169]++;
-                  message_request = gettext("Timeout");
-                } else {
-                  cov_2g76l09fuh.b[32][1]++;
-                  cov_2g76l09fuh.s[170]++;
-
-                  if (textStatus === 'abort') {
-                    cov_2g76l09fuh.b[33][0]++;
-                    cov_2g76l09fuh.s[171]++;
-                    message_request = gettext("Request canceled.");
-                  } else {
-                    cov_2g76l09fuh.b[33][1]++;
-                    cov_2g76l09fuh.s[172]++;
-                    message_request = gettext("Undefined error.");
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  } // console.log(jqXHR);
-
-
-  cov_2g76l09fuh.s[173]++;
-
-  try {
-    var response_from_server = (cov_2g76l09fuh.s[174]++, JSON.parse(jqXHR.responseText));
-  } catch (err) {
-    var response_from_server = (cov_2g76l09fuh.s[175]++, undefined);
-  }
-
-  cov_2g76l09fuh.s[176]++;
-
-  if ((cov_2g76l09fuh.b[35][0]++, response_from_server !== undefined) && (cov_2g76l09fuh.b[35][1]++, response_from_server.message !== undefined)) {
-    cov_2g76l09fuh.b[34][0]++;
-    cov_2g76l09fuh.s[177]++;
-    message_request = message_prefix + " " + gettext(response_from_server.message);
-  } else {
-    cov_2g76l09fuh.b[34][1]++;
-    cov_2g76l09fuh.s[178]++;
-    message_request = message_prefix + " " + message_request;
-  }
-
-  cov_2g76l09fuh.s[179]++;
-  error_requestcenter(message_request); // return _args;
-},
-/* Trigger error */
-null
-/* trigger completed*/
-));
-cov_2g76l09fuh.s[180]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.$cloudjetRequest = registry_network_cloudjetRequest;
-cov_2g76l09fuh.s[181]++;
+cov_2g76l09fuh.s[1]++;
+external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.$cloudjetRequest = cloudjet_request["a" /* cloudjetRequest */];
+cov_2g76l09fuh.s[2]++;
 external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.$ = $;
-cov_2g76l09fuh.s[182]++;
+cov_2g76l09fuh.s[3]++;
 external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.jQuery = jquery_default.a;
-cov_2g76l09fuh.s[183]++;
-window.cloudjetRequest = registry_network_cloudjetRequest;
+cov_2g76l09fuh.s[4]++;
+window.cloudjetRequest = cloudjet_request["a" /* cloudjetRequest */];
+// EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
+var runtime = __webpack_require__("96cf");
 
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/asyncToGenerator.js
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+        args = arguments;
+    return new Promise(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+
+      function step(key, arg) {
+        try {
+          var info = gen[key](arg);
+          var value = info.value;
+        } catch (error) {
+          reject(error);
+          return;
+        }
+
+        if (info.done) {
+          resolve(value);
+        } else {
+          Promise.resolve(value).then(_next, _throw);
+        }
+      }
+
+      function _next(value) {
+        step("next", value);
+      }
+
+      function _throw(err) {
+        step("throw", err);
+      }
+
+      _next();
+    });
+  };
+}
 // CONCATENATED MODULE: ./node_modules/vuex/dist/vuex.esm.js
 /**
  * vuex v3.0.1
@@ -67083,7 +64624,7 @@ var index_esm = {
 // CONCATENATED MODULE: ./src/sdk/utils/object.js
 var cov_2prkp44jx = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/object.js",
-      hash = "26729f0f2fc78bc1268b308f6024d1a81cd3919e",
+      hash = "da4232c0e0215dc53f4872ffc2c571a6077721b2",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -67093,7 +64634,7 @@ var cov_2prkp44jx = function () {
       "0": {
         start: {
           line: 1,
-          column: 20
+          column: 27
         },
         end: {
           line: 3,
@@ -67117,17 +64658,17 @@ var cov_2prkp44jx = function () {
         decl: {
           start: {
             line: 1,
-            column: 20
+            column: 27
           },
           end: {
             line: 1,
-            column: 21
+            column: 28
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 32
+            column: 39
           },
           end: {
             line: 3,
@@ -67159,162 +64700,106 @@ var cov_2prkp44jx = function () {
 }();
 
 cov_2prkp44jx.s[0]++;
-
 var cloneObject = function cloneObject(object) {
   cov_2prkp44jx.f[0]++;
   cov_2prkp44jx.s[1]++;
   return JSON.parse(JSON.stringify(object));
 };
-
-
-// CONCATENATED MODULE: ./src/registry/core/registry_vuex.js
-var cov_3j5l2ipv = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vuex.js",
-      hash = "aacdb11e2ebcee158077e6e743210429512ae26c",
+// CONCATENATED MODULE: ./src/sdk/network/organization/config.js
+var cov_1ibm5z1xmt = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/config.js",
+      hash = "a74091770be49724141a32d02b373ac533f1a58d",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
       coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vuex.js",
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/config.js",
     statementMap: {
       "0": {
         start: {
-          line: 5,
-          column: 0
+          line: 1,
+          column: 15
         },
         end: {
-          line: 5,
-          column: 13
+          line: 3,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var config_module = (cov_1ibm5z1xmt.s[0]++, {
+  path: "/api/organization/"
+});
+/* harmony default export */ var config = (config_module);
+// EXTERNAL MODULE: ./src/sdk/network/core/network_builder/index.js
+var network_builder = __webpack_require__("b8e7");
+
+// CONCATENATED MODULE: ./src/sdk/network/organization/factory.js
+var cov_1g2rjl0f3a = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/factory.js",
+      hash = "eee6a1ba2fcac42d7e990d541024f8af5bdf6b9b",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/factory.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 8,
+          column: 16
+        },
+        end: {
+          line: 8,
+          column: 32
         }
       },
       "1": {
         start: {
-          line: 8,
-          column: 15
+          line: 10,
+          column: 4
         },
         end: {
-          line: 57,
-          column: 2
+          line: 25,
+          column: 5
         }
       },
       "2": {
         start: {
-          line: 17,
+          line: 13,
           column: 12
         },
         end: {
-          line: 17,
-          column: 53
+          line: 16,
+          column: 14
         }
       },
       "3": {
         start: {
-          line: 20,
-          column: 12
-        },
-        end: {
-          line: 20,
-          column: 54
-        }
-      },
-      "4": {
-        start: {
-          line: 23,
+          line: 19,
           column: 12
         },
         end: {
           line: 23,
-          column: 58
-        }
-      },
-      "5": {
-        start: {
-          line: 26,
-          column: 12
-        },
-        end: {
-          line: 26,
-          column: 76
-        }
-      },
-      "6": {
-        start: {
-          line: 31,
-          column: 12
-        },
-        end: {
-          line: 31,
-          column: 58
-        }
-      },
-      "7": {
-        start: {
-          line: 34,
-          column: 12
-        },
-        end: {
-          line: 34,
-          column: 60
-        }
-      },
-      "8": {
-        start: {
-          line: 37,
-          column: 12
-        },
-        end: {
-          line: 37,
-          column: 63
-        }
-      },
-      "9": {
-        start: {
-          line: 40,
-          column: 12
-        },
-        end: {
-          line: 40,
-          column: 81
-        }
-      },
-      "10": {
-        start: {
-          line: 45,
-          column: 12
-        },
-        end: {
-          line: 45,
-          column: 47
-        }
-      },
-      "11": {
-        start: {
-          line: 48,
-          column: 12
-        },
-        end: {
-          line: 48,
-          column: 48
-        }
-      },
-      "12": {
-        start: {
-          line: 51,
-          column: 12
-        },
-        end: {
-          line: 51,
-          column: 50
-        }
-      },
-      "13": {
-        start: {
-          line: 54,
-          column: 12
-        },
-        end: {
-          line: 54,
-          column: 59
+          column: 14
         }
       }
     },
@@ -67323,289 +64808,73 @@ var cov_3j5l2ipv = function () {
         name: "(anonymous_0)",
         decl: {
           start: {
-            line: 16,
-            column: 27
+            line: 6,
+            column: 16
           },
           end: {
-            line: 16,
-            column: 28
+            line: 6,
+            column: 17
           }
         },
         loc: {
           start: {
-            line: 16,
-            column: 56
+            line: 6,
+            column: 22
           },
           end: {
-            line: 18,
-            column: 9
+            line: 26,
+            column: 1
           }
         },
-        line: 16
+        line: 6
       },
       "1": {
         name: "(anonymous_1)",
         decl: {
           start: {
-            line: 19,
-            column: 28
+            line: 12,
+            column: 23
           },
           end: {
-            line: 19,
-            column: 29
+            line: 12,
+            column: 24
           }
         },
         loc: {
           start: {
-            line: 19,
-            column: 57
+            line: 12,
+            column: 29
           },
           end: {
-            line: 21,
+            line: 17,
             column: 9
           }
         },
-        line: 19
+        line: 12
       },
       "2": {
         name: "(anonymous_2)",
         decl: {
           start: {
-            line: 22,
-            column: 30
+            line: 18,
+            column: 28
           },
           end: {
-            line: 22,
-            column: 31
+            line: 18,
+            column: 29
           }
         },
         loc: {
           start: {
-            line: 22,
-            column: 61
+            line: 18,
+            column: 43
           },
           end: {
             line: 24,
             column: 9
           }
         },
-        line: 22
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
-            line: 25,
-            column: 39
-          },
-          end: {
-            line: 25,
-            column: 40
-          }
-        },
-        loc: {
-          start: {
-            line: 25,
-            column: 79
-          },
-          end: {
-            line: 27,
-            column: 9
-          }
-        },
-        line: 25
-      },
-      "4": {
-        name: "(anonymous_4)",
-        decl: {
-          start: {
-            line: 30,
-            column: 26
-          },
-          end: {
-            line: 30,
-            column: 27
-          }
-        },
-        loc: {
-          start: {
-            line: 30,
-            column: 54
-          },
-          end: {
-            line: 32,
-            column: 9
-          }
-        },
-        line: 30
-      },
-      "5": {
-        name: "(anonymous_5)",
-        decl: {
-          start: {
-            line: 33,
-            column: 27
-          },
-          end: {
-            line: 33,
-            column: 28
-          }
-        },
-        loc: {
-          start: {
-            line: 33,
-            column: 55
-          },
-          end: {
-            line: 35,
-            column: 9
-          }
-        },
-        line: 33
-      },
-      "6": {
-        name: "(anonymous_6)",
-        decl: {
-          start: {
-            line: 36,
-            column: 29
-          },
-          end: {
-            line: 36,
-            column: 30
-          }
-        },
-        loc: {
-          start: {
-            line: 36,
-            column: 59
-          },
-          end: {
-            line: 38,
-            column: 9
-          }
-        },
-        line: 36
-      },
-      "7": {
-        name: "(anonymous_7)",
-        decl: {
-          start: {
-            line: 39,
-            column: 38
-          },
-          end: {
-            line: 39,
-            column: 39
-          }
-        },
-        loc: {
-          start: {
-            line: 39,
-            column: 77
-          },
-          end: {
-            line: 41,
-            column: 9
-          }
-        },
-        line: 39
-      },
-      "8": {
-        name: "(anonymous_8)",
-        decl: {
-          start: {
-            line: 44,
-            column: 19
-          },
-          end: {
-            line: 44,
-            column: 20
-          }
-        },
-        loc: {
-          start: {
-            line: 44,
-            column: 34
-          },
-          end: {
-            line: 46,
-            column: 9
-          }
-        },
-        line: 44
-      },
-      "9": {
-        name: "(anonymous_9)",
-        decl: {
-          start: {
-            line: 47,
-            column: 20
-          },
-          end: {
-            line: 47,
-            column: 21
-          }
-        },
-        loc: {
-          start: {
-            line: 47,
-            column: 35
-          },
-          end: {
-            line: 49,
-            column: 9
-          }
-        },
-        line: 47
-      },
-      "10": {
-        name: "(anonymous_10)",
-        decl: {
-          start: {
-            line: 50,
-            column: 22
-          },
-          end: {
-            line: 50,
-            column: 23
-          }
-        },
-        loc: {
-          start: {
-            line: 50,
-            column: 37
-          },
-          end: {
-            line: 52,
-            column: 9
-          }
-        },
-        line: 50
-      },
-      "11": {
-        name: "(anonymous_11)",
-        decl: {
-          start: {
-            line: 53,
-            column: 31
-          },
-          end: {
-            line: 53,
-            column: 32
-          }
-        },
-        loc: {
-          start: {
-            line: 53,
-            column: 46
-          },
-          end: {
-            line: 55,
-            column: 9
-          }
-        },
-        line: 53
+        line: 18
       }
     },
     branchMap: {},
@@ -67613,31 +64882,12 @@ var cov_3j5l2ipv = function () {
       "0": 0,
       "1": 0,
       "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0
+      "3": 0
     },
     f: {
       "0": 0,
       "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0
+      "2": 0
     },
     b: {},
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
@@ -67652,7 +64902,932 @@ var cov_3j5l2ipv = function () {
   return coverage[path] = coverageData;
 }();
 
+
+
+/* harmony default export */ var factory = (function () {
+  cov_1g2rjl0f3a.f[0]++;
+  // Tạo url: base + path
+  var url = (cov_1g2rjl0f3a.s[0]++, "".concat(config.path));
+  cov_1g2rjl0f3a.s[1]++;
+  return {
+    url: url,
+    getInitialOrg: function getInitialOrg() {
+      cov_1g2rjl0f3a.f[1]++;
+      cov_1g2rjl0f3a.s[2]++;
+      return Object(network_builder["a" /* buildPromise */])({
+        httpMethod: 'GET',
+        url: url
+      });
+    },
+    updateOrganization: function updateOrganization(orgObject) {
+      cov_1g2rjl0f3a.f[2]++;
+      cov_1g2rjl0f3a.s[3]++;
+      return Object(network_builder["a" /* buildPromise */])({
+        httpMethod: 'POST',
+        url: url,
+        data: JSON.stringify(orgObject)
+      });
+    }
+  };
+});
+// CONCATENATED MODULE: ./src/sdk/network/organization/index.js
+var cov_fhk4n75uo = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/index.js",
+      hash = "1443577fc360662e4e71185c453ea91d8d0dcce8",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+/* harmony default export */ var network_organization = (factory);
+// CONCATENATED MODULE: ./src/sdk/network/user/config.js
+var cov_2ml09r0fw3 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/config.js",
+      hash = "970b900e77fe1d8804fee68979defad8c3244242",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/config.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 15
+        },
+        end: {
+          line: 3,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var user_config_module = (cov_2ml09r0fw3.s[0]++, {
+  path: "/api/profile"
+});
+/* harmony default export */ var user_config = (user_config_module);
+// CONCATENATED MODULE: ./src/sdk/network/user/factory.js
+var cov_25ycd39mx3 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/factory.js",
+      hash = "24a7ec9bb6e6a8642626bd9190907f0b0b8fc3fa",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/factory.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 8,
+          column: 16
+        },
+        end: {
+          line: 8,
+          column: 32
+        }
+      },
+      "1": {
+        start: {
+          line: 10,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 5
+        }
+      },
+      "2": {
+        start: {
+          line: 13,
+          column: 12
+        },
+        end: {
+          line: 16,
+          column: 14
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 6,
+            column: 16
+          },
+          end: {
+            line: 6,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 6,
+            column: 22
+          },
+          end: {
+            line: 19,
+            column: 1
+          }
+        },
+        line: 6
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 27
+          },
+          end: {
+            line: 12,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 33
+          },
+          end: {
+            line: 17,
+            column: 9
+          }
+        },
+        line: 12
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+/* harmony default export */ var user_factory = (function () {
+  cov_25ycd39mx3.f[0]++;
+  // Tạo url: base + path
+  var url = (cov_25ycd39mx3.s[0]++, "".concat(user_config.path));
+  cov_25ycd39mx3.s[1]++;
+  return {
+    url: url,
+    getInitialProfile: function getInitialProfile() {
+      cov_25ycd39mx3.f[1]++;
+      cov_25ycd39mx3.s[2]++;
+      return Object(network_builder["a" /* buildPromise */])({
+        httpMethod: 'GET',
+        url: url
+      });
+    }
+  };
+});
+// CONCATENATED MODULE: ./src/sdk/network/user/index.js
+var cov_2bilsn2bxr = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/index.js",
+      hash = "b91d8aaa2d9621673cea95746d9c6a89167916d3",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+/* harmony default export */ var user = (user_factory);
+// CONCATENATED MODULE: ./src/registry/core/registry_vuex.js
+var cov_3j5l2ipv = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vuex.js",
+      hash = "d53dc88ff15d7cbe600507eec3e13551d4e9b68c",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vuex.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 7,
+          column: 0
+        },
+        end: {
+          line: 7,
+          column: 13
+        }
+      },
+      "1": {
+        start: {
+          line: 10,
+          column: 15
+        },
+        end: {
+          line: 65,
+          column: 2
+        }
+      },
+      "2": {
+        start: {
+          line: 19,
+          column: 12
+        },
+        end: {
+          line: 19,
+          column: 53
+        }
+      },
+      "3": {
+        start: {
+          line: 22,
+          column: 12
+        },
+        end: {
+          line: 22,
+          column: 54
+        }
+      },
+      "4": {
+        start: {
+          line: 25,
+          column: 12
+        },
+        end: {
+          line: 25,
+          column: 58
+        }
+      },
+      "5": {
+        start: {
+          line: 28,
+          column: 12
+        },
+        end: {
+          line: 28,
+          column: 76
+        }
+      },
+      "6": {
+        start: {
+          line: 33,
+          column: 12
+        },
+        end: {
+          line: 33,
+          column: 102
+        }
+      },
+      "7": {
+        start: {
+          line: 33,
+          column: 60
+        },
+        end: {
+          line: 33,
+          column: 102
+        }
+      },
+      "8": {
+        start: {
+          line: 34,
+          column: 12
+        },
+        end: {
+          line: 34,
+          column: 106
+        }
+      },
+      "9": {
+        start: {
+          line: 34,
+          column: 61
+        },
+        end: {
+          line: 34,
+          column: 106
+        }
+      },
+      "10": {
+        start: {
+          line: 37,
+          column: 29
+        },
+        end: {
+          line: 37,
+          column: 71
+        }
+      },
+      "11": {
+        start: {
+          line: 38,
+          column: 12
+        },
+        end: {
+          line: 38,
+          column: 56
+        }
+      },
+      "12": {
+        start: {
+          line: 41,
+          column: 12
+        },
+        end: {
+          line: 41,
+          column: 59
+        }
+      },
+      "13": {
+        start: {
+          line: 44,
+          column: 29
+        },
+        end: {
+          line: 44,
+          column: 63
+        }
+      },
+      "14": {
+        start: {
+          line: 45,
+          column: 12
+        },
+        end: {
+          line: 45,
+          column: 59
+        }
+      },
+      "15": {
+        start: {
+          line: 48,
+          column: 12
+        },
+        end: {
+          line: 48,
+          column: 81
+        }
+      },
+      "16": {
+        start: {
+          line: 53,
+          column: 12
+        },
+        end: {
+          line: 53,
+          column: 47
+        }
+      },
+      "17": {
+        start: {
+          line: 56,
+          column: 12
+        },
+        end: {
+          line: 56,
+          column: 48
+        }
+      },
+      "18": {
+        start: {
+          line: 59,
+          column: 12
+        },
+        end: {
+          line: 59,
+          column: 50
+        }
+      },
+      "19": {
+        start: {
+          line: 62,
+          column: 12
+        },
+        end: {
+          line: 62,
+          column: 59
+        }
+      },
+      "20": {
+        start: {
+          line: 67,
+          column: 0
+        },
+        end: {
+          line: 67,
+          column: 29
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 18,
+            column: 27
+          },
+          end: {
+            line: 18,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 18,
+            column: 56
+          },
+          end: {
+            line: 20,
+            column: 9
+          }
+        },
+        line: 18
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 21,
+            column: 28
+          },
+          end: {
+            line: 21,
+            column: 29
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 57
+          },
+          end: {
+            line: 23,
+            column: 9
+          }
+        },
+        line: 21
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 24,
+            column: 30
+          },
+          end: {
+            line: 24,
+            column: 31
+          }
+        },
+        loc: {
+          start: {
+            line: 24,
+            column: 61
+          },
+          end: {
+            line: 26,
+            column: 9
+          }
+        },
+        line: 24
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 27,
+            column: 39
+          },
+          end: {
+            line: 27,
+            column: 40
+          }
+        },
+        loc: {
+          start: {
+            line: 27,
+            column: 79
+          },
+          end: {
+            line: 29,
+            column: 9
+          }
+        },
+        line: 27
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 32,
+            column: 20
+          },
+          end: {
+            line: 32,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 32,
+            column: 43
+          },
+          end: {
+            line: 35,
+            column: 9
+          }
+        },
+        line: 32
+      },
+      "5": {
+        name: "(anonymous_5)",
+        decl: {
+          start: {
+            line: 36,
+            column: 26
+          },
+          end: {
+            line: 36,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 36,
+            column: 49
+          },
+          end: {
+            line: 39,
+            column: 9
+          }
+        },
+        line: 36
+      },
+      "6": {
+        name: "(anonymous_6)",
+        decl: {
+          start: {
+            line: 40,
+            column: 27
+          },
+          end: {
+            line: 40,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 40,
+            column: 55
+          },
+          end: {
+            line: 42,
+            column: 9
+          }
+        },
+        line: 40
+      },
+      "7": {
+        name: "(anonymous_7)",
+        decl: {
+          start: {
+            line: 43,
+            column: 29
+          },
+          end: {
+            line: 43,
+            column: 30
+          }
+        },
+        loc: {
+          start: {
+            line: 43,
+            column: 52
+          },
+          end: {
+            line: 46,
+            column: 9
+          }
+        },
+        line: 43
+      },
+      "8": {
+        name: "(anonymous_8)",
+        decl: {
+          start: {
+            line: 47,
+            column: 38
+          },
+          end: {
+            line: 47,
+            column: 39
+          }
+        },
+        loc: {
+          start: {
+            line: 47,
+            column: 77
+          },
+          end: {
+            line: 49,
+            column: 9
+          }
+        },
+        line: 47
+      },
+      "9": {
+        name: "(anonymous_9)",
+        decl: {
+          start: {
+            line: 52,
+            column: 19
+          },
+          end: {
+            line: 52,
+            column: 20
+          }
+        },
+        loc: {
+          start: {
+            line: 52,
+            column: 34
+          },
+          end: {
+            line: 54,
+            column: 9
+          }
+        },
+        line: 52
+      },
+      "10": {
+        name: "(anonymous_10)",
+        decl: {
+          start: {
+            line: 55,
+            column: 20
+          },
+          end: {
+            line: 55,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 55,
+            column: 35
+          },
+          end: {
+            line: 57,
+            column: 9
+          }
+        },
+        line: 55
+      },
+      "11": {
+        name: "(anonymous_11)",
+        decl: {
+          start: {
+            line: 58,
+            column: 22
+          },
+          end: {
+            line: 58,
+            column: 23
+          }
+        },
+        loc: {
+          start: {
+            line: 58,
+            column: 37
+          },
+          end: {
+            line: 60,
+            column: 9
+          }
+        },
+        line: 58
+      },
+      "12": {
+        name: "(anonymous_12)",
+        decl: {
+          start: {
+            line: 61,
+            column: 31
+          },
+          end: {
+            line: 61,
+            column: 32
+          }
+        },
+        loc: {
+          start: {
+            line: 61,
+            column: 46
+          },
+          end: {
+            line: 63,
+            column: 9
+          }
+        },
+        line: 61
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 33,
+            column: 12
+          },
+          end: {
+            line: 33,
+            column: 102
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 33,
+            column: 12
+          },
+          end: {
+            line: 33,
+            column: 102
+          }
+        }, {
+          start: {
+            line: 33,
+            column: 12
+          },
+          end: {
+            line: 33,
+            column: 102
+          }
+        }],
+        line: 33
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 34,
+            column: 12
+          },
+          end: {
+            line: 34,
+            column: 106
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 34,
+            column: 12
+          },
+          end: {
+            line: 34,
+            column: 106
+          }
+        }, {
+          start: {
+            line: 34,
+            column: 12
+          },
+          end: {
+            line: 34,
+            column: 106
+          }
+        }],
+        line: 34
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+
 /* eslint-disable */
+
+
 
 
 
@@ -67689,50 +65864,165 @@ var vStore = (cov_3j5l2ipv.s[1]++, new vuex_esm.Store({
     }
   },
   actions: {
-    userActorActions: function userActorActions(context, userObject) {
-      cov_3j5l2ipv.f[4]++;
-      cov_3j5l2ipv.s[6]++;
-      context.commit('userActorMutation', userObject);
-    },
+    initialize: function () {
+      var _initialize = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee(context) {
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                cov_3j5l2ipv.f[4]++;
+                cov_3j5l2ipv.s[6]++;
+
+                if (!(context.state.userActor.user === undefined)) {
+                  _context.next = 9;
+                  break;
+                }
+
+                cov_3j5l2ipv.b[0][0]++;
+                cov_3j5l2ipv.s[7]++;
+                _context.next = 7;
+                return context.dispatch('userActorActions');
+
+              case 7:
+                _context.next = 10;
+                break;
+
+              case 9:
+                cov_3j5l2ipv.b[0][1]++;
+
+              case 10:
+                cov_3j5l2ipv.s[8]++;
+
+                if (!(context.state.organization.id === undefined)) {
+                  _context.next = 18;
+                  break;
+                }
+
+                cov_3j5l2ipv.b[1][0]++;
+                cov_3j5l2ipv.s[9]++;
+                _context.next = 16;
+                return context.dispatch('organizationActions');
+
+              case 16:
+                _context.next = 19;
+                break;
+
+              case 18:
+                cov_3j5l2ipv.b[1][1]++;
+
+              case 19:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      return function initialize(_x) {
+        return _initialize.apply(this, arguments);
+      };
+    }(),
+    userActorActions: function () {
+      var _userActorActions = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee2(context) {
+        var response;
+        return regeneratorRuntime.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                cov_3j5l2ipv.f[5]++;
+                cov_3j5l2ipv.s[10]++;
+                _context2.next = 4;
+                return user().getInitialProfile();
+
+              case 4:
+                response = _context2.sent;
+                cov_3j5l2ipv.s[11]++;
+                context.commit('userActorMutation', response);
+
+              case 7:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this);
+      }));
+
+      return function userActorActions(_x2) {
+        return _userActorActions.apply(this, arguments);
+      };
+    }(),
     userViewedActions: function userViewedActions(context, userObject) {
-      cov_3j5l2ipv.f[5]++;
-      cov_3j5l2ipv.s[7]++;
-      context.commit(' userViewedMutation', userObject);
-    },
-    organizationActions: function organizationActions(context, organization) {
       cov_3j5l2ipv.f[6]++;
-      cov_3j5l2ipv.s[8]++;
-      context.commit('organizationMutation', organization);
+      cov_3j5l2ipv.s[12]++;
+      context.commit('userViewedMutation', userObject);
     },
+    organizationActions: function () {
+      var _organizationActions = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee3(context) {
+        var response;
+        return regeneratorRuntime.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                cov_3j5l2ipv.f[7]++;
+                cov_3j5l2ipv.s[13]++;
+                _context3.next = 4;
+                return network_organization().getInitialOrg();
+
+              case 4:
+                response = _context3.sent;
+                cov_3j5l2ipv.s[14]++;
+                context.commit('organizationMutation', response);
+
+              case 7:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3, this);
+      }));
+
+      return function organizationActions(_x3) {
+        return _organizationActions.apply(this, arguments);
+      };
+    }(),
     userActorSubordinatesActions: function userActorSubordinatesActions(context, userActorSubordinates) {
-      cov_3j5l2ipv.f[7]++;
-      cov_3j5l2ipv.s[9]++;
+      cov_3j5l2ipv.f[8]++;
+      cov_3j5l2ipv.s[15]++;
       context.commit('userActorSubordinatesMutation', userActorSubordinates);
     }
   },
   getters: {
     userActor: function userActor(state) {
-      cov_3j5l2ipv.f[8]++;
-      cov_3j5l2ipv.s[10]++;
+      cov_3j5l2ipv.f[9]++;
+      cov_3j5l2ipv.s[16]++;
       return cloneObject(state.userActor);
     },
     userViewed: function userViewed(state) {
-      cov_3j5l2ipv.f[9]++;
-      cov_3j5l2ipv.s[11]++;
+      cov_3j5l2ipv.f[10]++;
+      cov_3j5l2ipv.s[17]++;
       return cloneObject(state.userViewed);
     },
     organization: function organization(state) {
-      cov_3j5l2ipv.f[10]++;
-      cov_3j5l2ipv.s[12]++;
+      cov_3j5l2ipv.f[11]++;
+      cov_3j5l2ipv.s[18]++;
       return cloneObject(state.organization);
     },
     userActorSubordinates: function userActorSubordinates(state) {
-      cov_3j5l2ipv.f[11]++;
-      cov_3j5l2ipv.s[13]++;
+      cov_3j5l2ipv.f[12]++;
+      cov_3j5l2ipv.s[19]++;
       return cloneObject(state.userActorSubordinates);
     }
   }
 }));
+cov_3j5l2ipv.s[20]++;
+external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.$store = vStore; // window.vStore = vStore
+
 /* harmony default export */ var registry_vuex = (vStore); // End setting up vuex store
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.regexp.to-string.js
 var es6_regexp_to_string = __webpack_require__("6b54");
@@ -68850,84 +67140,76 @@ var es6_object_keys = __webpack_require__("456d");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/main.vue?vue&type=template&id=de3a8234&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"root"},[_c('div',{staticClass:"centered"},[_c('a',{staticClass:"HOME_ICN_ETS",attrs:{"id":"bonus-toggle","data-toggle":"modal","data-target":'#exscore-modal-' + _vm.uid}},[_vm._v("\n            Click here "),_c('i',{staticClass:"material-icons font-20 HOME_ICN_ETS"},[_vm._v("library_add")])])]),_c('div',{staticClass:"main-modal"},[_c('div',{staticClass:"modal fade",attrs:{"tabindex":"-1","role":"dialog","aria-labelledby":"myModalLabel","id":'exscore-modal-' + _vm.uid}},[_c('div',{staticClass:"modal-dialog",attrs:{"role":"document"}},[_c('div',{staticClass:"modal-content"},[_c('div',{staticClass:"modal-header"},[_vm._m(0),_c('h4',{staticClass:"modal-title",attrs:{"id":"myModalLabel"}},[_vm._v(_vm._s(_vm._f("translate")("Exscore lib")))])]),_c('div',{staticClass:"modal-body"},[_c('div',{attrs:{"id":"app-demo"}},[_c('img',{attrs:{"src":__webpack_require__("cf05")}}),_c('div',[_c('el-button',{on:{"click":_vm.startHacking}},[_vm._v("Start")]),_c('el-row',{staticClass:"block-col-2"},[_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("hover to trigger")]),_c('el-dropdown',[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1),_c('el-col',{attrs:{"span":12}},[_c('span',{staticClass:"demonstration"},[_vm._v("click to trigger")]),_c('el-dropdown',{attrs:{"trigger":"click"}},[_c('span',{staticClass:"el-dropdown-link"},[_vm._v("\n    Dropdown List"),_c('i',{staticClass:"el-icon-arrow-down el-icon--right"})]),_c('el-dropdown-menu',{attrs:{"slot":"dropdown"},slot:"dropdown"},[_c('el-dropdown-item',[_vm._v("Action 1")]),_c('el-dropdown-item',[_vm._v("Action 2")]),_c('el-dropdown-item',[_vm._v("Action 3")]),_c('el-dropdown-item',[_vm._v("Action 4")]),_c('el-dropdown-item',[_vm._v("Action 5")])],1)],1)],1)],1)],1),_c('HelloWorld',{attrs:{"msg":_vm._f("translate")('Hello World in variable here')}})],1)]),_vm._m(1)])])])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"close",attrs:{"type":"button","data-dismiss":"modal","aria-label":"Close"}},[_c('i',{staticClass:"material-icons"},[_vm._v("close")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-footer"},[_c('button',{staticClass:"btn btn-default",attrs:{"type":"button","data-dismiss":"modal"}},[_vm._v("Close")]),_c('button',{staticClass:"btn btn-primary",attrs:{"type":"button"}},[_vm._v("Save changes")])])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/main.vue?vue&type=template&id=f4f48c48&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('notification-container',{attrs:{"notification-data":_vm.notificationData,"on-lazy-load":_vm.getLazyNotifications,"on-mark-as-read":_vm.markAsReadNotifications,"href":_vm.href}})}
+var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/templates/components/demo_app/main.vue?vue&type=template&id=de3a8234&scoped=true&
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/main.vue?vue&type=template&id=f4f48c48&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/minor_components/HelloWorld.vue?vue&type=template&id=de5e7078&scoped=true&
-var HelloWorldvue_type_template_id_de5e7078_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"hello"},[_c('h1',[_vm._v(_vm._s(_vm.msg))]),_c('h3',[_vm._v("Essential Links")]),_vm._m(0),_c('h3',[_vm._v("Ecosystem")]),_vm._m(1)])}
-var HelloWorldvue_type_template_id_de5e7078_scoped_true_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ul',[_c('li',[_c('a',{attrs:{"href":"https://vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("Core Docs")])]),_c('li',[_c('a',{attrs:{"href":"https://forum.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("Forum")])]),_c('li',[_c('a',{attrs:{"href":"https://chat.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("Community Chat")])]),_c('li',[_c('a',{attrs:{"href":"https://twitter.com/vuejs","target":"_blank","rel":"noopener"}},[_vm._v("Twitter")])]),_c('li',[_c('a',{attrs:{"href":"https://news.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("News")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ul',[_c('li',[_c('a',{attrs:{"href":"https://router.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("vue-router")])]),_c('li',[_c('a',{attrs:{"href":"https://vuex.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("vuex")])]),_c('li',[_c('a',{attrs:{"href":"https://github.com/vuejs/vue-devtools#vue-devtools","target":"_blank","rel":"noopener"}},[_vm._v("vue-devtools")])]),_c('li',[_c('a',{attrs:{"href":"https://vue-loader.vuejs.org","target":"_blank","rel":"noopener"}},[_vm._v("vue-loader")])]),_c('li',[_c('a',{attrs:{"href":"https://github.com/vuejs/awesome-vue","target":"_blank","rel":"noopener"}},[_vm._v("awesome-vue")])])])}]
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/defineProperty.js
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
 
+  return obj;
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/objectSpread.js
 
-// CONCATENATED MODULE: ./src/templates/components/demo_app/minor_components/HelloWorld.vue?vue&type=template&id=de5e7078&scoped=true&
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+    var ownKeys = Object.keys(source);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/minor_components/HelloWorld.vue?vue&type=script&lang=js&
-var cov_15xn5jf6a = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/demo_app/minor_components/HelloWorld.vue",
-      hash = "390c46e5c3cede4c806856ded15d5d85cfe2e0bb",
+    if (typeof Object.getOwnPropertySymbols === 'function') {
+      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
+        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
+      }));
+    }
+
+    ownKeys.forEach(function (key) {
+      _defineProperty(target, key, source[key]);
+    });
+  }
+
+  return target;
+}
+// CONCATENATED MODULE: ./src/sdk/network/notification/config.js
+var cov_27w3yd50wi = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/config.js",
+      hash = "bb31a3163df9e3aef6683b88f3b866be82026a5f",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
       coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/demo_app/minor_components/HelloWorld.vue",
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/config.js",
     statementMap: {
       "0": {
         start: {
-          line: 30,
-          column: 8
+          line: 1,
+          column: 15
         },
         end: {
-          line: 30,
-          column: 17
+          line: 3,
+          column: 1
         }
       }
     },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 29,
-            column: 10
-          },
-          end: {
-            line: 29,
-            column: 11
-          }
-        },
-        loc: {
-          start: {
-            line: 29,
-            column: 20
-          },
-          end: {
-            line: 31,
-            column: 5
-          }
-        },
-        line: 29
-      }
-    },
+    fnMap: {},
     branchMap: {},
     s: {
       "0": 0
     },
-    f: {
-      "0": 0
-    },
+    f: {},
     b: {},
-    inputSourceMap: {
-      version: 3,
-      sources: ["HelloWorld.vue"],
-      names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;;AAuBA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
-      file: "HelloWorld.vue",
-      sourceRoot: "src/templates/components/demo_app/minor_components",
-      sourcesContent: ["<template>\n  <div class=\"hello\">\n    <h1>{{ msg }}</h1>\n    <h3>Essential Links</h3>\n    <ul>\n      <li><a href=\"https://vuejs.org\" target=\"_blank\" rel=\"noopener\">Core Docs</a></li>\n      <li><a href=\"https://forum.vuejs.org\" target=\"_blank\" rel=\"noopener\">Forum</a></li>\n      <li><a href=\"https://chat.vuejs.org\" target=\"_blank\" rel=\"noopener\">Community Chat</a></li>\n      <li><a href=\"https://twitter.com/vuejs\" target=\"_blank\" rel=\"noopener\">Twitter</a></li>\n      <li><a href=\"https://news.vuejs.org\" target=\"_blank\" rel=\"noopener\">News</a></li>\n    </ul>\n    <h3>Ecosystem</h3>\n    <ul>\n      <li><a href=\"https://router.vuejs.org\" target=\"_blank\" rel=\"noopener\">vue-router</a></li>\n      <li><a href=\"https://vuex.vuejs.org\" target=\"_blank\" rel=\"noopener\">vuex</a></li>\n      <li><a href=\"https://github.com/vuejs/vue-devtools#vue-devtools\" target=\"_blank\" rel=\"noopener\">vue-devtools</a></li>\n      <li><a href=\"https://vue-loader.vuejs.org\" target=\"_blank\" rel=\"noopener\">vue-loader</a></li>\n      <li><a href=\"https://github.com/vuejs/awesome-vue\" target=\"_blank\" rel=\"noopener\">awesome-vue</a></li>\n    </ul>\n  </div>\n</template>\n\n<script>\n    export default {\n        name: 'HelloWorld',\n        props: {\n            msg: String\n        },\n        data: function(){ // Required to have data, otherwise not test\n            return {}\n        }\n    }\n</script>\n\n<!-- Add \"scoped\" attribute to limit CSS to this component only -->\n<style scoped>\n  h3 {\n    margin: 40px 0 0;\n  }\n  ul {\n    list-style-type: none;\n    padding: 0;\n  }\n  li {\n    display: inline-block;\n    margin: 0 10px;\n  }\n  a {\n    color: #42b983;\n  }\n</style>\n"]
-    },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
       coverage = global[gcv] || (global[gcv] = {});
@@ -68940,501 +67222,680 @@ var cov_15xn5jf6a = function () {
   return coverage[path] = coverageData;
 }();
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var HelloWorldvue_type_script_lang_js_ = ({
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  },
-  data: function data() {
-    cov_15xn5jf6a.f[0]++;
-    cov_15xn5jf6a.s[0]++;
-    // Required to have data, otherwise not test
-    return {};
-  }
+var notification_config_module = (cov_27w3yd50wi.s[0]++, {
+  path: "/api/v2/notifications"
 });
-// CONCATENATED MODULE: ./src/templates/components/demo_app/minor_components/HelloWorld.vue?vue&type=script&lang=js&
- /* harmony default export */ var minor_components_HelloWorldvue_type_script_lang_js_ = (HelloWorldvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/demo_app/minor_components/HelloWorld.vue?vue&type=style&index=0&id=de5e7078&scoped=true&lang=css&
-var HelloWorldvue_type_style_index_0_id_de5e7078_scoped_true_lang_css_ = __webpack_require__("d915");
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent (
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier, /* server only */
-  shadowMode /* vue-cli only */
-) {
-  // Vue.extend constructor export interop
-  var options = typeof scriptExports === 'function'
-    ? scriptExports.options
-    : scriptExports
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) { // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functioal component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection (h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing
-        ? [].concat(existing, hook)
-        : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
-}
-
-// CONCATENATED MODULE: ./src/templates/components/demo_app/minor_components/HelloWorld.vue
-
-
-
-
-
-
-/* normalize component */
-
-var component = normalizeComponent(
-  minor_components_HelloWorldvue_type_script_lang_js_,
-  HelloWorldvue_type_template_id_de5e7078_scoped_true_render,
-  HelloWorldvue_type_template_id_de5e7078_scoped_true_staticRenderFns,
-  false,
-  null,
-  "de5e7078",
-  null
-  
-)
-
-component.options.__file = "HelloWorld.vue"
-/* harmony default export */ var HelloWorld = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/demo_app/main.vue?vue&type=script&lang=js&
-var cov_jiklwo14e = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/demo_app/main.vue",
-      hash = "51dc689e91dbcb171d0be19f2c10ef3435201662",
+/* harmony default export */ var notification_config = (notification_config_module);
+// CONCATENATED MODULE: ./src/sdk/network/notification/factory.js
+var cov_13nf4aw5tt = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/factory.js",
+      hash = "4d4e8a760220068f41c1ba6a70a33203148dbaa1",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
       coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/demo_app/main.vue",
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/factory.js",
     statementMap: {
       "0": {
         start: {
-          line: 71,
-          column: 15
+          line: 8,
+          column: 16
         },
         end: {
-          line: 71,
-          column: 17
+          line: 8,
+          column: 43
         }
       },
       "1": {
         start: {
-          line: 72,
-          column: 19
+          line: 10,
+          column: 4
         },
         end: {
-          line: 72,
-          column: 83
+          line: 34,
+          column: 5
         }
       },
       "2": {
         start: {
-          line: 74,
-          column: 4
+          line: 14,
+          column: 12
         },
         end: {
-          line: 75,
-          column: 77
+          line: 17,
+          column: 14
         }
       },
       "3": {
         start: {
-          line: 75,
-          column: 8
+          line: 21,
+          column: 12
         },
         end: {
-          line: 75,
-          column: 77
+          line: 24,
+          column: 14
         }
       },
       "4": {
         start: {
-          line: 77,
-          column: 4
-        },
-        end: {
-          line: 77,
-          column: 16
-        }
-      },
-      "5": {
-        start: {
-          line: 93,
-          column: 8
-        },
-        end: {
-          line: 98,
-          column: 9
-        }
-      },
-      "6": {
-        start: {
-          line: 106,
-          column: 23
-        },
-        end: {
-          line: 106,
-          column: 27
-        }
-      },
-      "7": {
-        start: {
-          line: 107,
+          line: 28,
           column: 12
         },
         end: {
-          line: 107,
-          column: 60
-        }
-      },
-      "8": {
-        start: {
-          line: 108,
-          column: 12
-        },
-        end: {
-          line: 108,
-          column: 37
-        }
-      },
-      "9": {
-        start: {
-          line: 109,
-          column: 12
-        },
-        end: {
-          line: 109,
-          column: 40
-        }
-      },
-      "10": {
-        start: {
-          line: 113,
-          column: 12
-        },
-        end: {
-          line: 118,
+          line: 32,
           column: 14
-        }
-      },
-      "11": {
-        start: {
-          line: 125,
-          column: 19
-        },
-        end: {
-          line: 125,
-          column: 23
-        }
-      },
-      "12": {
-        start: {
-          line: 126,
-          column: 8
-        },
-        end: {
-          line: 128,
-          column: 10
-        }
-      },
-      "13": {
-        start: {
-          line: 127,
-          column: 12
-        },
-        end: {
-          line: 127,
-          column: 32
-        }
-      },
-      "14": {
-        start: {
-          line: 131,
-          column: 19
-        },
-        end: {
-          line: 131,
-          column: 23
-        }
-      },
-      "15": {
-        start: {
-          line: 132,
-          column: 8
-        },
-        end: {
-          line: 132,
-          column: 46
         }
       }
     },
     fnMap: {
       "0": {
-        name: "makeid",
+        name: "(anonymous_0)",
         decl: {
           start: {
-            line: 70,
-            column: 9
+            line: 6,
+            column: 16
           },
           end: {
-            line: 70,
-            column: 15
+            line: 6,
+            column: 17
           }
         },
         loc: {
           start: {
-            line: 70,
-            column: 18
+            line: 6,
+            column: 26
           },
           end: {
-            line: 78,
+            line: 35,
             column: 1
           }
         },
-        line: 70
+        line: 6
       },
       "1": {
         name: "(anonymous_1)",
         decl: {
           start: {
-            line: 87,
-            column: 13
+            line: 13,
+            column: 35
           },
           end: {
-            line: 87,
-            column: 14
+            line: 13,
+            column: 36
           }
         },
         loc: {
           start: {
-            line: 87,
-            column: 23
+            line: 13,
+            column: 41
           },
           end: {
-            line: 87,
-            column: 25
+            line: 18,
+            column: 9
           }
         },
-        line: 87
+        line: 13
       },
       "2": {
         name: "(anonymous_2)",
         decl: {
           start: {
-            line: 92,
-            column: 10
+            line: 20,
+            column: 37
           },
           end: {
-            line: 92,
-            column: 11
+            line: 20,
+            column: 38
           }
         },
         loc: {
           start: {
-            line: 92,
-            column: 20
+            line: 20,
+            column: 46
           },
           end: {
-            line: 99,
-            column: 5
+            line: 25,
+            column: 9
           }
         },
-        line: 92
+        line: 20
       },
       "3": {
         name: "(anonymous_3)",
         decl: {
           start: {
-            line: 105,
-            column: 19
+            line: 27,
+            column: 35
           },
           end: {
-            line: 105,
-            column: 20
+            line: 27,
+            column: 36
           }
         },
         loc: {
           start: {
-            line: 105,
-            column: 33
+            line: 27,
+            column: 66
           },
           end: {
-            line: 110,
+            line: 33,
             column: 9
           }
         },
-        line: 105
+        line: 27
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+/* harmony default export */ var notification_factory = (function (userId) {
+  cov_13nf4aw5tt.f[0]++;
+  // Tạo url: base + path
+  var url = (cov_13nf4aw5tt.s[0]++, "".concat(notification_config.path, "/").concat(userId, "/"));
+  cov_13nf4aw5tt.s[1]++;
+  return {
+    url: url,
+    getInitialNotifiationData: function getInitialNotifiationData() {
+      cov_13nf4aw5tt.f[1]++;
+      cov_13nf4aw5tt.s[2]++;
+      return Object(network_builder["a" /* buildPromise */])({
+        httpMethod: 'GET',
+        url: url
+      });
+    },
+    getLazyLoadNotificationData: function getLazyLoadNotificationData(url) {
+      cov_13nf4aw5tt.f[2]++;
+      cov_13nf4aw5tt.s[3]++;
+      return Object(network_builder["a" /* buildPromise */])({
+        httpMethod: 'GET',
+        url: url // Checkout variable cloaking / shadowing
+
+      });
+    },
+    updateUnreadNotifications: function updateUnreadNotifications(_updateUnreadNotifications) {
+      cov_13nf4aw5tt.f[3]++;
+      cov_13nf4aw5tt.s[4]++;
+      return Object(network_builder["a" /* buildPromise */])({
+        httpMethod: 'POST',
+        url: url,
+        data: JSON.stringify({
+          unread_list: _updateUnreadNotifications
+        })
+      });
+    }
+  };
+});
+// CONCATENATED MODULE: ./src/sdk/network/notification/index.js
+var cov_2mv6mz7k9h = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/index.js",
+      hash = "c42055f055f707218e5fb9f9977300b66aa13076",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+/* harmony default export */ var notification = (notification_factory);
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/store/mutations.js
+var cov_2hnswqzuyt = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/mutations.js",
+      hash = "7da8225c90924e879dfc5f3bfa6720bb02fea03c",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/mutations.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 4,
+          column: 42
+        },
+        end: {
+          line: 4,
+          column: 70
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 43
+        },
+        end: {
+          line: 5,
+          column: 72
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 43
+        },
+        end: {
+          line: 6,
+          column: 72
+        }
+      },
+      "3": {
+        start: {
+          line: 10,
+          column: 4
+        },
+        end: {
+          line: 10,
+          column: 49
+        }
       },
       "4": {
-        name: "(anonymous_4)",
+        start: {
+          line: 14,
+          column: 4
+        },
+        end: {
+          line: 14,
+          column: 43
+        }
+      },
+      "5": {
+        start: {
+          line: 18,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 58
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 4
+        },
+        end: {
+          line: 19,
+          column: 72
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 4
+        },
+        end: {
+          line: 20,
+          column: 103
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+var _getInitialNotificati;
+
+/**
+ * Mutation là dạng string nên ta cần biến const để auto completet
+ */
+var getInitialNotificationData = (cov_2hnswqzuyt.s[0]++, 'getInitialNotificationData');
+var clearUnreadNotificationList = (cov_2hnswqzuyt.s[1]++, 'clearUnreadNotificationList');
+var getLazyloadNotificationData = (cov_2hnswqzuyt.s[2]++, 'getLazyloadNotificationData');
+/* harmony default export */ var mutations = (_getInitialNotificati = {}, _defineProperty(_getInitialNotificati, getInitialNotificationData, function (state, notificationApiData) {
+  cov_2hnswqzuyt.s[3]++;
+  state.notificationData = notificationApiData;
+}), _defineProperty(_getInitialNotificati, clearUnreadNotificationList, function (state) {
+  cov_2hnswqzuyt.s[4]++;
+  state.notificationData.unread_list = [];
+}), _defineProperty(_getInitialNotificati, getLazyloadNotificationData, function (state, notificationApiData) {
+  cov_2hnswqzuyt.s[5]++;
+  state.notificationData.next = notificationApiData.next;
+  cov_2hnswqzuyt.s[6]++;
+  state.notificationData.unread_list = notificationApiData.unread_list;
+  cov_2hnswqzuyt.s[7]++;
+  state.notificationData.results = state.notificationData.results.concat(notificationApiData.results);
+}), _getInitialNotificati);
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/store/actions.js
+var cov_wzl7iilpl = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/actions.js",
+      hash = "8f3e91cb131ed76ed6916e94e00f26a7c5452a6d",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/actions.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 11,
+          column: 38
+        },
+        end: {
+          line: 11,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 12,
+          column: 39
+        },
+        end: {
+          line: 12,
+          column: 64
+        }
+      },
+      "2": {
+        start: {
+          line: 13,
+          column: 36
+        },
+        end: {
+          line: 13,
+          column: 58
+        }
+      },
+      "3": {
+        start: {
+          line: 17,
+          column: 4
+        },
+        end: {
+          line: 23,
+          column: 8
+        }
+      },
+      "4": {
+        start: {
+          line: 19,
+          column: 8
+        },
+        end: {
+          line: 19,
+          column: 60
+        }
+      },
+      "5": {
+        start: {
+          line: 22,
+          column: 8
+        },
+        end: {
+          line: 22,
+          column: 24
+        }
+      },
+      "6": {
+        start: {
+          line: 27,
+          column: 4
+        },
+        end: {
+          line: 33,
+          column: 8
+        }
+      },
+      "7": {
+        start: {
+          line: 29,
+          column: 8
+        },
+        end: {
+          line: 29,
+          column: 49
+        }
+      },
+      "8": {
+        start: {
+          line: 32,
+          column: 8
+        },
+        end: {
+          line: 32,
+          column: 24
+        }
+      },
+      "9": {
+        start: {
+          line: 37,
+          column: 4
+        },
+        end: {
+          line: 43,
+          column: 8
+        }
+      },
+      "10": {
+        start: {
+          line: 39,
+          column: 8
+        },
+        end: {
+          line: 39,
+          column: 59
+        }
+      },
+      "11": {
+        start: {
+          line: 42,
+          column: 8
+        },
+        end: {
+          line: 42,
+          column: 24
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
         decl: {
           start: {
-            line: 124,
+            line: 18,
+            column: 12
+          },
+          end: {
+            line: 18,
+            column: 13
+          }
+        },
+        loc: {
+          start: {
+            line: 18,
+            column: 26
+          },
+          end: {
+            line: 20,
+            column: 7
+          }
+        },
+        line: 18
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 21,
             column: 13
           },
           end: {
-            line: 124,
+            line: 21,
             column: 14
           }
         },
         loc: {
           start: {
-            line: 124,
-            column: 23
+            line: 21,
+            column: 20
           },
           end: {
-            line: 129,
-            column: 5
+            line: 23,
+            column: 7
           }
         },
-        line: 124
+        line: 21
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 28,
+            column: 12
+          },
+          end: {
+            line: 28,
+            column: 13
+          }
+        },
+        loc: {
+          start: {
+            line: 28,
+            column: 18
+          },
+          end: {
+            line: 30,
+            column: 7
+          }
+        },
+        line: 28
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 31,
+            column: 13
+          },
+          end: {
+            line: 31,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 31,
+            column: 20
+          },
+          end: {
+            line: 33,
+            column: 7
+          }
+        },
+        line: 31
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 38,
+            column: 12
+          },
+          end: {
+            line: 38,
+            column: 13
+          }
+        },
+        loc: {
+          start: {
+            line: 38,
+            column: 24
+          },
+          end: {
+            line: 40,
+            column: 7
+          }
+        },
+        line: 38
       },
       "5": {
         name: "(anonymous_5)",
         decl: {
           start: {
-            line: 126,
-            column: 45
+            line: 41,
+            column: 13
           },
           end: {
-            line: 126,
-            column: 46
+            line: 41,
+            column: 14
           }
         },
         loc: {
           start: {
-            line: 126,
-            column: 59
-          },
-          end: {
-            line: 128,
-            column: 9
-          }
-        },
-        line: 126
-      },
-      "6": {
-        name: "(anonymous_6)",
-        decl: {
-          start: {
-            line: 130,
-            column: 19
-          },
-          end: {
-            line: 130,
+            line: 41,
             column: 20
-          }
-        },
-        loc: {
-          start: {
-            line: 130,
-            column: 29
           },
           end: {
-            line: 133,
-            column: 5
+            line: 43,
+            column: 7
           }
         },
-        line: 130
+        line: 41
       }
     },
     branchMap: {},
@@ -69450,11 +67911,7 @@ var cov_jiklwo14e = function () {
       "8": 0,
       "9": 0,
       "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0
+      "11": 0
     },
     f: {
       "0": 0,
@@ -69462,18 +67919,561 @@ var cov_jiklwo14e = function () {
       "2": 0,
       "3": 0,
       "4": 0,
-      "5": 0,
-      "6": 0
+      "5": 0
     },
     b: {},
-    inputSourceMap: {
-      version: 3,
-      sources: ["main.vue"],
-      names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAqEA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
-      file: "main.vue",
-      sourceRoot: "src/templates/components/demo_app",
-      sourcesContent: ["<template>\n    <div class=\"root\">\n        <div class=\"centered\">\n            <a class=\"HOME_ICN_ETS\" id=\"bonus-toggle\"  data-toggle=\"modal\" :data-target=\"'#exscore-modal-' + uid\">\n                Click here <i class=\"material-icons font-20 HOME_ICN_ETS\">library_add</i>\n            </a>\n        </div>\n        <div class=\"main-modal\">\n            <div class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" :id=\"'exscore-modal-' + uid\">\n                <div class=\"modal-dialog\" role=\"document\">\n                    <div class=\"modal-content\">\n                        <div class=\"modal-header\">\n                            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><i class=\"material-icons\">close</i></button>\n                            <h4 class=\"modal-title\" id=\"myModalLabel\">{{ \"Exscore lib\" | translate }}</h4>\n                        </div>\n                        <div class=\"modal-body\">\n                            <div id=\"app-demo\">\n                                <img src=\"@/assets/logo.png\">\n                                <div>\n                                    <el-button @click=\"startHacking\">Start</el-button>\n                                    <el-row class=\"block-col-2\">\n                                        <el-col :span=\"12\">\n                                            <span class=\"demonstration\">hover to trigger</span>\n                                            <el-dropdown>\n      <span class=\"el-dropdown-link\">\n        Dropdown List<i class=\"el-icon-arrow-down el-icon--right\"></i>\n      </span>\n                                                <el-dropdown-menu slot=\"dropdown\">\n                                                    <el-dropdown-item>Action 1</el-dropdown-item>\n                                                    <el-dropdown-item>Action 2</el-dropdown-item>\n                                                    <el-dropdown-item>Action 3</el-dropdown-item>\n                                                    <el-dropdown-item>Action 4</el-dropdown-item>\n                                                    <el-dropdown-item>Action 5</el-dropdown-item>\n                                                </el-dropdown-menu>\n                                            </el-dropdown>\n                                        </el-col>\n                                        <el-col :span=\"12\">\n                                            <span class=\"demonstration\">click to trigger</span>\n                                            <el-dropdown trigger=\"click\">\n      <span class=\"el-dropdown-link\">\n        Dropdown List<i class=\"el-icon-arrow-down el-icon--right\"></i>\n      </span>\n                                                <el-dropdown-menu slot=\"dropdown\">\n                                                    <el-dropdown-item>Action 1</el-dropdown-item>\n                                                    <el-dropdown-item>Action 2</el-dropdown-item>\n                                                    <el-dropdown-item>Action 3</el-dropdown-item>\n                                                    <el-dropdown-item>Action 4</el-dropdown-item>\n                                                    <el-dropdown-item>Action 5</el-dropdown-item>\n                                                </el-dropdown-menu>\n                                            </el-dropdown>\n                                        </el-col>\n                                    </el-row>\n                                </div>\n                                <HelloWorld :msg=\"'Hello World in variable here' | translate\"/>\n                            </div>\n                        </div>\n                        <div class=\"modal-footer\">\n                            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n                            <button type=\"button\" class=\"btn btn-primary\">Save changes</button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</template>\n\n<script>\n    function makeid() {\n        var text = \"\";\n        var possible = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\";\n\n        for (var i = 0; i < 5; i++)\n            text += possible.charAt(Math.floor(Math.random() * possible.length));\n\n        return text;\n    }\n    import HelloWorld from './minor_components/HelloWorld.vue'\n\n    export default {\n        name: 'demoApp',\n        /** Created hook\n         * No parameters\n         *\n         */\n        created: function(){},\n        /** Data must return None\n         * No parameters\n         *\n         */\n        data: function(){\n            return {\n                dataSet: {},\n\n                openModal: false,\n                uid: makeid(),\n            }\n        },\n        /** Declare components to use\n         * Dictonary\n         *\n         */\n        methods: {\n            fetchData: function(data){\n                var self = this;\n                self.dataSet = JSON.parse(JSON.stringify(data));\n                console.log(self.dataSet)\n                console.log(\"fetching data\")\n            },\n\n            startHacking () {\n                this.$notify({\n                    title: 'It works!',\n                    type: 'success',\n                    message: 'We\\'ve laid the ground work for you. It\\'s time for you to build something epic!',\n                    duration: 5000\n                })\n            }\n        },\n        components: {\n            HelloWorld\n        },\n        mounted: function(){\n            var self = this;\n            self.$root.$on('demoAppDataFetching',function(data){\n                self.fetchData(data)\n            })\n        },\n        beforeDestroy: function(){\n            var self = this;\n            self.$root.$off('demoAppDataFetching')\n        }\n    }\n</script>\n\n<style scoped>\n    .centered {\n        position: fixed;\n        top: 50%;\n        left: 50%;\n        /* bring your own prefixes */\n        transform: translate(-50%, -50%);\n    }\n    #app-demo {\n        font-family: Helvetica, sans-serif;\n        text-align: center;\n    }\n    .main-modal{\n        display: inline;\n        cursor:pointer;\n        font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    }\n    .close{\n        border:none;\n    }\n    .modal-title{\n        font-weight:bold;\n        color:#333;\n        font-size:20px;\n    }\n    .modal-dialog{\n        min-width:900px;\n    }\n    .modal-content{\n        border-radius:3px;\n        min-height:615px;\n        box-shadow:none;\n        border:none;\n    }\n    #demo-app {\n        font-family: 'Avenir', Helvetica, Arial, sans-serif;\n        -webkit-font-smoothing: antialiased;\n        -moz-osx-font-smoothing: grayscale;\n        text-align: center;\n        color: #2c3e50;\n        margin-top: 60px;\n    }\n</style>\n"]
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+var _getInitialNotifiatio;
+
+ // Mock network noti
+// Import mutation
+
+
+var getInitialNotifiations = (cov_wzl7iilpl.s[0]++, 'getInitialNotifiations');
+var markAsReadNotifications = (cov_wzl7iilpl.s[1]++, 'markAsReadNotifications');
+var getLazyNotifications = (cov_wzl7iilpl.s[2]++, 'getLazyNotifications');
+/* harmony default export */ var actions = (_getInitialNotifiatio = {}, _defineProperty(_getInitialNotifiatio, getInitialNotifiations, function (state, userId) {
+  cov_wzl7iilpl.s[3]++;
+  notification(userId).getInitialNotifiationData().then(function (response) {
+    cov_wzl7iilpl.f[0]++;
+    cov_wzl7iilpl.s[4]++;
+    state.commit('getInitialNotificationData', response);
+  }).catch(function (err) {
+    cov_wzl7iilpl.f[1]++;
+    cov_wzl7iilpl.s[5]++;
+    console.log(err);
+  });
+}), _defineProperty(_getInitialNotifiatio, markAsReadNotifications, function (state, _ref) {
+  var uid = _ref.uid,
+      unreadNotificationLists = _ref.unreadNotificationLists;
+  cov_wzl7iilpl.s[6]++;
+  notification(uid).updateUnreadNotifications(unreadNotificationLists).then(function () {
+    cov_wzl7iilpl.f[2]++;
+    cov_wzl7iilpl.s[7]++;
+    state.commit(clearUnreadNotificationList);
+  }).catch(function (err) {
+    cov_wzl7iilpl.f[3]++;
+    cov_wzl7iilpl.s[8]++;
+    console.log(err);
+  });
+}), _defineProperty(_getInitialNotifiatio, getLazyNotifications, function (state, nextLink) {
+  cov_wzl7iilpl.s[9]++;
+  notification().getLazyLoadNotificationData(nextLink).then(function (response) {
+    cov_wzl7iilpl.f[4]++;
+    cov_wzl7iilpl.s[10]++;
+    state.commit(getLazyloadNotificationData, response);
+  }).catch(function (err) {
+    cov_wzl7iilpl.f[5]++;
+    cov_wzl7iilpl.s[11]++;
+    console.log(err);
+  });
+}), _getInitialNotifiatio);
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/store/getters.js
+var cov_2ncimvdd84 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/getters.js",
+      hash = "01702744dbd3f9710fad3f86f1fc1d6712d6c8ac",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/getters.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 5,
+          column: 25
+        },
+        end: {
+          line: 7,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 2
+        },
+        end: {
+          line: 6,
+          column: 45
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 13
+        },
+        end: {
+          line: 10,
+          column: 1
+        }
+      },
+      "3": {
+        start: {
+          line: 9,
+          column: 2
+        },
+        end: {
+          line: 9,
+          column: 33
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 5,
+            column: 25
+          },
+          end: {
+            line: 5,
+            column: 26
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 36
+          },
+          end: {
+            line: 7,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 8,
+            column: 13
+          },
+          end: {
+            line: 8,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 24
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 8
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+ // ? why clone
+
+cov_2ncimvdd84.s[0]++;
+
+var getters_notificationData = function notificationData(state) {
+  cov_2ncimvdd84.f[0]++;
+  cov_2ncimvdd84.s[1]++;
+  return cloneObject(state.notificationData);
+};
+
+cov_2ncimvdd84.s[2]++;
+
+var getters_href = function href(state) {
+  cov_2ncimvdd84.f[1]++;
+  cov_2ncimvdd84.s[3]++;
+  return cloneObject(state.href);
+};
+
+/* harmony default export */ var getters = ({
+  notificationData: getters_notificationData,
+  href: getters_href
+});
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/store/state.js
+var cov_1z2i8gwu82 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/state.js",
+      hash = "921bddef15a0205bc2980262e902ed2b349c672e",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/state.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+/* harmony default export */ var store_state = ({
+  notificationData: {
+    unread_list: [],
+    results: [],
+    next: ''
+  },
+  href: '/performance/notifications'
+});
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/store/index.js
+var cov_i61i88qzu = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/index.js",
+      hash = "b6cda0e4b89b44f5a1f7c9565d2ffb52369ba2c6",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+
+
+/* harmony default export */ var cloudjet_noti_store = ({
+  namespaced: true,
+  state: store_state,
+  actions: actions,
+  getters: getters,
+  mutations: mutations
+});
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.promise.js
+var es6_promise = __webpack_require__("551c");
+
+// CONCATENATED MODULE: ./src/sdk/utils/mixins/buildInitMixin.js
+var cov_2509hmskyc = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/mixins/buildInitMixin.js",
+      hash = "fd9d818cf73b802193fb6fcc2830603fa0199239",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/mixins/buildInitMixin.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 4
+        },
+        end: {
+          line: 29,
+          column: 5
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 12
+        },
+        end: {
+          line: 7,
+          column: 13
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 15
+        },
+        end: {
+          line: 6,
+          column: 57
+        }
+      },
+      "3": {
+        start: {
+          line: 8,
+          column: 31
+        },
+        end: {
+          line: 8,
+          column: 40
+        }
+      },
+      "4": {
+        start: {
+          line: 10,
+          column: 12
+        },
+        end: {
+          line: 12,
+          column: 13
+        }
+      },
+      "5": {
+        start: {
+          line: 11,
+          column: 16
+        },
+        end: {
+          line: 11,
+          column: 62
+        }
+      },
+      "6": {
+        start: {
+          line: 16,
+          column: 27
+        },
+        end: {
+          line: 16,
+          column: 31
+        }
+      },
+      "7": {
+        start: {
+          line: 17,
+          column: 16
+        },
+        end: {
+          line: 26,
+          column: 19
+        }
+      },
+      "8": {
+        start: {
+          line: 18,
+          column: 20
+        },
+        end: {
+          line: 25,
+          column: 21
+        }
+      },
+      "9": {
+        start: {
+          line: 20,
+          column: 24
+        },
+        end: {
+          line: 20,
+          column: 64
+        }
+      },
+      "10": {
+        start: {
+          line: 21,
+          column: 24
+        },
+        end: {
+          line: 21,
+          column: 33
+        }
+      },
+      "11": {
+        start: {
+          line: 24,
+          column: 24
+        },
+        end: {
+          line: 24,
+          column: 35
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 1,
+            column: 15
+          },
+          end: {
+            line: 1,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 1,
+            column: 43
+          },
+          end: {
+            line: 30,
+            column: 1
+          }
+        },
+        line: 1
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 17,
+            column: 35
+          },
+          end: {
+            line: 17,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 62
+          },
+          end: {
+            line: 26,
+            column: 17
+          }
+        },
+        line: 17
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 5,
+            column: 12
+          },
+          end: {
+            line: 7,
+            column: 13
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 5,
+            column: 12
+          },
+          end: {
+            line: 7,
+            column: 13
+          }
+        }, {
+          start: {
+            line: 5,
+            column: 12
+          },
+          end: {
+            line: 7,
+            column: 13
+          }
+        }],
+        line: 5
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 10,
+            column: 12
+          },
+          end: {
+            line: 12,
+            column: 13
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 10,
+            column: 12
+          },
+          end: {
+            line: 12,
+            column: 13
+          }
+        }, {
+          start: {
+            line: 10,
+            column: 12
+          },
+          end: {
+            line: 12,
+            column: 13
+          }
+        }],
+        line: 10
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -69487,261 +68487,162 @@ var cov_jiklwo14e = function () {
   return coverage[path] = coverageData;
 }();
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-function makeid() {
-  cov_jiklwo14e.f[0]++;
-  var text = (cov_jiklwo14e.s[0]++, "");
-  var possible = (cov_jiklwo14e.s[1]++, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789");
-  cov_jiklwo14e.s[2]++;
-
-  for (var i = 0; i < 5; i++) {
-    cov_jiklwo14e.s[3]++;
-    text += possible.charAt(Math.floor(Math.random() * possible.length));
-  }
-
-  cov_jiklwo14e.s[4]++;
-  return text;
-}
 
 
-/* harmony default export */ var mainvue_type_script_lang_js_ = ({
-  name: 'demoApp',
 
-  /** Created hook
-   * No parameters
-   *
-   */
-  created: function created() {
-    cov_jiklwo14e.f[1]++;
-  },
+/* harmony default export */ var buildInitMixin = (function (STORE_KEY, store) {
+  cov_2509hmskyc.f[0]++;
+  cov_2509hmskyc.s[0]++;
+  return {
+    name: STORE_KEY,
+    created: function created() {
+      cov_2509hmskyc.s[1]++;
 
-  /** Data must return None
-   * No parameters
-   *
-   */
-  data: function data() {
-    cov_jiklwo14e.f[2]++;
-    cov_jiklwo14e.s[5]++;
-    return {
-      dataSet: {},
-      openModal: false,
-      uid: makeid()
-    };
-  },
+      if (STORE_KEY.length < 1) {
+        cov_2509hmskyc.b[0][0]++;
+        cov_2509hmskyc.s[2]++;
+        throw "The component is not set with name";
+      } else {
+        cov_2509hmskyc.b[0][1]++;
+      }
 
-  /** Declare components to use
-   * Dictonary
-   *
-   */
-  methods: {
-    fetchData: function fetchData(data) {
-      cov_jiklwo14e.f[3]++;
-      var self = (cov_jiklwo14e.s[6]++, this);
-      cov_jiklwo14e.s[7]++;
-      self.dataSet = JSON.parse(JSON.stringify(data));
-      cov_jiklwo14e.s[8]++;
-      console.log(self.dataSet);
-      cov_jiklwo14e.s[9]++;
-      console.log("fetching data");
+      var _STORE_KEY = (cov_2509hmskyc.s[3]++, STORE_KEY); // eslint-disable-next-line no-underscore-dangle
+
+
+      cov_2509hmskyc.s[4]++;
+
+      if (!(_STORE_KEY in this.$store._modules.root._children)) {
+        cov_2509hmskyc.b[1][0]++;
+        cov_2509hmskyc.s[5]++;
+        this.$store.registerModule(_STORE_KEY, store);
+      } else {
+        cov_2509hmskyc.b[1][1]++;
+      }
     },
-    startHacking: function startHacking() {
-      cov_jiklwo14e.s[10]++;
-      this.$notify({
-        title: 'It works!',
-        type: 'success',
-        message: 'We\'ve laid the ground work for you. It\'s time for you to build something epic!',
-        duration: 5000
-      });
+    methods: {
+      $initializeDataStoreGlobal: function $initializeDataStoreGlobal() {
+        // for global store triggered
+        var self = (cov_2509hmskyc.s[6]++, this);
+        cov_2509hmskyc.s[7]++;
+        return new Promise(
+        /*#__PURE__*/
+        function () {
+          var _ref = _asyncToGenerator(
+          /*#__PURE__*/
+          regeneratorRuntime.mark(function _callee(resolve, reject) {
+            return regeneratorRuntime.wrap(function _callee$(_context) {
+              while (1) {
+                switch (_context.prev = _context.next) {
+                  case 0:
+                    cov_2509hmskyc.f[1]++;
+                    cov_2509hmskyc.s[8]++;
+                    _context.prev = 2;
+                    cov_2509hmskyc.s[9]++;
+                    _context.next = 6;
+                    return self.$store.dispatch("initialize");
+
+                  case 6:
+                    cov_2509hmskyc.s[10]++;
+                    resolve();
+                    _context.next = 14;
+                    break;
+
+                  case 10:
+                    _context.prev = 10;
+                    _context.t0 = _context["catch"](2);
+                    cov_2509hmskyc.s[11]++;
+                    reject(_context.t0);
+
+                  case 14:
+                  case "end":
+                    return _context.stop();
+                }
+              }
+            }, _callee, this, [[2, 10]]);
+          }));
+
+          return function (_x, _x2) {
+            return _ref.apply(this, arguments);
+          };
+        }());
+      }
     }
-  },
-  components: {
-    HelloWorld: HelloWorld
-  },
-  mounted: function mounted() {
-    cov_jiklwo14e.f[4]++;
-    var self = (cov_jiklwo14e.s[11]++, this);
-    cov_jiklwo14e.s[12]++;
-    self.$root.$on('demoAppDataFetching', function (data) {
-      cov_jiklwo14e.f[5]++;
-      cov_jiklwo14e.s[13]++;
-      self.fetchData(data);
-    });
-  },
-  beforeDestroy: function beforeDestroy() {
-    cov_jiklwo14e.f[6]++;
-    var self = (cov_jiklwo14e.s[14]++, this);
-    cov_jiklwo14e.s[15]++;
-    self.$root.$off('demoAppDataFetching');
-  }
+  };
 });
-// CONCATENATED MODULE: ./src/templates/components/demo_app/main.vue?vue&type=script&lang=js&
- /* harmony default export */ var demo_app_mainvue_type_script_lang_js_ = (mainvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/demo_app/main.vue?vue&type=style&index=0&id=de3a8234&scoped=true&lang=css&
-var mainvue_type_style_index_0_id_de3a8234_scoped_true_lang_css_ = __webpack_require__("b3dd");
-
-// CONCATENATED MODULE: ./src/templates/components/demo_app/main.vue
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=template&id=75eab074&scoped=true&
+var notification_containervue_type_template_id_75eab074_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"notificationWrapper",staticClass:"notification"},[_c('notification_bell',{attrs:{"isToggle":_vm.isShowNotificationList,"notificationCount":_vm.notificationData.unread_list.length},on:{"click":_vm.toggleNotificationList}}),(_vm.isShowNotificationList)?_c('notification_list',{staticClass:"notification__list",attrs:{"notificationItems":_vm.notificationData.results,"href":_vm.href,"next":_vm.notificationData.next},on:{"lazyLoad":_vm.notificationListOnLazyLoad}}):_vm._e()],1)}
+var notification_containervue_type_template_id_75eab074_scoped_true_staticRenderFns = []
 
 
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=template&id=75eab074&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=template&id=6f78eede&scoped=true&
+var notification_bellvue_type_template_id_6f78eede_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification_bell"},[_c('button',{class:_vm.notificationBellButtonClass,on:{"click":_vm.notificationBellOnClick}},[(_vm.notificationCount>0)?_c('div',{staticClass:"notification_bell__number"},[_vm._v(_vm._s(_vm.formatNotificationCount))]):_vm._e(),_c('img',{staticClass:"notification_bell__icon",attrs:{"src":__webpack_require__("3220")}})])])}
+var notification_bellvue_type_template_id_6f78eede_scoped_true_staticRenderFns = []
 
 
-
-
-/* normalize component */
-
-var main_component = normalizeComponent(
-  demo_app_mainvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  "de3a8234",
-  null
-  
-)
-
-main_component.options.__file = "main.vue"
-/* harmony default export */ var main = (main_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=template&id=37b1eff2&scoped=true&
-var notification_containervue_type_template_id_37b1eff2_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"notificationWrapper",staticClass:"notification"},[_c('notification_bell',{attrs:{"isToggle":_vm.isShowNotificationList,"notificationCount":_vm.notificationData.unread_list.length},on:{"click":_vm.toggleNotificationList}}),(_vm.isShowNotificationList)?_c('notification_list',{staticClass:"notification__list",attrs:{"notificationItems":_vm.notificationData.results,"href":_vm.href,"next":_vm.notificationData.next},on:{"lazyLoad":_vm.notificationListOnLazyLoad}}):_vm._e()],1)}
-var notification_containervue_type_template_id_37b1eff2_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=template&id=37b1eff2&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue?vue&type=template&id=57eacbaa&scoped=true&
-var notification_bellvue_type_template_id_57eacbaa_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification_bell"},[_c('button',{class:_vm.notificationBellButtonClass,on:{"click":_vm.notificationBellOnClick}},[(_vm.notificationCount>0)?_c('div',{staticClass:"notification_bell__number"},[_vm._v(_vm._s(_vm.formatNotificationCount))]):_vm._e(),_c('img',{staticClass:"notification_bell__icon",attrs:{"src":__webpack_require__("1f61")}})])])}
-var notification_bellvue_type_template_id_57eacbaa_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue?vue&type=template&id=57eacbaa&scoped=true&
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=template&id=6f78eede&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.number.constructor.js
 var es6_number_constructor = __webpack_require__("c5f6");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue?vue&type=script&lang=js&
-var cov_bb5yot2ei = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue",
-      hash = "0662d545f95af710a4fe0428e59e75430cb5c039",
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=script&lang=js&
+var cov_27rnij47lf = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue",
+      hash = "f2b6903ed29cf713d93c82eee5da07998dda994c",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
       coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue",
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue",
     statementMap: {
       "0": {
         start: {
-          line: 154,
+          line: 39,
           column: 6
         },
         end: {
-          line: 154,
+          line: 39,
           column: 26
         }
       },
       "1": {
         start: {
-          line: 160,
+          line: 45,
           column: 6
         },
         end: {
-          line: 163,
+          line: 48,
           column: 7
         }
       },
       "2": {
         start: {
-          line: 167,
+          line: 52,
           column: 6
         },
         end: {
-          line: 171,
+          line: 56,
           column: 7
         }
       },
       "3": {
         start: {
-          line: 168,
+          line: 53,
           column: 8
         },
         end: {
-          line: 168,
+          line: 53,
           column: 19
         }
       },
       "4": {
         start: {
-          line: 170,
+          line: 55,
           column: 8
         },
         end: {
-          line: 170,
+          line: 55,
           column: 37
         }
       }
@@ -69751,68 +68652,68 @@ var cov_bb5yot2ei = function () {
       "0": {
         loc: {
           start: {
-            line: 162,
+            line: 47,
             column: 8
           },
           end: {
-            line: 162,
+            line: 47,
             column: 64
           }
         },
         type: "cond-expr",
         locations: [{
           start: {
-            line: 162,
+            line: 47,
             column: 24
           },
           end: {
-            line: 162,
+            line: 47,
             column: 59
           }
         }, {
           start: {
-            line: 162,
+            line: 47,
             column: 62
           },
           end: {
-            line: 162,
+            line: 47,
             column: 64
           }
         }],
-        line: 162
+        line: 47
       },
       "1": {
         loc: {
           start: {
-            line: 167,
+            line: 52,
             column: 6
           },
           end: {
-            line: 171,
+            line: 56,
             column: 7
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 167,
+            line: 52,
             column: 6
           },
           end: {
-            line: 171,
+            line: 56,
             column: 7
           }
         }, {
           start: {
-            line: 167,
+            line: 52,
             column: 6
           },
           end: {
-            line: 171,
+            line: 56,
             column: 7
           }
         }],
-        line: 167
+        line: 52
       }
     },
     s: {
@@ -69831,10 +68732,10 @@ var cov_bb5yot2ei = function () {
       version: 3,
       sources: ["notification_bell.vue"],
       names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AA6HA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+      mappings: ";;;;;;;;;;AAUA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
       file: "notification_bell.vue",
-      sourceRoot: "src/templates/components/clouldjet_noti/notification_bell",
-      sourcesContent: ["<template>\n  <div class=\"notification_bell\">\n    <button :class=\"notificationBellButtonClass\" @click=\"notificationBellOnClick\">\n      <div class=\"notification_bell__number\" v-if=\"notificationCount>0\">{{formatNotificationCount}}</div>\n      <img src=\"./notification_bell.svg\" class=\"notification_bell__icon\"/>\n    </button>\n  </div>\n</template>\n\n<script>\nexport default {\n  props: {\n    /**\n     * S\u1ED1 l\u01B0\u1EE3ng notification s\u1EBD \u0111\u01B0\u1EE3c hi\u1EC3n th\u1ECB\n     * Business:\n     * N\u1EBFu nh\u1ECF h\u01A1n ho\u1EB7c b\u1EB1ng 9 hi\u1EC3n th\u1ECB b\xECnh th\u01B0\u1EDDng\n     * N\u1EBFu l\u1EDBn h\u01A1n 9 hi\u1EC3n th\u1ECB 9+\n     */\n    notificationCount: {\n      type: Number\n    },\n\n    /**\n     * Bind class toggle to button\n     * Apply style for state [hover, active, normal]\n     */\n    isToggle: {\n      type: Boolean\n    }\n  },\n\n  methods: {\n    notificationBellOnClick() {\n      /**\n       * Event khi click v\xE0o c\xE1i chu\xF4ng\n       * @event click\n       * @type {Undefined}\n       */\n      this.$emit(\"click\");\n    },\n  },\n\n  computed: {\n    notificationBellButtonClass () {\n      return [\n        'notification_bell__button',\n        this.isToggle ? 'notification_bell__button--toggle' : ''\n      ]\n    },\n\n    formatNotificationCount () {\n      if (this.notificationCount > 9) {\n        return \"9+\"\n      } else {\n        return this.notificationCount\n      }\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification_bell {\n  display: inline-block;\n\n  &__number {\n    color: white;\n    top: 8px !important;\n    background: #d9534f !important;\n    position: absolute;\n    width: 18px;\n    height: 18px;\n    border-radius: 50%;\n    line-height: 18px;\n    font-size: 10px;\n    text-align: center;\n    right: 5px;\n    cursor: pointer;\n  }\n\n  &__button {\n    &:hover {\n      background: #008b8b;\n      cursor: pointer;\n    }\n\n    &:active > .notification_bell__number {\n      display: none\n    }\n\n    &--toggle {\n      &,\n      &:hover,\n      &:active {\n        background: #008b8b;\n      }\n    }\n\n    outline: 0;\n    position: relative;\n    background: transparent;\n    border: 0px;\n    padding: 0 10px\n  }\n\n\n\n  &__icon {\n    width: 30px;\n    height: 30px;\n  }\n}\n</style>\n\n<docs>\n</docs><template>\n  <div class=\"notification_bell\">\n    <button :class=\"notificationBellButtonClass\" @click=\"notificationBellOnClick\">\n      <div class=\"notification_bell__number\" v-if=\"notificationCount>0\">{{formatNotificationCount}}</div>\n      <img src=\"./notification_bell.svg\" class=\"notification_bell__icon\"/>\n    </button>\n  </div>\n</template>\n\n<script>\nexport default {\n  props: {\n    /**\n     * S\u1ED1 l\u01B0\u1EE3ng notification s\u1EBD \u0111\u01B0\u1EE3c hi\u1EC3n th\u1ECB\n     * Business:\n     * N\u1EBFu nh\u1ECF h\u01A1n ho\u1EB7c b\u1EB1ng 9 hi\u1EC3n th\u1ECB b\xECnh th\u01B0\u1EDDng\n     * N\u1EBFu l\u1EDBn h\u01A1n 9 hi\u1EC3n th\u1ECB 9+\n     */\n    notificationCount: {\n      type: Number\n    },\n\n    /**\n     * Bind class toggle to button\n     * Apply style for state [hover, active, normal]\n     */\n    isToggle: {\n      type: Boolean\n    }\n  },\n\n  methods: {\n    notificationBellOnClick() {\n      /**\n       * Event khi click v\xE0o c\xE1i chu\xF4ng\n       * @event click\n       * @type {Undefined}\n       */\n      this.$emit(\"click\");\n    },\n  },\n\n  computed: {\n    notificationBellButtonClass () {\n      return [\n        'notification_bell__button',\n        this.isToggle ? 'notification_bell__button--toggle' : ''\n      ]\n    },\n\n    formatNotificationCount () {\n      if (this.notificationCount > 9) {\n        return \"9+\"\n      } else {\n        return this.notificationCount\n      }\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification_bell {\n  display: inline-block;\n\n  &__number {\n    color: white;\n    top: 8px !important;\n    background: #d9534f !important;\n    position: absolute;\n    width: 18px;\n    height: 18px;\n    border-radius: 50%;\n    line-height: 18px;\n    font-size: 10px;\n    text-align: center;\n    right: 5px;\n    cursor: pointer;\n  }\n\n  &__button {\n    &:hover {\n      background: #008b8b;\n      cursor: pointer;\n    }\n\n    &:active > .notification_bell__number {\n      display: none\n    }\n\n    &--toggle {\n      &,\n      &:hover,\n      &:active {\n        background: #008b8b;\n      }\n    }\n\n    outline: 0;\n    position: relative;\n    background: transparent;\n    border: 0px;\n    height: 50px;\n  }\n\n\n\n  &__icon {\n    font-size: 30px;\n  }\n}\n</style>"]
+      sourceRoot: "src/templates/components/cloudjet_noti/components/notification_bell",
+      sourcesContent: ["<template>\n  <div class=\"notification_bell\">\n    <button :class=\"notificationBellButtonClass\" @click=\"notificationBellOnClick\">\n      <div class=\"notification_bell__number\" v-if=\"notificationCount>0\">{{formatNotificationCount}}</div>\n      <img src=\"./notification_bell.svg\" class=\"notification_bell__icon\"/>\n    </button>\n  </div>\n</template>\n\n<script>\nexport default {\n  props: {\n    /**\n     * S\u1ED1 l\u01B0\u1EE3ng notification s\u1EBD \u0111\u01B0\u1EE3c hi\u1EC3n th\u1ECB\n     * Business:\n     * N\u1EBFu nh\u1ECF h\u01A1n ho\u1EB7c b\u1EB1ng 9 hi\u1EC3n th\u1ECB b\xECnh th\u01B0\u1EDDng\n     * N\u1EBFu l\u1EDBn h\u01A1n 9 hi\u1EC3n th\u1ECB 9+\n     */\n    notificationCount: {\n      type: Number\n    },\n\n    /**\n     * Bind class toggle to button\n     * Apply style for state [hover, active, normal]\n     */\n    isToggle: {\n      type: Boolean\n    }\n  },\n\n  methods: {\n    notificationBellOnClick() {\n      /**\n       * Event khi click v\xE0o c\xE1i chu\xF4ng\n       * @event click\n       * @type {Undefined}\n       */\n      this.$emit(\"click\");\n    },\n  },\n\n  computed: {\n    notificationBellButtonClass () {\n      return [\n        'notification_bell__button',\n        this.isToggle ? 'notification_bell__button--toggle' : ''\n      ]\n    },\n\n    formatNotificationCount () {\n      if (this.notificationCount > 9) {\n        return \"9+\"\n      } else {\n        return this.notificationCount\n      }\n    }\n  }\n};\n</script>\n<style scoped lang=\"scss\">\n.notification_bell {\n  display: inline-block;\n\n  &__number {\n    color: white;\n    top: 8px !important;\n    background: #d9534f !important;\n    position: absolute;\n    width: 18px;\n    height: 18px;\n    border-radius: 50%;\n    line-height: 18px;\n    font-size: 10px;\n    text-align: center;\n    right: 5px;\n    cursor: pointer;\n  }\n\n  &__button {\n    &:hover {\n      background: #008b8b;\n      cursor: pointer;\n    }\n\n    &:active > .notification_bell__number {\n      display: none\n    }\n\n    &--toggle {\n      &,\n      &:hover,\n      &:active {\n        background: #008b8b;\n      }\n    }\n\n    outline: 0;\n    position: relative;\n    background: transparent;\n    border: 0px;\n    height: 50px;\n    width: 50px; // Fix scoped style\n  }\n\n\n\n  &__icon {\n    font-size: 30px;\n  }\n}\n</style>"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -69849,121 +68750,6 @@ var cov_bb5yot2ei = function () {
 }();
 
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -69995,7 +68781,7 @@ var cov_bb5yot2ei = function () {
   },
   methods: {
     notificationBellOnClick: function notificationBellOnClick() {
-      cov_bb5yot2ei.s[0]++;
+      cov_27rnij47lf.s[0]++;
 
       /**
        * Event khi click vào cái chuông
@@ -70007,37 +68793,33 @@ var cov_bb5yot2ei = function () {
   },
   computed: {
     notificationBellButtonClass: function notificationBellButtonClass() {
-      cov_bb5yot2ei.s[1]++;
-      return ['notification_bell__button', this.isToggle ? (cov_bb5yot2ei.b[0][0]++, 'notification_bell__button--toggle') : (cov_bb5yot2ei.b[0][1]++, '')];
+      cov_27rnij47lf.s[1]++;
+      return ['notification_bell__button', this.isToggle ? (cov_27rnij47lf.b[0][0]++, 'notification_bell__button--toggle') : (cov_27rnij47lf.b[0][1]++, '')];
     },
     formatNotificationCount: function formatNotificationCount() {
-      cov_bb5yot2ei.s[2]++;
+      cov_27rnij47lf.s[2]++;
 
       if (this.notificationCount > 9) {
-        cov_bb5yot2ei.b[1][0]++;
-        cov_bb5yot2ei.s[3]++;
+        cov_27rnij47lf.b[1][0]++;
+        cov_27rnij47lf.s[3]++;
         return "9+";
       } else {
-        cov_bb5yot2ei.b[1][1]++;
-        cov_bb5yot2ei.s[4]++;
+        cov_27rnij47lf.b[1][1]++;
+        cov_27rnij47lf.s[4]++;
         return this.notificationCount;
       }
     }
   }
 });
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=script&lang=js&
  /* harmony default export */ var notification_bell_notification_bellvue_type_script_lang_js_ = (notification_bellvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue?vue&type=style&index=0&id=57eacbaa&scoped=true&lang=scss&
-var notification_bellvue_type_style_index_0_id_57eacbaa_scoped_true_lang_scss_ = __webpack_require__("3b9f");
+// EXTERNAL MODULE: ./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=style&index=0&id=6f78eede&scoped=true&lang=scss&
+var notification_bellvue_type_style_index_0_id_6f78eede_scoped_true_lang_scss_ = __webpack_require__("d442");
 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue?vue&type=style&index=1&id=57eacbaa&scoped=true&lang=scss&
-var notification_bellvue_type_style_index_1_id_57eacbaa_scoped_true_lang_scss_ = __webpack_require__("ca04");
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue?vue&type=custom&index=0&blockType=docs
-var notification_bellvue_type_custom_index_0_blockType_docs = __webpack_require__("6d81");
-
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_bell/notification_bell.vue
-
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue
 
 
 
@@ -70046,144 +68828,113 @@ var notification_bellvue_type_custom_index_0_blockType_docs = __webpack_require_
 
 /* normalize component */
 
-var notification_bell_component = normalizeComponent(
+var component = Object(componentNormalizer["a" /* default */])(
   notification_bell_notification_bellvue_type_script_lang_js_,
-  notification_bellvue_type_template_id_57eacbaa_scoped_true_render,
-  notification_bellvue_type_template_id_57eacbaa_scoped_true_staticRenderFns,
+  notification_bellvue_type_template_id_6f78eede_scoped_true_render,
+  notification_bellvue_type_template_id_6f78eede_scoped_true_staticRenderFns,
   false,
   null,
-  "57eacbaa",
+  "6f78eede",
   null
   
 )
 
-/* custom blocks */
-
-if (typeof notification_bellvue_type_custom_index_0_blockType_docs["default"] === 'function') Object(notification_bellvue_type_custom_index_0_blockType_docs["default"])(notification_bell_component)
-
-notification_bell_component.options.__file = "notification_bell.vue"
-/* harmony default export */ var notification_bell = (notification_bell_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=34274676&scoped=true&
-var notification_listvue_type_template_id_34274676_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-list"},[_c('div',{staticClass:"notification-list__header"},[_vm._v("\n    Thông báo\n  ")]),_c('div',{ref:"notificationItemScrollableWrapper",class:_vm.notificationItemWrapperClass,on:{"scroll":_vm.scroll}},_vm._l((_vm.notificationItems),function(notificationItem){return _c('notification_item',{key:notificationItem.id,staticClass:"notification-list__item",attrs:{"href":_vm.href,"notificationData":notificationItem}})})),_c('div',{staticClass:"notification-list__footer"},[_c('a',{staticClass:"notification-list__link",attrs:{"href":_vm.href}},[_vm._v("\n      Xem tất cả\n    ")])])])}
-var notification_listvue_type_template_id_34274676_scoped_true_staticRenderFns = []
+component.options.__file = "notification_bell.vue"
+/* harmony default export */ var notification_bell = (component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=template&id=56093643&scoped=true&
+var notification_listvue_type_template_id_56093643_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-list"},[_c('div',{staticClass:"notification-list__header"},[_vm._v("\n    Thông báo\n  ")]),_c('div',{ref:"notificationItemScrollableWrapper",class:_vm.notificationItemWrapperClass,on:{"scroll":_vm.scroll}},_vm._l((_vm.notificationItems),function(notificationItem){return _c('notification_item',{key:notificationItem.id,staticClass:"notification-list__item",attrs:{"href":_vm.href,"notificationData":notificationItem}})})),_c('div',{staticClass:"notification-list__footer"},[_c('a',{staticClass:"notification-list__link",attrs:{"href":_vm.href}},[_vm._v("\n      Xem tất cả\n    ")])])])}
+var notification_listvue_type_template_id_56093643_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=template&id=34274676&scoped=true&
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=template&id=56093643&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=4aa5d10c&scoped=true&
-var notification_itemvue_type_template_id_4aa5d10c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-item",on:{"click":_vm.redirectToNotification}},[_c('img',{staticClass:"notification-item__image",attrs:{"src":_vm.notificationData.actor_avatar}}),_c('div',{staticClass:"notification-item__data-wrapper"},[_c('div',{staticClass:"notification-item__data"},[(_vm.notificationData.type_notification==='change_log')?_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm._f("translate")("Cloudjet KPI updated new version"))+": ")]),_c('span',{staticClass:"notification-item__version"},[_vm._v(_vm._s(_vm._f("translate")("Version"))+" "+_vm._s(_vm.notificationData.version)+" ")]),_c('span',{staticClass:"notification-item__release-date"},[_vm._v(_vm._s(_vm._f("translate")("updated"))+" "+_vm._s(_vm.notificationData.release_date)+" ")])]):_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm.notificationData.actor_name)+": ")]),_c('span',{staticClass:"notification-item__content-action",domProps:{"innerHTML":_vm._s(_vm.ellipisDescription)}})])]),_c('div',{staticClass:"notification-item__diffTime"},[_vm._v(_vm._s(_vm.diffTimeToString))])])])}
-var notification_itemvue_type_template_id_4aa5d10c_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=template&id=4aa5d10c&scoped=true&
-
-// EXTERNAL MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=script&lang=js&
-var notification_itemvue_type_script_lang_js_ = __webpack_require__("0cd5");
-
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=script&lang=js&
- /* harmony default export */ var notification_item_notification_itemvue_type_script_lang_js_ = (notification_itemvue_type_script_lang_js_["a" /* default */]); 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue?vue&type=style&index=0&id=4aa5d10c&scoped=true&lang=scss&
-var notification_itemvue_type_style_index_0_id_4aa5d10c_scoped_true_lang_scss_ = __webpack_require__("b4fb");
-
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_item/notification_item.vue
-
-
-
-
-
-
-/* normalize component */
-
-var notification_item_component = normalizeComponent(
-  notification_item_notification_itemvue_type_script_lang_js_,
-  notification_itemvue_type_template_id_4aa5d10c_scoped_true_render,
-  notification_itemvue_type_template_id_4aa5d10c_scoped_true_staticRenderFns,
-  false,
-  null,
-  "4aa5d10c",
-  null
-  
-)
-
-notification_item_component.options.__file = "notification_item.vue"
-/* harmony default export */ var notification_item = (notification_item_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=script&lang=js&
-var cov_2ei68pxsb4 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_list/notification_list.vue",
-      hash = "107a74549b3107648c0fc66f82d78a4469ac6a87",
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=script&lang=js&
+var cov_41x25f4q9 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue",
+      hash = "94df5d2f90f90b255fb523b214fec9898e15f3f4",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
       coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_list/notification_list.vue",
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue",
     statementMap: {
       "0": {
         start: {
-          line: 39,
-          column: 48
+          line: 31,
+          column: 26
         },
         end: {
-          line: 40,
-          column: 42
+          line: 31,
+          column: 83
         }
       },
       "1": {
         start: {
-          line: 42,
-          column: 6
+          line: 40,
+          column: 48
         },
         end: {
-          line: 50,
-          column: 8
+          line: 41,
+          column: 42
         }
       },
       "2": {
         start: {
-          line: 60,
+          line: 43,
           column: 6
         },
         end: {
-          line: 70,
-          column: 7
+          line: 51,
+          column: 8
         }
       },
       "3": {
         start: {
           line: 61,
-          column: 8
+          column: 6
         },
         end: {
-          line: 69,
-          column: 9
+          line: 71,
+          column: 7
         }
       },
       "4": {
         start: {
-          line: 68,
-          column: 10
+          line: 62,
+          column: 8
         },
         end: {
-          line: 68,
-          column: 44
+          line: 70,
+          column: 9
         }
       },
       "5": {
         start: {
-          line: 106,
-          column: 6
+          line: 69,
+          column: 10
         },
         end: {
-          line: 106,
-          column: 80
+          line: 69,
+          column: 44
         }
       },
       "6": {
         start: {
-          line: 115,
+          line: 107,
           column: 6
         },
         end: {
-          line: 118,
+          line: 107,
+          column: 80
+        }
+      },
+      "7": {
+        start: {
+          line: 116,
+          column: 6
+        },
+        end: {
+          line: 119,
           column: 8
         }
       }
@@ -70193,167 +68944,167 @@ var cov_2ei68pxsb4 = function () {
       "0": {
         loc: {
           start: {
-            line: 58,
+            line: 59,
             column: 14
           },
           end: {
-            line: 58,
+            line: 59,
             column: 75
           }
         },
         type: "default-arg",
         locations: [{
           start: {
-            line: 58,
+            line: 59,
             column: 44
           },
           end: {
-            line: 58,
+            line: 59,
             column: 75
           }
         }],
-        line: 58
+        line: 59
       },
       "1": {
         loc: {
           start: {
-            line: 60,
+            line: 61,
             column: 6
           },
           end: {
-            line: 70,
+            line: 71,
             column: 7
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 60,
+            line: 61,
             column: 6
           },
           end: {
-            line: 70,
+            line: 71,
             column: 7
           }
         }, {
           start: {
-            line: 60,
+            line: 61,
             column: 6
           },
           end: {
-            line: 70,
+            line: 71,
             column: 7
-          }
-        }],
-        line: 60
-      },
-      "2": {
-        loc: {
-          start: {
-            line: 61,
-            column: 8
-          },
-          end: {
-            line: 69,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 61,
-            column: 8
-          },
-          end: {
-            line: 69,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 61,
-            column: 8
-          },
-          end: {
-            line: 69,
-            column: 9
           }
         }],
         line: 61
       },
+      "2": {
+        loc: {
+          start: {
+            line: 62,
+            column: 8
+          },
+          end: {
+            line: 70,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 62,
+            column: 8
+          },
+          end: {
+            line: 70,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 62,
+            column: 8
+          },
+          end: {
+            line: 70,
+            column: 9
+          }
+        }],
+        line: 62
+      },
       "3": {
         loc: {
           start: {
-            line: 106,
+            line: 107,
             column: 13
           },
           end: {
-            line: 106,
+            line: 107,
             column: 79
           }
         },
         type: "cond-expr",
         locations: [{
           start: {
-            line: 106,
+            line: 107,
             column: 35
           },
           end: {
-            line: 106,
+            line: 107,
             column: 74
           }
         }, {
           start: {
-            line: 106,
+            line: 107,
             column: 77
           },
           end: {
-            line: 106,
+            line: 107,
             column: 79
           }
         }],
-        line: 106
+        line: 107
       },
       "4": {
         loc: {
           start: {
-            line: 116,
+            line: 117,
             column: 8
           },
           end: {
-            line: 117,
+            line: 118,
             column: 41
           }
         },
         type: "binary-expr",
         locations: [{
           start: {
-            line: 116,
+            line: 117,
             column: 9
           },
           end: {
-            line: 116,
+            line: 117,
             column: 44
           }
         }, {
           start: {
-            line: 116,
+            line: 117,
             column: 48
           },
           end: {
-            line: 116,
+            line: 117,
             column: 57
           }
         }, {
           start: {
-            line: 117,
+            line: 118,
             column: 8
           },
           end: {
-            line: 117,
+            line: 118,
             column: 41
           }
         }],
-        line: 116
+        line: 117
       }
     },
     s: {
@@ -70363,7 +69114,8 @@ var cov_2ei68pxsb4 = function () {
       "3": 0,
       "4": 0,
       "5": 0,
-      "6": 0
+      "6": 0,
+      "7": 0
     },
     f: {},
     b: {
@@ -70377,10 +69129,10 @@ var cov_2ei68pxsb4 = function () {
       version: 3,
       sources: ["notification_list.vue"],
       names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;AA6BA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;AA6BA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
       file: "notification_list.vue",
-      sourceRoot: "src/templates/components/clouldjet_noti/notification_list",
-      sourcesContent: ["<template>\n  <div class=\"notification-list\">\n    <div class=\"notification-list__header\">\n      Th\xF4ng b\xE1o\n    </div>\n\n    <div\n            :class=\"notificationItemWrapperClass\"\n            @scroll=\"scroll\"\n            ref=\"notificationItemScrollableWrapper\">\n\n      <notification_item\n              class=\"notification-list__item\"\n              :href=\"href\"\n              v-for=\"notificationItem in notificationItems\"\n              :notificationData=\"notificationItem\"\n              :key=\"notificationItem.id\"/>\n\n    </div>\n\n    <div class=\"notification-list__footer\">\n      <a :href=\"href\" class=\"notification-list__link\">\n        Xem t\u1EA5t c\u1EA3\n      </a>\n    </div>\n  </div>\n</template>\n\n<script>\nimport notification_item from \"../notification_item/notification_item\";\n\nexport default {\n  methods: {\n    /**\n     *  Check behavior when scroll reach bottom\n     */\n    isNotificationItemScroller() {\n      // Pr\n      const notificationItemScrollableWrapper = this.$refs\n        .notificationItemScrollableWrapper;\n\n      return (\n        /**\n         * Scroll touch bottom\n         * Don't know how this shit work but it was ameizing\n         */\n        notificationItemScrollableWrapper.scrollHeight -\n          notificationItemScrollableWrapper.scrollTop ===\n        notificationItemScrollableWrapper.clientHeight\n      );\n    },\n\n    /**\n     * Emmit if next prop exist\n     * Manually test scroll behavior: No Unit Test idea yet ??\n     *\n     */\n    scroll(e, IisNotificationItemScroller = this.isNotificationItemScroller) {\n      // Pass a function to mock that behavior\n      if (this.next) {\n        if (IisNotificationItemScroller()) {\n          /**\n           * Bubble to top componentn: notificatoin\n           *\n           * @event lazyLoad\n           * @type {string}\n           */\n          this.$emit(\"lazyLoad\", this.next);\n        }\n      }\n    }\n  },\n\n  components: {\n    notification_item\n  },\n\n  props: {\n    /**\n     * Link redirect when click \"Xem t\u1EA5t c\u1EA3\"\n     */\n    href: {\n      type: String,\n      default: \"#\"\n    },\n\n    /**\n     * Pass array object results\n     * Return of API\n     */\n    notificationItems: {\n      type: Array\n    },\n\n    /**\n     * next exist then scroll will emmit scroll\n     * eventually scroll will be bubble to notification component\n     */\n    next: {\n      type: String\n    }\n  },\n\n  computed: {\n    notificationItemWrapperClass() {\n      return this.isLazyLoadMode ? \"notification-list__scrollable-wrapper\" : \"\";\n    },\n\n    isLazyLoadMode() {\n      /**\n       * Next some time can be null, 'empty string' but it return false to serve unit test assert purpose\n       * eg: false || null -> null -> expect(null).to.be.false will be failed\n       */\n      // === 5 and have next property -> doesn't lazy load yet\n      return (\n        (this.notificationItems.length === 5 && this.next) ||\n        this.notificationItems.length > 5\n      );\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n@import url(\"./style.css\");\n\n$padding: 10px;\n.notification-list {\n  background: white;\n  width: 400px;\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);\n  text-align: left;\n\n  &__scrollable-wrapper {\n    height: 323px;\n    overflow: auto;\n    overflow-x: hidden;\n  }\n\n  &__header {\n    border-bottom: 1px solid #eee;\n    color: #ababab !important;\n    padding: 8px;\n  }\n\n  &__footer {\n    border-top: 1px solid #eee;\n    padding: 8px;\n    text-align: center;\n  }\n\n  &__link {\n    background: none !important;\n    color: teal !important;\n    border: 0px;\n\n    &,\n    &:hover,\n    &:active {\n      text-decoration: none;\n    }\n  }\n}\n</style>\n"]
+      sourceRoot: "src/templates/components/cloudjet_noti/components/notification_list",
+      sourcesContent: ["<template>\n  <div class=\"notification-list\">\n    <div class=\"notification-list__header\">\n      Th\xF4ng b\xE1o\n    </div>\n\n    <div\n            :class=\"notificationItemWrapperClass\"\n            @scroll=\"scroll\"\n            ref=\"notificationItemScrollableWrapper\">\n\n      <notification_item\n              class=\"notification-list__item\"\n              :href=\"href\"\n              v-for=\"notificationItem in notificationItems\"\n              :notificationData=\"notificationItem\"\n              :key=\"notificationItem.id\"/>\n\n    </div>\n\n    <div class=\"notification-list__footer\">\n      <a :href=\"href\" class=\"notification-list__link\">\n        Xem t\u1EA5t c\u1EA3\n      </a>\n    </div>\n  </div>\n</template>\n\n<script>\n// wtf -> import notification_item from \"../notification_item/notification_item\";\nconst notification_item = require(\"../notification_item/notification_item\").default\n\nexport default {\n  methods: {\n    /**\n     *  Check behavior when scroll reach bottom\n     */\n    isNotificationItemScroller() {\n      // Pr\n      const notificationItemScrollableWrapper = this.$refs\n        .notificationItemScrollableWrapper;\n\n      return (\n        /**\n         * Scroll touch bottom\n         * Don't know how this shit work but it was ameizing\n         */\n        notificationItemScrollableWrapper.scrollHeight -\n          notificationItemScrollableWrapper.scrollTop ===\n        notificationItemScrollableWrapper.clientHeight\n      );\n    },\n\n    /**\n     * Emmit if next prop exist\n     * Manually test scroll behavior: No Unit Test idea yet ??\n     *\n     */\n    scroll(e, IisNotificationItemScroller = this.isNotificationItemScroller) {\n      // Pass a function to mock that behavior\n      if (this.next) {\n        if (IisNotificationItemScroller()) {\n          /**\n           * Bubble to top componentn: notificatoin\n           *\n           * @event lazyLoad\n           * @type {string}\n           */\n          this.$emit(\"lazyLoad\", this.next);\n        }\n      }\n    }\n  },\n\n  components: {\n    notification_item\n  },\n\n  props: {\n    /**\n     * Link redirect when click \"Xem t\u1EA5t c\u1EA3\"\n     */\n    href: {\n      type: String,\n      default: \"#\"\n    },\n\n    /**\n     * Pass array object results\n     * Return of API\n     */\n    notificationItems: {\n      type: Array\n    },\n\n    /**\n     * next exist then scroll will emmit scroll\n     * eventually scroll will be bubble to notification component\n     */\n    next: {\n      type: String\n    }\n  },\n\n  computed: {\n    notificationItemWrapperClass() {\n      return this.isLazyLoadMode ? \"notification-list__scrollable-wrapper\" : \"\";\n    },\n\n    isLazyLoadMode() {\n      /**\n       * Next some time can be null, 'empty string' but it return false to serve unit test assert purpose\n       * eg: false || null -> null -> expect(null).to.be.false will be failed\n       */\n      // === 5 and have next property -> doesn't lazy load yet\n      return (\n        (this.notificationItems.length === 5 && this.next) ||\n        this.notificationItems.length > 5\n      );\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n@import url(\"style.css\");\n\n$padding: 10px;\n.notification-list {\n  background: white;\n  width: 400px;\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);\n  text-align: left;\n\n  &__scrollable-wrapper {\n    height: 323px;\n    overflow: auto;\n    overflow-x: hidden;\n  }\n\n  &__header {\n    border-bottom: 1px solid #eee;\n    color: #ababab !important;\n    padding: 8px;\n  }\n\n  &__footer {\n    border-top: 1px solid #eee;\n    padding: 8px;\n    text-align: center;\n  }\n\n  &__link {\n    background: none !important;\n    color: teal !important;\n    border: 0px;\n\n    &,\n    &:hover,\n    &:active {\n      text-decoration: none;\n    }\n  }\n}\n</style>\n"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -70422,7 +69174,8 @@ var cov_2ei68pxsb4 = function () {
 //
 //
 //
-
+// wtf -> import notification_item from "../notification_item/notification_item";
+var notification_item = (cov_41x25f4q9.s[0]++, __webpack_require__("fce9").default);
 /* harmony default export */ var notification_listvue_type_script_lang_js_ = ({
   methods: {
     /**
@@ -70430,8 +69183,8 @@ var cov_2ei68pxsb4 = function () {
      */
     isNotificationItemScroller: function isNotificationItemScroller() {
       // Pr
-      var notificationItemScrollableWrapper = (cov_2ei68pxsb4.s[0]++, this.$refs.notificationItemScrollableWrapper);
-      cov_2ei68pxsb4.s[1]++;
+      var notificationItemScrollableWrapper = (cov_41x25f4q9.s[1]++, this.$refs.notificationItemScrollableWrapper);
+      cov_41x25f4q9.s[2]++;
       return (
         /**
          * Scroll touch bottom
@@ -70447,17 +69200,17 @@ var cov_2ei68pxsb4 = function () {
      *
      */
     scroll: function scroll(e) {
-      var IisNotificationItemScroller = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : (cov_2ei68pxsb4.b[0][0]++, this.isNotificationItemScroller);
-      cov_2ei68pxsb4.s[2]++;
+      var IisNotificationItemScroller = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : (cov_41x25f4q9.b[0][0]++, this.isNotificationItemScroller);
+      cov_41x25f4q9.s[3]++;
 
       // Pass a function to mock that behavior
       if (this.next) {
-        cov_2ei68pxsb4.b[1][0]++;
-        cov_2ei68pxsb4.s[3]++;
+        cov_41x25f4q9.b[1][0]++;
+        cov_41x25f4q9.s[4]++;
 
         if (IisNotificationItemScroller()) {
-          cov_2ei68pxsb4.b[2][0]++;
-          cov_2ei68pxsb4.s[4]++;
+          cov_41x25f4q9.b[2][0]++;
+          cov_41x25f4q9.s[5]++;
 
           /**
            * Bubble to top componentn: notificatoin
@@ -70467,10 +69220,10 @@ var cov_2ei68pxsb4 = function () {
            */
           this.$emit("lazyLoad", this.next);
         } else {
-          cov_2ei68pxsb4.b[2][1]++;
+          cov_41x25f4q9.b[2][1]++;
         }
       } else {
-        cov_2ei68pxsb4.b[1][1]++;
+        cov_41x25f4q9.b[1][1]++;
       }
     }
   },
@@ -70504,27 +69257,27 @@ var cov_2ei68pxsb4 = function () {
   },
   computed: {
     notificationItemWrapperClass: function notificationItemWrapperClass() {
-      cov_2ei68pxsb4.s[5]++;
-      return this.isLazyLoadMode ? (cov_2ei68pxsb4.b[3][0]++, "notification-list__scrollable-wrapper") : (cov_2ei68pxsb4.b[3][1]++, "");
+      cov_41x25f4q9.s[6]++;
+      return this.isLazyLoadMode ? (cov_41x25f4q9.b[3][0]++, "notification-list__scrollable-wrapper") : (cov_41x25f4q9.b[3][1]++, "");
     },
     isLazyLoadMode: function isLazyLoadMode() {
-      cov_2ei68pxsb4.s[6]++;
+      cov_41x25f4q9.s[7]++;
 
       /**
        * Next some time can be null, 'empty string' but it return false to serve unit test assert purpose
        * eg: false || null -> null -> expect(null).to.be.false will be failed
        */
       // === 5 and have next property -> doesn't lazy load yet
-      return (cov_2ei68pxsb4.b[4][0]++, this.notificationItems.length === 5) && (cov_2ei68pxsb4.b[4][1]++, this.next) || (cov_2ei68pxsb4.b[4][2]++, this.notificationItems.length > 5);
+      return (cov_41x25f4q9.b[4][0]++, this.notificationItems.length === 5) && (cov_41x25f4q9.b[4][1]++, this.next) || (cov_41x25f4q9.b[4][2]++, this.notificationItems.length > 5);
     }
   }
 });
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=script&lang=js&
  /* harmony default export */ var notification_list_notification_listvue_type_script_lang_js_ = (notification_listvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue?vue&type=style&index=0&id=34274676&scoped=true&lang=scss&
-var notification_listvue_type_style_index_0_id_34274676_scoped_true_lang_scss_ = __webpack_require__("b0f6");
+// EXTERNAL MODULE: ./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=style&index=0&id=56093643&scoped=true&lang=scss&
+var notification_listvue_type_style_index_0_id_56093643_scoped_true_lang_scss_ = __webpack_require__("db47");
 
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_list/notification_list.vue
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue
 
 
 
@@ -70533,28 +69286,28 @@ var notification_listvue_type_style_index_0_id_34274676_scoped_true_lang_scss_ =
 
 /* normalize component */
 
-var notification_list_component = normalizeComponent(
+var notification_list_component = Object(componentNormalizer["a" /* default */])(
   notification_list_notification_listvue_type_script_lang_js_,
-  notification_listvue_type_template_id_34274676_scoped_true_render,
-  notification_listvue_type_template_id_34274676_scoped_true_staticRenderFns,
+  notification_listvue_type_template_id_56093643_scoped_true_render,
+  notification_listvue_type_template_id_56093643_scoped_true_staticRenderFns,
   false,
   null,
-  "34274676",
+  "56093643",
   null
   
 )
 
 notification_list_component.options.__file = "notification_list.vue"
 /* harmony default export */ var notification_list = (notification_list_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=script&lang=js&
-var cov_2as7b7xtte = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_container/notification_container.vue",
-      hash = "5c633b1e85ef630cd8619c3aaf971804a4543341",
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=script&lang=js&
+var cov_2pv5cdfx1r = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue",
+      hash = "221b42c3eb629f20e9eb1773999203b7a309ec97",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
       coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/clouldjet_noti/notification_container/notification_container.vue",
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue",
     statementMap: {
       "0": {
         start: {
@@ -70562,7 +69315,7 @@ var cov_2as7b7xtte = function () {
           column: 6
         },
         end: {
-          line: 50,
+          line: 52,
           column: 7
         }
       },
@@ -70578,151 +69331,151 @@ var cov_2as7b7xtte = function () {
       },
       "2": {
         start: {
-          line: 54,
-          column: 6
+          line: 51,
+          column: 8
         },
         end: {
-          line: 54,
-          column: 14
+          line: 51,
+          column: 20
         }
       },
       "3": {
         start: {
-          line: 55,
+          line: 56,
           column: 6
         },
         end: {
-          line: 55,
+          line: 56,
           column: 65
         }
       },
       "4": {
         start: {
-          line: 61,
+          line: 62,
           column: 6
         },
         end: {
-          line: 65,
+          line: 66,
           column: 7
         }
       },
       "5": {
         start: {
-          line: 63,
+          line: 64,
           column: 8
         },
         end: {
-          line: 63,
+          line: 64,
           column: 60
         }
       },
       "6": {
         start: {
-          line: 64,
+          line: 65,
           column: 8
         },
         end: {
-          line: 64,
+          line: 65,
           column: 35
         }
       },
       "7": {
         start: {
-          line: 74,
+          line: 75,
           column: 15
         },
         end: {
-          line: 74,
+          line: 75,
           column: 45
         }
       },
       "8": {
         start: {
-          line: 75,
+          line: 76,
           column: 19
         },
         end: {
-          line: 75,
+          line: 76,
           column: 27
         }
       },
       "9": {
         start: {
-          line: 80,
+          line: 81,
           column: 6
         },
         end: {
-          line: 82,
+          line: 83,
           column: 7
         }
       },
       "10": {
         start: {
-          line: 81,
+          line: 82,
           column: 8
         },
         end: {
-          line: 81,
+          line: 82,
           column: 77
         }
       },
       "11": {
         start: {
-          line: 81,
+          line: 82,
           column: 41
         },
         end: {
-          line: 81,
+          line: 82,
           column: 77
         }
       },
       "12": {
         start: {
-          line: 87,
+          line: 88,
           column: 4
         },
         end: {
-          line: 97,
+          line: 98,
           column: 7
         }
       },
       "13": {
         start: {
-          line: 91,
+          line: 92,
           column: 6
         },
         end: {
-          line: 91,
+          line: 92,
           column: 66
         }
       },
       "14": {
         start: {
-          line: 96,
+          line: 97,
           column: 6
         },
         end: {
-          line: 96,
+          line: 97,
           column: 72
         }
       },
       "15": {
         start: {
-          line: 104,
+          line: 105,
           column: 4
         },
         end: {
-          line: 104,
+          line: 105,
           column: 67
         }
       },
       "16": {
         start: {
-          line: 108,
+          line: 109,
           column: 4
         },
         end: {
-          line: 111,
+          line: 112,
           column: 6
         }
       }
@@ -70732,25 +69485,25 @@ var cov_2as7b7xtte = function () {
         name: "(anonymous_0)",
         decl: {
           start: {
-            line: 87,
+            line: 88,
             column: 17
           },
           end: {
-            line: 87,
+            line: 88,
             column: 18
           }
         },
         loc: {
           start: {
-            line: 87,
+            line: 88,
             column: 23
           },
           end: {
-            line: 97,
+            line: 98,
             column: 5
           }
         },
-        line: 87
+        line: 88
       }
     },
     branchMap: {
@@ -70761,7 +69514,7 @@ var cov_2as7b7xtte = function () {
             column: 6
           },
           end: {
-            line: 50,
+            line: 52,
             column: 7
           }
         },
@@ -70772,7 +69525,7 @@ var cov_2as7b7xtte = function () {
             column: 6
           },
           end: {
-            line: 50,
+            line: 52,
             column: 7
           }
         }, {
@@ -70781,7 +69534,7 @@ var cov_2as7b7xtte = function () {
             column: 6
           },
           end: {
-            line: 50,
+            line: 52,
             column: 7
           }
         }],
@@ -70790,134 +69543,134 @@ var cov_2as7b7xtte = function () {
       "1": {
         loc: {
           start: {
-            line: 61,
+            line: 62,
             column: 6
           },
           end: {
-            line: 65,
+            line: 66,
             column: 7
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 61,
+            line: 62,
             column: 6
           },
           end: {
-            line: 65,
+            line: 66,
             column: 7
           }
         }, {
           start: {
-            line: 61,
+            line: 62,
             column: 6
           },
           end: {
-            line: 65,
+            line: 66,
             column: 7
           }
         }],
-        line: 61
+        line: 62
       },
       "2": {
         loc: {
           start: {
-            line: 80,
+            line: 81,
             column: 6
           },
           end: {
-            line: 82,
+            line: 83,
             column: 7
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 80,
+            line: 81,
             column: 6
           },
           end: {
-            line: 82,
+            line: 83,
             column: 7
           }
         }, {
           start: {
-            line: 80,
+            line: 81,
             column: 6
           },
           end: {
-            line: 82,
+            line: 83,
             column: 7
           }
         }],
-        line: 80
+        line: 81
       },
       "3": {
         loc: {
           start: {
-            line: 80,
+            line: 81,
             column: 10
           },
           end: {
-            line: 80,
+            line: 81,
             column: 47
           }
         },
         type: "binary-expr",
         locations: [{
           start: {
-            line: 80,
+            line: 81,
             column: 10
           },
           end: {
-            line: 80,
+            line: 81,
             column: 23
           }
         }, {
           start: {
-            line: 80,
+            line: 81,
             column: 27
           },
           end: {
-            line: 80,
+            line: 81,
             column: 47
           }
         }],
-        line: 80
+        line: 81
       },
       "4": {
         loc: {
           start: {
-            line: 81,
+            line: 82,
             column: 8
           },
           end: {
-            line: 81,
+            line: 82,
             column: 77
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 81,
+            line: 82,
             column: 8
           },
           end: {
-            line: 81,
+            line: 82,
             column: 77
           }
         }, {
           start: {
-            line: 81,
+            line: 82,
             column: 8
           },
           end: {
-            line: 81,
+            line: 82,
             column: 77
           }
         }],
-        line: 81
+        line: 82
       }
     },
     s: {
@@ -70953,10 +69706,10 @@ var cov_2as7b7xtte = function () {
       version: 3,
       sources: ["notification_container.vue"],
       names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;AAoBA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;;;;AAIA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+      mappings: ";;;;;;;;;;;;;;;;;;;;AAoBA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;;;;AAIA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
       file: "notification_container.vue",
-      sourceRoot: "src/templates/components/clouldjet_noti/notification_container",
-      sourcesContent: ["<template>\n  <div class=\"notification\" ref=\"notificationWrapper\">\n    <notification_bell\n      @click=\"toggleNotificationList\"\n      :isToggle=\"isShowNotificationList\"\n      :notificationCount=\"notificationData.unread_list.length\"\n    />\n    \n    <notification_list\n      @lazyLoad=\"notificationListOnLazyLoad\"\n      v-if=\"isShowNotificationList\"\n      :notificationItems=\"notificationData.results\"\n      class=\"notification__list\"\n      :href=\"href\"\n      :next=\"notificationData.next\"\n    />   \n  </div>\n</template>\n\n<script>\nimport notificationBell from \"../notification_bell/notification_bell\";\nimport notificationList from \"../notification_list/notification_list\";\nimport Vue from \"vue\";\n\nexport default {\n  components: {\n    notification_bell: notificationBell,\n    notification_list: notificationList\n  },\n\n  methods: {\n    /**\n     * Input new lazy load data here\n     * Automatically assign next + concat notification\n     */\n    // concatNotificationData (notificationData) {\n    //   this.next = notificationData.next\n    //   this.notificationItems = this.notificationItems.concat(notificationData.results)\n    // },\n\n    notificationListOnLazyLoad(next) {\n\n\n\n      /**\n       * Write unit test for this shit\n       */\n      if (this.onLazyLoad) {\n        this.onLazyLoad(next)\n      }\n    },\n\n    toggleNotificationList() {\n      debugger\n      this.isShowNotificationList = !this.isShowNotificationList;\n\n      /**\n       * Emmit markAsRead\n       * Params: unread_list\n       */\n      if (this.notificationData.unread_list.length > 0) {\n        // this.$emit(\"markAsRead\", this.notificationData.unread_list);\n        this.onMarkAsRead(this.notificationData.unread_list)\n        this.notificationCount = 0;\n      }\n    },\n\n    /**\n     * Todo: Unit Test\n     * isShowNotificationList = true and click in document should set to false\n     * isShowNotificationList = false and click in document should persist to false\n     */\n    handleClickOutSide(e) {\n      let el = this.$refs.notificationWrapper;\n      let target = e.target;\n\n      /**\n       * If it's click outside\n       */\n      if (el !== target && !el.contains(target)) {\n        if (this.isShowNotificationList) this.isShowNotificationList = false;\n      }\n    }\n  },\n\n  created() {\n    Vue.nextTick(() => {\n      /**\n       * Hide notification on click outside\n       */\n      document.addEventListener(\"click\", this.handleClickOutSide);\n\n      /**\n       * Vue doesn't allow to edit props\n       */\n      this.notificationCount = this.notificationData.unread_list.length;\n    });\n  },\n\n  destroyed() {\n    /**\n     * Remove on added event\n     */\n    document.removeEventListener(\"click\", this.handleClickOutSide);\n  },\n\n  data() {\n    return {\n      isShowNotificationList: false,\n      notificationCount: 0\n    };\n  },\n\n  props: {\n    /**\n     * Pass anything the api return in results\n     * into this. will format data automatically\n     */\n    notificationData: {\n      type: Object\n    },\n\n    /**\n     * Link to show all notification\n     */\n    href: {\n      type: String\n    },\n\n    /**\n     * Function will be call when lazy load\n     * Params: Next link\n     * Use next link to get more notification data then\n     *  Concat result\n     *  Change\n     *    next: update lazymode status\n     *    unread_list: update notification number on bell\n     */\n    onLazyLoad: Function,\n\n    /**\n     * Function will be call when lazy load\n     * Params: id array\n     * Update bunch of array of id element to be readed\n     */\n    onMarkAsRead: Function\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification {\n  position: relative;\n  display: flex;\n  justify-content: flex-end;\n\n  &__list {\n    position: absolute;\n    top: 50px;\n  }\n}\n</style>\n"]
+      sourceRoot: "src/templates/components/cloudjet_noti/components/notification_container",
+      sourcesContent: ["<template>\n  <div class=\"notification\" ref=\"notificationWrapper\">\n    <notification_bell\n      @click=\"toggleNotificationList\"\n      :isToggle=\"isShowNotificationList\"\n      :notificationCount=\"notificationData.unread_list.length\"\n    />\n    \n    <notification_list\n      @lazyLoad=\"notificationListOnLazyLoad\"\n      v-if=\"isShowNotificationList\"\n      :notificationItems=\"notificationData.results\"\n      class=\"notification__list\"\n      :href=\"href\"\n      :next=\"notificationData.next\"\n    />   \n  </div>\n</template>\n\n<script>\nimport notificationBell from \"../notification_bell/notification_bell\";\nimport notificationList from \"../notification_list/notification_list\";\nimport Vue from \"vue\";\n\nexport default {\n  components: {\n    notification_bell: notificationBell,\n    notification_list: notificationList\n  },\n\n  methods: {\n    /**\n     * Input new lazy load data here\n     * Automatically assign next + concat notification\n     */\n    // concatNotificationData (notificationData) {\n    //   this.next = notificationData.next\n    //   this.notificationItems = this.notificationItems.concat(notificationData.results)\n    // },\n\n    notificationListOnLazyLoad(next) {\n\n\n\n      /**\n       * Write unit test for this shit\n       */\n      if (this.onLazyLoad) {\n        this.onLazyLoad(next)\n      } else {\n        return false\n      }\n    },\n\n    toggleNotificationList() {\n      this.isShowNotificationList = !this.isShowNotificationList;\n\n      /**\n       * Emmit markAsRead\n       * Params: unread_list\n       */\n      if (this.notificationData.unread_list.length > 0) {\n        // this.$emit(\"markAsRead\", this.notificationData.unread_list);\n        this.onMarkAsRead(this.notificationData.unread_list)\n        this.notificationCount = 0;\n      }\n    },\n\n    /**\n     * Todo: Unit Test\n     * isShowNotificationList = true and click in document should set to false\n     * isShowNotificationList = false and click in document should persist to false\n     */\n    handleClickOutSide(e) {\n      let el = this.$refs.notificationWrapper;\n      let target = e.target;\n\n      /**\n       * If it's click outside\n       */\n      if (el !== target && !el.contains(target)) {\n        if (this.isShowNotificationList) this.isShowNotificationList = false;\n      }\n    }\n  },\n\n  created() {\n    Vue.nextTick(() => {\n      /**\n       * Hide notification on click outside\n       */\n      document.addEventListener(\"click\", this.handleClickOutSide);\n\n      /**\n       * Vue doesn't allow to edit props\n       */\n      this.notificationCount = this.notificationData.unread_list.length;\n    });\n  },\n\n  destroyed() {\n    /**\n     * Remove on added event\n     */\n    document.removeEventListener(\"click\", this.handleClickOutSide);\n  },\n\n  data() {\n    return {\n      isShowNotificationList: false,\n      notificationCount: 0\n    };\n  },\n\n  props: {\n    /**\n     * Pass anything the api return in results\n     * into this. will format data automatically\n     */\n    notificationData: {\n      type: Object\n    },\n\n    /**\n     * Link to show all notification\n     */\n    href: {\n      type: String\n    },\n\n    /**\n     * Function will be call when lazy load\n     * Params: Next link\n     * Use next link to get more notification data then\n     *  Concat result\n     *  Change\n     *    next: update lazymode status\n     *    unread_list: update notification number on bell\n     */\n    onLazyLoad: Function,\n\n    /**\n     * Function will be call when lazy load\n     * Params: id array\n     * Update bunch of array of id element to be readed\n     */\n    onMarkAsRead: Function\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification {\n  position: relative;\n  display: flex;\n  justify-content: flex-end;\n\n  &__list {\n    position: absolute;\n    top: 50px;\n  }\n}\n</style>\n"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -71007,40 +69760,40 @@ var cov_2as7b7xtte = function () {
     //   this.notificationItems = this.notificationItems.concat(notificationData.results)
     // },
     notificationListOnLazyLoad: function notificationListOnLazyLoad(next) {
-      cov_2as7b7xtte.s[0]++;
+      cov_2pv5cdfx1r.s[0]++;
 
       /**
        * Write unit test for this shit
        */
       if (this.onLazyLoad) {
-        cov_2as7b7xtte.b[0][0]++;
-        cov_2as7b7xtte.s[1]++;
+        cov_2pv5cdfx1r.b[0][0]++;
+        cov_2pv5cdfx1r.s[1]++;
         this.onLazyLoad(next);
       } else {
-        cov_2as7b7xtte.b[0][1]++;
+        cov_2pv5cdfx1r.b[0][1]++;
+        cov_2pv5cdfx1r.s[2]++;
+        return false;
       }
     },
     toggleNotificationList: function toggleNotificationList() {
-      cov_2as7b7xtte.s[2]++;
-      debugger;
-      cov_2as7b7xtte.s[3]++;
+      cov_2pv5cdfx1r.s[3]++;
       this.isShowNotificationList = !this.isShowNotificationList;
       /**
        * Emmit markAsRead
        * Params: unread_list
        */
 
-      cov_2as7b7xtte.s[4]++;
+      cov_2pv5cdfx1r.s[4]++;
 
       if (this.notificationData.unread_list.length > 0) {
-        cov_2as7b7xtte.b[1][0]++;
-        cov_2as7b7xtte.s[5]++;
+        cov_2pv5cdfx1r.b[1][0]++;
+        cov_2pv5cdfx1r.s[5]++;
         // this.$emit("markAsRead", this.notificationData.unread_list);
         this.onMarkAsRead(this.notificationData.unread_list);
-        cov_2as7b7xtte.s[6]++;
+        cov_2pv5cdfx1r.s[6]++;
         this.notificationCount = 0;
       } else {
-        cov_2as7b7xtte.b[1][1]++;
+        cov_2pv5cdfx1r.b[1][1]++;
       }
     },
 
@@ -71050,37 +69803,37 @@ var cov_2as7b7xtte = function () {
      * isShowNotificationList = false and click in document should persist to false
      */
     handleClickOutSide: function handleClickOutSide(e) {
-      var el = (cov_2as7b7xtte.s[7]++, this.$refs.notificationWrapper);
-      var target = (cov_2as7b7xtte.s[8]++, e.target);
+      var el = (cov_2pv5cdfx1r.s[7]++, this.$refs.notificationWrapper);
+      var target = (cov_2pv5cdfx1r.s[8]++, e.target);
       /**
        * If it's click outside
        */
 
-      cov_2as7b7xtte.s[9]++;
+      cov_2pv5cdfx1r.s[9]++;
 
-      if ((cov_2as7b7xtte.b[3][0]++, el !== target) && (cov_2as7b7xtte.b[3][1]++, !el.contains(target))) {
-        cov_2as7b7xtte.b[2][0]++;
-        cov_2as7b7xtte.s[10]++;
+      if ((cov_2pv5cdfx1r.b[3][0]++, el !== target) && (cov_2pv5cdfx1r.b[3][1]++, !el.contains(target))) {
+        cov_2pv5cdfx1r.b[2][0]++;
+        cov_2pv5cdfx1r.s[10]++;
 
         if (this.isShowNotificationList) {
-          cov_2as7b7xtte.b[4][0]++;
-          cov_2as7b7xtte.s[11]++;
+          cov_2pv5cdfx1r.b[4][0]++;
+          cov_2pv5cdfx1r.s[11]++;
           this.isShowNotificationList = false;
         } else {
-          cov_2as7b7xtte.b[4][1]++;
+          cov_2pv5cdfx1r.b[4][1]++;
         }
       } else {
-        cov_2as7b7xtte.b[2][1]++;
+        cov_2pv5cdfx1r.b[2][1]++;
       }
     }
   },
   created: function created() {
     var _this = this;
 
-    cov_2as7b7xtte.s[12]++;
+    cov_2pv5cdfx1r.s[12]++;
     external_commonjs_vue_commonjs2_vue_root_Vue_default.a.nextTick(function () {
-      cov_2as7b7xtte.f[0]++;
-      cov_2as7b7xtte.s[13]++;
+      cov_2pv5cdfx1r.f[0]++;
+      cov_2pv5cdfx1r.s[13]++;
 
       /**
        * Hide notification on click outside
@@ -71090,12 +69843,12 @@ var cov_2as7b7xtte = function () {
        * Vue doesn't allow to edit props
        */
 
-      cov_2as7b7xtte.s[14]++;
+      cov_2pv5cdfx1r.s[14]++;
       _this.notificationCount = _this.notificationData.unread_list.length;
     });
   },
   destroyed: function destroyed() {
-    cov_2as7b7xtte.s[15]++;
+    cov_2pv5cdfx1r.s[15]++;
 
     /**
      * Remove on added event
@@ -71103,7 +69856,7 @@ var cov_2as7b7xtte = function () {
     document.removeEventListener("click", this.handleClickOutSide);
   },
   data: function data() {
-    cov_2as7b7xtte.s[16]++;
+    cov_2pv5cdfx1r.s[16]++;
     return {
       isShowNotificationList: false,
       notificationCount: 0
@@ -71144,12 +69897,12 @@ var cov_2as7b7xtte = function () {
     onMarkAsRead: Function
   }
 });
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=script&lang=js&
  /* harmony default export */ var notification_container_notification_containervue_type_script_lang_js_ = (notification_containervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/clouldjet_noti/notification_container/notification_container.vue?vue&type=style&index=0&id=37b1eff2&scoped=true&lang=scss&
-var notification_containervue_type_style_index_0_id_37b1eff2_scoped_true_lang_scss_ = __webpack_require__("ae84");
+// EXTERNAL MODULE: ./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=style&index=0&id=75eab074&scoped=true&lang=scss&
+var notification_containervue_type_style_index_0_id_75eab074_scoped_true_lang_scss_ = __webpack_require__("1459");
 
-// CONCATENATED MODULE: ./src/templates/components/clouldjet_noti/notification_container/notification_container.vue
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue
 
 
 
@@ -71158,61 +69911,2424 @@ var notification_containervue_type_style_index_0_id_37b1eff2_scoped_true_lang_sc
 
 /* normalize component */
 
-var notification_container_component = normalizeComponent(
+var notification_container_component = Object(componentNormalizer["a" /* default */])(
   notification_container_notification_containervue_type_script_lang_js_,
-  notification_containervue_type_template_id_37b1eff2_scoped_true_render,
-  notification_containervue_type_template_id_37b1eff2_scoped_true_staticRenderFns,
+  notification_containervue_type_template_id_75eab074_scoped_true_render,
+  notification_containervue_type_template_id_75eab074_scoped_true_staticRenderFns,
   false,
   null,
-  "37b1eff2",
+  "75eab074",
   null
   
 )
 
 notification_container_component.options.__file = "notification_container.vue"
 /* harmony default export */ var notification_container = (notification_container_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"18ce1ccc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=template&id=29b93144&scoped=true&
-var mainvue_type_template_id_29b93144_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component-wrapper"},[_c('div',{staticClass:"col-sm-4 col-table-4 kpi-panel text-center",attrs:{"id":"company-performance-score"}},[_c('div',{staticClass:"kpi-panel-body"},[_c('div',{staticClass:"kpi-panel-header"},[_vm._v(_vm._s(_vm._f("translate")("Company Information")))]),_c('div',{staticClass:"container-fluid"},[_c('div',{staticClass:"rows-table-sm text-center"},[_c('div',{staticClass:"col-sm-6 col-table-6"},[_c('div',{staticClass:"rows-table-sm"},[_c('div',{staticClass:"logo padding-top-15"},[_c('img',{attrs:{"alt":_vm.organization_object.name,"src":_vm.organization_object.get_logo,"title":_vm.organization_object.name}})])]),_c('div',{staticClass:"bt-mission-box"},[_c('button',{staticClass:"btn btn-normal btn-fullwidth btn-cus-5-7 HOME_BTN_VISION",attrs:{"id":"btn-vision-misson","data-toggle":"modal","data-target":"#modal-vision-mission"}},[_vm._v("\n                                "+_vm._s(_vm._f("translate")("Vision & Mission")))])])]),_c('div',{staticClass:"col-sm-6 col-table-6",attrs:{"id":"performance-quater"}},[_c('div',[_c('span',{staticClass:"com-per-title"},[_vm._v(_vm._s(_vm._f("translate")("Performance"))+" - "+_vm._s(_vm._f("translate")("Quarter"))+"\n                                    "),_c('span',[_vm._v(_vm._s(_vm.current_quarter.quarter))])]),_c('br'),_c('span',{staticClass:"com-per-pecent"},[_c('span',{attrs:{"id":"company-performance-quarter"}},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.company_performance.kpi_percent)))]),_c('span',{staticClass:"per-com-unit"})])])])])]),_c('hr',{staticClass:"per-border border-top"}),_c('div',{staticClass:"container-fluid text-left due-box"},[_c('div',{staticClass:"col-sm-6",attrs:{"id":""}},[_c('div',[_vm._v(_vm._s(_vm._f("translate")("Due")))]),_c('div',[_vm._v(_vm._s(_vm._f("translate")("Allow review")))])]),_c('div',{staticClass:"col-sm-6 due-date-color"},[_c('div',[_vm._v(_vm._s(_vm._f("dateTimeFormat")(_vm.current_quarter.due_date)))]),(_vm.userActor.is_admin)?_c('div',[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.organization_object.monthly_review_lock),expression:"organization_object.monthly_review_lock"}],staticClass:"HOME_DDL_ALLOW_MONTH",on:{"change":[function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.$set(_vm.organization_object, "monthly_review_lock", $event.target.multiple ? $$selectedVal : $$selectedVal[0])},function($event){_vm.update_current_organization()}]}},[_c('option',{attrs:{"value":"allow_all"}},[_vm._v(_vm._s(_vm._f("translate")("All months")))]),_c('option',{attrs:{"value":"1"}},[_vm._v(_vm._s(_vm.current_quarter.month_1_name))]),_c('option',{attrs:{"value":"2"}},[_vm._v(_vm._s(_vm.current_quarter.month_2_name))]),_c('option',{attrs:{"value":"3"}},[_vm._v(_vm._s(_vm.current_quarter.month_3_name))])])]):_c('div',[(_vm.organization_object.monthly_review_lock === '1')?_c('span',[_vm._v(" "+_vm._s(_vm.current_quarter.month_1_name))]):_vm._e(),(_vm.organization_object.monthly_review_lock === '2')?_c('span',[_vm._v(" "+_vm._s(_vm.current_quarter.month_2_name))]):_vm._e(),(_vm.organization_object.monthly_review_lock === '3')?_c('span',[_vm._v(" "+_vm._s(_vm.current_quarter.month_3_name))]):_vm._e(),(_vm.organization_object.monthly_review_lock === 'allow_all')?_c('span',[_vm._v(_vm._s(_vm._f("translate")("All months")))]):_vm._e()])])]),_c('div',{staticClass:"table-per-com-result"},[_c('table',{staticClass:"table table-bordered table-striped text-center"},[_c('thead',[_c('tr',[_c('th',[_vm._v(_vm._s(_vm.current_quarter.month_1_name))]),_c('th',[_vm._v(_vm._s(_vm.current_quarter.month_2_name))]),_c('th',[_vm._v(_vm._s(_vm.current_quarter.month_3_name))])])]),_c('tbody',[_c('tr',[_c('td',[_c('span',{},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.company_performance.month_1_score)))])]),_c('td',[_c('span',{},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.company_performance.month_2_score)))])]),_c('td',[_c('span',{},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.company_performance.month_3_score)))])])])])])])])])])}
-var mainvue_type_template_id_29b93144_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/main.vue?vue&type=script&lang=js&
+var cov_14g33ktv2s = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/main.vue",
+      hash = "a9df30f1aae5ce9b22a0b1884f0f3191b0b218b4",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/main.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 21,
+          column: 18
+        },
+        end: {
+          line: 21,
+          column: 54
+        }
+      },
+      "1": {
+        start: {
+          line: 50,
+          column: 8
+        },
+        end: {
+          line: 50,
+          column: 48
+        }
+      },
+      "2": {
+        start: {
+          line: 51,
+          column: 8
+        },
+        end: {
+          line: 51,
+          column: 64
+        }
+      },
+      "3": {
+        start: {
+          line: 56,
+          column: 26
+        },
+        end: {
+          line: 56,
+          column: 41
+        }
+      },
+      "4": {
+        start: {
+          line: 58,
+          column: 8
+        },
+        end: {
+          line: 60,
+          column: 9
+        }
+      },
+      "5": {
+        start: {
+          line: 59,
+          column: 12
+        },
+        end: {
+          line: 59,
+          column: 57
+        }
+      },
+      "6": {
+        start: {
+          line: 71,
+          column: 12
+        },
+        end: {
+          line: 71,
+          column: 55
+        }
+      },
+      "7": {
+        start: {
+          line: 74,
+          column: 12
+        },
+        end: {
+          line: 77,
+          column: 14
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 58,
+            column: 8
+          },
+          end: {
+            line: 60,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 58,
+            column: 8
+          },
+          end: {
+            line: 60,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 58,
+            column: 8
+          },
+          end: {
+            line: 60,
+            column: 9
+          }
+        }],
+        line: 58
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {},
+    b: {
+      "0": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["main.vue"],
+      names: [],
+      mappings: ";;;;;;;;;;;;;;;;;;AAkBA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+      file: "main.vue",
+      sourceRoot: "src/templates/components/cloudjet_noti",
+      sourcesContent: ["<template>\n    <!--<notification-container-->\n    <!--:notification-data=\"notificationData\"-->\n    <!--:on-lazy-load=\"getLazyLoadNotifications\"-->\n    <!--:on-mark-as-read=\"markAsRead\"-->\n    <!--:href=\"href\"-->\n    <!--&gt;-->\n    <!--</notification-container>   -->\n    <notification-container\n            :notification-data=\"notificationData\"\n            :on-lazy-load=\"getLazyNotifications\"\n            :on-mark-as-read=\"markAsReadNotifications\"\n            :href=\"href\"\n    >\n    </notification-container>\n</template>\n\n<script>\n    import store from \"./store\";\n    import buildInitMixin from '../../../sdk/utils/mixins/buildInitMixin.js'\n    const initMixin = buildInitMixin(\"notification\",store)\n\n    // Mutation List\n    import {\n        getInitialNotifiations,\n        getLazyNotifications,\n        markAsReadNotifications\n    } from \"./store/actions.js\";\n    // Mutation List\n    import NotificationContainer from \"./components/notification_container/notification_container\";\n    import { mapGetters, mapActions } from \"vuex\";\n    export default {\n        computed: {\n            ...mapGetters({\n                notificationData: \"$notification/notificationData\",\n                href: \"$notification/href\",\n                userActor: \"userActor\"\n            })\n        },\n        components: {\n            NotificationContainer\n        },\n        mixins: [initMixin],\n\n        async mounted() {\n            /* need to trigger global store initialized first, using synchronous loading style */\n            // await this.$store.dispatch(\"initialize\");\n            // await this.getInitialNotifiations(this.userActor.user);\n            // this.$store.dispatch('$notification/getInitialNotifiations',this.userActor.user);\n            await this.$store.dispatch(\"initialize\")\n            this.dispatchGetInitialNotifiations(this.userActor.user)\n\n        },\n        created() {\n            /* below should be bundle into a component builder*/\n            const STORE_KEY = \"$notification\";\n            // eslint-disable-next-line no-underscore-dangle\n            if (!(STORE_KEY in this.$store._modules.root._children)) {\n                this.$store.registerModule(STORE_KEY, store);\n            }\n            /* end this */\n        },\n        // can be wrong namespace\n        methods: {\n            ...mapActions({\n                dispatchGetInitialNotifiations: `$notification/${getInitialNotifiations}`,\n                dispatchGetLazyNotifications: `$notification/${getLazyNotifications}`,\n                dispatchMarkAsReadNotifications: `$notification/${markAsReadNotifications}`\n            }),\n            getLazyNotifications (nextLink) {\n                this.dispatchGetLazyNotifications(nextLink)\n            },\n            markAsReadNotifications (unreadNotificationLists) {\n                this.dispatchMarkAsReadNotifications({\n                    uid: this.userActor.user,\n                    unreadNotificationLists\n                })\n            }\n        }\n    };\n</script>\n\n<style scoped>\n</style>"]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
 
 
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=template&id=29b93144&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/defineProperty.js
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+var initMixin = (cov_14g33ktv2s.s[0]++, buildInitMixin("notification", cloudjet_noti_store)); // Mutation List
+
+ // Mutation List
+
+
+
+/* harmony default export */ var mainvue_type_script_lang_js_ = ({
+  computed: _objectSpread({}, mapGetters({
+    notificationData: "$notification/notificationData",
+    href: "$notification/href",
+    userActor: "userActor"
+  })),
+  components: {
+    NotificationContainer: notification_container
+  },
+  mixins: [initMixin],
+  mounted: function () {
+    var _mounted = _asyncToGenerator(
+    /*#__PURE__*/
+    regeneratorRuntime.mark(function _callee() {
+      return regeneratorRuntime.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              cov_14g33ktv2s.s[1]++;
+              _context.next = 3;
+              return this.$store.dispatch("initialize");
+
+            case 3:
+              cov_14g33ktv2s.s[2]++;
+              this.dispatchGetInitialNotifiations(this.userActor.user);
+
+            case 5:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee, this);
+    }));
+
+    return function mounted() {
+      return _mounted.apply(this, arguments);
+    };
+  }(),
+  created: function created() {
+    /* below should be bundle into a component builder*/
+    var STORE_KEY = (cov_14g33ktv2s.s[3]++, "$notification"); // eslint-disable-next-line no-underscore-dangle
+
+    cov_14g33ktv2s.s[4]++;
+
+    if (!(STORE_KEY in this.$store._modules.root._children)) {
+      cov_14g33ktv2s.b[0][0]++;
+      cov_14g33ktv2s.s[5]++;
+      this.$store.registerModule(STORE_KEY, cloudjet_noti_store);
+    } else {
+      cov_14g33ktv2s.b[0][1]++;
+    }
+    /* end this */
+
+  },
+  // can be wrong namespace
+  methods: _objectSpread({}, mapActions({
+    dispatchGetInitialNotifiations: "$notification/".concat(getInitialNotifiations),
+    dispatchGetLazyNotifications: "$notification/".concat(getLazyNotifications),
+    dispatchMarkAsReadNotifications: "$notification/".concat(markAsReadNotifications)
+  }), {
+    getLazyNotifications: function getLazyNotifications(nextLink) {
+      cov_14g33ktv2s.s[6]++;
+      this.dispatchGetLazyNotifications(nextLink);
+    },
+    markAsReadNotifications: function markAsReadNotifications(unreadNotificationLists) {
+      cov_14g33ktv2s.s[7]++;
+      this.dispatchMarkAsReadNotifications({
+        uid: this.userActor.user,
+        unreadNotificationLists: unreadNotificationLists
+      });
+    }
+  })
+});
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/main.vue?vue&type=script&lang=js&
+ /* harmony default export */ var cloudjet_noti_mainvue_type_script_lang_js_ = (mainvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/templates/components/cloudjet_noti/main.vue?vue&type=style&index=0&id=f4f48c48&scoped=true&lang=css&
+var mainvue_type_style_index_0_id_f4f48c48_scoped_true_lang_css_ = __webpack_require__("b882");
+
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/main.vue
+
+
+
+
+
+
+/* normalize component */
+
+var main_component = Object(componentNormalizer["a" /* default */])(
+  cloudjet_noti_mainvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "f4f48c48",
+  null
+  
+)
+
+main_component.options.__file = "main.vue"
+/* harmony default export */ var main = (main_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=template&id=4658fcc8&scoped=true&
+var mainvue_type_template_id_4658fcc8_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component-wrapper"},[_c('div',{staticClass:"col-sm-4 col-table-4 kpi-panel text-center",attrs:{"id":"company-performance-score"}},[_c('div',{staticClass:"kpi-panel-body"},[_c('div',{staticClass:"kpi-panel-header"},[_vm._v(_vm._s(_vm._f("translate")("Company Information")))]),_c('vision-mission',{attrs:{"organization-object":_vm.organization,"company-performance":_vm.companyPerformance,"quarter-period":_vm.quarterPeriod}}),_c('hr',{staticClass:"per-border border-top"}),_c('month-lock-controller',{attrs:{"is-admin":_vm.userActor.is_admin,"quarter-period":_vm.quarterPeriod},model:{value:(_vm.organizationMontlyReviewLock),callback:function ($$v) {_vm.organizationMontlyReviewLock=$$v},expression:"organizationMontlyReviewLock"}}),_c('performance-table',{attrs:{"quarter-period":_vm.quarterPeriod,"company-performance":_vm.companyPerformance}})],1)])])}
+var mainvue_type_template_id_4658fcc8_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=template&id=4658fcc8&scoped=true&
+
+// CONCATENATED MODULE: ./src/sdk/network/quarter_period/config.js
+var cov_2lvqiyzr4v = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/config.js",
+      hash = "4ddf26e4215cea9db82301905a25910c56962b0f",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/config.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 15
+        },
+        end: {
+          line: 3,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var quarter_period_config_module = (cov_2lvqiyzr4v.s[0]++, {
+  path: "/api/quarter/"
+});
+/* harmony default export */ var quarter_period_config = (quarter_period_config_module);
+// CONCATENATED MODULE: ./src/sdk/network/quarter_period/factory.js
+var cov_2t1owjrxx = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/factory.js",
+      hash = "2f5f79a275010378d2b5de6e31e432bcaa8956f4",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/factory.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 10,
+          column: 16
+        },
+        end: {
+          line: 10,
+          column: 32
+        }
+      },
+      "1": {
+        start: {
+          line: 11,
+          column: 4
+        },
+        end: {
+          line: 31,
+          column: 5
+        }
+      },
+      "2": {
+        start: {
+          line: 14,
+          column: 27
+        },
+        end: {
+          line: 14,
+          column: 50
+        }
+      },
+      "3": {
+        start: {
+          line: 15,
+          column: 12
+        },
+        end: {
+          line: 19,
+          column: 14
+        }
+      },
+      "4": {
+        start: {
+          line: 22,
+          column: 12
+        },
+        end: {
+          line: 28,
+          column: 14
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 16
+          },
+          end: {
+            line: 8,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 22
+          },
+          end: {
+            line: 32,
+            column: 1
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 13,
+            column: 24
+          },
+          end: {
+            line: 13,
+            column: 25
+          }
+        },
+        loc: {
+          start: {
+            line: 13,
+            column: 40
+          },
+          end: {
+            line: 20,
+            column: 9
+          }
+        },
+        line: 13
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 21,
+            column: 27
+          },
+          end: {
+            line: 21,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 33
+          },
+          end: {
+            line: 29,
+            column: 9
+          }
+        },
+        line: 21
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+
+/* harmony default export */ var quarter_period_factory = (function () {
+  cov_2t1owjrxx.f[0]++;
+  // Tạo url: base + path
+  var url = (cov_2t1owjrxx.s[0]++, "".concat(quarter_period_config.path));
+  cov_2t1owjrxx.s[1]++;
+  return {
+    url: url,
+    getQuarterByID: function getQuarterByID(quarter_id) {
+      cov_2t1owjrxx.f[1]++;
+      var params = (cov_2t1owjrxx.s[2]++, jquery_default.a.param({
+        quarter_id: quarter_id
+      }));
+      cov_2t1owjrxx.s[3]++;
+      return Object(network_builder["a" /* buildPromise */])({
+        httpMethod: 'GET',
+        url: url,
+        data: params
+      });
+    },
+    getCurrentQuarter: function getCurrentQuarter() {
+      cov_2t1owjrxx.f[2]++;
+      cov_2t1owjrxx.s[4]++;
+      return Object(network_builder["a" /* buildPromise */])({
+        httpMethod: 'GET',
+        url: url,
+        data: {
+          get_current_quarter: 'yes'
+        }
+      });
+    }
+  };
+});
+// CONCATENATED MODULE: ./src/sdk/network/quarter_period/index.js
+var cov_2mrn8thyz9 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/index.js",
+      hash = "fdb3a9c89fa70494f6ff98ea210b6b223facd132",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+/* harmony default export */ var quarter_period = (quarter_period_factory);
+// EXTERNAL MODULE: ./src/sdk/network/user/user_kpi/factory.js
+var user_kpi_factory = __webpack_require__("288e");
+
+// CONCATENATED MODULE: ./src/sdk/network/user/user_kpi/index.js
+var cov_xbgkkxqi8 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/index.js",
+      hash = "e7fa8af35c93feeef1fe19d441990d47f444a1bb",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+/* harmony default export */ var user_kpi = (user_kpi_factory["a" /* default */]);
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/mutations.js
+var cov_1jj3tkkc7y = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/mutations.js",
+      hash = "cf5bb17699ead3280c36e18968f53644d8aa5d48",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/mutations.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 6,
+          column: 35
+        },
+        end: {
+          line: 6,
+          column: 56
+        }
+      },
+      "1": {
+        start: {
+          line: 7,
+          column: 40
+        },
+        end: {
+          line: 7,
+          column: 66
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 51
+        },
+        end: {
+          line: 8,
+          column: 88
+        }
+      },
+      "3": {
+        start: {
+          line: 13,
+          column: 25
+        },
+        end: {
+          line: 13,
+          column: 61
+        }
+      },
+      "4": {
+        start: {
+          line: 14,
+          column: 8
+        },
+        end: {
+          line: 14,
+          column: 64
+        }
+      },
+      "5": {
+        start: {
+          line: 15,
+          column: 8
+        },
+        end: {
+          line: 15,
+          column: 64
+        }
+      },
+      "6": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 64
+        }
+      },
+      "7": {
+        start: {
+          line: 17,
+          column: 8
+        },
+        end: {
+          line: 17,
+          column: 40
+        }
+      },
+      "8": {
+        start: {
+          line: 21,
+          column: 8
+        },
+        end: {
+          line: 21,
+          column: 53
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+var _fetchDataQuarterMuta;
+
+
+/**
+ * Mutation là dạng string nên ta cần biến const để auto completet
+ */
+
+var initializeDataStore = (cov_1jj3tkkc7y.s[0]++, 'initializeDataStore');
+var fetchDataQuarterMutation = (cov_1jj3tkkc7y.s[1]++, 'fetchDataQuarterMutation');
+var fetchDataCompanyPerformanceMutation = (cov_1jj3tkkc7y.s[2]++, 'fetchDataCompanyPerformanceMutation');
+/* harmony default export */ var store_mutations = (_fetchDataQuarterMuta = {}, _defineProperty(_fetchDataQuarterMuta, fetchDataQuarterMutation, function (state, quarterPeriod) {
+  var clonedData = (cov_1jj3tkkc7y.s[3]++, cloneObject(quarterPeriod['fields']));
+  cov_1jj3tkkc7y.s[4]++;
+  clonedData.month_1_name = quarterPeriod['month_1_name'];
+  cov_1jj3tkkc7y.s[5]++;
+  clonedData.month_2_name = quarterPeriod['month_2_name'];
+  cov_1jj3tkkc7y.s[6]++;
+  clonedData.month_3_name = quarterPeriod['month_3_name'];
+  cov_1jj3tkkc7y.s[7]++;
+  state.quarterPeriod = clonedData;
+}), _defineProperty(_fetchDataQuarterMuta, fetchDataCompanyPerformanceMutation, function (state, companyPerformance) {
+  cov_1jj3tkkc7y.s[8]++;
+  state.companyPerformance = companyPerformance;
+}), _fetchDataQuarterMuta);
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/actions.js
+var cov_10lfxb8rro = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/actions.js",
+      hash = "4fb596cae47d41e7688762cc1f99aff1231d5487",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/actions.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 9,
+          column: 35
+        },
+        end: {
+          line: 9,
+          column: 56
+        }
+      },
+      "1": {
+        start: {
+          line: 10,
+          column: 32
+        },
+        end: {
+          line: 10,
+          column: 50
+        }
+      },
+      "2": {
+        start: {
+          line: 11,
+          column: 43
+        },
+        end: {
+          line: 11,
+          column: 72
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 33
+        },
+        end: {
+          line: 12,
+          column: 52
+        }
+      },
+      "4": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 56
+        }
+      },
+      "5": {
+        start: {
+          line: 17,
+          column: 8
+        },
+        end: {
+          line: 17,
+          column: 67
+        }
+      },
+      "6": {
+        start: {
+          line: 20,
+          column: 8
+        },
+        end: {
+          line: 39,
+          column: 9
+        }
+      },
+      "7": {
+        start: {
+          line: 22,
+          column: 12
+        },
+        end: {
+          line: 30,
+          column: 14
+        }
+      },
+      "8": {
+        start: {
+          line: 25,
+          column: 16
+        },
+        end: {
+          line: 25,
+          column: 47
+        }
+      },
+      "9": {
+        start: {
+          line: 27,
+          column: 16
+        },
+        end: {
+          line: 27,
+          column: 59
+        }
+      },
+      "10": {
+        start: {
+          line: 29,
+          column: 16
+        },
+        end: {
+          line: 29,
+          column: 27
+        }
+      },
+      "11": {
+        start: {
+          line: 34,
+          column: 12
+        },
+        end: {
+          line: 38,
+          column: 14
+        }
+      },
+      "12": {
+        start: {
+          line: 35,
+          column: 16
+        },
+        end: {
+          line: 35,
+          column: 59
+        }
+      },
+      "13": {
+        start: {
+          line: 37,
+          column: 16
+        },
+        end: {
+          line: 37,
+          column: 25
+        }
+      },
+      "14": {
+        start: {
+          line: 43,
+          column: 8
+        },
+        end: {
+          line: 47,
+          column: 10
+        }
+      },
+      "15": {
+        start: {
+          line: 44,
+          column: 12
+        },
+        end: {
+          line: 44,
+          column: 66
+        }
+      },
+      "16": {
+        start: {
+          line: 46,
+          column: 12
+        },
+        end: {
+          line: 46,
+          column: 28
+        }
+      },
+      "17": {
+        start: {
+          line: 51,
+          column: 18
+        },
+        end: {
+          line: 51,
+          column: 46
+        }
+      },
+      "18": {
+        start: {
+          line: 52,
+          column: 8
+        },
+        end: {
+          line: 52,
+          column: 49
+        }
+      },
+      "19": {
+        start: {
+          line: 54,
+          column: 8
+        },
+        end: {
+          line: 58,
+          column: 10
+        }
+      },
+      "20": {
+        start: {
+          line: 55,
+          column: 12
+        },
+        end: {
+          line: 55,
+          column: 67
+        }
+      },
+      "21": {
+        start: {
+          line: 57,
+          column: 12
+        },
+        end: {
+          line: 57,
+          column: 28
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 22,
+            column: 72
+          },
+          end: {
+            line: 22,
+            column: 73
+          }
+        },
+        loc: {
+          start: {
+            line: 22,
+            column: 82
+          },
+          end: {
+            line: 28,
+            column: 13
+          }
+        },
+        line: 22
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 28,
+            column: 21
+          },
+          end: {
+            line: 28,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 28,
+            column: 28
+          },
+          end: {
+            line: 30,
+            column: 13
+          }
+        },
+        line: 28
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 34,
+            column: 60
+          },
+          end: {
+            line: 34,
+            column: 61
+          }
+        },
+        loc: {
+          start: {
+            line: 34,
+            column: 70
+          },
+          end: {
+            line: 36,
+            column: 13
+          }
+        },
+        line: 34
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 36,
+            column: 21
+          },
+          end: {
+            line: 36,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 36,
+            column: 28
+          },
+          end: {
+            line: 38,
+            column: 13
+          }
+        },
+        line: 36
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 43,
+            column: 126
+          },
+          end: {
+            line: 43,
+            column: 127
+          }
+        },
+        loc: {
+          start: {
+            line: 43,
+            column: 134
+          },
+          end: {
+            line: 45,
+            column: 9
+          }
+        },
+        line: 43
+      },
+      "5": {
+        name: "(anonymous_5)",
+        decl: {
+          start: {
+            line: 45,
+            column: 17
+          },
+          end: {
+            line: 45,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 45,
+            column: 24
+          },
+          end: {
+            line: 47,
+            column: 9
+          }
+        },
+        line: 45
+      },
+      "6": {
+        name: "(anonymous_6)",
+        decl: {
+          start: {
+            line: 54,
+            column: 59
+          },
+          end: {
+            line: 54,
+            column: 60
+          }
+        },
+        loc: {
+          start: {
+            line: 54,
+            column: 67
+          },
+          end: {
+            line: 56,
+            column: 9
+          }
+        },
+        line: 54
+      },
+      "7": {
+        name: "(anonymous_7)",
+        decl: {
+          start: {
+            line: 56,
+            column: 17
+          },
+          end: {
+            line: 56,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 56,
+            column: 24
+          },
+          end: {
+            line: 58,
+            column: 9
+          }
+        },
+        line: 56
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 20,
+            column: 8
+          },
+          end: {
+            line: 39,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 20,
+            column: 8
+          },
+          end: {
+            line: 39,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 20,
+            column: 8
+          },
+          end: {
+            line: 39,
+            column: 9
+          }
+        }],
+        line: 20
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+var _initializeDataStore$;
+
+/* import block */
+
+
+
+
+
+/* export block */
+
+var actions_initializeDataStore = (cov_10lfxb8rro.s[0]++, 'initializeDataStore');
+var fetchDataQuarter = (cov_10lfxb8rro.s[1]++, 'fetchDataQuarter');
+var fetchDataCompanyPerformance = (cov_10lfxb8rro.s[2]++, 'fetchDataCompanyPerformance');
+var updateMonthlyLock = (cov_10lfxb8rro.s[3]++, 'updateMonthlyLock');
+/* harmony default export */ var store_actions = (_initializeDataStore$ = {}, _defineProperty(_initializeDataStore$, actions_initializeDataStore, function (store, quarterPeriodID) {
+  cov_10lfxb8rro.s[4]++;
+  store.dispatch(fetchDataQuarter, quarterPeriodID);
+  cov_10lfxb8rro.s[5]++;
+  store.dispatch(fetchDataCompanyPerformance, quarterPeriodID);
+}), _defineProperty(_initializeDataStore$, fetchDataQuarter, function (store, quarterPeriodID) {
+  cov_10lfxb8rro.s[6]++;
+
+  if (quarterPeriodID) {
+    cov_10lfxb8rro.b[0][0]++;
+    cov_10lfxb8rro.s[7]++;
+
+    /* if quarterPeriodID provided, get quarter by id */
+    quarter_period().getQuarterByID(quarterPeriodID).then(function (data) {
+      cov_10lfxb8rro.f[0]++;
+      cov_10lfxb8rro.s[8]++;
+      // Fuck ===> Backend return shit response
+      // Hot fix
+      data.fields = cloneObject(data); // End hotfix
+
+      cov_10lfxb8rro.s[9]++;
+      store.commit(fetchDataQuarterMutation, data);
+    }).catch(function (err) {
+      cov_10lfxb8rro.f[1]++;
+      cov_10lfxb8rro.s[10]++;
+      throw err;
     });
   } else {
-    obj[key] = value;
-  }
+    cov_10lfxb8rro.b[0][1]++;
+    cov_10lfxb8rro.s[11]++;
 
-  return obj;
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/objectSpread.js
-
-function _objectSpread(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? arguments[i] : {};
-    var ownKeys = Object.keys(source);
-
-    if (typeof Object.getOwnPropertySymbols === 'function') {
-      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
-        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
-      }));
-    }
-
-    ownKeys.forEach(function (key) {
-      _defineProperty(target, key, source[key]);
+    /* if quarter period id not provided, get current quarter */
+    quarter_period().getCurrentQuarter().then(function (data) {
+      cov_10lfxb8rro.f[2]++;
+      cov_10lfxb8rro.s[12]++;
+      store.commit(fetchDataQuarterMutation, data);
+    }).catch(function (err) {
+      cov_10lfxb8rro.f[3]++;
+      cov_10lfxb8rro.s[13]++;
+      throw err;
     });
   }
+}), _defineProperty(_initializeDataStore$, fetchDataCompanyPerformance, function (store, quarterPeriodID) {
+  cov_10lfxb8rro.s[14]++;
+  user_kpi().getCompanyPerformanceByQuarterID({
+    quarterPeriodID: quarterPeriodID,
+    userID: store.rootState.organization.ceo
+  }).then(function (data) {
+    cov_10lfxb8rro.f[4]++;
+    cov_10lfxb8rro.s[15]++;
+    store.commit(fetchDataCompanyPerformanceMutation, data);
+  }).catch(function (err) {
+    cov_10lfxb8rro.f[5]++;
+    cov_10lfxb8rro.s[16]++;
+    console.log(err);
+  });
+}), _defineProperty(_initializeDataStore$, updateMonthlyLock, function (store, monthLockReview) {
+  /* update attribute */
+  var org = (cov_10lfxb8rro.s[17]++, store.rootState.organization);
+  cov_10lfxb8rro.s[18]++;
+  org.monthly_review_lock = monthLockReview;
+  /* trigger network service and update org in root store*/
 
-  return target;
-}
+  cov_10lfxb8rro.s[19]++;
+  network_organization().updateOrganization(org).then(function (data) {
+    cov_10lfxb8rro.f[6]++;
+    cov_10lfxb8rro.s[20]++;
+    store.commit("organizationMutation", data, {
+      root: true
+    });
+  }).catch(function (err) {
+    cov_10lfxb8rro.f[7]++;
+    cov_10lfxb8rro.s[21]++;
+    console.log(err);
+  });
+}), _initializeDataStore$);
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/getters.js
+var cov_153lw7io3n = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/getters.js",
+      hash = "606b95a5186d83303352ae183bff671ca2cd43ea",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/getters.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 40
+        },
+        end: {
+          line: 1,
+          column: 60
+        }
+      },
+      "1": {
+        start: {
+          line: 2,
+          column: 35
+        },
+        end: {
+          line: 2,
+          column: 50
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 8
+        },
+        end: {
+          line: 6,
+          column: 39
+        }
+      },
+      "3": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 34
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+var _companyPerformanceGe;
+
+var companyPerformanceGetter = (cov_153lw7io3n.s[0]++, 'companyPerformance');
+var quarterPeriodGetter = (cov_153lw7io3n.s[1]++, 'quarterPeriod');
+/* harmony default export */ var store_getters = (_companyPerformanceGe = {}, _defineProperty(_companyPerformanceGe, companyPerformanceGetter, function (state) {
+  cov_153lw7io3n.s[2]++;
+  return state.companyPerformance;
+}), _defineProperty(_companyPerformanceGe, quarterPeriodGetter, function (state) {
+  cov_153lw7io3n.s[3]++;
+  return state.quarterPeriod;
+}), _companyPerformanceGe);
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/states.js
+var cov_1g15kwgr6e = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/states.js",
+      hash = "baaa4b5a195c77e32d13816305617804abb3abbd",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/states.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+/* harmony default export */ var states = ({
+  companyPerformance: {},
+  quarterPeriod: {}
+});
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/index.js
+var cov_9l2xfqxd1 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/index.js",
+      hash = "997cccb00ce584ba41b5e65177dd2f0fe5e0c2b6",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+
+
+
+
+/* harmony default export */ var company_performance_store = ({
+  namespaced: true,
+  state: states,
+  actions: store_actions,
+  getters: store_getters,
+  mutations: store_mutations
+});
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=template&id=05cf0880&scoped=true&
+var performance_tablevue_type_template_id_05cf0880_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"table-per-com-result"},[_c('table',{staticClass:"table table-bordered table-striped text-center"},[_c('thead',[_c('tr',[_c('th',[_vm._v(_vm._s(_vm.quarterPeriod.month_1_name))]),_c('th',[_vm._v(_vm._s(_vm.quarterPeriod.month_2_name))]),_c('th',[_vm._v(_vm._s(_vm.quarterPeriod.month_3_name))])])]),_c('tbody',[_c('tr',[_c('td',[_c('span',[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.month_1_score)))])]),_c('td',[_c('span',[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.month_2_score)))])]),_c('td',[_c('span',[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.month_3_score)))])])])])])])}
+var performance_tablevue_type_template_id_05cf0880_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=template&id=05cf0880&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=script&lang=js&
+var cov_1aypy9zr56 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue",
+      hash = "55087447c610a0b3d4f34df751e3052a176bbe77",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 40,
+          column: 29
+        },
+        end: {
+          line: 40,
+          column: 38
+        }
+      },
+      "1": {
+        start: {
+          line: 49,
+          column: 29
+        },
+        end: {
+          line: 49,
+          column: 38
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 40,
+            column: 21
+          },
+          end: {
+            line: 40,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 40,
+            column: 27
+          },
+          end: {
+            line: 40,
+            column: 40
+          }
+        },
+        line: 40
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 49,
+            column: 21
+          },
+          end: {
+            line: 49,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 49,
+            column: 27
+          },
+          end: {
+            line: 49,
+            column: 40
+          }
+        },
+        line: 49
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var performance_tablevue_type_script_lang_js_ = ({
+  name: "performance_table",
+  props: {
+    /**
+     * Object current quarter
+     * Business:
+     * Just an quarter period object bring data to be rendered
+     */
+    quarterPeriod: {
+      type: Object,
+      default: function _default() {
+        cov_1aypy9zr56.f[0]++;
+        cov_1aypy9zr56.s[0]++;
+        return {};
+      }
+    },
+
+    /**
+     * Object company performance
+     * An object stored performance of the ceo and be rendered
+     */
+    companyPerformance: {
+      type: Object,
+      default: function _default() {
+        cov_1aypy9zr56.f[1]++;
+        cov_1aypy9zr56.s[1]++;
+        return {};
+      }
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_performance_tablevue_type_script_lang_js_ = (performance_tablevue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=style&index=0&id=05cf0880&scoped=true&lang=css&
+var performance_tablevue_type_style_index_0_id_05cf0880_scoped_true_lang_css_ = __webpack_require__("ccee");
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue
+
+
+
+
+
+
+/* normalize component */
+
+var performance_table_component = Object(componentNormalizer["a" /* default */])(
+  components_performance_tablevue_type_script_lang_js_,
+  performance_tablevue_type_template_id_05cf0880_scoped_true_render,
+  performance_tablevue_type_template_id_05cf0880_scoped_true_staticRenderFns,
+  false,
+  null,
+  "05cf0880",
+  null
+  
+)
+
+performance_table_component.options.__file = "performance_table.vue"
+/* harmony default export */ var performance_table = (performance_table_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=template&id=cdbdc114&scoped=true&
+var vision_missionvue_type_template_id_cdbdc114_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-fluid"},[_c('div',{staticClass:"rows-table-sm text-center"},[_c('div',{staticClass:"col-sm-6 col-table-6"},[_c('div',{staticClass:"rows-table-sm"},[_c('div',{staticClass:"logo padding-top-15"},[_c('img',{attrs:{"alt":_vm.organizationObject.name,"src":_vm.organizationObject.get_logo,"title":_vm.organizationObject.name}})])]),_c('div',{staticClass:"bt-mission-box"},[_c('button',{staticClass:"btn btn-normal btn-fullwidth btn-cus-5-7 HOME_BTN_VISION",attrs:{"id":"btn-vision-misson","data-toggle":"modal","data-target":"#modal-vision-mission"}},[_vm._v("\n                    "+_vm._s(_vm._f("translate")("Vision & Mission"))+"\n                ")])])]),_c('div',{staticClass:"col-sm-6 col-table-6",attrs:{"id":"performance-quater"}},[_c('div',[_c('span',{staticClass:"com-per-title"},[_vm._v(_vm._s(_vm._f("translate")("Performance"))+" - "+_vm._s(_vm._f("translate")("Quarter"))+"\n                    "),_c('span',[_vm._v(_vm._s(_vm.quarterPeriod.quarter))])]),_c('br'),_c('span',{staticClass:"com-per-pecent"},[_c('span',{attrs:{"id":"company-performance-quarter"}},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.kpi_percent)))]),_c('span',{staticClass:"per-com-unit"})])])])])])}
+var vision_missionvue_type_template_id_cdbdc114_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=template&id=cdbdc114&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=script&lang=js&
+var cov_l9as5gnkv = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue",
+      hash = "6e048c64526e44e8f56842818e007faf2cbc5341",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 46,
+          column: 29
+        },
+        end: {
+          line: 46,
+          column: 38
+        }
+      },
+      "1": {
+        start: {
+          line: 56,
+          column: 29
+        },
+        end: {
+          line: 56,
+          column: 38
+        }
+      },
+      "2": {
+        start: {
+          line: 65,
+          column: 29
+        },
+        end: {
+          line: 65,
+          column: 38
+        }
+      },
+      "3": {
+        start: {
+          line: 69,
+          column: 8
+        },
+        end: {
+          line: 71,
+          column: 9
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 46,
+            column: 21
+          },
+          end: {
+            line: 46,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 46,
+            column: 27
+          },
+          end: {
+            line: 46,
+            column: 40
+          }
+        },
+        line: 46
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 56,
+            column: 21
+          },
+          end: {
+            line: 56,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 56,
+            column: 27
+          },
+          end: {
+            line: 56,
+            column: 40
+          }
+        },
+        line: 56
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 65,
+            column: 21
+          },
+          end: {
+            line: 65,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 65,
+            column: 27
+          },
+          end: {
+            line: 65,
+            column: 40
+          }
+        },
+        line: 65
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 68,
+            column: 10
+          },
+          end: {
+            line: 68,
+            column: 11
+          }
+        },
+        loc: {
+          start: {
+            line: 68,
+            column: 20
+          },
+          end: {
+            line: 72,
+            column: 5
+          }
+        },
+        line: 68
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var vision_missionvue_type_script_lang_js_ = ({
+  name: "vision_mission",
+  props: {
+    /**
+     * Object organization
+     * Business:
+     * Just an object store data of organization, used for controlling monthly lock
+     */
+    organizationObject: {
+      type: Object,
+      default: function _default() {
+        cov_l9as5gnkv.f[0]++;
+        cov_l9as5gnkv.s[0]++;
+        return {};
+      }
+    },
+
+    /**
+     * Object current quarter
+     * Business:
+     * Just an quarter period object bring data to be rendered
+     */
+    quarterPeriod: {
+      type: Object,
+      default: function _default() {
+        cov_l9as5gnkv.f[1]++;
+        cov_l9as5gnkv.s[1]++;
+        return {};
+      }
+    },
+
+    /**
+     * Object company performance
+     * An object stored performance of the ceo and be rendered
+     */
+    companyPerformance: {
+      type: Object,
+      default: function _default() {
+        cov_l9as5gnkv.f[2]++;
+        cov_l9as5gnkv.s[2]++;
+        return {};
+      }
+    }
+  },
+  data: function data() {
+    cov_l9as5gnkv.f[3]++;
+    cov_l9as5gnkv.s[3]++;
+    return {};
+  }
+});
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_vision_missionvue_type_script_lang_js_ = (vision_missionvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=style&index=0&id=cdbdc114&scoped=true&lang=css&
+var vision_missionvue_type_style_index_0_id_cdbdc114_scoped_true_lang_css_ = __webpack_require__("4509");
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue
+
+
+
+
+
+
+/* normalize component */
+
+var vision_mission_component = Object(componentNormalizer["a" /* default */])(
+  components_vision_missionvue_type_script_lang_js_,
+  vision_missionvue_type_template_id_cdbdc114_scoped_true_render,
+  vision_missionvue_type_template_id_cdbdc114_scoped_true_staticRenderFns,
+  false,
+  null,
+  "cdbdc114",
+  null
+  
+)
+
+vision_mission_component.options.__file = "vision_mission.vue"
+/* harmony default export */ var vision_mission = (vision_mission_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=template&id=e1196634&scoped=true&
+var month_lock_controllervue_type_template_id_e1196634_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-fluid text-left due-box"},[_c('div',{staticClass:"col-sm-6",attrs:{"id":""}},[_c('div',[_vm._v(_vm._s(_vm._f("translate")("Due")))]),_c('div',[_vm._v(_vm._s(_vm._f("translate")("Allow review")))])]),_c('div',{staticClass:"col-sm-6 due-date-color"},[_c('div',[_vm._v(_vm._s(_vm._f("dateTimeFormat")(_vm.quarterPeriod.due_date)))]),(_vm.isAdmin)?_c('div',[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.monthlyReviewLock),expression:"monthlyReviewLock"}],staticClass:"HOME_DDL_ALLOW_MONTH",on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.monthlyReviewLock=$event.target.multiple ? $$selectedVal : $$selectedVal[0]}}},[_c('option',{attrs:{"value":"allow_all"}},[_vm._v(_vm._s(_vm._f("translate")("All months")))]),_c('option',{attrs:{"value":"1"}},[_vm._v(_vm._s(_vm.quarterPeriod.month_1_name))]),_c('option',{attrs:{"value":"2"}},[_vm._v(_vm._s(_vm.quarterPeriod.month_2_name))]),_c('option',{attrs:{"value":"3"}},[_vm._v(_vm._s(_vm.quarterPeriod.month_3_name))])])]):_c('div',[_c('span',[_vm._v(" "+_vm._s(_vm.displayMonthlyReviewLock))])])])])}
+var month_lock_controllervue_type_template_id_e1196634_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=template&id=e1196634&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=script&lang=js&
+var cov_2cuodvot0l = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue",
+      hash = "60d7c853f8088c1959574d72221ed250985eb34c",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 29,
+          column: 12
+        },
+        end: {
+          line: 31,
+          column: 13
+        }
+      },
+      "1": {
+        start: {
+          line: 30,
+          column: 16
+        },
+        end: {
+          line: 30,
+          column: 41
+        }
+      },
+      "2": {
+        start: {
+          line: 32,
+          column: 12
+        },
+        end: {
+          line: 32,
+          column: 77
+        }
+      },
+      "3": {
+        start: {
+          line: 36,
+          column: 16
+        },
+        end: {
+          line: 36,
+          column: 34
+        }
+      },
+      "4": {
+        start: {
+          line: 39,
+          column: 16
+        },
+        end: {
+          line: 39,
+          column: 39
+        }
+      },
+      "5": {
+        start: {
+          line: 51,
+          column: 29
+        },
+        end: {
+          line: 51,
+          column: 47
+        }
+      },
+      "6": {
+        start: {
+          line: 59,
+          column: 29
+        },
+        end: {
+          line: 59,
+          column: 41
+        }
+      },
+      "7": {
+        start: {
+          line: 67,
+          column: 29
+        },
+        end: {
+          line: 67,
+          column: 38
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 35,
+            column: 17
+          },
+          end: {
+            line: 35,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 35,
+            column: 27
+          },
+          end: {
+            line: 37,
+            column: 13
+          }
+        },
+        line: 35
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 38,
+            column: 17
+          },
+          end: {
+            line: 38,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 38,
+            column: 30
+          },
+          end: {
+            line: 40,
+            column: 13
+          }
+        },
+        line: 38
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 51,
+            column: 21
+          },
+          end: {
+            line: 51,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 51,
+            column: 27
+          },
+          end: {
+            line: 51,
+            column: 49
+          }
+        },
+        line: 51
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 59,
+            column: 21
+          },
+          end: {
+            line: 59,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 59,
+            column: 27
+          },
+          end: {
+            line: 59,
+            column: 43
+          }
+        },
+        line: 59
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 67,
+            column: 21
+          },
+          end: {
+            line: 67,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 67,
+            column: 27
+          },
+          end: {
+            line: 67,
+            column: 40
+          }
+        },
+        line: 67
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 29,
+            column: 12
+          },
+          end: {
+            line: 31,
+            column: 13
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 29,
+            column: 12
+          },
+          end: {
+            line: 31,
+            column: 13
+          }
+        }, {
+          start: {
+            line: 29,
+            column: 12
+          },
+          end: {
+            line: 31,
+            column: 13
+          }
+        }],
+        line: 29
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var month_lock_controllervue_type_script_lang_js_ = ({
+  name: "month_lock_controller",
+  computed: {
+    displayMonthlyReviewLock: function displayMonthlyReviewLock() {
+      cov_2cuodvot0l.s[0]++;
+
+      if (this.monthlyReviewLock === 'allow_all') {
+        cov_2cuodvot0l.b[0][0]++;
+        cov_2cuodvot0l.s[1]++;
+        return "Tất cả các tháng";
+      } else {
+        cov_2cuodvot0l.b[0][1]++;
+      }
+
+      cov_2cuodvot0l.s[2]++;
+      return this.quarterPeriod["month_".concat(this.monthlyReviewLock, "_name")];
+    },
+    monthlyReviewLock: {
+      get: function get() {
+        cov_2cuodvot0l.f[0]++;
+        cov_2cuodvot0l.s[3]++;
+        return this.value;
+      },
+      set: function set(val) {
+        cov_2cuodvot0l.f[1]++;
+        cov_2cuodvot0l.s[4]++;
+        this.$emit('input', val);
+      }
+    }
+  },
+  props: {
+    /**
+     * String Value
+     * Business:
+     * Just string value store monthly_lock_review
+     */
+    value: {
+      type: String,
+      default: function _default() {
+        cov_2cuodvot0l.f[2]++;
+        cov_2cuodvot0l.s[5]++;
+        return "allow_all";
+      }
+    },
+
+    /*
+    * isAdmin boolean
+    * Business: provide boolean value to describe if current dropdown is triggered by admin or not
+    * */
+    isAdmin: {
+      type: Boolean,
+      default: function _default() {
+        cov_2cuodvot0l.f[3]++;
+        cov_2cuodvot0l.s[6]++;
+        return false;
+      }
+    },
+
+    /*
+    * quarterPeriod object
+    * Business: provide quarter period object
+    * */
+    quarterPeriod: {
+      type: Object,
+      default: function _default() {
+        cov_2cuodvot0l.f[4]++;
+        cov_2cuodvot0l.s[7]++;
+        return {};
+      }
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_month_lock_controllervue_type_script_lang_js_ = (month_lock_controllervue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=style&index=0&id=e1196634&scoped=true&lang=css&
+var month_lock_controllervue_type_style_index_0_id_e1196634_scoped_true_lang_css_ = __webpack_require__("97ab");
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue
+
+
+
+
+
+
+/* normalize component */
+
+var month_lock_controller_component = Object(componentNormalizer["a" /* default */])(
+  components_month_lock_controllervue_type_script_lang_js_,
+  month_lock_controllervue_type_template_id_e1196634_scoped_true_render,
+  month_lock_controllervue_type_template_id_e1196634_scoped_true_staticRenderFns,
+  false,
+  null,
+  "e1196634",
+  null
+  
+)
+
+month_lock_controller_component.options.__file = "month_lock_controller.vue"
+/* harmony default export */ var month_lock_controller = (month_lock_controller_component.exports);
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.regexp.replace.js
 var es6_regexp_replace = __webpack_require__("a481");
 
@@ -71356,10 +72472,10 @@ function getUrlVars() {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=script&lang=js&
 var cov_lcbqrmx2p = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/main.vue",
-      hash = "64f8929cbe75a13ca99dfc4744803ed8df346c84",
+      hash = "7f7debb6bae7de6fd310351aabc4f6385a28e199",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -71368,332 +72484,82 @@ var cov_lcbqrmx2p = function () {
     statementMap: {
       "0": {
         start: {
-          line: 102,
-          column: 12
+          line: 21,
+          column: 18
         },
         end: {
-          line: 104,
-          column: 13
+          line: 21,
+          column: 44
         }
       },
       "1": {
         start: {
-          line: 103,
-          column: 16
+          line: 31,
+          column: 18
         },
         end: {
-          line: 103,
-          column: 48
+          line: 31,
+          column: 49
         }
       },
       "2": {
         start: {
-          line: 108,
+          line: 41,
           column: 19
         },
         end: {
-          line: 108,
+          line: 41,
           column: 23
         }
       },
       "3": {
         start: {
-          line: 109,
+          line: 42,
           column: 8
         },
         end: {
-          line: 113,
+          line: 45,
           column: 10
         }
       },
       "4": {
         start: {
-          line: 110,
-          column: 12
+          line: 43,
+          column: 29
         },
         end: {
-          line: 110,
-          column: 69
+          line: 43,
+          column: 55
         }
       },
       "5": {
         start: {
-          line: 111,
+          line: 44,
           column: 12
         },
         end: {
-          line: 111,
-          column: 42
+          line: 44,
+          column: 48
         }
       },
       "6": {
         start: {
-          line: 112,
-          column: 12
+          line: 50,
+          column: 16
         },
         end: {
-          line: 112,
-          column: 36
+          line: 50,
+          column: 60
         }
       },
       "7": {
         start: {
-          line: 116,
-          column: 8
-        },
-        end: {
-          line: 121,
-          column: 9
-        }
-      },
-      "8": {
-        start: {
-          line: 124,
-          column: 8
-        },
-        end: {
-          line: 124,
-          column: 39
-        }
-      },
-      "9": {
-        start: {
-          line: 134,
-          column: 23
-        },
-        end: {
-          line: 134,
-          column: 27
-        }
-      },
-      "10": {
-        start: {
-          line: 135,
-          column: 29
-        },
-        end: {
-          line: 135,
-          column: 55
-        }
-      },
-      "11": {
-        start: {
-          line: 136,
-          column: 22
-        },
-        end: {
-          line: 136,
-          column: 61
-        }
-      },
-      "12": {
-        start: {
-          line: 137,
-          column: 12
-        },
-        end: {
-          line: 139,
-          column: 13
-        }
-      },
-      "13": {
-        start: {
-          line: 138,
+          line: 53,
           column: 16
         },
         end: {
-          line: 138,
-          column: 51
-        }
-      },
-      "14": {
-        start: {
-          line: 140,
-          column: 12
-        },
-        end: {
-          line: 155,
-          column: 15
-        }
-      },
-      "15": {
-        start: {
-          line: 144,
-          column: 37
-        },
-        end: {
-          line: 144,
-          column: 64
-        }
-      },
-      "16": {
-        start: {
-          line: 145,
-          column: 20
-        },
-        end: {
-          line: 145,
-          column: 67
-        }
-      },
-      "17": {
-        start: {
-          line: 146,
-          column: 20
-        },
-        end: {
-          line: 146,
-          column: 67
-        }
-      },
-      "18": {
-        start: {
-          line: 147,
-          column: 20
-        },
-        end: {
-          line: 147,
-          column: 67
-        }
-      },
-      "19": {
-        start: {
-          line: 148,
-          column: 20
-        },
-        end: {
-          line: 148,
-          column: 66
-        }
-      },
-      "20": {
-        start: {
-          line: 151,
-          column: 20
-        },
-        end: {
-          line: 151,
-          column: 35
-        }
-      },
-      "21": {
-        start: {
-          line: 158,
-          column: 23
-        },
-        end: {
-          line: 158,
-          column: 27
-        }
-      },
-      "22": {
-        start: {
-          line: 159,
-          column: 29
-        },
-        end: {
-          line: 159,
-          column: 55
-        }
-      },
-      "23": {
-        start: {
-          line: 160,
-          column: 22
-        },
-        end: {
-          line: 160,
-          column: 68
-        }
-      },
-      "24": {
-        start: {
-          line: 161,
-          column: 12
-        },
-        end: {
-          line: 163,
-          column: 13
-        }
-      },
-      "25": {
-        start: {
-          line: 162,
-          column: 16
-        },
-        end: {
-          line: 162,
-          column: 51
-        }
-      },
-      "26": {
-        start: {
-          line: 164,
-          column: 12
-        },
-        end: {
-          line: 172,
-          column: 15
-        }
-      },
-      "27": {
-        start: {
-          line: 168,
-          column: 20
-        },
-        end: {
-          line: 168,
-          column: 62
-        }
-      },
-      "28": {
-        start: {
-          line: 175,
-          column: 23
-        },
-        end: {
-          line: 175,
-          column: 27
-        }
-      },
-      "29": {
-        start: {
-          line: 176,
-          column: 12
-        },
-        end: {
-          line: 176,
-          column: 55
-        }
-      },
-      "30": {
-        start: {
-          line: 177,
-          column: 12
-        },
-        end: {
-          line: 187,
-          column: 15
-        }
-      },
-      "31": {
-        start: {
-          line: 182,
-          column: 20
-        },
-        end: {
-          line: 182,
-          column: 68
-        }
-      },
-      "32": {
-        start: {
-          line: 185,
-          column: 20
-        },
-        end: {
-          line: 185,
-          column: 55
+          line: 53,
+          column: 43
         }
       }
     },
@@ -71702,464 +72568,52 @@ var cov_lcbqrmx2p = function () {
         name: "(anonymous_0)",
         decl: {
           start: {
-            line: 101,
-            column: 22
-          },
-          end: {
-            line: 101,
-            column: 23
-          }
-        },
-        loc: {
-          start: {
-            line: 101,
-            column: 45
-          },
-          end: {
-            line: 105,
-            column: 9
-          }
-        },
-        line: 101
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 107,
+            line: 40,
             column: 13
           },
           end: {
-            line: 107,
+            line: 40,
             column: 14
           }
         },
         loc: {
           start: {
-            line: 107,
+            line: 40,
             column: 23
           },
           end: {
-            line: 114,
+            line: 46,
             column: 5
           }
         },
-        line: 107
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 109,
-            column: 38
-          },
-          end: {
-            line: 109,
-            column: 39
-          }
-        },
-        loc: {
-          start: {
-            line: 109,
-            column: 48
-          },
-          end: {
-            line: 113,
-            column: 9
-          }
-        },
-        line: 109
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
-            line: 115,
-            column: 10
-          },
-          end: {
-            line: 115,
-            column: 11
-          }
-        },
-        loc: {
-          start: {
-            line: 115,
-            column: 20
-          },
-          end: {
-            line: 122,
-            column: 5
-          }
-        },
-        line: 115
-      },
-      "4": {
-        name: "(anonymous_4)",
-        decl: {
-          start: {
-            line: 123,
-            column: 18
-          },
-          end: {
-            line: 123,
-            column: 19
-          }
-        },
-        loc: {
-          start: {
-            line: 123,
-            column: 28
-          },
-          end: {
-            line: 125,
-            column: 5
-          }
-        },
-        line: 123
-      },
-      "5": {
-        name: "(anonymous_5)",
-        decl: {
-          start: {
-            line: 133,
-            column: 27
-          },
-          end: {
-            line: 133,
-            column: 28
-          }
-        },
-        loc: {
-          start: {
-            line: 133,
-            column: 39
-          },
-          end: {
-            line: 156,
-            column: 9
-          }
-        },
-        line: 133
-      },
-      "6": {
-        name: "(anonymous_6)",
-        decl: {
-          start: {
-            line: 143,
-            column: 25
-          },
-          end: {
-            line: 143,
-            column: 26
-          }
-        },
-        loc: {
-          start: {
-            line: 143,
-            column: 41
-          },
-          end: {
-            line: 149,
-            column: 17
-          }
-        },
-        line: 143
-      },
-      "7": {
-        name: "(anonymous_7)",
-        decl: {
-          start: {
-            line: 150,
-            column: 23
-          },
-          end: {
-            line: 150,
-            column: 24
-          }
-        },
-        loc: {
-          start: {
-            line: 150,
-            column: 35
-          },
-          end: {
-            line: 152,
-            column: 17
-          }
-        },
-        line: 150
-      },
-      "8": {
-        name: "(anonymous_8)",
-        decl: {
-          start: {
-            line: 153,
-            column: 26
-          },
-          end: {
-            line: 153,
-            column: 27
-          }
-        },
-        loc: {
-          start: {
-            line: 153,
-            column: 42
-          },
-          end: {
-            line: 154,
-            column: 17
-          }
-        },
-        line: 153
-      },
-      "9": {
-        name: "(anonymous_9)",
-        decl: {
-          start: {
-            line: 157,
-            column: 33
-          },
-          end: {
-            line: 157,
-            column: 34
-          }
-        },
-        loc: {
-          start: {
-            line: 157,
-            column: 45
-          },
-          end: {
-            line: 173,
-            column: 9
-          }
-        },
-        line: 157
-      },
-      "10": {
-        name: "(anonymous_10)",
-        decl: {
-          start: {
-            line: 167,
-            column: 25
-          },
-          end: {
-            line: 167,
-            column: 26
-          }
-        },
-        loc: {
-          start: {
-            line: 167,
-            column: 40
-          },
-          end: {
-            line: 169,
-            column: 17
-          }
-        },
-        line: 167
-      },
-      "11": {
-        name: "(anonymous_11)",
-        decl: {
-          start: {
-            line: 170,
-            column: 23
-          },
-          end: {
-            line: 170,
-            column: 24
-          }
-        },
-        loc: {
-          start: {
-            line: 170,
-            column: 38
-          },
-          end: {
-            line: 171,
-            column: 17
-          }
-        },
-        line: 170
-      },
-      "12": {
-        name: "(anonymous_12)",
-        decl: {
-          start: {
-            line: 174,
-            column: 37
-          },
-          end: {
-            line: 174,
-            column: 38
-          }
-        },
-        loc: {
-          start: {
-            line: 174,
-            column: 48
-          },
-          end: {
-            line: 188,
-            column: 9
-          }
-        },
-        line: 174
-      },
-      "13": {
-        name: "(anonymous_13)",
-        decl: {
-          start: {
-            line: 181,
-            column: 25
-          },
-          end: {
-            line: 181,
-            column: 26
-          }
-        },
-        loc: {
-          start: {
-            line: 181,
-            column: 41
-          },
-          end: {
-            line: 183,
-            column: 17
-          }
-        },
-        line: 181
-      },
-      "14": {
-        name: "(anonymous_14)",
-        decl: {
-          start: {
-            line: 184,
-            column: 23
-          },
-          end: {
-            line: 184,
-            column: 24
-          }
-        },
-        loc: {
-          start: {
-            line: 184,
-            column: 35
-          },
-          end: {
-            line: 186,
-            column: 17
-          }
-        },
-        line: 184
-      }
-    },
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 102,
-            column: 12
-          },
-          end: {
-            line: 104,
-            column: 13
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 102,
-            column: 12
-          },
-          end: {
-            line: 104,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 102,
-            column: 12
-          },
-          end: {
-            line: 104,
-            column: 13
-          }
-        }],
-        line: 102
+        line: 40
       },
       "1": {
-        loc: {
+        name: "(anonymous_1)",
+        decl: {
           start: {
-            line: 137,
-            column: 12
+            line: 42,
+            column: 47
           },
           end: {
-            line: 139,
-            column: 13
+            line: 42,
+            column: 48
           }
         },
-        type: "if",
-        locations: [{
-          start: {
-            line: 137,
-            column: 12
-          },
-          end: {
-            line: 139,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 137,
-            column: 12
-          },
-          end: {
-            line: 139,
-            column: 13
-          }
-        }],
-        line: 137
-      },
-      "2": {
         loc: {
           start: {
-            line: 161,
-            column: 12
+            line: 42,
+            column: 53
           },
           end: {
-            line: 163,
-            column: 13
+            line: 45,
+            column: 9
           }
         },
-        type: "if",
-        locations: [{
-          start: {
-            line: 161,
-            column: 12
-          },
-          end: {
-            line: 163,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 161,
-            column: 12
-          },
-          end: {
-            line: 163,
-            column: 13
-          }
-        }],
-        line: 161
+        line: 42
       }
     },
+    branchMap: {},
     s: {
       "0": 0,
       "1": 0,
@@ -72168,64 +72622,13 @@ var cov_lcbqrmx2p = function () {
       "4": 0,
       "5": 0,
       "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0,
-      "16": 0,
-      "17": 0,
-      "18": 0,
-      "19": 0,
-      "20": 0,
-      "21": 0,
-      "22": 0,
-      "23": 0,
-      "24": 0,
-      "25": 0,
-      "26": 0,
-      "27": 0,
-      "28": 0,
-      "29": 0,
-      "30": 0,
-      "31": 0,
-      "32": 0
+      "7": 0
     },
     f: {
       "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0
+      "1": 0
     },
-    b: {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0]
-    },
-    inputSourceMap: {
-      version: 3,
-      sources: ["main.vue"],
-      names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAyFA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
-      file: "main.vue",
-      sourceRoot: "src/templates/components/kpi_editor/block_informations/company_performance",
-      sourcesContent: ["<template>\n    <div class=\"component-wrapper\">\n        <div id=\"company-performance-score\"\n             class=\"col-sm-4 col-table-4 kpi-panel text-center\">\n            <div class=\"kpi-panel-body\">\n                <div class=\"kpi-panel-header\">{{ \"Company Information\" | translate }}</div>\n                <div class=\"container-fluid\">\n                    <div class=\"rows-table-sm text-center\">\n                        <div class=\"col-sm-6 col-table-6\">\n                            <div class=\"rows-table-sm\">\n                                <div class=\"logo padding-top-15\">\n                                    <img :alt=\"organization_object.name\"\n                                         :src=\"organization_object.get_logo\"\n                                         :title=\"organization_object.name\" />\n                                </div>\n                            </div>\n                            <div class=\"bt-mission-box\">\n                                <button class=\"btn btn-normal btn-fullwidth btn-cus-5-7 HOME_BTN_VISION\" id=\"btn-vision-misson\" data-toggle=\"modal\" data-target=\"#modal-vision-mission\">\n                                    {{ \"Vision & Mission\" | translate }}</button>\n                            </div>\n                        </div>\n                        <div class=\"col-sm-6 col-table-6\" id=\"performance-quater\">\n                            <div>\n                                    <span class=\"com-per-title\">{{ \"Performance\" | translate }} - {{ \"Quarter\" | translate }}\n                                        <span>{{ current_quarter.quarter }}</span>\n                                    </span><br>\n                                <span class=\"com-per-pecent\">\n                                            <span id=\"company-performance-quarter\">{{ company_performance.kpi_percent|scoreDisplay }}</span><span class=\"per-com-unit\"></span>\n                                    </span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <hr class=\"per-border border-top\" />\n                <div class=\"container-fluid text-left due-box\">\n                    <div class=\"col-sm-6\" id=\"\">\n                        <div>{{ \"Due\" | translate }}</div>\n                        <div>{{ \"Allow review\" | translate }}</div>\n                    </div>\n                    <div class=\"col-sm-6 due-date-color\">\n                        <div>{{ current_quarter.due_date | dateTimeFormat }}</div>\n                        <div v-if=\"userActor.is_admin\">\n                            <select v-model=\"organization_object.monthly_review_lock\" class=\"HOME_DDL_ALLOW_MONTH\"\n                                    @change=\"update_current_organization()\">\n                                <option value=\"allow_all\">{{ \"All months\" | translate }}</option>\n                                <option value=\"1\">{{ current_quarter.month_1_name }}</option>\n                                <option value=\"2\">{{ current_quarter.month_2_name }}</option>\n                                <option value=\"3\">{{ current_quarter.month_3_name }}</option>\n                            </select>\n                        </div>\n                        <div v-else>\n                            <span v-if=\"organization_object.monthly_review_lock === '1'\"> {{ current_quarter.month_1_name }}</span>\n                            <span v-if=\"organization_object.monthly_review_lock === '2'\"> {{ current_quarter.month_2_name }}</span>\n                            <span v-if=\"organization_object.monthly_review_lock === '3'\"> {{ current_quarter.month_3_name }}</span>\n                            <span v-if=\"organization_object.monthly_review_lock === 'allow_all'\">{{ \"All months\" | translate }}</span>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"table-per-com-result\">\n                    <table class=\"table table-bordered table-striped text-center\">\n                        <thead>\n                        <tr>\n                            <th>{{ current_quarter.month_1_name }}</th>\n                            <th>{{ current_quarter.month_2_name }}</th>\n                            <th>{{ current_quarter.month_3_name }}</th>\n                        </tr>\n                        </thead>\n                        <tbody>\n                        <tr>\n                            <td>\n                                <span class=\"\">{{ company_performance.month_1_score|scoreDisplay }}</span>\n                            </td>\n                            <td>\n                                <span class=\"\">{{ company_performance.month_2_score|scoreDisplay }}</span>\n                            </td>\n                            <td>\n                                <span class=\"\">{{ company_performance.month_3_score|scoreDisplay }}</span>\n                            </td>\n                        </tr>\n                        </tbody>\n                    </table>\n                </div>\n            </div>\n        </div>\n\n    </div>\n</template>\n\n<script>\n    // https://medium.com/3yourmind/large-scale-vuex-application-structures-651e44863e2f\n    // https://github.com/igeligel/vuex-feature-scoped-structure\n    // https://github.com/igeligel/vuex-namespaced-module-structure\n    // https://morningstar.engineering/managing-your-vue-js-applications-state-with-vuex-part-2-5e5c3a0cd507\n    import { mapGetters } from \"vuex\";\n\n    import { cloneObject } from 'sdk/utils/object'\n    import { getUrlVars } from 'sdk/utils/url'\n    export default {\n        name: \"company_performance\",\n        watch: {\n            organization: function(oldVal,newVal){\n                if (newVal !== undefined){\n                    this.$root.$emit('preDataReady')\n                }\n            }\n        },\n        mounted: function(){\n            var self = this;\n            self.$root.$on('preDataReady',function(){\n                self.organization_object = cloneObject(self.organization)\n                self.get_company_performance()\n                self.get_quarter_by_id()\n            })\n        },\n        data: function(){\n            return {\n                organization_object: {},\n                company_performance: {},\n                current_quarter: {},\n\n            }\n        },\n        beforeDestroy:function(){\n            this.$root.$off('preDataReady')\n        },\n        computed: {\n            ...mapGetters([\n                'userActor',\n                'organization',\n            ])\n        },\n        methods: {\n            get_quarter_by_id: function () {\n                var self = this;\n                var quarter_id = getUrlVars()['quarter_id'];\n                var url = '/api/quarter/?get_current_quarter=yes';\n                if (quarter_id !== undefined) {\n                    url += '&quarter_id=' + quarter_id;\n                }\n                cloudjetRequest.ajax({\n                    type: 'get',\n                    url: url,\n                    success: function (data) {\n                        var clonedData = cloneObject(data['fields'])\n                        clonedData.month_1_name = data['month_1_name'];\n                        clonedData.month_2_name = data['month_2_name'];\n                        clonedData.month_3_name = data['month_3_name'];\n                        self.$set(self,'current_quarter', clonedData);\n                    },\n                    error: function () {\n                        alert('error');\n                    },\n                    complete: function (data) {\n                    }\n                });\n            },\n            get_company_performance: function () {\n                var self = this\n                var quarter_id = getUrlVars()['quarter_id'];\n                var url = '/api/user_kpi/' + self.organization.ceo + '/';\n                if (quarter_id !== undefined) {\n                    url += '?quarter_id=' + quarter_id;\n                }\n                cloudjetRequest.ajax({\n                    type: 'get',\n                    url: url,\n                    success: function (res) {\n                        self.$set(self,'company_performance', res)\n                    },\n                    error: function (res) {\n                    }\n                });\n            },\n            update_current_organization: function() {\n                var self = this;\n                console.log('update_current_organization');\n                cloudjetRequest.ajax({\n                    url: \"/api/organization/\",\n                    type: 'post',\n                    data: JSON.stringify(self.organization_object),\n                    success: function (data) {\n                        self.$store.dispatch('organizationActions',data)\n                    },\n                    error: function () {\n                        alert('Update organization Error');\n                    }\n                });\n            },\n        }\n    }\n</script>\n\n<style scoped>\n    .kpi-snapshot .kpi-panel-header {\n        overflow: hidden;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        text-transform: uppercase;\n        display: block;\n        height: 50px;\n        border-radius: 3px 3px 0 0;\n        line-height: 50px;\n        font-size: 16px;\n        font-weight: bold;\n        text-align: center;\n        background-color: #f9f9f9;\n        background-image: linear-gradient(93deg, #f9f9f9, #e4e4e4);\n    }\n    .kpi-snapshot .kpi-panel {\n        padding: 0;\n    }\n    .kpi-snapshot .kpi-panel .kpi-panel-body {\n        min-height: 390px;\n        border-radius: 3px;\n        background-color: #ffffff;\n        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);\n    }\n    @media (max-width: 1199px){\n        .reponsive-sm {\n            padding-left: 5px!important;\n            padding-right: 5px!important;\n        }\n        #btn-vision-misson {\n            width: 129px;\n            height: 26px;\n            font-size: 11px;\n            line-height: 0px;\n        }\n        #performance-quater {\n            padding-left: 0px;\n            padding-right: 0px;\n        }\n        #company-performance-quarter {\n            font-size: 30px;\n            color: #337ab7;\n            font-weight: bold;\n        }\n\n    }\n    .reponsive-sm {\n        padding-left: 5px!important;\n        padding-right: 5px!important;\n    }\n    .container-fluid > .due-date-color {\n        color: #d9534f;\n        padding-left: 10px;\n    }\n    .table-per-com-result{\n        margin: 19px 30px 15px;\n        font-weight: 600;\n    }\n    .table-per-com-result table.table-striped thead th, .table-per-result.table-bordered thead th{\n        color: #666;\n        background-color: #fff;\n        border-color: #e4e4e4;\n        text-align: center;\n        font-weight: 600;\n        border-width: 1px;\n    }\n    .table-per-com-result table.table-striped tr td, .table-per-result.table-bordered tr td,\n    .table-per-result.table-bordered tbody tr:last-child td{\n        color: #333;\n        border-color: #e4e4e4;\n        text-align: center;\n        font-weight: 600;\n    }\n\n    .table-per-result.table-bordered tr td{\n        font-weight: normal;\n    }\n\n    .table-per-result.table-bordered tr td{\n        color: #666666;\n    }\n\n    .table-per-com-result .table-striped > tbody > tr:nth-of-type(odd), .table-per-result.table-bordered tr:last-child td {\n        background-color: #FAF9F8;\n    }\n\n    .table-per-com-result .table>thead>tr>th{\n        border-bottom-width: 1px;\n    }\n\n    .text-left, .table-per-result.table-bordered tbody tr td.text-left{\n        text-align: left!important;\n    }\n    .due-box {\n        line-height: 25px;\n    }\n    .text-left, .table-per-result.table-bordered tbody tr td.text-left {\n        text-align: left!important;\n    }\n    .com-per-pecent .per-com-unit {\n        font-size: 30px;\n        font-weight: normal;\n    }\n    .bt-mission-box {\n        margin-top: 10px;\n    }\n    .btn-cus-5-7 {\n        padding: 5px 7px 5px 7px;\n    }\n    .btn-normal {\n        border-radius: 3px;\n        border: solid 1px #e4e4e4;\n        background-color: #f9f9f9;\n        font-size: 14px;\n        text-align: center;\n        padding: 7px 17px 8px 17px;\n        color: #333;\n        line-height: 22px;\n    }\n    .com-per-title {\n        font-size: 12px;\n        color: #337ab7;\n    }\n    .com-per-pecent {\n        font-size: 45px;\n        color: #337ab7;\n        font-weight: bold;\n    }\n    .border-top {\n        border-top: solid 1px rgba(219, 219, 219, 0.5);\n    }\n    .per-border {\n        margin: 17px 30px 15px;\n    }\n    .logo {\n        height: 90px;\n        display: table-cell;\n        vertical-align: middle;\n        text-align: center;\n    }\n    .padding-top-15 {\n        padding-top: 15px;\n    }\n</style>"]
-    },
+    b: {},
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
       coverage = global[gcv] || (global[gcv] = {});
@@ -72254,230 +72657,64 @@ var cov_lcbqrmx2p = function () {
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 // https://medium.com/3yourmind/large-scale-vuex-application-structures-651e44863e2f
 // https://github.com/igeligel/vuex-feature-scoped-structure
 // https://github.com/igeligel/vuex-namespaced-module-structure
 // https://morningstar.engineering/managing-your-vue-js-applications-state-with-vuex-part-2-5e5c3a0cd507
+var mainvue_type_script_lang_js_STORE_KEY = (cov_lcbqrmx2p.s[0]++, "$companyBlockPerformance");
 
 
 
+
+
+
+
+
+
+var mainvue_type_script_lang_js_initMixin = (cov_lcbqrmx2p.s[1]++, buildInitMixin(mainvue_type_script_lang_js_STORE_KEY, company_performance_store));
 /* harmony default export */ var company_performance_mainvue_type_script_lang_js_ = ({
-  name: "company_performance",
-  watch: {
-    organization: function organization(oldVal, newVal) {
-      cov_lcbqrmx2p.f[0]++;
-      cov_lcbqrmx2p.s[0]++;
-
-      if (newVal !== undefined) {
-        cov_lcbqrmx2p.b[0][0]++;
-        cov_lcbqrmx2p.s[1]++;
-        this.$root.$emit('preDataReady');
-      } else {
-        cov_lcbqrmx2p.b[0][1]++;
-      }
-    }
+  mixins: [mainvue_type_script_lang_js_initMixin],
+  components: {
+    PerformanceTable: performance_table,
+    MonthLockController: month_lock_controller,
+    VisionMission: vision_mission
   },
   mounted: function mounted() {
-    cov_lcbqrmx2p.f[1]++;
+    cov_lcbqrmx2p.f[0]++;
     var self = (cov_lcbqrmx2p.s[2]++, this);
     cov_lcbqrmx2p.s[3]++;
-    self.$root.$on('preDataReady', function () {
-      cov_lcbqrmx2p.f[2]++;
-      cov_lcbqrmx2p.s[4]++;
-      self.organization_object = cloneObject(self.organization);
+    this.$initializeDataStoreGlobal().then(function () {
+      cov_lcbqrmx2p.f[1]++;
+      // private method
+      var quarter_id = (cov_lcbqrmx2p.s[4]++, getUrlVars()['quarter_id']);
       cov_lcbqrmx2p.s[5]++;
-      self.get_company_performance();
-      cov_lcbqrmx2p.s[6]++;
-      self.get_quarter_by_id();
+      self.initializeDataStore(quarter_id);
     });
   },
-  data: function data() {
-    cov_lcbqrmx2p.f[3]++;
-    cov_lcbqrmx2p.s[7]++;
-    return {
-      organization_object: {},
-      company_performance: {},
-      current_quarter: {}
-    };
-  },
-  beforeDestroy: function beforeDestroy() {
-    cov_lcbqrmx2p.f[4]++;
-    cov_lcbqrmx2p.s[8]++;
-    this.$root.$off('preDataReady');
-  },
-  computed: _objectSpread({}, mapGetters(['userActor', 'organization'])),
-  methods: {
-    get_quarter_by_id: function get_quarter_by_id() {
-      cov_lcbqrmx2p.f[5]++;
-      var self = (cov_lcbqrmx2p.s[9]++, this);
-      var quarter_id = (cov_lcbqrmx2p.s[10]++, getUrlVars()['quarter_id']);
-      var url = (cov_lcbqrmx2p.s[11]++, '/api/quarter/?get_current_quarter=yes');
-      cov_lcbqrmx2p.s[12]++;
-
-      if (quarter_id !== undefined) {
-        cov_lcbqrmx2p.b[1][0]++;
-        cov_lcbqrmx2p.s[13]++;
-        url += '&quarter_id=' + quarter_id;
-      } else {
-        cov_lcbqrmx2p.b[1][1]++;
+  computed: _objectSpread({
+    organizationMontlyReviewLock: {
+      get: function get() {
+        cov_lcbqrmx2p.s[6]++;
+        return this.organization.monthly_review_lock;
+      },
+      set: function set(val) {
+        cov_lcbqrmx2p.s[7]++;
+        this.updateMonthlyLock(val);
       }
-
-      cov_lcbqrmx2p.s[14]++;
-      cloudjetRequest.ajax({
-        type: 'get',
-        url: url,
-        success: function success(data) {
-          cov_lcbqrmx2p.f[6]++;
-          var clonedData = (cov_lcbqrmx2p.s[15]++, cloneObject(data['fields']));
-          cov_lcbqrmx2p.s[16]++;
-          clonedData.month_1_name = data['month_1_name'];
-          cov_lcbqrmx2p.s[17]++;
-          clonedData.month_2_name = data['month_2_name'];
-          cov_lcbqrmx2p.s[18]++;
-          clonedData.month_3_name = data['month_3_name'];
-          cov_lcbqrmx2p.s[19]++;
-          self.$set(self, 'current_quarter', clonedData);
-        },
-        error: function error() {
-          cov_lcbqrmx2p.f[7]++;
-          cov_lcbqrmx2p.s[20]++;
-          alert('error');
-        },
-        complete: function complete(data) {
-          cov_lcbqrmx2p.f[8]++;
-        }
-      });
-    },
-    get_company_performance: function get_company_performance() {
-      cov_lcbqrmx2p.f[9]++;
-      var self = (cov_lcbqrmx2p.s[21]++, this);
-      var quarter_id = (cov_lcbqrmx2p.s[22]++, getUrlVars()['quarter_id']);
-      var url = (cov_lcbqrmx2p.s[23]++, '/api/user_kpi/' + self.organization.ceo + '/');
-      cov_lcbqrmx2p.s[24]++;
-
-      if (quarter_id !== undefined) {
-        cov_lcbqrmx2p.b[2][0]++;
-        cov_lcbqrmx2p.s[25]++;
-        url += '?quarter_id=' + quarter_id;
-      } else {
-        cov_lcbqrmx2p.b[2][1]++;
-      }
-
-      cov_lcbqrmx2p.s[26]++;
-      cloudjetRequest.ajax({
-        type: 'get',
-        url: url,
-        success: function success(res) {
-          cov_lcbqrmx2p.f[10]++;
-          cov_lcbqrmx2p.s[27]++;
-          self.$set(self, 'company_performance', res);
-        },
-        error: function error(res) {
-          cov_lcbqrmx2p.f[11]++;
-        }
-      });
-    },
-    update_current_organization: function update_current_organization() {
-      cov_lcbqrmx2p.f[12]++;
-      var self = (cov_lcbqrmx2p.s[28]++, this);
-      cov_lcbqrmx2p.s[29]++;
-      console.log('update_current_organization');
-      cov_lcbqrmx2p.s[30]++;
-      cloudjetRequest.ajax({
-        url: "/api/organization/",
-        type: 'post',
-        data: JSON.stringify(self.organization_object),
-        success: function success(data) {
-          cov_lcbqrmx2p.f[13]++;
-          cov_lcbqrmx2p.s[31]++;
-          self.$store.dispatch('organizationActions', data);
-        },
-        error: function error() {
-          cov_lcbqrmx2p.f[14]++;
-          cov_lcbqrmx2p.s[32]++;
-          alert('Update organization Error');
-        }
-      });
     }
-  }
+  }, mapGetters(['userActor', 'organization']), mapGetters(mainvue_type_script_lang_js_STORE_KEY, {
+    quarterPeriod: "".concat(quarterPeriodGetter),
+    companyPerformance: "".concat(companyPerformanceGetter)
+  })),
+  methods: _objectSpread({}, mapActions(mainvue_type_script_lang_js_STORE_KEY, {
+    initializeDataStore: "".concat(actions_initializeDataStore),
+    updateMonthlyLock: "".concat(updateMonthlyLock)
+  }))
 });
 // CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=script&lang=js&
  /* harmony default export */ var block_informations_company_performance_mainvue_type_script_lang_js_ = (company_performance_mainvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=style&index=0&id=29b93144&scoped=true&lang=css&
-var mainvue_type_style_index_0_id_29b93144_scoped_true_lang_css_ = __webpack_require__("3e8b");
+// EXTERNAL MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=style&index=0&id=4658fcc8&scoped=true&lang=css&
+var mainvue_type_style_index_0_id_4658fcc8_scoped_true_lang_css_ = __webpack_require__("dda8");
 
 // CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue
 
@@ -72488,13 +72725,13 @@ var mainvue_type_style_index_0_id_29b93144_scoped_true_lang_css_ = __webpack_req
 
 /* normalize component */
 
-var company_performance_main_component = normalizeComponent(
+var company_performance_main_component = Object(componentNormalizer["a" /* default */])(
   block_informations_company_performance_mainvue_type_script_lang_js_,
-  mainvue_type_template_id_29b93144_scoped_true_render,
-  mainvue_type_template_id_29b93144_scoped_true_staticRenderFns,
+  mainvue_type_template_id_4658fcc8_scoped_true_render,
+  mainvue_type_template_id_4658fcc8_scoped_true_staticRenderFns,
   false,
   null,
-  "29b93144",
+  "4658fcc8",
   null
   
 )
@@ -72504,7 +72741,7 @@ company_performance_main_component.options.__file = "main.vue"
 // CONCATENATED MODULE: ./src/registry/core/registry_components.js
 var cov_1zpjxenozd = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_components.js",
-      hash = "e43eb70f4c1aeaf7a08a11c7b245225da1a3573a",
+      hash = "56606423e51e7e6f423363165bbce058d6d08069",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -72513,31 +72750,31 @@ var cov_1zpjxenozd = function () {
     statementMap: {
       "0": {
         start: {
-          line: 18,
+          line: 19,
           column: 19
         },
         end: {
-          line: 23,
+          line: 22,
           column: 1
         }
       },
       "1": {
         start: {
-          line: 27,
+          line: 26,
           column: 0
         },
         end: {
-          line: 29,
+          line: 28,
           column: 2
         }
       },
       "2": {
         start: {
-          line: 28,
+          line: 27,
           column: 4
         },
         end: {
-          line: 28,
+          line: 27,
           column: 40
         }
       }
@@ -72547,25 +72784,25 @@ var cov_1zpjxenozd = function () {
         name: "(anonymous_0)",
         decl: {
           start: {
-            line: 27,
+            line: 26,
             column: 32
           },
           end: {
-            line: 27,
+            line: 26,
             column: 33
           }
         },
         loc: {
           start: {
-            line: 27,
+            line: 26,
             column: 40
           },
           end: {
-            line: 29,
+            line: 28,
             column: 1
           }
         },
-        line: 27
+        line: 26
       }
     },
     branchMap: {},
@@ -72599,7 +72836,9 @@ var cov_1zpjxenozd = function () {
 
 
 
-
+/**
+ * Static
+ */
 
 /*
 * Only expose application component to library, minor components won't expose here. It's the main component "main.vue"
@@ -72611,11 +72850,8 @@ var cov_1zpjxenozd = function () {
 * */
 
 var Components = (cov_1zpjxenozd.s[0]++, {
-  CloudjetNav: main,
-  // explicit declare components library hereq
-  CloudjetNav2: main,
   CompanyPerformance: company_performance_main,
-  NotificationContainer: notification_container
+  CloudjetNoti: main
   /* Automatic register component */
 
 });
@@ -72685,7 +72921,7 @@ var a = (cov_1l72odrufk.s[0]++, 'trigger test coverage');
 // CONCATENATED MODULE: ./src/registry/register_helper/helper_kpiapp.js
 var cov_2fqnn3z2b5 = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/register_helper/helper_kpiapp.js",
-      hash = "308a333968a0649d12bd24c7e3ffb33a72ad90d3",
+      hash = "3cd10e0459003ed8e12ded64fd6177f903de5098",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -72698,7 +72934,7 @@ var cov_2fqnn3z2b5 = function () {
           column: 15
         },
         end: {
-          line: 59,
+          line: 27,
           column: 2
         }
       },
@@ -72719,7 +72955,7 @@ var cov_2fqnn3z2b5 = function () {
         },
         end: {
           line: 15,
-          column: 14
+          column: 15
         }
       },
       "3": {
@@ -72734,111 +72970,11 @@ var cov_2fqnn3z2b5 = function () {
       },
       "4": {
         start: {
-          line: 16,
-          column: 8
-        },
-        end: {
-          line: 16,
-          column: 32
-        }
-      },
-      "5": {
-        start: {
-          line: 17,
-          column: 8
-        },
-        end: {
-          line: 17,
-          column: 29
-        }
-      },
-      "6": {
-        start: {
-          line: 21,
-          column: 23
-        },
-        end: {
-          line: 21,
-          column: 27
-        }
-      },
-      "7": {
-        start: {
-          line: 22,
-          column: 12
-        },
-        end: {
-          line: 29,
-          column: 14
-        }
-      },
-      "8": {
-        start: {
-          line: 27,
-          column: 20
-        },
-        end: {
-          line: 27,
-          column: 68
-        }
-      },
-      "9": {
-        start: {
-          line: 32,
-          column: 23
-        },
-        end: {
-          line: 32,
-          column: 27
-        }
-      },
-      "10": {
-        start: {
-          line: 33,
-          column: 12
-        },
-        end: {
-          line: 40,
-          column: 14
-        }
-      },
-      "11": {
-        start: {
-          line: 38,
-          column: 20
-        },
-        end: {
-          line: 38,
-          column: 65
-        }
-      },
-      "12": {
-        start: {
-          line: 43,
-          column: 23
-        },
-        end: {
-          line: 43,
-          column: 27
-        }
-      },
-      "13": {
-        start: {
-          line: 46,
-          column: 23
-        },
-        end: {
-          line: 46,
-          column: 27
-        }
-      },
-      "14": {
-        start: {
-          line: 60,
+          line: 28,
           column: 0
         },
         end: {
-          line: 60,
+          line: 28,
           column: 29
         }
       }
@@ -72859,10 +72995,10 @@ var cov_2fqnn3z2b5 = function () {
         loc: {
           start: {
             line: 11,
-            column: 23
+            column: 24
           },
           end: {
-            line: 18,
+            line: 16,
             column: 5
           }
         },
@@ -72883,7 +73019,7 @@ var cov_2fqnn3z2b5 = function () {
         loc: {
           start: {
             line: 13,
-            column: 29
+            column: 31
           },
           end: {
             line: 15,
@@ -72891,150 +73027,6 @@ var cov_2fqnn3z2b5 = function () {
           }
         },
         line: 13
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 20,
-            column: 27
-          },
-          end: {
-            line: 20,
-            column: 28
-          }
-        },
-        loc: {
-          start: {
-            line: 20,
-            column: 38
-          },
-          end: {
-            line: 30,
-            column: 9
-          }
-        },
-        line: 20
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
-            line: 25,
-            column: 25
-          },
-          end: {
-            line: 25,
-            column: 26
-          }
-        },
-        loc: {
-          start: {
-            line: 25,
-            column: 39
-          },
-          end: {
-            line: 28,
-            column: 17
-          }
-        },
-        line: 25
-      },
-      "4": {
-        name: "(anonymous_4)",
-        decl: {
-          start: {
-            line: 31,
-            column: 24
-          },
-          end: {
-            line: 31,
-            column: 25
-          }
-        },
-        loc: {
-          start: {
-            line: 31,
-            column: 35
-          },
-          end: {
-            line: 41,
-            column: 9
-          }
-        },
-        line: 31
-      },
-      "5": {
-        name: "(anonymous_5)",
-        decl: {
-          start: {
-            line: 36,
-            column: 25
-          },
-          end: {
-            line: 36,
-            column: 26
-          }
-        },
-        loc: {
-          start: {
-            line: 36,
-            column: 39
-          },
-          end: {
-            line: 39,
-            column: 17
-          }
-        },
-        line: 36
-      },
-      "6": {
-        name: "(anonymous_6)",
-        decl: {
-          start: {
-            line: 42,
-            column: 25
-          },
-          end: {
-            line: 42,
-            column: 26
-          }
-        },
-        loc: {
-          start: {
-            line: 42,
-            column: 36
-          },
-          end: {
-            line: 44,
-            column: 9
-          }
-        },
-        line: 42
-      },
-      "7": {
-        name: "(anonymous_7)",
-        decl: {
-          start: {
-            line: 45,
-            column: 36
-          },
-          end: {
-            line: 45,
-            column: 37
-          }
-        },
-        loc: {
-          start: {
-            line: 45,
-            column: 47
-          },
-          end: {
-            line: 47,
-            column: 9
-          }
-        },
-        line: 45
       }
     },
     branchMap: {},
@@ -73043,27 +73035,11 @@ var cov_2fqnn3z2b5 = function () {
       "1": 0,
       "2": 0,
       "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0
+      "4": 0
     },
     f: {
       "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0
+      "1": 0
     },
     b: {},
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
@@ -73097,57 +73073,13 @@ var kpiapp = (cov_2fqnn3z2b5.s[0]++, new external_commonjs_vue_commonjs2_vue_roo
     setTimeout(function () {
       cov_2fqnn3z2b5.f[1]++;
       cov_2fqnn3z2b5.s[3]++;
-      initRequestCenterDisplay();
+      Object(cloudjet_request["b" /* initRequestCenterDisplay */])();
     }, 100);
-    cov_2fqnn3z2b5.s[4]++;
-    this.fetchOrganization();
-    cov_2fqnn3z2b5.s[5]++;
-    this.fetchUserActor();
-  },
-  methods: {
-    fetchOrganization: function fetchOrganization() {
-      cov_2fqnn3z2b5.f[2]++;
-      var self = (cov_2fqnn3z2b5.s[6]++, this);
-      cov_2fqnn3z2b5.s[7]++;
-      self.$cloudjetRequest.ajax({
-        url: '/api/organization',
-        method: 'get',
-        success: function success(data) {
-          cov_2fqnn3z2b5.f[3]++;
-          cov_2fqnn3z2b5.s[8]++;
-          // set organization object
-          self.$store.dispatch('organizationActions', data);
-        }
-      });
-    },
-    fetchUserActor: function fetchUserActor() {
-      cov_2fqnn3z2b5.f[4]++;
-      var self = (cov_2fqnn3z2b5.s[9]++, this);
-      cov_2fqnn3z2b5.s[10]++;
-      self.$cloudjetRequest.ajax({
-        url: '/api/profile',
-        method: 'get',
-        success: function success(data) {
-          cov_2fqnn3z2b5.f[5]++;
-          cov_2fqnn3z2b5.s[11]++;
-          // set user object
-          self.$store.dispatch('userActorActions', data);
-        }
-      });
-    },
-    fetchUserViewed: function fetchUserViewed() {
-      cov_2fqnn3z2b5.f[6]++;
-      var self = (cov_2fqnn3z2b5.s[12]++, this);
-    },
-    fetchUserActorSubordinates: function fetchUserActorSubordinates() {
-      cov_2fqnn3z2b5.f[7]++;
-      var self = (cov_2fqnn3z2b5.s[13]++, this);
-    }
   },
   store: registry_vuex,
   computed: _objectSpread({}, mapGetters(['userActor', 'userViewed', 'organization', 'userActorSubordinates']))
 }));
-cov_2fqnn3z2b5.s[14]++;
+cov_2fqnn3z2b5.s[4]++;
 window.kpiAppLibrary = kpiapp;
 // CONCATENATED MODULE: ./src/registry/register_helper/index.js
 var cov_1jkuzsfld5 = function () {
@@ -73442,7 +73374,7 @@ var cov_j1djl4034 = function () {
 /* registry import should be at the bottom */
 
 
-/* dev tool */
+/* dev tool: not work because import Vue2 too soon config being overwrite by vue1 */
 
 
 var main_a = (cov_j1djl4034.s[0]++, 'trigger test coverage');
@@ -73450,6 +73382,62 @@ var main_a = (cov_j1djl4034.s[0]++, 'trigger test coverage');
 
 
 
+
+/***/ }),
+
+/***/ "fb5e":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "fce9":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=template&id=443c50fc&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-item",on:{"click":_vm.redirectToNotification}},[_c('img',{staticClass:"notification-item__image",attrs:{"src":_vm.notificationData.actor_avatar}}),_c('div',{staticClass:"notification-item__data-wrapper"},[_c('div',{staticClass:"notification-item__data"},[(_vm.notificationData.type_notification==='change_log')?_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm._f("translate")("Cloudjet KPI updated new version"))+": ")]),_c('span',{staticClass:"notification-item__version"},[_vm._v(_vm._s(_vm._f("translate")("Version"))+" "+_vm._s(_vm.notificationData.version)+" ")]),_c('span',{staticClass:"notification-item__release-date"},[_vm._v(_vm._s(_vm._f("translate")("updated"))+" "+_vm._s(_vm.notificationData.release_date)+" ")])]):_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm.notificationData.actor_name)+": ")]),_c('span',{staticClass:"notification-item__content-action",domProps:{"innerHTML":_vm._s(_vm.ellipisDescription)}})])]),_c('div',{staticClass:"notification-item__diffTime"},[_vm._v(_vm._s(_vm.diffTimeToString))])])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=template&id=443c50fc&scoped=true&
+
+// EXTERNAL MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=script&lang=js&
+var notification_itemvue_type_script_lang_js_ = __webpack_require__("c850");
+
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=script&lang=js&
+ /* harmony default export */ var notification_item_notification_itemvue_type_script_lang_js_ = (notification_itemvue_type_script_lang_js_["a" /* default */]); 
+// EXTERNAL MODULE: ./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=style&index=0&id=443c50fc&scoped=true&lang=scss&
+var notification_itemvue_type_style_index_0_id_443c50fc_scoped_true_lang_scss_ = __webpack_require__("73d0");
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  notification_item_notification_itemvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "443c50fc",
+  null
+  
+)
+
+component.options.__file = "notification_item.vue"
+/* harmony default export */ var notification_item = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -73463,4 +73451,3 @@ module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u20
 /***/ })
 
 /******/ });
-//# sourceMappingURL=cloudjet_ui.common.js.map
