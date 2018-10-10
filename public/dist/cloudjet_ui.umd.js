@@ -11904,7 +11904,7 @@ function normalizeComponent (
 /* harmony import */ var sdk_network_core_network_builder__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("b8e7");
 var cov_ho6hohfm8 = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/factory.js",
-      hash = "8061ecc08d0eed57fc63ba2c043e4f652b44dbe6",
+      hash = "f59c7fe0c3fd312b49cd8aa81d9a8bac62f6558c",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -11992,17 +11992,17 @@ var cov_ho6hohfm8 = function () {
         decl: {
           start: {
             line: 9,
-            column: 42
+            column: 35
           },
           end: {
             line: 9,
-            column: 43
+            column: 36
           }
         },
         loc: {
           start: {
             line: 9,
-            column: 80
+            column: 73
           },
           end: {
             line: 19,
@@ -12017,22 +12017,22 @@ var cov_ho6hohfm8 = function () {
         loc: {
           start: {
             line: 9,
-            column: 62
+            column: 55
           },
           end: {
             line: 9,
-            column: 73
+            column: 66
           }
         },
         type: "default-arg",
         locations: [{
           start: {
             line: 9,
-            column: 71
+            column: 64
           },
           end: {
             line: 9,
-            column: 73
+            column: 66
           }
         }],
         line: 9
@@ -12106,7 +12106,7 @@ var cov_ho6hohfm8 = function () {
   var baseURL = (cov_ho6hohfm8.s[0]++, "".concat(_config__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"].path));
   cov_ho6hohfm8.s[1]++;
   return {
-    getCompanyPerformanceByQuarterID: function getCompanyPerformanceByQuarterID(_ref) {
+    getPerformanceByQuarterID: function getPerformanceByQuarterID(_ref) {
       var quarterPeriodID = _ref.quarterPeriodID,
           _ref$userID = _ref.userID,
           userID = _ref$userID === void 0 ? (cov_ho6hohfm8.b[0][0]++, "") : _ref$userID;
@@ -58572,7 +58572,7 @@ module.exports = !__webpack_require__("9e1e") && !__webpack_require__("79e5")(fu
 /* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1__);
 var cov_2nwusr2xeq = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue",
-      hash = "4c79b81da6735bce1249e90414067e7d3e114309",
+      hash = "eafa9356bb56e13532880336bbdf573fe45dc16d",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -59112,15 +59112,6 @@ var cov_2nwusr2xeq = function () {
       "5": [0, 0],
       "6": [0, 0],
       "7": [0, 0]
-    },
-    inputSourceMap: {
-      version: 3,
-      sources: ["notification_item.vue"],
-      names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;AAsBA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
-      file: "notification_item.vue",
-      sourceRoot: "src/templates/components/cloudjet_noti/components/notification_item",
-      sourcesContent: ["<template>\n  <div class=\"notification-item\" @click=\"redirectToNotification\">\n    <img :src=\"notificationData.actor_avatar\" class=\"notification-item__image\">\n    <div class=\"notification-item__data-wrapper\">\n      <div class=\"notification-item__data\">\n        <div v-if=\"notificationData.type_notification==='change_log'\">\n          <b class=\"notification-item__display-name\">{{ \"Cloudjet KPI updated new version\" | translate }}: </b>\n          <span class=\"notification-item__version\">{{ \"Version\" | translate }} {{notificationData.version}} </span>\n          <span class=\"notification-item__release-date\">{{ \"updated\" | translate }} {{notificationData.release_date}} </span>\n        </div>\n\n        <div v-else>\n          <b class=\"notification-item__display-name\">{{notificationData.actor_name}}: </b>\n          <span class=\"notification-item__content-action\" v-html=\"ellipisDescription\"></span>\n        </div>\n      </div>\n      <div class=\"notification-item__diffTime\">{{diffTimeToString}}</div>\n    </div>\n  </div>\n</template>\n\n<script>\nexport default {\n  computed: {\n    ellipisDescription() {\n      let descriptionSplitN = this.notificationData.description.split(\"\\n\");\n      if (descriptionSplitN.length > 1) {\n        /**\n         * Todo\n         * Backend fix: 2 d\xF2ng th\xEC th\xEAm ...\n         */\n        if (descriptionSplitN[0].length < 5) {\n          return descriptionSplitN[0] + descriptionSplitN[1] + \"...\";\n        } else {\n          return descriptionSplitN[0];\n        }\n      } else {\n        return this.notificationData.description;\n      }\n    },\n\n    /**\n     * Diff = now - timestamp\n     * Business:\n     */\n    diffTimeToString() {\n      var now = new Date();\n      var past = new Date(this.notificationData.timestamp);\n      var diffTimeInMs = now.getTime() - past.getTime();\n      var diffmin = diffTimeInMs / (1000 * 60);\n      var diffHours = diffmin / 60;\n      var diffDay = diffHours / 24;\n\n      if (diffDay >= 1.5) {\n        return (\n          past.getDate() +\n          \"/\" +\n          (past.getMonth() + 1) +\n          \"/\" +\n          past.getFullYear() +\n          \" at \" +\n          past.getHours() +\n          \":\" +\n          past.getMinutes() +\n          \":\" +\n          past.getSeconds()\n        );\n      }\n\n      if (diffDay < 1.5 && diffDay >= 1) {\n        return parseInt(diffDay) + \" day ago\";\n      }\n\n      if (diffHours >= 1) {\n        return parseInt(diffHours) + \" hours ago\";\n      }\n\n      if (diffmin < 60 && diffmin >= 1) {\n        return parseInt(diffmin) + \" minutes ago\";\n      } else {\n        return \"recent\";\n      }\n    }\n  },\n  props: {\n    /**\n     * Link redirect when click notification item\n     */\n    href: String,\n    /**\n     * Notification object api\n     */\n    notificationData: Object,\n\n    /**\n     * Notification number,\n     * After click will set notification Number to zero\n     * Only display when notification bigger than 0\n     */\n    notificationCount: Number\n  },\n  methods: {\n    /**\n     * Unit Test should set window location to hreff\n     */\n    redirectToNotification() {\n      debugger;\n      global.window.location.href = this.href;\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification-item {\n  color: #333333;\n  padding-right: 15px;\n  padding-left: 15px;\n  padding-top: 10px;\n  padding-bottom: 10px;\n\n  &:hover {\n    background: #f1faf9;\n    cursor: pointer;\n  }\n\n  background: white;\n  display: flex;\n  font-size: 12px;\n\n  &__image {\n    width: 34px !important;\n    height: 34px !important;\n    min-width: 34px !important; // this is tricky for chrome, date: 13/09/2018\n    margin-right: 15px;\n    object-fit: cover;\n    border-radius:50%;\n  \n  }\n\n  &__data {\n    width: 300px;\n  }\n\n  &__data-wrapper {\n    color: #333333;\n    line-height: normal;\n    // padding-left: 15px;\n    padding-right: 15px;\n    min-height: 46px\n  }\n\n  &__content-action {\n    word-break: break-all !important;\n    // Clould jet button style\n    > a {\n      background: none !important;\n      vertical-align: unset !important;\n      color: teal !important;\n      font-weight: bold;\n    }\n  }\n\n  &__diffTime {\n    margin-top: 5px;\n    font-size: 10px;\n    color: #ababab;\n  }\n\n  .notification-item__content-action a {\n    background: red !important;\n  }\n}\n</style>\n"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -68598,7 +68589,7 @@ var es6_number_constructor = __webpack_require__("c5f6");
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=script&lang=js&
 var cov_27rnij47lf = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue",
-      hash = "f2b6903ed29cf713d93c82eee5da07998dda994c",
+      hash = "5a647244431d7bbe584c69e046eaf3bb4b6d1a6d",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -68737,15 +68728,6 @@ var cov_27rnij47lf = function () {
       "0": [0, 0],
       "1": [0, 0]
     },
-    inputSourceMap: {
-      version: 3,
-      sources: ["notification_bell.vue"],
-      names: [],
-      mappings: ";;;;;;;;;;AAUA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
-      file: "notification_bell.vue",
-      sourceRoot: "src/templates/components/cloudjet_noti/components/notification_bell",
-      sourcesContent: ["<template>\n  <div class=\"notification_bell\">\n    <button :class=\"notificationBellButtonClass\" @click=\"notificationBellOnClick\">\n      <div class=\"notification_bell__number\" v-if=\"notificationCount>0\">{{formatNotificationCount}}</div>\n      <img src=\"./notification_bell.svg\" class=\"notification_bell__icon\"/>\n    </button>\n  </div>\n</template>\n\n<script>\nexport default {\n  props: {\n    /**\n     * S\u1ED1 l\u01B0\u1EE3ng notification s\u1EBD \u0111\u01B0\u1EE3c hi\u1EC3n th\u1ECB\n     * Business:\n     * N\u1EBFu nh\u1ECF h\u01A1n ho\u1EB7c b\u1EB1ng 9 hi\u1EC3n th\u1ECB b\xECnh th\u01B0\u1EDDng\n     * N\u1EBFu l\u1EDBn h\u01A1n 9 hi\u1EC3n th\u1ECB 9+\n     */\n    notificationCount: {\n      type: Number\n    },\n\n    /**\n     * Bind class toggle to button\n     * Apply style for state [hover, active, normal]\n     */\n    isToggle: {\n      type: Boolean\n    }\n  },\n\n  methods: {\n    notificationBellOnClick() {\n      /**\n       * Event khi click v\xE0o c\xE1i chu\xF4ng\n       * @event click\n       * @type {Undefined}\n       */\n      this.$emit(\"click\");\n    },\n  },\n\n  computed: {\n    notificationBellButtonClass () {\n      return [\n        'notification_bell__button',\n        this.isToggle ? 'notification_bell__button--toggle' : ''\n      ]\n    },\n\n    formatNotificationCount () {\n      if (this.notificationCount > 9) {\n        return \"9+\"\n      } else {\n        return this.notificationCount\n      }\n    }\n  }\n};\n</script>\n<style scoped lang=\"scss\">\n.notification_bell {\n  display: inline-block;\n\n  &__number {\n    color: white;\n    top: 8px !important;\n    background: #d9534f !important;\n    position: absolute;\n    width: 18px;\n    height: 18px;\n    border-radius: 50%;\n    line-height: 18px;\n    font-size: 10px;\n    text-align: center;\n    right: 5px;\n    cursor: pointer;\n  }\n\n  &__button {\n    &:hover {\n      background: #008b8b;\n      cursor: pointer;\n    }\n\n    &:active > .notification_bell__number {\n      display: none\n    }\n\n    &--toggle {\n      &,\n      &:hover,\n      &:active {\n        background: #008b8b;\n      }\n    }\n\n    outline: 0;\n    position: relative;\n    background: transparent;\n    border: 0px;\n    height: 50px;\n    width: 50px; // Fix scoped style\n  }\n\n\n\n  &__icon {\n    font-size: 30px;\n  }\n}\n</style>"]
-    },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
       coverage = global[gcv] || (global[gcv] = {});
@@ -68860,7 +68842,7 @@ var notification_listvue_type_template_id_56093643_scoped_true_staticRenderFns =
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=script&lang=js&
 var cov_41x25f4q9 = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue",
-      hash = "94df5d2f90f90b255fb523b214fec9898e15f3f4",
+      hash = "3504a4ceca00fe2ceed0125dc170ac474068d267",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -69134,15 +69116,6 @@ var cov_41x25f4q9 = function () {
       "3": [0, 0],
       "4": [0, 0, 0]
     },
-    inputSourceMap: {
-      version: 3,
-      sources: ["notification_list.vue"],
-      names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;AA6BA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
-      file: "notification_list.vue",
-      sourceRoot: "src/templates/components/cloudjet_noti/components/notification_list",
-      sourcesContent: ["<template>\n  <div class=\"notification-list\">\n    <div class=\"notification-list__header\">\n      Th\xF4ng b\xE1o\n    </div>\n\n    <div\n            :class=\"notificationItemWrapperClass\"\n            @scroll=\"scroll\"\n            ref=\"notificationItemScrollableWrapper\">\n\n      <notification_item\n              class=\"notification-list__item\"\n              :href=\"href\"\n              v-for=\"notificationItem in notificationItems\"\n              :notificationData=\"notificationItem\"\n              :key=\"notificationItem.id\"/>\n\n    </div>\n\n    <div class=\"notification-list__footer\">\n      <a :href=\"href\" class=\"notification-list__link\">\n        Xem t\u1EA5t c\u1EA3\n      </a>\n    </div>\n  </div>\n</template>\n\n<script>\n// wtf -> import notification_item from \"../notification_item/notification_item\";\nconst notification_item = require(\"../notification_item/notification_item\").default\n\nexport default {\n  methods: {\n    /**\n     *  Check behavior when scroll reach bottom\n     */\n    isNotificationItemScroller() {\n      // Pr\n      const notificationItemScrollableWrapper = this.$refs\n        .notificationItemScrollableWrapper;\n\n      return (\n        /**\n         * Scroll touch bottom\n         * Don't know how this shit work but it was ameizing\n         */\n        notificationItemScrollableWrapper.scrollHeight -\n          notificationItemScrollableWrapper.scrollTop ===\n        notificationItemScrollableWrapper.clientHeight\n      );\n    },\n\n    /**\n     * Emmit if next prop exist\n     * Manually test scroll behavior: No Unit Test idea yet ??\n     *\n     */\n    scroll(e, IisNotificationItemScroller = this.isNotificationItemScroller) {\n      // Pass a function to mock that behavior\n      if (this.next) {\n        if (IisNotificationItemScroller()) {\n          /**\n           * Bubble to top componentn: notificatoin\n           *\n           * @event lazyLoad\n           * @type {string}\n           */\n          this.$emit(\"lazyLoad\", this.next);\n        }\n      }\n    }\n  },\n\n  components: {\n    notification_item\n  },\n\n  props: {\n    /**\n     * Link redirect when click \"Xem t\u1EA5t c\u1EA3\"\n     */\n    href: {\n      type: String,\n      default: \"#\"\n    },\n\n    /**\n     * Pass array object results\n     * Return of API\n     */\n    notificationItems: {\n      type: Array\n    },\n\n    /**\n     * next exist then scroll will emmit scroll\n     * eventually scroll will be bubble to notification component\n     */\n    next: {\n      type: String\n    }\n  },\n\n  computed: {\n    notificationItemWrapperClass() {\n      return this.isLazyLoadMode ? \"notification-list__scrollable-wrapper\" : \"\";\n    },\n\n    isLazyLoadMode() {\n      /**\n       * Next some time can be null, 'empty string' but it return false to serve unit test assert purpose\n       * eg: false || null -> null -> expect(null).to.be.false will be failed\n       */\n      // === 5 and have next property -> doesn't lazy load yet\n      return (\n        (this.notificationItems.length === 5 && this.next) ||\n        this.notificationItems.length > 5\n      );\n    }\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n@import url(\"style.css\");\n\n$padding: 10px;\n.notification-list {\n  background: white;\n  width: 400px;\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);\n  text-align: left;\n\n  &__scrollable-wrapper {\n    height: 323px;\n    overflow: auto;\n    overflow-x: hidden;\n  }\n\n  &__header {\n    border-bottom: 1px solid #eee;\n    color: #ababab !important;\n    padding: 8px;\n  }\n\n  &__footer {\n    border-top: 1px solid #eee;\n    padding: 8px;\n    text-align: center;\n  }\n\n  &__link {\n    background: none !important;\n    color: teal !important;\n    border: 0px;\n\n    &,\n    &:hover,\n    &:active {\n      text-decoration: none;\n    }\n  }\n}\n</style>\n"]
-    },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
       coverage = global[gcv] || (global[gcv] = {});
@@ -69311,7 +69284,7 @@ notification_list_component.options.__file = "notification_list.vue"
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=script&lang=js&
 var cov_2pv5cdfx1r = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue",
-      hash = "221b42c3eb629f20e9eb1773999203b7a309ec97",
+      hash = "eac187c8c2e73042d2ce9b387e6af8fa33b6fb6f",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -69711,15 +69684,6 @@ var cov_2pv5cdfx1r = function () {
       "3": [0, 0],
       "4": [0, 0]
     },
-    inputSourceMap: {
-      version: 3,
-      sources: ["notification_container.vue"],
-      names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;;;AAoBA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;;;;AAIA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
-      file: "notification_container.vue",
-      sourceRoot: "src/templates/components/cloudjet_noti/components/notification_container",
-      sourcesContent: ["<template>\n  <div class=\"notification\" ref=\"notificationWrapper\">\n    <notification_bell\n      @click=\"toggleNotificationList\"\n      :isToggle=\"isShowNotificationList\"\n      :notificationCount=\"notificationData.unread_list.length\"\n    />\n    \n    <notification_list\n      @lazyLoad=\"notificationListOnLazyLoad\"\n      v-if=\"isShowNotificationList\"\n      :notificationItems=\"notificationData.results\"\n      class=\"notification__list\"\n      :href=\"href\"\n      :next=\"notificationData.next\"\n    />   \n  </div>\n</template>\n\n<script>\nimport notificationBell from \"../notification_bell/notification_bell\";\nimport notificationList from \"../notification_list/notification_list\";\nimport Vue from \"vue\";\n\nexport default {\n  components: {\n    notification_bell: notificationBell,\n    notification_list: notificationList\n  },\n\n  methods: {\n    /**\n     * Input new lazy load data here\n     * Automatically assign next + concat notification\n     */\n    // concatNotificationData (notificationData) {\n    //   this.next = notificationData.next\n    //   this.notificationItems = this.notificationItems.concat(notificationData.results)\n    // },\n\n    notificationListOnLazyLoad(next) {\n\n\n\n      /**\n       * Write unit test for this shit\n       */\n      if (this.onLazyLoad) {\n        this.onLazyLoad(next)\n      } else {\n        return false\n      }\n    },\n\n    toggleNotificationList() {\n      this.isShowNotificationList = !this.isShowNotificationList;\n\n      /**\n       * Emmit markAsRead\n       * Params: unread_list\n       */\n      if (this.notificationData.unread_list.length > 0) {\n        // this.$emit(\"markAsRead\", this.notificationData.unread_list);\n        this.onMarkAsRead(this.notificationData.unread_list)\n        this.notificationCount = 0;\n      }\n    },\n\n    /**\n     * Todo: Unit Test\n     * isShowNotificationList = true and click in document should set to false\n     * isShowNotificationList = false and click in document should persist to false\n     */\n    handleClickOutSide(e) {\n      let el = this.$refs.notificationWrapper;\n      let target = e.target;\n\n      /**\n       * If it's click outside\n       */\n      if (el !== target && !el.contains(target)) {\n        if (this.isShowNotificationList) this.isShowNotificationList = false;\n      }\n    }\n  },\n\n  created() {\n    Vue.nextTick(() => {\n      /**\n       * Hide notification on click outside\n       */\n      document.addEventListener(\"click\", this.handleClickOutSide);\n\n      /**\n       * Vue doesn't allow to edit props\n       */\n      this.notificationCount = this.notificationData.unread_list.length;\n    });\n  },\n\n  destroyed() {\n    /**\n     * Remove on added event\n     */\n    document.removeEventListener(\"click\", this.handleClickOutSide);\n  },\n\n  data() {\n    return {\n      isShowNotificationList: false,\n      notificationCount: 0\n    };\n  },\n\n  props: {\n    /**\n     * Pass anything the api return in results\n     * into this. will format data automatically\n     */\n    notificationData: {\n      type: Object\n    },\n\n    /**\n     * Link to show all notification\n     */\n    href: {\n      type: String\n    },\n\n    /**\n     * Function will be call when lazy load\n     * Params: Next link\n     * Use next link to get more notification data then\n     *  Concat result\n     *  Change\n     *    next: update lazymode status\n     *    unread_list: update notification number on bell\n     */\n    onLazyLoad: Function,\n\n    /**\n     * Function will be call when lazy load\n     * Params: id array\n     * Update bunch of array of id element to be readed\n     */\n    onMarkAsRead: Function\n  }\n};\n</script>\n\n<style scoped lang=\"scss\">\n.notification {\n  position: relative;\n  display: flex;\n  justify-content: flex-end;\n\n  &__list {\n    position: absolute;\n    top: 50px;\n  }\n}\n</style>\n"]
-    },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
       coverage = global[gcv] || (global[gcv] = {});
@@ -69936,7 +69900,7 @@ notification_container_component.options.__file = "notification_container.vue"
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/main.vue?vue&type=script&lang=js&
 var cov_14g33ktv2s = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/main.vue",
-      hash = "a9df30f1aae5ce9b22a0b1884f0f3191b0b218b4",
+      hash = "aad7dec50f5a7aa5496ace5c903e031378aa27d1",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -70073,15 +70037,6 @@ var cov_14g33ktv2s = function () {
     f: {},
     b: {
       "0": [0, 0]
-    },
-    inputSourceMap: {
-      version: 3,
-      sources: ["main.vue"],
-      names: [],
-      mappings: ";;;;;;;;;;;;;;;;;;AAkBA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
-      file: "main.vue",
-      sourceRoot: "src/templates/components/cloudjet_noti",
-      sourcesContent: ["<template>\n    <!--<notification-container-->\n    <!--:notification-data=\"notificationData\"-->\n    <!--:on-lazy-load=\"getLazyLoadNotifications\"-->\n    <!--:on-mark-as-read=\"markAsRead\"-->\n    <!--:href=\"href\"-->\n    <!--&gt;-->\n    <!--</notification-container>   -->\n    <notification-container\n            :notification-data=\"notificationData\"\n            :on-lazy-load=\"getLazyNotifications\"\n            :on-mark-as-read=\"markAsReadNotifications\"\n            :href=\"href\"\n    >\n    </notification-container>\n</template>\n\n<script>\n    import store from \"./store\";\n    import buildInitMixin from '../../../sdk/utils/mixins/buildInitMixin.js'\n    const initMixin = buildInitMixin(\"notification\",store)\n\n    // Mutation List\n    import {\n        getInitialNotifiations,\n        getLazyNotifications,\n        markAsReadNotifications\n    } from \"./store/actions.js\";\n    // Mutation List\n    import NotificationContainer from \"./components/notification_container/notification_container\";\n    import { mapGetters, mapActions } from \"vuex\";\n    export default {\n        computed: {\n            ...mapGetters({\n                notificationData: \"$notification/notificationData\",\n                href: \"$notification/href\",\n                userActor: \"userActor\"\n            })\n        },\n        components: {\n            NotificationContainer\n        },\n        mixins: [initMixin],\n\n        async mounted() {\n            /* need to trigger global store initialized first, using synchronous loading style */\n            // await this.$store.dispatch(\"initialize\");\n            // await this.getInitialNotifiations(this.userActor.user);\n            // this.$store.dispatch('$notification/getInitialNotifiations',this.userActor.user);\n            await this.$store.dispatch(\"initialize\")\n            this.dispatchGetInitialNotifiations(this.userActor.user)\n\n        },\n        created() {\n            /* below should be bundle into a component builder*/\n            const STORE_KEY = \"$notification\";\n            // eslint-disable-next-line no-underscore-dangle\n            if (!(STORE_KEY in this.$store._modules.root._children)) {\n                this.$store.registerModule(STORE_KEY, store);\n            }\n            /* end this */\n        },\n        // can be wrong namespace\n        methods: {\n            ...mapActions({\n                dispatchGetInitialNotifiations: `$notification/${getInitialNotifiations}`,\n                dispatchGetLazyNotifications: `$notification/${getLazyNotifications}`,\n                dispatchMarkAsReadNotifications: `$notification/${markAsReadNotifications}`\n            }),\n            getLazyNotifications (nextLink) {\n                this.dispatchGetLazyNotifications(nextLink)\n            },\n            markAsReadNotifications (unreadNotificationLists) {\n                this.dispatchMarkAsReadNotifications({\n                    uid: this.userActor.user,\n                    unreadNotificationLists\n                })\n            }\n        }\n    };\n</script>\n\n<style scoped>\n</style>"]
     },
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
@@ -70688,7 +70643,7 @@ var fetchDataCompanyPerformanceMutation = (cov_1jj3tkkc7y.s[2]++, 'fetchDataComp
 // CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/actions.js
 var cov_10lfxb8rro = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/actions.js",
-      hash = "4fb596cae47d41e7688762cc1f99aff1231d5487",
+      hash = "e91834fa080ece57ffce1219950d021b72a7def4",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -71018,17 +70973,17 @@ var cov_10lfxb8rro = function () {
         decl: {
           start: {
             line: 43,
-            column: 126
+            column: 119
           },
           end: {
             line: 43,
-            column: 127
+            column: 120
           }
         },
         loc: {
           start: {
             line: 43,
-            column: 134
+            column: 127
           },
           end: {
             line: 45,
@@ -71254,7 +71209,7 @@ var updateMonthlyLock = (cov_10lfxb8rro.s[3]++, 'updateMonthlyLock');
   }
 }), _defineProperty(_initializeDataStore$, fetchDataCompanyPerformance, function (store, quarterPeriodID) {
   cov_10lfxb8rro.s[14]++;
-  user_kpi().getCompanyPerformanceByQuarterID({
+  user_kpi().getPerformanceByQuarterID({
     quarterPeriodID: quarterPeriodID,
     userID: store.rootState.organization.ceo
   }).then(function (data) {
