@@ -87,6 +87,394 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "00c1":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2cuodvot0l = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue",
+      hash = "60d7c853f8088c1959574d72221ed250985eb34c",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 29,
+          column: 12
+        },
+        end: {
+          line: 31,
+          column: 13
+        }
+      },
+      "1": {
+        start: {
+          line: 30,
+          column: 16
+        },
+        end: {
+          line: 30,
+          column: 41
+        }
+      },
+      "2": {
+        start: {
+          line: 32,
+          column: 12
+        },
+        end: {
+          line: 32,
+          column: 77
+        }
+      },
+      "3": {
+        start: {
+          line: 36,
+          column: 16
+        },
+        end: {
+          line: 36,
+          column: 34
+        }
+      },
+      "4": {
+        start: {
+          line: 39,
+          column: 16
+        },
+        end: {
+          line: 39,
+          column: 39
+        }
+      },
+      "5": {
+        start: {
+          line: 51,
+          column: 29
+        },
+        end: {
+          line: 51,
+          column: 47
+        }
+      },
+      "6": {
+        start: {
+          line: 59,
+          column: 29
+        },
+        end: {
+          line: 59,
+          column: 41
+        }
+      },
+      "7": {
+        start: {
+          line: 67,
+          column: 29
+        },
+        end: {
+          line: 67,
+          column: 38
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 35,
+            column: 17
+          },
+          end: {
+            line: 35,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 35,
+            column: 27
+          },
+          end: {
+            line: 37,
+            column: 13
+          }
+        },
+        line: 35
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 38,
+            column: 17
+          },
+          end: {
+            line: 38,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 38,
+            column: 30
+          },
+          end: {
+            line: 40,
+            column: 13
+          }
+        },
+        line: 38
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 51,
+            column: 21
+          },
+          end: {
+            line: 51,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 51,
+            column: 27
+          },
+          end: {
+            line: 51,
+            column: 49
+          }
+        },
+        line: 51
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 59,
+            column: 21
+          },
+          end: {
+            line: 59,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 59,
+            column: 27
+          },
+          end: {
+            line: 59,
+            column: 43
+          }
+        },
+        line: 59
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 67,
+            column: 21
+          },
+          end: {
+            line: 67,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 67,
+            column: 27
+          },
+          end: {
+            line: 67,
+            column: 40
+          }
+        },
+        line: 67
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 29,
+            column: 12
+          },
+          end: {
+            line: 31,
+            column: 13
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 29,
+            column: 12
+          },
+          end: {
+            line: 31,
+            column: 13
+          }
+        }, {
+          start: {
+            line: 29,
+            column: 12
+          },
+          end: {
+            line: 31,
+            column: 13
+          }
+        }],
+        line: 29
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default2 = {
+  name: "month_lock_controller",
+  computed: {
+    displayMonthlyReviewLock: function displayMonthlyReviewLock() {
+      cov_2cuodvot0l.s[0]++;
+
+      if (this.monthlyReviewLock === 'allow_all') {
+        cov_2cuodvot0l.b[0][0]++;
+        cov_2cuodvot0l.s[1]++;
+        return "Tất cả các tháng";
+      } else {
+        cov_2cuodvot0l.b[0][1]++;
+      }
+
+      cov_2cuodvot0l.s[2]++;
+      return this.quarterPeriod["month_".concat(this.monthlyReviewLock, "_name")];
+    },
+    monthlyReviewLock: {
+      get: function get() {
+        cov_2cuodvot0l.f[0]++;
+        cov_2cuodvot0l.s[3]++;
+        return this.value;
+      },
+      set: function set(val) {
+        cov_2cuodvot0l.f[1]++;
+        cov_2cuodvot0l.s[4]++;
+        this.$emit('input', val);
+      }
+    }
+  },
+  props: {
+    /**
+     * String Value
+     * Business:
+     * Just string value store monthly_lock_review
+     */
+    value: {
+      type: String,
+      default: function _default() {
+        cov_2cuodvot0l.f[2]++;
+        cov_2cuodvot0l.s[5]++;
+        return "allow_all";
+      }
+    },
+
+    /*
+    * isAdmin boolean
+    * Business: provide boolean value to describe if current dropdown is triggered by admin or not
+    * */
+    isAdmin: {
+      type: Boolean,
+      default: function _default() {
+        cov_2cuodvot0l.f[3]++;
+        cov_2cuodvot0l.s[6]++;
+        return false;
+      }
+    },
+
+    /*
+    * quarterPeriod object
+    * Business: provide quarter period object
+    * */
+    quarterPeriod: {
+      type: Object,
+      default: function _default() {
+        cov_2cuodvot0l.f[4]++;
+        cov_2cuodvot0l.s[7]++;
+        return {};
+      }
+    }
+  }
+};
+exports.default = _default2;
+
+/***/ }),
+
 /***/ "014b":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -406,6 +794,151 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 /***/ }),
 
+/***/ "026b":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_1zpjxenozd = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_components.js",
+      hash = "56606423e51e7e6f423363165bbce058d6d08069",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_components.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 19,
+          column: 19
+        },
+        end: {
+          line: 22,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 26,
+          column: 0
+        },
+        end: {
+          line: 28,
+          column: 2
+        }
+      },
+      "2": {
+        start: {
+          line: 27,
+          column: 4
+        },
+        end: {
+          line: 27,
+          column: 40
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 26,
+            column: 32
+          },
+          end: {
+            line: 26,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 26,
+            column: 40
+          },
+          end: {
+            line: 28,
+            column: 1
+          }
+        },
+        line: 26
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+__webpack_require__("7f7f");
+
+__webpack_require__("cadf");
+
+__webpack_require__("456d");
+
+__webpack_require__("ac6a");
+
+var _vue = _interopRequireDefault(__webpack_require__("8bbf"));
+
+var _main = _interopRequireDefault(__webpack_require__("203b"));
+
+var _main2 = _interopRequireDefault(__webpack_require__("b2af"));
+
+/**
+ * Static
+ */
+
+/*
+* Only expose application component to library, minor components won't expose here. It's the main component "main.vue"
+* For examples:
+* - kpi-row
+* - weight-edit-modal
+* - import-kpis-modal
+*
+* */
+var Components = (cov_1zpjxenozd.s[0]++, {
+  CompanyPerformance: _main2.default,
+  CloudjetNoti: _main.default
+  /* Automatic register component */
+
+});
+cov_1zpjxenozd.s[1]++;
+Object.keys(Components).forEach(function (name) {
+  cov_1zpjxenozd.f[0]++;
+  cov_1zpjxenozd.s[2]++;
+
+  _vue.default.component(name, Components[name]);
+});
+var _default = Components;
+exports.default = _default;
+
+/***/ }),
+
 /***/ "0395":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -429,6 +962,17 @@ module.exports.f = function getOwnPropertyNames(it) {
   return windowNames && toString.call(it) == '[object Window]' ? getWindowNames(it) : gOPN(toIObject(it));
 };
 
+
+/***/ }),
+
+/***/ "07d1":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_253ace0c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2d11");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_253ace0c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_253ace0c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_253ace0c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -461,6 +1005,889 @@ module.exports = function () {
   return result;
 };
 
+
+/***/ }),
+
+/***/ "0d2c":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_3j5l2ipv = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vuex.js",
+      hash = "d53dc88ff15d7cbe600507eec3e13551d4e9b68c",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vuex.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 7,
+          column: 0
+        },
+        end: {
+          line: 7,
+          column: 13
+        }
+      },
+      "1": {
+        start: {
+          line: 10,
+          column: 15
+        },
+        end: {
+          line: 65,
+          column: 2
+        }
+      },
+      "2": {
+        start: {
+          line: 19,
+          column: 12
+        },
+        end: {
+          line: 19,
+          column: 53
+        }
+      },
+      "3": {
+        start: {
+          line: 22,
+          column: 12
+        },
+        end: {
+          line: 22,
+          column: 54
+        }
+      },
+      "4": {
+        start: {
+          line: 25,
+          column: 12
+        },
+        end: {
+          line: 25,
+          column: 58
+        }
+      },
+      "5": {
+        start: {
+          line: 28,
+          column: 12
+        },
+        end: {
+          line: 28,
+          column: 76
+        }
+      },
+      "6": {
+        start: {
+          line: 33,
+          column: 12
+        },
+        end: {
+          line: 33,
+          column: 102
+        }
+      },
+      "7": {
+        start: {
+          line: 33,
+          column: 60
+        },
+        end: {
+          line: 33,
+          column: 102
+        }
+      },
+      "8": {
+        start: {
+          line: 34,
+          column: 12
+        },
+        end: {
+          line: 34,
+          column: 106
+        }
+      },
+      "9": {
+        start: {
+          line: 34,
+          column: 61
+        },
+        end: {
+          line: 34,
+          column: 106
+        }
+      },
+      "10": {
+        start: {
+          line: 37,
+          column: 29
+        },
+        end: {
+          line: 37,
+          column: 71
+        }
+      },
+      "11": {
+        start: {
+          line: 38,
+          column: 12
+        },
+        end: {
+          line: 38,
+          column: 56
+        }
+      },
+      "12": {
+        start: {
+          line: 41,
+          column: 12
+        },
+        end: {
+          line: 41,
+          column: 59
+        }
+      },
+      "13": {
+        start: {
+          line: 44,
+          column: 29
+        },
+        end: {
+          line: 44,
+          column: 63
+        }
+      },
+      "14": {
+        start: {
+          line: 45,
+          column: 12
+        },
+        end: {
+          line: 45,
+          column: 59
+        }
+      },
+      "15": {
+        start: {
+          line: 48,
+          column: 12
+        },
+        end: {
+          line: 48,
+          column: 81
+        }
+      },
+      "16": {
+        start: {
+          line: 53,
+          column: 12
+        },
+        end: {
+          line: 53,
+          column: 47
+        }
+      },
+      "17": {
+        start: {
+          line: 56,
+          column: 12
+        },
+        end: {
+          line: 56,
+          column: 48
+        }
+      },
+      "18": {
+        start: {
+          line: 59,
+          column: 12
+        },
+        end: {
+          line: 59,
+          column: 50
+        }
+      },
+      "19": {
+        start: {
+          line: 62,
+          column: 12
+        },
+        end: {
+          line: 62,
+          column: 59
+        }
+      },
+      "20": {
+        start: {
+          line: 67,
+          column: 0
+        },
+        end: {
+          line: 67,
+          column: 29
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 18,
+            column: 27
+          },
+          end: {
+            line: 18,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 18,
+            column: 56
+          },
+          end: {
+            line: 20,
+            column: 9
+          }
+        },
+        line: 18
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 21,
+            column: 28
+          },
+          end: {
+            line: 21,
+            column: 29
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 57
+          },
+          end: {
+            line: 23,
+            column: 9
+          }
+        },
+        line: 21
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 24,
+            column: 30
+          },
+          end: {
+            line: 24,
+            column: 31
+          }
+        },
+        loc: {
+          start: {
+            line: 24,
+            column: 61
+          },
+          end: {
+            line: 26,
+            column: 9
+          }
+        },
+        line: 24
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 27,
+            column: 39
+          },
+          end: {
+            line: 27,
+            column: 40
+          }
+        },
+        loc: {
+          start: {
+            line: 27,
+            column: 79
+          },
+          end: {
+            line: 29,
+            column: 9
+          }
+        },
+        line: 27
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 32,
+            column: 20
+          },
+          end: {
+            line: 32,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 32,
+            column: 43
+          },
+          end: {
+            line: 35,
+            column: 9
+          }
+        },
+        line: 32
+      },
+      "5": {
+        name: "(anonymous_5)",
+        decl: {
+          start: {
+            line: 36,
+            column: 26
+          },
+          end: {
+            line: 36,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 36,
+            column: 49
+          },
+          end: {
+            line: 39,
+            column: 9
+          }
+        },
+        line: 36
+      },
+      "6": {
+        name: "(anonymous_6)",
+        decl: {
+          start: {
+            line: 40,
+            column: 27
+          },
+          end: {
+            line: 40,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 40,
+            column: 55
+          },
+          end: {
+            line: 42,
+            column: 9
+          }
+        },
+        line: 40
+      },
+      "7": {
+        name: "(anonymous_7)",
+        decl: {
+          start: {
+            line: 43,
+            column: 29
+          },
+          end: {
+            line: 43,
+            column: 30
+          }
+        },
+        loc: {
+          start: {
+            line: 43,
+            column: 52
+          },
+          end: {
+            line: 46,
+            column: 9
+          }
+        },
+        line: 43
+      },
+      "8": {
+        name: "(anonymous_8)",
+        decl: {
+          start: {
+            line: 47,
+            column: 38
+          },
+          end: {
+            line: 47,
+            column: 39
+          }
+        },
+        loc: {
+          start: {
+            line: 47,
+            column: 77
+          },
+          end: {
+            line: 49,
+            column: 9
+          }
+        },
+        line: 47
+      },
+      "9": {
+        name: "(anonymous_9)",
+        decl: {
+          start: {
+            line: 52,
+            column: 19
+          },
+          end: {
+            line: 52,
+            column: 20
+          }
+        },
+        loc: {
+          start: {
+            line: 52,
+            column: 34
+          },
+          end: {
+            line: 54,
+            column: 9
+          }
+        },
+        line: 52
+      },
+      "10": {
+        name: "(anonymous_10)",
+        decl: {
+          start: {
+            line: 55,
+            column: 20
+          },
+          end: {
+            line: 55,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 55,
+            column: 35
+          },
+          end: {
+            line: 57,
+            column: 9
+          }
+        },
+        line: 55
+      },
+      "11": {
+        name: "(anonymous_11)",
+        decl: {
+          start: {
+            line: 58,
+            column: 22
+          },
+          end: {
+            line: 58,
+            column: 23
+          }
+        },
+        loc: {
+          start: {
+            line: 58,
+            column: 37
+          },
+          end: {
+            line: 60,
+            column: 9
+          }
+        },
+        line: 58
+      },
+      "12": {
+        name: "(anonymous_12)",
+        decl: {
+          start: {
+            line: 61,
+            column: 31
+          },
+          end: {
+            line: 61,
+            column: 32
+          }
+        },
+        loc: {
+          start: {
+            line: 61,
+            column: 46
+          },
+          end: {
+            line: 63,
+            column: 9
+          }
+        },
+        line: 61
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 33,
+            column: 12
+          },
+          end: {
+            line: 33,
+            column: 102
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 33,
+            column: 12
+          },
+          end: {
+            line: 33,
+            column: 102
+          }
+        }, {
+          start: {
+            line: 33,
+            column: 12
+          },
+          end: {
+            line: 33,
+            column: 102
+          }
+        }],
+        line: 33
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 34,
+            column: 12
+          },
+          end: {
+            line: 34,
+            column: 106
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 34,
+            column: 12
+          },
+          end: {
+            line: 34,
+            column: 106
+          }
+        }, {
+          start: {
+            line: 34,
+            column: 12
+          },
+          end: {
+            line: 34,
+            column: 106
+          }
+        }],
+        line: 34
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+__webpack_require__("96cf");
+
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__("1ff6"));
+
+var _vue = _interopRequireDefault(__webpack_require__("8bbf"));
+
+var _vuex = _interopRequireDefault(__webpack_require__("2f62"));
+
+var _object = __webpack_require__("21ce");
+
+var _organization = _interopRequireDefault(__webpack_require__("b41d"));
+
+var _profile = _interopRequireDefault(__webpack_require__("8222"));
+
+cov_3j5l2ipv.s[0]++;
+
+_vue.default.use(_vuex.default);
+
+var vStore = (cov_3j5l2ipv.s[1]++, new _vuex.default.Store({
+  // this is the root
+  state: {
+    userActor: {},
+    userViewed: {},
+    organization: {},
+    userActorSubordinates: []
+  },
+  mutations: {
+    userActorMutation: function userActorMutation(state, userObject) {
+      cov_3j5l2ipv.f[0]++;
+      cov_3j5l2ipv.s[2]++;
+      state.userActor = (0, _object.cloneObject)(userObject);
+    },
+    userViewedMutation: function userViewedMutation(state, userObject) {
+      cov_3j5l2ipv.f[1]++;
+      cov_3j5l2ipv.s[3]++;
+      state.userViewed = (0, _object.cloneObject)(userObject);
+    },
+    organizationMutation: function organizationMutation(state, organization) {
+      cov_3j5l2ipv.f[2]++;
+      cov_3j5l2ipv.s[4]++;
+      state.organization = (0, _object.cloneObject)(organization);
+    },
+    userActorSubordinatesMutation: function userActorSubordinatesMutation(state, userActorSubordinates) {
+      cov_3j5l2ipv.f[3]++;
+      cov_3j5l2ipv.s[5]++;
+      state.userActorSubordinates = (0, _object.cloneObject)(userActorSubordinates);
+    }
+  },
+  actions: {
+    initialize: function () {
+      var _initialize = (0, _asyncToGenerator2.default)(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee(context) {
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                cov_3j5l2ipv.f[4]++;
+                cov_3j5l2ipv.s[6]++;
+
+                if (!(context.state.userActor.user === undefined)) {
+                  _context.next = 9;
+                  break;
+                }
+
+                cov_3j5l2ipv.b[0][0]++;
+                cov_3j5l2ipv.s[7]++;
+                _context.next = 7;
+                return context.dispatch('userActorActions');
+
+              case 7:
+                _context.next = 10;
+                break;
+
+              case 9:
+                cov_3j5l2ipv.b[0][1]++;
+
+              case 10:
+                cov_3j5l2ipv.s[8]++;
+
+                if (!(context.state.organization.id === undefined)) {
+                  _context.next = 18;
+                  break;
+                }
+
+                cov_3j5l2ipv.b[1][0]++;
+                cov_3j5l2ipv.s[9]++;
+                _context.next = 16;
+                return context.dispatch('organizationActions');
+
+              case 16:
+                _context.next = 19;
+                break;
+
+              case 18:
+                cov_3j5l2ipv.b[1][1]++;
+
+              case 19:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      return function initialize(_x) {
+        return _initialize.apply(this, arguments);
+      };
+    }(),
+    userActorActions: function () {
+      var _userActorActions = (0, _asyncToGenerator2.default)(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee2(context) {
+        var response;
+        return regeneratorRuntime.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                cov_3j5l2ipv.f[5]++;
+                cov_3j5l2ipv.s[10]++;
+                _context2.next = 4;
+                return (0, _profile.default)().getInitialProfile();
+
+              case 4:
+                response = _context2.sent;
+                cov_3j5l2ipv.s[11]++;
+                context.commit('userActorMutation', response);
+
+              case 7:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this);
+      }));
+
+      return function userActorActions(_x2) {
+        return _userActorActions.apply(this, arguments);
+      };
+    }(),
+    userViewedActions: function userViewedActions(context, userObject) {
+      cov_3j5l2ipv.f[6]++;
+      cov_3j5l2ipv.s[12]++;
+      context.commit('userViewedMutation', userObject);
+    },
+    organizationActions: function () {
+      var _organizationActions = (0, _asyncToGenerator2.default)(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee3(context) {
+        var response;
+        return regeneratorRuntime.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                cov_3j5l2ipv.f[7]++;
+                cov_3j5l2ipv.s[13]++;
+                _context3.next = 4;
+                return (0, _organization.default)().getInitialOrg();
+
+              case 4:
+                response = _context3.sent;
+                cov_3j5l2ipv.s[14]++;
+                context.commit('organizationMutation', response);
+
+              case 7:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3, this);
+      }));
+
+      return function organizationActions(_x3) {
+        return _organizationActions.apply(this, arguments);
+      };
+    }(),
+    userActorSubordinatesActions: function userActorSubordinatesActions(context, userActorSubordinates) {
+      cov_3j5l2ipv.f[8]++;
+      cov_3j5l2ipv.s[15]++;
+      context.commit('userActorSubordinatesMutation', userActorSubordinates);
+    }
+  },
+  getters: {
+    userActor: function userActor(state) {
+      cov_3j5l2ipv.f[9]++;
+      cov_3j5l2ipv.s[16]++;
+      return (0, _object.cloneObject)(state.userActor);
+    },
+    userViewed: function userViewed(state) {
+      cov_3j5l2ipv.f[10]++;
+      cov_3j5l2ipv.s[17]++;
+      return (0, _object.cloneObject)(state.userViewed);
+    },
+    organization: function organization(state) {
+      cov_3j5l2ipv.f[11]++;
+      cov_3j5l2ipv.s[18]++;
+      return (0, _object.cloneObject)(state.organization);
+    },
+    userActorSubordinates: function userActorSubordinates(state) {
+      cov_3j5l2ipv.f[12]++;
+      cov_3j5l2ipv.s[19]++;
+      return (0, _object.cloneObject)(state.userActorSubordinates);
+    }
+  }
+}));
+cov_3j5l2ipv.s[20]++;
+_vue.default.prototype.$store = vStore; // window.vStore = vStore
+
+var _default = vStore; // End setting up vuex store
+
+exports.default = _default;
 
 /***/ }),
 
@@ -552,6 +1979,18 @@ exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.d
 } : function (obj) {
   return obj && typeof _symbol2.default === "function" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? "symbol" : typeof obj === "undefined" ? "undefined" : _typeof(obj);
 };
+
+/***/ }),
+
+/***/ "10f0":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("c1b7");
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_container_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -10972,6 +12411,167 @@ exports.default = function (ref) {
 
 /***/ }),
 
+/***/ "1361":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_1ubwqhd2hn = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_translation.js",
+      hash = "e01c9e7b6bb718506eaf7e3e9919f53c534e1708",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_translation.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 7,
+          column: 0
+        },
+        end: {
+          line: 15,
+          column: 6
+        }
+      },
+      "1": {
+        start: {
+          line: 18,
+          column: 0
+        },
+        end: {
+          line: 22,
+          column: 2
+        }
+      },
+      "2": {
+        start: {
+          line: 19,
+          column: 2
+        },
+        end: {
+          line: 21,
+          column: 46
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 18,
+            column: 24
+          },
+          end: {
+            line: 18,
+            column: 25
+          }
+        },
+        loc: {
+          start: {
+            line: 18,
+            column: 33
+          },
+          end: {
+            line: 22,
+            column: 1
+          }
+        },
+        line: 18
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 19,
+            column: 9
+          },
+          end: {
+            line: 21,
+            column: 46
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 20,
+            column: 6
+          },
+          end: {
+            line: 20,
+            column: 8
+          }
+        }, {
+          start: {
+            line: 21,
+            column: 6
+          },
+          end: {
+            line: 21,
+            column: 46
+          }
+        }],
+        line: 19
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+__webpack_require__("6b54");
+
+var _vue = _interopRequireDefault(__webpack_require__("8bbf"));
+
+var _vueGettext = _interopRequireDefault(__webpack_require__("5035"));
+
+var _translations = _interopRequireDefault(__webpack_require__("3ca2"));
+
+cov_1ubwqhd2hn.s[0]++;
+
+_vue.default.use(_vueGettext.default, {
+  defaultLanguage: 'vi',
+  translations: _translations.default,
+  availableLanguages: {
+    en_US: 'English',
+    vi: 'Vietnamese'
+  }
+});
+
+cov_1ubwqhd2hn.s[1]++;
+
+_vue.default.filter('translate', function (value) {
+  cov_1ubwqhd2hn.f[0]++;
+  cov_1ubwqhd2hn.s[2]++;
+  return !value ? (cov_1ubwqhd2hn.b[0][0]++, '') : (cov_1ubwqhd2hn.b[0][1]++, _vue.default.prototype.$gettext(value.toString()));
+});
+
+/***/ }),
+
 /***/ "1459":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11483,6 +13083,176 @@ module.exports = (
   'constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf'
 ).split(',');
 
+
+/***/ }),
+
+/***/ "16d1":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2lmn32xvh8 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue",
+      hash = "9a71d61ea65c984be5ef91f3a895925cf0e4dee9",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 39,
+          column: 29
+        },
+        end: {
+          line: 39,
+          column: 38
+        }
+      },
+      "1": {
+        start: {
+          line: 43,
+          column: 29
+        },
+        end: {
+          line: 43,
+          column: 38
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 39,
+            column: 21
+          },
+          end: {
+            line: 39,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 39,
+            column: 27
+          },
+          end: {
+            line: 39,
+            column: 40
+          }
+        },
+        line: 39
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 43,
+            column: 21
+          },
+          end: {
+            line: 43,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 43,
+            column: 27
+          },
+          end: {
+            line: 43,
+            column: 40
+          }
+        },
+        line: 43
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default2 = {
+  props: {
+    map: {
+      default: function _default() {
+        cov_2lmn32xvh8.f[0]++;
+        cov_2lmn32xvh8.s[0]++;
+        return {};
+      },
+      type: Object
+    },
+    organizationObject: {
+      default: function _default() {
+        cov_2lmn32xvh8.f[1]++;
+        cov_2lmn32xvh8.s[1]++;
+        return {};
+      },
+      type: Object
+    }
+  }
+};
+exports.default = _default2;
 
 /***/ }),
 
@@ -12522,6 +14292,139 @@ module.exports = { "default": __webpack_require__("d8d6"), __esModule: true };
 
 /***/ }),
 
+/***/ "194d":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_153lw7io3n = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/getters.js",
+      hash = "c14cba9d597e4736b75fa75d4ec0f0c94a7b01f0",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/getters.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 40
+        },
+        end: {
+          line: 1,
+          column: 60
+        }
+      },
+      "1": {
+        start: {
+          line: 2,
+          column: 35
+        },
+        end: {
+          line: 2,
+          column: 50
+        }
+      },
+      "2": {
+        start: {
+          line: 3,
+          column: 33
+        },
+        end: {
+          line: 3,
+          column: 46
+        }
+      },
+      "3": {
+        start: {
+          line: 7,
+          column: 8
+        },
+        end: {
+          line: 7,
+          column: 39
+        }
+      },
+      "4": {
+        start: {
+          line: 10,
+          column: 8
+        },
+        end: {
+          line: 10,
+          column: 34
+        }
+      },
+      "5": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 32
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.strategyMapGetter = exports.quarterPeriodGetter = exports.companyPerformanceGetter = void 0;
+
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("965f"));
+
+var _companyPerformanceGe;
+
+var companyPerformanceGetter = (cov_153lw7io3n.s[0]++, 'companyPerformance');
+exports.companyPerformanceGetter = companyPerformanceGetter;
+var quarterPeriodGetter = (cov_153lw7io3n.s[1]++, 'quarterPeriod');
+exports.quarterPeriodGetter = quarterPeriodGetter;
+var strategyMapGetter = (cov_153lw7io3n.s[2]++, 'strategyMap');
+exports.strategyMapGetter = strategyMapGetter;
+
+var _default = (_companyPerformanceGe = {}, (0, _defineProperty2.default)(_companyPerformanceGe, companyPerformanceGetter, function (state) {
+  cov_153lw7io3n.s[3]++;
+  return state.companyPerformance;
+}), (0, _defineProperty2.default)(_companyPerformanceGe, quarterPeriodGetter, function (state) {
+  cov_153lw7io3n.s[4]++;
+  return state.quarterPeriod;
+}), (0, _defineProperty2.default)(_companyPerformanceGe, strategyMapGetter, function (state) {
+  cov_153lw7io3n.s[5]++;
+  return state.strategyMap;
+}), _companyPerformanceGe);
+
+exports.default = _default;
+
+/***/ }),
+
 /***/ "1991":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12680,6 +14583,83 @@ module.exports = function (iterator, fn, value, entries) {
 
 /***/ }),
 
+/***/ "1ff6":
+/***/ (function(module, exports) {
+
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+        args = arguments;
+    return new Promise(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+
+      function step(key, arg) {
+        try {
+          var info = gen[key](arg);
+          var value = info.value;
+        } catch (error) {
+          reject(error);
+          return;
+        }
+
+        if (info.done) {
+          resolve(value);
+        } else {
+          Promise.resolve(value).then(_next, _throw);
+        }
+      }
+
+      function _next(value) {
+        step("next", value);
+      }
+
+      function _throw(err) {
+        step("throw", err);
+      }
+
+      _next();
+    });
+  };
+}
+
+module.exports = _asyncToGenerator;
+
+/***/ }),
+
+/***/ "203b":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _main_vue_vue_type_template_id_f4f48c48_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("4460");
+/* harmony import */ var _main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("b837");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _main_vue_vue_type_style_index_0_id_f4f48c48_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("b882");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("2877");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(
+  _main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _main_vue_vue_type_template_id_f4f48c48_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* render */ "a"],
+  _main_vue_vue_type_template_id_f4f48c48_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* staticRenderFns */ "b"],
+  false,
+  null,
+  "f4f48c48",
+  null
+  
+)
+
+component.options.__file = "main.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "20b0":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12720,6 +14700,139 @@ module.exports = function (KEY, length, exec) {
   }
 };
 
+
+/***/ }),
+
+/***/ "21b1":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _notification_list_vue_vue_type_template_id_56093643_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("5e31");
+/* harmony import */ var _notification_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("8dc2");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _notification_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _notification_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _notification_list_vue_vue_type_style_index_0_id_56093643_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("db47");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("2877");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(
+  _notification_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _notification_list_vue_vue_type_template_id_56093643_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* render */ "a"],
+  _notification_list_vue_vue_type_template_id_56093643_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* staticRenderFns */ "b"],
+  false,
+  null,
+  "56093643",
+  null
+  
+)
+
+component.options.__file = "notification_list.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "21ce":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2prkp44jx = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/object.js",
+      hash = "da4232c0e0215dc53f4872ffc2c571a6077721b2",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/object.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 27
+        },
+        end: {
+          line: 3,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 2,
+          column: 4
+        },
+        end: {
+          line: 2,
+          column: 45
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 1,
+            column: 27
+          },
+          end: {
+            line: 1,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 1,
+            column: 39
+          },
+          end: {
+            line: 3,
+            column: 1
+          }
+        },
+        line: 1
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.cloneObject = void 0;
+cov_2prkp44jx.s[0]++;
+
+var cloneObject = function cloneObject(object) {
+  cov_2prkp44jx.f[0]++;
+  cov_2prkp44jx.s[1]++;
+  return JSON.parse(JSON.stringify(object));
+};
+
+exports.cloneObject = cloneObject;
 
 /***/ }),
 
@@ -12776,6 +14889,445 @@ module.exports = function (it) {
   return Object(defined(it));
 };
 
+
+/***/ }),
+
+/***/ "243f":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=template&id=253ace0c&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-item",on:{"click":_vm.redirectToNotification}},[_c('img',{staticClass:"notification-item__image",attrs:{"src":_vm.notificationData.actor_avatar}}),_c('div',{staticClass:"notification-item__data-wrapper"},[_c('div',{staticClass:"notification-item__data"},[(_vm.notificationData.type_notification==='change_log')?_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm._f("translate")("Cloudjet KPI updated new version"))+": ")]),_c('span',{staticClass:"notification-item__version"},[_vm._v(_vm._s(_vm._f("translate")("Version"))+" "+_vm._s(_vm.notificationData.version)+" ")]),_c('span',{staticClass:"notification-item__release-date"},[_vm._v(_vm._s(_vm._f("translate")("updated"))+" "+_vm._s(_vm.notificationData.release_date)+" ")])]):_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm.notificationData.actor_name)+": ")]),_c('span',{staticClass:"notification-item__content-action",domProps:{"innerHTML":_vm._s(_vm.ellipisDescription)}})])]),_c('div',{staticClass:"notification-item__diffTime"},[_vm._v(_vm._s(_vm.diffTimeToString))])])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=template&id=253ace0c&scoped=true&
+/* concated harmony reexport render */__webpack_require__.d(__webpack_exports__, "a", function() { return render; });
+/* concated harmony reexport staticRenderFns */__webpack_require__.d(__webpack_exports__, "b", function() { return staticRenderFns; });
+
+
+/***/ }),
+
+/***/ "2460":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2qnqeri766 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/profile/factory.js",
+      hash = "541e35f9a8fbad183c7bc321227a088c02b3b316",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/profile/factory.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 8,
+          column: 16
+        },
+        end: {
+          line: 8,
+          column: 32
+        }
+      },
+      "1": {
+        start: {
+          line: 10,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 5
+        }
+      },
+      "2": {
+        start: {
+          line: 13,
+          column: 12
+        },
+        end: {
+          line: 16,
+          column: 14
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 6,
+            column: 16
+          },
+          end: {
+            line: 6,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 6,
+            column: 22
+          },
+          end: {
+            line: 19,
+            column: 1
+          }
+        },
+        line: 6
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 27
+          },
+          end: {
+            line: 12,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 33
+          },
+          end: {
+            line: 17,
+            column: 9
+          }
+        },
+        line: 12
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _config = _interopRequireDefault(__webpack_require__("93fc"));
+
+var _network_builder = __webpack_require__("b8e7");
+
+var _default = function _default() {
+  cov_2qnqeri766.f[0]++;
+  // Tạo url: base + path
+  var url = (cov_2qnqeri766.s[0]++, "".concat(_config.default.path));
+  cov_2qnqeri766.s[1]++;
+  return {
+    url: url,
+    getInitialProfile: function getInitialProfile() {
+      cov_2qnqeri766.f[1]++;
+      cov_2qnqeri766.s[2]++;
+      return (0, _network_builder.buildPromise)({
+        httpMethod: 'GET',
+        url: url
+      });
+    }
+  };
+};
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "25b9":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_lcbqrmx2p = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/main.vue",
+      hash = "04af3e212bf705c34f2f7f94ec15e2d23157ffa8",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/main.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 22,
+          column: 18
+        },
+        end: {
+          line: 22,
+          column: 44
+        }
+      },
+      "1": {
+        start: {
+          line: 33,
+          column: 18
+        },
+        end: {
+          line: 33,
+          column: 49
+        }
+      },
+      "2": {
+        start: {
+          line: 44,
+          column: 19
+        },
+        end: {
+          line: 44,
+          column: 23
+        }
+      },
+      "3": {
+        start: {
+          line: 45,
+          column: 8
+        },
+        end: {
+          line: 48,
+          column: 10
+        }
+      },
+      "4": {
+        start: {
+          line: 46,
+          column: 29
+        },
+        end: {
+          line: 46,
+          column: 55
+        }
+      },
+      "5": {
+        start: {
+          line: 47,
+          column: 12
+        },
+        end: {
+          line: 47,
+          column: 48
+        }
+      },
+      "6": {
+        start: {
+          line: 53,
+          column: 16
+        },
+        end: {
+          line: 53,
+          column: 60
+        }
+      },
+      "7": {
+        start: {
+          line: 56,
+          column: 16
+        },
+        end: {
+          line: 56,
+          column: 43
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 43,
+            column: 13
+          },
+          end: {
+            line: 43,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 43,
+            column: 23
+          },
+          end: {
+            line: 49,
+            column: 5
+          }
+        },
+        line: 43
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 45,
+            column: 47
+          },
+          end: {
+            line: 45,
+            column: 48
+          }
+        },
+        loc: {
+          start: {
+            line: 45,
+            column: 53
+          },
+          end: {
+            line: 48,
+            column: 9
+          }
+        },
+        line: 45
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _objectSpread2 = _interopRequireDefault(__webpack_require__("84cf"));
+
+var _store = _interopRequireDefault(__webpack_require__("3a84"));
+
+var _buildInitMixin = _interopRequireDefault(__webpack_require__("d886"));
+
+var _vuex = __webpack_require__("2f62");
+
+var _performance_table = _interopRequireDefault(__webpack_require__("7511"));
+
+var _vision_mission = _interopRequireDefault(__webpack_require__("c1c0"));
+
+var _month_lock_controller = _interopRequireDefault(__webpack_require__("becf"));
+
+var _vision_mission_modal = _interopRequireDefault(__webpack_require__("af60"));
+
+var _url = __webpack_require__("deb6");
+
+var _actions = __webpack_require__("7cc4");
+
+var _getters = __webpack_require__("194d");
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// https://medium.com/3yourmind/large-scale-vuex-application-structures-651e44863e2f
+// https://github.com/igeligel/vuex-feature-scoped-structure
+// https://github.com/igeligel/vuex-namespaced-module-structure
+// https://morningstar.engineering/managing-your-vue-js-applications-state-with-vuex-part-2-5e5c3a0cd507
+var STORE_KEY = (cov_lcbqrmx2p.s[0]++, "$companyBlockPerformance");
+var initMixin = (cov_lcbqrmx2p.s[1]++, (0, _buildInitMixin.default)(STORE_KEY, _store.default));
+var _default = {
+  mixins: [initMixin],
+  components: {
+    PerformanceTable: _performance_table.default,
+    MonthLockController: _month_lock_controller.default,
+    VisionMission: _vision_mission.default,
+    VisionMissionModal: _vision_mission_modal.default
+  },
+  mounted: function mounted() {
+    cov_lcbqrmx2p.f[0]++;
+    var self = (cov_lcbqrmx2p.s[2]++, this);
+    cov_lcbqrmx2p.s[3]++;
+    this.$initializeDataStoreGlobal().then(function () {
+      cov_lcbqrmx2p.f[1]++;
+      // private method
+      var quarter_id = (cov_lcbqrmx2p.s[4]++, (0, _url.getUrlVars)()['quarter_id']);
+      cov_lcbqrmx2p.s[5]++;
+      self.initializeDataStore(quarter_id);
+    });
+  },
+  computed: (0, _objectSpread2.default)({
+    organizationMontlyReviewLock: {
+      get: function get() {
+        cov_lcbqrmx2p.s[6]++;
+        return this.organization.monthly_review_lock;
+      },
+      set: function set(val) {
+        cov_lcbqrmx2p.s[7]++;
+        this.updateMonthlyLock(val);
+      }
+    }
+  }, (0, _vuex.mapGetters)(['userActor', 'organization']), (0, _vuex.mapGetters)(STORE_KEY, {
+    quarterPeriod: "".concat(_getters.quarterPeriodGetter),
+    companyPerformance: "".concat(_getters.companyPerformanceGetter),
+    strategyMap: "".concat(_getters.strategyMapGetter)
+  })),
+  methods: (0, _objectSpread2.default)({}, (0, _vuex.mapActions)(STORE_KEY, {
+    initializeDataStore: "".concat(_actions.initializeDataStore),
+    updateMonthlyLock: "".concat(_actions.updateMonthlyLock)
+  }))
+};
+exports.default = _default;
 
 /***/ }),
 
@@ -12917,11 +15469,11 @@ function normalizeComponent (
 /***/ }),
 
 /***/ "288e":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("b584");
-/* harmony import */ var sdk_network_core_network_builder__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("b8e7");
+/* WEBPACK VAR INJECTION */(function($) {
+
 var cov_ho6hohfm8 = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/factory.js",
       hash = "f59c7fe0c3fd312b49cd8aa81d9a8bac62f6558c",
@@ -13118,12 +15670,21 @@ var cov_ho6hohfm8 = function () {
   return coverage[path] = coverageData;
 }();
 
+var _interopRequireDefault = __webpack_require__("496d");
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
 
-/* harmony default export */ __webpack_exports__["a"] = (function () {
+var _config = _interopRequireDefault(__webpack_require__("b584"));
+
+var _network_builder = __webpack_require__("b8e7");
+
+var _default = function _default() {
   cov_ho6hohfm8.f[0]++;
   // Tạo url: base + path
-  var baseURL = (cov_ho6hohfm8.s[0]++, "".concat(_config__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"].path));
+  var baseURL = (cov_ho6hohfm8.s[0]++, "".concat(_config.default.path));
   cov_ho6hohfm8.s[1]++;
   return {
     getPerformanceByQuarterID: function getPerformanceByQuarterID(_ref) {
@@ -13140,14 +15701,16 @@ var cov_ho6hohfm8 = function () {
       /* Return Promise */
 
       cov_ho6hohfm8.s[4]++;
-      return Object(sdk_network_core_network_builder__WEBPACK_IMPORTED_MODULE_1__[/* buildPromise */ "a"])({
+      return (0, _network_builder.buildPromise)({
         httpMethod: 'GET',
         url: url,
         data: params
       });
     }
   };
-});
+};
+
+exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("1157")))
 
 /***/ }),
@@ -13241,6 +15804,222 @@ module.exports = function (exec) {
   }
 };
 
+
+/***/ }),
+
+/***/ "297b":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2t1owjrxx = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/factory.js",
+      hash = "2f5f79a275010378d2b5de6e31e432bcaa8956f4",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/factory.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 10,
+          column: 16
+        },
+        end: {
+          line: 10,
+          column: 32
+        }
+      },
+      "1": {
+        start: {
+          line: 11,
+          column: 4
+        },
+        end: {
+          line: 31,
+          column: 5
+        }
+      },
+      "2": {
+        start: {
+          line: 14,
+          column: 27
+        },
+        end: {
+          line: 14,
+          column: 50
+        }
+      },
+      "3": {
+        start: {
+          line: 15,
+          column: 12
+        },
+        end: {
+          line: 19,
+          column: 14
+        }
+      },
+      "4": {
+        start: {
+          line: 22,
+          column: 12
+        },
+        end: {
+          line: 28,
+          column: 14
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 16
+          },
+          end: {
+            line: 8,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 22
+          },
+          end: {
+            line: 32,
+            column: 1
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 13,
+            column: 24
+          },
+          end: {
+            line: 13,
+            column: 25
+          }
+        },
+        loc: {
+          start: {
+            line: 13,
+            column: 40
+          },
+          end: {
+            line: 20,
+            column: 9
+          }
+        },
+        line: 13
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 21,
+            column: 27
+          },
+          end: {
+            line: 21,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 33
+          },
+          end: {
+            line: 29,
+            column: 9
+          }
+        },
+        line: 21
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _config = _interopRequireDefault(__webpack_require__("77c4"));
+
+var _network_builder = __webpack_require__("b8e7");
+
+var _jquery = _interopRequireDefault(__webpack_require__("1157"));
+
+var _default = function _default() {
+  cov_2t1owjrxx.f[0]++;
+  // Tạo url: base + path
+  var url = (cov_2t1owjrxx.s[0]++, "".concat(_config.default.path));
+  cov_2t1owjrxx.s[1]++;
+  return {
+    url: url,
+    getQuarterByID: function getQuarterByID(quarter_id) {
+      cov_2t1owjrxx.f[1]++;
+      var params = (cov_2t1owjrxx.s[2]++, _jquery.default.param({
+        quarter_id: quarter_id
+      }));
+      cov_2t1owjrxx.s[3]++;
+      return (0, _network_builder.buildPromise)({
+        httpMethod: 'GET',
+        url: url,
+        data: params
+      });
+    },
+    getCurrentQuarter: function getCurrentQuarter() {
+      cov_2t1owjrxx.f[2]++;
+      cov_2t1owjrxx.s[4]++;
+      return (0, _network_builder.buildPromise)({
+        httpMethod: 'GET',
+        url: url,
+        data: {
+          get_current_quarter: 'yes'
+        }
+      });
+    }
+  };
+};
+
+exports.default = _default;
 
 /***/ }),
 
@@ -13703,6 +16482,76 @@ function scrollIntoView(container, selected) {
 
 /***/ }),
 
+/***/ "2a70":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("25b9");
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "2a8f":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_i61i88qzu = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/index.js",
+      hash = "b6cda0e4b89b44f5a1f7c9565d2ffb52369ba2c6",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _actions = _interopRequireDefault(__webpack_require__("fea5"));
+
+var _getters = _interopRequireDefault(__webpack_require__("4844"));
+
+var _mutations = _interopRequireDefault(__webpack_require__("52d9"));
+
+var _state = _interopRequireDefault(__webpack_require__("96d7"));
+
+var _default = {
+  namespaced: true,
+  state: _state.default,
+  actions: _actions.default,
+  getters: _getters.default,
+  mutations: _mutations.default
+};
+exports.default = _default;
+
+/***/ }),
+
 /***/ "2aba":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13893,6 +16742,30 @@ module.exports = false;
 
 /***/ }),
 
+/***/ "2d11":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "2d3a":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=template&id=99e0d0a0&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component-wrapper"},[_c('div',{staticClass:"col-sm-4 col-table-4 kpi-panel text-center",attrs:{"id":"company-performance-score"}},[_c('div',{staticClass:"kpi-panel-body"},[_c('div',{staticClass:"kpi-panel-header"},[_vm._v(_vm._s(_vm._f("translate")("Company Information")))]),_c('vision-mission',{attrs:{"organization-object":_vm.organization,"company-performance":_vm.companyPerformance,"quarter-period":_vm.quarterPeriod}}),_c('vision-mission-modal',{attrs:{"organization-object":_vm.organization,"map":_vm.strategyMap}}),_c('hr',{staticClass:"per-border border-top"}),_c('month-lock-controller',{attrs:{"is-admin":_vm.userActor.is_admin,"quarter-period":_vm.quarterPeriod},model:{value:(_vm.organizationMontlyReviewLock),callback:function ($$v) {_vm.organizationMontlyReviewLock=$$v},expression:"organizationMontlyReviewLock"}}),_c('performance-table',{attrs:{"quarter-period":_vm.quarterPeriod,"company-performance":_vm.companyPerformance}})],1)])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=template&id=99e0d0a0&scoped=true&
+/* concated harmony reexport render */__webpack_require__.d(__webpack_exports__, "a", function() { return render; });
+/* concated harmony reexport staticRenderFns */__webpack_require__.d(__webpack_exports__, "b", function() { return staticRenderFns; });
+
+
+/***/ }),
+
 /***/ "2d95":
 /***/ (function(module, exports) {
 
@@ -13901,6 +16774,900 @@ var toString = {}.toString;
 module.exports = function (it) {
   return toString.call(it).slice(8, -1);
 };
+
+
+/***/ }),
+
+/***/ "2f62":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Store", function() { return Store; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "install", function() { return install; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapState", function() { return mapState; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapMutations", function() { return mapMutations; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapGetters", function() { return mapGetters; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapActions", function() { return mapActions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createNamespacedHelpers", function() { return createNamespacedHelpers; });
+/**
+ * vuex v3.0.1
+ * (c) 2017 Evan You
+ * @license MIT
+ */
+var applyMixin = function (Vue) {
+  var version = Number(Vue.version.split('.')[0]);
+
+  if (version >= 2) {
+    Vue.mixin({ beforeCreate: vuexInit });
+  } else {
+    // override init and inject vuex init procedure
+    // for 1.x backwards compatibility.
+    var _init = Vue.prototype._init;
+    Vue.prototype._init = function (options) {
+      if ( options === void 0 ) options = {};
+
+      options.init = options.init
+        ? [vuexInit].concat(options.init)
+        : vuexInit;
+      _init.call(this, options);
+    };
+  }
+
+  /**
+   * Vuex init hook, injected into each instances init hooks list.
+   */
+
+  function vuexInit () {
+    var options = this.$options;
+    // store injection
+    if (options.store) {
+      this.$store = typeof options.store === 'function'
+        ? options.store()
+        : options.store;
+    } else if (options.parent && options.parent.$store) {
+      this.$store = options.parent.$store;
+    }
+  }
+};
+
+var devtoolHook =
+  typeof window !== 'undefined' &&
+  window.__VUE_DEVTOOLS_GLOBAL_HOOK__;
+
+function devtoolPlugin (store) {
+  if (!devtoolHook) { return }
+
+  store._devtoolHook = devtoolHook;
+
+  devtoolHook.emit('vuex:init', store);
+
+  devtoolHook.on('vuex:travel-to-state', function (targetState) {
+    store.replaceState(targetState);
+  });
+
+  store.subscribe(function (mutation, state) {
+    devtoolHook.emit('vuex:mutation', mutation, state);
+  });
+}
+
+/**
+ * Get the first item that pass the test
+ * by second argument function
+ *
+ * @param {Array} list
+ * @param {Function} f
+ * @return {*}
+ */
+/**
+ * Deep copy the given object considering circular structure.
+ * This function caches all nested objects and its copies.
+ * If it detects circular structure, use cached copy to avoid infinite loop.
+ *
+ * @param {*} obj
+ * @param {Array<Object>} cache
+ * @return {*}
+ */
+
+
+/**
+ * forEach for object
+ */
+function forEachValue (obj, fn) {
+  Object.keys(obj).forEach(function (key) { return fn(obj[key], key); });
+}
+
+function isObject (obj) {
+  return obj !== null && typeof obj === 'object'
+}
+
+function isPromise (val) {
+  return val && typeof val.then === 'function'
+}
+
+function assert (condition, msg) {
+  if (!condition) { throw new Error(("[vuex] " + msg)) }
+}
+
+var Module = function Module (rawModule, runtime) {
+  this.runtime = runtime;
+  this._children = Object.create(null);
+  this._rawModule = rawModule;
+  var rawState = rawModule.state;
+  this.state = (typeof rawState === 'function' ? rawState() : rawState) || {};
+};
+
+var prototypeAccessors$1 = { namespaced: { configurable: true } };
+
+prototypeAccessors$1.namespaced.get = function () {
+  return !!this._rawModule.namespaced
+};
+
+Module.prototype.addChild = function addChild (key, module) {
+  this._children[key] = module;
+};
+
+Module.prototype.removeChild = function removeChild (key) {
+  delete this._children[key];
+};
+
+Module.prototype.getChild = function getChild (key) {
+  return this._children[key]
+};
+
+Module.prototype.update = function update (rawModule) {
+  this._rawModule.namespaced = rawModule.namespaced;
+  if (rawModule.actions) {
+    this._rawModule.actions = rawModule.actions;
+  }
+  if (rawModule.mutations) {
+    this._rawModule.mutations = rawModule.mutations;
+  }
+  if (rawModule.getters) {
+    this._rawModule.getters = rawModule.getters;
+  }
+};
+
+Module.prototype.forEachChild = function forEachChild (fn) {
+  forEachValue(this._children, fn);
+};
+
+Module.prototype.forEachGetter = function forEachGetter (fn) {
+  if (this._rawModule.getters) {
+    forEachValue(this._rawModule.getters, fn);
+  }
+};
+
+Module.prototype.forEachAction = function forEachAction (fn) {
+  if (this._rawModule.actions) {
+    forEachValue(this._rawModule.actions, fn);
+  }
+};
+
+Module.prototype.forEachMutation = function forEachMutation (fn) {
+  if (this._rawModule.mutations) {
+    forEachValue(this._rawModule.mutations, fn);
+  }
+};
+
+Object.defineProperties( Module.prototype, prototypeAccessors$1 );
+
+var ModuleCollection = function ModuleCollection (rawRootModule) {
+  // register root module (Vuex.Store options)
+  this.register([], rawRootModule, false);
+};
+
+ModuleCollection.prototype.get = function get (path) {
+  return path.reduce(function (module, key) {
+    return module.getChild(key)
+  }, this.root)
+};
+
+ModuleCollection.prototype.getNamespace = function getNamespace (path) {
+  var module = this.root;
+  return path.reduce(function (namespace, key) {
+    module = module.getChild(key);
+    return namespace + (module.namespaced ? key + '/' : '')
+  }, '')
+};
+
+ModuleCollection.prototype.update = function update$1 (rawRootModule) {
+  update([], this.root, rawRootModule);
+};
+
+ModuleCollection.prototype.register = function register (path, rawModule, runtime) {
+    var this$1 = this;
+    if ( runtime === void 0 ) runtime = true;
+
+  if (false) {}
+
+  var newModule = new Module(rawModule, runtime);
+  if (path.length === 0) {
+    this.root = newModule;
+  } else {
+    var parent = this.get(path.slice(0, -1));
+    parent.addChild(path[path.length - 1], newModule);
+  }
+
+  // register nested modules
+  if (rawModule.modules) {
+    forEachValue(rawModule.modules, function (rawChildModule, key) {
+      this$1.register(path.concat(key), rawChildModule, runtime);
+    });
+  }
+};
+
+ModuleCollection.prototype.unregister = function unregister (path) {
+  var parent = this.get(path.slice(0, -1));
+  var key = path[path.length - 1];
+  if (!parent.getChild(key).runtime) { return }
+
+  parent.removeChild(key);
+};
+
+function update (path, targetModule, newModule) {
+  if (false) {}
+
+  // update target module
+  targetModule.update(newModule);
+
+  // update nested modules
+  if (newModule.modules) {
+    for (var key in newModule.modules) {
+      if (!targetModule.getChild(key)) {
+        if (false) {}
+        return
+      }
+      update(
+        path.concat(key),
+        targetModule.getChild(key),
+        newModule.modules[key]
+      );
+    }
+  }
+}
+
+var functionAssert = {
+  assert: function (value) { return typeof value === 'function'; },
+  expected: 'function'
+};
+
+var objectAssert = {
+  assert: function (value) { return typeof value === 'function' ||
+    (typeof value === 'object' && typeof value.handler === 'function'); },
+  expected: 'function or object with "handler" function'
+};
+
+var assertTypes = {
+  getters: functionAssert,
+  mutations: functionAssert,
+  actions: objectAssert
+};
+
+function assertRawModule (path, rawModule) {
+  Object.keys(assertTypes).forEach(function (key) {
+    if (!rawModule[key]) { return }
+
+    var assertOptions = assertTypes[key];
+
+    forEachValue(rawModule[key], function (value, type) {
+      assert(
+        assertOptions.assert(value),
+        makeAssertionMessage(path, key, type, value, assertOptions.expected)
+      );
+    });
+  });
+}
+
+function makeAssertionMessage (path, key, type, value, expected) {
+  var buf = key + " should be " + expected + " but \"" + key + "." + type + "\"";
+  if (path.length > 0) {
+    buf += " in module \"" + (path.join('.')) + "\"";
+  }
+  buf += " is " + (JSON.stringify(value)) + ".";
+  return buf
+}
+
+var Vue; // bind on install
+
+var Store = function Store (options) {
+  var this$1 = this;
+  if ( options === void 0 ) options = {};
+
+  // Auto install if it is not done yet and `window` has `Vue`.
+  // To allow users to avoid auto-installation in some cases,
+  // this code should be placed here. See #731
+  if (!Vue && typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
+  }
+
+  if (false) {}
+
+  var plugins = options.plugins; if ( plugins === void 0 ) plugins = [];
+  var strict = options.strict; if ( strict === void 0 ) strict = false;
+
+  var state = options.state; if ( state === void 0 ) state = {};
+  if (typeof state === 'function') {
+    state = state() || {};
+  }
+
+  // store internal state
+  this._committing = false;
+  this._actions = Object.create(null);
+  this._actionSubscribers = [];
+  this._mutations = Object.create(null);
+  this._wrappedGetters = Object.create(null);
+  this._modules = new ModuleCollection(options);
+  this._modulesNamespaceMap = Object.create(null);
+  this._subscribers = [];
+  this._watcherVM = new Vue();
+
+  // bind commit and dispatch to self
+  var store = this;
+  var ref = this;
+  var dispatch = ref.dispatch;
+  var commit = ref.commit;
+  this.dispatch = function boundDispatch (type, payload) {
+    return dispatch.call(store, type, payload)
+  };
+  this.commit = function boundCommit (type, payload, options) {
+    return commit.call(store, type, payload, options)
+  };
+
+  // strict mode
+  this.strict = strict;
+
+  // init root module.
+  // this also recursively registers all sub-modules
+  // and collects all module getters inside this._wrappedGetters
+  installModule(this, state, [], this._modules.root);
+
+  // initialize the store vm, which is responsible for the reactivity
+  // (also registers _wrappedGetters as computed properties)
+  resetStoreVM(this, state);
+
+  // apply plugins
+  plugins.forEach(function (plugin) { return plugin(this$1); });
+
+  if (Vue.config.devtools) {
+    devtoolPlugin(this);
+  }
+};
+
+var prototypeAccessors = { state: { configurable: true } };
+
+prototypeAccessors.state.get = function () {
+  return this._vm._data.$$state
+};
+
+prototypeAccessors.state.set = function (v) {
+  if (false) {}
+};
+
+Store.prototype.commit = function commit (_type, _payload, _options) {
+    var this$1 = this;
+
+  // check object-style commit
+  var ref = unifyObjectStyle(_type, _payload, _options);
+    var type = ref.type;
+    var payload = ref.payload;
+    var options = ref.options;
+
+  var mutation = { type: type, payload: payload };
+  var entry = this._mutations[type];
+  if (!entry) {
+    if (false) {}
+    return
+  }
+  this._withCommit(function () {
+    entry.forEach(function commitIterator (handler) {
+      handler(payload);
+    });
+  });
+  this._subscribers.forEach(function (sub) { return sub(mutation, this$1.state); });
+
+  if (
+    false
+  ) {}
+};
+
+Store.prototype.dispatch = function dispatch (_type, _payload) {
+    var this$1 = this;
+
+  // check object-style dispatch
+  var ref = unifyObjectStyle(_type, _payload);
+    var type = ref.type;
+    var payload = ref.payload;
+
+  var action = { type: type, payload: payload };
+  var entry = this._actions[type];
+  if (!entry) {
+    if (false) {}
+    return
+  }
+
+  this._actionSubscribers.forEach(function (sub) { return sub(action, this$1.state); });
+
+  return entry.length > 1
+    ? Promise.all(entry.map(function (handler) { return handler(payload); }))
+    : entry[0](payload)
+};
+
+Store.prototype.subscribe = function subscribe (fn) {
+  return genericSubscribe(fn, this._subscribers)
+};
+
+Store.prototype.subscribeAction = function subscribeAction (fn) {
+  return genericSubscribe(fn, this._actionSubscribers)
+};
+
+Store.prototype.watch = function watch (getter, cb, options) {
+    var this$1 = this;
+
+  if (false) {}
+  return this._watcherVM.$watch(function () { return getter(this$1.state, this$1.getters); }, cb, options)
+};
+
+Store.prototype.replaceState = function replaceState (state) {
+    var this$1 = this;
+
+  this._withCommit(function () {
+    this$1._vm._data.$$state = state;
+  });
+};
+
+Store.prototype.registerModule = function registerModule (path, rawModule, options) {
+    if ( options === void 0 ) options = {};
+
+  if (typeof path === 'string') { path = [path]; }
+
+  if (false) {}
+
+  this._modules.register(path, rawModule);
+  installModule(this, this.state, path, this._modules.get(path), options.preserveState);
+  // reset store to update getters...
+  resetStoreVM(this, this.state);
+};
+
+Store.prototype.unregisterModule = function unregisterModule (path) {
+    var this$1 = this;
+
+  if (typeof path === 'string') { path = [path]; }
+
+  if (false) {}
+
+  this._modules.unregister(path);
+  this._withCommit(function () {
+    var parentState = getNestedState(this$1.state, path.slice(0, -1));
+    Vue.delete(parentState, path[path.length - 1]);
+  });
+  resetStore(this);
+};
+
+Store.prototype.hotUpdate = function hotUpdate (newOptions) {
+  this._modules.update(newOptions);
+  resetStore(this, true);
+};
+
+Store.prototype._withCommit = function _withCommit (fn) {
+  var committing = this._committing;
+  this._committing = true;
+  fn();
+  this._committing = committing;
+};
+
+Object.defineProperties( Store.prototype, prototypeAccessors );
+
+function genericSubscribe (fn, subs) {
+  if (subs.indexOf(fn) < 0) {
+    subs.push(fn);
+  }
+  return function () {
+    var i = subs.indexOf(fn);
+    if (i > -1) {
+      subs.splice(i, 1);
+    }
+  }
+}
+
+function resetStore (store, hot) {
+  store._actions = Object.create(null);
+  store._mutations = Object.create(null);
+  store._wrappedGetters = Object.create(null);
+  store._modulesNamespaceMap = Object.create(null);
+  var state = store.state;
+  // init all modules
+  installModule(store, state, [], store._modules.root, true);
+  // reset vm
+  resetStoreVM(store, state, hot);
+}
+
+function resetStoreVM (store, state, hot) {
+  var oldVm = store._vm;
+
+  // bind store public getters
+  store.getters = {};
+  var wrappedGetters = store._wrappedGetters;
+  var computed = {};
+  forEachValue(wrappedGetters, function (fn, key) {
+    // use computed to leverage its lazy-caching mechanism
+    computed[key] = function () { return fn(store); };
+    Object.defineProperty(store.getters, key, {
+      get: function () { return store._vm[key]; },
+      enumerable: true // for local getters
+    });
+  });
+
+  // use a Vue instance to store the state tree
+  // suppress warnings just in case the user has added
+  // some funky global mixins
+  var silent = Vue.config.silent;
+  Vue.config.silent = true;
+  store._vm = new Vue({
+    data: {
+      $$state: state
+    },
+    computed: computed
+  });
+  Vue.config.silent = silent;
+
+  // enable strict mode for new vm
+  if (store.strict) {
+    enableStrictMode(store);
+  }
+
+  if (oldVm) {
+    if (hot) {
+      // dispatch changes in all subscribed watchers
+      // to force getter re-evaluation for hot reloading.
+      store._withCommit(function () {
+        oldVm._data.$$state = null;
+      });
+    }
+    Vue.nextTick(function () { return oldVm.$destroy(); });
+  }
+}
+
+function installModule (store, rootState, path, module, hot) {
+  var isRoot = !path.length;
+  var namespace = store._modules.getNamespace(path);
+
+  // register in namespace map
+  if (module.namespaced) {
+    store._modulesNamespaceMap[namespace] = module;
+  }
+
+  // set state
+  if (!isRoot && !hot) {
+    var parentState = getNestedState(rootState, path.slice(0, -1));
+    var moduleName = path[path.length - 1];
+    store._withCommit(function () {
+      Vue.set(parentState, moduleName, module.state);
+    });
+  }
+
+  var local = module.context = makeLocalContext(store, namespace, path);
+
+  module.forEachMutation(function (mutation, key) {
+    var namespacedType = namespace + key;
+    registerMutation(store, namespacedType, mutation, local);
+  });
+
+  module.forEachAction(function (action, key) {
+    var type = action.root ? key : namespace + key;
+    var handler = action.handler || action;
+    registerAction(store, type, handler, local);
+  });
+
+  module.forEachGetter(function (getter, key) {
+    var namespacedType = namespace + key;
+    registerGetter(store, namespacedType, getter, local);
+  });
+
+  module.forEachChild(function (child, key) {
+    installModule(store, rootState, path.concat(key), child, hot);
+  });
+}
+
+/**
+ * make localized dispatch, commit, getters and state
+ * if there is no namespace, just use root ones
+ */
+function makeLocalContext (store, namespace, path) {
+  var noNamespace = namespace === '';
+
+  var local = {
+    dispatch: noNamespace ? store.dispatch : function (_type, _payload, _options) {
+      var args = unifyObjectStyle(_type, _payload, _options);
+      var payload = args.payload;
+      var options = args.options;
+      var type = args.type;
+
+      if (!options || !options.root) {
+        type = namespace + type;
+        if (false) {}
+      }
+
+      return store.dispatch(type, payload)
+    },
+
+    commit: noNamespace ? store.commit : function (_type, _payload, _options) {
+      var args = unifyObjectStyle(_type, _payload, _options);
+      var payload = args.payload;
+      var options = args.options;
+      var type = args.type;
+
+      if (!options || !options.root) {
+        type = namespace + type;
+        if (false) {}
+      }
+
+      store.commit(type, payload, options);
+    }
+  };
+
+  // getters and state object must be gotten lazily
+  // because they will be changed by vm update
+  Object.defineProperties(local, {
+    getters: {
+      get: noNamespace
+        ? function () { return store.getters; }
+        : function () { return makeLocalGetters(store, namespace); }
+    },
+    state: {
+      get: function () { return getNestedState(store.state, path); }
+    }
+  });
+
+  return local
+}
+
+function makeLocalGetters (store, namespace) {
+  var gettersProxy = {};
+
+  var splitPos = namespace.length;
+  Object.keys(store.getters).forEach(function (type) {
+    // skip if the target getter is not match this namespace
+    if (type.slice(0, splitPos) !== namespace) { return }
+
+    // extract local getter type
+    var localType = type.slice(splitPos);
+
+    // Add a port to the getters proxy.
+    // Define as getter property because
+    // we do not want to evaluate the getters in this time.
+    Object.defineProperty(gettersProxy, localType, {
+      get: function () { return store.getters[type]; },
+      enumerable: true
+    });
+  });
+
+  return gettersProxy
+}
+
+function registerMutation (store, type, handler, local) {
+  var entry = store._mutations[type] || (store._mutations[type] = []);
+  entry.push(function wrappedMutationHandler (payload) {
+    handler.call(store, local.state, payload);
+  });
+}
+
+function registerAction (store, type, handler, local) {
+  var entry = store._actions[type] || (store._actions[type] = []);
+  entry.push(function wrappedActionHandler (payload, cb) {
+    var res = handler.call(store, {
+      dispatch: local.dispatch,
+      commit: local.commit,
+      getters: local.getters,
+      state: local.state,
+      rootGetters: store.getters,
+      rootState: store.state
+    }, payload, cb);
+    if (!isPromise(res)) {
+      res = Promise.resolve(res);
+    }
+    if (store._devtoolHook) {
+      return res.catch(function (err) {
+        store._devtoolHook.emit('vuex:error', err);
+        throw err
+      })
+    } else {
+      return res
+    }
+  });
+}
+
+function registerGetter (store, type, rawGetter, local) {
+  if (store._wrappedGetters[type]) {
+    if (false) {}
+    return
+  }
+  store._wrappedGetters[type] = function wrappedGetter (store) {
+    return rawGetter(
+      local.state, // local state
+      local.getters, // local getters
+      store.state, // root state
+      store.getters // root getters
+    )
+  };
+}
+
+function enableStrictMode (store) {
+  store._vm.$watch(function () { return this._data.$$state }, function () {
+    if (false) {}
+  }, { deep: true, sync: true });
+}
+
+function getNestedState (state, path) {
+  return path.length
+    ? path.reduce(function (state, key) { return state[key]; }, state)
+    : state
+}
+
+function unifyObjectStyle (type, payload, options) {
+  if (isObject(type) && type.type) {
+    options = payload;
+    payload = type;
+    type = type.type;
+  }
+
+  if (false) {}
+
+  return { type: type, payload: payload, options: options }
+}
+
+function install (_Vue) {
+  if (Vue && _Vue === Vue) {
+    if (false) {}
+    return
+  }
+  Vue = _Vue;
+  applyMixin(Vue);
+}
+
+var mapState = normalizeNamespace(function (namespace, states) {
+  var res = {};
+  normalizeMap(states).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedState () {
+      var state = this.$store.state;
+      var getters = this.$store.getters;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapState', namespace);
+        if (!module) {
+          return
+        }
+        state = module.context.state;
+        getters = module.context.getters;
+      }
+      return typeof val === 'function'
+        ? val.call(this, state, getters)
+        : state[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+var mapMutations = normalizeNamespace(function (namespace, mutations) {
+  var res = {};
+  normalizeMap(mutations).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedMutation () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      var commit = this.$store.commit;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapMutations', namespace);
+        if (!module) {
+          return
+        }
+        commit = module.context.commit;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [commit].concat(args))
+        : commit.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+var mapGetters = normalizeNamespace(function (namespace, getters) {
+  var res = {};
+  normalizeMap(getters).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    val = namespace + val;
+    res[key] = function mappedGetter () {
+      if (namespace && !getModuleByNamespace(this.$store, 'mapGetters', namespace)) {
+        return
+      }
+      if (false) {}
+      return this.$store.getters[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+var mapActions = normalizeNamespace(function (namespace, actions) {
+  var res = {};
+  normalizeMap(actions).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedAction () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      var dispatch = this.$store.dispatch;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapActions', namespace);
+        if (!module) {
+          return
+        }
+        dispatch = module.context.dispatch;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [dispatch].concat(args))
+        : dispatch.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+var createNamespacedHelpers = function (namespace) { return ({
+  mapState: mapState.bind(null, namespace),
+  mapGetters: mapGetters.bind(null, namespace),
+  mapMutations: mapMutations.bind(null, namespace),
+  mapActions: mapActions.bind(null, namespace)
+}); };
+
+function normalizeMap (map) {
+  return Array.isArray(map)
+    ? map.map(function (key) { return ({ key: key, val: key }); })
+    : Object.keys(map).map(function (key) { return ({ key: key, val: map[key] }); })
+}
+
+function normalizeNamespace (fn) {
+  return function (namespace, map) {
+    if (typeof namespace !== 'string') {
+      map = namespace;
+      namespace = '';
+    } else if (namespace.charAt(namespace.length - 1) !== '/') {
+      namespace += '/';
+    }
+    return fn(namespace, map)
+  }
+}
+
+function getModuleByNamespace (store, helper, namespace) {
+  var module = store._modulesNamespaceMap[namespace];
+  if (false) {}
+  return module
+}
+
+var index_esm = {
+  Store: Store,
+  install: install,
+  version: '3.0.1',
+  mapState: mapState,
+  mapMutations: mapMutations,
+  mapGetters: mapGetters,
+  mapActions: mapActions,
+  createNamespacedHelpers: createNamespacedHelpers
+};
+
+
+/* harmony default export */ __webpack_exports__["default"] = (index_esm);
 
 
 /***/ }),
@@ -14132,6 +17899,23 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 /***/ }),
 
+/***/ "3a32":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=template&id=05cf0880&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"table-per-com-result"},[_c('table',{staticClass:"table table-bordered table-striped text-center"},[_c('thead',[_c('tr',[_c('th',[_vm._v(_vm._s(_vm.quarterPeriod.month_1_name))]),_c('th',[_vm._v(_vm._s(_vm.quarterPeriod.month_2_name))]),_c('th',[_vm._v(_vm._s(_vm.quarterPeriod.month_3_name))])])]),_c('tbody',[_c('tr',[_c('td',[_c('span',[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.month_1_score)))])]),_c('td',[_c('span',[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.month_2_score)))])]),_c('td',[_c('span',[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.month_3_score)))])])])])])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=template&id=05cf0880&scoped=true&
+/* concated harmony reexport render */__webpack_require__.d(__webpack_exports__, "a", function() { return render; });
+/* concated harmony reexport staticRenderFns */__webpack_require__.d(__webpack_exports__, "b", function() { return staticRenderFns; });
+
+
+/***/ }),
+
 /***/ "3a38":
 /***/ (function(module, exports) {
 
@@ -14142,6 +17926,64 @@ module.exports = function (it) {
   return isNaN(it = +it) ? 0 : (it > 0 ? floor : ceil)(it);
 };
 
+
+/***/ }),
+
+/***/ "3a84":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_9l2xfqxd1 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/index.js",
+      hash = "997cccb00ce584ba41b5e65177dd2f0fe5e0c2b6",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _actions = _interopRequireDefault(__webpack_require__("7cc4"));
+
+var _getters = _interopRequireDefault(__webpack_require__("194d"));
+
+var _mutations = _interopRequireDefault(__webpack_require__("4b59"));
+
+var _states = _interopRequireDefault(__webpack_require__("9570"));
+
+var _default = {
+  namespaced: true,
+  state: _states.default,
+  actions: _actions.default,
+  getters: _getters.default,
+  mutations: _mutations.default
+};
+exports.default = _default;
 
 /***/ }),
 
@@ -14254,6 +18096,23 @@ module.exports = deepmerge_1;
 /***/ (function(module) {
 
 module.exports = {"en_US":{},"vi":{"All months":"Tất cả các tháng","Allow review":"Cho phép đánh giá","Close":"Đóng","Cloudjet KPI updated new version":"Cloudjet KPI đã cập nhật phiên bản mới","Company Information":"HIỆU SUẤT CÔNG TY","Company Vision & Mission":"Tầm nhìn và Sứ mệnh","Due":"Thời hạn","Information's updating ......":"Thông tin đang được cập nhật","Performance":"Hiệu suất","Quarter":"Quý","updated":"cập nhật","Version":"Phiên bản","Vision & Mission":"Tầm nhìn và Sứ mệnh"}};
+
+/***/ }),
+
+/***/ "3f2c":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue?vue&type=template&id=54e7a6cd&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('modal',{attrs:{"pivotY":0.2,"width":900,"minHeight":500,"height":"auto","name":"visionMissionModalName"}},[_c('div',{staticClass:"modal-header padding-bottom-10"},[_c('button',{staticClass:"modal-header__btn-close",on:{"click":function($event){_vm.$modal.hide('visionMissionModalName')}}},[_c('span',[_vm._v("×")])]),_c('span',{staticClass:"modal-header__title"},[_vm._v(_vm._s(_vm._f("translate")("Company Vision & Mission")))])]),_c('div',{staticClass:"modal-body"},[(_vm.map.id !== undefined)?_c('div',{staticClass:"company-vision row"},[_c('div',{staticClass:"company-vision__brand"},[_c('img',{staticClass:"company-vision__brand__logo",attrs:{"alt":_vm.organizationObject.name,"src":_vm.organizationObject.get_logo,"title":_vm.organizationObject.name}}),_c('div',{staticClass:"company-vision__brand__name mg-t-20"},[_vm._v(_vm._s(_vm.organizationObject.name))])]),_c('div',{staticClass:"beautiful-scrollbar company-vision__description mg-l-30"},[_c('div',[_c('span',{domProps:{"innerHTML":_vm._s(_vm.map.name)}})]),_c('div',{staticClass:"mg-t-20"},[_c('span',{domProps:{"innerHTML":_vm._s(_vm.map.description)}})])])]):_c('div',{staticClass:"company-vision row"},[_vm._v(_vm._s(_vm._f("translate")("Information's updating ......")))])]),_c('div',{staticClass:"modal-footer"},[_c('button',{staticClass:"btn btn-normal",attrs:{"type":"button"},on:{"click":function($event){_vm.$modal.hide('visionMissionModalName')}}},[_vm._v(_vm._s(_vm._f("translate")("Close")))])])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue?vue&type=template&id=54e7a6cd&scoped=true&
+/* concated harmony reexport render */__webpack_require__.d(__webpack_exports__, "a", function() { return render; });
+/* concated harmony reexport staticRenderFns */__webpack_require__.d(__webpack_exports__, "b", function() { return staticRenderFns; });
+
 
 /***/ }),
 
@@ -14492,6 +18351,23 @@ function getFirstComponentChild(children) {
 
 /***/ }),
 
+/***/ "4460":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/main.vue?vue&type=template&id=f4f48c48&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('notification-container',{attrs:{"notification-data":_vm.notificationData,"on-lazy-load":_vm.getLazyNotifications,"on-mark-as-read":_vm.markAsReadNotifications,"href":_vm.href}})}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/main.vue?vue&type=template&id=f4f48c48&scoped=true&
+/* concated harmony reexport render */__webpack_require__.d(__webpack_exports__, "a", function() { return render; });
+/* concated harmony reexport staticRenderFns */__webpack_require__.d(__webpack_exports__, "b", function() { return staticRenderFns; });
+
+
+/***/ }),
+
 /***/ "456d":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14580,6 +18456,168 @@ module.exports = {};
 
 /***/ }),
 
+/***/ "4844":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2ncimvdd84 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/getters.js",
+      hash = "01702744dbd3f9710fad3f86f1fc1d6712d6c8ac",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/getters.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 5,
+          column: 25
+        },
+        end: {
+          line: 7,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 2
+        },
+        end: {
+          line: 6,
+          column: 45
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 13
+        },
+        end: {
+          line: 10,
+          column: 1
+        }
+      },
+      "3": {
+        start: {
+          line: 9,
+          column: 2
+        },
+        end: {
+          line: 9,
+          column: 33
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 5,
+            column: 25
+          },
+          end: {
+            line: 5,
+            column: 26
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 36
+          },
+          end: {
+            line: 7,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 8,
+            column: 13
+          },
+          end: {
+            line: 8,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 24
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 8
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _object = __webpack_require__("21ce");
+
+cov_2ncimvdd84.s[0]++;
+
+// ? why clone
+var notificationData = function notificationData(state) {
+  cov_2ncimvdd84.f[0]++;
+  cov_2ncimvdd84.s[1]++;
+  return (0, _object.cloneObject)(state.notificationData);
+};
+
+cov_2ncimvdd84.s[2]++;
+
+var href = function href(state) {
+  cov_2ncimvdd84.f[1]++;
+  cov_2ncimvdd84.s[3]++;
+  return (0, _object.cloneObject)(state.href);
+};
+
+var _default = {
+  notificationData: notificationData,
+  href: href
+};
+exports.default = _default;
+
+/***/ }),
+
 /***/ "4897":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14647,6 +18685,493 @@ var i18n = exports.i18n = function i18n(fn) {
 };
 
 exports.default = { use: use, t: t, i18n: i18n };
+
+/***/ }),
+
+/***/ "4907":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_xbgkkxqi8 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/index.js",
+      hash = "e7fa8af35c93feeef1fe19d441990d47f444a1bb",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _factory = _interopRequireDefault(__webpack_require__("288e"));
+
+var _default = _factory.default;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "496d":
+/***/ (function(module, exports) {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+
+module.exports = _interopRequireDefault;
+
+/***/ }),
+
+/***/ "49fc":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_41x25f4q9 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue",
+      hash = "3504a4ceca00fe2ceed0125dc170ac474068d267",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 31,
+          column: 26
+        },
+        end: {
+          line: 31,
+          column: 83
+        }
+      },
+      "1": {
+        start: {
+          line: 40,
+          column: 48
+        },
+        end: {
+          line: 41,
+          column: 42
+        }
+      },
+      "2": {
+        start: {
+          line: 43,
+          column: 6
+        },
+        end: {
+          line: 51,
+          column: 8
+        }
+      },
+      "3": {
+        start: {
+          line: 61,
+          column: 6
+        },
+        end: {
+          line: 71,
+          column: 7
+        }
+      },
+      "4": {
+        start: {
+          line: 62,
+          column: 8
+        },
+        end: {
+          line: 70,
+          column: 9
+        }
+      },
+      "5": {
+        start: {
+          line: 69,
+          column: 10
+        },
+        end: {
+          line: 69,
+          column: 44
+        }
+      },
+      "6": {
+        start: {
+          line: 107,
+          column: 6
+        },
+        end: {
+          line: 107,
+          column: 80
+        }
+      },
+      "7": {
+        start: {
+          line: 116,
+          column: 6
+        },
+        end: {
+          line: 119,
+          column: 8
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 59,
+            column: 14
+          },
+          end: {
+            line: 59,
+            column: 75
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 59,
+            column: 44
+          },
+          end: {
+            line: 59,
+            column: 75
+          }
+        }],
+        line: 59
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 61,
+            column: 6
+          },
+          end: {
+            line: 71,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 61,
+            column: 6
+          },
+          end: {
+            line: 71,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 61,
+            column: 6
+          },
+          end: {
+            line: 71,
+            column: 7
+          }
+        }],
+        line: 61
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 62,
+            column: 8
+          },
+          end: {
+            line: 70,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 62,
+            column: 8
+          },
+          end: {
+            line: 70,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 62,
+            column: 8
+          },
+          end: {
+            line: 70,
+            column: 9
+          }
+        }],
+        line: 62
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 107,
+            column: 13
+          },
+          end: {
+            line: 107,
+            column: 79
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 107,
+            column: 35
+          },
+          end: {
+            line: 107,
+            column: 74
+          }
+        }, {
+          start: {
+            line: 107,
+            column: 77
+          },
+          end: {
+            line: 107,
+            column: 79
+          }
+        }],
+        line: 107
+      },
+      "4": {
+        loc: {
+          start: {
+            line: 117,
+            column: 8
+          },
+          end: {
+            line: 118,
+            column: 41
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 117,
+            column: 9
+          },
+          end: {
+            line: 117,
+            column: 44
+          }
+        }, {
+          start: {
+            line: 117,
+            column: 48
+          },
+          end: {
+            line: 117,
+            column: 57
+          }
+        }, {
+          start: {
+            line: 118,
+            column: 8
+          },
+          end: {
+            line: 118,
+            column: 41
+          }
+        }],
+        line: 117
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {},
+    b: {
+      "0": [0],
+      "1": [0, 0],
+      "2": [0, 0],
+      "3": [0, 0],
+      "4": [0, 0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// wtf -> import notification_item from "../notification_item/notification_item";
+var notification_item = (cov_41x25f4q9.s[0]++, __webpack_require__("fce9").default);
+var _default = {
+  methods: {
+    /**
+     *  Check behavior when scroll reach bottom
+     */
+    isNotificationItemScroller: function isNotificationItemScroller() {
+      // Pr
+      var notificationItemScrollableWrapper = (cov_41x25f4q9.s[1]++, this.$refs.notificationItemScrollableWrapper);
+      cov_41x25f4q9.s[2]++;
+      return (
+        /**
+         * Scroll touch bottom
+         * Don't know how this shit work but it was ameizing
+         */
+        notificationItemScrollableWrapper.scrollHeight - notificationItemScrollableWrapper.scrollTop === notificationItemScrollableWrapper.clientHeight
+      );
+    },
+
+    /**
+     * Emmit if next prop exist
+     * Manually test scroll behavior: No Unit Test idea yet ??
+     *
+     */
+    scroll: function scroll(e) {
+      var IisNotificationItemScroller = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : (cov_41x25f4q9.b[0][0]++, this.isNotificationItemScroller);
+      cov_41x25f4q9.s[3]++;
+
+      // Pass a function to mock that behavior
+      if (this.next) {
+        cov_41x25f4q9.b[1][0]++;
+        cov_41x25f4q9.s[4]++;
+
+        if (IisNotificationItemScroller()) {
+          cov_41x25f4q9.b[2][0]++;
+          cov_41x25f4q9.s[5]++;
+
+          /**
+           * Bubble to top componentn: notificatoin
+           *
+           * @event lazyLoad
+           * @type {string}
+           */
+          this.$emit("lazyLoad", this.next);
+        } else {
+          cov_41x25f4q9.b[2][1]++;
+        }
+      } else {
+        cov_41x25f4q9.b[1][1]++;
+      }
+    }
+  },
+  components: {
+    notification_item: notification_item
+  },
+  props: {
+    /**
+     * Link redirect when click "Xem tất cả"
+     */
+    href: {
+      type: String,
+      default: "#"
+    },
+
+    /**
+     * Pass array object results
+     * Return of API
+     */
+    notificationItems: {
+      type: Array
+    },
+
+    /**
+     * next exist then scroll will emmit scroll
+     * eventually scroll will be bubble to notification component
+     */
+    next: {
+      type: String
+    }
+  },
+  computed: {
+    notificationItemWrapperClass: function notificationItemWrapperClass() {
+      cov_41x25f4q9.s[6]++;
+      return this.isLazyLoadMode ? (cov_41x25f4q9.b[3][0]++, "notification-list__scrollable-wrapper") : (cov_41x25f4q9.b[3][1]++, "");
+    },
+    isLazyLoadMode: function isLazyLoadMode() {
+      cov_41x25f4q9.s[7]++;
+
+      /**
+       * Next some time can be null, 'empty string' but it return false to serve unit test assert purpose
+       * eg: false || null -> null -> expect(null).to.be.false will be failed
+       */
+      // === 5 and have next property -> doesn't lazy load yet
+      return (cov_41x25f4q9.b[4][0]++, this.notificationItems.length === 5) && (cov_41x25f4q9.b[4][1]++, this.next) || (cov_41x25f4q9.b[4][2]++, this.notificationItems.length > 5);
+    }
+  }
+};
+exports.default = _default;
 
 /***/ }),
 
@@ -14891,6 +19416,208 @@ if (!_vue2.default.prototype.$isServer) {
 }
 
 exports.default = PopupManager;
+
+/***/ }),
+
+/***/ "4b59":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_1jj3tkkc7y = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/mutations.js",
+      hash = "acf1cb713f10f8417f9d20d807e4df1eaec57f6f",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/mutations.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 6,
+          column: 35
+        },
+        end: {
+          line: 6,
+          column: 56
+        }
+      },
+      "1": {
+        start: {
+          line: 7,
+          column: 40
+        },
+        end: {
+          line: 7,
+          column: 66
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 44
+        },
+        end: {
+          line: 8,
+          column: 74
+        }
+      },
+      "3": {
+        start: {
+          line: 9,
+          column: 51
+        },
+        end: {
+          line: 9,
+          column: 88
+        }
+      },
+      "4": {
+        start: {
+          line: 14,
+          column: 25
+        },
+        end: {
+          line: 14,
+          column: 61
+        }
+      },
+      "5": {
+        start: {
+          line: 15,
+          column: 8
+        },
+        end: {
+          line: 15,
+          column: 64
+        }
+      },
+      "6": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 64
+        }
+      },
+      "7": {
+        start: {
+          line: 17,
+          column: 8
+        },
+        end: {
+          line: 17,
+          column: 64
+        }
+      },
+      "8": {
+        start: {
+          line: 18,
+          column: 8
+        },
+        end: {
+          line: 18,
+          column: 40
+        }
+      },
+      "9": {
+        start: {
+          line: 22,
+          column: 8
+        },
+        end: {
+          line: 22,
+          column: 53
+        }
+      },
+      "10": {
+        start: {
+          line: 25,
+          column: 8
+        },
+        end: {
+          line: 25,
+          column: 39
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.fetchDataCompanyPerformanceMutation = exports.fetchDataStrategyMapMutation = exports.fetchDataQuarterMutation = exports.initializeDataStore = void 0;
+
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("965f"));
+
+var _object = __webpack_require__("21ce");
+
+var _fetchDataQuarterMuta;
+
+/**
+ * Mutation là dạng string nên ta cần biến const để auto completet
+ */
+var initializeDataStore = (cov_1jj3tkkc7y.s[0]++, 'initializeDataStore');
+exports.initializeDataStore = initializeDataStore;
+var fetchDataQuarterMutation = (cov_1jj3tkkc7y.s[1]++, 'fetchDataQuarterMutation');
+exports.fetchDataQuarterMutation = fetchDataQuarterMutation;
+var fetchDataStrategyMapMutation = (cov_1jj3tkkc7y.s[2]++, 'fetchDataStrategyMapMutation');
+exports.fetchDataStrategyMapMutation = fetchDataStrategyMapMutation;
+var fetchDataCompanyPerformanceMutation = (cov_1jj3tkkc7y.s[3]++, 'fetchDataCompanyPerformanceMutation');
+exports.fetchDataCompanyPerformanceMutation = fetchDataCompanyPerformanceMutation;
+
+var _default = (_fetchDataQuarterMuta = {}, (0, _defineProperty2.default)(_fetchDataQuarterMuta, fetchDataQuarterMutation, function (state, quarterPeriod) {
+  var clonedData = (cov_1jj3tkkc7y.s[4]++, (0, _object.cloneObject)(quarterPeriod['fields']));
+  cov_1jj3tkkc7y.s[5]++;
+  clonedData.month_1_name = quarterPeriod['month_1_name'];
+  cov_1jj3tkkc7y.s[6]++;
+  clonedData.month_2_name = quarterPeriod['month_2_name'];
+  cov_1jj3tkkc7y.s[7]++;
+  clonedData.month_3_name = quarterPeriod['month_3_name'];
+  cov_1jj3tkkc7y.s[8]++;
+  state.quarterPeriod = clonedData;
+}), (0, _defineProperty2.default)(_fetchDataQuarterMuta, fetchDataCompanyPerformanceMutation, function (state, companyPerformance) {
+  cov_1jj3tkkc7y.s[9]++;
+  state.companyPerformance = companyPerformance;
+}), (0, _defineProperty2.default)(_fetchDataQuarterMuta, fetchDataStrategyMapMutation, function (state, strategyMap) {
+  cov_1jj3tkkc7y.s[10]++;
+  state.strategyMap = strategyMap;
+}), _fetchDataQuarterMuta);
+
+exports.default = _default;
 
 /***/ }),
 
@@ -17721,6 +22448,168 @@ exports.f = {}.propertyIsEnumerable;
 
 /***/ }),
 
+/***/ "52d9":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2hnswqzuyt = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/mutations.js",
+      hash = "7da8225c90924e879dfc5f3bfa6720bb02fea03c",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/mutations.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 4,
+          column: 42
+        },
+        end: {
+          line: 4,
+          column: 70
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 43
+        },
+        end: {
+          line: 5,
+          column: 72
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 43
+        },
+        end: {
+          line: 6,
+          column: 72
+        }
+      },
+      "3": {
+        start: {
+          line: 10,
+          column: 4
+        },
+        end: {
+          line: 10,
+          column: 49
+        }
+      },
+      "4": {
+        start: {
+          line: 14,
+          column: 4
+        },
+        end: {
+          line: 14,
+          column: 43
+        }
+      },
+      "5": {
+        start: {
+          line: 18,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 58
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 4
+        },
+        end: {
+          line: 19,
+          column: 72
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 4
+        },
+        end: {
+          line: 20,
+          column: 103
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.getLazyloadNotificationData = exports.clearUnreadNotificationList = exports.getInitialNotificationData = void 0;
+
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("965f"));
+
+var _getInitialNotificati;
+
+/**
+ * Mutation là dạng string nên ta cần biến const để auto completet
+ */
+var getInitialNotificationData = (cov_2hnswqzuyt.s[0]++, 'getInitialNotificationData');
+exports.getInitialNotificationData = getInitialNotificationData;
+var clearUnreadNotificationList = (cov_2hnswqzuyt.s[1]++, 'clearUnreadNotificationList');
+exports.clearUnreadNotificationList = clearUnreadNotificationList;
+var getLazyloadNotificationData = (cov_2hnswqzuyt.s[2]++, 'getLazyloadNotificationData');
+exports.getLazyloadNotificationData = getLazyloadNotificationData;
+
+var _default = (_getInitialNotificati = {}, (0, _defineProperty2.default)(_getInitialNotificati, getInitialNotificationData, function (state, notificationApiData) {
+  cov_2hnswqzuyt.s[3]++;
+  state.notificationData = notificationApiData;
+}), (0, _defineProperty2.default)(_getInitialNotificati, clearUnreadNotificationList, function (state) {
+  cov_2hnswqzuyt.s[4]++;
+  state.notificationData.unread_list = [];
+}), (0, _defineProperty2.default)(_getInitialNotificati, getLazyloadNotificationData, function (state, notificationApiData) {
+  cov_2hnswqzuyt.s[5]++;
+  state.notificationData.next = notificationApiData.next;
+  cov_2hnswqzuyt.s[6]++;
+  state.notificationData.unread_list = notificationApiData.unread_list;
+  cov_2hnswqzuyt.s[7]++;
+  state.notificationData.results = state.notificationData.results.concat(notificationApiData.results);
+}), _getInitialNotificati);
+
+exports.default = _default;
+
+/***/ }),
+
 /***/ "53e2":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18164,6 +23053,61 @@ module.exports = function (key) {
 
 /***/ }),
 
+/***/ "56d7":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_j1djl4034 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/main.js",
+      hash = "5ef77b7f5e1f17dd011dda5f2826f6e15a2295ad",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/main.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 11,
+          column: 10
+        },
+        end: {
+          line: 11,
+          column: 33
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+__webpack_require__("881a");
+
+__webpack_require__("8908");
+
+__webpack_require__("76ef");
+
+var a = (cov_j1djl4034.s[0]++, 'trigger test coverage');
+
+/***/ }),
+
 /***/ "584a":
 /***/ (function(module, exports) {
 
@@ -18470,6 +23414,17 @@ module.exports = function ( delay, noTrailing, callback, debounceMode ) {
 
 };
 
+
+/***/ }),
+
+/***/ "5b16":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_db387808_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("9f31");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_db387808_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_db387808_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_db387808_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -50791,6 +55746,70 @@ module.exports = function (exec, skipClosing) {
 
 /***/ }),
 
+/***/ "5cdc":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_1l72odrufk = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/index.js",
+      hash = "7f19b059871fc96725f34c08783b9e558ad6b1ec",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/index.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 15,
+          column: 10
+        },
+        end: {
+          line: 15,
+          column: 33
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+__webpack_require__("8598");
+
+__webpack_require__("df1c");
+
+__webpack_require__("0d2c");
+
+__webpack_require__("1361");
+
+__webpack_require__("753e");
+
+__webpack_require__("026b");
+
+/* helper should be imported at the bottom */
+
+/* just a line to trigger coverage this file */
+var a = (cov_1l72odrufk.s[0]++, 'trigger test coverage');
+
+/***/ }),
+
 /***/ "5dbc":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -50803,6 +55822,23 @@ module.exports = function (that, target, C) {
     setPrototypeOf(that, P);
   } return that;
 };
+
+
+/***/ }),
+
+/***/ "5e31":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=template&id=56093643&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-list"},[_c('div',{staticClass:"notification-list__header"},[_vm._v("\n    Thông báo\n  ")]),_c('div',{ref:"notificationItemScrollableWrapper",class:_vm.notificationItemWrapperClass,on:{"scroll":_vm.scroll}},_vm._l((_vm.notificationItems),function(notificationItem){return _c('notification_item',{key:notificationItem.id,staticClass:"notification-list__item",attrs:{"href":_vm.href,"notificationData":notificationItem}})})),_c('div',{staticClass:"notification-list__footer"},[_c('a',{staticClass:"notification-list__link",attrs:{"href":_vm.href}},[_vm._v("\n      Xem tất cả\n    ")])])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=template&id=56093643&scoped=true&
+/* concated harmony reexport render */__webpack_require__.d(__webpack_exports__, "a", function() { return render; });
+/* concated harmony reexport staticRenderFns */__webpack_require__.d(__webpack_exports__, "b", function() { return staticRenderFns; });
 
 
 /***/ }),
@@ -52125,6 +57161,18 @@ module.exports = function (key) {
 
 /***/ }),
 
+/***/ "62b9":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("00c1");
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "63b6":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -52320,6 +57368,23 @@ if (__webpack_require__("79e5")(function () { return $toString.call({ source: 'a
 
 /***/ }),
 
+/***/ "6b64":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=template&id=6f78eede&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification_bell"},[_c('button',{class:_vm.notificationBellButtonClass,on:{"click":_vm.notificationBellOnClick}},[(_vm.notificationCount>0)?_c('div',{staticClass:"notification_bell__number"},[_vm._v(_vm._s(_vm.formatNotificationCount))]):_vm._e(),_c('img',{staticClass:"notification_bell__icon",attrs:{"src":__webpack_require__("3220")}})])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=template&id=6f78eede&scoped=true&
+/* concated harmony reexport render */__webpack_require__.d(__webpack_exports__, "a", function() { return render; });
+/* concated harmony reexport staticRenderFns */__webpack_require__.d(__webpack_exports__, "b", function() { return staticRenderFns; });
+
+
+/***/ }),
+
 /***/ "6b7c":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -52367,6 +57432,23 @@ for (var i = 0; i < DOMIterables.length; i++) {
   Iterators[NAME] = Iterators.Array;
 }
 
+
+/***/ }),
+
+/***/ "6d7b":
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayWithoutHoles = __webpack_require__("75c1");
+
+var iterableToArray = __webpack_require__("914c");
+
+var nonIterableSpread = __webpack_require__("bdad");
+
+function _toConsumableArray(arr) {
+  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();
+}
+
+module.exports = _toConsumableArray;
 
 /***/ }),
 
@@ -53592,14 +58674,316 @@ module.exports = !$assign || __webpack_require__("79e5")(function () {
 
 /***/ }),
 
-/***/ "73d0":
+/***/ "7511":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_443c50fc_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8904");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_443c50fc_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_443c50fc_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_style_index_0_id_443c50fc_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _performance_table_vue_vue_type_template_id_05cf0880_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("3a32");
+/* harmony import */ var _performance_table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("f9eb");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _performance_table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _performance_table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _performance_table_vue_vue_type_style_index_0_id_05cf0880_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("ccee");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("2877");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(
+  _performance_table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _performance_table_vue_vue_type_template_id_05cf0880_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* render */ "a"],
+  _performance_table_vue_vue_type_template_id_05cf0880_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* staticRenderFns */ "b"],
+  false,
+  null,
+  "05cf0880",
+  null
+  
+)
+
+component.options.__file = "performance_table.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "753e":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_gt32hor72 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vue_filter.js",
+      hash = "473809fafe2c373e039344f3871c889253607983",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vue_filter.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 9,
+          column: 2
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 2
+        },
+        end: {
+          line: 8,
+          column: 52
+        }
+      },
+      "2": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 16,
+          column: 3
+        }
+      },
+      "3": {
+        start: {
+          line: 14,
+          column: 4
+        },
+        end: {
+          line: 14,
+          column: 89
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 5,
+            column: 29
+          },
+          end: {
+            line: 5,
+            column: 30
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 38
+          },
+          end: {
+            line: 9,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 11,
+            column: 27
+          },
+          end: {
+            line: 11,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 11,
+            column: 34
+          },
+          end: {
+            line: 16,
+            column: 1
+          }
+        },
+        line: 11
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 6,
+            column: 9
+          },
+          end: {
+            line: 8,
+            column: 52
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 7,
+            column: 6
+          },
+          end: {
+            line: 7,
+            column: 8
+          }
+        }, {
+          start: {
+            line: 8,
+            column: 6
+          },
+          end: {
+            line: 8,
+            column: 52
+          }
+        }],
+        line: 6
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 14,
+            column: 11
+          },
+          end: {
+            line: 14,
+            column: 88
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 14,
+            column: 39
+          },
+          end: {
+            line: 14,
+            column: 80
+          }
+        }, {
+          start: {
+            line: 14,
+            column: 84
+          },
+          end: {
+            line: 14,
+            column: 88
+          }
+        }],
+        line: 14
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 14,
+            column: 39
+          },
+          end: {
+            line: 14,
+            column: 80
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 14,
+            column: 51
+          },
+          end: {
+            line: 14,
+            column: 55
+          }
+        }, {
+          start: {
+            line: 14,
+            column: 59
+          },
+          end: {
+            line: 14,
+            column: 79
+          }
+        }],
+        line: 14
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+__webpack_require__("6b54");
+
+var _vue = _interopRequireDefault(__webpack_require__("8bbf"));
+
+var _datetime_format = __webpack_require__("7a2a");
+
+cov_gt32hor72.s[0]++;
+
+_vue.default.filter('dateTimeFormat', function (value) {
+  cov_gt32hor72.f[0]++;
+  cov_gt32hor72.s[1]++;
+  return !value ? (cov_gt32hor72.b[0][0]++, '') : (cov_gt32hor72.b[0][1]++, (0, _datetime_format.formatDateToString)(new Date(value.toString())));
+});
+
+cov_gt32hor72.s[2]++;
+
+_vue.default.filter('scoreDisplay', function (val) {
+  cov_gt32hor72.f[1]++;
+  cov_gt32hor72.s[3]++;
+  // model -> view
+  // formats the value when updating the input element.
+  return typeof val === 'number' ? (cov_gt32hor72.b[1][0]++, val === 0 ? (cov_gt32hor72.b[2][0]++, "0%") : (cov_gt32hor72.b[2][1]++, val.toFixed(2) + "%")) : (cov_gt32hor72.b[1][1]++, "0%");
+});
+
+/***/ }),
+
+/***/ "75c1":
+/***/ (function(module, exports) {
+
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
+      arr2[i] = arr[i];
+    }
+
+    return arr2;
+  }
+}
+
+module.exports = _arrayWithoutHoles;
 
 /***/ }),
 
@@ -53608,6 +58992,179 @@ module.exports = !$assign || __webpack_require__("79e5")(function () {
 
 __webpack_require__("6718")('observable');
 
+
+/***/ }),
+
+/***/ "76ef":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_1f6fetho4j = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/devtool/index.js",
+      hash = "4f82b2ceeebb4888282b137292be33684340d9ef",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/devtool/index.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 4,
+          column: 12
+        },
+        end: {
+          line: 4,
+          column: 41
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 13,
+          column: 1
+        }
+      },
+      "2": {
+        start: {
+          line: 11,
+          column: 2
+        },
+        end: {
+          line: 11,
+          column: 29
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 2
+        },
+        end: {
+          line: 12,
+          column: 60
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 4,
+            column: 12
+          },
+          end: {
+            line: 4,
+            column: 41
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 4,
+            column: 12
+          },
+          end: {
+            line: 4,
+            column: 32
+          }
+        }, {
+          start: {
+            line: 4,
+            column: 36
+          },
+          end: {
+            line: 4,
+            column: 41
+          }
+        }],
+        line: 4
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 6,
+            column: 0
+          },
+          end: {
+            line: 13,
+            column: 1
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 6,
+            column: 0
+          },
+          end: {
+            line: 13,
+            column: 1
+          }
+        }, {
+          start: {
+            line: 6,
+            column: 0
+          },
+          end: {
+            line: 13,
+            column: 1
+          }
+        }],
+        line: 6
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {},
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+var _vue = _interopRequireDefault(__webpack_require__("8bbf"));
+
+/* just a line to trigger coverage this file */
+var env = (cov_1f6fetho4j.s[0]++, (cov_1f6fetho4j.b[0][0]++, "production") || (cov_1f6fetho4j.b[0][1]++, 'dev'));
+cov_1f6fetho4j.s[1]++;
+
+if (env === 'dev') {
+  cov_1f6fetho4j.b[1][0]++;
+  cov_1f6fetho4j.s[2]++;
+
+  /**
+   * Vue dev tool
+   * Debug Vue.js component
+   */
+  _vue.default.config.devtools = true;
+  cov_1f6fetho4j.s[3]++;
+  window.__VUE_DEVTOOLS_GLOBAL_HOOK__.Vue = app.constructor;
+} else {
+  cov_1f6fetho4j.b[1][1]++;
+}
 
 /***/ }),
 
@@ -53621,6 +59178,65 @@ var global = module.exports = typeof window != 'undefined' && window.Math == Mat
   : Function('return this')();
 if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 
+
+/***/ }),
+
+/***/ "77c4":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2lvqiyzr4v = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/config.js",
+      hash = "4ddf26e4215cea9db82301905a25910c56962b0f",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/config.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 15
+        },
+        end: {
+          line: 3,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _module = (cov_2lvqiyzr4v.s[0]++, {
+  path: "/api/quarter/"
+});
+
+var _default = _module;
+exports.default = _default;
 
 /***/ }),
 
@@ -53670,6 +59286,720 @@ module.exports = function (exec) {
   }
 };
 
+
+/***/ }),
+
+/***/ "7a2a":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_ne2qhngij = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/datetime_format.js",
+      hash = "b17a290a2b32573e87a347b69ec3e80acd521ea4",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/datetime_format.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 2
+        },
+        end: {
+          line: 2,
+          column: 170
+        }
+      },
+      "1": {
+        start: {
+          line: 2,
+          column: 55
+        },
+        end: {
+          line: 2,
+          column: 170
+        }
+      },
+      "2": {
+        start: {
+          line: 3,
+          column: 2
+        },
+        end: {
+          line: 3,
+          column: 11
+        }
+      },
+      "3": {
+        start: {
+          line: 7,
+          column: 4
+        },
+        end: {
+          line: 7,
+          column: 57
+        }
+      },
+      "4": {
+        start: {
+          line: 11,
+          column: 13
+        },
+        end: {
+          line: 11,
+          column: 62
+        }
+      },
+      "5": {
+        start: {
+          line: 13,
+          column: 13
+        },
+        end: {
+          line: 13,
+          column: 76
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 15
+        },
+        end: {
+          line: 15,
+          column: 33
+        }
+      },
+      "7": {
+        start: {
+          line: 18,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 40
+        }
+      },
+      "8": {
+        start: {
+          line: 22,
+          column: 13
+        },
+        end: {
+          line: 22,
+          column: 28
+        }
+      },
+      "9": {
+        start: {
+          line: 24,
+          column: 13
+        },
+        end: {
+          line: 24,
+          column: 76
+        }
+      },
+      "10": {
+        start: {
+          line: 26,
+          column: 12
+        },
+        end: {
+          line: 26,
+          column: 75
+        }
+      },
+      "11": {
+        start: {
+          line: 28,
+          column: 4
+        },
+        end: {
+          line: 28,
+          column: 38
+        }
+      },
+      "12": {
+        start: {
+          line: 34,
+          column: 13
+        },
+        end: {
+          line: 34,
+          column: 62
+        }
+      },
+      "13": {
+        start: {
+          line: 36,
+          column: 13
+        },
+        end: {
+          line: 36,
+          column: 76
+        }
+      },
+      "14": {
+        start: {
+          line: 38,
+          column: 15
+        },
+        end: {
+          line: 38,
+          column: 33
+        }
+      },
+      "15": {
+        start: {
+          line: 41,
+          column: 4
+        },
+        end: {
+          line: 41,
+          column: 40
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "toLocaleDateStringNumeric",
+        decl: {
+          start: {
+            line: 1,
+            column: 9
+          },
+          end: {
+            line: 1,
+            column: 34
+          }
+        },
+        loc: {
+          start: {
+            line: 1,
+            column: 63
+          },
+          end: {
+            line: 4,
+            column: 1
+          }
+        },
+        line: 1
+      },
+      "1": {
+        name: "extractFileName",
+        decl: {
+          start: {
+            line: 6,
+            column: 9
+          },
+          end: {
+            line: 6,
+            column: 24
+          }
+        },
+        loc: {
+          start: {
+            line: 6,
+            column: 34
+          },
+          end: {
+            line: 8,
+            column: 1
+          }
+        },
+        line: 6
+      },
+      "2": {
+        name: "formatDateToString",
+        decl: {
+          start: {
+            line: 9,
+            column: 9
+          },
+          end: {
+            line: 9,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 9,
+            column: 33
+          },
+          end: {
+            line: 19,
+            column: 1
+          }
+        },
+        line: 9
+      },
+      "3": {
+        name: "formatDateToTimeString",
+        decl: {
+          start: {
+            line: 20,
+            column: 9
+          },
+          end: {
+            line: 20,
+            column: 31
+          }
+        },
+        loc: {
+          start: {
+            line: 20,
+            column: 37
+          },
+          end: {
+            line: 29,
+            column: 1
+          }
+        },
+        line: 20
+      },
+      "4": {
+        name: "getDateStandard",
+        decl: {
+          start: {
+            line: 31,
+            column: 9
+          },
+          end: {
+            line: 31,
+            column: 24
+          }
+        },
+        loc: {
+          start: {
+            line: 31,
+            column: 30
+          },
+          end: {
+            line: 42,
+            column: 1
+          }
+        },
+        line: 31
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 1,
+            column: 46
+          },
+          end: {
+            line: 1,
+            column: 62
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 1,
+            column: 55
+          },
+          end: {
+            line: 1,
+            column: 62
+          }
+        }],
+        line: 1
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 2,
+            column: 2
+          },
+          end: {
+            line: 2,
+            column: 170
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 2,
+            column: 2
+          },
+          end: {
+            line: 2,
+            column: 170
+          }
+        }, {
+          start: {
+            line: 2,
+            column: 2
+          },
+          end: {
+            line: 2,
+            column: 170
+          }
+        }],
+        line: 2
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 2,
+            column: 6
+          },
+          end: {
+            line: 2,
+            column: 53
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 2,
+            column: 6
+          },
+          end: {
+            line: 2,
+            column: 25
+          }
+        }, {
+          start: {
+            line: 2,
+            column: 29
+          },
+          end: {
+            line: 2,
+            column: 53
+          }
+        }],
+        line: 2
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 11,
+            column: 14
+          },
+          end: {
+            line: 11,
+            column: 44
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 11,
+            column: 36
+          },
+          end: {
+            line: 11,
+            column: 39
+          }
+        }, {
+          start: {
+            line: 11,
+            column: 42
+          },
+          end: {
+            line: 11,
+            column: 44
+          }
+        }],
+        line: 11
+      },
+      "4": {
+        loc: {
+          start: {
+            line: 13,
+            column: 14
+          },
+          end: {
+            line: 13,
+            column: 51
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 13,
+            column: 43
+          },
+          end: {
+            line: 13,
+            column: 46
+          }
+        }, {
+          start: {
+            line: 13,
+            column: 49
+          },
+          end: {
+            line: 13,
+            column: 51
+          }
+        }],
+        line: 13
+      },
+      "5": {
+        loc: {
+          start: {
+            line: 24,
+            column: 14
+          },
+          end: {
+            line: 24,
+            column: 53
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 24,
+            column: 45
+          },
+          end: {
+            line: 24,
+            column: 48
+          }
+        }, {
+          start: {
+            line: 24,
+            column: 51
+          },
+          end: {
+            line: 24,
+            column: 53
+          }
+        }],
+        line: 24
+      },
+      "6": {
+        loc: {
+          start: {
+            line: 26,
+            column: 13
+          },
+          end: {
+            line: 26,
+            column: 52
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 26,
+            column: 44
+          },
+          end: {
+            line: 26,
+            column: 47
+          }
+        }, {
+          start: {
+            line: 26,
+            column: 50
+          },
+          end: {
+            line: 26,
+            column: 52
+          }
+        }],
+        line: 26
+      },
+      "7": {
+        loc: {
+          start: {
+            line: 34,
+            column: 14
+          },
+          end: {
+            line: 34,
+            column: 44
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 34,
+            column: 36
+          },
+          end: {
+            line: 34,
+            column: 39
+          }
+        }, {
+          start: {
+            line: 34,
+            column: 42
+          },
+          end: {
+            line: 34,
+            column: 44
+          }
+        }],
+        line: 34
+      },
+      "8": {
+        loc: {
+          start: {
+            line: 36,
+            column: 14
+          },
+          end: {
+            line: 36,
+            column: 51
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 36,
+            column: 43
+          },
+          end: {
+            line: 36,
+            column: 46
+          }
+        }, {
+          start: {
+            line: 36,
+            column: 49
+          },
+          end: {
+            line: 36,
+            column: 51
+          }
+        }],
+        line: 36
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0],
+      "1": [0, 0],
+      "2": [0, 0],
+      "3": [0, 0],
+      "4": [0, 0],
+      "5": [0, 0],
+      "6": [0, 0],
+      "7": [0, 0],
+      "8": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.toLocaleDateStringNumeric = toLocaleDateStringNumeric;
+exports.extractFileName = extractFileName;
+exports.getDateStandard = getDateStandard;
+exports.formatDateToTimeString = formatDateToTimeString;
+exports.formatDateToString = formatDateToString;
+
+function toLocaleDateStringNumeric(datestring) {
+  var timezone = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : (cov_ne2qhngij.b[0][0]++, "en-US");
+  cov_ne2qhngij.f[0]++;
+  cov_ne2qhngij.s[0]++;
+
+  if ((cov_ne2qhngij.b[2][0]++, datestring !== null) && (cov_ne2qhngij.b[2][1]++, datestring !== undefined)) {
+    cov_ne2qhngij.b[1][0]++;
+    cov_ne2qhngij.s[1]++;
+    return new Date(datestring).toLocaleDateString(timezone, {
+      year: 'numeric',
+      month: 'numeric',
+      day: 'numeric'
+    });
+  } else {
+    cov_ne2qhngij.b[1][1]++;
+  }
+
+  cov_ne2qhngij.s[2]++;
+  return "";
+}
+
+function extractFileName(fileURL) {
+  cov_ne2qhngij.f[1]++;
+  cov_ne2qhngij.s[3]++;
+  return fileURL.substring(fileURL.lastIndexOf('/') + 1);
+}
+
+function formatDateToString(date) {
+  cov_ne2qhngij.f[2]++;
+  // 01, 02, 03, ... 29, 30, 31
+  var dd = (cov_ne2qhngij.s[4]++, (date.getDate() < 10 ? (cov_ne2qhngij.b[3][0]++, '0') : (cov_ne2qhngij.b[3][1]++, '')) + date.getDate()); // 01, 02, 03, ... 10, 11, 12
+
+  var MM = (cov_ne2qhngij.s[5]++, (date.getMonth() + 1 < 10 ? (cov_ne2qhngij.b[4][0]++, '0') : (cov_ne2qhngij.b[4][1]++, '')) + (date.getMonth() + 1)); // 1970, 1971, ... 2015, 2016, ...
+
+  var yyyy = (cov_ne2qhngij.s[6]++, date.getFullYear()); // create the format you want
+
+  cov_ne2qhngij.s[7]++;
+  return dd + "/" + MM + "/" + yyyy;
+}
+
+function formatDateToTimeString(date) {
+  cov_ne2qhngij.f[3]++;
+  // 01, 02, 03, ... 29, 30, 31
+  var hh = (cov_ne2qhngij.s[8]++, date.getHours()); // 01, 02, 03, ... 10, 11, 12
+
+  var mm = (cov_ne2qhngij.s[9]++, (date.getMinutes() + 1 < 10 ? (cov_ne2qhngij.b[5][0]++, '0') : (cov_ne2qhngij.b[5][1]++, '')) + date.getMinutes()); // 1970, 1971, ... 2015, 2016, ...
+
+  var ss = (cov_ne2qhngij.s[10]++, (date.getSeconds() + 1 < 10 ? (cov_ne2qhngij.b[6][0]++, '0') : (cov_ne2qhngij.b[6][1]++, '')) + date.getSeconds()); // create the format you want
+
+  cov_ne2qhngij.s[11]++;
+  return hh + ":" + mm + ":" + ss;
+}
+
+function getDateStandard(date) {
+  cov_ne2qhngij.f[4]++;
+  // 01, 02, 03, ... 29, 30, 31 aaaa
+  // Hello
+  var dd = (cov_ne2qhngij.s[12]++, (date.getDate() < 10 ? (cov_ne2qhngij.b[7][0]++, '0') : (cov_ne2qhngij.b[7][1]++, '')) + date.getDate()); // 01, 02, 03, ... 10, 11, 12completed_date
+
+  var MM = (cov_ne2qhngij.s[13]++, (date.getMonth() + 1 < 10 ? (cov_ne2qhngij.b[8][0]++, '0') : (cov_ne2qhngij.b[8][1]++, '')) + (date.getMonth() + 1)); // 1970, 1971, ... 2015, 2016, ...
+
+  var yyyy = (cov_ne2qhngij.s[14]++, date.getFullYear()); // create the format you want
+
+  cov_ne2qhngij.s[15]++;
+  return yyyy + "-" + MM + "-" + dd;
+}
 
 /***/ }),
 
@@ -53762,6 +60092,757 @@ function isEventSupported(eventNameSuffix, capture) {
 
 module.exports = isEventSupported;
 
+
+/***/ }),
+
+/***/ "7cc4":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_10lfxb8rro = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/actions.js",
+      hash = "e0b03c2189aa5cc2d1b73e5226251da9e6607914",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/actions.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 10,
+          column: 35
+        },
+        end: {
+          line: 10,
+          column: 56
+        }
+      },
+      "1": {
+        start: {
+          line: 11,
+          column: 32
+        },
+        end: {
+          line: 11,
+          column: 50
+        }
+      },
+      "2": {
+        start: {
+          line: 12,
+          column: 43
+        },
+        end: {
+          line: 12,
+          column: 72
+        }
+      },
+      "3": {
+        start: {
+          line: 13,
+          column: 33
+        },
+        end: {
+          line: 13,
+          column: 52
+        }
+      },
+      "4": {
+        start: {
+          line: 14,
+          column: 32
+        },
+        end: {
+          line: 14,
+          column: 50
+        }
+      },
+      "5": {
+        start: {
+          line: 18,
+          column: 8
+        },
+        end: {
+          line: 18,
+          column: 56
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 8
+        },
+        end: {
+          line: 19,
+          column: 67
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 8
+        },
+        end: {
+          line: 20,
+          column: 56
+        }
+      },
+      "8": {
+        start: {
+          line: 23,
+          column: 8
+        },
+        end: {
+          line: 42,
+          column: 9
+        }
+      },
+      "9": {
+        start: {
+          line: 25,
+          column: 12
+        },
+        end: {
+          line: 33,
+          column: 14
+        }
+      },
+      "10": {
+        start: {
+          line: 28,
+          column: 16
+        },
+        end: {
+          line: 28,
+          column: 47
+        }
+      },
+      "11": {
+        start: {
+          line: 30,
+          column: 16
+        },
+        end: {
+          line: 30,
+          column: 59
+        }
+      },
+      "12": {
+        start: {
+          line: 32,
+          column: 16
+        },
+        end: {
+          line: 32,
+          column: 27
+        }
+      },
+      "13": {
+        start: {
+          line: 37,
+          column: 12
+        },
+        end: {
+          line: 41,
+          column: 14
+        }
+      },
+      "14": {
+        start: {
+          line: 38,
+          column: 16
+        },
+        end: {
+          line: 38,
+          column: 59
+        }
+      },
+      "15": {
+        start: {
+          line: 40,
+          column: 16
+        },
+        end: {
+          line: 40,
+          column: 25
+        }
+      },
+      "16": {
+        start: {
+          line: 46,
+          column: 8
+        },
+        end: {
+          line: 50,
+          column: 10
+        }
+      },
+      "17": {
+        start: {
+          line: 47,
+          column: 12
+        },
+        end: {
+          line: 47,
+          column: 66
+        }
+      },
+      "18": {
+        start: {
+          line: 49,
+          column: 12
+        },
+        end: {
+          line: 49,
+          column: 28
+        }
+      },
+      "19": {
+        start: {
+          line: 53,
+          column: 8
+        },
+        end: {
+          line: 57,
+          column: 10
+        }
+      },
+      "20": {
+        start: {
+          line: 54,
+          column: 12
+        },
+        end: {
+          line: 54,
+          column: 59
+        }
+      },
+      "21": {
+        start: {
+          line: 56,
+          column: 12
+        },
+        end: {
+          line: 56,
+          column: 28
+        }
+      },
+      "22": {
+        start: {
+          line: 61,
+          column: 18
+        },
+        end: {
+          line: 61,
+          column: 46
+        }
+      },
+      "23": {
+        start: {
+          line: 62,
+          column: 8
+        },
+        end: {
+          line: 62,
+          column: 49
+        }
+      },
+      "24": {
+        start: {
+          line: 64,
+          column: 8
+        },
+        end: {
+          line: 68,
+          column: 10
+        }
+      },
+      "25": {
+        start: {
+          line: 65,
+          column: 12
+        },
+        end: {
+          line: 65,
+          column: 67
+        }
+      },
+      "26": {
+        start: {
+          line: 67,
+          column: 12
+        },
+        end: {
+          line: 67,
+          column: 28
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 25,
+            column: 72
+          },
+          end: {
+            line: 25,
+            column: 73
+          }
+        },
+        loc: {
+          start: {
+            line: 25,
+            column: 82
+          },
+          end: {
+            line: 31,
+            column: 13
+          }
+        },
+        line: 25
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 31,
+            column: 21
+          },
+          end: {
+            line: 31,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 31,
+            column: 28
+          },
+          end: {
+            line: 33,
+            column: 13
+          }
+        },
+        line: 31
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 37,
+            column: 60
+          },
+          end: {
+            line: 37,
+            column: 61
+          }
+        },
+        loc: {
+          start: {
+            line: 37,
+            column: 70
+          },
+          end: {
+            line: 39,
+            column: 13
+          }
+        },
+        line: 37
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 39,
+            column: 21
+          },
+          end: {
+            line: 39,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 39,
+            column: 28
+          },
+          end: {
+            line: 41,
+            column: 13
+          }
+        },
+        line: 39
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 46,
+            column: 119
+          },
+          end: {
+            line: 46,
+            column: 120
+          }
+        },
+        loc: {
+          start: {
+            line: 46,
+            column: 127
+          },
+          end: {
+            line: 48,
+            column: 9
+          }
+        },
+        line: 46
+      },
+      "5": {
+        name: "(anonymous_5)",
+        decl: {
+          start: {
+            line: 48,
+            column: 17
+          },
+          end: {
+            line: 48,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 48,
+            column: 24
+          },
+          end: {
+            line: 50,
+            column: 9
+          }
+        },
+        line: 48
+      },
+      "6": {
+        name: "(anonymous_6)",
+        decl: {
+          start: {
+            line: 53,
+            column: 112
+          },
+          end: {
+            line: 53,
+            column: 113
+          }
+        },
+        loc: {
+          start: {
+            line: 53,
+            column: 120
+          },
+          end: {
+            line: 55,
+            column: 9
+          }
+        },
+        line: 53
+      },
+      "7": {
+        name: "(anonymous_7)",
+        decl: {
+          start: {
+            line: 55,
+            column: 17
+          },
+          end: {
+            line: 55,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 55,
+            column: 24
+          },
+          end: {
+            line: 57,
+            column: 9
+          }
+        },
+        line: 55
+      },
+      "8": {
+        name: "(anonymous_8)",
+        decl: {
+          start: {
+            line: 64,
+            column: 59
+          },
+          end: {
+            line: 64,
+            column: 60
+          }
+        },
+        loc: {
+          start: {
+            line: 64,
+            column: 67
+          },
+          end: {
+            line: 66,
+            column: 9
+          }
+        },
+        line: 64
+      },
+      "9": {
+        name: "(anonymous_9)",
+        decl: {
+          start: {
+            line: 66,
+            column: 17
+          },
+          end: {
+            line: 66,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 66,
+            column: 24
+          },
+          end: {
+            line: 68,
+            column: 9
+          }
+        },
+        line: 66
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 23,
+            column: 8
+          },
+          end: {
+            line: 42,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 23,
+            column: 8
+          },
+          end: {
+            line: 42,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 23,
+            column: 8
+          },
+          end: {
+            line: 42,
+            column: 9
+          }
+        }],
+        line: 23
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.fetchStrategyMap = exports.updateMonthlyLock = exports.fetchDataCompanyPerformance = exports.fetchDataQuarter = exports.initializeDataStore = void 0;
+
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("965f"));
+
+var _quarter_period = _interopRequireDefault(__webpack_require__("e8df"));
+
+var _user_kpi = _interopRequireDefault(__webpack_require__("4907"));
+
+var _organization = _interopRequireDefault(__webpack_require__("b41d"));
+
+var _strategy_map = _interopRequireDefault(__webpack_require__("8fd3"));
+
+var _mutations = __webpack_require__("4b59");
+
+var _object = __webpack_require__("21ce");
+
+var _initializeDataStore$;
+
+/* export block */
+var initializeDataStore = (cov_10lfxb8rro.s[0]++, 'initializeDataStore');
+exports.initializeDataStore = initializeDataStore;
+var fetchDataQuarter = (cov_10lfxb8rro.s[1]++, 'fetchDataQuarter');
+exports.fetchDataQuarter = fetchDataQuarter;
+var fetchDataCompanyPerformance = (cov_10lfxb8rro.s[2]++, 'fetchDataCompanyPerformance');
+exports.fetchDataCompanyPerformance = fetchDataCompanyPerformance;
+var updateMonthlyLock = (cov_10lfxb8rro.s[3]++, 'updateMonthlyLock');
+exports.updateMonthlyLock = updateMonthlyLock;
+var fetchStrategyMap = (cov_10lfxb8rro.s[4]++, 'fetchStrategyMap');
+exports.fetchStrategyMap = fetchStrategyMap;
+
+var _default = (_initializeDataStore$ = {}, (0, _defineProperty2.default)(_initializeDataStore$, initializeDataStore, function (store, quarterPeriodID) {
+  cov_10lfxb8rro.s[5]++;
+  store.dispatch(fetchDataQuarter, quarterPeriodID);
+  cov_10lfxb8rro.s[6]++;
+  store.dispatch(fetchDataCompanyPerformance, quarterPeriodID);
+  cov_10lfxb8rro.s[7]++;
+  store.dispatch(fetchStrategyMap, quarterPeriodID);
+}), (0, _defineProperty2.default)(_initializeDataStore$, fetchDataQuarter, function (store, quarterPeriodID) {
+  cov_10lfxb8rro.s[8]++;
+
+  if (quarterPeriodID) {
+    cov_10lfxb8rro.b[0][0]++;
+    cov_10lfxb8rro.s[9]++;
+
+    /* if quarterPeriodID provided, get quarter by id */
+    (0, _quarter_period.default)().getQuarterByID(quarterPeriodID).then(function (data) {
+      cov_10lfxb8rro.f[0]++;
+      cov_10lfxb8rro.s[10]++;
+      // Fuck ===> Backend return shit response
+      // Hot fix
+      data.fields = (0, _object.cloneObject)(data); // End hotfix
+
+      cov_10lfxb8rro.s[11]++;
+      store.commit(_mutations.fetchDataQuarterMutation, data);
+    }).catch(function (err) {
+      cov_10lfxb8rro.f[1]++;
+      cov_10lfxb8rro.s[12]++;
+      throw err;
+    });
+  } else {
+    cov_10lfxb8rro.b[0][1]++;
+    cov_10lfxb8rro.s[13]++;
+
+    /* if quarter period id not provided, get current quarter */
+    (0, _quarter_period.default)().getCurrentQuarter().then(function (data) {
+      cov_10lfxb8rro.f[2]++;
+      cov_10lfxb8rro.s[14]++;
+      store.commit(_mutations.fetchDataQuarterMutation, data);
+    }).catch(function (err) {
+      cov_10lfxb8rro.f[3]++;
+      cov_10lfxb8rro.s[15]++;
+      throw err;
+    });
+  }
+}), (0, _defineProperty2.default)(_initializeDataStore$, fetchDataCompanyPerformance, function (store, quarterPeriodID) {
+  cov_10lfxb8rro.s[16]++;
+  (0, _user_kpi.default)().getPerformanceByQuarterID({
+    quarterPeriodID: quarterPeriodID,
+    userID: store.rootState.organization.ceo
+  }).then(function (data) {
+    cov_10lfxb8rro.f[4]++;
+    cov_10lfxb8rro.s[17]++;
+    store.commit(_mutations.fetchDataCompanyPerformanceMutation, data);
+  }).catch(function (err) {
+    cov_10lfxb8rro.f[5]++;
+    cov_10lfxb8rro.s[18]++;
+    console.log(err);
+  });
+}), (0, _defineProperty2.default)(_initializeDataStore$, fetchStrategyMap, function (store, quarterPeriodID) {
+  cov_10lfxb8rro.s[19]++;
+  (0, _strategy_map.default)().getMapByUserID({
+    quarterPeriodID: quarterPeriodID,
+    userID: store.rootState.organization.ceo
+  }).then(function (data) {
+    cov_10lfxb8rro.f[6]++;
+    cov_10lfxb8rro.s[20]++;
+    store.commit(_mutations.fetchDataStrategyMapMutation, data);
+  }).catch(function (err) {
+    cov_10lfxb8rro.f[7]++;
+    cov_10lfxb8rro.s[21]++;
+    console.log(err);
+  });
+}), (0, _defineProperty2.default)(_initializeDataStore$, updateMonthlyLock, function (store, monthLockReview) {
+  /* update attribute */
+  var org = (cov_10lfxb8rro.s[22]++, store.rootState.organization);
+  cov_10lfxb8rro.s[23]++;
+  org.monthly_review_lock = monthLockReview;
+  /* trigger network service and update org in root store*/
+
+  cov_10lfxb8rro.s[24]++;
+  (0, _organization.default)().updateOrganization(org).then(function (data) {
+    cov_10lfxb8rro.f[8]++;
+    cov_10lfxb8rro.s[25]++;
+    store.commit("organizationMutation", data, {
+      root: true
+    });
+  }).catch(function (err) {
+    cov_10lfxb8rro.f[9]++;
+    cov_10lfxb8rro.s[26]++;
+    console.log(err);
+  });
+}), _initializeDataStore$);
+
+exports.default = _default;
 
 /***/ }),
 
@@ -54345,10 +61426,49 @@ var escapeRegexpString = exports.escapeRegexpString = function escapeRegexpStrin
 
 /***/ }),
 
-/***/ "834e":
+/***/ "8222":
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
+"use strict";
+
+
+var cov_1g3szbhn8d = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/profile/index.js",
+      hash = "29967cc22f229aa15a83a332756158c7d57a7226",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/profile/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _factory = _interopRequireDefault(__webpack_require__("2460"));
+
+var _default = _factory.default;
+exports.default = _default;
 
 /***/ }),
 
@@ -54642,11 +61762,160 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
+/***/ "84cf":
+/***/ (function(module, exports, __webpack_require__) {
+
+var defineProperty = __webpack_require__("965f");
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+    var ownKeys = Object.keys(source);
+
+    if (typeof Object.getOwnPropertySymbols === 'function') {
+      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
+        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
+      }));
+    }
+
+    ownKeys.forEach(function (key) {
+      defineProperty(target, key, source[key]);
+    });
+  }
+
+  return target;
+}
+
+module.exports = _objectSpread;
+
+/***/ }),
+
 /***/ "84f2":
 /***/ (function(module, exports) {
 
 module.exports = {};
 
+
+/***/ }),
+
+/***/ "8598":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2j2d556a1j = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_external_lib.js",
+      hash = "96b87e8ef6b04967ba873040ba7478677c9f38ff",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_external_lib.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 10,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 28
+        }
+      },
+      "1": {
+        start: {
+          line: 14,
+          column: 0
+        },
+        end: {
+          line: 14,
+          column: 18
+        }
+      },
+      "2": {
+        start: {
+          line: 15,
+          column: 0
+        },
+        end: {
+          line: 15,
+          column: 13
+        }
+      },
+      "3": {
+        start: {
+          line: 19,
+          column: 0
+        },
+        end: {
+          line: 19,
+          column: 61
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+var _vue = _interopRequireDefault(__webpack_require__("8bbf"));
+
+var _vueJsModal = _interopRequireDefault(__webpack_require__("1881"));
+
+var _elementUi = _interopRequireDefault(__webpack_require__("5c96"));
+
+__webpack_require__("0fae");
+
+var _en = _interopRequireDefault(__webpack_require__("b2d6"));
+
+var _jquery = _interopRequireDefault(__webpack_require__("1157"));
+
+cov_2j2d556a1j.s[0]++;
+
+_vue.default.use(_elementUi.default, {
+  locale: _en.default
+});
+/* import jquery */
+
+
+cov_2j2d556a1j.s[1]++;
+window._jQuery = _jquery.default;
+cov_2j2d556a1j.s[2]++;
+window._$ = _jquery.default;
+/* using Vuejs Modal */
+
+cov_2j2d556a1j.s[3]++;
+
+_vue.default.use(_vueJsModal.default, {
+  dynamic: true,
+  injectModalsContainer: true
+});
+/* import bootstrap */
+// require('bootstrap')
+// require('bootstrap/dist/css/bootstrap-theme.min.css')
+// require('bootstrap/dist/css/bootstrap.min.css')
+
+/* bootstrap will be used global first */
 
 /***/ }),
 
@@ -54680,10 +61949,99 @@ exports.f = __webpack_require__("9e1e") ? Object.defineProperty : function defin
 
 /***/ }),
 
-/***/ "8904":
+/***/ "8908":
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
+"use strict";
+
+
+var cov_14to4xmsoc = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/index.js",
+      hash = "7242897c9db62ce9cfa49509b238187a03d5f68b",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+__webpack_require__("5cdc");
+
+__webpack_require__("76ef");
+
+/***/ }),
+
+/***/ "8a4c":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("16d1");
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "8b5d":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2mv6mz7k9h = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/index.js",
+      hash = "c42055f055f707218e5fb9f9977300b66aa13076",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _factory = _interopRequireDefault(__webpack_require__("a6e0"));
+
+var _default = _factory.default;
+exports.default = _default;
 
 /***/ }),
 
@@ -55034,10 +62392,81 @@ module.exports = require("vue");
 
 /***/ }),
 
+/***/ "8c90":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_1ibm5z1xmt = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/config.js",
+      hash = "a74091770be49724141a32d02b373ac533f1a58d",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/config.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 15
+        },
+        end: {
+          line: 3,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _module = (cov_1ibm5z1xmt.s[0]++, {
+  path: "/api/organization/"
+});
+
+var _default = _module;
+exports.default = _default;
+
+/***/ }),
+
 /***/ "8cac":
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "8dc2":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("49fc");
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -55362,6 +62791,52 @@ module.exports = function (Constructor, NAME, next) {
 
 /***/ }),
 
+/***/ "8fd3":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_qacvo56zk = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/strategy_map/index.js",
+      hash = "95a517bd713c909046d7210effd370ba0203c276",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/strategy_map/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _factory = _interopRequireDefault(__webpack_require__("90e3"));
+
+var _default = _factory.default;
+exports.default = _default;
+
+/***/ }),
+
 /***/ "9003":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -55388,12 +62863,272 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 /***/ }),
 
-/***/ "90e3":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "909b":
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a6fe");
-/* harmony import */ var sdk_network_core_network_builder__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("b8e7");
+
+
+var cov_14g33ktv2s = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/main.vue",
+      hash = "aad7dec50f5a7aa5496ace5c903e031378aa27d1",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/main.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 21,
+          column: 18
+        },
+        end: {
+          line: 21,
+          column: 54
+        }
+      },
+      "1": {
+        start: {
+          line: 50,
+          column: 8
+        },
+        end: {
+          line: 50,
+          column: 48
+        }
+      },
+      "2": {
+        start: {
+          line: 51,
+          column: 8
+        },
+        end: {
+          line: 51,
+          column: 64
+        }
+      },
+      "3": {
+        start: {
+          line: 56,
+          column: 26
+        },
+        end: {
+          line: 56,
+          column: 41
+        }
+      },
+      "4": {
+        start: {
+          line: 58,
+          column: 8
+        },
+        end: {
+          line: 60,
+          column: 9
+        }
+      },
+      "5": {
+        start: {
+          line: 59,
+          column: 12
+        },
+        end: {
+          line: 59,
+          column: 57
+        }
+      },
+      "6": {
+        start: {
+          line: 71,
+          column: 12
+        },
+        end: {
+          line: 71,
+          column: 55
+        }
+      },
+      "7": {
+        start: {
+          line: 74,
+          column: 12
+        },
+        end: {
+          line: 77,
+          column: 14
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 58,
+            column: 8
+          },
+          end: {
+            line: 60,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 58,
+            column: 8
+          },
+          end: {
+            line: 60,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 58,
+            column: 8
+          },
+          end: {
+            line: 60,
+            column: 9
+          }
+        }],
+        line: 58
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {},
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+__webpack_require__("96cf");
+
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__("1ff6"));
+
+var _objectSpread2 = _interopRequireDefault(__webpack_require__("84cf"));
+
+var _store = _interopRequireDefault(__webpack_require__("2a8f"));
+
+var _buildInitMixin = _interopRequireDefault(__webpack_require__("d886"));
+
+var _actions = __webpack_require__("fea5");
+
+var _notification_container = _interopRequireDefault(__webpack_require__("cccf"));
+
+var _vuex = __webpack_require__("2f62");
+
+var initMixin = (cov_14g33ktv2s.s[0]++, (0, _buildInitMixin.default)("notification", _store.default)); // Mutation List
+
+var _default = {
+  computed: (0, _objectSpread2.default)({}, (0, _vuex.mapGetters)({
+    notificationData: "$notification/notificationData",
+    href: "$notification/href",
+    userActor: "userActor"
+  })),
+  components: {
+    NotificationContainer: _notification_container.default
+  },
+  mixins: [initMixin],
+  mounted: function () {
+    var _mounted = (0, _asyncToGenerator2.default)(
+    /*#__PURE__*/
+    regeneratorRuntime.mark(function _callee() {
+      return regeneratorRuntime.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              cov_14g33ktv2s.s[1]++;
+              _context.next = 3;
+              return this.$store.dispatch("initialize");
+
+            case 3:
+              cov_14g33ktv2s.s[2]++;
+              this.dispatchGetInitialNotifiations(this.userActor.user);
+
+            case 5:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee, this);
+    }));
+
+    return function mounted() {
+      return _mounted.apply(this, arguments);
+    };
+  }(),
+  created: function created() {
+    /* below should be bundle into a component builder*/
+    var STORE_KEY = (cov_14g33ktv2s.s[3]++, "$notification"); // eslint-disable-next-line no-underscore-dangle
+
+    cov_14g33ktv2s.s[4]++;
+
+    if (!(STORE_KEY in this.$store._modules.root._children)) {
+      cov_14g33ktv2s.b[0][0]++;
+      cov_14g33ktv2s.s[5]++;
+      this.$store.registerModule(STORE_KEY, _store.default);
+    } else {
+      cov_14g33ktv2s.b[0][1]++;
+    }
+    /* end this */
+
+  },
+  // can be wrong namespace
+  methods: (0, _objectSpread2.default)({}, (0, _vuex.mapActions)({
+    dispatchGetInitialNotifiations: "$notification/".concat(_actions.getInitialNotifiations),
+    dispatchGetLazyNotifications: "$notification/".concat(_actions.getLazyNotifications),
+    dispatchMarkAsReadNotifications: "$notification/".concat(_actions.markAsReadNotifications)
+  }), {
+    getLazyNotifications: function getLazyNotifications(nextLink) {
+      cov_14g33ktv2s.s[6]++;
+      this.dispatchGetLazyNotifications(nextLink);
+    },
+    markAsReadNotifications: function markAsReadNotifications(unreadNotificationLists) {
+      cov_14g33ktv2s.s[7]++;
+      this.dispatchMarkAsReadNotifications({
+        uid: this.userActor.user,
+        unreadNotificationLists: unreadNotificationLists
+      });
+    }
+  })
+};
+exports.default = _default;
+
+/***/ }),
+
+/***/ "90e3":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function($) {
+
 var cov_2p5xswipjj = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/strategy_map/factory.js",
       hash = "cd7df2e79e8bc1e6d97ee9bc08839e7be0ad214b",
@@ -55529,12 +63264,21 @@ var cov_2p5xswipjj = function () {
   return coverage[path] = coverageData;
 }();
 
+var _interopRequireDefault = __webpack_require__("496d");
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
 
-/* harmony default export */ __webpack_exports__["a"] = (function () {
+var _config = _interopRequireDefault(__webpack_require__("a6fe"));
+
+var _network_builder = __webpack_require__("b8e7");
+
+var _default = function _default() {
   cov_2p5xswipjj.f[0]++;
   // Tạo url: base + path
-  var baseURL = (cov_2p5xswipjj.s[0]++, "".concat(_config__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"].path));
+  var baseURL = (cov_2p5xswipjj.s[0]++, "".concat(_config.default.path));
   cov_2p5xswipjj.s[1]++;
   return {
     getMapByUserID: function getMapByUserID(_ref) {
@@ -55551,14 +63295,16 @@ var cov_2p5xswipjj = function () {
       /* Return Promise */
 
       cov_2p5xswipjj.s[4]++;
-      return Object(sdk_network_core_network_builder__WEBPACK_IMPORTED_MODULE_1__[/* buildPromise */ "a"])({
+      return (0, _network_builder.buildPromise)({
         httpMethod: 'GET',
         url: url,
         data: params
       });
     }
   };
-});
+};
+
+exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("1157")))
 
 /***/ }),
@@ -55568,6 +63314,17 @@ var cov_2p5xswipjj = function () {
 
 module.exports = __webpack_require__("35e8");
 
+
+/***/ }),
+
+/***/ "914c":
+/***/ (function(module, exports) {
+
+function _iterableToArray(iter) {
+  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+}
+
+module.exports = _iterableToArray;
 
 /***/ }),
 
@@ -55674,6 +63431,145 @@ module.exports = !$assign || __webpack_require__("294c")(function () {
   } return T;
 } : $assign;
 
+
+/***/ }),
+
+/***/ "93fc":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2pts1o0vth = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/profile/config.js",
+      hash = "e6b007611e640c43acf879cf2fa12294ae61cd46",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/profile/config.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 15
+        },
+        end: {
+          line: 3,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 4,
+          column: 29
+        },
+        end: {
+          line: 6,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.mockedProfile = void 0;
+
+var _module = (cov_2pts1o0vth.s[0]++, {
+  path: "/api/profile"
+});
+
+var mockedProfile = (cov_2pts1o0vth.s[1]++, {});
+exports.mockedProfile = mockedProfile;
+var _default = _module;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "9570":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_1g15kwgr6e = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/states.js",
+      hash = "baaa4b5a195c77e32d13816305617804abb3abbd",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/states.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  companyPerformance: {},
+  quarterPeriod: {},
+  strategyMap: {}
+};
+exports.default = _default;
+
+/***/ }),
+
+/***/ "965f":
+/***/ (function(module, exports) {
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+module.exports = _defineProperty;
 
 /***/ }),
 
@@ -56411,6 +64307,54 @@ module.exports = !$assign || __webpack_require__("294c")(function () {
 
 /***/ }),
 
+/***/ "96d7":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_1z2i8gwu82 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/state.js",
+      hash = "921bddef15a0205bc2980262e902ed2b349c672e",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/state.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  notificationData: {
+    unread_list: [],
+    results: [],
+    next: ''
+  },
+  href: '/performance/notifications'
+};
+exports.default = _default;
+
+/***/ }),
+
 /***/ "97ab":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -56419,6 +64363,236 @@ module.exports = !$assign || __webpack_require__("294c")(function () {
 /* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_style_index_0_id_e1196634_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_style_index_0_id_e1196634_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
  /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_month_lock_controller_vue_vue_type_style_index_0_id_e1196634_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "9850":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_l9as5gnkv = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue",
+      hash = "4717d4427366e9217bc7c72ce8b2751f50063771",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 46,
+          column: 29
+        },
+        end: {
+          line: 46,
+          column: 38
+        }
+      },
+      "1": {
+        start: {
+          line: 56,
+          column: 29
+        },
+        end: {
+          line: 56,
+          column: 38
+        }
+      },
+      "2": {
+        start: {
+          line: 65,
+          column: 29
+        },
+        end: {
+          line: 65,
+          column: 38
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 46,
+            column: 21
+          },
+          end: {
+            line: 46,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 46,
+            column: 27
+          },
+          end: {
+            line: 46,
+            column: 40
+          }
+        },
+        line: 46
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 56,
+            column: 21
+          },
+          end: {
+            line: 56,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 56,
+            column: 27
+          },
+          end: {
+            line: 56,
+            column: 40
+          }
+        },
+        line: 56
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 65,
+            column: 21
+          },
+          end: {
+            line: 65,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 65,
+            column: 27
+          },
+          end: {
+            line: 65,
+            column: 40
+          }
+        },
+        line: 65
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default2 = {
+  name: "vision_mission",
+  props: {
+    /**
+     * Object organization
+     * Business:
+     * Just an object store data of organization, used for controlling monthly lock
+     */
+    organizationObject: {
+      type: Object,
+      default: function _default() {
+        cov_l9as5gnkv.f[0]++;
+        cov_l9as5gnkv.s[0]++;
+        return {};
+      }
+    },
+
+    /**
+     * Object current quarter
+     * Business:
+     * Just an quarter period object bring data to be rendered
+     */
+    quarterPeriod: {
+      type: Object,
+      default: function _default() {
+        cov_l9as5gnkv.f[1]++;
+        cov_l9as5gnkv.s[1]++;
+        return {};
+      }
+    },
+
+    /**
+     * Object company performance
+     * An object stored performance of the ceo and be rendered
+     */
+    companyPerformance: {
+      type: Object,
+      default: function _default() {
+        cov_l9as5gnkv.f[2]++;
+        cov_l9as5gnkv.s[2]++;
+        return {};
+      }
+    }
+  }
+};
+exports.default = _default2;
 
 /***/ }),
 
@@ -56569,6 +64743,13 @@ module.exports = !__webpack_require__("79e5")(function () {
   return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
 });
 
+
+/***/ }),
+
+/***/ "9f31":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -57852,6 +66033,18 @@ module.exports = navigator && navigator.userAgent || '';
 
 /***/ }),
 
+/***/ "a2ed":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("ecef");
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_bell_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "a3c3":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -57959,58 +66152,41 @@ module.exports.f = function (C) {
 
 /***/ }),
 
-/***/ "a682":
+/***/ "a612":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("9850");
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.assign.js
-var es6_object_assign = __webpack_require__("f751");
+/***/ }),
 
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/arrayWithoutHoles.js
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
+/***/ "a682":
+/***/ (function(module, exports, __webpack_require__) {
 
-    return arr2;
-  }
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/iterableToArray.js
-function _iterableToArray(iter) {
-  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/nonIterableSpread.js
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/toConsumableArray.js
+"use strict";
 
 
+var _interopRequireDefault = __webpack_require__("496d");
 
-function _toConsumableArray(arr) {
-  return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();
-}
-// EXTERNAL MODULE: ./node_modules/jquery/dist/jquery.js
-var jquery = __webpack_require__("1157");
-var jquery_default = /*#__PURE__*/__webpack_require__.n(jquery);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.initRequestCenterDisplay = exports.requestcenterHideNotification = exports.guide_requestcenter = exports.error_requestcenter = exports.success_requestcenter = exports.cloudjetRequest = void 0;
 
-// CONCATENATED MODULE: ./src/sdk/network/core/cloudjet_request/index.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return cloudjetRequest; });
-/* unused harmony export success_requestcenter */
-/* unused harmony export error_requestcenter */
-/* unused harmony export guide_requestcenter */
-/* unused harmony export requestcenterHideNotification */
-/* unused harmony export initRequestCenterDisplay */
+__webpack_require__("f751");
 
+var _toConsumableArray2 = _interopRequireDefault(__webpack_require__("6d7b"));
 
+var _jquery = _interopRequireDefault(__webpack_require__("1157"));
 
 /* istanbul ignore file */
 
 /* eslint-disable */
-
-var $ = jquery_default.a;
+var $ = _jquery.default;
 /* eslint-disable */
 
 /**
@@ -58137,42 +66313,42 @@ var RequestCenter = function () {
 
         var beforeSend = function beforeSend(args, ajax_before_send) {
           if (typeof instance.beforeSendTrigger == "function") {
-            args = instance.beforeSendTrigger.apply(instance, _toConsumableArray(args));
+            args = instance.beforeSendTrigger.apply(instance, (0, _toConsumableArray2.default)(args));
           } //console.log("error arguments===============");
           //console.log(args);
 
 
           instance.getCenter().addSpawned(instance.id);
-          if (typeof ajax_before_send == "function") return ajax_before_send.apply(void 0, _toConsumableArray(args));
+          if (typeof ajax_before_send == "function") return ajax_before_send.apply(void 0, (0, _toConsumableArray2.default)(args));
         };
 
         var success = function success(args, ajax_success, argsTrigger) {
           if (typeof instance.successTrigger == "function") {
-            args = instance.successTrigger.apply(instance, _toConsumableArray(args)); // Data need to be overwritten because of legacy api pattern
+            args = instance.successTrigger.apply(instance, (0, _toConsumableArray2.default)(args)); // Data need to be overwritten because of legacy api pattern
           }
 
           instance.getCenter().addStopped(instance.id);
-          if (typeof ajax_success == "function") return ajax_success.apply(void 0, _toConsumableArray(args));
+          if (typeof ajax_success == "function") return ajax_success.apply(void 0, (0, _toConsumableArray2.default)(args));
         };
 
         var error = function error(args, ajax_error, argsTrigger) {
           if (typeof instance.errorTrigger == "function") {
-            instance.errorTrigger.apply(instance, _toConsumableArray(args));
+            instance.errorTrigger.apply(instance, (0, _toConsumableArray2.default)(args));
           } //console.log("error arguments===============");
           //console.log(args);
 
 
           instance.getCenter().addStopped(instance.id);
-          if (typeof ajax_error == "function") return ajax_error.apply(void 0, _toConsumableArray(args));
+          if (typeof ajax_error == "function") return ajax_error.apply(void 0, (0, _toConsumableArray2.default)(args));
         };
 
         var complete = function complete(args, ajax_complete) {
           if (typeof instance.completeTrigger == "function") {
-            instance.completeTrigger.apply(instance, _toConsumableArray(args));
+            instance.completeTrigger.apply(instance, (0, _toConsumableArray2.default)(args));
           }
 
           instance.getCenter().addCompleted(instance.id);
-          if (typeof ajax_complete == "function") return ajax_complete.apply(void 0, _toConsumableArray(args));
+          if (typeof ajax_complete == "function") return ajax_complete.apply(void 0, (0, _toConsumableArray2.default)(args));
         }; // Clone to new ajax params
 
 
@@ -58255,6 +66431,8 @@ var success_requestcenter = function success_requestcenter(message) {
   }, 4000);
 };
 
+exports.success_requestcenter = success_requestcenter;
+
 var error_requestcenter = function error_requestcenter(message) {
   // var id = initRequestCenterStatusDisplay(Math.floor(Math.random() * 101))
   $("#request-center-progress").css({
@@ -58271,6 +66449,8 @@ var error_requestcenter = function error_requestcenter(message) {
   }, 5000);
 };
 
+exports.error_requestcenter = error_requestcenter;
+
 var guide_requestcenter = function guide_requestcenter(message) {
   $("#request-center-progress").css({
     "background-color": "#337ab7",
@@ -58286,10 +66466,14 @@ var guide_requestcenter = function guide_requestcenter(message) {
   }, 1000);
 };
 
+exports.guide_requestcenter = guide_requestcenter;
+
 var requestcenterHideNotification = function requestcenterHideNotification() {
   $("#request-center-progress").hide();
   show_notification = false;
 };
+
+exports.requestcenterHideNotification = requestcenterHideNotification;
 
 var create = function create(htmlStr) {
   var frag = document.createDocumentFragment(),
@@ -58340,6 +66524,7 @@ var initRequestCenterDisplay = function initRequestCenterDisplay() {
 /* TODO: move this block of code into requestcenter.js */
 
 
+exports.initRequestCenterDisplay = initRequestCenterDisplay;
 var requestcenter = new RequestCenter(function () {
   if (show_notification) {
     $('span#request-center-progress').show(); // Trigger request center onStart
@@ -58431,14 +66616,260 @@ function () {
 null
 /* trigger completed*/
 );
+exports.cloudjetRequest = cloudjetRequest;
 
+/***/ }),
+
+/***/ "a6e0":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_13nf4aw5tt = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/factory.js",
+      hash = "4d4e8a760220068f41c1ba6a70a33203148dbaa1",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/factory.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 8,
+          column: 16
+        },
+        end: {
+          line: 8,
+          column: 43
+        }
+      },
+      "1": {
+        start: {
+          line: 10,
+          column: 4
+        },
+        end: {
+          line: 34,
+          column: 5
+        }
+      },
+      "2": {
+        start: {
+          line: 14,
+          column: 12
+        },
+        end: {
+          line: 17,
+          column: 14
+        }
+      },
+      "3": {
+        start: {
+          line: 21,
+          column: 12
+        },
+        end: {
+          line: 24,
+          column: 14
+        }
+      },
+      "4": {
+        start: {
+          line: 28,
+          column: 12
+        },
+        end: {
+          line: 32,
+          column: 14
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 6,
+            column: 16
+          },
+          end: {
+            line: 6,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 6,
+            column: 26
+          },
+          end: {
+            line: 35,
+            column: 1
+          }
+        },
+        line: 6
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 13,
+            column: 35
+          },
+          end: {
+            line: 13,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 13,
+            column: 41
+          },
+          end: {
+            line: 18,
+            column: 9
+          }
+        },
+        line: 13
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 20,
+            column: 37
+          },
+          end: {
+            line: 20,
+            column: 38
+          }
+        },
+        loc: {
+          start: {
+            line: 20,
+            column: 46
+          },
+          end: {
+            line: 25,
+            column: 9
+          }
+        },
+        line: 20
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 27,
+            column: 35
+          },
+          end: {
+            line: 27,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 27,
+            column: 66
+          },
+          end: {
+            line: 33,
+            column: 9
+          }
+        },
+        line: 27
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _config = _interopRequireDefault(__webpack_require__("e886"));
+
+var _network_builder = __webpack_require__("b8e7");
+
+var _default = function _default(userId) {
+  cov_13nf4aw5tt.f[0]++;
+  // Tạo url: base + path
+  var url = (cov_13nf4aw5tt.s[0]++, "".concat(_config.default.path, "/").concat(userId, "/"));
+  cov_13nf4aw5tt.s[1]++;
+  return {
+    url: url,
+    getInitialNotifiationData: function getInitialNotifiationData() {
+      cov_13nf4aw5tt.f[1]++;
+      cov_13nf4aw5tt.s[2]++;
+      return (0, _network_builder.buildPromise)({
+        httpMethod: 'GET',
+        url: url
+      });
+    },
+    getLazyLoadNotificationData: function getLazyLoadNotificationData(url) {
+      cov_13nf4aw5tt.f[2]++;
+      cov_13nf4aw5tt.s[3]++;
+      return (0, _network_builder.buildPromise)({
+        httpMethod: 'GET',
+        url: url // Checkout variable cloaking / shadowing
+
+      });
+    },
+    updateUnreadNotifications: function updateUnreadNotifications(_updateUnreadNotifications) {
+      cov_13nf4aw5tt.f[3]++;
+      cov_13nf4aw5tt.s[4]++;
+      return (0, _network_builder.buildPromise)({
+        httpMethod: 'POST',
+        url: url,
+        data: JSON.stringify({
+          unread_list: _updateUnreadNotifications
+        })
+      });
+    }
+  };
+};
+
+exports.default = _default;
 
 /***/ }),
 
 /***/ "a6fe":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
 var cov_2qskmcoe1y = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/strategy_map/config.js",
       hash = "f454ad1748f92427c305fabf4812a5a146be0ffc",
@@ -58478,10 +66909,29 @@ var cov_2qskmcoe1y = function () {
   return coverage[path] = coverageData;
 }();
 
-var module = (cov_2qskmcoe1y.s[0]++, {
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _module = (cov_2qskmcoe1y.s[0]++, {
   path: "/api/v2/strategy-map/"
 });
-/* harmony default export */ __webpack_exports__["a"] = (module);
+
+var _default = _module;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "a9ec":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("c850");
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_notification_item_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -58617,6 +67067,74 @@ module.exports = function (bitmap, value) {
 
 /***/ }),
 
+/***/ "af60":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _vision_mission_modal_vue_vue_type_template_id_54e7a6cd_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("3f2c");
+/* harmony import */ var _vision_mission_modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("8a4c");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _vision_mission_modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _vision_mission_modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _vision_mission_modal_vue_vue_type_style_index_0_id_54e7a6cd_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("29d3");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("2877");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(
+  _vision_mission_modal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _vision_mission_modal_vue_vue_type_template_id_54e7a6cd_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* render */ "a"],
+  _vision_mission_modal_vue_vue_type_template_id_54e7a6cd_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* staticRenderFns */ "b"],
+  false,
+  null,
+  "54e7a6cd",
+  null
+  
+)
+
+component.options.__file = "vision_mission_modal.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "b2af":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _main_vue_vue_type_template_id_99e0d0a0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2d3a");
+/* harmony import */ var _main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("2a70");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _main_vue_vue_type_style_index_0_id_99e0d0a0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("7218");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("2877");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(
+  _main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _main_vue_vue_type_template_id_99e0d0a0_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* render */ "a"],
+  _main_vue_vue_type_template_id_99e0d0a0_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* staticRenderFns */ "b"],
+  false,
+  null,
+  "99e0d0a0",
+  null
+  
+)
+
+component.options.__file = "main.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "b2d6":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -58736,6 +67254,69 @@ exports.default = {
 
 /***/ }),
 
+/***/ "b2fa":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=template&id=75eab074&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"notificationWrapper",staticClass:"notification"},[_c('notification_bell',{attrs:{"isToggle":_vm.isShowNotificationList,"notificationCount":_vm.notificationData.unread_list.length},on:{"click":_vm.toggleNotificationList}}),(_vm.isShowNotificationList)?_c('notification_list',{staticClass:"notification__list",attrs:{"notificationItems":_vm.notificationData.results,"href":_vm.href,"next":_vm.notificationData.next},on:{"lazyLoad":_vm.notificationListOnLazyLoad}}):_vm._e()],1)}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=template&id=75eab074&scoped=true&
+/* concated harmony reexport render */__webpack_require__.d(__webpack_exports__, "a", function() { return render; });
+/* concated harmony reexport staticRenderFns */__webpack_require__.d(__webpack_exports__, "b", function() { return staticRenderFns; });
+
+
+/***/ }),
+
+/***/ "b41d":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_fhk4n75uo = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/index.js",
+      hash = "1443577fc360662e4e71185c453ea91d8d0dcce8",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _factory = _interopRequireDefault(__webpack_require__("ebbd"));
+
+var _default = _factory.default;
+exports.default = _default;
+
+/***/ }),
+
 /***/ "b447":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -58750,9 +67331,11 @@ module.exports = function (it) {
 /***/ }),
 
 /***/ "b584":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
 var cov_lytxlmlc3 = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/config.js",
       hash = "fd149409393bc399759f6ff90317101600abc735",
@@ -58792,10 +67375,29 @@ var cov_lytxlmlc3 = function () {
   return coverage[path] = coverageData;
 }();
 
-var module = (cov_lytxlmlc3.s[0]++, {
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _module = (cov_lytxlmlc3.s[0]++, {
   path: "/api/user_kpi/"
 });
-/* harmony default export */ __webpack_exports__["a"] = (module);
+
+var _default = _module;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "b837":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("909b");
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -58819,13 +67421,11 @@ module.exports = true;
 /***/ }),
 
 /***/ "b8e7":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return buildPromise; });
-/* harmony import */ var core_js_modules_es6_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("551c");
-/* harmony import */ var core_js_modules_es6_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_promise__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _cloudjet_request__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("a682");
+
+
 var cov_2pvqxr8w6o = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/core/network_builder/index.js",
       hash = "e59ddc3e5a833e5aa259ad2c038815416d46122e",
@@ -59080,11 +67680,18 @@ var cov_2pvqxr8w6o = function () {
   return coverage[path] = coverageData;
 }();
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.buildPromise = void 0;
 
- // BuildPromise({url: 'xyz', parameter: 'GET'})
+__webpack_require__("551c");
+
+var _cloudjet_request = __webpack_require__("a682");
 
 cov_2pvqxr8w6o.s[0]++;
 
+// BuildPromise({url: 'xyz', parameter: 'GET'})
 var buildPromise = function buildPromise(_ref) {
   var httpMethod = _ref.httpMethod,
       url = _ref.url,
@@ -59123,11 +67730,12 @@ var buildPromise = function buildPromise(_ref) {
     }
 
     cov_2pvqxr8w6o.s[7]++;
-    _cloudjet_request__WEBPACK_IMPORTED_MODULE_1__[/* cloudjetRequest */ "a"].ajax(ajaxObject);
+
+    _cloudjet_request.cloudjetRequest.ajax(ajaxObject);
   });
 };
 
-
+exports.buildPromise = buildPromise;
 
 /***/ }),
 
@@ -59157,6 +67765,17 @@ module.exports = function (C, x) {
 
 /***/ }),
 
+/***/ "bdad":
+/***/ (function(module, exports) {
+
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance");
+}
+
+module.exports = _nonIterableSpread;
+
+/***/ }),
+
 /***/ "be13":
 /***/ (function(module, exports) {
 
@@ -59166,6 +67785,40 @@ module.exports = function (it) {
   return it;
 };
 
+
+/***/ }),
+
+/***/ "becf":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _month_lock_controller_vue_vue_type_template_id_e1196634_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("fcf0");
+/* harmony import */ var _month_lock_controller_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("62b9");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _month_lock_controller_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _month_lock_controller_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _month_lock_controller_vue_vue_type_style_index_0_id_e1196634_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("97ab");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("2877");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(
+  _month_lock_controller_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _month_lock_controller_vue_vue_type_template_id_e1196634_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* render */ "a"],
+  _month_lock_controller_vue_vue_type_template_id_e1196634_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* staticRenderFns */ "b"],
+  false,
+  null,
+  "e1196634",
+  null
+  
+)
+
+component.options.__file = "month_lock_controller.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -59197,6 +67850,630 @@ exports.f = __webpack_require__("8e60") ? gOPD : function getOwnPropertyDescript
 
 module.exports = __webpack_require__("d4af");
 
+
+/***/ }),
+
+/***/ "c1b7":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2pv5cdfx1r = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue",
+      hash = "eac187c8c2e73042d2ce9b387e6af8fa33b6fb6f",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 48,
+          column: 6
+        },
+        end: {
+          line: 52,
+          column: 7
+        }
+      },
+      "1": {
+        start: {
+          line: 49,
+          column: 8
+        },
+        end: {
+          line: 49,
+          column: 29
+        }
+      },
+      "2": {
+        start: {
+          line: 51,
+          column: 8
+        },
+        end: {
+          line: 51,
+          column: 20
+        }
+      },
+      "3": {
+        start: {
+          line: 56,
+          column: 6
+        },
+        end: {
+          line: 56,
+          column: 65
+        }
+      },
+      "4": {
+        start: {
+          line: 62,
+          column: 6
+        },
+        end: {
+          line: 66,
+          column: 7
+        }
+      },
+      "5": {
+        start: {
+          line: 64,
+          column: 8
+        },
+        end: {
+          line: 64,
+          column: 60
+        }
+      },
+      "6": {
+        start: {
+          line: 65,
+          column: 8
+        },
+        end: {
+          line: 65,
+          column: 35
+        }
+      },
+      "7": {
+        start: {
+          line: 75,
+          column: 15
+        },
+        end: {
+          line: 75,
+          column: 45
+        }
+      },
+      "8": {
+        start: {
+          line: 76,
+          column: 19
+        },
+        end: {
+          line: 76,
+          column: 27
+        }
+      },
+      "9": {
+        start: {
+          line: 81,
+          column: 6
+        },
+        end: {
+          line: 83,
+          column: 7
+        }
+      },
+      "10": {
+        start: {
+          line: 82,
+          column: 8
+        },
+        end: {
+          line: 82,
+          column: 77
+        }
+      },
+      "11": {
+        start: {
+          line: 82,
+          column: 41
+        },
+        end: {
+          line: 82,
+          column: 77
+        }
+      },
+      "12": {
+        start: {
+          line: 88,
+          column: 4
+        },
+        end: {
+          line: 98,
+          column: 7
+        }
+      },
+      "13": {
+        start: {
+          line: 92,
+          column: 6
+        },
+        end: {
+          line: 92,
+          column: 66
+        }
+      },
+      "14": {
+        start: {
+          line: 97,
+          column: 6
+        },
+        end: {
+          line: 97,
+          column: 72
+        }
+      },
+      "15": {
+        start: {
+          line: 105,
+          column: 4
+        },
+        end: {
+          line: 105,
+          column: 67
+        }
+      },
+      "16": {
+        start: {
+          line: 109,
+          column: 4
+        },
+        end: {
+          line: 112,
+          column: 6
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 88,
+            column: 17
+          },
+          end: {
+            line: 88,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 88,
+            column: 23
+          },
+          end: {
+            line: 98,
+            column: 5
+          }
+        },
+        line: 88
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 48,
+            column: 6
+          },
+          end: {
+            line: 52,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 48,
+            column: 6
+          },
+          end: {
+            line: 52,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 48,
+            column: 6
+          },
+          end: {
+            line: 52,
+            column: 7
+          }
+        }],
+        line: 48
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 62,
+            column: 6
+          },
+          end: {
+            line: 66,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 62,
+            column: 6
+          },
+          end: {
+            line: 66,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 62,
+            column: 6
+          },
+          end: {
+            line: 66,
+            column: 7
+          }
+        }],
+        line: 62
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 81,
+            column: 6
+          },
+          end: {
+            line: 83,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 81,
+            column: 6
+          },
+          end: {
+            line: 83,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 81,
+            column: 6
+          },
+          end: {
+            line: 83,
+            column: 7
+          }
+        }],
+        line: 81
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 81,
+            column: 10
+          },
+          end: {
+            line: 81,
+            column: 47
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 81,
+            column: 10
+          },
+          end: {
+            line: 81,
+            column: 23
+          }
+        }, {
+          start: {
+            line: 81,
+            column: 27
+          },
+          end: {
+            line: 81,
+            column: 47
+          }
+        }],
+        line: 81
+      },
+      "4": {
+        loc: {
+          start: {
+            line: 82,
+            column: 8
+          },
+          end: {
+            line: 82,
+            column: 77
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 82,
+            column: 8
+          },
+          end: {
+            line: 82,
+            column: 77
+          }
+        }, {
+          start: {
+            line: 82,
+            column: 8
+          },
+          end: {
+            line: 82,
+            column: 77
+          }
+        }],
+        line: 82
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0],
+      "3": [0, 0],
+      "4": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _notification_bell = _interopRequireDefault(__webpack_require__("f545"));
+
+var _notification_list = _interopRequireDefault(__webpack_require__("21b1"));
+
+var _vue = _interopRequireDefault(__webpack_require__("8bbf"));
+
+var _default = {
+  components: {
+    notification_bell: _notification_bell.default,
+    notification_list: _notification_list.default
+  },
+  methods: {
+    /**
+     * Input new lazy load data here
+     * Automatically assign next + concat notification
+     */
+    // concatNotificationData (notificationData) {
+    //   this.next = notificationData.next
+    //   this.notificationItems = this.notificationItems.concat(notificationData.results)
+    // },
+    notificationListOnLazyLoad: function notificationListOnLazyLoad(next) {
+      cov_2pv5cdfx1r.s[0]++;
+
+      /**
+       * Write unit test for this shit
+       */
+      if (this.onLazyLoad) {
+        cov_2pv5cdfx1r.b[0][0]++;
+        cov_2pv5cdfx1r.s[1]++;
+        this.onLazyLoad(next);
+      } else {
+        cov_2pv5cdfx1r.b[0][1]++;
+        cov_2pv5cdfx1r.s[2]++;
+        return false;
+      }
+    },
+    toggleNotificationList: function toggleNotificationList() {
+      cov_2pv5cdfx1r.s[3]++;
+      this.isShowNotificationList = !this.isShowNotificationList;
+      /**
+       * Emmit markAsRead
+       * Params: unread_list
+       */
+
+      cov_2pv5cdfx1r.s[4]++;
+
+      if (this.notificationData.unread_list.length > 0) {
+        cov_2pv5cdfx1r.b[1][0]++;
+        cov_2pv5cdfx1r.s[5]++;
+        // this.$emit("markAsRead", this.notificationData.unread_list);
+        this.onMarkAsRead(this.notificationData.unread_list);
+        cov_2pv5cdfx1r.s[6]++;
+        this.notificationCount = 0;
+      } else {
+        cov_2pv5cdfx1r.b[1][1]++;
+      }
+    },
+
+    /**
+     * Todo: Unit Test
+     * isShowNotificationList = true and click in document should set to false
+     * isShowNotificationList = false and click in document should persist to false
+     */
+    handleClickOutSide: function handleClickOutSide(e) {
+      var el = (cov_2pv5cdfx1r.s[7]++, this.$refs.notificationWrapper);
+      var target = (cov_2pv5cdfx1r.s[8]++, e.target);
+      /**
+       * If it's click outside
+       */
+
+      cov_2pv5cdfx1r.s[9]++;
+
+      if ((cov_2pv5cdfx1r.b[3][0]++, el !== target) && (cov_2pv5cdfx1r.b[3][1]++, !el.contains(target))) {
+        cov_2pv5cdfx1r.b[2][0]++;
+        cov_2pv5cdfx1r.s[10]++;
+
+        if (this.isShowNotificationList) {
+          cov_2pv5cdfx1r.b[4][0]++;
+          cov_2pv5cdfx1r.s[11]++;
+          this.isShowNotificationList = false;
+        } else {
+          cov_2pv5cdfx1r.b[4][1]++;
+        }
+      } else {
+        cov_2pv5cdfx1r.b[2][1]++;
+      }
+    }
+  },
+  created: function created() {
+    var _this = this;
+
+    cov_2pv5cdfx1r.s[12]++;
+
+    _vue.default.nextTick(function () {
+      cov_2pv5cdfx1r.f[0]++;
+      cov_2pv5cdfx1r.s[13]++;
+
+      /**
+       * Hide notification on click outside
+       */
+      document.addEventListener("click", _this.handleClickOutSide);
+      /**
+       * Vue doesn't allow to edit props
+       */
+
+      cov_2pv5cdfx1r.s[14]++;
+      _this.notificationCount = _this.notificationData.unread_list.length;
+    });
+  },
+  destroyed: function destroyed() {
+    cov_2pv5cdfx1r.s[15]++;
+
+    /**
+     * Remove on added event
+     */
+    document.removeEventListener("click", this.handleClickOutSide);
+  },
+  data: function data() {
+    cov_2pv5cdfx1r.s[16]++;
+    return {
+      isShowNotificationList: false,
+      notificationCount: 0
+    };
+  },
+  props: {
+    /**
+     * Pass anything the api return in results
+     * into this. will format data automatically
+     */
+    notificationData: {
+      type: Object
+    },
+
+    /**
+     * Link to show all notification
+     */
+    href: {
+      type: String
+    },
+
+    /**
+     * Function will be call when lazy load
+     * Params: Next link
+     * Use next link to get more notification data then
+     *  Concat result
+     *  Change
+     *    next: update lazymode status
+     *    unread_list: update notification number on bell
+     */
+    onLazyLoad: Function,
+
+    /**
+     * Function will be call when lazy load
+     * Params: id array
+     * Update bunch of array of id element to be readed
+     */
+    onMarkAsRead: Function
+  }
+};
+exports.default = _default;
+
+/***/ }),
+
+/***/ "c1c0":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _vision_mission_vue_vue_type_template_id_db387808_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f93f");
+/* harmony import */ var _vision_mission_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("a612");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _vision_mission_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _vision_mission_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _vision_mission_vue_vue_type_style_index_0_id_db387808_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("5b16");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("2877");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(
+  _vision_mission_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _vision_mission_vue_vue_type_template_id_db387808_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* render */ "a"],
+  _vision_mission_vue_vue_type_template_id_db387808_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* staticRenderFns */ "b"],
+  false,
+  null,
+  "db387808",
+  null
+  
+)
+
+component.options.__file = "vision_mission.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -59833,16 +69110,14 @@ module.exports = !__webpack_require__("9e1e") && !__webpack_require__("79e5")(fu
 /***/ }),
 
 /***/ "c850":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("c5f6");
-/* harmony import */ var core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_number_constructor__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("28a5");
-/* harmony import */ var core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_split__WEBPACK_IMPORTED_MODULE_1__);
+/* WEBPACK VAR INJECTION */(function(global) {
+
 var cov_2nwusr2xeq = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue",
-      hash = "eafa9356bb56e13532880336bbdf573fe45dc16d",
+      hash = "c5d424cebfe77304552fe759a395e09e5b1e1863",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -60066,16 +69341,6 @@ var cov_2nwusr2xeq = function () {
         },
         end: {
           line: 107,
-          column: 15
-        }
-      },
-      "22": {
-        start: {
-          line: 108,
-          column: 6
-        },
-        end: {
-          line: 108,
           column: 46
         }
       }
@@ -60369,8 +69634,7 @@ var cov_2nwusr2xeq = function () {
       "18": 0,
       "19": 0,
       "20": 0,
-      "21": 0,
-      "22": 0
+      "21": 0
     },
     f: {},
     b: {
@@ -60395,7 +69659,14 @@ var cov_2nwusr2xeq = function () {
   return coverage[path] = coverageData;
 }();
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
 
+__webpack_require__("c5f6");
+
+__webpack_require__("28a5");
 
 //
 //
@@ -60418,7 +69689,7 @@ var cov_2nwusr2xeq = function () {
 //
 //
 //
-/* harmony default export */ __webpack_exports__["a"] = ({
+var _default = {
   computed: {
     ellipisDescription: function ellipisDescription() {
       var descriptionSplitN = (cov_2nwusr2xeq.s[0]++, this.notificationData.description.split("\n"));
@@ -60526,12 +69797,11 @@ var cov_2nwusr2xeq = function () {
      */
     redirectToNotification: function redirectToNotification() {
       cov_2nwusr2xeq.s[21]++;
-      debugger;
-      cov_2nwusr2xeq.s[22]++;
       global.window.location.href = this.href;
     }
   }
-});
+};
+exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("c8ba")))
 
 /***/ }),
@@ -60634,6 +69904,40 @@ module.exports = function (it) {
 
 exports.f = __webpack_require__("5168");
 
+
+/***/ }),
+
+/***/ "cccf":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _notification_container_vue_vue_type_template_id_75eab074_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("b2fa");
+/* harmony import */ var _notification_container_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("10f0");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _notification_container_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _notification_container_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _notification_container_vue_vue_type_style_index_0_id_75eab074_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("1459");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("2877");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(
+  _notification_container_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _notification_container_vue_vue_type_template_id_75eab074_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* render */ "a"],
+  _notification_container_vue_vue_type_template_id_75eab074_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* staticRenderFns */ "b"],
+  false,
+  null,
+  "75eab074",
+  null
+  
+)
+
+component.options.__file = "notification_container.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -61332,6 +70636,389 @@ module.exports = function (fn, that, length) {
 
 /***/ }),
 
+/***/ "d886":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2509hmskyc = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/mixins/buildInitMixin.js",
+      hash = "fd9d818cf73b802193fb6fcc2830603fa0199239",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/mixins/buildInitMixin.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 4
+        },
+        end: {
+          line: 29,
+          column: 5
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 12
+        },
+        end: {
+          line: 7,
+          column: 13
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 15
+        },
+        end: {
+          line: 6,
+          column: 57
+        }
+      },
+      "3": {
+        start: {
+          line: 8,
+          column: 31
+        },
+        end: {
+          line: 8,
+          column: 40
+        }
+      },
+      "4": {
+        start: {
+          line: 10,
+          column: 12
+        },
+        end: {
+          line: 12,
+          column: 13
+        }
+      },
+      "5": {
+        start: {
+          line: 11,
+          column: 16
+        },
+        end: {
+          line: 11,
+          column: 62
+        }
+      },
+      "6": {
+        start: {
+          line: 16,
+          column: 27
+        },
+        end: {
+          line: 16,
+          column: 31
+        }
+      },
+      "7": {
+        start: {
+          line: 17,
+          column: 16
+        },
+        end: {
+          line: 26,
+          column: 19
+        }
+      },
+      "8": {
+        start: {
+          line: 18,
+          column: 20
+        },
+        end: {
+          line: 25,
+          column: 21
+        }
+      },
+      "9": {
+        start: {
+          line: 20,
+          column: 24
+        },
+        end: {
+          line: 20,
+          column: 64
+        }
+      },
+      "10": {
+        start: {
+          line: 21,
+          column: 24
+        },
+        end: {
+          line: 21,
+          column: 33
+        }
+      },
+      "11": {
+        start: {
+          line: 24,
+          column: 24
+        },
+        end: {
+          line: 24,
+          column: 35
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 1,
+            column: 15
+          },
+          end: {
+            line: 1,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 1,
+            column: 43
+          },
+          end: {
+            line: 30,
+            column: 1
+          }
+        },
+        line: 1
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 17,
+            column: 35
+          },
+          end: {
+            line: 17,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 62
+          },
+          end: {
+            line: 26,
+            column: 17
+          }
+        },
+        line: 17
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 5,
+            column: 12
+          },
+          end: {
+            line: 7,
+            column: 13
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 5,
+            column: 12
+          },
+          end: {
+            line: 7,
+            column: 13
+          }
+        }, {
+          start: {
+            line: 5,
+            column: 12
+          },
+          end: {
+            line: 7,
+            column: 13
+          }
+        }],
+        line: 5
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 10,
+            column: 12
+          },
+          end: {
+            line: 12,
+            column: 13
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 10,
+            column: 12
+          },
+          end: {
+            line: 12,
+            column: 13
+          }
+        }, {
+          start: {
+            line: 10,
+            column: 12
+          },
+          end: {
+            line: 12,
+            column: 13
+          }
+        }],
+        line: 10
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = _default;
+
+__webpack_require__("96cf");
+
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__("1ff6"));
+
+__webpack_require__("551c");
+
+function _default(STORE_KEY, store) {
+  cov_2509hmskyc.f[0]++;
+  cov_2509hmskyc.s[0]++;
+  return {
+    name: STORE_KEY,
+    created: function created() {
+      cov_2509hmskyc.s[1]++;
+
+      if (STORE_KEY.length < 1) {
+        cov_2509hmskyc.b[0][0]++;
+        cov_2509hmskyc.s[2]++;
+        throw "The component is not set with name";
+      } else {
+        cov_2509hmskyc.b[0][1]++;
+      }
+
+      var _STORE_KEY = (cov_2509hmskyc.s[3]++, STORE_KEY); // eslint-disable-next-line no-underscore-dangle
+
+
+      cov_2509hmskyc.s[4]++;
+
+      if (!(_STORE_KEY in this.$store._modules.root._children)) {
+        cov_2509hmskyc.b[1][0]++;
+        cov_2509hmskyc.s[5]++;
+        this.$store.registerModule(_STORE_KEY, store);
+      } else {
+        cov_2509hmskyc.b[1][1]++;
+      }
+    },
+    methods: {
+      $initializeDataStoreGlobal: function $initializeDataStoreGlobal() {
+        // for global store triggered
+        var self = (cov_2509hmskyc.s[6]++, this);
+        cov_2509hmskyc.s[7]++;
+        return new Promise(
+        /*#__PURE__*/
+        function () {
+          var _ref = (0, _asyncToGenerator2.default)(
+          /*#__PURE__*/
+          regeneratorRuntime.mark(function _callee(resolve, reject) {
+            return regeneratorRuntime.wrap(function _callee$(_context) {
+              while (1) {
+                switch (_context.prev = _context.next) {
+                  case 0:
+                    cov_2509hmskyc.f[1]++;
+                    cov_2509hmskyc.s[8]++;
+                    _context.prev = 2;
+                    cov_2509hmskyc.s[9]++;
+                    _context.next = 6;
+                    return self.$store.dispatch("initialize");
+
+                  case 6:
+                    cov_2509hmskyc.s[10]++;
+                    resolve();
+                    _context.next = 14;
+                    break;
+
+                  case 10:
+                    _context.prev = 10;
+                    _context.t0 = _context["catch"](2);
+                    cov_2509hmskyc.s[11]++;
+                    reject(_context.t0);
+
+                  case 14:
+                  case "end":
+                    return _context.stop();
+                }
+              }
+            }, _callee, this, [[2, 10]]);
+          }));
+
+          return function (_x, _x2) {
+            return _ref.apply(this, arguments);
+          };
+        }());
+      }
+    }
+  };
+}
+
+/***/ }),
+
 /***/ "d8d6":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -61908,6 +71595,266 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
+/***/ "deb6":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_104p2udqi3 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/url.js",
+      hash = "f95f975c58c14e768870e517dc65bc4d00bb3778",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/url.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 15
+        },
+        end: {
+          line: 3,
+          column: 17
+        }
+      },
+      "1": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 6,
+          column: 6
+        }
+      },
+      "2": {
+        start: {
+          line: 5,
+          column: 8
+        },
+        end: {
+          line: 5,
+          column: 26
+        }
+      },
+      "3": {
+        start: {
+          line: 7,
+          column: 4
+        },
+        end: {
+          line: 7,
+          column: 16
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "getUrlVars",
+        decl: {
+          start: {
+            line: 2,
+            column: 9
+          },
+          end: {
+            line: 2,
+            column: 19
+          }
+        },
+        loc: {
+          start: {
+            line: 2,
+            column: 22
+          },
+          end: {
+            line: 8,
+            column: 1
+          }
+        },
+        line: 2
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 4,
+            column: 72
+          },
+          end: {
+            line: 4,
+            column: 73
+          }
+        },
+        loc: {
+          start: {
+            line: 4,
+            column: 97
+          },
+          end: {
+            line: 6,
+            column: 5
+          }
+        },
+        line: 4
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getUrlVars = getUrlVars;
+
+__webpack_require__("a481");
+
+function getUrlVars() {
+  cov_104p2udqi3.f[0]++;
+  var vars = (cov_104p2udqi3.s[0]++, {});
+  var parts = (cov_104p2udqi3.s[1]++, window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+    cov_104p2udqi3.f[1]++;
+    cov_104p2udqi3.s[2]++;
+    vars[key] = value;
+  }));
+  cov_104p2udqi3.s[3]++;
+  return vars;
+}
+
+/***/ }),
+
+/***/ "df1c":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2g76l09fuh = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_network.js",
+      hash = "7c03948c85dfcc27942eafdcff12d90edd45b527",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_network.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 5,
+          column: 10
+        },
+        end: {
+          line: 5,
+          column: 16
+        }
+      },
+      "1": {
+        start: {
+          line: 7,
+          column: 0
+        },
+        end: {
+          line: 7,
+          column: 48
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 0
+        },
+        end: {
+          line: 8,
+          column: 19
+        }
+      },
+      "3": {
+        start: {
+          line: 9,
+          column: 0
+        },
+        end: {
+          line: 9,
+          column: 29
+        }
+      },
+      "4": {
+        start: {
+          line: 10,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 40
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+var _jquery = _interopRequireDefault(__webpack_require__("1157"));
+
+var _vue = _interopRequireDefault(__webpack_require__("8bbf"));
+
+var _cloudjet_request = __webpack_require__("a682");
+
+var $ = (cov_2g76l09fuh.s[0]++, _jquery.default);
+cov_2g76l09fuh.s[1]++;
+_vue.default.prototype.$cloudjetRequest = _cloudjet_request.cloudjetRequest;
+cov_2g76l09fuh.s[2]++;
+_vue.default.prototype.$ = $;
+cov_2g76l09fuh.s[3]++;
+_vue.default.prototype.jQuery = _jquery.default;
+cov_2g76l09fuh.s[4]++;
+window.cloudjetRequest = _cloudjet_request.cloudjetRequest;
+
+/***/ }),
+
 /***/ "e11e":
 /***/ (function(module, exports) {
 
@@ -61916,17 +71863,6 @@ module.exports = (
   'constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf'
 ).split(',');
 
-
-/***/ }),
-
-/***/ "e20b":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_920370da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("834e");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_920370da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_920370da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vision_mission_vue_vue_type_style_index_0_id_920370da_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -63197,6 +73133,111 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
+/***/ "e886":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_27w3yd50wi = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/config.js",
+      hash = "bb31a3163df9e3aef6683b88f3b866be82026a5f",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/config.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 15
+        },
+        end: {
+          line: 3,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _module = (cov_27w3yd50wi.s[0]++, {
+  path: "/api/v2/notifications"
+});
+
+var _default = _module;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "e8df":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_2mrn8thyz9 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/index.js",
+      hash = "fdb3a9c89fa70494f6ff98ea210b6b223facd132",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _factory = _interopRequireDefault(__webpack_require__("297b"));
+
+var _default = _factory.default;
+exports.default = _default;
+
+/***/ }),
+
 /***/ "e974":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -63408,6 +73449,203 @@ exports.default = {
 
 /***/ }),
 
+/***/ "ebbd":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_1g2rjl0f3a = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/factory.js",
+      hash = "eee6a1ba2fcac42d7e990d541024f8af5bdf6b9b",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/factory.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 8,
+          column: 16
+        },
+        end: {
+          line: 8,
+          column: 32
+        }
+      },
+      "1": {
+        start: {
+          line: 10,
+          column: 4
+        },
+        end: {
+          line: 25,
+          column: 5
+        }
+      },
+      "2": {
+        start: {
+          line: 13,
+          column: 12
+        },
+        end: {
+          line: 16,
+          column: 14
+        }
+      },
+      "3": {
+        start: {
+          line: 19,
+          column: 12
+        },
+        end: {
+          line: 23,
+          column: 14
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 6,
+            column: 16
+          },
+          end: {
+            line: 6,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 6,
+            column: 22
+          },
+          end: {
+            line: 26,
+            column: 1
+          }
+        },
+        line: 6
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 23
+          },
+          end: {
+            line: 12,
+            column: 24
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 29
+          },
+          end: {
+            line: 17,
+            column: 9
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 18,
+            column: 28
+          },
+          end: {
+            line: 18,
+            column: 29
+          }
+        },
+        loc: {
+          start: {
+            line: 18,
+            column: 43
+          },
+          end: {
+            line: 24,
+            column: 9
+          }
+        },
+        line: 18
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = __webpack_require__("496d");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _config = _interopRequireDefault(__webpack_require__("8c90"));
+
+var _network_builder = __webpack_require__("b8e7");
+
+var _default = function _default() {
+  cov_1g2rjl0f3a.f[0]++;
+  // Tạo url: base + path
+  var url = (cov_1g2rjl0f3a.s[0]++, "".concat(_config.default.path));
+  cov_1g2rjl0f3a.s[1]++;
+  return {
+    url: url,
+    getInitialOrg: function getInitialOrg() {
+      cov_1g2rjl0f3a.f[1]++;
+      cov_1g2rjl0f3a.s[2]++;
+      return (0, _network_builder.buildPromise)({
+        httpMethod: 'GET',
+        url: url
+      });
+    },
+    updateOrganization: function updateOrganization(orgObject) {
+      cov_1g2rjl0f3a.f[2]++;
+      cov_1g2rjl0f3a.s[3]++;
+      return (0, _network_builder.buildPromise)({
+        httpMethod: 'POST',
+        url: url,
+        data: JSON.stringify(orgObject)
+      });
+    }
+  };
+};
+
+exports.default = _default;
+
+/***/ }),
+
 /***/ "ebd6":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -63481,6 +73719,237 @@ var meta = module.exports = {
   onFreeze: onFreeze
 };
 
+
+/***/ }),
+
+/***/ "ecef":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_27rnij47lf = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue",
+      hash = "5a647244431d7bbe584c69e046eaf3bb4b6d1a6d",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue",
+    statementMap: {
+      "0": {
+        start: {
+          line: 39,
+          column: 6
+        },
+        end: {
+          line: 39,
+          column: 26
+        }
+      },
+      "1": {
+        start: {
+          line: 45,
+          column: 6
+        },
+        end: {
+          line: 48,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 52,
+          column: 6
+        },
+        end: {
+          line: 56,
+          column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 53,
+          column: 8
+        },
+        end: {
+          line: 53,
+          column: 19
+        }
+      },
+      "4": {
+        start: {
+          line: 55,
+          column: 8
+        },
+        end: {
+          line: 55,
+          column: 37
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 47,
+            column: 8
+          },
+          end: {
+            line: 47,
+            column: 64
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 47,
+            column: 24
+          },
+          end: {
+            line: 47,
+            column: 59
+          }
+        }, {
+          start: {
+            line: 47,
+            column: 62
+          },
+          end: {
+            line: 47,
+            column: 64
+          }
+        }],
+        line: 47
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 52,
+            column: 6
+          },
+          end: {
+            line: 56,
+            column: 7
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 52,
+            column: 6
+          },
+          end: {
+            line: 56,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 52,
+            column: 6
+          },
+          end: {
+            line: 56,
+            column: 7
+          }
+        }],
+        line: 52
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {},
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+__webpack_require__("c5f6");
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  props: {
+    /**
+     * Số lượng notification sẽ được hiển thị
+     * Business:
+     * Nếu nhỏ hơn hoặc bằng 9 hiển thị bình thường
+     * Nếu lớn hơn 9 hiển thị 9+
+     */
+    notificationCount: {
+      type: Number
+    },
+
+    /**
+     * Bind class toggle to button
+     * Apply style for state [hover, active, normal]
+     */
+    isToggle: {
+      type: Boolean
+    }
+  },
+  methods: {
+    notificationBellOnClick: function notificationBellOnClick() {
+      cov_27rnij47lf.s[0]++;
+
+      /**
+       * Event khi click vào cái chuông
+       * @event click
+       * @type {Undefined}
+       */
+      this.$emit("click");
+    }
+  },
+  computed: {
+    notificationBellButtonClass: function notificationBellButtonClass() {
+      cov_27rnij47lf.s[1]++;
+      return ['notification_bell__button', this.isToggle ? (cov_27rnij47lf.b[0][0]++, 'notification_bell__button--toggle') : (cov_27rnij47lf.b[0][1]++, '')];
+    },
+    formatNotificationCount: function formatNotificationCount() {
+      cov_27rnij47lf.s[2]++;
+
+      if (this.notificationCount > 9) {
+        cov_27rnij47lf.b[1][0]++;
+        cov_27rnij47lf.s[3]++;
+        return "9+";
+      } else {
+        cov_27rnij47lf.b[1][1]++;
+        cov_27rnij47lf.s[4]++;
+        return this.notificationCount;
+      }
+    }
+  }
+};
+exports.default = _default;
 
 /***/ }),
 
@@ -64687,6 +75156,40 @@ module.exports = __webpack_require__("7f4d");
 
 /***/ }),
 
+/***/ "f545":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _notification_bell_vue_vue_type_template_id_6f78eede_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6b64");
+/* harmony import */ var _notification_bell_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("a2ed");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _notification_bell_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _notification_bell_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _notification_bell_vue_vue_type_style_index_0_id_6f78eede_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("d442");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("2877");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(
+  _notification_bell_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _notification_bell_vue_vue_type_template_id_6f78eede_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* render */ "a"],
+  _notification_bell_vue_vue_type_template_id_6f78eede_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* staticRenderFns */ "b"],
+  false,
+  null,
+  "6f78eede",
+  null
+  
+)
+
+component.options.__file = "notification_bell.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "f605":
 /***/ (function(module, exports) {
 
@@ -64739,6 +75242,35 @@ module.exports = __webpack_require__("584a").Symbol;
 
 /***/ }),
 
+/***/ "f93f":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=template&id=db387808&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-fluid"},[_c('div',{staticClass:"rows-table-sm text-center"},[_c('div',{staticClass:"col-sm-6 col-table-6"},[_c('div',{staticClass:"rows-table-sm"},[_c('div',{staticClass:"logo padding-top-15"},[_c('img',{attrs:{"alt":_vm.organizationObject.name,"src":_vm.organizationObject.get_logo,"title":_vm.organizationObject.name}})])]),_c('div',{staticClass:"bt-mission-box"},[_c('button',{staticClass:"btn btn-normal btn-fullwidth btn-cus-5-7 HOME_BTN_VISION",on:{"click":function($event){_vm.$modal.show('visionMissionModalName')}}},[_vm._v("\n                    "+_vm._s(_vm._f("translate")("Vision & Mission"))+"\n                ")])])]),_c('div',{staticClass:"col-sm-6 col-table-6",attrs:{"id":"performance-quater"}},[_c('div',[_c('span',{staticClass:"com-per-title"},[_vm._v(_vm._s(_vm._f("translate")("Performance"))+" - "+_vm._s(_vm._f("translate")("Quarter"))+"\n                    "),_c('span',[_vm._v(_vm._s(_vm.quarterPeriod.quarter))])]),_c('br'),_c('span',{staticClass:"com-per-pecent"},[_c('span',{attrs:{"id":"company-performance-quarter"}},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.kpi_percent)))]),_c('span',{staticClass:"per-com-unit"})])])])])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=template&id=db387808&scoped=true&
+/* concated harmony reexport render */__webpack_require__.d(__webpack_exports__, "a", function() { return render; });
+/* concated harmony reexport staticRenderFns */__webpack_require__.d(__webpack_exports__, "b", function() { return staticRenderFns; });
+
+
+/***/ }),
+
+/***/ "f9eb":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_performance_table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("fe66");
+/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_performance_table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_performance_table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_performance_table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_performance_table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_cache_loader_dist_cjs_js_ref_12_0_node_modules_thread_loader_dist_cjs_js_node_modules_babel_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_performance_table_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "fa13":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -64760,1188 +75292,110 @@ module.exports = document && document.documentElement;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _setPublicPath__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("1eb2");
+/* harmony import */ var _setPublicPath__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_setPublicPath__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _entry__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("56d7");
+/* harmony import */ var _entry__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_entry__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _entry__WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _entry__WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
-// EXTERNAL MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
-var setPublicPath = __webpack_require__("1eb2");
 
-// EXTERNAL MODULE: ./src/assets/cloudjet_ui.scss
-var cloudjet_ui = __webpack_require__("881a");
 
-// EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
-var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
-var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
 
-// EXTERNAL MODULE: ./node_modules/vue-js-modal/dist/index.js
-var dist = __webpack_require__("1881");
-var dist_default = /*#__PURE__*/__webpack_require__.n(dist);
+/***/ }),
 
-// EXTERNAL MODULE: ./node_modules/element-ui/lib/element-ui.common.js
-var element_ui_common = __webpack_require__("5c96");
-var element_ui_common_default = /*#__PURE__*/__webpack_require__.n(element_ui_common);
+/***/ "fce9":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// EXTERNAL MODULE: ./node_modules/element-ui/lib/theme-chalk/index.css
-var theme_chalk = __webpack_require__("0fae");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _notification_item_vue_vue_type_template_id_253ace0c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("243f");
+/* harmony import */ var _notification_item_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("a9ec");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _notification_item_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _notification_item_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _notification_item_vue_vue_type_style_index_0_id_253ace0c_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("07d1");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("2877");
 
-// EXTERNAL MODULE: ./node_modules/element-ui/lib/locale/lang/en.js
-var en = __webpack_require__("b2d6");
-var en_default = /*#__PURE__*/__webpack_require__.n(en);
 
-// EXTERNAL MODULE: ./node_modules/jquery/dist/jquery.js
-var jquery = __webpack_require__("1157");
-var jquery_default = /*#__PURE__*/__webpack_require__.n(jquery);
 
-// CONCATENATED MODULE: ./src/registry/core/registry_external_lib.js
-var cov_2j2d556a1j = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_external_lib.js",
-      hash = "96b87e8ef6b04967ba873040ba7478677c9f38ff",
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(
+  _notification_item_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _notification_item_vue_vue_type_template_id_253ace0c_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* render */ "a"],
+  _notification_item_vue_vue_type_template_id_253ace0c_scoped_true___WEBPACK_IMPORTED_MODULE_0__[/* staticRenderFns */ "b"],
+  false,
+  null,
+  "253ace0c",
+  null
+  
+)
+
+component.options.__file = "notification_item.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "fcf0":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=template&id=e1196634&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-fluid text-left due-box"},[_c('div',{staticClass:"col-sm-6",attrs:{"id":""}},[_c('div',[_vm._v(_vm._s(_vm._f("translate")("Due")))]),_c('div',[_vm._v(_vm._s(_vm._f("translate")("Allow review")))])]),_c('div',{staticClass:"col-sm-6 due-date-color"},[_c('div',[_vm._v(_vm._s(_vm._f("dateTimeFormat")(_vm.quarterPeriod.due_date)))]),(_vm.isAdmin)?_c('div',[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.monthlyReviewLock),expression:"monthlyReviewLock"}],staticClass:"HOME_DDL_ALLOW_MONTH",on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.monthlyReviewLock=$event.target.multiple ? $$selectedVal : $$selectedVal[0]}}},[_c('option',{attrs:{"value":"allow_all"}},[_vm._v(_vm._s(_vm._f("translate")("All months")))]),_c('option',{attrs:{"value":"1"}},[_vm._v(_vm._s(_vm.quarterPeriod.month_1_name))]),_c('option',{attrs:{"value":"2"}},[_vm._v(_vm._s(_vm.quarterPeriod.month_2_name))]),_c('option',{attrs:{"value":"3"}},[_vm._v(_vm._s(_vm.quarterPeriod.month_3_name))])])]):_c('div',[_c('span',[_vm._v(" "+_vm._s(_vm.displayMonthlyReviewLock))])])])])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=template&id=e1196634&scoped=true&
+/* concated harmony reexport render */__webpack_require__.d(__webpack_exports__, "a", function() { return render; });
+/* concated harmony reexport staticRenderFns */__webpack_require__.d(__webpack_exports__, "b", function() { return staticRenderFns; });
+
+
+/***/ }),
+
+/***/ "fdef":
+/***/ (function(module, exports) {
+
+module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u2003' +
+  '\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000\u2028\u2029\uFEFF';
+
+
+/***/ }),
+
+/***/ "fe66":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var cov_1aypy9zr56 = function () {
+  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue",
+      hash = "55087447c610a0b3d4f34df751e3052a176bbe77",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
       coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_external_lib.js",
+    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue",
     statementMap: {
       "0": {
         start: {
-          line: 10,
-          column: 0
-        },
-        end: {
-          line: 10,
-          column: 28
-        }
-      },
-      "1": {
-        start: {
-          line: 14,
-          column: 0
-        },
-        end: {
-          line: 14,
-          column: 18
-        }
-      },
-      "2": {
-        start: {
-          line: 15,
-          column: 0
-        },
-        end: {
-          line: 15,
-          column: 13
-        }
-      },
-      "3": {
-        start: {
-          line: 19,
-          column: 0
-        },
-        end: {
-          line: 19,
-          column: 61
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-/* eslint-disable */
-
-
-/* import element ui */
-
-
-
-
-cov_2j2d556a1j.s[0]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.use(element_ui_common_default.a, {
-  locale: en_default.a
-});
-/* import jquery */
-
-
-cov_2j2d556a1j.s[1]++;
-window._jQuery = jquery_default.a;
-cov_2j2d556a1j.s[2]++;
-window._$ = jquery_default.a;
-/* using Vuejs Modal */
-
-cov_2j2d556a1j.s[3]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.use(dist_default.a, {
-  dynamic: true,
-  injectModalsContainer: true
-});
-/* import bootstrap */
-// require('bootstrap')
-// require('bootstrap/dist/css/bootstrap-theme.min.css')
-// require('bootstrap/dist/css/bootstrap.min.css')
-
-/* bootstrap will be used global first */
-// EXTERNAL MODULE: ./src/sdk/network/core/cloudjet_request/index.js + 4 modules
-var cloudjet_request = __webpack_require__("a682");
-
-// CONCATENATED MODULE: ./src/registry/core/registry_network.js
-var cov_2g76l09fuh = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_network.js",
-      hash = "7c03948c85dfcc27942eafdcff12d90edd45b527",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_network.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 5,
-          column: 10
-        },
-        end: {
-          line: 5,
-          column: 16
-        }
-      },
-      "1": {
-        start: {
-          line: 7,
-          column: 0
-        },
-        end: {
-          line: 7,
-          column: 48
-        }
-      },
-      "2": {
-        start: {
-          line: 8,
-          column: 0
-        },
-        end: {
-          line: 8,
-          column: 19
-        }
-      },
-      "3": {
-        start: {
-          line: 9,
-          column: 0
-        },
-        end: {
-          line: 9,
+          line: 40,
           column: 29
-        }
-      },
-      "4": {
-        start: {
-          line: 10,
-          column: 0
         },
         end: {
-          line: 10,
-          column: 40
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-/* eslint-disable */
-
-
-
-var $ = (cov_2g76l09fuh.s[0]++, jquery_default.a);
-cov_2g76l09fuh.s[1]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.$cloudjetRequest = cloudjet_request["a" /* cloudjetRequest */];
-cov_2g76l09fuh.s[2]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.$ = $;
-cov_2g76l09fuh.s[3]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.jQuery = jquery_default.a;
-cov_2g76l09fuh.s[4]++;
-window.cloudjetRequest = cloudjet_request["a" /* cloudjetRequest */];
-// EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
-var runtime = __webpack_require__("96cf");
-
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/asyncToGenerator.js
-function _asyncToGenerator(fn) {
-  return function () {
-    var self = this,
-        args = arguments;
-    return new Promise(function (resolve, reject) {
-      var gen = fn.apply(self, args);
-
-      function step(key, arg) {
-        try {
-          var info = gen[key](arg);
-          var value = info.value;
-        } catch (error) {
-          reject(error);
-          return;
-        }
-
-        if (info.done) {
-          resolve(value);
-        } else {
-          Promise.resolve(value).then(_next, _throw);
-        }
-      }
-
-      function _next(value) {
-        step("next", value);
-      }
-
-      function _throw(err) {
-        step("throw", err);
-      }
-
-      _next();
-    });
-  };
-}
-// CONCATENATED MODULE: ./node_modules/vuex/dist/vuex.esm.js
-/**
- * vuex v3.0.1
- * (c) 2017 Evan You
- * @license MIT
- */
-var applyMixin = function (Vue) {
-  var version = Number(Vue.version.split('.')[0]);
-
-  if (version >= 2) {
-    Vue.mixin({ beforeCreate: vuexInit });
-  } else {
-    // override init and inject vuex init procedure
-    // for 1.x backwards compatibility.
-    var _init = Vue.prototype._init;
-    Vue.prototype._init = function (options) {
-      if ( options === void 0 ) options = {};
-
-      options.init = options.init
-        ? [vuexInit].concat(options.init)
-        : vuexInit;
-      _init.call(this, options);
-    };
-  }
-
-  /**
-   * Vuex init hook, injected into each instances init hooks list.
-   */
-
-  function vuexInit () {
-    var options = this.$options;
-    // store injection
-    if (options.store) {
-      this.$store = typeof options.store === 'function'
-        ? options.store()
-        : options.store;
-    } else if (options.parent && options.parent.$store) {
-      this.$store = options.parent.$store;
-    }
-  }
-};
-
-var devtoolHook =
-  typeof window !== 'undefined' &&
-  window.__VUE_DEVTOOLS_GLOBAL_HOOK__;
-
-function devtoolPlugin (store) {
-  if (!devtoolHook) { return }
-
-  store._devtoolHook = devtoolHook;
-
-  devtoolHook.emit('vuex:init', store);
-
-  devtoolHook.on('vuex:travel-to-state', function (targetState) {
-    store.replaceState(targetState);
-  });
-
-  store.subscribe(function (mutation, state) {
-    devtoolHook.emit('vuex:mutation', mutation, state);
-  });
-}
-
-/**
- * Get the first item that pass the test
- * by second argument function
- *
- * @param {Array} list
- * @param {Function} f
- * @return {*}
- */
-/**
- * Deep copy the given object considering circular structure.
- * This function caches all nested objects and its copies.
- * If it detects circular structure, use cached copy to avoid infinite loop.
- *
- * @param {*} obj
- * @param {Array<Object>} cache
- * @return {*}
- */
-
-
-/**
- * forEach for object
- */
-function forEachValue (obj, fn) {
-  Object.keys(obj).forEach(function (key) { return fn(obj[key], key); });
-}
-
-function isObject (obj) {
-  return obj !== null && typeof obj === 'object'
-}
-
-function isPromise (val) {
-  return val && typeof val.then === 'function'
-}
-
-function assert (condition, msg) {
-  if (!condition) { throw new Error(("[vuex] " + msg)) }
-}
-
-var Module = function Module (rawModule, runtime) {
-  this.runtime = runtime;
-  this._children = Object.create(null);
-  this._rawModule = rawModule;
-  var rawState = rawModule.state;
-  this.state = (typeof rawState === 'function' ? rawState() : rawState) || {};
-};
-
-var prototypeAccessors$1 = { namespaced: { configurable: true } };
-
-prototypeAccessors$1.namespaced.get = function () {
-  return !!this._rawModule.namespaced
-};
-
-Module.prototype.addChild = function addChild (key, module) {
-  this._children[key] = module;
-};
-
-Module.prototype.removeChild = function removeChild (key) {
-  delete this._children[key];
-};
-
-Module.prototype.getChild = function getChild (key) {
-  return this._children[key]
-};
-
-Module.prototype.update = function update (rawModule) {
-  this._rawModule.namespaced = rawModule.namespaced;
-  if (rawModule.actions) {
-    this._rawModule.actions = rawModule.actions;
-  }
-  if (rawModule.mutations) {
-    this._rawModule.mutations = rawModule.mutations;
-  }
-  if (rawModule.getters) {
-    this._rawModule.getters = rawModule.getters;
-  }
-};
-
-Module.prototype.forEachChild = function forEachChild (fn) {
-  forEachValue(this._children, fn);
-};
-
-Module.prototype.forEachGetter = function forEachGetter (fn) {
-  if (this._rawModule.getters) {
-    forEachValue(this._rawModule.getters, fn);
-  }
-};
-
-Module.prototype.forEachAction = function forEachAction (fn) {
-  if (this._rawModule.actions) {
-    forEachValue(this._rawModule.actions, fn);
-  }
-};
-
-Module.prototype.forEachMutation = function forEachMutation (fn) {
-  if (this._rawModule.mutations) {
-    forEachValue(this._rawModule.mutations, fn);
-  }
-};
-
-Object.defineProperties( Module.prototype, prototypeAccessors$1 );
-
-var ModuleCollection = function ModuleCollection (rawRootModule) {
-  // register root module (Vuex.Store options)
-  this.register([], rawRootModule, false);
-};
-
-ModuleCollection.prototype.get = function get (path) {
-  return path.reduce(function (module, key) {
-    return module.getChild(key)
-  }, this.root)
-};
-
-ModuleCollection.prototype.getNamespace = function getNamespace (path) {
-  var module = this.root;
-  return path.reduce(function (namespace, key) {
-    module = module.getChild(key);
-    return namespace + (module.namespaced ? key + '/' : '')
-  }, '')
-};
-
-ModuleCollection.prototype.update = function update$1 (rawRootModule) {
-  update([], this.root, rawRootModule);
-};
-
-ModuleCollection.prototype.register = function register (path, rawModule, runtime) {
-    var this$1 = this;
-    if ( runtime === void 0 ) runtime = true;
-
-  if (false) {}
-
-  var newModule = new Module(rawModule, runtime);
-  if (path.length === 0) {
-    this.root = newModule;
-  } else {
-    var parent = this.get(path.slice(0, -1));
-    parent.addChild(path[path.length - 1], newModule);
-  }
-
-  // register nested modules
-  if (rawModule.modules) {
-    forEachValue(rawModule.modules, function (rawChildModule, key) {
-      this$1.register(path.concat(key), rawChildModule, runtime);
-    });
-  }
-};
-
-ModuleCollection.prototype.unregister = function unregister (path) {
-  var parent = this.get(path.slice(0, -1));
-  var key = path[path.length - 1];
-  if (!parent.getChild(key).runtime) { return }
-
-  parent.removeChild(key);
-};
-
-function update (path, targetModule, newModule) {
-  if (false) {}
-
-  // update target module
-  targetModule.update(newModule);
-
-  // update nested modules
-  if (newModule.modules) {
-    for (var key in newModule.modules) {
-      if (!targetModule.getChild(key)) {
-        if (false) {}
-        return
-      }
-      update(
-        path.concat(key),
-        targetModule.getChild(key),
-        newModule.modules[key]
-      );
-    }
-  }
-}
-
-var functionAssert = {
-  assert: function (value) { return typeof value === 'function'; },
-  expected: 'function'
-};
-
-var objectAssert = {
-  assert: function (value) { return typeof value === 'function' ||
-    (typeof value === 'object' && typeof value.handler === 'function'); },
-  expected: 'function or object with "handler" function'
-};
-
-var assertTypes = {
-  getters: functionAssert,
-  mutations: functionAssert,
-  actions: objectAssert
-};
-
-function assertRawModule (path, rawModule) {
-  Object.keys(assertTypes).forEach(function (key) {
-    if (!rawModule[key]) { return }
-
-    var assertOptions = assertTypes[key];
-
-    forEachValue(rawModule[key], function (value, type) {
-      assert(
-        assertOptions.assert(value),
-        makeAssertionMessage(path, key, type, value, assertOptions.expected)
-      );
-    });
-  });
-}
-
-function makeAssertionMessage (path, key, type, value, expected) {
-  var buf = key + " should be " + expected + " but \"" + key + "." + type + "\"";
-  if (path.length > 0) {
-    buf += " in module \"" + (path.join('.')) + "\"";
-  }
-  buf += " is " + (JSON.stringify(value)) + ".";
-  return buf
-}
-
-var Vue; // bind on install
-
-var Store = function Store (options) {
-  var this$1 = this;
-  if ( options === void 0 ) options = {};
-
-  // Auto install if it is not done yet and `window` has `Vue`.
-  // To allow users to avoid auto-installation in some cases,
-  // this code should be placed here. See #731
-  if (!Vue && typeof window !== 'undefined' && window.Vue) {
-    install(window.Vue);
-  }
-
-  if (false) {}
-
-  var plugins = options.plugins; if ( plugins === void 0 ) plugins = [];
-  var strict = options.strict; if ( strict === void 0 ) strict = false;
-
-  var state = options.state; if ( state === void 0 ) state = {};
-  if (typeof state === 'function') {
-    state = state() || {};
-  }
-
-  // store internal state
-  this._committing = false;
-  this._actions = Object.create(null);
-  this._actionSubscribers = [];
-  this._mutations = Object.create(null);
-  this._wrappedGetters = Object.create(null);
-  this._modules = new ModuleCollection(options);
-  this._modulesNamespaceMap = Object.create(null);
-  this._subscribers = [];
-  this._watcherVM = new Vue();
-
-  // bind commit and dispatch to self
-  var store = this;
-  var ref = this;
-  var dispatch = ref.dispatch;
-  var commit = ref.commit;
-  this.dispatch = function boundDispatch (type, payload) {
-    return dispatch.call(store, type, payload)
-  };
-  this.commit = function boundCommit (type, payload, options) {
-    return commit.call(store, type, payload, options)
-  };
-
-  // strict mode
-  this.strict = strict;
-
-  // init root module.
-  // this also recursively registers all sub-modules
-  // and collects all module getters inside this._wrappedGetters
-  installModule(this, state, [], this._modules.root);
-
-  // initialize the store vm, which is responsible for the reactivity
-  // (also registers _wrappedGetters as computed properties)
-  resetStoreVM(this, state);
-
-  // apply plugins
-  plugins.forEach(function (plugin) { return plugin(this$1); });
-
-  if (Vue.config.devtools) {
-    devtoolPlugin(this);
-  }
-};
-
-var prototypeAccessors = { state: { configurable: true } };
-
-prototypeAccessors.state.get = function () {
-  return this._vm._data.$$state
-};
-
-prototypeAccessors.state.set = function (v) {
-  if (false) {}
-};
-
-Store.prototype.commit = function commit (_type, _payload, _options) {
-    var this$1 = this;
-
-  // check object-style commit
-  var ref = unifyObjectStyle(_type, _payload, _options);
-    var type = ref.type;
-    var payload = ref.payload;
-    var options = ref.options;
-
-  var mutation = { type: type, payload: payload };
-  var entry = this._mutations[type];
-  if (!entry) {
-    if (false) {}
-    return
-  }
-  this._withCommit(function () {
-    entry.forEach(function commitIterator (handler) {
-      handler(payload);
-    });
-  });
-  this._subscribers.forEach(function (sub) { return sub(mutation, this$1.state); });
-
-  if (
-    false
-  ) {}
-};
-
-Store.prototype.dispatch = function dispatch (_type, _payload) {
-    var this$1 = this;
-
-  // check object-style dispatch
-  var ref = unifyObjectStyle(_type, _payload);
-    var type = ref.type;
-    var payload = ref.payload;
-
-  var action = { type: type, payload: payload };
-  var entry = this._actions[type];
-  if (!entry) {
-    if (false) {}
-    return
-  }
-
-  this._actionSubscribers.forEach(function (sub) { return sub(action, this$1.state); });
-
-  return entry.length > 1
-    ? Promise.all(entry.map(function (handler) { return handler(payload); }))
-    : entry[0](payload)
-};
-
-Store.prototype.subscribe = function subscribe (fn) {
-  return genericSubscribe(fn, this._subscribers)
-};
-
-Store.prototype.subscribeAction = function subscribeAction (fn) {
-  return genericSubscribe(fn, this._actionSubscribers)
-};
-
-Store.prototype.watch = function watch (getter, cb, options) {
-    var this$1 = this;
-
-  if (false) {}
-  return this._watcherVM.$watch(function () { return getter(this$1.state, this$1.getters); }, cb, options)
-};
-
-Store.prototype.replaceState = function replaceState (state) {
-    var this$1 = this;
-
-  this._withCommit(function () {
-    this$1._vm._data.$$state = state;
-  });
-};
-
-Store.prototype.registerModule = function registerModule (path, rawModule, options) {
-    if ( options === void 0 ) options = {};
-
-  if (typeof path === 'string') { path = [path]; }
-
-  if (false) {}
-
-  this._modules.register(path, rawModule);
-  installModule(this, this.state, path, this._modules.get(path), options.preserveState);
-  // reset store to update getters...
-  resetStoreVM(this, this.state);
-};
-
-Store.prototype.unregisterModule = function unregisterModule (path) {
-    var this$1 = this;
-
-  if (typeof path === 'string') { path = [path]; }
-
-  if (false) {}
-
-  this._modules.unregister(path);
-  this._withCommit(function () {
-    var parentState = getNestedState(this$1.state, path.slice(0, -1));
-    Vue.delete(parentState, path[path.length - 1]);
-  });
-  resetStore(this);
-};
-
-Store.prototype.hotUpdate = function hotUpdate (newOptions) {
-  this._modules.update(newOptions);
-  resetStore(this, true);
-};
-
-Store.prototype._withCommit = function _withCommit (fn) {
-  var committing = this._committing;
-  this._committing = true;
-  fn();
-  this._committing = committing;
-};
-
-Object.defineProperties( Store.prototype, prototypeAccessors );
-
-function genericSubscribe (fn, subs) {
-  if (subs.indexOf(fn) < 0) {
-    subs.push(fn);
-  }
-  return function () {
-    var i = subs.indexOf(fn);
-    if (i > -1) {
-      subs.splice(i, 1);
-    }
-  }
-}
-
-function resetStore (store, hot) {
-  store._actions = Object.create(null);
-  store._mutations = Object.create(null);
-  store._wrappedGetters = Object.create(null);
-  store._modulesNamespaceMap = Object.create(null);
-  var state = store.state;
-  // init all modules
-  installModule(store, state, [], store._modules.root, true);
-  // reset vm
-  resetStoreVM(store, state, hot);
-}
-
-function resetStoreVM (store, state, hot) {
-  var oldVm = store._vm;
-
-  // bind store public getters
-  store.getters = {};
-  var wrappedGetters = store._wrappedGetters;
-  var computed = {};
-  forEachValue(wrappedGetters, function (fn, key) {
-    // use computed to leverage its lazy-caching mechanism
-    computed[key] = function () { return fn(store); };
-    Object.defineProperty(store.getters, key, {
-      get: function () { return store._vm[key]; },
-      enumerable: true // for local getters
-    });
-  });
-
-  // use a Vue instance to store the state tree
-  // suppress warnings just in case the user has added
-  // some funky global mixins
-  var silent = Vue.config.silent;
-  Vue.config.silent = true;
-  store._vm = new Vue({
-    data: {
-      $$state: state
-    },
-    computed: computed
-  });
-  Vue.config.silent = silent;
-
-  // enable strict mode for new vm
-  if (store.strict) {
-    enableStrictMode(store);
-  }
-
-  if (oldVm) {
-    if (hot) {
-      // dispatch changes in all subscribed watchers
-      // to force getter re-evaluation for hot reloading.
-      store._withCommit(function () {
-        oldVm._data.$$state = null;
-      });
-    }
-    Vue.nextTick(function () { return oldVm.$destroy(); });
-  }
-}
-
-function installModule (store, rootState, path, module, hot) {
-  var isRoot = !path.length;
-  var namespace = store._modules.getNamespace(path);
-
-  // register in namespace map
-  if (module.namespaced) {
-    store._modulesNamespaceMap[namespace] = module;
-  }
-
-  // set state
-  if (!isRoot && !hot) {
-    var parentState = getNestedState(rootState, path.slice(0, -1));
-    var moduleName = path[path.length - 1];
-    store._withCommit(function () {
-      Vue.set(parentState, moduleName, module.state);
-    });
-  }
-
-  var local = module.context = makeLocalContext(store, namespace, path);
-
-  module.forEachMutation(function (mutation, key) {
-    var namespacedType = namespace + key;
-    registerMutation(store, namespacedType, mutation, local);
-  });
-
-  module.forEachAction(function (action, key) {
-    var type = action.root ? key : namespace + key;
-    var handler = action.handler || action;
-    registerAction(store, type, handler, local);
-  });
-
-  module.forEachGetter(function (getter, key) {
-    var namespacedType = namespace + key;
-    registerGetter(store, namespacedType, getter, local);
-  });
-
-  module.forEachChild(function (child, key) {
-    installModule(store, rootState, path.concat(key), child, hot);
-  });
-}
-
-/**
- * make localized dispatch, commit, getters and state
- * if there is no namespace, just use root ones
- */
-function makeLocalContext (store, namespace, path) {
-  var noNamespace = namespace === '';
-
-  var local = {
-    dispatch: noNamespace ? store.dispatch : function (_type, _payload, _options) {
-      var args = unifyObjectStyle(_type, _payload, _options);
-      var payload = args.payload;
-      var options = args.options;
-      var type = args.type;
-
-      if (!options || !options.root) {
-        type = namespace + type;
-        if (false) {}
-      }
-
-      return store.dispatch(type, payload)
-    },
-
-    commit: noNamespace ? store.commit : function (_type, _payload, _options) {
-      var args = unifyObjectStyle(_type, _payload, _options);
-      var payload = args.payload;
-      var options = args.options;
-      var type = args.type;
-
-      if (!options || !options.root) {
-        type = namespace + type;
-        if (false) {}
-      }
-
-      store.commit(type, payload, options);
-    }
-  };
-
-  // getters and state object must be gotten lazily
-  // because they will be changed by vm update
-  Object.defineProperties(local, {
-    getters: {
-      get: noNamespace
-        ? function () { return store.getters; }
-        : function () { return makeLocalGetters(store, namespace); }
-    },
-    state: {
-      get: function () { return getNestedState(store.state, path); }
-    }
-  });
-
-  return local
-}
-
-function makeLocalGetters (store, namespace) {
-  var gettersProxy = {};
-
-  var splitPos = namespace.length;
-  Object.keys(store.getters).forEach(function (type) {
-    // skip if the target getter is not match this namespace
-    if (type.slice(0, splitPos) !== namespace) { return }
-
-    // extract local getter type
-    var localType = type.slice(splitPos);
-
-    // Add a port to the getters proxy.
-    // Define as getter property because
-    // we do not want to evaluate the getters in this time.
-    Object.defineProperty(gettersProxy, localType, {
-      get: function () { return store.getters[type]; },
-      enumerable: true
-    });
-  });
-
-  return gettersProxy
-}
-
-function registerMutation (store, type, handler, local) {
-  var entry = store._mutations[type] || (store._mutations[type] = []);
-  entry.push(function wrappedMutationHandler (payload) {
-    handler.call(store, local.state, payload);
-  });
-}
-
-function registerAction (store, type, handler, local) {
-  var entry = store._actions[type] || (store._actions[type] = []);
-  entry.push(function wrappedActionHandler (payload, cb) {
-    var res = handler.call(store, {
-      dispatch: local.dispatch,
-      commit: local.commit,
-      getters: local.getters,
-      state: local.state,
-      rootGetters: store.getters,
-      rootState: store.state
-    }, payload, cb);
-    if (!isPromise(res)) {
-      res = Promise.resolve(res);
-    }
-    if (store._devtoolHook) {
-      return res.catch(function (err) {
-        store._devtoolHook.emit('vuex:error', err);
-        throw err
-      })
-    } else {
-      return res
-    }
-  });
-}
-
-function registerGetter (store, type, rawGetter, local) {
-  if (store._wrappedGetters[type]) {
-    if (false) {}
-    return
-  }
-  store._wrappedGetters[type] = function wrappedGetter (store) {
-    return rawGetter(
-      local.state, // local state
-      local.getters, // local getters
-      store.state, // root state
-      store.getters // root getters
-    )
-  };
-}
-
-function enableStrictMode (store) {
-  store._vm.$watch(function () { return this._data.$$state }, function () {
-    if (false) {}
-  }, { deep: true, sync: true });
-}
-
-function getNestedState (state, path) {
-  return path.length
-    ? path.reduce(function (state, key) { return state[key]; }, state)
-    : state
-}
-
-function unifyObjectStyle (type, payload, options) {
-  if (isObject(type) && type.type) {
-    options = payload;
-    payload = type;
-    type = type.type;
-  }
-
-  if (false) {}
-
-  return { type: type, payload: payload, options: options }
-}
-
-function install (_Vue) {
-  if (Vue && _Vue === Vue) {
-    if (false) {}
-    return
-  }
-  Vue = _Vue;
-  applyMixin(Vue);
-}
-
-var mapState = normalizeNamespace(function (namespace, states) {
-  var res = {};
-  normalizeMap(states).forEach(function (ref) {
-    var key = ref.key;
-    var val = ref.val;
-
-    res[key] = function mappedState () {
-      var state = this.$store.state;
-      var getters = this.$store.getters;
-      if (namespace) {
-        var module = getModuleByNamespace(this.$store, 'mapState', namespace);
-        if (!module) {
-          return
-        }
-        state = module.context.state;
-        getters = module.context.getters;
-      }
-      return typeof val === 'function'
-        ? val.call(this, state, getters)
-        : state[val]
-    };
-    // mark vuex getter for devtools
-    res[key].vuex = true;
-  });
-  return res
-});
-
-var mapMutations = normalizeNamespace(function (namespace, mutations) {
-  var res = {};
-  normalizeMap(mutations).forEach(function (ref) {
-    var key = ref.key;
-    var val = ref.val;
-
-    res[key] = function mappedMutation () {
-      var args = [], len = arguments.length;
-      while ( len-- ) args[ len ] = arguments[ len ];
-
-      var commit = this.$store.commit;
-      if (namespace) {
-        var module = getModuleByNamespace(this.$store, 'mapMutations', namespace);
-        if (!module) {
-          return
-        }
-        commit = module.context.commit;
-      }
-      return typeof val === 'function'
-        ? val.apply(this, [commit].concat(args))
-        : commit.apply(this.$store, [val].concat(args))
-    };
-  });
-  return res
-});
-
-var mapGetters = normalizeNamespace(function (namespace, getters) {
-  var res = {};
-  normalizeMap(getters).forEach(function (ref) {
-    var key = ref.key;
-    var val = ref.val;
-
-    val = namespace + val;
-    res[key] = function mappedGetter () {
-      if (namespace && !getModuleByNamespace(this.$store, 'mapGetters', namespace)) {
-        return
-      }
-      if (false) {}
-      return this.$store.getters[val]
-    };
-    // mark vuex getter for devtools
-    res[key].vuex = true;
-  });
-  return res
-});
-
-var mapActions = normalizeNamespace(function (namespace, actions) {
-  var res = {};
-  normalizeMap(actions).forEach(function (ref) {
-    var key = ref.key;
-    var val = ref.val;
-
-    res[key] = function mappedAction () {
-      var args = [], len = arguments.length;
-      while ( len-- ) args[ len ] = arguments[ len ];
-
-      var dispatch = this.$store.dispatch;
-      if (namespace) {
-        var module = getModuleByNamespace(this.$store, 'mapActions', namespace);
-        if (!module) {
-          return
-        }
-        dispatch = module.context.dispatch;
-      }
-      return typeof val === 'function'
-        ? val.apply(this, [dispatch].concat(args))
-        : dispatch.apply(this.$store, [val].concat(args))
-    };
-  });
-  return res
-});
-
-var createNamespacedHelpers = function (namespace) { return ({
-  mapState: mapState.bind(null, namespace),
-  mapGetters: mapGetters.bind(null, namespace),
-  mapMutations: mapMutations.bind(null, namespace),
-  mapActions: mapActions.bind(null, namespace)
-}); };
-
-function normalizeMap (map) {
-  return Array.isArray(map)
-    ? map.map(function (key) { return ({ key: key, val: key }); })
-    : Object.keys(map).map(function (key) { return ({ key: key, val: map[key] }); })
-}
-
-function normalizeNamespace (fn) {
-  return function (namespace, map) {
-    if (typeof namespace !== 'string') {
-      map = namespace;
-      namespace = '';
-    } else if (namespace.charAt(namespace.length - 1) !== '/') {
-      namespace += '/';
-    }
-    return fn(namespace, map)
-  }
-}
-
-function getModuleByNamespace (store, helper, namespace) {
-  var module = store._modulesNamespaceMap[namespace];
-  if (false) {}
-  return module
-}
-
-var index_esm = {
-  Store: Store,
-  install: install,
-  version: '3.0.1',
-  mapState: mapState,
-  mapMutations: mapMutations,
-  mapGetters: mapGetters,
-  mapActions: mapActions,
-  createNamespacedHelpers: createNamespacedHelpers
-};
-
-
-/* harmony default export */ var vuex_esm = (index_esm);
-
-// CONCATENATED MODULE: ./src/sdk/utils/object.js
-var cov_2prkp44jx = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/object.js",
-      hash = "da4232c0e0215dc53f4872ffc2c571a6077721b2",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/object.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 1,
-          column: 27
-        },
-        end: {
-          line: 3,
-          column: 1
+          line: 40,
+          column: 38
         }
       },
       "1": {
         start: {
-          line: 2,
-          column: 4
+          line: 49,
+          column: 29
         },
         end: {
-          line: 2,
-          column: 45
+          line: 49,
+          column: 38
         }
       }
     },
@@ -65950,2446 +75404,61 @@ var cov_2prkp44jx = function () {
         name: "(anonymous_0)",
         decl: {
           start: {
-            line: 1,
-            column: 27
-          },
-          end: {
-            line: 1,
-            column: 28
-          }
-        },
-        loc: {
-          start: {
-            line: 1,
-            column: 39
-          },
-          end: {
-            line: 3,
-            column: 1
-          }
-        },
-        line: 1
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0
-    },
-    f: {
-      "0": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-cov_2prkp44jx.s[0]++;
-var cloneObject = function cloneObject(object) {
-  cov_2prkp44jx.f[0]++;
-  cov_2prkp44jx.s[1]++;
-  return JSON.parse(JSON.stringify(object));
-};
-// CONCATENATED MODULE: ./src/sdk/network/organization/config.js
-var cov_1ibm5z1xmt = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/config.js",
-      hash = "a74091770be49724141a32d02b373ac533f1a58d",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/config.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 1,
-          column: 15
-        },
-        end: {
-          line: 3,
-          column: 1
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-var config_module = (cov_1ibm5z1xmt.s[0]++, {
-  path: "/api/organization/"
-});
-/* harmony default export */ var config = (config_module);
-// EXTERNAL MODULE: ./src/sdk/network/core/network_builder/index.js
-var network_builder = __webpack_require__("b8e7");
-
-// CONCATENATED MODULE: ./src/sdk/network/organization/factory.js
-var cov_1g2rjl0f3a = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/factory.js",
-      hash = "eee6a1ba2fcac42d7e990d541024f8af5bdf6b9b",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/factory.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 8,
-          column: 16
-        },
-        end: {
-          line: 8,
-          column: 32
-        }
-      },
-      "1": {
-        start: {
-          line: 10,
-          column: 4
-        },
-        end: {
-          line: 25,
-          column: 5
-        }
-      },
-      "2": {
-        start: {
-          line: 13,
-          column: 12
-        },
-        end: {
-          line: 16,
-          column: 14
-        }
-      },
-      "3": {
-        start: {
-          line: 19,
-          column: 12
-        },
-        end: {
-          line: 23,
-          column: 14
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 6,
-            column: 16
-          },
-          end: {
-            line: 6,
-            column: 17
-          }
-        },
-        loc: {
-          start: {
-            line: 6,
-            column: 22
-          },
-          end: {
-            line: 26,
-            column: 1
-          }
-        },
-        line: 6
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 12,
-            column: 23
-          },
-          end: {
-            line: 12,
-            column: 24
-          }
-        },
-        loc: {
-          start: {
-            line: 12,
-            column: 29
-          },
-          end: {
-            line: 17,
-            column: 9
-          }
-        },
-        line: 12
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 18,
-            column: 28
-          },
-          end: {
-            line: 18,
-            column: 29
-          }
-        },
-        loc: {
-          start: {
-            line: 18,
-            column: 43
-          },
-          end: {
-            line: 24,
-            column: 9
-          }
-        },
-        line: 18
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0,
-      "2": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-/* harmony default export */ var factory = (function () {
-  cov_1g2rjl0f3a.f[0]++;
-  // Tạo url: base + path
-  var url = (cov_1g2rjl0f3a.s[0]++, "".concat(config.path));
-  cov_1g2rjl0f3a.s[1]++;
-  return {
-    url: url,
-    getInitialOrg: function getInitialOrg() {
-      cov_1g2rjl0f3a.f[1]++;
-      cov_1g2rjl0f3a.s[2]++;
-      return Object(network_builder["a" /* buildPromise */])({
-        httpMethod: 'GET',
-        url: url
-      });
-    },
-    updateOrganization: function updateOrganization(orgObject) {
-      cov_1g2rjl0f3a.f[2]++;
-      cov_1g2rjl0f3a.s[3]++;
-      return Object(network_builder["a" /* buildPromise */])({
-        httpMethod: 'POST',
-        url: url,
-        data: JSON.stringify(orgObject)
-      });
-    }
-  };
-});
-// CONCATENATED MODULE: ./src/sdk/network/organization/index.js
-var cov_fhk4n75uo = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/index.js",
-      hash = "1443577fc360662e4e71185c453ea91d8d0dcce8",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/organization/index.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-/* harmony default export */ var network_organization = (factory);
-// CONCATENATED MODULE: ./src/sdk/network/user/config.js
-var cov_2ml09r0fw3 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/config.js",
-      hash = "970b900e77fe1d8804fee68979defad8c3244242",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/config.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 1,
-          column: 15
-        },
-        end: {
-          line: 3,
-          column: 1
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-var user_config_module = (cov_2ml09r0fw3.s[0]++, {
-  path: "/api/profile"
-});
-/* harmony default export */ var user_config = (user_config_module);
-// CONCATENATED MODULE: ./src/sdk/network/user/factory.js
-var cov_25ycd39mx3 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/factory.js",
-      hash = "24a7ec9bb6e6a8642626bd9190907f0b0b8fc3fa",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/factory.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 8,
-          column: 16
-        },
-        end: {
-          line: 8,
-          column: 32
-        }
-      },
-      "1": {
-        start: {
-          line: 10,
-          column: 4
-        },
-        end: {
-          line: 18,
-          column: 5
-        }
-      },
-      "2": {
-        start: {
-          line: 13,
-          column: 12
-        },
-        end: {
-          line: 16,
-          column: 14
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 6,
-            column: 16
-          },
-          end: {
-            line: 6,
-            column: 17
-          }
-        },
-        loc: {
-          start: {
-            line: 6,
-            column: 22
-          },
-          end: {
-            line: 19,
-            column: 1
-          }
-        },
-        line: 6
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 12,
-            column: 27
-          },
-          end: {
-            line: 12,
-            column: 28
-          }
-        },
-        loc: {
-          start: {
-            line: 12,
-            column: 33
-          },
-          end: {
-            line: 17,
-            column: 9
-          }
-        },
-        line: 12
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-/* harmony default export */ var user_factory = (function () {
-  cov_25ycd39mx3.f[0]++;
-  // Tạo url: base + path
-  var url = (cov_25ycd39mx3.s[0]++, "".concat(user_config.path));
-  cov_25ycd39mx3.s[1]++;
-  return {
-    url: url,
-    getInitialProfile: function getInitialProfile() {
-      cov_25ycd39mx3.f[1]++;
-      cov_25ycd39mx3.s[2]++;
-      return Object(network_builder["a" /* buildPromise */])({
-        httpMethod: 'GET',
-        url: url
-      });
-    }
-  };
-});
-// CONCATENATED MODULE: ./src/sdk/network/user/index.js
-var cov_2bilsn2bxr = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/index.js",
-      hash = "b91d8aaa2d9621673cea95746d9c6a89167916d3",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/index.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-/* harmony default export */ var user = (user_factory);
-// CONCATENATED MODULE: ./src/registry/core/registry_vuex.js
-var cov_3j5l2ipv = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vuex.js",
-      hash = "d53dc88ff15d7cbe600507eec3e13551d4e9b68c",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vuex.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 7,
-          column: 0
-        },
-        end: {
-          line: 7,
-          column: 13
-        }
-      },
-      "1": {
-        start: {
-          line: 10,
-          column: 15
-        },
-        end: {
-          line: 65,
-          column: 2
-        }
-      },
-      "2": {
-        start: {
-          line: 19,
-          column: 12
-        },
-        end: {
-          line: 19,
-          column: 53
-        }
-      },
-      "3": {
-        start: {
-          line: 22,
-          column: 12
-        },
-        end: {
-          line: 22,
-          column: 54
-        }
-      },
-      "4": {
-        start: {
-          line: 25,
-          column: 12
-        },
-        end: {
-          line: 25,
-          column: 58
-        }
-      },
-      "5": {
-        start: {
-          line: 28,
-          column: 12
-        },
-        end: {
-          line: 28,
-          column: 76
-        }
-      },
-      "6": {
-        start: {
-          line: 33,
-          column: 12
-        },
-        end: {
-          line: 33,
-          column: 102
-        }
-      },
-      "7": {
-        start: {
-          line: 33,
-          column: 60
-        },
-        end: {
-          line: 33,
-          column: 102
-        }
-      },
-      "8": {
-        start: {
-          line: 34,
-          column: 12
-        },
-        end: {
-          line: 34,
-          column: 106
-        }
-      },
-      "9": {
-        start: {
-          line: 34,
-          column: 61
-        },
-        end: {
-          line: 34,
-          column: 106
-        }
-      },
-      "10": {
-        start: {
-          line: 37,
-          column: 29
-        },
-        end: {
-          line: 37,
-          column: 71
-        }
-      },
-      "11": {
-        start: {
-          line: 38,
-          column: 12
-        },
-        end: {
-          line: 38,
-          column: 56
-        }
-      },
-      "12": {
-        start: {
-          line: 41,
-          column: 12
-        },
-        end: {
-          line: 41,
-          column: 59
-        }
-      },
-      "13": {
-        start: {
-          line: 44,
-          column: 29
-        },
-        end: {
-          line: 44,
-          column: 63
-        }
-      },
-      "14": {
-        start: {
-          line: 45,
-          column: 12
-        },
-        end: {
-          line: 45,
-          column: 59
-        }
-      },
-      "15": {
-        start: {
-          line: 48,
-          column: 12
-        },
-        end: {
-          line: 48,
-          column: 81
-        }
-      },
-      "16": {
-        start: {
-          line: 53,
-          column: 12
-        },
-        end: {
-          line: 53,
-          column: 47
-        }
-      },
-      "17": {
-        start: {
-          line: 56,
-          column: 12
-        },
-        end: {
-          line: 56,
-          column: 48
-        }
-      },
-      "18": {
-        start: {
-          line: 59,
-          column: 12
-        },
-        end: {
-          line: 59,
-          column: 50
-        }
-      },
-      "19": {
-        start: {
-          line: 62,
-          column: 12
-        },
-        end: {
-          line: 62,
-          column: 59
-        }
-      },
-      "20": {
-        start: {
-          line: 67,
-          column: 0
-        },
-        end: {
-          line: 67,
-          column: 29
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 18,
-            column: 27
-          },
-          end: {
-            line: 18,
-            column: 28
-          }
-        },
-        loc: {
-          start: {
-            line: 18,
-            column: 56
-          },
-          end: {
-            line: 20,
-            column: 9
-          }
-        },
-        line: 18
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 21,
-            column: 28
-          },
-          end: {
-            line: 21,
-            column: 29
-          }
-        },
-        loc: {
-          start: {
-            line: 21,
-            column: 57
-          },
-          end: {
-            line: 23,
-            column: 9
-          }
-        },
-        line: 21
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 24,
-            column: 30
-          },
-          end: {
-            line: 24,
-            column: 31
-          }
-        },
-        loc: {
-          start: {
-            line: 24,
-            column: 61
-          },
-          end: {
-            line: 26,
-            column: 9
-          }
-        },
-        line: 24
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
-            line: 27,
-            column: 39
-          },
-          end: {
-            line: 27,
-            column: 40
-          }
-        },
-        loc: {
-          start: {
-            line: 27,
-            column: 79
-          },
-          end: {
-            line: 29,
-            column: 9
-          }
-        },
-        line: 27
-      },
-      "4": {
-        name: "(anonymous_4)",
-        decl: {
-          start: {
-            line: 32,
-            column: 20
-          },
-          end: {
-            line: 32,
+            line: 40,
             column: 21
+          },
+          end: {
+            line: 40,
+            column: 22
           }
         },
         loc: {
-          start: {
-            line: 32,
-            column: 43
-          },
-          end: {
-            line: 35,
-            column: 9
-          }
-        },
-        line: 32
-      },
-      "5": {
-        name: "(anonymous_5)",
-        decl: {
-          start: {
-            line: 36,
-            column: 26
-          },
-          end: {
-            line: 36,
-            column: 27
-          }
-        },
-        loc: {
-          start: {
-            line: 36,
-            column: 49
-          },
-          end: {
-            line: 39,
-            column: 9
-          }
-        },
-        line: 36
-      },
-      "6": {
-        name: "(anonymous_6)",
-        decl: {
           start: {
             line: 40,
             column: 27
           },
           end: {
             line: 40,
-            column: 28
-          }
-        },
-        loc: {
-          start: {
-            line: 40,
-            column: 55
-          },
-          end: {
-            line: 42,
-            column: 9
+            column: 40
           }
         },
         line: 40
       },
-      "7": {
-        name: "(anonymous_7)",
-        decl: {
-          start: {
-            line: 43,
-            column: 29
-          },
-          end: {
-            line: 43,
-            column: 30
-          }
-        },
-        loc: {
-          start: {
-            line: 43,
-            column: 52
-          },
-          end: {
-            line: 46,
-            column: 9
-          }
-        },
-        line: 43
-      },
-      "8": {
-        name: "(anonymous_8)",
-        decl: {
-          start: {
-            line: 47,
-            column: 38
-          },
-          end: {
-            line: 47,
-            column: 39
-          }
-        },
-        loc: {
-          start: {
-            line: 47,
-            column: 77
-          },
-          end: {
-            line: 49,
-            column: 9
-          }
-        },
-        line: 47
-      },
-      "9": {
-        name: "(anonymous_9)",
-        decl: {
-          start: {
-            line: 52,
-            column: 19
-          },
-          end: {
-            line: 52,
-            column: 20
-          }
-        },
-        loc: {
-          start: {
-            line: 52,
-            column: 34
-          },
-          end: {
-            line: 54,
-            column: 9
-          }
-        },
-        line: 52
-      },
-      "10": {
-        name: "(anonymous_10)",
-        decl: {
-          start: {
-            line: 55,
-            column: 20
-          },
-          end: {
-            line: 55,
-            column: 21
-          }
-        },
-        loc: {
-          start: {
-            line: 55,
-            column: 35
-          },
-          end: {
-            line: 57,
-            column: 9
-          }
-        },
-        line: 55
-      },
-      "11": {
-        name: "(anonymous_11)",
-        decl: {
-          start: {
-            line: 58,
-            column: 22
-          },
-          end: {
-            line: 58,
-            column: 23
-          }
-        },
-        loc: {
-          start: {
-            line: 58,
-            column: 37
-          },
-          end: {
-            line: 60,
-            column: 9
-          }
-        },
-        line: 58
-      },
-      "12": {
-        name: "(anonymous_12)",
-        decl: {
-          start: {
-            line: 61,
-            column: 31
-          },
-          end: {
-            line: 61,
-            column: 32
-          }
-        },
-        loc: {
-          start: {
-            line: 61,
-            column: 46
-          },
-          end: {
-            line: 63,
-            column: 9
-          }
-        },
-        line: 61
-      }
-    },
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 33,
-            column: 12
-          },
-          end: {
-            line: 33,
-            column: 102
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 33,
-            column: 12
-          },
-          end: {
-            line: 33,
-            column: 102
-          }
-        }, {
-          start: {
-            line: 33,
-            column: 12
-          },
-          end: {
-            line: 33,
-            column: 102
-          }
-        }],
-        line: 33
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 34,
-            column: 12
-          },
-          end: {
-            line: 34,
-            column: 106
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 34,
-            column: 12
-          },
-          end: {
-            line: 34,
-            column: 106
-          }
-        }, {
-          start: {
-            line: 34,
-            column: 12
-          },
-          end: {
-            line: 34,
-            column: 106
-          }
-        }],
-        line: 34
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0,
-      "16": 0,
-      "17": 0,
-      "18": 0,
-      "19": 0,
-      "20": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0
-    },
-    b: {
-      "0": [0, 0],
-      "1": [0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-
-/* eslint-disable */
-
-
-
-
-
-cov_3j5l2ipv.s[0]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.use(vuex_esm);
-var vStore = (cov_3j5l2ipv.s[1]++, new vuex_esm.Store({
-  // this is the root
-  state: {
-    userActor: {},
-    userViewed: {},
-    organization: {},
-    userActorSubordinates: []
-  },
-  mutations: {
-    userActorMutation: function userActorMutation(state, userObject) {
-      cov_3j5l2ipv.f[0]++;
-      cov_3j5l2ipv.s[2]++;
-      state.userActor = cloneObject(userObject);
-    },
-    userViewedMutation: function userViewedMutation(state, userObject) {
-      cov_3j5l2ipv.f[1]++;
-      cov_3j5l2ipv.s[3]++;
-      state.userViewed = cloneObject(userObject);
-    },
-    organizationMutation: function organizationMutation(state, organization) {
-      cov_3j5l2ipv.f[2]++;
-      cov_3j5l2ipv.s[4]++;
-      state.organization = cloneObject(organization);
-    },
-    userActorSubordinatesMutation: function userActorSubordinatesMutation(state, userActorSubordinates) {
-      cov_3j5l2ipv.f[3]++;
-      cov_3j5l2ipv.s[5]++;
-      state.userActorSubordinates = cloneObject(userActorSubordinates);
-    }
-  },
-  actions: {
-    initialize: function () {
-      var _initialize = _asyncToGenerator(
-      /*#__PURE__*/
-      regeneratorRuntime.mark(function _callee(context) {
-        return regeneratorRuntime.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                cov_3j5l2ipv.f[4]++;
-                cov_3j5l2ipv.s[6]++;
-
-                if (!(context.state.userActor.user === undefined)) {
-                  _context.next = 9;
-                  break;
-                }
-
-                cov_3j5l2ipv.b[0][0]++;
-                cov_3j5l2ipv.s[7]++;
-                _context.next = 7;
-                return context.dispatch('userActorActions');
-
-              case 7:
-                _context.next = 10;
-                break;
-
-              case 9:
-                cov_3j5l2ipv.b[0][1]++;
-
-              case 10:
-                cov_3j5l2ipv.s[8]++;
-
-                if (!(context.state.organization.id === undefined)) {
-                  _context.next = 18;
-                  break;
-                }
-
-                cov_3j5l2ipv.b[1][0]++;
-                cov_3j5l2ipv.s[9]++;
-                _context.next = 16;
-                return context.dispatch('organizationActions');
-
-              case 16:
-                _context.next = 19;
-                break;
-
-              case 18:
-                cov_3j5l2ipv.b[1][1]++;
-
-              case 19:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this);
-      }));
-
-      return function initialize(_x) {
-        return _initialize.apply(this, arguments);
-      };
-    }(),
-    userActorActions: function () {
-      var _userActorActions = _asyncToGenerator(
-      /*#__PURE__*/
-      regeneratorRuntime.mark(function _callee2(context) {
-        var response;
-        return regeneratorRuntime.wrap(function _callee2$(_context2) {
-          while (1) {
-            switch (_context2.prev = _context2.next) {
-              case 0:
-                cov_3j5l2ipv.f[5]++;
-                cov_3j5l2ipv.s[10]++;
-                _context2.next = 4;
-                return user().getInitialProfile();
-
-              case 4:
-                response = _context2.sent;
-                cov_3j5l2ipv.s[11]++;
-                context.commit('userActorMutation', response);
-
-              case 7:
-              case "end":
-                return _context2.stop();
-            }
-          }
-        }, _callee2, this);
-      }));
-
-      return function userActorActions(_x2) {
-        return _userActorActions.apply(this, arguments);
-      };
-    }(),
-    userViewedActions: function userViewedActions(context, userObject) {
-      cov_3j5l2ipv.f[6]++;
-      cov_3j5l2ipv.s[12]++;
-      context.commit('userViewedMutation', userObject);
-    },
-    organizationActions: function () {
-      var _organizationActions = _asyncToGenerator(
-      /*#__PURE__*/
-      regeneratorRuntime.mark(function _callee3(context) {
-        var response;
-        return regeneratorRuntime.wrap(function _callee3$(_context3) {
-          while (1) {
-            switch (_context3.prev = _context3.next) {
-              case 0:
-                cov_3j5l2ipv.f[7]++;
-                cov_3j5l2ipv.s[13]++;
-                _context3.next = 4;
-                return network_organization().getInitialOrg();
-
-              case 4:
-                response = _context3.sent;
-                cov_3j5l2ipv.s[14]++;
-                context.commit('organizationMutation', response);
-
-              case 7:
-              case "end":
-                return _context3.stop();
-            }
-          }
-        }, _callee3, this);
-      }));
-
-      return function organizationActions(_x3) {
-        return _organizationActions.apply(this, arguments);
-      };
-    }(),
-    userActorSubordinatesActions: function userActorSubordinatesActions(context, userActorSubordinates) {
-      cov_3j5l2ipv.f[8]++;
-      cov_3j5l2ipv.s[15]++;
-      context.commit('userActorSubordinatesMutation', userActorSubordinates);
-    }
-  },
-  getters: {
-    userActor: function userActor(state) {
-      cov_3j5l2ipv.f[9]++;
-      cov_3j5l2ipv.s[16]++;
-      return cloneObject(state.userActor);
-    },
-    userViewed: function userViewed(state) {
-      cov_3j5l2ipv.f[10]++;
-      cov_3j5l2ipv.s[17]++;
-      return cloneObject(state.userViewed);
-    },
-    organization: function organization(state) {
-      cov_3j5l2ipv.f[11]++;
-      cov_3j5l2ipv.s[18]++;
-      return cloneObject(state.organization);
-    },
-    userActorSubordinates: function userActorSubordinates(state) {
-      cov_3j5l2ipv.f[12]++;
-      cov_3j5l2ipv.s[19]++;
-      return cloneObject(state.userActorSubordinates);
-    }
-  }
-}));
-cov_3j5l2ipv.s[20]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.$store = vStore; // window.vStore = vStore
-
-/* harmony default export */ var registry_vuex = (vStore); // End setting up vuex store
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.regexp.to-string.js
-var es6_regexp_to_string = __webpack_require__("6b54");
-
-// EXTERNAL MODULE: ./node_modules/vue-gettext/dist/vue-gettext.js
-var vue_gettext = __webpack_require__("5035");
-var vue_gettext_default = /*#__PURE__*/__webpack_require__.n(vue_gettext);
-
-// EXTERNAL MODULE: ./src/translations/translations.json
-var translations = __webpack_require__("3ca2");
-
-// CONCATENATED MODULE: ./src/registry/core/registry_translation.js
-var cov_1ubwqhd2hn = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_translation.js",
-      hash = "e01c9e7b6bb718506eaf7e3e9919f53c534e1708",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_translation.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 7,
-          column: 0
-        },
-        end: {
-          line: 15,
-          column: 6
-        }
-      },
-      "1": {
-        start: {
-          line: 18,
-          column: 0
-        },
-        end: {
-          line: 22,
-          column: 2
-        }
-      },
-      "2": {
-        start: {
-          line: 19,
-          column: 2
-        },
-        end: {
-          line: 21,
-          column: 46
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 18,
-            column: 24
-          },
-          end: {
-            line: 18,
-            column: 25
-          }
-        },
-        loc: {
-          start: {
-            line: 18,
-            column: 33
-          },
-          end: {
-            line: 22,
-            column: 1
-          }
-        },
-        line: 18
-      }
-    },
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 19,
-            column: 9
-          },
-          end: {
-            line: 21,
-            column: 46
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 20,
-            column: 6
-          },
-          end: {
-            line: 20,
-            column: 8
-          }
-        }, {
-          start: {
-            line: 21,
-            column: 6
-          },
-          end: {
-            line: 21,
-            column: 46
-          }
-        }],
-        line: 19
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0
-    },
-    f: {
-      "0": 0
-    },
-    b: {
-      "0": [0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-/* eslint-disable */
-// ES6
-
-
-
-cov_1ubwqhd2hn.s[0]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.use(vue_gettext_default.a, {
-  defaultLanguage: 'vi',
-  translations: translations,
-  availableLanguages: {
-    en_US: 'English',
-    vi: 'Vietnamese'
-  }
-});
-cov_1ubwqhd2hn.s[1]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.filter('translate', function (value) {
-  cov_1ubwqhd2hn.f[0]++;
-  cov_1ubwqhd2hn.s[2]++;
-  return !value ? (cov_1ubwqhd2hn.b[0][0]++, '') : (cov_1ubwqhd2hn.b[0][1]++, external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.$gettext(value.toString()));
-});
-// CONCATENATED MODULE: ./src/sdk/utils/datetime_format.js
-var cov_ne2qhngij = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/datetime_format.js",
-      hash = "b17a290a2b32573e87a347b69ec3e80acd521ea4",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/datetime_format.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 2,
-          column: 2
-        },
-        end: {
-          line: 2,
-          column: 170
-        }
-      },
-      "1": {
-        start: {
-          line: 2,
-          column: 55
-        },
-        end: {
-          line: 2,
-          column: 170
-        }
-      },
-      "2": {
-        start: {
-          line: 3,
-          column: 2
-        },
-        end: {
-          line: 3,
-          column: 11
-        }
-      },
-      "3": {
-        start: {
-          line: 7,
-          column: 4
-        },
-        end: {
-          line: 7,
-          column: 57
-        }
-      },
-      "4": {
-        start: {
-          line: 11,
-          column: 13
-        },
-        end: {
-          line: 11,
-          column: 62
-        }
-      },
-      "5": {
-        start: {
-          line: 13,
-          column: 13
-        },
-        end: {
-          line: 13,
-          column: 76
-        }
-      },
-      "6": {
-        start: {
-          line: 15,
-          column: 15
-        },
-        end: {
-          line: 15,
-          column: 33
-        }
-      },
-      "7": {
-        start: {
-          line: 18,
-          column: 4
-        },
-        end: {
-          line: 18,
-          column: 40
-        }
-      },
-      "8": {
-        start: {
-          line: 22,
-          column: 13
-        },
-        end: {
-          line: 22,
-          column: 28
-        }
-      },
-      "9": {
-        start: {
-          line: 24,
-          column: 13
-        },
-        end: {
-          line: 24,
-          column: 76
-        }
-      },
-      "10": {
-        start: {
-          line: 26,
-          column: 12
-        },
-        end: {
-          line: 26,
-          column: 75
-        }
-      },
-      "11": {
-        start: {
-          line: 28,
-          column: 4
-        },
-        end: {
-          line: 28,
-          column: 38
-        }
-      },
-      "12": {
-        start: {
-          line: 34,
-          column: 13
-        },
-        end: {
-          line: 34,
-          column: 62
-        }
-      },
-      "13": {
-        start: {
-          line: 36,
-          column: 13
-        },
-        end: {
-          line: 36,
-          column: 76
-        }
-      },
-      "14": {
-        start: {
-          line: 38,
-          column: 15
-        },
-        end: {
-          line: 38,
-          column: 33
-        }
-      },
-      "15": {
-        start: {
-          line: 41,
-          column: 4
-        },
-        end: {
-          line: 41,
-          column: 40
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "toLocaleDateStringNumeric",
-        decl: {
-          start: {
-            line: 1,
-            column: 9
-          },
-          end: {
-            line: 1,
-            column: 34
-          }
-        },
-        loc: {
-          start: {
-            line: 1,
-            column: 63
-          },
-          end: {
-            line: 4,
-            column: 1
-          }
-        },
-        line: 1
-      },
-      "1": {
-        name: "extractFileName",
-        decl: {
-          start: {
-            line: 6,
-            column: 9
-          },
-          end: {
-            line: 6,
-            column: 24
-          }
-        },
-        loc: {
-          start: {
-            line: 6,
-            column: 34
-          },
-          end: {
-            line: 8,
-            column: 1
-          }
-        },
-        line: 6
-      },
-      "2": {
-        name: "formatDateToString",
-        decl: {
-          start: {
-            line: 9,
-            column: 9
-          },
-          end: {
-            line: 9,
-            column: 27
-          }
-        },
-        loc: {
-          start: {
-            line: 9,
-            column: 33
-          },
-          end: {
-            line: 19,
-            column: 1
-          }
-        },
-        line: 9
-      },
-      "3": {
-        name: "formatDateToTimeString",
-        decl: {
-          start: {
-            line: 20,
-            column: 9
-          },
-          end: {
-            line: 20,
-            column: 31
-          }
-        },
-        loc: {
-          start: {
-            line: 20,
-            column: 37
-          },
-          end: {
-            line: 29,
-            column: 1
-          }
-        },
-        line: 20
-      },
-      "4": {
-        name: "getDateStandard",
-        decl: {
-          start: {
-            line: 31,
-            column: 9
-          },
-          end: {
-            line: 31,
-            column: 24
-          }
-        },
-        loc: {
-          start: {
-            line: 31,
-            column: 30
-          },
-          end: {
-            line: 42,
-            column: 1
-          }
-        },
-        line: 31
-      }
-    },
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 1,
-            column: 46
-          },
-          end: {
-            line: 1,
-            column: 62
-          }
-        },
-        type: "default-arg",
-        locations: [{
-          start: {
-            line: 1,
-            column: 55
-          },
-          end: {
-            line: 1,
-            column: 62
-          }
-        }],
-        line: 1
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 2,
-            column: 2
-          },
-          end: {
-            line: 2,
-            column: 170
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 2,
-            column: 2
-          },
-          end: {
-            line: 2,
-            column: 170
-          }
-        }, {
-          start: {
-            line: 2,
-            column: 2
-          },
-          end: {
-            line: 2,
-            column: 170
-          }
-        }],
-        line: 2
-      },
-      "2": {
-        loc: {
-          start: {
-            line: 2,
-            column: 6
-          },
-          end: {
-            line: 2,
-            column: 53
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 2,
-            column: 6
-          },
-          end: {
-            line: 2,
-            column: 25
-          }
-        }, {
-          start: {
-            line: 2,
-            column: 29
-          },
-          end: {
-            line: 2,
-            column: 53
-          }
-        }],
-        line: 2
-      },
-      "3": {
-        loc: {
-          start: {
-            line: 11,
-            column: 14
-          },
-          end: {
-            line: 11,
-            column: 44
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 11,
-            column: 36
-          },
-          end: {
-            line: 11,
-            column: 39
-          }
-        }, {
-          start: {
-            line: 11,
-            column: 42
-          },
-          end: {
-            line: 11,
-            column: 44
-          }
-        }],
-        line: 11
-      },
-      "4": {
-        loc: {
-          start: {
-            line: 13,
-            column: 14
-          },
-          end: {
-            line: 13,
-            column: 51
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 13,
-            column: 43
-          },
-          end: {
-            line: 13,
-            column: 46
-          }
-        }, {
-          start: {
-            line: 13,
-            column: 49
-          },
-          end: {
-            line: 13,
-            column: 51
-          }
-        }],
-        line: 13
-      },
-      "5": {
-        loc: {
-          start: {
-            line: 24,
-            column: 14
-          },
-          end: {
-            line: 24,
-            column: 53
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 24,
-            column: 45
-          },
-          end: {
-            line: 24,
-            column: 48
-          }
-        }, {
-          start: {
-            line: 24,
-            column: 51
-          },
-          end: {
-            line: 24,
-            column: 53
-          }
-        }],
-        line: 24
-      },
-      "6": {
-        loc: {
-          start: {
-            line: 26,
-            column: 13
-          },
-          end: {
-            line: 26,
-            column: 52
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 26,
-            column: 44
-          },
-          end: {
-            line: 26,
-            column: 47
-          }
-        }, {
-          start: {
-            line: 26,
-            column: 50
-          },
-          end: {
-            line: 26,
-            column: 52
-          }
-        }],
-        line: 26
-      },
-      "7": {
-        loc: {
-          start: {
-            line: 34,
-            column: 14
-          },
-          end: {
-            line: 34,
-            column: 44
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 34,
-            column: 36
-          },
-          end: {
-            line: 34,
-            column: 39
-          }
-        }, {
-          start: {
-            line: 34,
-            column: 42
-          },
-          end: {
-            line: 34,
-            column: 44
-          }
-        }],
-        line: 34
-      },
-      "8": {
-        loc: {
-          start: {
-            line: 36,
-            column: 14
-          },
-          end: {
-            line: 36,
-            column: 51
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 36,
-            column: 43
-          },
-          end: {
-            line: 36,
-            column: 46
-          }
-        }, {
-          start: {
-            line: 36,
-            column: 49
-          },
-          end: {
-            line: 36,
-            column: 51
-          }
-        }],
-        line: 36
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0
-    },
-    b: {
-      "0": [0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0],
-      "5": [0, 0],
-      "6": [0, 0],
-      "7": [0, 0],
-      "8": [0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-function toLocaleDateStringNumeric(datestring) {
-  var timezone = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : (cov_ne2qhngij.b[0][0]++, "en-US");
-  cov_ne2qhngij.f[0]++;
-  cov_ne2qhngij.s[0]++;
-
-  if ((cov_ne2qhngij.b[2][0]++, datestring !== null) && (cov_ne2qhngij.b[2][1]++, datestring !== undefined)) {
-    cov_ne2qhngij.b[1][0]++;
-    cov_ne2qhngij.s[1]++;
-    return new Date(datestring).toLocaleDateString(timezone, {
-      year: 'numeric',
-      month: 'numeric',
-      day: 'numeric'
-    });
-  } else {
-    cov_ne2qhngij.b[1][1]++;
-  }
-
-  cov_ne2qhngij.s[2]++;
-  return "";
-}
-
-function extractFileName(fileURL) {
-  cov_ne2qhngij.f[1]++;
-  cov_ne2qhngij.s[3]++;
-  return fileURL.substring(fileURL.lastIndexOf('/') + 1);
-}
-
-function formatDateToString(date) {
-  cov_ne2qhngij.f[2]++;
-  // 01, 02, 03, ... 29, 30, 31
-  var dd = (cov_ne2qhngij.s[4]++, (date.getDate() < 10 ? (cov_ne2qhngij.b[3][0]++, '0') : (cov_ne2qhngij.b[3][1]++, '')) + date.getDate()); // 01, 02, 03, ... 10, 11, 12
-
-  var MM = (cov_ne2qhngij.s[5]++, (date.getMonth() + 1 < 10 ? (cov_ne2qhngij.b[4][0]++, '0') : (cov_ne2qhngij.b[4][1]++, '')) + (date.getMonth() + 1)); // 1970, 1971, ... 2015, 2016, ...
-
-  var yyyy = (cov_ne2qhngij.s[6]++, date.getFullYear()); // create the format you want
-
-  cov_ne2qhngij.s[7]++;
-  return dd + "/" + MM + "/" + yyyy;
-}
-
-function formatDateToTimeString(date) {
-  cov_ne2qhngij.f[3]++;
-  // 01, 02, 03, ... 29, 30, 31
-  var hh = (cov_ne2qhngij.s[8]++, date.getHours()); // 01, 02, 03, ... 10, 11, 12
-
-  var mm = (cov_ne2qhngij.s[9]++, (date.getMinutes() + 1 < 10 ? (cov_ne2qhngij.b[5][0]++, '0') : (cov_ne2qhngij.b[5][1]++, '')) + date.getMinutes()); // 1970, 1971, ... 2015, 2016, ...
-
-  var ss = (cov_ne2qhngij.s[10]++, (date.getSeconds() + 1 < 10 ? (cov_ne2qhngij.b[6][0]++, '0') : (cov_ne2qhngij.b[6][1]++, '')) + date.getSeconds()); // create the format you want
-
-  cov_ne2qhngij.s[11]++;
-  return hh + ":" + mm + ":" + ss;
-}
-
-function getDateStandard(date) {
-  cov_ne2qhngij.f[4]++;
-  // 01, 02, 03, ... 29, 30, 31 aaaa
-  // Hello
-  var dd = (cov_ne2qhngij.s[12]++, (date.getDate() < 10 ? (cov_ne2qhngij.b[7][0]++, '0') : (cov_ne2qhngij.b[7][1]++, '')) + date.getDate()); // 01, 02, 03, ... 10, 11, 12completed_date
-
-  var MM = (cov_ne2qhngij.s[13]++, (date.getMonth() + 1 < 10 ? (cov_ne2qhngij.b[8][0]++, '0') : (cov_ne2qhngij.b[8][1]++, '')) + (date.getMonth() + 1)); // 1970, 1971, ... 2015, 2016, ...
-
-  var yyyy = (cov_ne2qhngij.s[14]++, date.getFullYear()); // create the format you want
-
-  cov_ne2qhngij.s[15]++;
-  return yyyy + "-" + MM + "-" + dd;
-}
-
-
-// CONCATENATED MODULE: ./src/registry/core/registry_vue_filter.js
-var cov_gt32hor72 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vue_filter.js",
-      hash = "473809fafe2c373e039344f3871c889253607983",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_vue_filter.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 5,
-          column: 0
-        },
-        end: {
-          line: 9,
-          column: 2
-        }
-      },
-      "1": {
-        start: {
-          line: 6,
-          column: 2
-        },
-        end: {
-          line: 8,
-          column: 52
-        }
-      },
-      "2": {
-        start: {
-          line: 11,
-          column: 0
-        },
-        end: {
-          line: 16,
-          column: 3
-        }
-      },
-      "3": {
-        start: {
-          line: 14,
-          column: 4
-        },
-        end: {
-          line: 14,
-          column: 89
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 5,
-            column: 29
-          },
-          end: {
-            line: 5,
-            column: 30
-          }
-        },
-        loc: {
-          start: {
-            line: 5,
-            column: 38
-          },
-          end: {
-            line: 9,
-            column: 1
-          }
-        },
-        line: 5
-      },
       "1": {
         name: "(anonymous_1)",
         decl: {
           start: {
-            line: 11,
+            line: 49,
+            column: 21
+          },
+          end: {
+            line: 49,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 49,
             column: 27
           },
           end: {
-            line: 11,
-            column: 28
+            line: 49,
+            column: 40
           }
         },
-        loc: {
-          start: {
-            line: 11,
-            column: 34
-          },
-          end: {
-            line: 16,
-            column: 1
-          }
-        },
-        line: 11
+        line: 49
       }
     },
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 6,
-            column: 9
-          },
-          end: {
-            line: 8,
-            column: 52
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 7,
-            column: 6
-          },
-          end: {
-            line: 7,
-            column: 8
-          }
-        }, {
-          start: {
-            line: 8,
-            column: 6
-          },
-          end: {
-            line: 8,
-            column: 52
-          }
-        }],
-        line: 6
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 14,
-            column: 11
-          },
-          end: {
-            line: 14,
-            column: 88
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 14,
-            column: 39
-          },
-          end: {
-            line: 14,
-            column: 80
-          }
-        }, {
-          start: {
-            line: 14,
-            column: 84
-          },
-          end: {
-            line: 14,
-            column: 88
-          }
-        }],
-        line: 14
-      },
-      "2": {
-        loc: {
-          start: {
-            line: 14,
-            column: 39
-          },
-          end: {
-            line: 14,
-            column: 80
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 14,
-            column: 51
-          },
-          end: {
-            line: 14,
-            column: 55
-          }
-        }, {
-          start: {
-            line: 14,
-            column: 59
-          },
-          end: {
-            line: 14,
-            column: 79
-          }
-        }],
-        line: 14
-      }
-    },
+    branchMap: {},
     s: {
       "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0
+      "1": 0
     },
     f: {
       "0": 0,
       "1": 0
     },
-    b: {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0]
-    },
+    b: {},
     _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
   },
       coverage = global[gcv] || (global[gcv] = {});
@@ -68402,519 +75471,79 @@ var cov_gt32hor72 = function () {
   return coverage[path] = coverageData;
 }();
 
-
-
-/* eslint-disable */
-
-
-cov_gt32hor72.s[0]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.filter('dateTimeFormat', function (value) {
-  cov_gt32hor72.f[0]++;
-  cov_gt32hor72.s[1]++;
-  return !value ? (cov_gt32hor72.b[0][0]++, '') : (cov_gt32hor72.b[0][1]++, formatDateToString(new Date(value.toString())));
+Object.defineProperty(exports, "__esModule", {
+  value: true
 });
-cov_gt32hor72.s[2]++;
-external_commonjs_vue_commonjs2_vue_root_Vue_default.a.filter('scoreDisplay', function (val) {
-  cov_gt32hor72.f[1]++;
-  cov_gt32hor72.s[3]++;
-  // model -> view
-  // formats the value when updating the input element.
-  return typeof val === 'number' ? (cov_gt32hor72.b[1][0]++, val === 0 ? (cov_gt32hor72.b[2][0]++, "0%") : (cov_gt32hor72.b[2][1]++, val.toFixed(2) + "%")) : (cov_gt32hor72.b[1][1]++, "0%");
-});
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.function.name.js
-var es6_function_name = __webpack_require__("7f7f");
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default2 = {
+  name: "performance_table",
+  props: {
+    /**
+     * Object current quarter
+     * Business:
+     * Just an quarter period object bring data to be rendered
+     */
+    quarterPeriod: {
+      type: Object,
+      default: function _default() {
+        cov_1aypy9zr56.f[0]++;
+        cov_1aypy9zr56.s[0]++;
+        return {};
+      }
+    },
 
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.array.iterator.js
-var es6_array_iterator = __webpack_require__("cadf");
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.keys.js
-var es6_object_keys = __webpack_require__("456d");
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
-var web_dom_iterable = __webpack_require__("ac6a");
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/main.vue?vue&type=template&id=f4f48c48&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('notification-container',{attrs:{"notification-data":_vm.notificationData,"on-lazy-load":_vm.getLazyNotifications,"on-mark-as-read":_vm.markAsReadNotifications,"href":_vm.href}})}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/main.vue?vue&type=template&id=f4f48c48&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/defineProperty.js
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/objectSpread.js
-
-function _objectSpread(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? arguments[i] : {};
-    var ownKeys = Object.keys(source);
-
-    if (typeof Object.getOwnPropertySymbols === 'function') {
-      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
-        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
-      }));
+    /**
+     * Object company performance
+     * An object stored performance of the ceo and be rendered
+     */
+    companyPerformance: {
+      type: Object,
+      default: function _default() {
+        cov_1aypy9zr56.f[1]++;
+        cov_1aypy9zr56.s[1]++;
+        return {};
+      }
     }
-
-    ownKeys.forEach(function (key) {
-      _defineProperty(target, key, source[key]);
-    });
   }
+};
+exports.default = _default2;
 
-  return target;
-}
-// CONCATENATED MODULE: ./src/sdk/network/notification/config.js
-var cov_27w3yd50wi = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/config.js",
-      hash = "bb31a3163df9e3aef6683b88f3b866be82026a5f",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/config.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 1,
-          column: 15
-        },
-        end: {
-          line: 3,
-          column: 1
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
+/***/ }),
 
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
+/***/ "fea5":
+/***/ (function(module, exports, __webpack_require__) {
 
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-var notification_config_module = (cov_27w3yd50wi.s[0]++, {
-  path: "/api/v2/notifications"
-});
-/* harmony default export */ var notification_config = (notification_config_module);
-// CONCATENATED MODULE: ./src/sdk/network/notification/factory.js
-var cov_13nf4aw5tt = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/factory.js",
-      hash = "4d4e8a760220068f41c1ba6a70a33203148dbaa1",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/factory.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 8,
-          column: 16
-        },
-        end: {
-          line: 8,
-          column: 43
-        }
-      },
-      "1": {
-        start: {
-          line: 10,
-          column: 4
-        },
-        end: {
-          line: 34,
-          column: 5
-        }
-      },
-      "2": {
-        start: {
-          line: 14,
-          column: 12
-        },
-        end: {
-          line: 17,
-          column: 14
-        }
-      },
-      "3": {
-        start: {
-          line: 21,
-          column: 12
-        },
-        end: {
-          line: 24,
-          column: 14
-        }
-      },
-      "4": {
-        start: {
-          line: 28,
-          column: 12
-        },
-        end: {
-          line: 32,
-          column: 14
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 6,
-            column: 16
-          },
-          end: {
-            line: 6,
-            column: 17
-          }
-        },
-        loc: {
-          start: {
-            line: 6,
-            column: 26
-          },
-          end: {
-            line: 35,
-            column: 1
-          }
-        },
-        line: 6
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 13,
-            column: 35
-          },
-          end: {
-            line: 13,
-            column: 36
-          }
-        },
-        loc: {
-          start: {
-            line: 13,
-            column: 41
-          },
-          end: {
-            line: 18,
-            column: 9
-          }
-        },
-        line: 13
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 20,
-            column: 37
-          },
-          end: {
-            line: 20,
-            column: 38
-          }
-        },
-        loc: {
-          start: {
-            line: 20,
-            column: 46
-          },
-          end: {
-            line: 25,
-            column: 9
-          }
-        },
-        line: 20
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
-            line: 27,
-            column: 35
-          },
-          end: {
-            line: 27,
-            column: 36
-          }
-        },
-        loc: {
-          start: {
-            line: 27,
-            column: 66
-          },
-          end: {
-            line: 33,
-            column: 9
-          }
-        },
-        line: 27
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
+"use strict";
 
 
-
-/* harmony default export */ var notification_factory = (function (userId) {
-  cov_13nf4aw5tt.f[0]++;
-  // Tạo url: base + path
-  var url = (cov_13nf4aw5tt.s[0]++, "".concat(notification_config.path, "/").concat(userId, "/"));
-  cov_13nf4aw5tt.s[1]++;
-  return {
-    url: url,
-    getInitialNotifiationData: function getInitialNotifiationData() {
-      cov_13nf4aw5tt.f[1]++;
-      cov_13nf4aw5tt.s[2]++;
-      return Object(network_builder["a" /* buildPromise */])({
-        httpMethod: 'GET',
-        url: url
-      });
-    },
-    getLazyLoadNotificationData: function getLazyLoadNotificationData(url) {
-      cov_13nf4aw5tt.f[2]++;
-      cov_13nf4aw5tt.s[3]++;
-      return Object(network_builder["a" /* buildPromise */])({
-        httpMethod: 'GET',
-        url: url // Checkout variable cloaking / shadowing
-
-      });
-    },
-    updateUnreadNotifications: function updateUnreadNotifications(_updateUnreadNotifications) {
-      cov_13nf4aw5tt.f[3]++;
-      cov_13nf4aw5tt.s[4]++;
-      return Object(network_builder["a" /* buildPromise */])({
-        httpMethod: 'POST',
-        url: url,
-        data: JSON.stringify({
-          unread_list: _updateUnreadNotifications
-        })
-      });
-    }
-  };
-});
-// CONCATENATED MODULE: ./src/sdk/network/notification/index.js
-var cov_2mv6mz7k9h = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/index.js",
-      hash = "c42055f055f707218e5fb9f9977300b66aa13076",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/notification/index.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-/* harmony default export */ var notification = (notification_factory);
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/store/mutations.js
-var cov_2hnswqzuyt = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/mutations.js",
-      hash = "7da8225c90924e879dfc5f3bfa6720bb02fea03c",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/mutations.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 4,
-          column: 42
-        },
-        end: {
-          line: 4,
-          column: 70
-        }
-      },
-      "1": {
-        start: {
-          line: 5,
-          column: 43
-        },
-        end: {
-          line: 5,
-          column: 72
-        }
-      },
-      "2": {
-        start: {
-          line: 6,
-          column: 43
-        },
-        end: {
-          line: 6,
-          column: 72
-        }
-      },
-      "3": {
-        start: {
-          line: 10,
-          column: 4
-        },
-        end: {
-          line: 10,
-          column: 49
-        }
-      },
-      "4": {
-        start: {
-          line: 14,
-          column: 4
-        },
-        end: {
-          line: 14,
-          column: 43
-        }
-      },
-      "5": {
-        start: {
-          line: 18,
-          column: 4
-        },
-        end: {
-          line: 18,
-          column: 58
-        }
-      },
-      "6": {
-        start: {
-          line: 19,
-          column: 4
-        },
-        end: {
-          line: 19,
-          column: 72
-        }
-      },
-      "7": {
-        start: {
-          line: 20,
-          column: 4
-        },
-        end: {
-          line: 20,
-          column: 103
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-var _getInitialNotificati;
-
-/**
- * Mutation là dạng string nên ta cần biến const để auto completet
- */
-var getInitialNotificationData = (cov_2hnswqzuyt.s[0]++, 'getInitialNotificationData');
-var clearUnreadNotificationList = (cov_2hnswqzuyt.s[1]++, 'clearUnreadNotificationList');
-var getLazyloadNotificationData = (cov_2hnswqzuyt.s[2]++, 'getLazyloadNotificationData');
-/* harmony default export */ var mutations = (_getInitialNotificati = {}, _defineProperty(_getInitialNotificati, getInitialNotificationData, function (state, notificationApiData) {
-  cov_2hnswqzuyt.s[3]++;
-  state.notificationData = notificationApiData;
-}), _defineProperty(_getInitialNotificati, clearUnreadNotificationList, function (state) {
-  cov_2hnswqzuyt.s[4]++;
-  state.notificationData.unread_list = [];
-}), _defineProperty(_getInitialNotificati, getLazyloadNotificationData, function (state, notificationApiData) {
-  cov_2hnswqzuyt.s[5]++;
-  state.notificationData.next = notificationApiData.next;
-  cov_2hnswqzuyt.s[6]++;
-  state.notificationData.unread_list = notificationApiData.unread_list;
-  cov_2hnswqzuyt.s[7]++;
-  state.notificationData.results = state.notificationData.results.concat(notificationApiData.results);
-}), _getInitialNotificati);
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/store/actions.js
 var cov_wzl7iilpl = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/actions.js",
       hash = "8f3e91cb131ed76ed6916e94e00f26a7c5452a6d",
@@ -69227,20 +75856,31 @@ var cov_wzl7iilpl = function () {
   return coverage[path] = coverageData;
 }();
 
+var _interopRequireDefault = __webpack_require__("496d");
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.getLazyNotifications = exports.markAsReadNotifications = exports.getInitialNotifiations = void 0;
+
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("965f"));
+
+var _notification = _interopRequireDefault(__webpack_require__("8b5d"));
+
+var _mutations = __webpack_require__("52d9");
 
 var _getInitialNotifiatio;
 
- // Mock network noti
-// Import mutation
-
-
 var getInitialNotifiations = (cov_wzl7iilpl.s[0]++, 'getInitialNotifiations');
+exports.getInitialNotifiations = getInitialNotifiations;
 var markAsReadNotifications = (cov_wzl7iilpl.s[1]++, 'markAsReadNotifications');
+exports.markAsReadNotifications = markAsReadNotifications;
 var getLazyNotifications = (cov_wzl7iilpl.s[2]++, 'getLazyNotifications');
-/* harmony default export */ var actions = (_getInitialNotifiatio = {}, _defineProperty(_getInitialNotifiatio, getInitialNotifiations, function (state, userId) {
+exports.getLazyNotifications = getLazyNotifications;
+
+var _default = (_getInitialNotifiatio = {}, (0, _defineProperty2.default)(_getInitialNotifiatio, getInitialNotifiations, function (state, userId) {
   cov_wzl7iilpl.s[3]++;
-  notification(userId).getInitialNotifiationData().then(function (response) {
+  (0, _notification.default)(userId).getInitialNotifiationData().then(function (response) {
     cov_wzl7iilpl.f[0]++;
     cov_wzl7iilpl.s[4]++;
     state.commit('getInitialNotificationData', response);
@@ -69249,5646 +75889,33 @@ var getLazyNotifications = (cov_wzl7iilpl.s[2]++, 'getLazyNotifications');
     cov_wzl7iilpl.s[5]++;
     console.log(err);
   });
-}), _defineProperty(_getInitialNotifiatio, markAsReadNotifications, function (state, _ref) {
+}), (0, _defineProperty2.default)(_getInitialNotifiatio, markAsReadNotifications, function (state, _ref) {
   var uid = _ref.uid,
       unreadNotificationLists = _ref.unreadNotificationLists;
   cov_wzl7iilpl.s[6]++;
-  notification(uid).updateUnreadNotifications(unreadNotificationLists).then(function () {
+  (0, _notification.default)(uid).updateUnreadNotifications(unreadNotificationLists).then(function () {
     cov_wzl7iilpl.f[2]++;
     cov_wzl7iilpl.s[7]++;
-    state.commit(clearUnreadNotificationList);
+    state.commit(_mutations.clearUnreadNotificationList);
   }).catch(function (err) {
     cov_wzl7iilpl.f[3]++;
     cov_wzl7iilpl.s[8]++;
     console.log(err);
   });
-}), _defineProperty(_getInitialNotifiatio, getLazyNotifications, function (state, nextLink) {
+}), (0, _defineProperty2.default)(_getInitialNotifiatio, getLazyNotifications, function (state, nextLink) {
   cov_wzl7iilpl.s[9]++;
-  notification().getLazyLoadNotificationData(nextLink).then(function (response) {
+  (0, _notification.default)().getLazyLoadNotificationData(nextLink).then(function (response) {
     cov_wzl7iilpl.f[4]++;
     cov_wzl7iilpl.s[10]++;
-    state.commit(getLazyloadNotificationData, response);
+    state.commit(_mutations.getLazyloadNotificationData, response);
   }).catch(function (err) {
     cov_wzl7iilpl.f[5]++;
     cov_wzl7iilpl.s[11]++;
     console.log(err);
   });
 }), _getInitialNotifiatio);
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/store/getters.js
-var cov_2ncimvdd84 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/getters.js",
-      hash = "01702744dbd3f9710fad3f86f1fc1d6712d6c8ac",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/getters.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 5,
-          column: 25
-        },
-        end: {
-          line: 7,
-          column: 1
-        }
-      },
-      "1": {
-        start: {
-          line: 6,
-          column: 2
-        },
-        end: {
-          line: 6,
-          column: 45
-        }
-      },
-      "2": {
-        start: {
-          line: 8,
-          column: 13
-        },
-        end: {
-          line: 10,
-          column: 1
-        }
-      },
-      "3": {
-        start: {
-          line: 9,
-          column: 2
-        },
-        end: {
-          line: 9,
-          column: 33
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 5,
-            column: 25
-          },
-          end: {
-            line: 5,
-            column: 26
-          }
-        },
-        loc: {
-          start: {
-            line: 5,
-            column: 36
-          },
-          end: {
-            line: 7,
-            column: 1
-          }
-        },
-        line: 5
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 8,
-            column: 13
-          },
-          end: {
-            line: 8,
-            column: 14
-          }
-        },
-        loc: {
-          start: {
-            line: 8,
-            column: 24
-          },
-          end: {
-            line: 10,
-            column: 1
-          }
-        },
-        line: 8
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
 
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
- // ? why clone
-
-cov_2ncimvdd84.s[0]++;
-
-var getters_notificationData = function notificationData(state) {
-  cov_2ncimvdd84.f[0]++;
-  cov_2ncimvdd84.s[1]++;
-  return cloneObject(state.notificationData);
-};
-
-cov_2ncimvdd84.s[2]++;
-
-var getters_href = function href(state) {
-  cov_2ncimvdd84.f[1]++;
-  cov_2ncimvdd84.s[3]++;
-  return cloneObject(state.href);
-};
-
-/* harmony default export */ var getters = ({
-  notificationData: getters_notificationData,
-  href: getters_href
-});
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/store/state.js
-var cov_1z2i8gwu82 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/state.js",
-      hash = "921bddef15a0205bc2980262e902ed2b349c672e",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/state.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-/* harmony default export */ var store_state = ({
-  notificationData: {
-    unread_list: [],
-    results: [],
-    next: ''
-  },
-  href: '/performance/notifications'
-});
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/store/index.js
-var cov_i61i88qzu = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/index.js",
-      hash = "b6cda0e4b89b44f5a1f7c9565d2ffb52369ba2c6",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/store/index.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-
-
-/* harmony default export */ var cloudjet_noti_store = ({
-  namespaced: true,
-  state: store_state,
-  actions: actions,
-  getters: getters,
-  mutations: mutations
-});
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.promise.js
-var es6_promise = __webpack_require__("551c");
-
-// CONCATENATED MODULE: ./src/sdk/utils/mixins/buildInitMixin.js
-var cov_2509hmskyc = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/mixins/buildInitMixin.js",
-      hash = "fd9d818cf73b802193fb6fcc2830603fa0199239",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/mixins/buildInitMixin.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 2,
-          column: 4
-        },
-        end: {
-          line: 29,
-          column: 5
-        }
-      },
-      "1": {
-        start: {
-          line: 5,
-          column: 12
-        },
-        end: {
-          line: 7,
-          column: 13
-        }
-      },
-      "2": {
-        start: {
-          line: 6,
-          column: 15
-        },
-        end: {
-          line: 6,
-          column: 57
-        }
-      },
-      "3": {
-        start: {
-          line: 8,
-          column: 31
-        },
-        end: {
-          line: 8,
-          column: 40
-        }
-      },
-      "4": {
-        start: {
-          line: 10,
-          column: 12
-        },
-        end: {
-          line: 12,
-          column: 13
-        }
-      },
-      "5": {
-        start: {
-          line: 11,
-          column: 16
-        },
-        end: {
-          line: 11,
-          column: 62
-        }
-      },
-      "6": {
-        start: {
-          line: 16,
-          column: 27
-        },
-        end: {
-          line: 16,
-          column: 31
-        }
-      },
-      "7": {
-        start: {
-          line: 17,
-          column: 16
-        },
-        end: {
-          line: 26,
-          column: 19
-        }
-      },
-      "8": {
-        start: {
-          line: 18,
-          column: 20
-        },
-        end: {
-          line: 25,
-          column: 21
-        }
-      },
-      "9": {
-        start: {
-          line: 20,
-          column: 24
-        },
-        end: {
-          line: 20,
-          column: 64
-        }
-      },
-      "10": {
-        start: {
-          line: 21,
-          column: 24
-        },
-        end: {
-          line: 21,
-          column: 33
-        }
-      },
-      "11": {
-        start: {
-          line: 24,
-          column: 24
-        },
-        end: {
-          line: 24,
-          column: 35
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 1,
-            column: 15
-          },
-          end: {
-            line: 1,
-            column: 16
-          }
-        },
-        loc: {
-          start: {
-            line: 1,
-            column: 43
-          },
-          end: {
-            line: 30,
-            column: 1
-          }
-        },
-        line: 1
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 17,
-            column: 35
-          },
-          end: {
-            line: 17,
-            column: 36
-          }
-        },
-        loc: {
-          start: {
-            line: 17,
-            column: 62
-          },
-          end: {
-            line: 26,
-            column: 17
-          }
-        },
-        line: 17
-      }
-    },
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 5,
-            column: 12
-          },
-          end: {
-            line: 7,
-            column: 13
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 5,
-            column: 12
-          },
-          end: {
-            line: 7,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 5,
-            column: 12
-          },
-          end: {
-            line: 7,
-            column: 13
-          }
-        }],
-        line: 5
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 10,
-            column: 12
-          },
-          end: {
-            line: 12,
-            column: 13
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 10,
-            column: 12
-          },
-          end: {
-            line: 12,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 10,
-            column: 12
-          },
-          end: {
-            line: 12,
-            column: 13
-          }
-        }],
-        line: 10
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0
-    },
-    b: {
-      "0": [0, 0],
-      "1": [0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-
-/* harmony default export */ var buildInitMixin = (function (STORE_KEY, store) {
-  cov_2509hmskyc.f[0]++;
-  cov_2509hmskyc.s[0]++;
-  return {
-    name: STORE_KEY,
-    created: function created() {
-      cov_2509hmskyc.s[1]++;
-
-      if (STORE_KEY.length < 1) {
-        cov_2509hmskyc.b[0][0]++;
-        cov_2509hmskyc.s[2]++;
-        throw "The component is not set with name";
-      } else {
-        cov_2509hmskyc.b[0][1]++;
-      }
-
-      var _STORE_KEY = (cov_2509hmskyc.s[3]++, STORE_KEY); // eslint-disable-next-line no-underscore-dangle
-
-
-      cov_2509hmskyc.s[4]++;
-
-      if (!(_STORE_KEY in this.$store._modules.root._children)) {
-        cov_2509hmskyc.b[1][0]++;
-        cov_2509hmskyc.s[5]++;
-        this.$store.registerModule(_STORE_KEY, store);
-      } else {
-        cov_2509hmskyc.b[1][1]++;
-      }
-    },
-    methods: {
-      $initializeDataStoreGlobal: function $initializeDataStoreGlobal() {
-        // for global store triggered
-        var self = (cov_2509hmskyc.s[6]++, this);
-        cov_2509hmskyc.s[7]++;
-        return new Promise(
-        /*#__PURE__*/
-        function () {
-          var _ref = _asyncToGenerator(
-          /*#__PURE__*/
-          regeneratorRuntime.mark(function _callee(resolve, reject) {
-            return regeneratorRuntime.wrap(function _callee$(_context) {
-              while (1) {
-                switch (_context.prev = _context.next) {
-                  case 0:
-                    cov_2509hmskyc.f[1]++;
-                    cov_2509hmskyc.s[8]++;
-                    _context.prev = 2;
-                    cov_2509hmskyc.s[9]++;
-                    _context.next = 6;
-                    return self.$store.dispatch("initialize");
-
-                  case 6:
-                    cov_2509hmskyc.s[10]++;
-                    resolve();
-                    _context.next = 14;
-                    break;
-
-                  case 10:
-                    _context.prev = 10;
-                    _context.t0 = _context["catch"](2);
-                    cov_2509hmskyc.s[11]++;
-                    reject(_context.t0);
-
-                  case 14:
-                  case "end":
-                    return _context.stop();
-                }
-              }
-            }, _callee, this, [[2, 10]]);
-          }));
-
-          return function (_x, _x2) {
-            return _ref.apply(this, arguments);
-          };
-        }());
-      }
-    }
-  };
-});
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=template&id=75eab074&scoped=true&
-var notification_containervue_type_template_id_75eab074_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"notificationWrapper",staticClass:"notification"},[_c('notification_bell',{attrs:{"isToggle":_vm.isShowNotificationList,"notificationCount":_vm.notificationData.unread_list.length},on:{"click":_vm.toggleNotificationList}}),(_vm.isShowNotificationList)?_c('notification_list',{staticClass:"notification__list",attrs:{"notificationItems":_vm.notificationData.results,"href":_vm.href,"next":_vm.notificationData.next},on:{"lazyLoad":_vm.notificationListOnLazyLoad}}):_vm._e()],1)}
-var notification_containervue_type_template_id_75eab074_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=template&id=75eab074&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=template&id=6f78eede&scoped=true&
-var notification_bellvue_type_template_id_6f78eede_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification_bell"},[_c('button',{class:_vm.notificationBellButtonClass,on:{"click":_vm.notificationBellOnClick}},[(_vm.notificationCount>0)?_c('div',{staticClass:"notification_bell__number"},[_vm._v(_vm._s(_vm.formatNotificationCount))]):_vm._e(),_c('img',{staticClass:"notification_bell__icon",attrs:{"src":__webpack_require__("3220")}})])])}
-var notification_bellvue_type_template_id_6f78eede_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=template&id=6f78eede&scoped=true&
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.number.constructor.js
-var es6_number_constructor = __webpack_require__("c5f6");
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=script&lang=js&
-var cov_27rnij47lf = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue",
-      hash = "5a647244431d7bbe584c69e046eaf3bb4b6d1a6d",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 39,
-          column: 6
-        },
-        end: {
-          line: 39,
-          column: 26
-        }
-      },
-      "1": {
-        start: {
-          line: 45,
-          column: 6
-        },
-        end: {
-          line: 48,
-          column: 7
-        }
-      },
-      "2": {
-        start: {
-          line: 52,
-          column: 6
-        },
-        end: {
-          line: 56,
-          column: 7
-        }
-      },
-      "3": {
-        start: {
-          line: 53,
-          column: 8
-        },
-        end: {
-          line: 53,
-          column: 19
-        }
-      },
-      "4": {
-        start: {
-          line: 55,
-          column: 8
-        },
-        end: {
-          line: 55,
-          column: 37
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 47,
-            column: 8
-          },
-          end: {
-            line: 47,
-            column: 64
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 47,
-            column: 24
-          },
-          end: {
-            line: 47,
-            column: 59
-          }
-        }, {
-          start: {
-            line: 47,
-            column: 62
-          },
-          end: {
-            line: 47,
-            column: 64
-          }
-        }],
-        line: 47
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 52,
-            column: 6
-          },
-          end: {
-            line: 56,
-            column: 7
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 52,
-            column: 6
-          },
-          end: {
-            line: 56,
-            column: 7
-          }
-        }, {
-          start: {
-            line: 52,
-            column: 6
-          },
-          end: {
-            line: 56,
-            column: 7
-          }
-        }],
-        line: 52
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0
-    },
-    f: {},
-    b: {
-      "0": [0, 0],
-      "1": [0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var notification_bellvue_type_script_lang_js_ = ({
-  props: {
-    /**
-     * Số lượng notification sẽ được hiển thị
-     * Business:
-     * Nếu nhỏ hơn hoặc bằng 9 hiển thị bình thường
-     * Nếu lớn hơn 9 hiển thị 9+
-     */
-    notificationCount: {
-      type: Number
-    },
-
-    /**
-     * Bind class toggle to button
-     * Apply style for state [hover, active, normal]
-     */
-    isToggle: {
-      type: Boolean
-    }
-  },
-  methods: {
-    notificationBellOnClick: function notificationBellOnClick() {
-      cov_27rnij47lf.s[0]++;
-
-      /**
-       * Event khi click vào cái chuông
-       * @event click
-       * @type {Undefined}
-       */
-      this.$emit("click");
-    }
-  },
-  computed: {
-    notificationBellButtonClass: function notificationBellButtonClass() {
-      cov_27rnij47lf.s[1]++;
-      return ['notification_bell__button', this.isToggle ? (cov_27rnij47lf.b[0][0]++, 'notification_bell__button--toggle') : (cov_27rnij47lf.b[0][1]++, '')];
-    },
-    formatNotificationCount: function formatNotificationCount() {
-      cov_27rnij47lf.s[2]++;
-
-      if (this.notificationCount > 9) {
-        cov_27rnij47lf.b[1][0]++;
-        cov_27rnij47lf.s[3]++;
-        return "9+";
-      } else {
-        cov_27rnij47lf.b[1][1]++;
-        cov_27rnij47lf.s[4]++;
-        return this.notificationCount;
-      }
-    }
-  }
-});
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=script&lang=js&
- /* harmony default export */ var notification_bell_notification_bellvue_type_script_lang_js_ = (notification_bellvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue?vue&type=style&index=0&id=6f78eede&scoped=true&lang=scss&
-var notification_bellvue_type_style_index_0_id_6f78eede_scoped_true_lang_scss_ = __webpack_require__("d442");
-
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__("2877");
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_bell/notification_bell.vue
-
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  notification_bell_notification_bellvue_type_script_lang_js_,
-  notification_bellvue_type_template_id_6f78eede_scoped_true_render,
-  notification_bellvue_type_template_id_6f78eede_scoped_true_staticRenderFns,
-  false,
-  null,
-  "6f78eede",
-  null
-  
-)
-
-component.options.__file = "notification_bell.vue"
-/* harmony default export */ var notification_bell = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=template&id=56093643&scoped=true&
-var notification_listvue_type_template_id_56093643_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-list"},[_c('div',{staticClass:"notification-list__header"},[_vm._v("\n    Thông báo\n  ")]),_c('div',{ref:"notificationItemScrollableWrapper",class:_vm.notificationItemWrapperClass,on:{"scroll":_vm.scroll}},_vm._l((_vm.notificationItems),function(notificationItem){return _c('notification_item',{key:notificationItem.id,staticClass:"notification-list__item",attrs:{"href":_vm.href,"notificationData":notificationItem}})})),_c('div',{staticClass:"notification-list__footer"},[_c('a',{staticClass:"notification-list__link",attrs:{"href":_vm.href}},[_vm._v("\n      Xem tất cả\n    ")])])])}
-var notification_listvue_type_template_id_56093643_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=template&id=56093643&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=script&lang=js&
-var cov_41x25f4q9 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue",
-      hash = "3504a4ceca00fe2ceed0125dc170ac474068d267",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 31,
-          column: 26
-        },
-        end: {
-          line: 31,
-          column: 83
-        }
-      },
-      "1": {
-        start: {
-          line: 40,
-          column: 48
-        },
-        end: {
-          line: 41,
-          column: 42
-        }
-      },
-      "2": {
-        start: {
-          line: 43,
-          column: 6
-        },
-        end: {
-          line: 51,
-          column: 8
-        }
-      },
-      "3": {
-        start: {
-          line: 61,
-          column: 6
-        },
-        end: {
-          line: 71,
-          column: 7
-        }
-      },
-      "4": {
-        start: {
-          line: 62,
-          column: 8
-        },
-        end: {
-          line: 70,
-          column: 9
-        }
-      },
-      "5": {
-        start: {
-          line: 69,
-          column: 10
-        },
-        end: {
-          line: 69,
-          column: 44
-        }
-      },
-      "6": {
-        start: {
-          line: 107,
-          column: 6
-        },
-        end: {
-          line: 107,
-          column: 80
-        }
-      },
-      "7": {
-        start: {
-          line: 116,
-          column: 6
-        },
-        end: {
-          line: 119,
-          column: 8
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 59,
-            column: 14
-          },
-          end: {
-            line: 59,
-            column: 75
-          }
-        },
-        type: "default-arg",
-        locations: [{
-          start: {
-            line: 59,
-            column: 44
-          },
-          end: {
-            line: 59,
-            column: 75
-          }
-        }],
-        line: 59
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 61,
-            column: 6
-          },
-          end: {
-            line: 71,
-            column: 7
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 61,
-            column: 6
-          },
-          end: {
-            line: 71,
-            column: 7
-          }
-        }, {
-          start: {
-            line: 61,
-            column: 6
-          },
-          end: {
-            line: 71,
-            column: 7
-          }
-        }],
-        line: 61
-      },
-      "2": {
-        loc: {
-          start: {
-            line: 62,
-            column: 8
-          },
-          end: {
-            line: 70,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 62,
-            column: 8
-          },
-          end: {
-            line: 70,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 62,
-            column: 8
-          },
-          end: {
-            line: 70,
-            column: 9
-          }
-        }],
-        line: 62
-      },
-      "3": {
-        loc: {
-          start: {
-            line: 107,
-            column: 13
-          },
-          end: {
-            line: 107,
-            column: 79
-          }
-        },
-        type: "cond-expr",
-        locations: [{
-          start: {
-            line: 107,
-            column: 35
-          },
-          end: {
-            line: 107,
-            column: 74
-          }
-        }, {
-          start: {
-            line: 107,
-            column: 77
-          },
-          end: {
-            line: 107,
-            column: 79
-          }
-        }],
-        line: 107
-      },
-      "4": {
-        loc: {
-          start: {
-            line: 117,
-            column: 8
-          },
-          end: {
-            line: 118,
-            column: 41
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 117,
-            column: 9
-          },
-          end: {
-            line: 117,
-            column: 44
-          }
-        }, {
-          start: {
-            line: 117,
-            column: 48
-          },
-          end: {
-            line: 117,
-            column: 57
-          }
-        }, {
-          start: {
-            line: 118,
-            column: 8
-          },
-          end: {
-            line: 118,
-            column: 41
-          }
-        }],
-        line: 117
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0
-    },
-    f: {},
-    b: {
-      "0": [0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// wtf -> import notification_item from "../notification_item/notification_item";
-var notification_item = (cov_41x25f4q9.s[0]++, __webpack_require__("fce9").default);
-/* harmony default export */ var notification_listvue_type_script_lang_js_ = ({
-  methods: {
-    /**
-     *  Check behavior when scroll reach bottom
-     */
-    isNotificationItemScroller: function isNotificationItemScroller() {
-      // Pr
-      var notificationItemScrollableWrapper = (cov_41x25f4q9.s[1]++, this.$refs.notificationItemScrollableWrapper);
-      cov_41x25f4q9.s[2]++;
-      return (
-        /**
-         * Scroll touch bottom
-         * Don't know how this shit work but it was ameizing
-         */
-        notificationItemScrollableWrapper.scrollHeight - notificationItemScrollableWrapper.scrollTop === notificationItemScrollableWrapper.clientHeight
-      );
-    },
-
-    /**
-     * Emmit if next prop exist
-     * Manually test scroll behavior: No Unit Test idea yet ??
-     *
-     */
-    scroll: function scroll(e) {
-      var IisNotificationItemScroller = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : (cov_41x25f4q9.b[0][0]++, this.isNotificationItemScroller);
-      cov_41x25f4q9.s[3]++;
-
-      // Pass a function to mock that behavior
-      if (this.next) {
-        cov_41x25f4q9.b[1][0]++;
-        cov_41x25f4q9.s[4]++;
-
-        if (IisNotificationItemScroller()) {
-          cov_41x25f4q9.b[2][0]++;
-          cov_41x25f4q9.s[5]++;
-
-          /**
-           * Bubble to top componentn: notificatoin
-           *
-           * @event lazyLoad
-           * @type {string}
-           */
-          this.$emit("lazyLoad", this.next);
-        } else {
-          cov_41x25f4q9.b[2][1]++;
-        }
-      } else {
-        cov_41x25f4q9.b[1][1]++;
-      }
-    }
-  },
-  components: {
-    notification_item: notification_item
-  },
-  props: {
-    /**
-     * Link redirect when click "Xem tất cả"
-     */
-    href: {
-      type: String,
-      default: "#"
-    },
-
-    /**
-     * Pass array object results
-     * Return of API
-     */
-    notificationItems: {
-      type: Array
-    },
-
-    /**
-     * next exist then scroll will emmit scroll
-     * eventually scroll will be bubble to notification component
-     */
-    next: {
-      type: String
-    }
-  },
-  computed: {
-    notificationItemWrapperClass: function notificationItemWrapperClass() {
-      cov_41x25f4q9.s[6]++;
-      return this.isLazyLoadMode ? (cov_41x25f4q9.b[3][0]++, "notification-list__scrollable-wrapper") : (cov_41x25f4q9.b[3][1]++, "");
-    },
-    isLazyLoadMode: function isLazyLoadMode() {
-      cov_41x25f4q9.s[7]++;
-
-      /**
-       * Next some time can be null, 'empty string' but it return false to serve unit test assert purpose
-       * eg: false || null -> null -> expect(null).to.be.false will be failed
-       */
-      // === 5 and have next property -> doesn't lazy load yet
-      return (cov_41x25f4q9.b[4][0]++, this.notificationItems.length === 5) && (cov_41x25f4q9.b[4][1]++, this.next) || (cov_41x25f4q9.b[4][2]++, this.notificationItems.length > 5);
-    }
-  }
-});
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=script&lang=js&
- /* harmony default export */ var notification_list_notification_listvue_type_script_lang_js_ = (notification_listvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue?vue&type=style&index=0&id=56093643&scoped=true&lang=scss&
-var notification_listvue_type_style_index_0_id_56093643_scoped_true_lang_scss_ = __webpack_require__("db47");
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_list/notification_list.vue
-
-
-
-
-
-
-/* normalize component */
-
-var notification_list_component = Object(componentNormalizer["a" /* default */])(
-  notification_list_notification_listvue_type_script_lang_js_,
-  notification_listvue_type_template_id_56093643_scoped_true_render,
-  notification_listvue_type_template_id_56093643_scoped_true_staticRenderFns,
-  false,
-  null,
-  "56093643",
-  null
-  
-)
-
-notification_list_component.options.__file = "notification_list.vue"
-/* harmony default export */ var notification_list = (notification_list_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=script&lang=js&
-var cov_2pv5cdfx1r = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue",
-      hash = "eac187c8c2e73042d2ce9b387e6af8fa33b6fb6f",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 48,
-          column: 6
-        },
-        end: {
-          line: 52,
-          column: 7
-        }
-      },
-      "1": {
-        start: {
-          line: 49,
-          column: 8
-        },
-        end: {
-          line: 49,
-          column: 29
-        }
-      },
-      "2": {
-        start: {
-          line: 51,
-          column: 8
-        },
-        end: {
-          line: 51,
-          column: 20
-        }
-      },
-      "3": {
-        start: {
-          line: 56,
-          column: 6
-        },
-        end: {
-          line: 56,
-          column: 65
-        }
-      },
-      "4": {
-        start: {
-          line: 62,
-          column: 6
-        },
-        end: {
-          line: 66,
-          column: 7
-        }
-      },
-      "5": {
-        start: {
-          line: 64,
-          column: 8
-        },
-        end: {
-          line: 64,
-          column: 60
-        }
-      },
-      "6": {
-        start: {
-          line: 65,
-          column: 8
-        },
-        end: {
-          line: 65,
-          column: 35
-        }
-      },
-      "7": {
-        start: {
-          line: 75,
-          column: 15
-        },
-        end: {
-          line: 75,
-          column: 45
-        }
-      },
-      "8": {
-        start: {
-          line: 76,
-          column: 19
-        },
-        end: {
-          line: 76,
-          column: 27
-        }
-      },
-      "9": {
-        start: {
-          line: 81,
-          column: 6
-        },
-        end: {
-          line: 83,
-          column: 7
-        }
-      },
-      "10": {
-        start: {
-          line: 82,
-          column: 8
-        },
-        end: {
-          line: 82,
-          column: 77
-        }
-      },
-      "11": {
-        start: {
-          line: 82,
-          column: 41
-        },
-        end: {
-          line: 82,
-          column: 77
-        }
-      },
-      "12": {
-        start: {
-          line: 88,
-          column: 4
-        },
-        end: {
-          line: 98,
-          column: 7
-        }
-      },
-      "13": {
-        start: {
-          line: 92,
-          column: 6
-        },
-        end: {
-          line: 92,
-          column: 66
-        }
-      },
-      "14": {
-        start: {
-          line: 97,
-          column: 6
-        },
-        end: {
-          line: 97,
-          column: 72
-        }
-      },
-      "15": {
-        start: {
-          line: 105,
-          column: 4
-        },
-        end: {
-          line: 105,
-          column: 67
-        }
-      },
-      "16": {
-        start: {
-          line: 109,
-          column: 4
-        },
-        end: {
-          line: 112,
-          column: 6
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 88,
-            column: 17
-          },
-          end: {
-            line: 88,
-            column: 18
-          }
-        },
-        loc: {
-          start: {
-            line: 88,
-            column: 23
-          },
-          end: {
-            line: 98,
-            column: 5
-          }
-        },
-        line: 88
-      }
-    },
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 48,
-            column: 6
-          },
-          end: {
-            line: 52,
-            column: 7
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 48,
-            column: 6
-          },
-          end: {
-            line: 52,
-            column: 7
-          }
-        }, {
-          start: {
-            line: 48,
-            column: 6
-          },
-          end: {
-            line: 52,
-            column: 7
-          }
-        }],
-        line: 48
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 62,
-            column: 6
-          },
-          end: {
-            line: 66,
-            column: 7
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 62,
-            column: 6
-          },
-          end: {
-            line: 66,
-            column: 7
-          }
-        }, {
-          start: {
-            line: 62,
-            column: 6
-          },
-          end: {
-            line: 66,
-            column: 7
-          }
-        }],
-        line: 62
-      },
-      "2": {
-        loc: {
-          start: {
-            line: 81,
-            column: 6
-          },
-          end: {
-            line: 83,
-            column: 7
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 81,
-            column: 6
-          },
-          end: {
-            line: 83,
-            column: 7
-          }
-        }, {
-          start: {
-            line: 81,
-            column: 6
-          },
-          end: {
-            line: 83,
-            column: 7
-          }
-        }],
-        line: 81
-      },
-      "3": {
-        loc: {
-          start: {
-            line: 81,
-            column: 10
-          },
-          end: {
-            line: 81,
-            column: 47
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 81,
-            column: 10
-          },
-          end: {
-            line: 81,
-            column: 23
-          }
-        }, {
-          start: {
-            line: 81,
-            column: 27
-          },
-          end: {
-            line: 81,
-            column: 47
-          }
-        }],
-        line: 81
-      },
-      "4": {
-        loc: {
-          start: {
-            line: 82,
-            column: 8
-          },
-          end: {
-            line: 82,
-            column: 77
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 82,
-            column: 8
-          },
-          end: {
-            line: 82,
-            column: 77
-          }
-        }, {
-          start: {
-            line: 82,
-            column: 8
-          },
-          end: {
-            line: 82,
-            column: 77
-          }
-        }],
-        line: 82
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0,
-      "16": 0
-    },
-    f: {
-      "0": 0
-    },
-    b: {
-      "0": [0, 0],
-      "1": [0, 0],
-      "2": [0, 0],
-      "3": [0, 0],
-      "4": [0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ var notification_containervue_type_script_lang_js_ = ({
-  components: {
-    notification_bell: notification_bell,
-    notification_list: notification_list
-  },
-  methods: {
-    /**
-     * Input new lazy load data here
-     * Automatically assign next + concat notification
-     */
-    // concatNotificationData (notificationData) {
-    //   this.next = notificationData.next
-    //   this.notificationItems = this.notificationItems.concat(notificationData.results)
-    // },
-    notificationListOnLazyLoad: function notificationListOnLazyLoad(next) {
-      cov_2pv5cdfx1r.s[0]++;
-
-      /**
-       * Write unit test for this shit
-       */
-      if (this.onLazyLoad) {
-        cov_2pv5cdfx1r.b[0][0]++;
-        cov_2pv5cdfx1r.s[1]++;
-        this.onLazyLoad(next);
-      } else {
-        cov_2pv5cdfx1r.b[0][1]++;
-        cov_2pv5cdfx1r.s[2]++;
-        return false;
-      }
-    },
-    toggleNotificationList: function toggleNotificationList() {
-      cov_2pv5cdfx1r.s[3]++;
-      this.isShowNotificationList = !this.isShowNotificationList;
-      /**
-       * Emmit markAsRead
-       * Params: unread_list
-       */
-
-      cov_2pv5cdfx1r.s[4]++;
-
-      if (this.notificationData.unread_list.length > 0) {
-        cov_2pv5cdfx1r.b[1][0]++;
-        cov_2pv5cdfx1r.s[5]++;
-        // this.$emit("markAsRead", this.notificationData.unread_list);
-        this.onMarkAsRead(this.notificationData.unread_list);
-        cov_2pv5cdfx1r.s[6]++;
-        this.notificationCount = 0;
-      } else {
-        cov_2pv5cdfx1r.b[1][1]++;
-      }
-    },
-
-    /**
-     * Todo: Unit Test
-     * isShowNotificationList = true and click in document should set to false
-     * isShowNotificationList = false and click in document should persist to false
-     */
-    handleClickOutSide: function handleClickOutSide(e) {
-      var el = (cov_2pv5cdfx1r.s[7]++, this.$refs.notificationWrapper);
-      var target = (cov_2pv5cdfx1r.s[8]++, e.target);
-      /**
-       * If it's click outside
-       */
-
-      cov_2pv5cdfx1r.s[9]++;
-
-      if ((cov_2pv5cdfx1r.b[3][0]++, el !== target) && (cov_2pv5cdfx1r.b[3][1]++, !el.contains(target))) {
-        cov_2pv5cdfx1r.b[2][0]++;
-        cov_2pv5cdfx1r.s[10]++;
-
-        if (this.isShowNotificationList) {
-          cov_2pv5cdfx1r.b[4][0]++;
-          cov_2pv5cdfx1r.s[11]++;
-          this.isShowNotificationList = false;
-        } else {
-          cov_2pv5cdfx1r.b[4][1]++;
-        }
-      } else {
-        cov_2pv5cdfx1r.b[2][1]++;
-      }
-    }
-  },
-  created: function created() {
-    var _this = this;
-
-    cov_2pv5cdfx1r.s[12]++;
-    external_commonjs_vue_commonjs2_vue_root_Vue_default.a.nextTick(function () {
-      cov_2pv5cdfx1r.f[0]++;
-      cov_2pv5cdfx1r.s[13]++;
-
-      /**
-       * Hide notification on click outside
-       */
-      document.addEventListener("click", _this.handleClickOutSide);
-      /**
-       * Vue doesn't allow to edit props
-       */
-
-      cov_2pv5cdfx1r.s[14]++;
-      _this.notificationCount = _this.notificationData.unread_list.length;
-    });
-  },
-  destroyed: function destroyed() {
-    cov_2pv5cdfx1r.s[15]++;
-
-    /**
-     * Remove on added event
-     */
-    document.removeEventListener("click", this.handleClickOutSide);
-  },
-  data: function data() {
-    cov_2pv5cdfx1r.s[16]++;
-    return {
-      isShowNotificationList: false,
-      notificationCount: 0
-    };
-  },
-  props: {
-    /**
-     * Pass anything the api return in results
-     * into this. will format data automatically
-     */
-    notificationData: {
-      type: Object
-    },
-
-    /**
-     * Link to show all notification
-     */
-    href: {
-      type: String
-    },
-
-    /**
-     * Function will be call when lazy load
-     * Params: Next link
-     * Use next link to get more notification data then
-     *  Concat result
-     *  Change
-     *    next: update lazymode status
-     *    unread_list: update notification number on bell
-     */
-    onLazyLoad: Function,
-
-    /**
-     * Function will be call when lazy load
-     * Params: id array
-     * Update bunch of array of id element to be readed
-     */
-    onMarkAsRead: Function
-  }
-});
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=script&lang=js&
- /* harmony default export */ var notification_container_notification_containervue_type_script_lang_js_ = (notification_containervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue?vue&type=style&index=0&id=75eab074&scoped=true&lang=scss&
-var notification_containervue_type_style_index_0_id_75eab074_scoped_true_lang_scss_ = __webpack_require__("1459");
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_container/notification_container.vue
-
-
-
-
-
-
-/* normalize component */
-
-var notification_container_component = Object(componentNormalizer["a" /* default */])(
-  notification_container_notification_containervue_type_script_lang_js_,
-  notification_containervue_type_template_id_75eab074_scoped_true_render,
-  notification_containervue_type_template_id_75eab074_scoped_true_staticRenderFns,
-  false,
-  null,
-  "75eab074",
-  null
-  
-)
-
-notification_container_component.options.__file = "notification_container.vue"
-/* harmony default export */ var notification_container = (notification_container_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/main.vue?vue&type=script&lang=js&
-var cov_14g33ktv2s = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/main.vue",
-      hash = "aad7dec50f5a7aa5496ace5c903e031378aa27d1",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/cloudjet_noti/main.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 21,
-          column: 18
-        },
-        end: {
-          line: 21,
-          column: 54
-        }
-      },
-      "1": {
-        start: {
-          line: 50,
-          column: 8
-        },
-        end: {
-          line: 50,
-          column: 48
-        }
-      },
-      "2": {
-        start: {
-          line: 51,
-          column: 8
-        },
-        end: {
-          line: 51,
-          column: 64
-        }
-      },
-      "3": {
-        start: {
-          line: 56,
-          column: 26
-        },
-        end: {
-          line: 56,
-          column: 41
-        }
-      },
-      "4": {
-        start: {
-          line: 58,
-          column: 8
-        },
-        end: {
-          line: 60,
-          column: 9
-        }
-      },
-      "5": {
-        start: {
-          line: 59,
-          column: 12
-        },
-        end: {
-          line: 59,
-          column: 57
-        }
-      },
-      "6": {
-        start: {
-          line: 71,
-          column: 12
-        },
-        end: {
-          line: 71,
-          column: 55
-        }
-      },
-      "7": {
-        start: {
-          line: 74,
-          column: 12
-        },
-        end: {
-          line: 77,
-          column: 14
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 58,
-            column: 8
-          },
-          end: {
-            line: 60,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 58,
-            column: 8
-          },
-          end: {
-            line: 60,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 58,
-            column: 8
-          },
-          end: {
-            line: 60,
-            column: 9
-          }
-        }],
-        line: 58
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0
-    },
-    f: {},
-    b: {
-      "0": [0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-var initMixin = (cov_14g33ktv2s.s[0]++, buildInitMixin("notification", cloudjet_noti_store)); // Mutation List
-
- // Mutation List
-
-
-
-/* harmony default export */ var mainvue_type_script_lang_js_ = ({
-  computed: _objectSpread({}, mapGetters({
-    notificationData: "$notification/notificationData",
-    href: "$notification/href",
-    userActor: "userActor"
-  })),
-  components: {
-    NotificationContainer: notification_container
-  },
-  mixins: [initMixin],
-  mounted: function () {
-    var _mounted = _asyncToGenerator(
-    /*#__PURE__*/
-    regeneratorRuntime.mark(function _callee() {
-      return regeneratorRuntime.wrap(function _callee$(_context) {
-        while (1) {
-          switch (_context.prev = _context.next) {
-            case 0:
-              cov_14g33ktv2s.s[1]++;
-              _context.next = 3;
-              return this.$store.dispatch("initialize");
-
-            case 3:
-              cov_14g33ktv2s.s[2]++;
-              this.dispatchGetInitialNotifiations(this.userActor.user);
-
-            case 5:
-            case "end":
-              return _context.stop();
-          }
-        }
-      }, _callee, this);
-    }));
-
-    return function mounted() {
-      return _mounted.apply(this, arguments);
-    };
-  }(),
-  created: function created() {
-    /* below should be bundle into a component builder*/
-    var STORE_KEY = (cov_14g33ktv2s.s[3]++, "$notification"); // eslint-disable-next-line no-underscore-dangle
-
-    cov_14g33ktv2s.s[4]++;
-
-    if (!(STORE_KEY in this.$store._modules.root._children)) {
-      cov_14g33ktv2s.b[0][0]++;
-      cov_14g33ktv2s.s[5]++;
-      this.$store.registerModule(STORE_KEY, cloudjet_noti_store);
-    } else {
-      cov_14g33ktv2s.b[0][1]++;
-    }
-    /* end this */
-
-  },
-  // can be wrong namespace
-  methods: _objectSpread({}, mapActions({
-    dispatchGetInitialNotifiations: "$notification/".concat(getInitialNotifiations),
-    dispatchGetLazyNotifications: "$notification/".concat(getLazyNotifications),
-    dispatchMarkAsReadNotifications: "$notification/".concat(markAsReadNotifications)
-  }), {
-    getLazyNotifications: function getLazyNotifications(nextLink) {
-      cov_14g33ktv2s.s[6]++;
-      this.dispatchGetLazyNotifications(nextLink);
-    },
-    markAsReadNotifications: function markAsReadNotifications(unreadNotificationLists) {
-      cov_14g33ktv2s.s[7]++;
-      this.dispatchMarkAsReadNotifications({
-        uid: this.userActor.user,
-        unreadNotificationLists: unreadNotificationLists
-      });
-    }
-  })
-});
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/main.vue?vue&type=script&lang=js&
- /* harmony default export */ var cloudjet_noti_mainvue_type_script_lang_js_ = (mainvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/cloudjet_noti/main.vue?vue&type=style&index=0&id=f4f48c48&scoped=true&lang=css&
-var mainvue_type_style_index_0_id_f4f48c48_scoped_true_lang_css_ = __webpack_require__("b882");
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/main.vue
-
-
-
-
-
-
-/* normalize component */
-
-var main_component = Object(componentNormalizer["a" /* default */])(
-  cloudjet_noti_mainvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  "f4f48c48",
-  null
-  
-)
-
-main_component.options.__file = "main.vue"
-/* harmony default export */ var main = (main_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=template&id=99e0d0a0&scoped=true&
-var mainvue_type_template_id_99e0d0a0_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component-wrapper"},[_c('div',{staticClass:"col-sm-4 col-table-4 kpi-panel text-center",attrs:{"id":"company-performance-score"}},[_c('div',{staticClass:"kpi-panel-body"},[_c('div',{staticClass:"kpi-panel-header"},[_vm._v(_vm._s(_vm._f("translate")("Company Information")))]),_c('vision-mission',{attrs:{"organization-object":_vm.organization,"company-performance":_vm.companyPerformance,"quarter-period":_vm.quarterPeriod}}),_c('vision-mission-modal',{attrs:{"organization-object":_vm.organization,"map":_vm.strategyMap}}),_c('hr',{staticClass:"per-border border-top"}),_c('month-lock-controller',{attrs:{"is-admin":_vm.userActor.is_admin,"quarter-period":_vm.quarterPeriod},model:{value:(_vm.organizationMontlyReviewLock),callback:function ($$v) {_vm.organizationMontlyReviewLock=$$v},expression:"organizationMontlyReviewLock"}}),_c('performance-table',{attrs:{"quarter-period":_vm.quarterPeriod,"company-performance":_vm.companyPerformance}})],1)])])}
-var mainvue_type_template_id_99e0d0a0_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=template&id=99e0d0a0&scoped=true&
-
-// CONCATENATED MODULE: ./src/sdk/network/quarter_period/config.js
-var cov_2lvqiyzr4v = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/config.js",
-      hash = "4ddf26e4215cea9db82301905a25910c56962b0f",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/config.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 1,
-          column: 15
-        },
-        end: {
-          line: 3,
-          column: 1
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-var quarter_period_config_module = (cov_2lvqiyzr4v.s[0]++, {
-  path: "/api/quarter/"
-});
-/* harmony default export */ var quarter_period_config = (quarter_period_config_module);
-// CONCATENATED MODULE: ./src/sdk/network/quarter_period/factory.js
-var cov_2t1owjrxx = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/factory.js",
-      hash = "2f5f79a275010378d2b5de6e31e432bcaa8956f4",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/factory.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 10,
-          column: 16
-        },
-        end: {
-          line: 10,
-          column: 32
-        }
-      },
-      "1": {
-        start: {
-          line: 11,
-          column: 4
-        },
-        end: {
-          line: 31,
-          column: 5
-        }
-      },
-      "2": {
-        start: {
-          line: 14,
-          column: 27
-        },
-        end: {
-          line: 14,
-          column: 50
-        }
-      },
-      "3": {
-        start: {
-          line: 15,
-          column: 12
-        },
-        end: {
-          line: 19,
-          column: 14
-        }
-      },
-      "4": {
-        start: {
-          line: 22,
-          column: 12
-        },
-        end: {
-          line: 28,
-          column: 14
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 8,
-            column: 16
-          },
-          end: {
-            line: 8,
-            column: 17
-          }
-        },
-        loc: {
-          start: {
-            line: 8,
-            column: 22
-          },
-          end: {
-            line: 32,
-            column: 1
-          }
-        },
-        line: 8
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 13,
-            column: 24
-          },
-          end: {
-            line: 13,
-            column: 25
-          }
-        },
-        loc: {
-          start: {
-            line: 13,
-            column: 40
-          },
-          end: {
-            line: 20,
-            column: 9
-          }
-        },
-        line: 13
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 21,
-            column: 27
-          },
-          end: {
-            line: 21,
-            column: 28
-          }
-        },
-        loc: {
-          start: {
-            line: 21,
-            column: 33
-          },
-          end: {
-            line: 29,
-            column: 9
-          }
-        },
-        line: 21
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0,
-      "2": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-
-/* harmony default export */ var quarter_period_factory = (function () {
-  cov_2t1owjrxx.f[0]++;
-  // Tạo url: base + path
-  var url = (cov_2t1owjrxx.s[0]++, "".concat(quarter_period_config.path));
-  cov_2t1owjrxx.s[1]++;
-  return {
-    url: url,
-    getQuarterByID: function getQuarterByID(quarter_id) {
-      cov_2t1owjrxx.f[1]++;
-      var params = (cov_2t1owjrxx.s[2]++, jquery_default.a.param({
-        quarter_id: quarter_id
-      }));
-      cov_2t1owjrxx.s[3]++;
-      return Object(network_builder["a" /* buildPromise */])({
-        httpMethod: 'GET',
-        url: url,
-        data: params
-      });
-    },
-    getCurrentQuarter: function getCurrentQuarter() {
-      cov_2t1owjrxx.f[2]++;
-      cov_2t1owjrxx.s[4]++;
-      return Object(network_builder["a" /* buildPromise */])({
-        httpMethod: 'GET',
-        url: url,
-        data: {
-          get_current_quarter: 'yes'
-        }
-      });
-    }
-  };
-});
-// CONCATENATED MODULE: ./src/sdk/network/quarter_period/index.js
-var cov_2mrn8thyz9 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/index.js",
-      hash = "fdb3a9c89fa70494f6ff98ea210b6b223facd132",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/quarter_period/index.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-/* harmony default export */ var quarter_period = (quarter_period_factory);
-// EXTERNAL MODULE: ./src/sdk/network/user/user_kpi/factory.js
-var user_kpi_factory = __webpack_require__("288e");
-
-// CONCATENATED MODULE: ./src/sdk/network/user/user_kpi/index.js
-var cov_xbgkkxqi8 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/index.js",
-      hash = "e7fa8af35c93feeef1fe19d441990d47f444a1bb",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/user_kpi/index.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-/* harmony default export */ var user_kpi = (user_kpi_factory["a" /* default */]);
-// EXTERNAL MODULE: ./src/sdk/network/user/strategy_map/factory.js
-var strategy_map_factory = __webpack_require__("90e3");
-
-// CONCATENATED MODULE: ./src/sdk/network/user/strategy_map/index.js
-var cov_qacvo56zk = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/strategy_map/index.js",
-      hash = "95a517bd713c909046d7210effd370ba0203c276",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/strategy_map/index.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-/* harmony default export */ var strategy_map = (strategy_map_factory["a" /* default */]);
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/mutations.js
-var cov_1jj3tkkc7y = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/mutations.js",
-      hash = "acf1cb713f10f8417f9d20d807e4df1eaec57f6f",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/mutations.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 6,
-          column: 35
-        },
-        end: {
-          line: 6,
-          column: 56
-        }
-      },
-      "1": {
-        start: {
-          line: 7,
-          column: 40
-        },
-        end: {
-          line: 7,
-          column: 66
-        }
-      },
-      "2": {
-        start: {
-          line: 8,
-          column: 44
-        },
-        end: {
-          line: 8,
-          column: 74
-        }
-      },
-      "3": {
-        start: {
-          line: 9,
-          column: 51
-        },
-        end: {
-          line: 9,
-          column: 88
-        }
-      },
-      "4": {
-        start: {
-          line: 14,
-          column: 25
-        },
-        end: {
-          line: 14,
-          column: 61
-        }
-      },
-      "5": {
-        start: {
-          line: 15,
-          column: 8
-        },
-        end: {
-          line: 15,
-          column: 64
-        }
-      },
-      "6": {
-        start: {
-          line: 16,
-          column: 8
-        },
-        end: {
-          line: 16,
-          column: 64
-        }
-      },
-      "7": {
-        start: {
-          line: 17,
-          column: 8
-        },
-        end: {
-          line: 17,
-          column: 64
-        }
-      },
-      "8": {
-        start: {
-          line: 18,
-          column: 8
-        },
-        end: {
-          line: 18,
-          column: 40
-        }
-      },
-      "9": {
-        start: {
-          line: 22,
-          column: 8
-        },
-        end: {
-          line: 22,
-          column: 53
-        }
-      },
-      "10": {
-        start: {
-          line: 25,
-          column: 8
-        },
-        end: {
-          line: 25,
-          column: 39
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-var _fetchDataQuarterMuta;
-
-
-/**
- * Mutation là dạng string nên ta cần biến const để auto completet
- */
-
-var initializeDataStore = (cov_1jj3tkkc7y.s[0]++, 'initializeDataStore');
-var fetchDataQuarterMutation = (cov_1jj3tkkc7y.s[1]++, 'fetchDataQuarterMutation');
-var fetchDataStrategyMapMutation = (cov_1jj3tkkc7y.s[2]++, 'fetchDataStrategyMapMutation');
-var fetchDataCompanyPerformanceMutation = (cov_1jj3tkkc7y.s[3]++, 'fetchDataCompanyPerformanceMutation');
-/* harmony default export */ var store_mutations = (_fetchDataQuarterMuta = {}, _defineProperty(_fetchDataQuarterMuta, fetchDataQuarterMutation, function (state, quarterPeriod) {
-  var clonedData = (cov_1jj3tkkc7y.s[4]++, cloneObject(quarterPeriod['fields']));
-  cov_1jj3tkkc7y.s[5]++;
-  clonedData.month_1_name = quarterPeriod['month_1_name'];
-  cov_1jj3tkkc7y.s[6]++;
-  clonedData.month_2_name = quarterPeriod['month_2_name'];
-  cov_1jj3tkkc7y.s[7]++;
-  clonedData.month_3_name = quarterPeriod['month_3_name'];
-  cov_1jj3tkkc7y.s[8]++;
-  state.quarterPeriod = clonedData;
-}), _defineProperty(_fetchDataQuarterMuta, fetchDataCompanyPerformanceMutation, function (state, companyPerformance) {
-  cov_1jj3tkkc7y.s[9]++;
-  state.companyPerformance = companyPerformance;
-}), _defineProperty(_fetchDataQuarterMuta, fetchDataStrategyMapMutation, function (state, strategyMap) {
-  cov_1jj3tkkc7y.s[10]++;
-  state.strategyMap = strategyMap;
-}), _fetchDataQuarterMuta);
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/actions.js
-var cov_10lfxb8rro = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/actions.js",
-      hash = "e0b03c2189aa5cc2d1b73e5226251da9e6607914",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/actions.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 10,
-          column: 35
-        },
-        end: {
-          line: 10,
-          column: 56
-        }
-      },
-      "1": {
-        start: {
-          line: 11,
-          column: 32
-        },
-        end: {
-          line: 11,
-          column: 50
-        }
-      },
-      "2": {
-        start: {
-          line: 12,
-          column: 43
-        },
-        end: {
-          line: 12,
-          column: 72
-        }
-      },
-      "3": {
-        start: {
-          line: 13,
-          column: 33
-        },
-        end: {
-          line: 13,
-          column: 52
-        }
-      },
-      "4": {
-        start: {
-          line: 14,
-          column: 32
-        },
-        end: {
-          line: 14,
-          column: 50
-        }
-      },
-      "5": {
-        start: {
-          line: 18,
-          column: 8
-        },
-        end: {
-          line: 18,
-          column: 56
-        }
-      },
-      "6": {
-        start: {
-          line: 19,
-          column: 8
-        },
-        end: {
-          line: 19,
-          column: 67
-        }
-      },
-      "7": {
-        start: {
-          line: 20,
-          column: 8
-        },
-        end: {
-          line: 20,
-          column: 56
-        }
-      },
-      "8": {
-        start: {
-          line: 23,
-          column: 8
-        },
-        end: {
-          line: 42,
-          column: 9
-        }
-      },
-      "9": {
-        start: {
-          line: 25,
-          column: 12
-        },
-        end: {
-          line: 33,
-          column: 14
-        }
-      },
-      "10": {
-        start: {
-          line: 28,
-          column: 16
-        },
-        end: {
-          line: 28,
-          column: 47
-        }
-      },
-      "11": {
-        start: {
-          line: 30,
-          column: 16
-        },
-        end: {
-          line: 30,
-          column: 59
-        }
-      },
-      "12": {
-        start: {
-          line: 32,
-          column: 16
-        },
-        end: {
-          line: 32,
-          column: 27
-        }
-      },
-      "13": {
-        start: {
-          line: 37,
-          column: 12
-        },
-        end: {
-          line: 41,
-          column: 14
-        }
-      },
-      "14": {
-        start: {
-          line: 38,
-          column: 16
-        },
-        end: {
-          line: 38,
-          column: 59
-        }
-      },
-      "15": {
-        start: {
-          line: 40,
-          column: 16
-        },
-        end: {
-          line: 40,
-          column: 25
-        }
-      },
-      "16": {
-        start: {
-          line: 46,
-          column: 8
-        },
-        end: {
-          line: 50,
-          column: 10
-        }
-      },
-      "17": {
-        start: {
-          line: 47,
-          column: 12
-        },
-        end: {
-          line: 47,
-          column: 66
-        }
-      },
-      "18": {
-        start: {
-          line: 49,
-          column: 12
-        },
-        end: {
-          line: 49,
-          column: 28
-        }
-      },
-      "19": {
-        start: {
-          line: 53,
-          column: 8
-        },
-        end: {
-          line: 57,
-          column: 10
-        }
-      },
-      "20": {
-        start: {
-          line: 54,
-          column: 12
-        },
-        end: {
-          line: 54,
-          column: 59
-        }
-      },
-      "21": {
-        start: {
-          line: 56,
-          column: 12
-        },
-        end: {
-          line: 56,
-          column: 28
-        }
-      },
-      "22": {
-        start: {
-          line: 61,
-          column: 18
-        },
-        end: {
-          line: 61,
-          column: 46
-        }
-      },
-      "23": {
-        start: {
-          line: 62,
-          column: 8
-        },
-        end: {
-          line: 62,
-          column: 49
-        }
-      },
-      "24": {
-        start: {
-          line: 64,
-          column: 8
-        },
-        end: {
-          line: 68,
-          column: 10
-        }
-      },
-      "25": {
-        start: {
-          line: 65,
-          column: 12
-        },
-        end: {
-          line: 65,
-          column: 67
-        }
-      },
-      "26": {
-        start: {
-          line: 67,
-          column: 12
-        },
-        end: {
-          line: 67,
-          column: 28
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 25,
-            column: 72
-          },
-          end: {
-            line: 25,
-            column: 73
-          }
-        },
-        loc: {
-          start: {
-            line: 25,
-            column: 82
-          },
-          end: {
-            line: 31,
-            column: 13
-          }
-        },
-        line: 25
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 31,
-            column: 21
-          },
-          end: {
-            line: 31,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 31,
-            column: 28
-          },
-          end: {
-            line: 33,
-            column: 13
-          }
-        },
-        line: 31
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 37,
-            column: 60
-          },
-          end: {
-            line: 37,
-            column: 61
-          }
-        },
-        loc: {
-          start: {
-            line: 37,
-            column: 70
-          },
-          end: {
-            line: 39,
-            column: 13
-          }
-        },
-        line: 37
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
-            line: 39,
-            column: 21
-          },
-          end: {
-            line: 39,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 39,
-            column: 28
-          },
-          end: {
-            line: 41,
-            column: 13
-          }
-        },
-        line: 39
-      },
-      "4": {
-        name: "(anonymous_4)",
-        decl: {
-          start: {
-            line: 46,
-            column: 119
-          },
-          end: {
-            line: 46,
-            column: 120
-          }
-        },
-        loc: {
-          start: {
-            line: 46,
-            column: 127
-          },
-          end: {
-            line: 48,
-            column: 9
-          }
-        },
-        line: 46
-      },
-      "5": {
-        name: "(anonymous_5)",
-        decl: {
-          start: {
-            line: 48,
-            column: 17
-          },
-          end: {
-            line: 48,
-            column: 18
-          }
-        },
-        loc: {
-          start: {
-            line: 48,
-            column: 24
-          },
-          end: {
-            line: 50,
-            column: 9
-          }
-        },
-        line: 48
-      },
-      "6": {
-        name: "(anonymous_6)",
-        decl: {
-          start: {
-            line: 53,
-            column: 112
-          },
-          end: {
-            line: 53,
-            column: 113
-          }
-        },
-        loc: {
-          start: {
-            line: 53,
-            column: 120
-          },
-          end: {
-            line: 55,
-            column: 9
-          }
-        },
-        line: 53
-      },
-      "7": {
-        name: "(anonymous_7)",
-        decl: {
-          start: {
-            line: 55,
-            column: 17
-          },
-          end: {
-            line: 55,
-            column: 18
-          }
-        },
-        loc: {
-          start: {
-            line: 55,
-            column: 24
-          },
-          end: {
-            line: 57,
-            column: 9
-          }
-        },
-        line: 55
-      },
-      "8": {
-        name: "(anonymous_8)",
-        decl: {
-          start: {
-            line: 64,
-            column: 59
-          },
-          end: {
-            line: 64,
-            column: 60
-          }
-        },
-        loc: {
-          start: {
-            line: 64,
-            column: 67
-          },
-          end: {
-            line: 66,
-            column: 9
-          }
-        },
-        line: 64
-      },
-      "9": {
-        name: "(anonymous_9)",
-        decl: {
-          start: {
-            line: 66,
-            column: 17
-          },
-          end: {
-            line: 66,
-            column: 18
-          }
-        },
-        loc: {
-          start: {
-            line: 66,
-            column: 24
-          },
-          end: {
-            line: 68,
-            column: 9
-          }
-        },
-        line: 66
-      }
-    },
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 23,
-            column: 8
-          },
-          end: {
-            line: 42,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 23,
-            column: 8
-          },
-          end: {
-            line: 42,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 23,
-            column: 8
-          },
-          end: {
-            line: 42,
-            column: 9
-          }
-        }],
-        line: 23
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0,
-      "16": 0,
-      "17": 0,
-      "18": 0,
-      "19": 0,
-      "20": 0,
-      "21": 0,
-      "22": 0,
-      "23": 0,
-      "24": 0,
-      "25": 0,
-      "26": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0
-    },
-    b: {
-      "0": [0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-var _initializeDataStore$;
-
-/* import block */
-
-
-
-
-
-
-/* export block */
-
-var actions_initializeDataStore = (cov_10lfxb8rro.s[0]++, 'initializeDataStore');
-var fetchDataQuarter = (cov_10lfxb8rro.s[1]++, 'fetchDataQuarter');
-var fetchDataCompanyPerformance = (cov_10lfxb8rro.s[2]++, 'fetchDataCompanyPerformance');
-var updateMonthlyLock = (cov_10lfxb8rro.s[3]++, 'updateMonthlyLock');
-var fetchStrategyMap = (cov_10lfxb8rro.s[4]++, 'fetchStrategyMap');
-/* harmony default export */ var store_actions = (_initializeDataStore$ = {}, _defineProperty(_initializeDataStore$, actions_initializeDataStore, function (store, quarterPeriodID) {
-  cov_10lfxb8rro.s[5]++;
-  store.dispatch(fetchDataQuarter, quarterPeriodID);
-  cov_10lfxb8rro.s[6]++;
-  store.dispatch(fetchDataCompanyPerformance, quarterPeriodID);
-  cov_10lfxb8rro.s[7]++;
-  store.dispatch(fetchStrategyMap, quarterPeriodID);
-}), _defineProperty(_initializeDataStore$, fetchDataQuarter, function (store, quarterPeriodID) {
-  cov_10lfxb8rro.s[8]++;
-
-  if (quarterPeriodID) {
-    cov_10lfxb8rro.b[0][0]++;
-    cov_10lfxb8rro.s[9]++;
-
-    /* if quarterPeriodID provided, get quarter by id */
-    quarter_period().getQuarterByID(quarterPeriodID).then(function (data) {
-      cov_10lfxb8rro.f[0]++;
-      cov_10lfxb8rro.s[10]++;
-      // Fuck ===> Backend return shit response
-      // Hot fix
-      data.fields = cloneObject(data); // End hotfix
-
-      cov_10lfxb8rro.s[11]++;
-      store.commit(fetchDataQuarterMutation, data);
-    }).catch(function (err) {
-      cov_10lfxb8rro.f[1]++;
-      cov_10lfxb8rro.s[12]++;
-      throw err;
-    });
-  } else {
-    cov_10lfxb8rro.b[0][1]++;
-    cov_10lfxb8rro.s[13]++;
-
-    /* if quarter period id not provided, get current quarter */
-    quarter_period().getCurrentQuarter().then(function (data) {
-      cov_10lfxb8rro.f[2]++;
-      cov_10lfxb8rro.s[14]++;
-      store.commit(fetchDataQuarterMutation, data);
-    }).catch(function (err) {
-      cov_10lfxb8rro.f[3]++;
-      cov_10lfxb8rro.s[15]++;
-      throw err;
-    });
-  }
-}), _defineProperty(_initializeDataStore$, fetchDataCompanyPerformance, function (store, quarterPeriodID) {
-  cov_10lfxb8rro.s[16]++;
-  user_kpi().getPerformanceByQuarterID({
-    quarterPeriodID: quarterPeriodID,
-    userID: store.rootState.organization.ceo
-  }).then(function (data) {
-    cov_10lfxb8rro.f[4]++;
-    cov_10lfxb8rro.s[17]++;
-    store.commit(fetchDataCompanyPerformanceMutation, data);
-  }).catch(function (err) {
-    cov_10lfxb8rro.f[5]++;
-    cov_10lfxb8rro.s[18]++;
-    console.log(err);
-  });
-}), _defineProperty(_initializeDataStore$, fetchStrategyMap, function (store, quarterPeriodID) {
-  cov_10lfxb8rro.s[19]++;
-  strategy_map().getMapByUserID({
-    quarterPeriodID: quarterPeriodID,
-    userID: store.rootState.organization.ceo
-  }).then(function (data) {
-    cov_10lfxb8rro.f[6]++;
-    cov_10lfxb8rro.s[20]++;
-    store.commit(fetchDataStrategyMapMutation, data);
-  }).catch(function (err) {
-    cov_10lfxb8rro.f[7]++;
-    cov_10lfxb8rro.s[21]++;
-    console.log(err);
-  });
-}), _defineProperty(_initializeDataStore$, updateMonthlyLock, function (store, monthLockReview) {
-  /* update attribute */
-  var org = (cov_10lfxb8rro.s[22]++, store.rootState.organization);
-  cov_10lfxb8rro.s[23]++;
-  org.monthly_review_lock = monthLockReview;
-  /* trigger network service and update org in root store*/
-
-  cov_10lfxb8rro.s[24]++;
-  network_organization().updateOrganization(org).then(function (data) {
-    cov_10lfxb8rro.f[8]++;
-    cov_10lfxb8rro.s[25]++;
-    store.commit("organizationMutation", data, {
-      root: true
-    });
-  }).catch(function (err) {
-    cov_10lfxb8rro.f[9]++;
-    cov_10lfxb8rro.s[26]++;
-    console.log(err);
-  });
-}), _initializeDataStore$);
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/getters.js
-var cov_153lw7io3n = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/getters.js",
-      hash = "c14cba9d597e4736b75fa75d4ec0f0c94a7b01f0",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/getters.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 1,
-          column: 40
-        },
-        end: {
-          line: 1,
-          column: 60
-        }
-      },
-      "1": {
-        start: {
-          line: 2,
-          column: 35
-        },
-        end: {
-          line: 2,
-          column: 50
-        }
-      },
-      "2": {
-        start: {
-          line: 3,
-          column: 33
-        },
-        end: {
-          line: 3,
-          column: 46
-        }
-      },
-      "3": {
-        start: {
-          line: 7,
-          column: 8
-        },
-        end: {
-          line: 7,
-          column: 39
-        }
-      },
-      "4": {
-        start: {
-          line: 10,
-          column: 8
-        },
-        end: {
-          line: 10,
-          column: 34
-        }
-      },
-      "5": {
-        start: {
-          line: 13,
-          column: 8
-        },
-        end: {
-          line: 13,
-          column: 32
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-var _companyPerformanceGe;
-
-var companyPerformanceGetter = (cov_153lw7io3n.s[0]++, 'companyPerformance');
-var quarterPeriodGetter = (cov_153lw7io3n.s[1]++, 'quarterPeriod');
-var strategyMapGetter = (cov_153lw7io3n.s[2]++, 'strategyMap');
-/* harmony default export */ var store_getters = (_companyPerformanceGe = {}, _defineProperty(_companyPerformanceGe, companyPerformanceGetter, function (state) {
-  cov_153lw7io3n.s[3]++;
-  return state.companyPerformance;
-}), _defineProperty(_companyPerformanceGe, quarterPeriodGetter, function (state) {
-  cov_153lw7io3n.s[4]++;
-  return state.quarterPeriod;
-}), _defineProperty(_companyPerformanceGe, strategyMapGetter, function (state) {
-  cov_153lw7io3n.s[5]++;
-  return state.strategyMap;
-}), _companyPerformanceGe);
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/states.js
-var cov_1g15kwgr6e = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/states.js",
-      hash = "baaa4b5a195c77e32d13816305617804abb3abbd",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/states.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-/* harmony default export */ var states = ({
-  companyPerformance: {},
-  quarterPeriod: {},
-  strategyMap: {}
-});
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/store/index.js
-var cov_9l2xfqxd1 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/index.js",
-      hash = "997cccb00ce584ba41b5e65177dd2f0fe5e0c2b6",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/store/index.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-
-
-/* harmony default export */ var company_performance_store = ({
-  namespaced: true,
-  state: states,
-  actions: store_actions,
-  getters: store_getters,
-  mutations: store_mutations
-});
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=template&id=05cf0880&scoped=true&
-var performance_tablevue_type_template_id_05cf0880_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"table-per-com-result"},[_c('table',{staticClass:"table table-bordered table-striped text-center"},[_c('thead',[_c('tr',[_c('th',[_vm._v(_vm._s(_vm.quarterPeriod.month_1_name))]),_c('th',[_vm._v(_vm._s(_vm.quarterPeriod.month_2_name))]),_c('th',[_vm._v(_vm._s(_vm.quarterPeriod.month_3_name))])])]),_c('tbody',[_c('tr',[_c('td',[_c('span',[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.month_1_score)))])]),_c('td',[_c('span',[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.month_2_score)))])]),_c('td',[_c('span',[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.month_3_score)))])])])])])])}
-var performance_tablevue_type_template_id_05cf0880_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=template&id=05cf0880&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=script&lang=js&
-var cov_1aypy9zr56 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue",
-      hash = "55087447c610a0b3d4f34df751e3052a176bbe77",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 40,
-          column: 29
-        },
-        end: {
-          line: 40,
-          column: 38
-        }
-      },
-      "1": {
-        start: {
-          line: 49,
-          column: 29
-        },
-        end: {
-          line: 49,
-          column: 38
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 40,
-            column: 21
-          },
-          end: {
-            line: 40,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 40,
-            column: 27
-          },
-          end: {
-            line: 40,
-            column: 40
-          }
-        },
-        line: 40
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 49,
-            column: 21
-          },
-          end: {
-            line: 49,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 49,
-            column: 27
-          },
-          end: {
-            line: 49,
-            column: 40
-          }
-        },
-        line: 49
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var performance_tablevue_type_script_lang_js_ = ({
-  name: "performance_table",
-  props: {
-    /**
-     * Object current quarter
-     * Business:
-     * Just an quarter period object bring data to be rendered
-     */
-    quarterPeriod: {
-      type: Object,
-      default: function _default() {
-        cov_1aypy9zr56.f[0]++;
-        cov_1aypy9zr56.s[0]++;
-        return {};
-      }
-    },
-
-    /**
-     * Object company performance
-     * An object stored performance of the ceo and be rendered
-     */
-    companyPerformance: {
-      type: Object,
-      default: function _default() {
-        cov_1aypy9zr56.f[1]++;
-        cov_1aypy9zr56.s[1]++;
-        return {};
-      }
-    }
-  }
-});
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_performance_tablevue_type_script_lang_js_ = (performance_tablevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue?vue&type=style&index=0&id=05cf0880&scoped=true&lang=css&
-var performance_tablevue_type_style_index_0_id_05cf0880_scoped_true_lang_css_ = __webpack_require__("ccee");
-
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/performance_table.vue
-
-
-
-
-
-
-/* normalize component */
-
-var performance_table_component = Object(componentNormalizer["a" /* default */])(
-  components_performance_tablevue_type_script_lang_js_,
-  performance_tablevue_type_template_id_05cf0880_scoped_true_render,
-  performance_tablevue_type_template_id_05cf0880_scoped_true_staticRenderFns,
-  false,
-  null,
-  "05cf0880",
-  null
-  
-)
-
-performance_table_component.options.__file = "performance_table.vue"
-/* harmony default export */ var performance_table = (performance_table_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=template&id=920370da&scoped=true&
-var vision_missionvue_type_template_id_920370da_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-fluid"},[_c('div',{staticClass:"rows-table-sm text-center"},[_c('div',{staticClass:"col-sm-6 col-table-6"},[_c('div',{staticClass:"rows-table-sm"},[_c('div',{staticClass:"logo padding-top-15"},[_c('img',{attrs:{"alt":_vm.organizationObject.name,"src":_vm.organizationObject.get_logo,"title":_vm.organizationObject.name}})])]),_c('div',{staticClass:"bt-mission-box"},[_c('button',{staticClass:"btn btn-normal btn-fullwidth btn-cus-5-7 HOME_BTN_VISION",on:{"click":function($event){_vm.$modal.show('visionMissionModalName')}}},[_vm._v("\n                    "+_vm._s(_vm._f("translate")("Vision & Mission"))+"\n                ")])])]),_c('div',{staticClass:"col-sm-6 col-table-6",attrs:{"id":"performance-quater"}},[_c('div',[_c('span',{staticClass:"com-per-title"},[_vm._v(_vm._s(_vm._f("translate")("Performance"))+" - "+_vm._s(_vm._f("translate")("Quarter"))+"\n                    "),_c('span',[_vm._v(_vm._s(_vm.quarterPeriod.quarter))])]),_c('br'),_c('span',{staticClass:"com-per-pecent"},[_c('span',{attrs:{"id":"company-performance-quarter"}},[_vm._v(_vm._s(_vm._f("scoreDisplay")(_vm.companyPerformance.kpi_percent)))]),_c('span',{staticClass:"per-com-unit"})])])])])])}
-var vision_missionvue_type_template_id_920370da_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=template&id=920370da&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=script&lang=js&
-var cov_l9as5gnkv = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue",
-      hash = "6e048c64526e44e8f56842818e007faf2cbc5341",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 46,
-          column: 29
-        },
-        end: {
-          line: 46,
-          column: 38
-        }
-      },
-      "1": {
-        start: {
-          line: 56,
-          column: 29
-        },
-        end: {
-          line: 56,
-          column: 38
-        }
-      },
-      "2": {
-        start: {
-          line: 65,
-          column: 29
-        },
-        end: {
-          line: 65,
-          column: 38
-        }
-      },
-      "3": {
-        start: {
-          line: 69,
-          column: 8
-        },
-        end: {
-          line: 71,
-          column: 9
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 46,
-            column: 21
-          },
-          end: {
-            line: 46,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 46,
-            column: 27
-          },
-          end: {
-            line: 46,
-            column: 40
-          }
-        },
-        line: 46
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 56,
-            column: 21
-          },
-          end: {
-            line: 56,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 56,
-            column: 27
-          },
-          end: {
-            line: 56,
-            column: 40
-          }
-        },
-        line: 56
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 65,
-            column: 21
-          },
-          end: {
-            line: 65,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 65,
-            column: 27
-          },
-          end: {
-            line: 65,
-            column: 40
-          }
-        },
-        line: 65
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
-            line: 68,
-            column: 10
-          },
-          end: {
-            line: 68,
-            column: 11
-          }
-        },
-        loc: {
-          start: {
-            line: 68,
-            column: 20
-          },
-          end: {
-            line: 72,
-            column: 5
-          }
-        },
-        line: 68
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var vision_missionvue_type_script_lang_js_ = ({
-  name: "vision_mission",
-  props: {
-    /**
-     * Object organization
-     * Business:
-     * Just an object store data of organization, used for controlling monthly lock
-     */
-    organizationObject: {
-      type: Object,
-      default: function _default() {
-        cov_l9as5gnkv.f[0]++;
-        cov_l9as5gnkv.s[0]++;
-        return {};
-      }
-    },
-
-    /**
-     * Object current quarter
-     * Business:
-     * Just an quarter period object bring data to be rendered
-     */
-    quarterPeriod: {
-      type: Object,
-      default: function _default() {
-        cov_l9as5gnkv.f[1]++;
-        cov_l9as5gnkv.s[1]++;
-        return {};
-      }
-    },
-
-    /**
-     * Object company performance
-     * An object stored performance of the ceo and be rendered
-     */
-    companyPerformance: {
-      type: Object,
-      default: function _default() {
-        cov_l9as5gnkv.f[2]++;
-        cov_l9as5gnkv.s[2]++;
-        return {};
-      }
-    }
-  },
-  data: function data() {
-    cov_l9as5gnkv.f[3]++;
-    cov_l9as5gnkv.s[3]++;
-    return {};
-  }
-});
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_vision_missionvue_type_script_lang_js_ = (vision_missionvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue?vue&type=style&index=0&id=920370da&scoped=true&lang=css&
-var vision_missionvue_type_style_index_0_id_920370da_scoped_true_lang_css_ = __webpack_require__("e20b");
-
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission.vue
-
-
-
-
-
-
-/* normalize component */
-
-var vision_mission_component = Object(componentNormalizer["a" /* default */])(
-  components_vision_missionvue_type_script_lang_js_,
-  vision_missionvue_type_template_id_920370da_scoped_true_render,
-  vision_missionvue_type_template_id_920370da_scoped_true_staticRenderFns,
-  false,
-  null,
-  "920370da",
-  null
-  
-)
-
-vision_mission_component.options.__file = "vision_mission.vue"
-/* harmony default export */ var vision_mission = (vision_mission_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=template&id=e1196634&scoped=true&
-var month_lock_controllervue_type_template_id_e1196634_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-fluid text-left due-box"},[_c('div',{staticClass:"col-sm-6",attrs:{"id":""}},[_c('div',[_vm._v(_vm._s(_vm._f("translate")("Due")))]),_c('div',[_vm._v(_vm._s(_vm._f("translate")("Allow review")))])]),_c('div',{staticClass:"col-sm-6 due-date-color"},[_c('div',[_vm._v(_vm._s(_vm._f("dateTimeFormat")(_vm.quarterPeriod.due_date)))]),(_vm.isAdmin)?_c('div',[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.monthlyReviewLock),expression:"monthlyReviewLock"}],staticClass:"HOME_DDL_ALLOW_MONTH",on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.monthlyReviewLock=$event.target.multiple ? $$selectedVal : $$selectedVal[0]}}},[_c('option',{attrs:{"value":"allow_all"}},[_vm._v(_vm._s(_vm._f("translate")("All months")))]),_c('option',{attrs:{"value":"1"}},[_vm._v(_vm._s(_vm.quarterPeriod.month_1_name))]),_c('option',{attrs:{"value":"2"}},[_vm._v(_vm._s(_vm.quarterPeriod.month_2_name))]),_c('option',{attrs:{"value":"3"}},[_vm._v(_vm._s(_vm.quarterPeriod.month_3_name))])])]):_c('div',[_c('span',[_vm._v(" "+_vm._s(_vm.displayMonthlyReviewLock))])])])])}
-var month_lock_controllervue_type_template_id_e1196634_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=template&id=e1196634&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=script&lang=js&
-var cov_2cuodvot0l = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue",
-      hash = "60d7c853f8088c1959574d72221ed250985eb34c",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 29,
-          column: 12
-        },
-        end: {
-          line: 31,
-          column: 13
-        }
-      },
-      "1": {
-        start: {
-          line: 30,
-          column: 16
-        },
-        end: {
-          line: 30,
-          column: 41
-        }
-      },
-      "2": {
-        start: {
-          line: 32,
-          column: 12
-        },
-        end: {
-          line: 32,
-          column: 77
-        }
-      },
-      "3": {
-        start: {
-          line: 36,
-          column: 16
-        },
-        end: {
-          line: 36,
-          column: 34
-        }
-      },
-      "4": {
-        start: {
-          line: 39,
-          column: 16
-        },
-        end: {
-          line: 39,
-          column: 39
-        }
-      },
-      "5": {
-        start: {
-          line: 51,
-          column: 29
-        },
-        end: {
-          line: 51,
-          column: 47
-        }
-      },
-      "6": {
-        start: {
-          line: 59,
-          column: 29
-        },
-        end: {
-          line: 59,
-          column: 41
-        }
-      },
-      "7": {
-        start: {
-          line: 67,
-          column: 29
-        },
-        end: {
-          line: 67,
-          column: 38
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 35,
-            column: 17
-          },
-          end: {
-            line: 35,
-            column: 18
-          }
-        },
-        loc: {
-          start: {
-            line: 35,
-            column: 27
-          },
-          end: {
-            line: 37,
-            column: 13
-          }
-        },
-        line: 35
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 38,
-            column: 17
-          },
-          end: {
-            line: 38,
-            column: 18
-          }
-        },
-        loc: {
-          start: {
-            line: 38,
-            column: 30
-          },
-          end: {
-            line: 40,
-            column: 13
-          }
-        },
-        line: 38
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 51,
-            column: 21
-          },
-          end: {
-            line: 51,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 51,
-            column: 27
-          },
-          end: {
-            line: 51,
-            column: 49
-          }
-        },
-        line: 51
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
-            line: 59,
-            column: 21
-          },
-          end: {
-            line: 59,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 59,
-            column: 27
-          },
-          end: {
-            line: 59,
-            column: 43
-          }
-        },
-        line: 59
-      },
-      "4": {
-        name: "(anonymous_4)",
-        decl: {
-          start: {
-            line: 67,
-            column: 21
-          },
-          end: {
-            line: 67,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 67,
-            column: 27
-          },
-          end: {
-            line: 67,
-            column: 40
-          }
-        },
-        line: 67
-      }
-    },
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 29,
-            column: 12
-          },
-          end: {
-            line: 31,
-            column: 13
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 29,
-            column: 12
-          },
-          end: {
-            line: 31,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 29,
-            column: 12
-          },
-          end: {
-            line: 31,
-            column: 13
-          }
-        }],
-        line: 29
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0
-    },
-    b: {
-      "0": [0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var month_lock_controllervue_type_script_lang_js_ = ({
-  name: "month_lock_controller",
-  computed: {
-    displayMonthlyReviewLock: function displayMonthlyReviewLock() {
-      cov_2cuodvot0l.s[0]++;
-
-      if (this.monthlyReviewLock === 'allow_all') {
-        cov_2cuodvot0l.b[0][0]++;
-        cov_2cuodvot0l.s[1]++;
-        return "Tất cả các tháng";
-      } else {
-        cov_2cuodvot0l.b[0][1]++;
-      }
-
-      cov_2cuodvot0l.s[2]++;
-      return this.quarterPeriod["month_".concat(this.monthlyReviewLock, "_name")];
-    },
-    monthlyReviewLock: {
-      get: function get() {
-        cov_2cuodvot0l.f[0]++;
-        cov_2cuodvot0l.s[3]++;
-        return this.value;
-      },
-      set: function set(val) {
-        cov_2cuodvot0l.f[1]++;
-        cov_2cuodvot0l.s[4]++;
-        this.$emit('input', val);
-      }
-    }
-  },
-  props: {
-    /**
-     * String Value
-     * Business:
-     * Just string value store monthly_lock_review
-     */
-    value: {
-      type: String,
-      default: function _default() {
-        cov_2cuodvot0l.f[2]++;
-        cov_2cuodvot0l.s[5]++;
-        return "allow_all";
-      }
-    },
-
-    /*
-    * isAdmin boolean
-    * Business: provide boolean value to describe if current dropdown is triggered by admin or not
-    * */
-    isAdmin: {
-      type: Boolean,
-      default: function _default() {
-        cov_2cuodvot0l.f[3]++;
-        cov_2cuodvot0l.s[6]++;
-        return false;
-      }
-    },
-
-    /*
-    * quarterPeriod object
-    * Business: provide quarter period object
-    * */
-    quarterPeriod: {
-      type: Object,
-      default: function _default() {
-        cov_2cuodvot0l.f[4]++;
-        cov_2cuodvot0l.s[7]++;
-        return {};
-      }
-    }
-  }
-});
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_month_lock_controllervue_type_script_lang_js_ = (month_lock_controllervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue?vue&type=style&index=0&id=e1196634&scoped=true&lang=css&
-var month_lock_controllervue_type_style_index_0_id_e1196634_scoped_true_lang_css_ = __webpack_require__("97ab");
-
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/month_lock_controller.vue
-
-
-
-
-
-
-/* normalize component */
-
-var month_lock_controller_component = Object(componentNormalizer["a" /* default */])(
-  components_month_lock_controllervue_type_script_lang_js_,
-  month_lock_controllervue_type_template_id_e1196634_scoped_true_render,
-  month_lock_controllervue_type_template_id_e1196634_scoped_true_staticRenderFns,
-  false,
-  null,
-  "e1196634",
-  null
-  
-)
-
-month_lock_controller_component.options.__file = "month_lock_controller.vue"
-/* harmony default export */ var month_lock_controller = (month_lock_controller_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue?vue&type=template&id=54e7a6cd&scoped=true&
-var vision_mission_modalvue_type_template_id_54e7a6cd_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('modal',{attrs:{"pivotY":0.2,"width":900,"minHeight":500,"height":"auto","name":"visionMissionModalName"}},[_c('div',{staticClass:"modal-header padding-bottom-10"},[_c('button',{staticClass:"modal-header__btn-close",on:{"click":function($event){_vm.$modal.hide('visionMissionModalName')}}},[_c('span',[_vm._v("×")])]),_c('span',{staticClass:"modal-header__title"},[_vm._v(_vm._s(_vm._f("translate")("Company Vision & Mission")))])]),_c('div',{staticClass:"modal-body"},[(_vm.map.id !== undefined)?_c('div',{staticClass:"company-vision row"},[_c('div',{staticClass:"company-vision__brand"},[_c('img',{staticClass:"company-vision__brand__logo",attrs:{"alt":_vm.organizationObject.name,"src":_vm.organizationObject.get_logo,"title":_vm.organizationObject.name}}),_c('div',{staticClass:"company-vision__brand__name mg-t-20"},[_vm._v(_vm._s(_vm.organizationObject.name))])]),_c('div',{staticClass:"beautiful-scrollbar company-vision__description mg-l-30"},[_c('div',[_c('span',{domProps:{"innerHTML":_vm._s(_vm.map.name)}})]),_c('div',{staticClass:"mg-t-20"},[_c('span',{domProps:{"innerHTML":_vm._s(_vm.map.description)}})])])]):_c('div',{staticClass:"company-vision row"},[_vm._v(_vm._s(_vm._f("translate")("Information's updating ......")))])]),_c('div',{staticClass:"modal-footer"},[_c('button',{staticClass:"btn btn-normal",attrs:{"type":"button"},on:{"click":function($event){_vm.$modal.hide('visionMissionModalName')}}},[_vm._v(_vm._s(_vm._f("translate")("Close")))])])])}
-var vision_mission_modalvue_type_template_id_54e7a6cd_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue?vue&type=template&id=54e7a6cd&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue?vue&type=script&lang=js&
-var cov_2lmn32xvh8 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue",
-      hash = "9a71d61ea65c984be5ef91f3a895925cf0e4dee9",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 39,
-          column: 29
-        },
-        end: {
-          line: 39,
-          column: 38
-        }
-      },
-      "1": {
-        start: {
-          line: 43,
-          column: 29
-        },
-        end: {
-          line: 43,
-          column: 38
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 39,
-            column: 21
-          },
-          end: {
-            line: 39,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 39,
-            column: 27
-          },
-          end: {
-            line: 39,
-            column: 40
-          }
-        },
-        line: 39
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 43,
-            column: 21
-          },
-          end: {
-            line: 43,
-            column: 22
-          }
-        },
-        loc: {
-          start: {
-            line: 43,
-            column: 27
-          },
-          end: {
-            line: 43,
-            column: 40
-          }
-        },
-        line: 43
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var vision_mission_modalvue_type_script_lang_js_ = ({
-  props: {
-    map: {
-      default: function _default() {
-        cov_2lmn32xvh8.f[0]++;
-        cov_2lmn32xvh8.s[0]++;
-        return {};
-      },
-      type: Object
-    },
-    organizationObject: {
-      default: function _default() {
-        cov_2lmn32xvh8.f[1]++;
-        cov_2lmn32xvh8.s[1]++;
-        return {};
-      },
-      type: Object
-    }
-  }
-});
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_vision_mission_modalvue_type_script_lang_js_ = (vision_mission_modalvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue?vue&type=style&index=0&id=54e7a6cd&scoped=true&lang=scss&
-var vision_mission_modalvue_type_style_index_0_id_54e7a6cd_scoped_true_lang_scss_ = __webpack_require__("29d3");
-
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/components/vision_mission_modal.vue
-
-
-
-
-
-
-/* normalize component */
-
-var vision_mission_modal_component = Object(componentNormalizer["a" /* default */])(
-  components_vision_mission_modalvue_type_script_lang_js_,
-  vision_mission_modalvue_type_template_id_54e7a6cd_scoped_true_render,
-  vision_mission_modalvue_type_template_id_54e7a6cd_scoped_true_staticRenderFns,
-  false,
-  null,
-  "54e7a6cd",
-  null
-  
-)
-
-vision_mission_modal_component.options.__file = "vision_mission_modal.vue"
-/* harmony default export */ var vision_mission_modal = (vision_mission_modal_component.exports);
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.regexp.replace.js
-var es6_regexp_replace = __webpack_require__("a481");
-
-// CONCATENATED MODULE: ./src/sdk/utils/url.js
-var cov_104p2udqi3 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/url.js",
-      hash = "f95f975c58c14e768870e517dc65bc4d00bb3778",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/utils/url.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 3,
-          column: 15
-        },
-        end: {
-          line: 3,
-          column: 17
-        }
-      },
-      "1": {
-        start: {
-          line: 4,
-          column: 16
-        },
-        end: {
-          line: 6,
-          column: 6
-        }
-      },
-      "2": {
-        start: {
-          line: 5,
-          column: 8
-        },
-        end: {
-          line: 5,
-          column: 26
-        }
-      },
-      "3": {
-        start: {
-          line: 7,
-          column: 4
-        },
-        end: {
-          line: 7,
-          column: 16
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "getUrlVars",
-        decl: {
-          start: {
-            line: 2,
-            column: 9
-          },
-          end: {
-            line: 2,
-            column: 19
-          }
-        },
-        loc: {
-          start: {
-            line: 2,
-            column: 22
-          },
-          end: {
-            line: 8,
-            column: 1
-          }
-        },
-        line: 2
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 4,
-            column: 72
-          },
-          end: {
-            line: 4,
-            column: 73
-          }
-        },
-        loc: {
-          start: {
-            line: 4,
-            column: 97
-          },
-          end: {
-            line: 6,
-            column: 5
-          }
-        },
-        line: 4
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-function getUrlVars() {
-  cov_104p2udqi3.f[0]++;
-  var vars = (cov_104p2udqi3.s[0]++, {});
-  var parts = (cov_104p2udqi3.s[1]++, window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
-    cov_104p2udqi3.f[1]++;
-    cov_104p2udqi3.s[2]++;
-    vars[key] = value;
-  }));
-  cov_104p2udqi3.s[3]++;
-  return vars;
-}
-
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=script&lang=js&
-var cov_lcbqrmx2p = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/main.vue",
-      hash = "04af3e212bf705c34f2f7f94ec15e2d23157ffa8",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/templates/components/kpi_editor/block_informations/company_performance/main.vue",
-    statementMap: {
-      "0": {
-        start: {
-          line: 22,
-          column: 18
-        },
-        end: {
-          line: 22,
-          column: 44
-        }
-      },
-      "1": {
-        start: {
-          line: 33,
-          column: 18
-        },
-        end: {
-          line: 33,
-          column: 49
-        }
-      },
-      "2": {
-        start: {
-          line: 44,
-          column: 19
-        },
-        end: {
-          line: 44,
-          column: 23
-        }
-      },
-      "3": {
-        start: {
-          line: 45,
-          column: 8
-        },
-        end: {
-          line: 48,
-          column: 10
-        }
-      },
-      "4": {
-        start: {
-          line: 46,
-          column: 29
-        },
-        end: {
-          line: 46,
-          column: 55
-        }
-      },
-      "5": {
-        start: {
-          line: 47,
-          column: 12
-        },
-        end: {
-          line: 47,
-          column: 48
-        }
-      },
-      "6": {
-        start: {
-          line: 53,
-          column: 16
-        },
-        end: {
-          line: 53,
-          column: 60
-        }
-      },
-      "7": {
-        start: {
-          line: 56,
-          column: 16
-        },
-        end: {
-          line: 56,
-          column: 43
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 43,
-            column: 13
-          },
-          end: {
-            line: 43,
-            column: 14
-          }
-        },
-        loc: {
-          start: {
-            line: 43,
-            column: 23
-          },
-          end: {
-            line: 49,
-            column: 5
-          }
-        },
-        line: 43
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 45,
-            column: 47
-          },
-          end: {
-            line: 45,
-            column: 48
-          }
-        },
-        loc: {
-          start: {
-            line: 45,
-            column: 53
-          },
-          end: {
-            line: 48,
-            column: 9
-          }
-        },
-        line: 45
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0
-    },
-    f: {
-      "0": 0,
-      "1": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// https://medium.com/3yourmind/large-scale-vuex-application-structures-651e44863e2f
-// https://github.com/igeligel/vuex-feature-scoped-structure
-// https://github.com/igeligel/vuex-namespaced-module-structure
-// https://morningstar.engineering/managing-your-vue-js-applications-state-with-vuex-part-2-5e5c3a0cd507
-var mainvue_type_script_lang_js_STORE_KEY = (cov_lcbqrmx2p.s[0]++, "$companyBlockPerformance");
-
-
-
-
-
-
-
-
-
-
-var mainvue_type_script_lang_js_initMixin = (cov_lcbqrmx2p.s[1]++, buildInitMixin(mainvue_type_script_lang_js_STORE_KEY, company_performance_store));
-/* harmony default export */ var company_performance_mainvue_type_script_lang_js_ = ({
-  mixins: [mainvue_type_script_lang_js_initMixin],
-  components: {
-    PerformanceTable: performance_table,
-    MonthLockController: month_lock_controller,
-    VisionMission: vision_mission,
-    VisionMissionModal: vision_mission_modal
-  },
-  mounted: function mounted() {
-    cov_lcbqrmx2p.f[0]++;
-    var self = (cov_lcbqrmx2p.s[2]++, this);
-    cov_lcbqrmx2p.s[3]++;
-    this.$initializeDataStoreGlobal().then(function () {
-      cov_lcbqrmx2p.f[1]++;
-      // private method
-      var quarter_id = (cov_lcbqrmx2p.s[4]++, getUrlVars()['quarter_id']);
-      cov_lcbqrmx2p.s[5]++;
-      self.initializeDataStore(quarter_id);
-    });
-  },
-  computed: _objectSpread({
-    organizationMontlyReviewLock: {
-      get: function get() {
-        cov_lcbqrmx2p.s[6]++;
-        return this.organization.monthly_review_lock;
-      },
-      set: function set(val) {
-        cov_lcbqrmx2p.s[7]++;
-        this.updateMonthlyLock(val);
-      }
-    }
-  }, mapGetters(['userActor', 'organization']), mapGetters(mainvue_type_script_lang_js_STORE_KEY, {
-    quarterPeriod: "".concat(quarterPeriodGetter),
-    companyPerformance: "".concat(companyPerformanceGetter),
-    strategyMap: "".concat(strategyMapGetter)
-  })),
-  methods: _objectSpread({}, mapActions(mainvue_type_script_lang_js_STORE_KEY, {
-    initializeDataStore: "".concat(actions_initializeDataStore),
-    updateMonthlyLock: "".concat(updateMonthlyLock)
-  }))
-});
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=script&lang=js&
- /* harmony default export */ var block_informations_company_performance_mainvue_type_script_lang_js_ = (company_performance_mainvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue?vue&type=style&index=0&id=99e0d0a0&scoped=true&lang=css&
-var mainvue_type_style_index_0_id_99e0d0a0_scoped_true_lang_css_ = __webpack_require__("7218");
-
-// CONCATENATED MODULE: ./src/templates/components/kpi_editor/block_informations/company_performance/main.vue
-
-
-
-
-
-
-/* normalize component */
-
-var company_performance_main_component = Object(componentNormalizer["a" /* default */])(
-  block_informations_company_performance_mainvue_type_script_lang_js_,
-  mainvue_type_template_id_99e0d0a0_scoped_true_render,
-  mainvue_type_template_id_99e0d0a0_scoped_true_staticRenderFns,
-  false,
-  null,
-  "99e0d0a0",
-  null
-  
-)
-
-company_performance_main_component.options.__file = "main.vue"
-/* harmony default export */ var company_performance_main = (company_performance_main_component.exports);
-// CONCATENATED MODULE: ./src/registry/core/registry_components.js
-var cov_1zpjxenozd = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_components.js",
-      hash = "56606423e51e7e6f423363165bbce058d6d08069",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/registry_components.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 19,
-          column: 19
-        },
-        end: {
-          line: 22,
-          column: 1
-        }
-      },
-      "1": {
-        start: {
-          line: 26,
-          column: 0
-        },
-        end: {
-          line: 28,
-          column: 2
-        }
-      },
-      "2": {
-        start: {
-          line: 27,
-          column: 4
-        },
-        end: {
-          line: 27,
-          column: 40
-        }
-      }
-    },
-    fnMap: {
-      "0": {
-        name: "(anonymous_0)",
-        decl: {
-          start: {
-            line: 26,
-            column: 32
-          },
-          end: {
-            line: 26,
-            column: 33
-          }
-        },
-        loc: {
-          start: {
-            line: 26,
-            column: 40
-          },
-          end: {
-            line: 28,
-            column: 1
-          }
-        },
-        line: 26
-      }
-    },
-    branchMap: {},
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0
-    },
-    f: {
-      "0": 0
-    },
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-
-
-
-
-
-/* eslint-disable */
-
-
-
-/**
- * Static
- */
-
-/*
-* Only expose application component to library, minor components won't expose here. It's the main component "main.vue"
-* For examples:
-* - kpi-row
-* - weight-edit-modal
-* - import-kpis-modal
-*
-* */
-
-var Components = (cov_1zpjxenozd.s[0]++, {
-  CompanyPerformance: company_performance_main,
-  CloudjetNoti: main
-  /* Automatic register component */
-
-});
-cov_1zpjxenozd.s[1]++;
-Object.keys(Components).forEach(function (name) {
-  cov_1zpjxenozd.f[0]++;
-  cov_1zpjxenozd.s[2]++;
-  external_commonjs_vue_commonjs2_vue_root_Vue_default.a.component(name, Components[name]);
-});
-/* harmony default export */ var registry_components = (Components);
-// CONCATENATED MODULE: ./src/registry/core/index.js
-var cov_1l72odrufk = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/index.js",
-      hash = "7f19b059871fc96725f34c08783b9e558ad6b1ec",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/core/index.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 15,
-          column: 10
-        },
-        end: {
-          line: 15,
-          column: 33
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-/* eslint-disable */
-
-/* registry should be at the top */
-
-
-
-
-
-/* component import should be this place */
-
-
-/* helper should be imported at the bottom */
-
-/* just a line to trigger coverage this file */
-
-var a = (cov_1l72odrufk.s[0]++, 'trigger test coverage');
-// CONCATENATED MODULE: ./src/registry/devtool/index.js
-var cov_1f6fetho4j = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/devtool/index.js",
-      hash = "4f82b2ceeebb4888282b137292be33684340d9ef",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/devtool/index.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 4,
-          column: 12
-        },
-        end: {
-          line: 4,
-          column: 41
-        }
-      },
-      "1": {
-        start: {
-          line: 6,
-          column: 0
-        },
-        end: {
-          line: 13,
-          column: 1
-        }
-      },
-      "2": {
-        start: {
-          line: 11,
-          column: 2
-        },
-        end: {
-          line: 11,
-          column: 29
-        }
-      },
-      "3": {
-        start: {
-          line: 12,
-          column: 2
-        },
-        end: {
-          line: 12,
-          column: 60
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {
-      "0": {
-        loc: {
-          start: {
-            line: 4,
-            column: 12
-          },
-          end: {
-            line: 4,
-            column: 41
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 4,
-            column: 12
-          },
-          end: {
-            line: 4,
-            column: 32
-          }
-        }, {
-          start: {
-            line: 4,
-            column: 36
-          },
-          end: {
-            line: 4,
-            column: 41
-          }
-        }],
-        line: 4
-      },
-      "1": {
-        loc: {
-          start: {
-            line: 6,
-            column: 0
-          },
-          end: {
-            line: 13,
-            column: 1
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 6,
-            column: 0
-          },
-          end: {
-            line: 13,
-            column: 1
-          }
-        }, {
-          start: {
-            line: 6,
-            column: 0
-          },
-          end: {
-            line: 13,
-            column: 1
-          }
-        }],
-        line: 6
-      }
-    },
-    s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0
-    },
-    f: {},
-    b: {
-      "0": [0, 0],
-      "1": [0, 0]
-    },
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-/* eslint-disable */
-
-/* just a line to trigger coverage this file */
-
-var env = (cov_1f6fetho4j.s[0]++, (cov_1f6fetho4j.b[0][0]++, "production") || (cov_1f6fetho4j.b[0][1]++, 'dev'));
-cov_1f6fetho4j.s[1]++;
-
-if (env === 'dev') {
-  cov_1f6fetho4j.b[1][0]++;
-  cov_1f6fetho4j.s[2]++;
-
-  /**
-   * Vue dev tool
-   * Debug Vue.js component
-   */
-  external_commonjs_vue_commonjs2_vue_root_Vue_default.a.config.devtools = true;
-  cov_1f6fetho4j.s[3]++;
-  window.__VUE_DEVTOOLS_GLOBAL_HOOK__.Vue = app.constructor;
-} else {
-  cov_1f6fetho4j.b[1][1]++;
-}
-// CONCATENATED MODULE: ./src/registry/index.js
-var cov_14to4xmsoc = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/index.js",
-      hash = "7242897c9db62ce9cfa49509b238187a03d5f68b",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/index.js",
-    statementMap: {},
-    fnMap: {},
-    branchMap: {},
-    s: {},
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-/* eslint-disable */
-
-/* import core */
-
-/* import config for devtool */
-
-
-// CONCATENATED MODULE: ./src/main.js
-var cov_j1djl4034 = function () {
-  var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/main.js",
-      hash = "5ef77b7f5e1f17dd011dda5f2826f6e15a2295ad",
-      Function = function () {}.constructor,
-      global = new Function('return this')(),
-      gcv = "__coverage__",
-      coverageData = {
-    path: "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/main.js",
-    statementMap: {
-      "0": {
-        start: {
-          line: 11,
-          column: 10
-        },
-        end: {
-          line: 11,
-          column: 33
-        }
-      }
-    },
-    fnMap: {},
-    branchMap: {},
-    s: {
-      "0": 0
-    },
-    f: {},
-    b: {},
-    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
-  },
-      coverage = global[gcv] || (global[gcv] = {});
-
-  if (coverage[path] && coverage[path].hash === hash) {
-    return coverage[path];
-  }
-
-  coverageData.hash = hash;
-  return coverage[path] = coverageData;
-}();
-
-/* eslint-disable */
-
-/* import scss */
-
-/* registry import should be at the bottom */
-
-
-/* dev tool: not work because import Vue2 too soon config being overwrite by vue1 */
-
-
-var main_a = (cov_j1djl4034.s[0]++, 'trigger test coverage');
-// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib-no-default.js
-
-
-
-
-/***/ }),
-
-/***/ "fce9":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"25fb3a4f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=template&id=443c50fc&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notification-item",on:{"click":_vm.redirectToNotification}},[_c('img',{staticClass:"notification-item__image",attrs:{"src":_vm.notificationData.actor_avatar}}),_c('div',{staticClass:"notification-item__data-wrapper"},[_c('div',{staticClass:"notification-item__data"},[(_vm.notificationData.type_notification==='change_log')?_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm._f("translate")("Cloudjet KPI updated new version"))+": ")]),_c('span',{staticClass:"notification-item__version"},[_vm._v(_vm._s(_vm._f("translate")("Version"))+" "+_vm._s(_vm.notificationData.version)+" ")]),_c('span',{staticClass:"notification-item__release-date"},[_vm._v(_vm._s(_vm._f("translate")("updated"))+" "+_vm._s(_vm.notificationData.release_date)+" ")])]):_c('div',[_c('b',{staticClass:"notification-item__display-name"},[_vm._v(_vm._s(_vm.notificationData.actor_name)+": ")]),_c('span',{staticClass:"notification-item__content-action",domProps:{"innerHTML":_vm._s(_vm.ellipisDescription)}})])]),_c('div',{staticClass:"notification-item__diffTime"},[_vm._v(_vm._s(_vm.diffTimeToString))])])])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=template&id=443c50fc&scoped=true&
-
-// EXTERNAL MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=script&lang=js&
-var notification_itemvue_type_script_lang_js_ = __webpack_require__("c850");
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=script&lang=js&
- /* harmony default export */ var notification_item_notification_itemvue_type_script_lang_js_ = (notification_itemvue_type_script_lang_js_["a" /* default */]); 
-// EXTERNAL MODULE: ./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue?vue&type=style&index=0&id=443c50fc&scoped=true&lang=scss&
-var notification_itemvue_type_style_index_0_id_443c50fc_scoped_true_lang_scss_ = __webpack_require__("73d0");
-
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__("2877");
-
-// CONCATENATED MODULE: ./src/templates/components/cloudjet_noti/components/notification_item/notification_item.vue
-
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  notification_item_notification_itemvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  "443c50fc",
-  null
-  
-)
-
-component.options.__file = "notification_item.vue"
-/* harmony default export */ var notification_item = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "fdef":
-/***/ (function(module, exports) {
-
-module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u2003' +
-  '\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000\u2028\u2029\uFEFF';
-
+exports.default = _default;
 
 /***/ })
 
