@@ -59012,7 +59012,7 @@ __webpack_require__("6718")('observable');
 
 var cov_1f6fetho4j = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/registry/devtool/index.js",
-      hash = "4f82b2ceeebb4888282b137292be33684340d9ef",
+      hash = "ce98f356affa67e62b933a1e9a6f300ee4ca395b",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -59035,7 +59035,7 @@ var cov_1f6fetho4j = function () {
           column: 0
         },
         end: {
-          line: 13,
+          line: 14,
           column: 1
         }
       },
@@ -59056,6 +59056,16 @@ var cov_1f6fetho4j = function () {
         },
         end: {
           line: 12,
+          column: 26
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 2
+        },
+        end: {
+          line: 13,
           column: 60
         }
       }
@@ -59102,7 +59112,7 @@ var cov_1f6fetho4j = function () {
             column: 0
           },
           end: {
-            line: 13,
+            line: 14,
             column: 1
           }
         },
@@ -59113,7 +59123,7 @@ var cov_1f6fetho4j = function () {
             column: 0
           },
           end: {
-            line: 13,
+            line: 14,
             column: 1
           }
         }, {
@@ -59122,7 +59132,7 @@ var cov_1f6fetho4j = function () {
             column: 0
           },
           end: {
-            line: 13,
+            line: 14,
             column: 1
           }
         }],
@@ -59133,7 +59143,8 @@ var cov_1f6fetho4j = function () {
       "0": 0,
       "1": 0,
       "2": 0,
-      "3": 0
+      "3": 0,
+      "4": 0
     },
     f: {},
     b: {
@@ -59170,6 +59181,8 @@ if (env === 'dev') {
    */
   _vue.default.config.devtools = true;
   cov_1f6fetho4j.s[3]++;
+  _vue.default.config.debug = true;
+  cov_1f6fetho4j.s[4]++;
   window.__VUE_DEVTOOLS_GLOBAL_HOOK__.Vue = app.constructor;
 } else {
   cov_1f6fetho4j.b[1][1]++;
@@ -63451,7 +63464,7 @@ module.exports = !$assign || __webpack_require__("294c")(function () {
 
 var cov_2pts1o0vth = function () {
   var path = "/home/khangtd/workspace/cabin/cloudjet/cloudjet_ui/src/sdk/network/user/profile/config.js",
-      hash = "e6b007611e640c43acf879cf2fa12294ae61cd46",
+      hash = "95b7f86bec269746b3f4a2157d370056b3eeec9c",
       Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = "__coverage__",
@@ -63467,23 +63480,12 @@ var cov_2pts1o0vth = function () {
           line: 3,
           column: 1
         }
-      },
-      "1": {
-        start: {
-          line: 4,
-          column: 29
-        },
-        end: {
-          line: 6,
-          column: 1
-        }
       }
     },
     fnMap: {},
     branchMap: {},
     s: {
-      "0": 0,
-      "1": 0
+      "0": 0
     },
     f: {},
     b: {},
@@ -63502,14 +63504,12 @@ var cov_2pts1o0vth = function () {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = exports.mockedProfile = void 0;
+exports.default = void 0;
 
 var _module = (cov_2pts1o0vth.s[0]++, {
   path: "/api/profile"
 });
 
-var mockedProfile = (cov_2pts1o0vth.s[1]++, {});
-exports.mockedProfile = mockedProfile;
 var _default = _module;
 exports.default = _default;
 
